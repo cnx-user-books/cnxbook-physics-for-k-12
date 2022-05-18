@@ -1,0 +1,1722 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Theorems on moment of inertia (Application)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14366</md:content-id>
+  <md:title>Theorems on moment of inertia (Application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>fb2a20bb-1e1a-4acb-adfc-ecb3229d207c</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the theoretical treatment of the topic. The idea is to provide a verbose explanation of the solution, detailing the application of theory. Solution presented here, therefore, is treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation.
+</para>
+<section id="section-1">
+<title> Representative problems and their solutions </title>
+
+<para id="element-2">
+We discuss problems, which highlight certain aspects of the application of theorem on moment of inertia. For this reason, questions are categorized in terms of the characterizing features pertaining to the questions :
+</para>
+<para id="element-3">
+<list id="list-2" list-type="bulleted">
+<item> Theorems on moment of inertia  </item>
+<item> Nature of MI  </item>
+<item> Part of a rigid body </item>
+<item> Geometric shapes formed from wire
+ </item>
+</list>
+</para>
+<section id="section-1a">
+<title> Theorems on moment of inertia  </title>
+
+<para id="element-4"><term>Example 1 </term> </para>
+<para id="element-5"><term>Problem : </term> A uniform circular disk of radius "R" lies in "xy" - plane such that its center is at the origin of coordinate system as shown in the figure. Its MI about the axis defined as x = R and y = 0 is equal to its MI about axis defined as y = d and z = 0. Then, find “d”.
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> MI of uniform circular disk </title>
+<media id="id1166284372091" alt=""><image src="../../media/tmi1.gif" mime-type="image/gif"/></media>
+<caption> The circular disk lies in “xy” - plane.</caption>
+</figure>
+</para>
+<para id="element-7"> <term>Solution : </term> First, we need to visualize the two axes as defined. Then, we find disk's MI about them. Finally, we equate the MIs as given in the question to find "d".
+</para>
+
+<para id="element-8">
+The coordinates x = R and y = 0 define the axis in "xz" - plane as "y" coordinate is zero. Further, the axis intersects x-axis at x = R = a constant. This axis (z'), therefore, is parallel to z-axis as shown in the figure.
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> MI of uniform circular disk </title>
+<media id="id1166284372144" alt=""><image src="../../media/tmi2.gif" mime-type="image/gif"/></media>
+<caption> The location of first axis is on x-axis.</caption>
+</figure>
+</para>
+<para id="element-10">Note that z axis passes through center of mass. Thus by applying theorem of parallel axes, the MI of the disk about z' by the theorem of parallel axes is :
+</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">
+The coordinates y = d and z = 0 define the axis in "xy" - plane as "z" coordinate is zero. Further, this axis intersects y-axis at y = d = a constant. This axis (x'), therefore, is parallel to x-axis as shown in the figure.
+</para>
+<para id="element-15">
+<figure id="fig-15"><title> MI of uniform circular disk </title>
+<media id="id1166285345203" alt=""><image src="../../media/tmi3a.gif" mime-type="image/gif"/></media>
+<caption> The location of second axis is on y-axis.</caption>
+</figure>
+</para>
+<para id="element-16">
+The MI of the disk about x' by the theorem of parallel axes :
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+According to the question,
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z’ </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> d </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-24"><term>Example 2 </term> </para>
+<para id="element-25"><term>Problem : </term> Two identical uniform rods, each of mass "M" and length "L", are joined together to form a cross. Find the MI of the cross about the angle bisector "AA'" as shown in the figure.
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> MI of a cross </title>
+<media id="id1166284382463" alt=""><image src="../../media/tmi5.gif" mime-type="image/gif"/></media>
+<caption> The MI of a cross of two rods at right angle.
+</caption>
+</figure>
+</para>
+<para id="element-27"> <term>Solution : </term> MI of each of the rod about perpendicular axis, which passes through COM (O) is :
+</para>
+
+
+
+<para id="element-24a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> rod </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25b">
+The MI of two rods joined together as a cross about perpendicular axis through the common point is :
+</para>
+<para id="element-26c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> cross </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> rod </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6</m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27d">The cross can be treated as a planar object. As such, we can apply theorem of perpendicular axes to find MI about the bisector of the right angle. We consider another axis BB' perpendicular to AA' in the plane of cross. Then, according to theorem of perpendicular axes, 
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> MI of a cross about angle bisector </title>
+<media id="id1166284382712" alt=""><image src="../../media/tmi4.gif" mime-type="image/gif"/></media>
+<caption> The MI of a cross of two rods at right angle.
+</caption>
+</figure>
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> cross </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> BB’ </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-30">
+The MIs about the two bisectors are equal by the symmetry of the cross about them. Hence,
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> BB’ </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+Thus,
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> cross </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> BB’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> cross </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-1b">
+<title> Nature of MI 
+</title>
+<para id="element-35"><term>Example 3 </term> </para>
+<para id="element-35a"><term>Problem : </term> The MI of a solid sphere is calculated about an axis parallel to one of its diameter, at a distance "x" from the origin. The values are plotted against distance. Which of the four plots, as shown below,  correctly describes the variation of MI with respect to "x" for the solid sphere. 
+</para>
+<para id="element-35b">
+<figure id="fig-35b">
+<title> Plots of MI .vs. distance </title>
+<media id="id1166284383115" alt=""><image src="../../media/tmi6.gif" mime-type="image/gif"/></media>
+<caption> The MI of a sphere about an axis parallel to central axis.
+</caption>
+</figure>
+</para>
+<para id="element-35c"><term>Solution : </term> It is evident that farther the axis from the origin, greater is MI about that axis. We can, thus, conclude that the plot between MI and the distance should be increasing one with increasing distance ("x"). Thus, options (a) and (d) are incorrect. Now, the MI of solid sphere about an axis parallel to one of diameters, at a distance "x" from the origin is given as :
+</para>
+
+<para id="element-36">
+<figure id="fig-36">
+<title> Plots of MI .vs. distance </title>
+<media id="id1166284383179" alt=""><image src="../../media/tmi7.gif" mime-type="image/gif"/></media>
+<caption> The MI of a sphere about an axis parallel to central axis.
+</caption>
+</figure>
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+where 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+</m:math>
+ is MI about one of the diameters and is a constant for the given solid sphere. Thus, the equation above takes the form of the equation of parabola,
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mi> c </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">The correct plot, therefore, is an increasing parabola as shown in Figure (c).
+</para>
+
+</section>
+
+<section id="section-1c">
+<title> Part of a rigid body
+</title>
+<para id="element-41"><term>Example 4 </term> </para>
+<para id="element-41a"><term>Problem : </term> Four holes of radius "L/4" are made in a thin square plate of mass "M" and side "L" in "xy" - plane, as shown in the figure. Find its MI about z – axis.
+</para>
+<para id="element-41b">
+<figure id="fig-41b">
+<title> MI of remaining body </title>
+<media id="id1166284383422" alt=""><image src="../../media/tmi8.gif" mime-type="image/gif"/></media>
+<caption> Four holes of radius "L/4" are made in a thin square plate of mass "M" and side "L".
+</caption>
+</figure>
+</para>
+<para id="element-41c"><term>Solution : </term> MI is a scalar quantity. It means that MI has no directional attribute. Thus, we can conclude that MI of the complete plate is equal to the sum of MIs of remaining plate and that of the four circular disks taken out from the plate about z-axis. Hence, MI of remaining plate is obtained as :
+</para>
+
+<para id="element-42"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> I (MI of remaining plate)  </m:mtext>
+<m:mspace width="2pt"/>
+<m:mo> = </m:mo> 
+<m:mspace width="2pt"/>
+<m:mtext> Iz (MI of complete plate)  </m:mtext>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/> 
+<m:mtext> Icz (MI of circular disks) </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+Now, according to theorem of perpendicular axes, the MI of complete square about z-axis is two times its MI about x-axis :
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6</m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">Further, according to theorem of parallel axes, the MI of circular disk of mass “m” and radius “L/4” about the same z-axis is :
+</para>
+<para id="element-46">
+<figure id="fig-46">
+<title> MI of remaining body </title>
+<media id="id1166284383674" alt=""><image src="../../media/tmi9.gif" mime-type="image/gif"/></media>
+<caption> Four holes of radius "L/4" are made in a thin square plate of mass "M" and side "L".
+</caption>
+</figure> 
+</para>
+<para id="element-47"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> cz </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> cz </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+The mass of the disk "m" is given by multiplying areal density with the area of the circular disk,
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mi> π </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">
+Substituting for "m", we have :
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> cz </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 16 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 16 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+Thus, the required MI is :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 16 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 16 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 16 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 16 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 6 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 16 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 16 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 32 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> 192 </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</section>
+
+<section id="section-1d">
+<title> Geometric shapes formed from wire
+</title>
+<para id="element-56"><term>Example 5 </term> </para>
+<para id="element-56a"><term>Problem : </term> A thin wire of length "L" and uniform linear mass density "λ" is bent into a circular loop. Find the MI of the loop about an axis AA' as shown in the figure.
+</para>
+<para id="element-56b">
+<figure id="fig-56b">
+<title> MI of a circular loop </title>
+<media id="id1166284384534" alt=""><image src="../../media/tmi10.gif" mime-type="image/gif"/></media>
+<caption> MI of a circular loop about a tangent.
+</caption>
+</figure>
+</para>
+<para id="element-56c"> <term>Solution : </term> The MI of the circular loop about a tangential axis AA' is found out by the theorem of parallel axis :
+</para>
+<para id="element-57">
+<figure id="fig-57">
+<title> MI of a circular loop </title>
+<media id="id1166284384597" alt=""><image src="../../media/tmi11.gif" mime-type="image/gif"/></media>
+<caption> MI of a circular loop about a tangent.
+</caption>
+</figure>
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> XX’ </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+where IXX'  is the MI about an axis which is one of the diameters of the ring and is parallel to tangential axis AA'. Now, MI about the diameter can be calculated applying theorem of perpendicular axes :
+</para>
+<para id="element-60"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> XX’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">where 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+</m:math>
+is MI about an axis perpendicular to the surface of loop and passing through center of mass (ZZ' axis). It is given by the expression :
+</para>
+<para id="element-62">
+<figure id="fig-62">
+<title> MI of a circular loop </title>
+<media id="id1166284384807" alt=""><image src="../../media/tmi12.gif" mime-type="image/gif"/></media>
+<caption> MI of a circular loop about its perpendicular central axis.
+</caption>
+</figure>
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+Combining two equations, we have :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> XX’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">Putting this in the expression of 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA' </m:mi>
+</m:msub>
+</m:math>
+, we have :
+</para>
+<para id="element-67"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+Now, we are required to find mass and radius from the given data. Here,
+</para>
+<para id="element-69">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> M </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> λ </m:mi>
+<m:mi> L </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">
+Since the wire is bent into a circle, the perimeter of the circle is equal to the length of the wire. Hence,
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> L </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+Putting these values in the expression of MI about AA' axis is :
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> λ </m:mi>
+<m:mi> L </m:mi>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> λ </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:msup>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-74"><term>Example 6 </term> </para>
+<para id="element-74a"><term>Problem : </term> A uniform wire of mass "M" and length "L" is bent into a regular hexagonal loop. Find its MI about an axis passing through center of mass and perpendicular to its surface.
+</para>
+<para id="element-74c"> <term>Solution : </term> We find MI of hexagonal loop in following three steps :
+</para>
+
+<para id="element-74d">
+<list id="list-74d" list-type="enumerated">
+<item> Treat each side as a wire of mass M/6 and length L/6 and find its MI about perpendicular axis through center of mass of the side.
+ </item>
+<item> Apply theorem of parallel axes to find MI of the side about perpendicular axis through center of mass of the loop.
+ </item>
+<item> Add MIs of individual sides to find the MI of the loop about perpendicular axis through center of mass.
+ </item>
+</list>
+</para>
+<para id="element-75">
+The MI of the side about perpendicular axis through center of mass of the side is :
+</para>
+<para id="element-76">
+<figure id="fig-76">
+<title> MI of a regular hexagonal loop </title>
+<media id="id1166284385548" alt=""><image src="../../media/tmi14.gif" mime-type="image/gif"/></media>
+<caption> MI of a regular hexagonal loop is sum of MIs of its sides.
+</caption>
+</figure>
+</para>
+<para id="element-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 6 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">By the geometry of a side with respect to center, the traingle OPQ is a right angle triangle. We have perpendicular distance "R" between axes AA' and ZZ' as :
+</para>
+<para id="element-79">
+<figure id="fig-79">
+<title> MI of a side of regular hexagonal loop </title>
+<media id="id1166284385740" alt=""><image src="../../media/tmi15.gif" mime-type="image/gif"/></media>
+<caption> MI of a regular hexagonal loop is sum of MIs of its sides.
+</caption>
+</figure>
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mn> 60 </m:mn>
+<m:mi> ° </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mrow>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mi> L </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+Applying theorem of parallel axes, the MI about perpendicular axis through center of mass of the loop is :
+</para>
+<para id="element-83"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> zz’ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> AA’ </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 6 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 6 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn> 12 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> x </m:mo> 
+<m:mn> 6 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 6 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 10 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 6 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85">
+Now, adding MIs of each side, the required MI about perpendicular axis through center of mass of the loop is :
+</para>
+<para id="element-86"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 6 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 6 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 216 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+</section>
+ 
+  </content>
+  
+</document>

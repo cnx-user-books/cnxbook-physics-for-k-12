@@ -1,0 +1,893 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Torque</title>
+  <metadata>
+  <md:content-id>m14402</md:content-id><md:title>Torque</md:title>
+  <md:abstract>Torque is the cause of rotation.</md:abstract>
+  <md:uuid>24eb031c-07d0-488e-a8a1-8bc97edb6df0</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1"> Torque about a point is a concept that denotes the tendency of force to turn or rotate an object in motion. This tendency is measured in general about a point. It is also termed as "moment of force". The torque in angular motion corresponds to force in translation. It is the "cause" whose effect is either angular acceleration or angular deceleration of a particle in general motion. Quantitatively, it is defined as a vector given by :
+</para>
+<para id="element-2">
+<equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-3"> Rotation is a special case of angular motion. In the case of rotation, torque is defined with respect to an axis such that vector "<term>r</term>" is constrained to be perpendicular to the axis of rotation. In other words, the plane of motion is perpendicular to the axis of rotation. Clearly, the torque in rotation corresponds to force in translation. 
+</para>
+
+<section id="section-1">
+<title>Torque about a point</title>
+
+<para id="element-4">An external force on a particle constitutes a torque with respect to a point. Only condition is that the point, about which torque is defined or measured, does not lie on the line of force, in which case torque is zero. 
+</para>
+<para id="element-4a"><figure id="fig-4a"><title> Torque on a particle </title>
+<media id="id7751115" alt=""><image src="../../media/tp1b.gif" mime-type="image/gif"/></media>
+<caption> The particle moves in three dimensional coordinate space.</caption>
+</figure>
+</para>
+
+
+<para id="element-5b">We can make note of the fact that it is convenient to construct reference system in such a manner so that the point (about which torque is measured) coincides with the origin. In that case, the vector (<term> r</term>) denoting the position of the particle with respect to point, becomes the position vector, which is measured from the origin of reference system.   
+</para>
+<section id="section-1a">
+<title> Magnitude of torque
+</title>
+
+<para id="element-6">With the reference of origin for measuring torque, we can find the magnitude of torque, using any of the following relations given below. Here, we have purposely considered force in xy - plane for illustration and visualization purpose as it provides clear directional relationship of torque "<term> τ </term>" with the operand vectors "<term> r </term>" and "<term> F </term>".  
+</para>
+<para id="element-7">
+<figure id="fig-7" orient="horizontal"><title> Torque on a particle </title>
+<subfigure id="fig-7a">
+<media id="id8516818" alt=""><image src="../../media/tp2a.gif" mime-type="image/gif"/></media>
+<caption> Torque in terms of angle enclosed. </caption>
+</subfigure>
+<subfigure id="fig-7b">
+<media id="id1171746486369" alt=""><image src="../../media/tp3a.gif" mime-type="image/gif"/></media>
+<caption> Torque in terms of force, perpendicular to position vector.</caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-8">
+<term>1: </term> Torque in terms of angle enclosed
+</para>
+<para id="element-9">
+<equation id="equation-9"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10">
+<term>2: </term> Torque in terms of force perpendicular to position vector
+</para>
+<para id="element-11">
+<equation id="equation-11"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-12">
+<term>3: </term> Torque in terms of moment arm
+</para>
+<para id="element-14">
+<equation id="equation-14"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-15"><figure id="fig-15"><title>Torque on a particle </title><media id="id1171742633055" alt=""><image src="../../media/tp4.gif" mime-type="image/gif"/></media>
+
+<caption>Torque in terms of moment arm </caption></figure>
+</para>
+
+<example id="example-16">
+<para id="element-16"><term>Problem : </term> A projectile of mass "m" is projected with a speed "v" at an angle "θ" with the horizontal. Calculate the torque on the particle at the maximum height in relation to the point of projection.
+</para>
+<para id="element-17"> <term>Solution : </term> The magnitude of the torque is given by :
+</para>
+<para id="element-18">
+<figure id="fig-18"><title> Projectile motion </title>
+<media id="id1171742710973" alt=""><image src="../../media/tp5.gif" mime-type="image/gif"/></media>
+<caption> Torque on a projectile.</caption>
+</figure></para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> product of moment arm and magnitude of force </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">where  
+<m:math>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:math>
+ is moment arm. In this case, the moment arm is equal to half of the horizontal range of the flight,
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> sin </m:mi>
+<m:mi> 2θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+Now, the force on the projectile of mass "m" is due to the force of gravity :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">Putting these expressions of moment arm and force in the expression of torque, we have :
+</para>
+<para id="element-25"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> sin </m:mi>
+<m:mi> 2θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+Application of right hand rule indicates that torque is clockwise and is directed in to the page.
+</para>
+
+</example>
+
+</section>
+<section id="section-1c">
+<title> Direction of torque
+</title>
+<para id="element-865">The determination of torque's direction is relatively easier than that of angular velocity. The reason is simple. The torque itself is equal to vector product of two vectors, unlike angular velocity which is one of the two operands of the vector product. Clearly, if we know the directions of two operands here, the direction of torque can easily be interpreted.</para><para id="element-27">By the definition of vector product, the torque is perpendicular to the plane formed by the position vector and force. Besides, it is also perpendicular to each of the two vectors individually. However, the vector relation by itself does not tell which side of the plane formed by operands is the direction of torque. In order to decide the orientation of the torque, we employ right hand vector product rule. 
+</para>
+<para id="element-27a">For this, we need to shift one of the operand vectors such that their tails meet at a point. It is convenient to shift the force vector, because application of right hand vector multiplication rule at the point (origin of the coordinate system) gives us the sense of angular direction of the torque. 
+</para>
+<para id="element-28"><figure id="fig-28" orient="horizontal"><title> Vector product </title>
+<subfigure id="fig-28a">
+<media id="id1171746486456" alt=""><image src="../../media/tp2a.gif" mime-type="image/gif"/></media>
+<caption> Right hand rule. </caption>
+</subfigure>
+<subfigure id="fig-28b">
+<media id="id1171746279897" alt=""><image src="../../media/tp6a.gif" mime-type="image/gif"/></media>
+<caption> Application of Right hand rule.</caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-29"> In the figure, we shift the second vector (<term>F</term>) so that tails of two operand vectors meet at the point (origin) about which torque is calculated. The two operand vectors define a plane ("xy" - plane in the figure). The torque (<term>τ</term>) is, then, acting along a line perpendicular to this plane and passing through the meeting point (origin). 
+</para>
+<para id="element-30"> The orientation of the torque vector in either of two direction is determined by applying right hand rule. For this, we sweep the closed fingers of the right hand from position vector (first vector) to force vector (second vector). The outstretched thumb, then, indicates the orientation of torque. In the case shown, the direction of torque is positive z-direction.
+</para>
+<para id="element-31">
+While interpreting the vector product, we must be careful about the sequence of operand. The vector product "
+<m:math>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:math>
+" is negative or opposite in sign to that of "
+<m:math>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:math>
+".
+</para>
+</section> 
+</section> 
+
+<section id="section-2">
+<title> Illustration </title>
+<para id="element-32">
+The problem involving torque is about evaluating the vector product. We have the options of using any of the three methods described above for calculating the magnitude of torque. In this section, we shall work with two important aspects of calculating torque :
+</para>
+<para id="element-32a">
+<list id="list-32a" list-type="bulleted"><item> More than one force operating simultaneously on the particle  </item>
+<item> Relative orientation of the plane of operand vectors and planes of coordinate system  </item>
+</list>
+</para>
+<section id="section-2a">
+<title> More than one force operating simultaneously on the particle
+</title>
+<para id="element-33">
+Here, we have two choices. Either, we evaluate torques for each force and then find the resultant torque or we evaluate the resultant (net) force first and then find the torque. The choice depends on the situation in hand. 
+</para>
+<para id="element-34">
+In particular, if we find that the resulting torques are along the same direction (say one of the coordinate direction), then it is always better to calculate torque individually. This is because torques along a direction can be dealt as scalars with appropriate sign. The resultant torque is simply the algebraic sum. Example below highlights the this aspect. 
+</para>
+<para id="element-34a">The bottom line in making choice is that we should keep non-linear vector summation - whether that of force or torque - to a minimum. Otherwise, analytical technique for vector addition will be need to be employed. 
+</para>
+
+<example id="example-43">
+<para id="element-43"><term>Problem : </term> At an instant, a particle in xy plane is acted by two forces 5 N and 10 N in xy plane as shown in the figure. Find the net torque on the particle at that instant.
+</para>
+<para id="element-44"><figure id="fig-44"><title> Torque on a particle </title>
+<media id="id1171743269334" alt=""><image src="../../media/tp7a.gif" mime-type="image/gif"/></media>
+<caption> Two forces are acting simultaneously on the particle.</caption>
+</figure>
+</para>
+<para id="element-45"><term>Solution : </term> An inspection of the figure reveals that forces are parallel to axes and perpendicular linear distances of the lines of forces can be known. In this situation, calculation of the magnitude of torque suits to the form of expression that uses moment arm. Here, moment arms for two forces are :
+</para>
+
+<para id="element-47">
+For 5 N force, the moment arm "AB" is :
+</para>
+<para id="element-48"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> AB </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> OA </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 0.5 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+For 10 N force, the moment arm "AC" is :
+</para>
+<para id="element-50"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> AC </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> OA </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 0.866 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 8.66 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">
+The torques due to 5 N is :
+</para>
+<para id="element-52"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+
+<m:mn> 5 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 25 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> (positive being anti-clockwise) </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+The torques due to 10 N is :
+</para>
+<para id="element-54"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 8.66 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 86.6 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+
+<m:mi> m </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> (negative being clockwise) </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+Net torque is :
+</para>
+<para id="element-56"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 25 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 86.6 </m:mn>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 61.6 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+
+<m:mi> m </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> (negative being clockwise) </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+<note id="id1171747578632">We can also first calculate the resultant force and then apply the definition of torque to obtain net torque. But, then this would involve non-linear vector addition.
+</note>
+</para>
+
+</example>
+
+
+
+
+</section> 
+<section id="section-2b">
+<title> Relative orientation of the plane of operand vectors 
+</title>
+<para id="element-35">There are two possibilities here. The plane of operands are same as that of the plane of coordinate system. In simple word, the plane of velocity and position vector is same as one of three planes formed by coordinate system. If this is so, then problem analysis is greatly simplified. Clearly, the torque will be along the remaining third axis. We have only to find the orientation (in the positive or negative direction of the axis) with the help of right hand rule. It is evident that we should always strive to orient our coordinate system, if possible, so that the plane formed by position vector and force align with one of the coordinate planes.
+</para>
+<para id="element-36">In case, the two planes are different, then we need to be careful (i) in first identifying the plane of operands (ii) finding relation of the operands plane with coordinate plane and (iii) applying right hand rule to determine orientation (which side of the plane).  Importantly, we can not treat torque as scalar with appropriate sign, but have to find direction of torque with respect to one of the coordinates.
+</para>
+<example id="example-58">
+<para id="element-58"><term>Problem : </term> A particle in xy plane is acted by a  force  5 N in z-direction as shown in the figure. Find the net torque on the particle.
+</para>
+<para id="element-59"><figure id="fig-59"><title> Torque on a particle </title>
+<media id="id1171748684224" alt=""><image src="../../media/tp8a.gif" mime-type="image/gif"/></media>
+<caption> Two force is acting parallel to z-axis.</caption>
+</figure>
+</para>
+<para id="element-60"> <term>Solution : </term> In this case, moment arm is equal to the magnitude of position vector. Hence, torque is :
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">However, finding its direction is not as straight forward. The situation here differs to earlier examples in one important respect. The plane containing position vector and force vector is a plane defined by zOA. Also, this plane is perpendicular to xy - plane. Now, torque is passing through the origin and is perpendicular to the plane zoA. We know a theorem of geometry that angles between two lines and their perpendiculars are same. Applying the same and right hand rule, we conclude that the torque is shifted by 30 degree from the y-axis and lies in xy-plane as shown in the figure here.
+</para>
+<para id="element-63"><figure id="fig-63"><title> Torque on a particle </title>
+<media id="id1171752174943" alt=""><image src="../../media/tp9a.gif" mime-type="image/gif"/></media>
+<caption> The torque makes an angle of 30 with y-axis.</caption>
+</figure>
+</para>
+</example>
+</section>
+</section> 
+<section id="section-3">
+<title> Torque in component form
+</title>
+<para id="element-64">
+Torque, being a vector, can be evaluated in component form with the help of unit vectors along the coordinate axes. The various expressions involved in the vector algebraic analysis are as given here : 
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> z </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+<code id="id1171747599055" display="block">τ =
+| <term>i</term>    <term>j</term>	<term>k</term> |
+| x    y     z |
+| Fx   Fy    Fz|
+</code>
+</para>
+<para id="element-68">
+<equation id="equation-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> y </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> z </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> z </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> x </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<example id="example-69">
+
+<para id="element-69"><term>Problem : </term> A force <term>F</term> = 2<term>i</term> + <term>j</term> – 2<term>k</term> Newton acts on a particle at <term>i</term> + 2<term>j</term> –<term>k</term> meters at a given time. Find the torque about the origin of coordinate system.
+</para>
+<para id="element-70"> <term>Solution : </term> Hence, torque is :
+</para>
+<para id="element-71">
+<code id="id5" display="block">τ = 
+| <term>i</term>    <term>j</term>	<term>k</term> |
+| 1    2    -1 |
+| 2    1    -2 |
+</code>
+</para>
+
+<para id="element-76"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+<section id="section-4">
+<title> Summary
+</title>
+<para id="element-78">
+<term>1: </term> Torque in general angular motion is defined with respect to a point as against axis in rotation. The expression of torque in two cases, however, is same :
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">
+<term>2: </term>  When the point (about which torque is defined) coincides with the origin of coordinate system, the vector “<term>r</term>” appearing in the expression of torque is position vector.
+</para>
+<para id="element-81">
+<term>3: </term>  Magnitude of torque is given by either of the following relations,
+</para>
+<para id="element-82">
+(i) Torque in terms of angle enclosed
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+(ii) Torque in terms of force perpendicular to position vector
+</para>
+<para id="element-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-86">
+(iii) Torque in terms of moment arm
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+<term>4: </term>  Direction of torque
+</para>
+<para id="element-89">
+The torque is perpendicular to the plane formed by velocity vector and force  and also individually to either of them. We get to know the orientation of the torque vector by applying right hand rule.
+</para>
+<para id="element-90">
+<term>5: </term>  When more than one force acts, then we should determine the resultant of forces or resultant of torques, depending on which of the approach will minimize or avoid non-linear vector summation to obtain the result.
+</para>
+<para id="element-91">
+<term>6: </term>  When the plane of operands is same as one of the coordinate plane, then torque acts along the remaining axis.
+</para>
+<para id="element-92">
+<term>7: </term>  Torque is expressed in component form as :
+</para>
+<para id="element-93">
+<code id="id2905138" display="block">τ =
+| <term>i</term>    <term>j</term>	<term>k</term> |
+| x    y     z |
+| Fx   Fy    Fz|
+</code>
+</para>
+</section>
+
+  </content>
+  
+</document>

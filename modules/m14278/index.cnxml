@@ -1,0 +1,1656 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rotation of rigid body</title>
+  <metadata>
+  <md:content-id>m14278</md:content-id><md:title>Rotation of rigid body</md:title>
+  <md:abstract>Rotation of rigid body is governed by an equivalent relation called Newton's second law of rotation.</md:abstract>
+  <md:uuid>3870fab7-afa1-49c2-8b2d-45d26f94c98c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m14314/latest/" strength="3">Angular velocity</link>
+      <link url="http://cnx.org/content/m14402/latest/" strength="3">Torque</link>
+      <link url="http://cnx.org/content/m14277/latest/" strength="3">Rotation</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1a"> Rotation of a rigid body is characterized by same angular velocity and acceleration of particles comprising it. The situation is similar to the case of translation in which linear velocity and acceleration of all particles comprising rigid body are same. In the previous module titled <link document="m14277" version="" target-id="">Rotation</link>, we discussed torque as the “cause” of rotation and ways to calculate torque.  In this module, we seek to study the torque (cause) and angular acceleration (effect) relationship for the rotational motion of a rigid body. In other words, we seek to state Newton’s laws of motion for rotation in line with the one that exists for translation. 
+</para>
+<para id="element-1b">Rigid body is composed of particles, which are at fixed distance with respect to each other. In simple words, if a particle "A" is at a distance of 10 mm (say) from another particle "B" within a rigid body, then they continue to remain 10 mm apart during motion. This requirement is important in describing rotational motion of a rigid body. The distribution of mass about the axis affects rotational inertia of the body. As such, change in inter-particle distance shall amount to changing "rotational inertia" of the body.
+</para>
+<para id="element-1c">Before, we proceed we need to distinguish between two separate force requirements for rotational motion. In the previous module, we have discussed the force requirement for the torque which produces angular acceleration or causes rotational motion. What about the centripetal force requirement for a particle of the rigid body to move in circular motion? This force requirement is met by the inter-molecular forces. The requirement of centripetal force is the inherent requirement for circular motion of a particle and thereby for the rotation of rigid body. While studying cause and effect relation for the rotation, it should be clearly understood that we are only concerned with the force requirement of torque for the angular acceleration of the rigid body in rotation.      
+</para>
+<section id="section-11">
+<title> Newton's first law of rotation  </title>
+<para id="element-501">In translation, a particle or particle like rigid body has constant linear velocity unless there is an external force being applied on it. By conjecture, we can extend this law to rotation saying that a rigid body in rotation about a fixed axis has constant angular velocity unless it is subjected to external torque. This is exactly the Newton's first law of rotation.  
+</para>
+<para id="element-502">If the rigid body is at rest, then it will remain in rest. This is the exactly same assertion as for translation. On the other hand, if the rigid body is in rotation with a constant angular velocity, then it will continue to rotate with that angular velocity indefinitely. Of course, we do not realize the second assertion in our daily life because it is almost impossible to get rid of torques opposing rotational motion due to air resistance and resistance caused by the friction at the axis of rotation.
+</para>
+
+</section>
+<section id="section-1">
+<title> Newton's second law of rotation  </title>
+<para id="element-5">Every particle of the rigid body in rotation undergoes circular motion irrespective of the shape of rigid body. The centers of the circular paths described by them lie on the axis of rotation. It should be noted that the different particles, constituting rigid body, have different linear velocities, but same angular velocity. It means that each particle traverses same angle in a given time. The linear velocity of a particle is related to angular velocity as :
+</para>
+<para id="element-6"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-7">
+where "r" is the perpendicular distance of the particle's position from the axis of rotation in the plane of rotation. It is easy to visualize that particles constituting rigid body at different levels undergo rotation in different planes of rotation. 
+</para>
+<para id="element-8">
+<figure id="fig-4"><title> Pure rotational motion </title>
+<media id="id32201477" alt=""><image src="../../media/rr1.gif" mime-type="image/gif"/></media>
+<caption> Each particle of the body follows a circular path about axis in pure rotational motion. </caption>
+</figure>
+</para>
+<para id="element-9">It is also clear from the given relation for linear velocity that particle closer to the axis (smaller "r") will have lesser linear velocity than the one away from the axis (greater "r"). </para>
+<para id="element-921">However, each of the particle of the body undergoes same angular displacement (θ) and has same angular velocity (ω) and angular acceleration (α). In other words, we can say that the angular attributes of motion of the rigid body in rotation are uniquely (single valued) defined at a particular instant.
+</para>
+<para id="element-627">This situation is analogous to pure translational motion of rigid body, in which each particle constituting the body has same linear velocity and acceleration at a particular instant. For this reason, the motion of a particle or a rigid body in pure rotational motion is governed by the same form of Newton's second law i.e. the relation that connects external torque to the angular acceleration has the same form as that of translational motion. In translational motion, this relationship is given as : 
+</para>
+
+<para id="element-627a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-627b">
+Intuitively, we may conclude that relation between torque (cause) and angular acceleration (effect) might have the following form :
+</para>
+
+<para id="element-10">
+<equation id="eq-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10a">However, we find that the role of inertia is not represented by mass alone in rotation. As there are corresponding quantities for force and acceleration, there is also a separate corresponding term or quantity that represents inertia to rotation. This quantity is termed as "moment of inertia", represented by symbol, "I". The equivalent Newton's second law for rotation is, thus :
+</para>
+<para id="element-10b">
+<equation id="eq-10b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi mathvariant="bold"> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-11">However, we need to evaluate moment of inertia of the rigid body appropriately so that it represents the inertia of the body to external torque (cause). In the next section, we shall drive the basic expression of moment of inertia first for a single particle, then for a system of particle and then finally for the rigid body. 
+</para>
+
+
+</section>
+
+<section id="section-11a">
+<title> Moment of inertia of a particle  </title>
+
+<para id="element-56a">For the rotation of a particle, we simulate a situation in which a particle mass "m" is rotated by applying external force. We consider a particle of mass "m" is attached to one end of a mass-less (it is a mere theoretical consideration) rod of length "r". The other end of the rod is hinged at "O" such that the particle can be rotated in a horizontal plane about a vertical axis passing through center of circle, "O" . 
+</para>
+<para id="element-11b">
+<figure id="fig-11b"><title> Rotation </title>
+<media id="id16829262" alt=""><image src="../../media/r9.gif" mime-type="image/gif"/></media>
+<caption> The path rotates following a circular path about axis of rotation.
+.</caption>
+</figure>
+</para>
+<para id="element-11c">Now let us consider that a force "<term>F</term>" is applied to the particle in the plane of the circular path as shown in the figure. The radial component of force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:math>)
+does not produce any acceleration as the line of action of the radial force passes through the axis of rotation. The tangential component of force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:math>) produces tangential acceleration, 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:math>
+. The particle follows a circular path of radius "r" with its center at "O". From second law of translational motion,
+</para>
+<para id="element-11d">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11f">
+On the other hand, torque on the particle is :
+</para>
+<para id="element-11g">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11h">
+But, we know that tangential acceleration is related to angular acceleration as :
+</para>
+<para id="element-11i">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11j">
+Substituting in the expression of torque, we have :
+</para>
+<para id="element-11k">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> m </m:mi>
+<m:mi> α </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11l">where 
+<m:math>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Its unit is 
+<m:math>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> . </m:mo>
+</m:math>
+</para>
+<para id="element-11m">
+<equation id="equation-11n">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+
+<example id="example-11o">
+<para id="element-11o"><term>Problem : </term> A particle of mass 0.1 kg is attached to one end of a light rod of length 1 m. The rod is hinged at the other end and rotates in a plane perpendicular to the axis of rotation. If the angular speed of the particle is 60 rpm, find the constant torque that can stop the rotation of the particle in one minute.
+</para>
+<para id="element-11p"><term>Solution : </term> The idea here is to apply Newton's second law of rotation for a particle. For this, we need to find angular deceleration. For this, we first convert angular velocity in rad/s :</para>
+<para id="element-70c"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 60 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rpm </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 60 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mn> 60 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11r">Since torque "τ" is constant as given in the question, this is obviously the case of uniform deceleration. As such, we can apply equation of rotational motion for constant acceleration,
+</para>
+<para id="element-11s">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11t">
+Here, 
+</para>
+<para id="element-11u"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mo> ; </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> ; </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 60 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11v">Putting values in the equation of motion, we have :</para><para id="element-11w"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> α </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 60 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mn> 60 </m:mn>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-11x">Now, applying Newton's second law of motion for rotation, 
+</para>
+<para id="element-11y">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11z">
+Here,
+</para>
+<para id="element-511"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> kg</m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-512">
+Dropping the sign of deceleration and putting values in the expression of torque, we have the magnitude of torque :
+</para>
+<para id="element-513"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mn> 60 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0.01 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-2">
+<title> Moment of inertia of a system of particles </title>
+<para id="element-12">
+Moment of inertia of a particle about fixed axis is given by :
+</para>
+<para id="element-14">
+<equation id="eq-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-15">The moment of inertia of the system of discrete particles is equal to the sum of moments of inertia of individual particles,
+</para>
+<para id="element-16">
+<equation id="eq-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-17">
+where "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+" is the mass of "i" th particle at perpendicular linear distance "
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+" from the axis of rotation.
+</para>
+<example id="example-18">
+<para id="element-18"><term> Problem : </term> Three particles each of mass "m" are situated at the vertices of an equilateral triangle OAB of length "a" as shown in the figure. Calculate moment of inertia (i) about an axis passing through "O" and perpendicular to the plane of triangle  (ii) about axis Ox and (iii) about axis Oy.
+</para>
+<para id="element-19">
+<figure id="fig-19"><title> Moment of inertia </title>
+<media id="id32123521" alt=""><image src="../../media/rr2.gif" mime-type="image/gif"/></media>
+<caption> Three particles each of mass "m" are situated at the vertices of an equilateral triangle. </caption>
+</figure>
+</para>
+<para id="element-20"><term>Solution : </term> We shall make use of the formulae of moment of inertia for discrete particles in each of the cases :
+</para>
+<para id="element-21"><term>(i) </term> about an axis passing through "O" and perpendicular to the plane of triangle  
+</para>
+<para id="element-22">Here, distances of three particles from the axis are :
+</para>
+<para id="element-23"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mi> ; </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi> 
+<m:mi> ; </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">The moment of inertia about an axis through "O" and perpendicular to the plane of triangle is :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> o </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> o </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+<term>(ii) </term> about axis Ox 
+</para>
+<para id="element-28">
+Here distances of three particles from the axis of rotation are :
+</para>
+<para id="element-29"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mi> ; </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mi> a </m:mi> 
+</m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> ; </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> o </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> o </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mi> a </m:mi> 
+</m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn> 
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+<term>(iii) </term> about axis Oy 
+</para>
+<para id="element-32a">
+Here distances of three particles from the axes are :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> o </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> o </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn> 
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn> 
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">This example illustrates how choice of axis changes moment of inertia i.e. the inertia of the system of particles to rotation. This is expected as change in the reference axis actually changes distribution of mass about axis of rotation.
+</para>
+</example>
+</section>
+
+<section id="section-3">
+<title> Moment of inertia of rigid body </title>
+
+<para id="element-37">
+Rigid body is a continuous aggregation of particles. We, therefore, need to modify the summation in the expression of moment of inertia by integration as :
+</para>
+<para id="element-38">
+<equation id="eq-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-39">Evaluation of this integral for a given body is a separate task in itself. It is mathematically possible to evaluate this integral for bodies of regular shape. It would, however, be very difficult to evaluate the same for irregularly shaped rigid body. In such cases, it is pragmatic to resort to experimental methods to calculate moment of inertia. Mathematical evaluation of moment of inertia even for regularly shaped bodies would require specialized analysis and evaluation.
+</para>
+<para id="element-40">Two theorems, pertaining to moment of inertia, are of great help in the mathematical evaluation of moment of inertia of regularly shaped bodies. They are (i) parallel axes theorem and (ii) perpendicular axes theorem. These theorems extend the result of moment of inertia of basic geometric forms of rigid bodies to other axes. We shall cover these aspects and shall evaluate moment of inertia of certain important geometric rigid bodies in separate modules.
+</para>
+</section>
+
+<section id="section-4">
+<title> Kinetic energy of rigid body in rotation </title>
+<para id="element-41">Kinetic energy of a particle or body represents the form of energy that arises from motion. We are aware that kinetic energy of a particle in translation is given by the expression :
+</para>
+<para id="element-42"><equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-43">In pure rotation, however, the rigid body has no "over all" translation of the body. However, the body in rotation must have kinetic energy as it involves certain motion. A closer look on the rotation of rigid body reveals that though we may not be able to assign translation to the rigid body as a whole, but we can recognize translation of individual particles as each of them rotate about the axis in circular motion with different linear speeds. The speed of a particle is given by :
+</para>
+<para id="element-44">
+<figure id="fig-44">
+<title> Pure rotational motion </title>
+<media id="id32129841" alt=""><image src="../../media/rr1.gif" mime-type="image/gif"/></media>
+<caption> Each particle of the body follows a circular path about axis in pure rotational motion. </caption>
+</figure>
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Thus, kinetic energy of an individual particle is :
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+where "
+<m:math>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+" is the kinetic energy of "i" th particle having a speed "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+". In terms of angular speed, the kinetic energy of an individual particle is :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>	
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">Now, the kinetic energy of the rigid body is sum of the kinetic energies of the particles constituting the rigid body :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+We note here that angular speeds of all particles constituting the body are same. Hence, the constant "1/2" and "
+<m:math>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+" can be taken out of the summation sign :
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+However, we know that :
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+Combining two equations, we have :
+</para>
+<para id="element-57">
+<equation id="eq-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-58">This is the desired expression of kinetic energy of a rigid body rotating about a fixed axis i.e. in pure rotational motion. The form of expression of the kinetic energy here emphasizes the correspondence between linear and angular quantities. Comparing with the expression of kinetic energy for translational motion, we find that "moment of inertia (I)" corresponds to "mass (m)" and "linear speed (v)" corresponds to "angular speed (ω)".
+</para>
+<para id="element-59">We can also interpret the result obtained above from a different perspective. We could have directly inferred that expression of kinetic energy in rotation should have an equivalent form as :
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K (Kinetic energy) </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mo> x </m:mo> 
+<m:mi> (inertia)  </m:mi>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mi> (speed) </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+In rotation, inertia to the rotation is "moment of inertia (I)" and speed of the rigid body is "angular speed (ω)". Substituting for the quantities, we have the expression for kinetic energy of rigid body in rotation as :
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">Comparing this equation with the expression of the sum of kinetic energy of individual particles as derived earlier :
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+Clearly,
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">This conclusion, thus, clearly establishes that the expression as given by 
+<m:math>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ indeed represents the inertia of the rigid body in rotation.
+</para><para id="element-738"><note id="id32520062"> Though it is clear, but we should emphasize that expressions of kinetic energy of rotating body either in terms of angular speed or linear speed are equivalent expressions i.e. two expressions measure the same quantity. Two expressions do not mean that the rotating body has two types of kinetic energy. 
+</note></para>
+
+</section>
+
+<section id="section-5">
+<title> Summary </title>
+<para id="element-68">
+<term>1.</term> Moment of inertia is the inertia of an object against any change in its state of rotation. This quantity corresponds to “mass”, which determines inertia of an object in translational motion.
+</para>
+<para id="element-69">
+<term>2.</term> Moment of inertia is defined for rotation about a fixed axis for a particle, a system of particles and a rigid body.
+</para>
+<para id="element-70">
+<term>3.</term> Expressions of Moment of inertia
+</para>
+<para id="element-71">
+(i)	For a particle 
+</para>
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-73">
+(ii) For a system of particles
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+(iii) For a rigid body
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">
+<term>4.</term> Moment of inertia, also referred in short as MI, is a scalar quantity. The directional positions (angular positions) of the particles/objects with respect to axis of rotation does not matter. The unit of MI is 
+<m:math>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> m</m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-78">
+<term>5.</term> Objects in rotation have rotational kinetic energy of rotation due to rotational motion of individual particles, constituting the object. 
+</para>
+<para id="element-79">
+<term>6.</term> Object in pure rotation has only rotational kinetic energy i.e. no translational kinetic energy is involved. 
+</para>
+<para id="element-80">
+<term>7.</term> The expression of rotational kinetic energy is given by :
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+  </content>
+  
+</document>

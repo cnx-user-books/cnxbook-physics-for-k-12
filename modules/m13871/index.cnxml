@@ -1,0 +1,2105 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Uniform circular motion</title>
+  <metadata>
+  <md:content-id>m13871</md:content-id><md:title>Uniform circular motion</md:title>
+  <md:abstract>Uniform circular motion (UCM) is the basic unit of rotational kinematics just like the uniform linear motion is the basic unit of translational kinematics.</md:abstract>
+  <md:uuid>7b3ae2af-1df8-441f-89fd-2a70672193f3</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m14014/latest/" strength="3">Circular motion and rotational kinematics </link>
+      <link url="http://cnx.org/content/m14555/latest/" strength="2">Accelerated motion in two dimensions </link>
+      <link url="http://cnx.org/content/m14020/latest/" strength="2">Non-uniform circular motion </link>
+      <link url="http://cnx.org/content/m14022/latest/" strength="1">Circular motion with constant acceleration </link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+Uniform circular motion denotes motion of a particle along a circular arc or a circle with constant speed. This statement, as a matter of fact, can be construed as the definition of uniform circular motion.
+</para>
+<section id="section-1">
+<title> Requirement of uniform circular motion </title>
+<para id="element-2">
+The uniform circular motion represents the basic form of rotational motion in the same manner as uniform linear motion represents the basic form of translational motion. They, however, are different with respect to the requirement of force to maintain motion. </para>
+
+
+<para id="element-2a">
+Uniform linear motion is the reflection of the inherent natural tendency of all natural bodies. This motion by itself is the statement of Newton’s first law of motion : an object keeps moving with its velocity unless there is net external force. Thus, uniform linear motion indicates “absence” of force.
+</para>
+<para id="element-3">On the other hand, uniform circular motion involves continuous change in the direction of velocity without any change in its magnitude (v). A change in the direction of velocity is a change in velocity (<term>v</term>). It means that an uniform circular motion is associated with an acceleration and hence force. Thus, uniform circular motion indicates “presence” of force.
+</para>
+
+<para id="element-4">Let us now investigate the nature of force required to maintain uniform circular motion. We know that a force acting in the direction of motion changes only the magnitude of velocity. A change in the direction of motion, therefore, requires that velocity of the particle and force acting on it should be at an angle. However, such a force, at an angle with the direction of motion, would have a component along the direction of velocity as well and that would change the magnitude of the motion. 
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Change of direction </title>
+<media id="id40633521" alt=""><image src="../../media/ucm1.gif" mime-type="image/gif"/></media>
+<caption> A change in the direction of motion requires that velocity of the particle and force should be at an angle. </caption>
+</figure>
+</para>
+<para id="element-6">In order that there is no change in the magnitude of velocity, the force should have zero component along the direction of velocity. It is possible only if the force be perpendicular to the direction of velocity such that its component in the direction of velocity is zero (Fcos90° = 0). Precisely, this is the requirement for a motion to be uniform circular motion.
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Uniform circular motion </title>
+<media id="id40633588" alt=""><image src="../../media/ucm2.gif" mime-type="image/gif"/></media>
+<caption> Force is perpendicular to the direction of velocity. </caption>
+</figure>
+</para>
+<para id="element-8">In plain words, uniform circular motion (UCM) needs a force, which is always perpendicular to the direction of velocity. Since the direction of velocity is continuously changing,  the direction of force, being perpendicular to velocity, should also change continously.
+</para>
+<para id="element-9">The direction of velocity along the circular trajectory is tangential. The perpendicular direction to the circular trajectory is, therefore, radial direction. It implies that force (and hence acceleration) in uniform direction motion is radial. For this reason, acceleration in UCM is recognized to seek center i.e. centripetal (seeking center). 
+</para>
+<para id="element-10">This fact is also validated by the fact that the difference of velocity vectors, whose time rate gives acceleration, at two instants (Δ<term>v</term>) is radial.
+</para>
+<para id="element-11">
+<figure id="fig-11">
+<title> Uniform circular motion </title>
+<media id="id40633683" alt=""><image src="../../media/ucm4.gif" mime-type="image/gif"/></media>
+<caption> Force is centripetal. </caption>
+</figure>
+</para>
+
+<para id="element-12">The yet another important aspect of the UCM is that the centripetal force is radial and hence does not constitute a torque as the force is passing through the axis of rotation. A torque is force multiplied by the perpendicular distance of the line of action of the force from the axis of rotation. It must be clearly understood that the requirement of centripetal force is essentially additional or different to the force, which is required in non-uniform circular motion to accelerate the particle tangentially. The centripetal force is required to accelerate particle in radial direction and is different to one required to accelerate particle tangentially.
+</para>
+<para id="element-13">
+Irrespective of whether circular motion is uniform (constant speed) or non-uniform (varying speed), the circular motion inherently associates a radial acceleration to ensure that the direction of motion is continuously changed – at all instants. We shall learn about the magnitude of radial acceleration soon, but let us be emphatic to differentiate radial acceleration  (accounting change in direction that arises from radial force) with tangential acceleration (accounting change in the speed that arises from tangential force or equivalently a torque).
+</para>
+<para id="element-14">Motion of natural bodies and sub-atomic particles are always under certain force system. Absence of force in the observable neighborhood is rare. Thus, uniform linear motion is rare, while uniform circular motion abounds in nature as there is availability of external force that continuously changes direction of the motion of the bodies or particles. Consider the electrostatic force between nucleus and an electron in an atom. The force keeps changing direction as electron moves. So is the case of gravitational force (indicated by red arrow in the figure), which keeps changing its direction as the planet moves around sun. 
+</para>
+<para id="element-15"><figure id="fig-15"><title> Approximated circular motion of Earth around Sun </title>
+<media id="id41783283" alt=""><image src="../../media/ucm5.gif" mime-type="image/gif"/></media>
+<caption> Gravitational force is radial, whereas velocity is tangential. </caption>
+</figure>
+</para>
+<para id="element-16">It may sometimes be perceived that a force like centripetal force should have caused the particle or body to move towards center ultimately. The important point to understand here is that a force determines initial direction of motion only when the particle is stationary. However, if the particle is already in motion, then force modifies the direction in accordance with initial inclination between velocity and force such that the resulting acceleration (change in vector velocity) is in the direction of force. We shall soon see that this is exactly the case in uniform circular motion.</para>
+<para id="element-17">
+Let us summarize the discussion of uniform circular motion so far :
+</para>
+<para id="element-18">
+<list id="list-2" list-type="bulleted"><item> The trajectory of uniform circular motion is circular arc or a circle and hence planar or two dimensional.
+ </item>
+<item> The speed (v) of the particle in UCM is a constant.
+ </item>
+<item> The velocity (<term>v</term>) of the particle in UCM is variable and is tangential or circumferential to the path of motion.
+ </item>
+<item> Centripetal force (<term>F</term>) is required to maintain uniform circular motion against the natural tendency of the bodies to move linearly.
+ </item>
+
+<item> Centripetal force (<term>F</term>) is variable and is radial in direction.
+ </item>
+<item> Centripetal force (<term>F</term>) is not a torque and does not cause acceleration in tangential direction.
+ </item>
+<item> Centripetal acceleration 
+(
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi mathvariant="bold"> R </m:mi>
+</m:msub>
+</m:math>
+) is variable and radial in direction.
+</item>
+</list>
+</para>
+
+
+</section>
+
+<section id="section-2">
+<title> Analysis of uniform circular motion </title>
+
+<para id="element-201">It has been pointed out that any motion, that changes directions, requires more than one dimension for representation. Circular motion by the geometry of the trajectory is two dimensional motion. 
+</para>
+<para id="element-202">
+In the case of circular motion, it is a matter of convenience to locate origin of the two dimensional coordinate system at the center of circle. This choice ensures the symmetry of the circular motion about the origin of the reference system.
+</para>
+<section id="section-2a">
+<title> Coordinates of the particle </title>
+
+
+<para id="element-203">The coordinates of the particle is given by the "x" and "y" coordinate pair as :
+</para>
+<para id="element-204"><equation id="equation-204">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para><para id="eip-856">The angle "θ" is measured anti-clockwise from x-axis.</para>
+</section>
+<section id="section-2b">
+<title> Position of the particle </title>
+
+<para id="element-205">
+The position vector of the position of the particle, <term>r</term>, is represented in terms of unit vectors as :
+</para>
+<para id="element-206"><equation id="equation-206">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>     
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo>     
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+<section id="section-2c">
+<title> Velocity of the particle </title>
+<para id="element-207">
+The magnitude of velocity of the particle (v) is constant by the definition of uniform circular motion. In component form, the velocity (refer to the figure) is :
+</para>
+<para id="element-208"><equation id="equation-208">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-22">
+From the geometry as shown in the figure,
+</para>
+<para id="element-23">
+<figure id="fig-23"><title> Uniform circular motion </title>
+<media id="id38790337" alt=""><image src="../../media/ucm6a.gif" mime-type="image/gif"/></media>
+<caption> Component velocities in UCM. </caption>
+</figure>
+</para>
+<para id="element-24"><equation id="equation-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>     
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-711">We may emphasize here that it is always easy to find the sign of the component of a vector like velocity. Decide the sign by the direction of component (projection) with respect to positive direction of reference axis. Note from the figure that component along x-direction is opposite to the positive reference direction and hence negative. </para><para id="element-25">
+From the ΔOAP,
+</para>
+<para id="element-26"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> y </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+Putting these values in the expression for velocity, we have :
+</para>
+<para id="element-28"><equation id="equation-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+
+<section id="section-2d">
+<title> Centripetal acceleration </title>
+
+
+<para id="element-19">
+We are now sufficiently equipped and familiarized with the nature of uniform circular motion and the associated centripetal (center seeking) acceleration. Now, we seek to determine this acceleration. 
+</para>
+
+<para id="element-29">Knowing that speed, "v" and radius of circle, "r" are constants, we differentiate the expression of velocity with respect to time to obtain expression for centripetal acceleration as :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+
+
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+Putting values of component velocities in terms of angle,
+</para>
+<para id="element-33"><equation id="equation-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Uniform circular motion </title>
+<media id="id38070645" alt=""><image src="../../media/ucm7.gif" mime-type="image/gif"/></media>
+<caption> Components of radial accelerations  </caption>
+</figure>
+</para>
+<para id="element-35">
+where
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">It is evident from the equation of acceleration that it varies as the angle with horizontal, "θ" changes. The magnitude of acceleration is :
+</para>
+<para id="element-38"><equation id="equation-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:msqrt>
+<m:mo> { </m:mo>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> )</m:mo>
+<m:mo>} </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<para id="element-70">The radius of the circle is constant. The magnitude of velocity i.e. speed, "v" is constant for UCM. It, then, follows that though velocity changes with the motion (angle from reference direction), but the speed of the particle in UCM is a constant.</para><example id="example-39">
+<para id="element-39"><term>Problem : </term> A cyclist negotiates the curvature of 20 m with a speed of 20 m/s. What is the magnitude of his acceleration?
+</para>
+<para id="element-39a"><term>Solution : </term> The speed of the cyclist is constant. The acceleration of cyclist, therefore, is the centripetal acceleration required to move the cyclist along a circular path i.e. the acceleration resulting from the change in the direction of motion along the circular path.
+</para> 
+<para id="element-39b">
+Here, v = 20 m/s and r = 20 m
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn> 20 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 20 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+<para id="element-209">
+This example points to an interesting aspect of circular motion. The centripetal acceleration of the cyclist is actually two (2) times that of acceleration due to gravity (g = 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+). This fact is used to create large acceleration in small space with appropriate values of “v” and “r” as per the requirement in hand. The large acceleration so produced finds application in particle physics and for equipments designed to segregate material on the basis of difference in density. This is also used to simulate large acceleration in a centrifuge for astronauts, who experience large acceleration at the time of take off or during entry on the return. 
+</para>
+<para id="element-211">Generation of high magnitude of acceleration during uniform circular motion also points to a potential danger to pilots, while maneuvering circular trajectory at high speed.  Since a pilot is inclined with the head leaning towards the center of motion, the blood circulation in the brain is low. If his body part, including brain, is subjected to high acceleration (multiple of acceleration due to gravity), then it is likely that the pilot experiences dizziness or sometimes even looses consciousness.
+</para>
+<para id="element-212">Circular motion has many interesting applications in real world and provides explanations for many natural events. In this module, however, we restrict ourselves till we study the dynamics of the circular motion also in subsequent modules. 
+</para>
+
+</section>
+<section id="section-2e">
+<title> Direction of centripetal acceleration </title>
+<para id="element-41">
+Here, we set out to evaluate the angle “α” as  shown in the figure. Clearly, if this angle  “α” is equal to “θ”, then we can conclude that acceleration is directed in radial direction. 
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> Uniform circular motion </title>
+<media id="id38071386" alt=""><image src="../../media/ucm8.gif" mime-type="image/gif"/></media>
+<caption> Radial acceleration  </caption>
+</figure>
+</para>
+<para id="element-43">
+Now,
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44a">
+This proves that centripetal acceleration is indeed radial (i.e acting along radial direction).
+</para>
+</section>
+<section id="section-2f">
+<title> Time period of uniform circular motion </title>
+<para id="element-45">
+A particle under UCM covers a constant distance in completing circular trajectory in one revolution, which is equal to the perimeter of the circle. 
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+Further the particle covers the perimeter with constant speed. It means that the particle travels the circular trajectory in a constant time given by its time period as :
+</para>
+<para id="element-48"><equation id="equation-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mi> v </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+</section>
+
+<section id="section-2de">
+<para id="element-128">
+<exercise id="exercise-128">
+<problem id="id38071784">
+<para id="element-129">
+An astronaut, executing uniform circular motion in a centrifuge of radius 10 m, is subjected to a radial acceleration of 4g. The time period of the centrifuge (in seconds)  is :
+</para>
+<para id="element-130">
+(a) π (b) 2π (c) 3π (d) 4π
+</para>
+</problem>
+<solution id="id38071818">
+<para id="element-131">
+From the inputs given in the question,
+</para>
+<para id="element-132">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 400 </m:mn>
+</m:mtd>
+</m:mtr>
+
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-134">
+The time period of the motion is :
+</para>
+<para id="element-135">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> v </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 20 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> π </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> seconds </m:mo> 
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-136">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+</section>
+
+
+</section>
+
+<section id="section-3">
+<title> Uniform circular motion and projectile motion </title>
+
+<para id="element-49">
+Both these motions are two dimensional motions. They are alike in the sense that motion in each case is subjected to continuous change of the direction of  motion. At the same time, they are different in other details. The most important difference is that projectile motion has a constant acceleration, whereas uniform circular motion has a constant magnitude of acceleration.
+</para>
+<para id="element-50">
+Significantly, a projectile motion completely resembles uniform circular motion at one particular instant. The projectile has only horizontal component of velocity, when it is at the maximum height. At that instant, the force of gravity, which is always directed downward, is perpendicular to the direction of velocity. Thus, projectile at that moment executes an uniform circular motion.
+</para>
+<para id="element-51">
+<figure id="fig-51">
+<title> Projectile motion </title>
+<media id="id38072197" alt=""><image src="../../media/ucm9.gif" mime-type="image/gif"/></media>
+<caption> Projectile meets the condition of UCM at maximum height  </caption>
+</figure>
+</para>
+<para id="element-52">
+Let radius of curvature of the projectile trajectory at maximum height be “r”, then
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+<note id="id38072397"> The radius of curvature is not equal to maximum height – though expression appears to be same. But, they are actually different. The numerator here consists of cosine function, whereas it is sine function in the expression of maximum height. The difference is also visible from the figure.
+</note>
+</para>
+</section>
+
+
+<section id="section-4">
+<title> Exercise </title>
+
+<para id="element-104a">
+<exercise id="exercise-104a">
+<problem id="id38072456">
+<para id="element-104">
+A particle moves along a circle of radius “r” meter with a time period of “T”. The acceleration of the particle is : 
+</para>
+<para id="element-105">
+ (a) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:msup>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+(b) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:msup>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+(c) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mn> 4 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+<m:mi> T </m:mi>
+</m:math>
+
+(c) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mi> T </m:mi>
+</m:mfrac>
+</m:math>
+</para>
+</problem>
+<solution id="id38072631">
+<para id="element-106">
+In order to determine centripetal acceleration, we need to find the speed of the particle. We can determine the speed of the particle, using expression of time period :
+</para>
+<para id="element-107">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mi> v </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-108">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mi> T </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-109">
+The acceleration of the particle is :
+</para>
+<para id="element-110">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+<m:mtd>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:msup>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-111">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-112">
+<exercise id="exercise-12">
+<problem id="id38072961">
+<para id="element-113">
+Which of the following quantities are constant in uniform circular motion :
+</para>
+<para id="element-114">
+(a) velocity and acceleration
+</para>
+<para id="element-115">
+(b) magnitude of acceleration and radius of the circular path
+</para>
+<para id="element-116">
+(c) radius of the circular path and speed
+</para>
+<para id="element-117">
+(d) speed and acceleration
+</para>
+</problem>
+<solution id="id38073028">
+<para id="element-118">
+Three quantities, namely, radius of the circular path, magnitude of acceleration and speed are constant in uniform circular motion.
+</para>
+<para id="element-119">
+Hence, options (b)  and (c) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-120">
+<exercise id="exercise-120">
+<problem id="id38073084">
+<para id="element-121">
+Which of these is/are correct for a particle in uniform circular motion :
+</para>
+<para id="element-122">
+(a) the acceleration of the particle is tangential to the path 
+</para>
+<para id="element-123">
+(b) the acceleration of the particle in the direction of velocity is zero
+</para>
+<para id="element-124">
+(c) the time period of the motion is inversely proportional to the radius
+</para>
+<para id="element-125">
+(d) for a given acceleration, velocity of the particle is proportional to the radius of circle
+</para>
+</problem>
+<solution id="id38073155">
+<para id="element-126">
+The options (a), (c) and (d) are wrong.
+</para>
+<para id="element-127">
+Hence, option (b)  is  correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+
+<para id="element-137">
+<exercise id="exercise-137">
+<problem id="id38073209">
+<para id="element-138">
+A particle moves with a speed of 10 m/s along a horizontal circle of radius 10 m in anti-clockwise direction. The x and y coordinates of the particle is 0,r at t = 0. The velocity of the particle (in m/s), when its position makes an angle 135° with x - axis,  is :  
+</para>
+<para id="element-139">
+ (a) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+
+(b) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+
+(c) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+(d) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+</para>
+</problem>
+<solution id="id38073417">
+<para id="element-140">
+The velocity is a vector quantity. We need to know the components of the  velocity when particle makes the angle 135° with x - axis.
+</para>
+<para id="element-141">
+<figure id="fig-141">
+<title> Uniform circular motion </title>
+<media id="id38073468" alt=""><image src="../../media/ucmq1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-142">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 135 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+
+<m:mfrac>
+<m:mrow>
+
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 135 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-143">
+The component 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:math>
+ is in the reference x - direction, whereas component 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:math>
+ is in the negative reference y - direction.
+</para>
+<para id="element-144"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-145">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-146">
+<exercise id="exercise-146">
+<problem id="id38073939">
+<para id="element-147">
+A car moves along a path as shown in the figure at a constant speed. Let 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+, 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+, 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+</m:math>
+ be the centripetal accelerations at locations A,B,C and D respectively. Then 
+</para>
+<para id="element-148">
+<figure id="fig-148">
+<title> Uniform circular motion </title>
+<media id="id38074040" alt=""><image src="../../media/ucmq2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-149">
+ (a) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+
+(b) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+</m:math>
+
+(c) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+ (d) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+</m:math>
+</para>
+</problem>
+<solution id="id38074186">
+<para id="element-150">
+The curvatures of path at four points are indicated with our circles drawn so that they align exactly with the curved path at these points. The radii of these circles at points A and B are smaller than that at points C and D. 
+</para>
+<para id="element-148a">
+<figure id="fig-148a">
+<title> Uniform circular motion </title>
+<media id="id38074237" alt=""><image src="../../media/ucmq3ab.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-151">
+Now, the centripetal acceleration is given by :
+</para>
+<para id="element-152">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-153">
+The smaller the radius, greater is centripetal acceleration. Thus,
+</para>
+<para id="element-154">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-155">
+and
+</para>
+<para id="element-156">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-157">
+Hence, options (b) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+
+<para id="element-158">
+<exercise id="exercise-158">
+<problem id="id38074479">
+
+<para id="element-158a">
+A particle executes uniform circular motion with a speed “v” in xy plane, starting from position (r,0), where “r” denotes the radius of the circle. Then
+</para>
+<para id="element-158b">
+(a) the component of velocity along x - axis is constant
+</para>
+<para id="element-159">
+(b) the component of acceleration along x - axis is constant
+</para>
+<para id="element-160">
+(c) the angle swept by the line joining center and particle in equal time  interval is constant
+</para>
+<para id="element-161">
+(d) the velocity is parallel to external force on the particle
+</para>
+</problem>
+<solution id="id38074554">
+<para id="element-162">
+The component of velocity along x - direction is “-v sinθ” and is not a constant. The component of acceleration along x - direction is “
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:math>
+” and is not a constant. The external force in uniform circular motion is equal to centripetal force, which is directed towards the center. Thus, the velocity is perpendicular to external force.
+</para>
+<para id="element-163">
+On the other hand, the particle covers equal circular arc in equal time interval. Hence, the angle subtended by the arc at the center is also equal in equal time interval.
+</para>
+<para id="element-164">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-165">
+<exercise id="exercise-165">
+<problem id="id38074678">
+<para id="element-166">
+A particle executes uniform circular motion with a speed “v” in anticlockwise direction, starting from position (r,0), where “r” denotes the radius of the circle. Then, both components of the velocities are positive in :
+</para>
+<para id="element-167">
+(a) first quadrant of the motion
+</para>
+<para id="element-168">
+(b) second quadrant of the motion
+</para>
+<para id="element-169">
+(c) third quadrant of the motion
+</para>
+<para id="element-170">
+(d) fourth quadrant of the motion
+</para>
+</problem>
+<solution id="id38074753">
+<para id="element-171">
+From the figure, it is clear that the components of velocity in the fourth quadrant are both positive.
+</para>
+<para id="element-172">
+<figure id="fig-172">
+<title> Uniform circular motion </title>
+<media id="id38074800" alt=""><image src="../../media/ucmq4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-173">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-174">
+<exercise id="exercise-174">
+<problem id="id38074849">
+<para id="element-175">
+A particle executes uniform circular motion with a constant 
+  speed of 1 m/s in xy - plane. The particle starts moving with constant speed 
+  from position (r,0), where "r" denotes the radius of the circle. If center of 
+  circle is the origin of the coordinate system, then what is the velocity in 
+  "m/s" of the particle at the position specified by the coordinates (3m,-4m) 
+  ? 
+</para>
+<para id="element-176">
+(a) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> 5 </m:mi>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mi> 4 </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> 3 </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:math>
+
+(b) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mi> 5 </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> 4 </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi> 3 </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:math>
+
+(c) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> 5 </m:mi>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mi> 3 </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi> 4 </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:math>
+ (d) 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> 5 </m:mi>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mi> 3 </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> 4 </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:math>
+</para>
+</problem>
+<solution id="id38075056">
+<para id="element-177">
+Here, the inputs are given in terms of coordinates. Thus, we shall use the expression of velocity, which involves coordinates. Velocity of the particle in circular motion is given by :
+</para>
+<para id="element-172a">
+<figure id="fig-172a">
+<title> Uniform circular motion </title>
+<media id="id38075105" alt=""><image src="../../media/ucmq5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-178">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-179">
+Here, radius of the circle is :
+</para>
+<para id="element-180">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-181">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-182">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-183">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+</section>
+
+  </content>
+  
+</document>

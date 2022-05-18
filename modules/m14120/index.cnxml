@@ -1,0 +1,1795 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Center of mass and rigid bodies</title>
+  <metadata>
+  <md:content-id>m14120</md:content-id><md:title>Center of mass and rigid bodies</md:title>
+  <md:abstract>Under certain condition, COM of rigid bodies is same as geometric center.</md:abstract>
+  <md:uuid>be7179c0-ec4e-4261-b367-64f344c73263</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">
+Rigid bodies are composed of very small particles which interact with each other via electromagnetic force. They form a continuous distribution of mass. As such, expressions of COM in three coordinate directions involve evaluation of integrals as described in earlier module. This evaluation, however, is rendered difficult on two counts :
+</para>
+<para id="element-2">
+<list id="list-2" list-type="bulleted">
+
+<item> Mass distribution may not be uniform. </item>
+<item> The body shape may be irregular. </item>
+
+</list>
+</para>
+<para id="element-3">The geometry of regularly shaped bodies are defined by mathematical equations. Such is not the case with irregular bodies. However, there is a good thing about center of mass (COM) that it represents the point where external force equivalently applies. This fact allows us to experimentally determine COM of even irregularly shaped bodies. We can balance a body on a pointed wedge. The COM of the body falls on the line of balance. In order to know the COM (a point), however, we need to balance the body with different orientation to get another line of balance. The point of intersection of the two lines of balance is the COM of the body.
+</para>
+<section id="section-1">
+<title> COM of regular bodies with uniform density </title>
+<para id="element-4">
+We are saved from any mathematical calculation in cases of certain regularly shaped bodies with uniform density, which are symmetric to all the axes of the coordinate system involved.  In all such cases, COM is same as geometric center. COMs of a sphere, spherical shell, ring, disc, cylinder, cone, rod, square plate  etc. fall under this category where COM is simply the geometric center of the bodies. 
+</para>
+<para id="element-5">However, there are cases of regular shaped bodies which are not symmetric to three (for three dimensional bodies) or two axes (for planar bodies). For example, consider the case of hemispherical body or the case of semi-circular wire. These bodies are not symmetric to all the axes involved. Here, geometric center and, thus, COM are not obvious. In this section, we shall evaluate COM of such regular shaped bodies, which are not symmetric about all axes of the coordinate system.     
+</para>
+<para id="element-6">Regular bodies allow us to evaluate integrals as geometry is defined. Evaluation of integral is simplified if the mass is evenly distributed. Unless otherwise indicated, we shall consider rigid bodies of uniform density only. Further, some rigid bodies are combination of other regular bodies, whose COMs are known. In that case, we would employ the formula of COM for the system of particles.
+</para>
+<section id="section-1a">
+<title> L shaped rod or wire </title>
+<para id="element-7">
+In this case, we need not resort to integration as L-shaped rod is simply a combination of two rods with known COMs, which can be treated as combination of particles. 
+</para>
+<para id="element-8">
+<figure id="fig-4">
+<title> L shaped rod </title>
+<media id="id1166315125665" alt=""><image src="../../media/cmr1.gif" mime-type="image/gif"/></media>
+<caption> L-shaped rod is a combination of two rods.</caption>
+</figure>
+</para>
+<para id="element-9">Let the origin of the planar coordinate system coincides with the corner of the L-shaped rod. COM of a uniform rod is the middle point of the rod. From the figure, the COM of rod along x-axis is (
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:mn> 0 </m:mn>
+</m:math>
+). 
+On the other hand, COM of rod along y-axis is 
+(
+<m:math>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:math>
+). 
+These rods, therefore, can be considered as particles at these positions. Thus, the L-shaped rod system reduces to the case of two particles system separated by a distance. Let 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ be the mass of two rods respectively. Now, the linear mass density is :
+</para>
+<para id="element-10">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> γ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> 1 </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mi> 1 </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> 2 </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mi> 2 </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+The COM of the L-shaped rod is :
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> γ </m:mi>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mi> γ </m:mi>
+<m:mo> ( </m:mo> 
+
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">
+and similarly,
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> γ </m:mi>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mi> γ </m:mi>
+<m:mo> ( </m:mo> 
+
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-16">It is important to note that the expressions of COM are independent of mass term.
+</para>
+<example id="example-17">
+<para id="element-17"><term>Problem : </term> A thin rod of length 3 m is bent at right angles at a distance 1 m from one end. If 1 m segment lies horizontally, determine the COM of the resulting L-shaped wire structure.
+</para>
+<para id="element-18"><term>Solution : </term> Here 
+<m:math>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1</m:mn>
+</m:msub>
+</m:math>
+ = 1m and 
+<m:math>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+</m:math>
+ = 2 m. The COM of the L - shaped rod is :
+</para>
+<para id="element-19">
+ <m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">
+and
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> l </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-1b">
+<title> Semicircular uniform wire </title>
+ <para id="element-22">
+A semicircular wire is not symmetric to all the axes of the coordinates. The wire is a planar body involving two dimensions (x and y). However, we note that the wire is symmetric about y-axis, but not about x-axis. This has two important implications :
+</para>
+<para id="element-23">
+<list id="list-23" list-type="bulleted">
+<item> COM lies on y - axis (i.e on the axis of symmetry). </item>
+<item> We only need to evaluate "y" coordinate of COM as 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+</m:math>
+ = 0. </item>
+</list>
+</para>
+<para id="element-24">
+Thus, we need to evalute the expression :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> ∫ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">Evaluation of an integral is based on identifying the differential element. The semicircular wire is composed of large numbers of particle like elements, each of mass "ⅆm". The idea of this particle like element of mass "dm" is that its center of mass i.e COM lies at "y" distance from the origin in y-direction. This element is linked to the mass "m" of the wire as :
+</para>
+<para id="element-27">
+<figure id="fig-27">
+<title> Semicircular uniform wire </title>
+<media id="id1166315089895" alt=""><image src="../../media/cmr2.gif" mime-type="image/gif"/></media>
+<caption>  The semicircular wire is composed of large numbers of particles.</caption>
+</figure>
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> γ </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> l </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> l </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+Now, 
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⅆ </m:mo> 
+<m:mi> l </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> π </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+Putting in the integral,
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> ∫ </m:mo> 
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> π </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mi> π </m:mi>
+</m:mfrac>
+<m:mo> ∫ </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+Integrating between θ = 0 and θ = π,
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mi> π </m:mi>
+</m:mfrac>
+<m:mo> [ </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:msubsup>
+<m:mo> ] </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mi> π </m:mi>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mi> π </m:mi>
+</m:mfrac>
+<m:mo> [ </m:mo> 
+<m:mo> - </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> π </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mn> 0 </m:mn>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mi> π </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+The COM of the semicircular wire is 
+(
+<m:math>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mi> π </m:mi>
+</m:mfrac>
+</m:math>
+). 
+</para>
+</section>
+<section id="section-1c">
+<title> Semicircular unifrom thin disc </title>
+<para id="element-37">
+A semicircular disc is not symmetric to all the axes of the coordinates. The thin disc is a planar body involving two dimensions (x and y). However, we note that the disc is symmetric about y-axis, but not about x-axis. This has two important implications :
+</para>
+<para id="element-38">
+<list id="list-38" list-type="bulleted">
+<item> COM lies on y - axis (i.e on the axis of symmetry). </item>
+<item> We only need to evaluate "y" coordinate of COM as 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+</m:math>
+ = 0. </item>
+</list>
+</para>
+<para id="element-39">
+Thus, we need to evaluate the expression :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> ∫ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-41">
+Evaluation of an integral is based on identifying the differential element. The semicircular disc is composed of large numbers of semicircular thin wires. We must be careful in evaluating this integral. The elemental mass "dm" corresponds to a semicirular wire - not a particle as the case before. The term "y" in the integral denotes the distance of the COM of this elemental semicircular wire. 
+The COM of this semi-circular thin wire element is at a distance 2r/Π (as determined earlier)in y-direction.
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> Semicircular uniform disc </title>
+<media id="id1166314706862" alt=""><image src="../../media/cmr3.gif" mime-type="image/gif"/></media>
+<caption>  The semicircular disc is composed of large numbers of semicircular wires.</caption>
+</figure>
+</para>
+<para id="element-43">
+Now,
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mi> π </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> σ </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> A </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> σ </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-538">where "σ" denoted the surface density. It is given by :</para><para id="element-563"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> σ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-45">
+Putting in the integral,
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mi> π </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> σ </m:mo> 
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> σ </m:mo> 
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+Integrating between r = 0 and r = R (radius of the semicircular disc),
+</para>
+<para id="element-48"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> σ </m:mo> 
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> [ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mi> R </m:mi>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> σ </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mo> M </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+The COM of the semicircular disc is 
+(
+<m:math>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:math>
+). 
+</para>
+</section>
+
+ </section> 
+
+<section id="section-2">
+<title> COM rigid bodies with non-uniform density </title>
+<para id="element-50">
+Evaluation of integrals to determine COM of non-uniform rigid bodies may be cumbersome. There are two possibilities :
+</para>
+<para id="element-51">
+<list id="list-51" list-type="enumerated">
+<item> The variation in density is distinctly marked. </item>
+<item> The variation in density is defined in mathematical form. </item>
+</list>
+</para>
+<section id="section-2a">
+<title> Variation in density is distinctly marked </title>
+<para id="element-52">
+If the variation in density is distinctly marked, then it is possible to determine COMs of individual uniform parts. Once COMs of the individual uniform parts are known, we can treat them as particle with their mass at their respective COMs. Thus, non-uniform rigid body is reduced to a system of particles, which renders easily for determination of its COM. This technique is illustrated in the example given here :
+</para>
+<example id="example-53">
+<para id="element-53"><term>Problem : </term> A thin plate (axb) is made up of two equal portions of different surface density of 
+<m:math>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ as shown in the figure. Determine COM of the composite plate in the coordinate system shown.
+</para>
+<para id="element-54">
+<figure id="fig-54">
+<title> Composite system of rigid bodies </title>
+<media id="id1166315048322" alt=""><image src="../../media/cmr4.gif" mime-type="image/gif"/></media>
+<caption>  Thin plate is made up of two equal portions of different surface density.</caption>
+</figure>
+</para>
+<para id="element-55"> <term>Solution : </term>  COM of the first half is at 
+<m:math>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:math>
+ , whereas COM of the second half is at 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:math>
+ from the origin of the coordinate system in x-direction. As x-axis lies at mid point of the height of the plate, y-component of COM is zero. Now two portions are like two particles having masses :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+and
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+Also, the x-coordinates of the positions of these particles are 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:math>
+. The x-component of the COM of two particles system is :
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> σ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-2b">
+<title> Variation in density is defined in mathematical form </title>
+<para id="element-63">
+If the variation in density is well defined, then it is possible to evaluate integral to determine the COM for non-uniform rigid body. The technique is illustrated in the example given here :
+</para>
+<example id="example-64">
+<para id="element-64"><term>Problem : </term>  Linear density of a rod varies with length as γ = 2x + 3. If the length of the rod is "L", then find the COM of the rod.
+</para>
+<para id="element-65"> <term>Solution : </term> The COM of the rod in one dimension is given as :
+</para>
+<para id="element-66">
+<figure id="fig-66">
+<title> COM of a rod with varying density </title>
+<media id="id1166315028831" alt=""><image src="../../media/cmr5.gif" mime-type="image/gif"/></media>
+<caption>  Linear density of a rod varies with length as γ = 2x + 3.</caption>
+</figure>
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> ∫ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+Here,
+</para>
+<para id="element-69">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> γ </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">
+We can use this relation to determine COM as :
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ∫ </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ∫ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> ∫ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ∫ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> ∫ </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-73">
+Evaluating between x = 0 and x = L, we have :
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 9 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 6 </m:mn>
+<m:mo> ( </m:mo>
+<m:mi> L </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+</section>
+
+  </content>
+  
+</document>

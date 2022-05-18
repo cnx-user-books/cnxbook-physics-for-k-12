@@ -1,0 +1,842 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rolling along an incline</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>aad7b8d1-047a-4819-9246-77a481c094c1</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">An incline is an ideal arrangement to realize accelerated rolling motion. Force due to gravity acts through the center of mass of the rolling body. Component of gravity parallel to incline accelerates the body in translation as it goes down  and decelerates the body as it goes up the incline.</para>
+<para id="element-2">We have already discussed the case of force, whose line of action pass through center of mass. For rolling of the body, the friction between rolling body and surface appears such that the condition as laid down by equation of accelerated rolling is satisfied. When a body rolls down, it has linear acceleration in downward direction. The friction, therefore, acts upward to counter sliding tendency as shown in the figure. This friction constitutes an anticlockwise torque providing the corresponding angular acceleration as required for maintaining the condition of rolling (if linear velocity is increasing, then angular velocity should also increase according to equation of accelerated rolling).
+</para>
+<para id="element-3">
+<figure id="fig-3"><title> Rolling down an incline </title>
+<media id="idp3793936" alt=""><image src="../../media/ri1.gif" mime-type="image/gif"/></media>
+<caption> The static friction acts up the incline. </caption>
+</figure>
+</para>
+<para id="element-4">Friction here plays a dual role :
+</para>
+
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> It decelerates translational motion.
+ </item>
+<item> It accelerates rotational motion.
+ </item>
+</list>
+</para>
+<para id="element-6">
+As the body rolls down, linear velocity increases with time such that its angular velocity also increases simultaneously in accordance with equation of rolling,
+</para>
+<para id="element-7">
+<equation id="equation-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<para id="element-7a">
+The linear acceleration of the COM of the rolling body is equal to the component of acceleration due to gravity in x direction,
+</para>
+<para id="element-8">
+<equation id="equation-8"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-9">The fact that accelerations are constant has important implications. The motions (translational and rotational) of rolling body along an incline can be described by the constant acceleration kinematics i.e. by the equations of accelerated motion.
+</para>
+
+
+
+<section id="section-1">
+<title> Analysis of rolling along an incline  
+</title>
+<para id="element-10">
+The analysis of rolling involves applying Newton’s second law for both translational and rotational motion and using equation of accelerated rolling. First of all, we select an appropriate pair of rectangular coordinates such that motion is along the positive direction of the x-coordinate. The various forces acting on the rolling disk are :
+</para>
+<para id="element-11">
+<figure id="fig-11"><title> Rolling down an incline </title>
+<media id="idm162976" alt=""><image src="../../media/ri1.gif" mime-type="image/gif"/></media>
+<caption>  Forces acting on the rolling disk.</caption>
+</figure>
+</para>
+<para id="element-12">
+<list id="list-12" list-type="enumerated"><item> Force of gravity, Mg, acting downward.
+ </item>
+<item> Normal force, N, perpendicular to the incline in y-direction. </item>
+<item> Static friction, 
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+,  acting upward. </item>
+</list>
+</para>
+<para id="element-14">
+The force/ force components are acting in mutually perpendicular directions. As such, we can analyze motion in x-direction independently. 
+</para>
+<para id="element-15">
+Thus, confining force analysis in x-direction, we apply Newton's law of motion for linear motion as  :
+</para>
+<para id="element-16">
+<equation id="equation-16"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> Mg </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-17">
+Similarly, we apply Newton's law for rotation :
+</para>
+<para id="element-18"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+We note here that force due to gravity and normal force pass through the center of mass. As such, they do not constitute torque on the rolling disk. It is only the friction that applies torque on the disk, which is given as :
+</para>
+<para id="element-20">
+<equation id="equation-20"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-21">
+At this stage, we can make use of third equation that connects linear and angular accelerations for rolling without sliding :
+</para>
+<para id="element-22">
+<equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-23">
+Combining equations 4 and 5,
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> I </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+Substituting the expression of friction as above in the equation – 3,
+</para>
+<para id="element-26"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> Mg </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> I </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> Mg </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+<equation id="equation-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-28">We can use this expression to find linear acceleration (hence angular acceleration also) for circular rolling bodies like ring, disk, cylinder and sphere etc. We only need to use appropriate expression of moment of inertia as the case may be.
+</para>
+
+
+<example id="example-29">
+<para id="element-29"><term>Problem : </term> A block and a circular body are released from the same height of two identical inclines. The block slides down the incline, whereas circular body rolls down the incline. If acceleration of circular body is 
+<m:math>
+<m:msup>
+<m:mrow>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mi> rd </m:mi>
+</m:mrow>
+</m:msup>
+</m:math>
+ that of the block, then identify the circular body.
+</para>
+<para id="element-30"> <term>Solution : </term> The block slides down the incline without rotating. Its acceleration is :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-33">
+The circular body rolls down the incline without sliding. Its acceleration is :
+</para>
+<para id="element-34"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+According to question,
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+This is MI of either a disk or a solid cylinder. Thus, the circular body in question is either of the two.
+</para>
+</example>
+<para id="element-41">There is a caveat in the sign of the acceleration of rolling body down the incline. If we choose the orientation of x - coordinate is opposite direction to the one above, then the acceleration of the rolling body is given by the same expression, but with a negative sign preceding it :
+</para>
+<para id="element-42">
+<figure id="fig-42"><title> Rolling down an incline </title>
+<media id="idm310752" alt=""><image src="../../media/ri2.gif" mime-type="image/gif"/></media>
+<caption>  Changing reference direction.</caption>
+</figure>
+</para>
+<para id="element-43"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">The sign of the quantities should not be a source of concern. We should merely stick with the sign convention and choice of coordinate system. Negative sign essentially, though a source of confusion,  does not ever change the physical meaning of the quantities in kinematics. 
+</para>
+
+<example id="example-45">
+<para id="element-45"><term>Problem : </term> A ring, a disk, a solid cylinder and a solid sphere of same mass and radius roll down an incline simultaneously. Which of these will the reach the bottom first? Rank them in the order they reach the bottom.
+</para>
+<para id="element-46"><term>Solution : </term> The object with maximum acceleration will reach the bottom first. Now, acceleration of the rolling object is given by the following equation,
+</para>
+
+<para id="element-48"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">From the equation, it is clear that the object with smaller moment of inertia (I) will have greater translational acceleration. Now, MI of different objects of same mass and radius are as given here :
+</para>
+<para id="element-50"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> ring </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> disk/cyliner </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> solid </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.4 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">Thus, solid sphere with minimum moment of inertia will reach the bottom first, followed by disk and cylinder. The ring will be the last to reach the bottom.
+</para>
+</example>
+
+</section>
+<section id="section-2">
+<title> Summary </title>
+<para id="element-52">
+<term>1: </term> External force due to gravity on a rolling body acts through center of mass.
+</para>
+<para id="element-53">
+<term>2: </term> The component of gravity parallel to incline causes rolling body to slide down.
+</para>
+<para id="element-54">
+<term>3: </term> Friction acts opposite to the component of gravity parallel to incline.
+</para>
+<para id="element-55">
+<term>4: </term> The acceleration of the center of mass of the rolling body on an incline is given by :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+
+ 
+  </content>
+  
+</document>

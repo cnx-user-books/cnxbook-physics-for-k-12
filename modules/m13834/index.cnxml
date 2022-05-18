@@ -1,0 +1,1067 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Accelerated motion in one dimension</title>
+  <metadata>
+  <md:content-id>m13834</md:content-id><md:title>Accelerated motion in one dimension</md:title>
+  <md:abstract>The nature of acceleration is determined by the net external force for constant mass system. Depending on the nature of force, there exists wide range of possibilities like zero, constant or varying accelerations in one dimensional motion.</md:abstract>
+  <md:uuid>3c912190-28aa-4926-9780-1f6a7b6725b1</md:uuid>
+</metadata>
+
+<content>
+
+
+
+<para id="element-878">Motion in one dimension is the basic component of all motion. A general three dimensional motion is equivalent to a system of three linear motion along three axes of a rectangular coordinate system. Thus, study of  one dimensional accelerated motion forms the building block for studying accelerated motion in general. The basic defining diferential equations for velocity and acceleration retain the form in terms of displacement and position, except that they consist of displacement or position component along a particular direction. In terms of represntation, position vector <term>r</term> is replaced with x<term>i</term> or y<term>j</term> or z<term>k</term> in accordance with the direction of motion considered.      </para><para id="element-200">
+The defining equations of velocity and acceleration, in terms of position, for one dimensional motion are (say in x-direction) :
+</para>
+
+<para id="element-201">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-202">
+and
+
+</para>
+
+<para id="element-203">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-11">Only possible change of direction in one dimensional motion is reversal of motion. Hence, we can define velocity and acceleration in a particular direction, say x - direction, with equivalent scalar system, in which positive and negative values of scalar quantities defining motion represent the two possible direction. 
+</para>
+
+<para id="element-13">The corresponding scalar form of the defining equations of velocity and acceleration for one dimensional motion are :
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+and
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+It must be clearly understood that the scalar forms are completely equivalent to vector forms. In the scalar form, the sign of various quantities describing motion serves to represent direction.
+</para>
+<example id="example-1">
+<para id="element-19">
+<term>Problem : </term> The displacement of a particle along x – axis is given by :
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-21">
+Find the velocity when acceleration is zero.
+</para>
+
+<para id="element-22">
+<term>Solution : </term> Here, displacement is :
+</para>
+
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">We obtain expression for velocity by differentiating the expression of displacement with respect to time,
+</para>
+
+
+
+
+
+
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26a">Similarly, we obtain expression for acceleration by differentiating the expression of velocity with respect to time,
+</para>
+
+<para id="element-26b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 6 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-26">Note that acceleration is a function of time "t" and is not constant. For acceleration, a = 0,
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 6 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-28">
+Putting this value of time in the expression of velocity, we have :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mo> t </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> m </m:mo>
+<m:mo> / </m:mo>
+<m:mo> s </m:mo>
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+<section id="section-4">
+<title> Nature of acceleration in one dimensional motion </title>
+<para id="element-88">One dimensional motion results from the action of net external force that applies along the direction of motion. It is a requirement for motion to be in one dimension. In case, force and velocity are at certain angle to each other, then there is sideway deflection of the object and the resulting motion is no more in one dimension. 
+</para>
+<para id="element-89">If velocity and force are in the same direction, then magnitude of velocity increases; If velocity and force are in the opposite direction, then magnitude of velocity decreases. 
+</para>
+
+<para id="element-721">The valid combination (i and ii)and invalid combination (iii)  of velocity and acceleration for one dimensional motion are shown in the figure.</para><para id="element-91">
+<figure id="fig91">
+<title> Acceleration – time plot </title>
+<media id="id1171283882746" alt=""><image src="../../media/cap10a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-330">The requirement of one dimensional motion characterizes the nature of acceleration involved. The acceleration may vary in magnitude only. No sideway directional change in acceleration of the motion is possible for a given external force. We must emphasize that there may be reversal of motion i.e. velocity even without any directional change in acceleration. A projectile, thrown up in vertical direction, for example, returns to ground with motion reversed at the maximum height, but acceleration at all time during the motion is directed downwards and there is no change in the direction of acceleration.  </para><para id="element-105"><figure id="fig-105">
+<title>  Motion under gravity  </title>
+<media id="id1171278363652" alt=""><image src="../../media/cap11.gif" mime-type="image/gif"/></media>
+</figure>
+</para><para id="element-92">In mathematical parlance, if <term>v</term> = A<term>i</term>, then <term>a</term> = B<term>i</term>, where A and B are positive or negative numbers. For one dimensional motion, no other combination of unit vectors is possible. For example, acceleration can not be <term>a</term> = B<term>j</term> or <term>a</term> = B(<term>i</term> + <term>j</term>).
+</para><para id="element-299">We summarize the discussion as :</para><para id="element-380"><list id="list-380" list-type="bulleted"><item> The velocity and force (hence acceleration) are directed along a straight line.
+ </item>
+<item> For a given external force, the direction of acceleration remains unchanged in one dimension.
+</item>
+
+</list>
+</para>
+</section>
+
+<section id="section-1">
+<title> Graphs of one dimensional motion </title>
+<para id="element-30"> Graphs are signature of motion. Here, we shall discuss broad categories of motion types in terms of acceleration and velocity. 
+</para>
+
+<section id="section-1a">
+<title> Acceleration – time plot </title>
+<para id="element-33">Acceleration can be zero, constant or varying, depending upon the net external force and mass of the body. It is imperative that a single motion such as the motion of a car on the road may involve all kinds of variations in acceleration. A representation of an arbitrary real time acceleration - time variation may look like :</para>
+<para id="element-34">
+<figure id="fig34">
+<title> Acceleration – time plot </title>
+<media id="id1171280063578" alt=""><image src="../../media/cap1a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-35">We can interpret this plot if we know the direction of velocity. We consider that positive direction of velocity is same as that of acceleration. Section, A, in the figure, represents constant acceleration. Section B represents an increasing magnitude of acceleration, whereas section C represents a decreasing magnitude of acceleration. Nonetheless,  all of these accelerations result in the increase of speed with time as both velocity and acceleration are positive (hence in the same direction). The section E, however, represents deceleration as velocity (positive) and acceleration (negative) are in opposite direction. There is no acceleration during motion corresponding to section D. This section represents uniform motion.
+</para>
+<para id="element-35a"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> For section A :  Constant acceleration :  </m:mtext>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mtext>Constant</m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> For section B and C :  Positive acceleration :  </m:mtext>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> &gt; </m:mo>
+<m:mtext>0</m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> For section D :  Zero acceleration :  </m:mtext>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mtext>0</m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> For section E :  Negative acceleration :  </m:mtext>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> &lt; </m:mo>
+<m:mtext>0</m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<section id="section-1aa">
+<title>  Area under acceleration - time plot  </title>
+<para id="element-37">
+We know that :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+Integrating both sides, we have :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+Thus, areas under acceleration – time plot gives the change in velocity in a given interval.
+</para>
+
+</section>
+</section>
+
+<section id="section-2">
+<title>  Velocity – time plot </title>
+<para id="element-42">Here, we discuss velocity – time plot for various scenarios of motion in one dimension :
+</para>
+<para id="element-43">
+<term>1: Acceleration is zero  </term> 
+</para>
+<para id="element-44">
+If acceleration is zero, then velocity remains constant. As such the velocity time plot is a straight line parallel to time axis.
+</para>
+<para id="element-44a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mrow>
+
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mo> = </m:mo>
+<m:mtext>Constant</m:mtext>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">
+<figure id="fig45">
+<title> Velocity – time plot </title>
+<media id="id1171289738840" alt=""><image src="../../media/cap2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-46">
+<term>2: Acceleration is constant </term>
+</para>
+<para id="element-47">Constant acceleration means that instantaneous acceleration at all points during motion is same. It, therefore, implies that instantaneous acceleration at any time instant and average acceleration in any time interval during motion are equal.
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">Velocity of the object under motion changes by an equal value in equal time interval. It implies that the velocity – time plot for constant acceleration should be a straight line. Here,
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> constant </m:mi>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">
+Integrating both sides,
+</para>
+<para id="element-52"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mi> u </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">This is a linear equation in time “t” representing a straight line, where “a” is acceleration and is equal to the slope of the straight line and "u" is the intercept on velocity axis, representing velocity at t = 0. The plot of velocity with respect to time, therefore, is a straight line as shown in the figure here. 
+</para>
+<para id="element-54">
+<figure id="fig54">
+<title> Velocity – time plot </title>
+<media id="id1171289673225" alt=""><image src="../../media/cap3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-55">For constant deceleration, the velocity – time plot has negative slope. Here, speed decreases with the passage of time :
+</para>
+<para id="element-56">
+<figure id="fig56">
+<title> Velocity – time plot </title>
+<media id="id1171283989376" alt=""><image src="../../media/cap4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<example id="example-2">
+<para id="element-57">
+<term>Problem : </term> A velocity – time plot describing motion of a particle in one dimension is shown in the figure.
+</para>
+<para id="element-58">
+<figure id="fig58">
+<title> Velocity – time plot </title>
+<media id="id1171278682892" alt=""><image src="../../media/cap5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-59">Determine (i) Whether the direction of velocity is reversed during motion? (ii) Does the particle stop? (iii) Does the motion involve deceleration and (iv) Is the acceleration constant?
+</para>
+<para id="element-60"><term>Solution : </term> (i) We see that velocity in the beginning is negative and changes to positive after some time. Hence, there is reversal of the direction of motion.
+</para>
+<para id="element-476">(ii) Yes. Velocity of the particle becomes zero at a particular time,  when plot crosses time axis. This observation indicates an interesting aspect of reversal of direction of motion (i.e. velocity): A reversal of direction of a motion requires that the particle is stopped before the direction is reversed. </para>
+<para id="element-807">(iii) Yes. Occurance of decelration is determined by comparing directions of velocity and acceleration. In the period before the particle comes to rest, velocity is negative, wheras acceleration is always positive with respect to the positive direction of velocity (slope of the line is positive on velocity -time plot). Thus, velocity and acceleration are in opposite direction for this part of motion and is decelerated. Further, it is also seen that speed of the particle is decreasing in this period.</para><para id="element-61a">(iv) The plot is straight line with a constant slope. Thus, motion is under constant acceleration.
+</para>
+
+
+</example>
+<para id="element-62"><term>3: The magnitude of acceleration is increasing </term>
+</para>
+<para id="element-63">Since slope of velocity – time curve is equal to the acceleration at that instant, it is expected that velocity – time plot should be a curve, whose slope increases with time as shown in the figure.
+</para>
+<para id="element-64">
+<figure id="fig64">
+<title> Velocity – time plot </title>
+<media id="id1171283884104" alt=""><image src="../../media/cap6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-65">
+Here, 
+</para>
+<para id="element-66"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67"><term>4: The magnitude of acceleration is decreasing </term>
+</para>
+<para id="element-68">
+The velocity – time plot should be a curve, whose slope decreases with time as shown in the figure here : 
+</para>
+<para id="element-69">
+<figure id="fig69">
+<title> Velocity – time plot </title>
+<media id="id1423993" alt=""><image src="../../media/cap7.gif" mime-type="image/gif"/></media>
+</figure></para>
+<para id="element-70">
+Here, 
+</para>
+<para id="element-71"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<example id="example-3">
+<para id="element-72">
+<term>Problem : </term> A person walks with a velocity given by |t – 2| along a straight line. Find the distance and displacement for the motion in the first 4 seconds. What are the average velocity and acceleration in this period? Discuss the nature of acceleration.
+</para>
+<para id="element-73"><term>Solution : </term> Here, velocity is equal to the modulus of a function in time. It means that velocity is always positive. The representative values at the end of every second in the interval of 4 seconds are tabulated as below :</para>
+<para id="element-939"><code id="id1171289623530" display="block">
+----------------------------
+Time (s)      Velocity (m/s)
+----------------------------
+   0	          2
+   1	          1
+   2	          0
+   3	          1
+   4	          2
+----------------------------
+</code>	
+</para><para id="element-365">An inspection of the values in the table reveals that velocity linearly decreases for the first 2 second from 2 m/s to zero. It, then, increases from zero to 2 m/s. In order to obtain distance and displacement, we draw the plot between displacement and time as shown.
+</para><para id="element-74">
+<figure id="fig74">
+<title> Velocity – time plot </title>
+<media id="id1171282630367" alt=""><image src="../../media/cap8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-75">
+Now, area under the plot gives displacement. 
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Displacement  </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> OAB  </m:mi>
+<m:mo> + </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> BCD  </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> Displacement  </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mi> OB  </m:mi>
+<m:mo> x </m:mo>
+<m:mi> OA  </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mi> BD  </m:mi>
+<m:mo> x </m:mo>
+<m:mi> CD  </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> Displacement  </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m  </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">We see that velocity does not change its sign. Thus, motion is unidirectional apart from being rectilinear. As such, distance is equal to displacement and is also 4 m. 
+</para>
+<para id="element-78">
+Now, average velocity is given by :
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> avg </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> Displacement  </m:mi>
+<m:mi> Time  </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m  </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s  </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">
+Similarly, average acceleration during the motion is :
+</para>
+<para id="element-81"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> avg </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> v  </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t  </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 0 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">Though average acceleration is zero, the instantaneous acceleration of the motion during whole period is not constant as the velocity – time plot is not a single straight line. An inspection of the plot reveals that velocity – time has two line segments AB and BC, each of which separately represents constant acceleration.  
+</para>
+<para id="element-83">Magnitude of constant acceleration (instantaneous) in the first part of the motion is equal to the slope of the displacement – time plot AB :
+</para>
+<para id="element-84"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> AB </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> AO  </m:mi>
+<m:mi> OB  </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> -2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85">Similarly, acceleration in the second part of the motion is :
+</para>
+<para id="element-86"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> AB </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> DC  </m:mi>
+<m:mi> BD  </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-87">Thus, the acceleration of the motion is negative for the first part of motion and positive for the second of motion with respect to velocity on velocity-time plot. We can, therefore, conclude that acceleration is not constant. 
+</para>
+
+</example>
+
+</section>
+
+</section>
+
+
+  
+  </content>
+  
+</document>

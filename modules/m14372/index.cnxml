@@ -1,0 +1,905 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rolling as pure rotation</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14372</md:content-id>
+  <md:title>Rolling as pure rotation</md:title>
+  <md:abstract>Rolling motion is equivalent to pure rotation about the axis at the point of contact, which is parallel to central axis.</md:abstract>
+  <md:uuid>a559c9b2-43a6-422c-8dce-08415cf6aaac</md:uuid>
+</metadata>
+  <content>
+<para id="element-1"> The pure rolling is a combination of pure rotation and translation. Obviously, it can not be termed as pure rotation as far as the actual motion is concerned. We can, however, exploit the fact that the disk in rolling is actually rotating at any given instant - not over a period but for an instant. This enables us with a very powerful alternative technique to analyze rolling motion. 
+
+</para>
+<para id="element-2"> The alternative consideration assumes rotation about an axis passing through the point of contact and perpendicular to the plane of rotating disk. Each particle can be considered to rotate about the axis instantaneously i.e. at a particular instant. Clearly, this is an equivalent analysis paradigm that gives the same result as when rolling motion is considered as combination of rotation and translation. 
+</para>
+<para id="element-2c"> 
+<figure id="fig-2c"><title> Rolling motion as pure rotation </title>
+<media id="id45735142" alt=""><image src="../../media/rm5a.gif" mime-type="image/gif"/></media>
+<caption> Each particle of the body can be considered to rotate about the axis through the contact point with same angular velocity.  </caption>
+</figure>
+</para>
+
+<para id="element-2b">Under this alternative analysis framework, the angular velocities of all particles about this instantaneously stationary axis are considered same. Importantly, this unique angular velocity is equal to angular velocity of rolling (ω). Depending on the linear distance of the particles from the contact point, their linear velocity vary. This alternative framework is consistent with the fact that linear velocities of the particles away from the point of contact are indeed greater as worked out in previous module titled "<link document="m14311"> Rolling motion </link>".
+</para>
+<para id="element-2d"> 
+<figure id="fig-2d"><title> Rolling motion as pure rotation </title>
+<media id="id45733807" alt=""><image src="../../media/rm6a.gif" mime-type="image/gif"/></media>
+<caption> The particles of the body away from the contact point moves with increasing speed.  </caption>
+</figure>
+</para>
+<section id="section-1">
+<title> Equivalence of pure rolling
+</title>
+
+<para id="element-3">The most important aspect of the equivalence of analysis frameworks, as described earlier, is that rolling motion, which is a combination of pure translation and rotation in physical sense, is described in terms of pure rotation only for the analysis of the motion. In this analysis, we do not need to consider translation at all, as if the rolling body were stationary. 
+</para>
+<para id="element-4">
+In the nutshell, the equivalent description of rolling in terms of pure rolling has following important considerations :
+</para>
+<para id="element-5">
+1. The axis of rotation through contact point is parallel to central axis. This axis is instantaneously at rest and is also referred as "Instantaneous axis of rotation (IAOR)" 
+</para>
+<para id="element-6">
+2. Each particle of the body is rotating about IAOR with an angular velocity given by :
+</para>
+<para id="element-7">
+<equation id="equation-7"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-8">where "<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>" is the linear velocity of center of mass and "R" is the radius of the disk. 
+</para>
+<para id="element-9">
+3. The linear velocity of any of the position within the rotating disk is obtained by using the relation,
+</para>
+
+<para id="element-10">
+<equation id="equation-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-11">The vector notation of the relation above is important. It emphasizes that the linear velocity is directed such that it is perpendicular to both angular velocity vector (<term>ω</term>) and position vector (<term>r</term>). In the figure below, the vector <term>ω</term> is into the plane of figure i.e. angular velocity vector is perpendicular to xy-plane. The velocity vector being perpendicular to angular velocity vector, therefore, lies in xy-plane. Further, the velocity vector is perpendicular to the positions vector drawn from the point of contact. Note that this is the requirement of pure rotation. The linear velocity should be tangential to the circular path of the particle about the axis in pure rotation. </para>
+<para id="element-12"> 
+<figure id="fig-12"><title> Rolling motion </title>
+<media id="id45708151" alt=""><image src="../../media/rm1a.gif" mime-type="image/gif"/></media>
+<caption> The linear velocity is tangential to the circular path of the particle about the instantaneous axis.  </caption>
+</figure>
+</para>
+
+<para id="element-14">We must note that all velocity vectors are drawn perpendicular to position vectors, which are drawn from the point of contact "A". The magnitude of the velocity is given by :
+</para>
+
+<para id="element-15">
+<equation id="equation-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 90 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-16">where "r" is the linear distance of the position from the point of contact and "ω" is the angular velocity about the new axis through the point of contact or the axis through center of mass. 
+</para>
+
+<para id="element-17">We can validate the assumption of rolling as pure rotation by calculating velocities of some of the positions (A,B,C,D and E) on the rim of the rotating disk. 
+</para>
+<para id="element-18"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> x </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> x </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> x </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> E </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> x </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+
+
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">These results are same as obtained by considering pure rolling motion equivalent to the combination of pure rotation and pure translation. As such, the equivalence of pure rolling as pure rotation about an axis through the point of contact and perpendicular to the plane of rotating disk is indeed true. It is also evident from the calculation details that this approach of analyzing rolling motion is simpler than the earlier approach as far as calculation of linear velocities of different positions within the rotating disk is concerned.</para>
+
+<para id="element-20">For calculating velocities of the positions on the rim of the rotating disk, there is a convenient trigonometric relation that can be used with ease. We consider a position on the rim of the disk making an angle θ with the vertical at the point of contact. The base of the triangle AB is the diameter of the circle. As such the angle ADB is a right angle (angle subtended by diameter on the circumference is right angle).
+</para>
+<para id="element-21">
+<figure id="fig-21"><title> Rolling motion </title>
+<media id="id45726808" alt=""><image src="../../media/rm2a.gif" mime-type="image/gif"/></media>
+<caption> The ring rolls with constant velocity. </caption>
+</figure>
+</para>
+<para id="element-22"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> AD </m:mi>
+<m:mi> AB </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> AD </m:mi>
+<m:mi> 2R </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> AD </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> 2R </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">
+The linear velocity of the particle at the rim of the rotating disk, therefore, is :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> 2R </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-25"><equation id="equation-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<example id="example-26">
+<para id="element-26"><term>Problem : </term> A ring rolls on a horizontal plane with a constant velocity, "v". Find the speed of a particle on the ring, making an angle "θ" with the center as shown in the figure.
+</para>
+<para id="element-27">
+<figure id="fig-27"><title> Rolling motion </title>
+<media id="id45698363" alt=""><image src="../../media/rm3a-c7e4.gif" mime-type="image/gif"/></media>
+<caption> The ring rolls with constant velocity. </caption>
+</figure>
+</para>
+<para id="element-28"> <term>Solution : </term> We can not apply the formula as derived earlier directly. Here, the given angle is at the center of the ring and not at the point of contact as needed to use the formula directly. Now, the linear velocity of the particle is given as :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> r </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+In order to find "r" i.e. "AB", we drop a perpendicular from the center of the circle. 
+</para>
+<para id="element-31">
+<figure id="fig-32"><title> Rolling motion </title>
+<media id="id45138543" alt=""><image src="../../media/rm4a.gif" mime-type="image/gif"/></media>
+<caption> The ring rolls with constant velocity. </caption>
+</figure>
+</para>
+<para id="element-33">In the right angle ACD, we have :
+</para>
+<para id="element-34"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> AD </m:mi>
+<m:mo> = </m:mo>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> AB </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:mi> AD </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+Putting this expression for "r" in the equation :
+</para>
+<para id="element-36"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> AB </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> 2 </m:mi>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">But, we know that "ωR" equals speed of the center of mass. 
+</para>
+<para id="element-38"><equation id="equation-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para><para id="element-575">As given in the question, the speed of the center of mass is "v". Hence,</para><para id="element-944"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<section id="section-1a">
+<title> Kinetic energy of rolling disk
+</title>
+<para id="element-39">
+We can determine kinetic energy of the rolling disk, considering it to be the pure rotation about an axis passing through point of contact and plane of disk. Mathematically,
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+where "
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+" is the moment of inertia of the disk about new axis. Now, using theorem of parallel axes, we have :
+</para>
+<para id="element-42"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mo> M </m:mo>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+where "I" is moment of inertia about an axis passing through center of mass and perpendicular to the plane of rotating disk. Putting in the equation of kinetic energy, we have :
+</para>
+<para id="element-43a">
+<equation id="equation-43a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mo> M </m:mo>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> M </m:mo>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> M </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-45">This result is same as that obtained by considering rolling as combined motion of pure rotation and pure translation. It again emphasizes the correctness of the original assumption that rolling can be treated as pure rotation about an axis through point of contact and perpendicular to the plane of disk.
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title> Summary </title>
+<para id="element-46">
+<term>1.</term> Pure rolling is equivalent to pure rotation about an axis through point of contact and parallel to central axis.
+</para>
+<para id="element-47">
+<term>2.</term> The axis of rotation passing through point of contact and parallel to axis of rotation is instantaneously at rest and is known as “Instantaneous axis of rotation (IAOR)”. 
+</para>
+<para id="element-48">
+<term> 3.</term> The particles rotate about instantaneous axis of rotation with same angular velocity, which is given by :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+<term> 4.</term>  The linear velocity of any of the position within the rotating disk is obtained by using the relation,
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+where “<term>r</term>” is the position vector drawn from instantaneous axis of rotation. 
+</para>
+<para id="element-53">
+<term> 5.</term> The magnitude of linear velocity i.e. speed of the particle is :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-620">where "r" is the linear distance of the particle from the point of contact. We must know that angular velocity vector and position vector are perpendicular to each other. As such, the "sinθ" term in the magnitude of a vector product always evaluates to "1".</para><para id="element-55">
+<term> 6.</term> The velocity is tangential to the circular path i.e. perpendicular to position vector.
+</para>
+<para id="element-789"><term>7.</term> The speed of a particle, which makes an angle "θ" with the vertical on the circumference (i.e circular path) is given by :</para><para id="element-118"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-463"><term>8.</term> The speed of a particle, which makes an angle "θ" with the vertical at the center of mass is given by :</para><para id="element-751"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-56"><term> 9.</term> The kinetic energy of the rolling is given by :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> M </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+  
+  </content>
+  
+</document>

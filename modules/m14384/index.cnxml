@@ -1,0 +1,487 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Understanding rolling motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>69765fb7-47d2-4de0-bac3-e2dd2f9cacb2</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Essentials of pure rolling motion are no different than that of pure translational and rotational motions, except that these two basic forms of motions occur simultaneously. A clear understanding of the two basic motion forms, therefore, is a perquisite for a clear understanding of pure rolling motion (referred simply as rolling also). 
+</para>
+<para id="element-2">
+There are two distinct framework associated with the study of rolling motion :
+</para>
+<para id="element-3">
+<list id="list-3" list-type="bulleted">
+<item> Uniform rolling
+</item>
+<item> Accelerated rolling
+ </item>
+</list>
+</para>
+
+
+<section id="section-1">
+<title> Independence of analysis
+</title>
+
+<para id="element-6">
+Rolling, being combination of translation and rotation, involves two “causes”, which might change its velocity. Two causes act to produce “effects” independently, but in tandem to satisfy the condition of rolling (we shall subsequently derive this condition in the module).
+</para>
+<para id="element-7">A net force causes acceleration of the center of mass of the rigid body. A rolling motion involves rigid body of finite size and, therefore, its translation should always be referred to the center of mass. Further, when we consider the effect of force, we treat translation as if the rigid body were not rotating at all.     
+</para>
+<para id="element-8">
+<figure orient="horizontal" id="fig-8"><title> Independence of analysis </title>
+<subfigure id="fig-8a">
+<media id="idm1751328" alt=""><image src="../../media/ur1.gif" mime-type="image/gif"/></media>
+<caption> Forces are analyzed as if rigid body were not rotating at all. </caption>
+</subfigure>
+<subfigure id="fig-8b">
+<media id="idm3680176" alt=""><image src="../../media/ur2.gif" mime-type="image/gif"/></media>
+<caption> Torques are analyzed as if rigid body were not translating at all. </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-9">Similarly, a net torque causes rotational acceleration of the rigid body about its central axis passing through center of mass. When we consider the effect of torque, we treat rotation as if the axis of rotation were not translating at all.     
+</para>
+<para id="element-10">In simple words, the analysis of rolling can be done independently for two motions types as if other motion did not exist. This independence of analysis of motion allows us to apply the familiar laws of motion for analyzing each motion types. We are required only to combine the results to describe rolling motion.  
+</para>
+</section>
+
+<section id="section-2">
+<title> Force and torque
+</title>
+
+
+<para id="element-11">
+Treatment of force with respect to a rigid body capable of both translation and rotation is different than the case when only one type of motion is involved (i.e. not the combination). In pure translation along a straight line, the rigid body is constrained (or otherwise) not to rotate; similarly in pure rotation about a fixed axis, the rigid body is constrained not to translate. 
+</para>
+<para id="element-12">
+A force, whose line of action passes through center of mass, is capable to produce only translational acceleration (
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+). A force, whose line of action does not pass through center of mass, works as “force” to produce translational acceleration (
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+) and simultaneously as “torque” to produce angular acceleration (α). 
+</para>
+<para id="element-14">
+<figure orient="horizontal" id="fig-14"><title> Force and torque </title>
+<subfigure id="fig-14a">
+<media id="idm10512320" alt=""><image src="../../media/ur3.gif" mime-type="image/gif"/></media>
+<caption> A force through the COM only produces linear acceleration. </caption>
+</subfigure>
+<subfigure id="fig-14b">
+<media id="idm11865168" alt=""><image src="../../media/ur4a.gif" mime-type="image/gif"/></media>
+<caption> A force not through the COM produces both linear and angular accelerations.  </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-15">Since there may be multiple effects (more than one) of a single force, it is always desirable to clearly understand the roles of the forces operating on the rolling body to accurately analyze its motion.
+</para>
+
+</section>
+
+<section id="section-3">
+<title> Rolling and Newton’s first law
+</title>
+
+<para id="element-16">
+A pure rolling is equivalent to pure translation and pure rotation. It, therefore, follows that a uniform rolling (i.e. rolling with constant velocity) is equivalent to uniform translation (constant linear velocity) and uniform rotation (constant angular velocity). 
+</para>
+<para id="element-17">
+According to Newton’s first law for translation, if net external force is zero, then translation of the object i.e. linear velocity remains same. Similarly, according to Newton’s first law for rotation, if net external torque is zero, then rotation of the object i.e. angular velocity remains same. It means, then, that a body in uniform rolling motion shall roll with the same velocity. 
+</para>
+<para id="element-18">
+Note here that when we say that a body is rolling with a constant velocity, then we implicitly mean that it is translating at constant linear velocity and rotating at constant angular velocity. It is so because two motions are tied to each other with the following relation,
+</para>
+<para id="element-19">
+<equation id="equation-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-20">
+We had difficulty to visualize a real time situation to verify Newton’s first law in translation or rotation, as it was difficult to realize a “force – free” environment. However, we reconciled to the Newton’s first law as we experienced that a body actually moved a longer distance on a smooth surface and a body rotated longer without any external aid about an axle having negligible friction and resistance. In the case of rolling also, we need to extend visualization for the condition of rolling when neither there is net force nor there is net torque.
+</para>
+<para id="element-21">One such possible set up could be a smooth horizontal plane. If a rolling body is transitioned (i.e. released) on a smooth plane with pure rolling at certain velocity, then the body will keep rolling with same velocity. This statement, if we agree, can be construed to be the statement of Newton’s first law for pure rolling motion.
+</para>
+</section>
+
+<section id="section-4">
+<title> Uniform rolling 
+</title>
+
+<para id="element-22">The similarity of uniform rolling in the absence of external force and torque to its constituent motion ends in the real time situation. There is a surprising aspect of rolling motion on a surface (which is not friction-less) : “Friction for uniform rolling (i.e. at constant velocity) on a surface is zero”. This is a special or characterizing feature of uniform rolling motion. This feature distinguishes this motion from either translation or rotation. For, we know that surface friction decelerates translation and rotation of a body. The rolling is exceptional in this regard.
+</para>
+<para id="element-23">
+We explain the situation in two ways. First, we shall revert to the definition of pure rolling. The motion of pure rolling is characterized by absence of sliding. Friction, on the other hand, comes in the picture only when there is sliding i.e. there is relative displacement of two surfaces. Here, there is only a point (not a surface) in contact with the surface, which is continuously being replaced by neighboring particles on the rim of the rolling body. Thus, there is no friction as there is no sliding of surfaces over one another.
+</para>
+<para id="element-24">In yet another way, we can think opposite and analyze the situation. Let a force of friction (contrary to the situation) operates on the body in a direction opposite to the motion as shown in the figure below on the left. This friction  decelerates translation. At the same time, friction constitutes a torque about center of mass. This torque accelerates rotation of the rigid body about the axis of rotation. This means that linear velocity decreases, whereas angular velocity increases. This contradicts the equation of rolling motion given by :
+</para>
+<para id="element-25">
+<figure orient="horizontal" id="fig-25">
+<title> Uniform rolling </title>
+<subfigure id="fig-25a">
+<media id="idm535344" alt=""><image src="../../media/ur5.gif" mime-type="image/gif"/></media>
+<caption> Imagine a friction force as shown. </caption>
+</subfigure>
+<subfigure id="fig-25b">
+<media id="idm2669008" alt=""><image src="../../media/ur6.gif" mime-type="image/gif"/></media>
+<caption> Imagine a friction force as shown. </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-374">Looking at the motion of rolling (without sliding), it is easy to realize that it is not physically possible that the velocity of center of mass increases, but the angular velocity of the rolling body decreases. As a matter of fact, presence of friction shall contradict the physical reality of rolling itself! </para><para id="element-27">According to the above relation, two velocities increase or decrease simultaneously. We can repeat this analysis for an opposite situation in which we assume that the friction operates in the direction of translation (not opposite) as shown in the figure above on the right. Even in this case, we shall find that the body is accelerated in translation, but decelerated in rotation – a contradiction of the condition of rolling. We, therefore, conclude that there is no friction when a body is rolling uniformly. 
+</para>
+<para id="element-28">Absence of friction for rolling at constant velocity has a very significant implication as a disk in uniform rolling shall move indefinitely, if no net external force/ torque is acting. This is a slightly unrealistic deduction for we know that all rolling disk is brought to rest ultimately unless external force is applied to maintain the speed. This needs explanation.
+</para>
+<para id="element-29">
+<figure id="fig-29">
+<title> Pure rolling motion </title>
+<media id="idm3827552" alt=""><image src="../../media/ur11.gif" mime-type="image/gif"/></media>
+<caption> All rolling motion in our real world involves contact which spreads beyond a point. </caption>
+</figure>
+</para>
+<para id="element-30">As a matter of fact, it is not possible to realize an ideal pure rolling in the first place. All rolling motion in our real world involves contact which spreads beyond a point and there is some amount of deformation involved and, therefore, existence of normal force constituting a torque in the opposite direction to rotation of the object. As such, the rolling body decelerates.  </para>
+<para id="element-30a">We can have a direct feeling of the absence of friction in uniform rolling. We use  a dumbbell that we often use for exercise. Just try to push across so that dumbbell slides without rolling at a constant speed. Then, push it to roll at a constant speed (approximately) without sliding. Experience the difference. We know that it is lot easier to roll than to slide the dumbbell. Had there been single point contact without deformation, the dumbbell would have continued rolling.
+</para>
+<para id="element-30b">
+<figure id="fig-30b">
+<title> Friction in rolling motion </title>
+<media id="idm4130240" alt=""><image src="../../media/ur12.gif" mime-type="image/gif"/></media>
+<caption> Experiencing force of sliding .vs. force of rolling. </caption>
+</figure>
+</para>
+</section>
+
+<section id="section-5">
+<title> Condition of accelerated rolling 
+</title>
+
+<para id="element-31">
+We shall discuss the implications of the external force soon in terms of Newton’s second law of motion. But, we first need to ascertain whether the body in pure rolling, when subjected to external force, shall retain the basic nature of the rolling motion or not? In simple words : can a rolling body shall continue rolling when external force or torque is applied?
+</para>
+<para id="element-32">
+Recall that rolling requires that linear and angular velocities are tied together by the equation of rolling motion :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+This means that if the motion retains the rolling character even after application of external force/ torque, then any change in velocities (i.e. linear and angular accelerations) should also be related (tied). We can use the above relation to obtain a conditional relation between linear and angular accelerations. 
+</para>
+<para id="element-35">
+It must, however, be kept in mind that the equation of rolling was developed for the case of rolling. As such, any derivation based on this relation will be valid only for pure rolling that does not involve sliding. Now, differentiating the equation with respect to time, we have :
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+<equation id="equation-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-38">This is the conditional relation between linear and angular accelerations that should be maintained for the accelerated body to be in pure rolling. We call this relation as "equation of accelerated rolling" to distinguish the same with the "equation of rolling" derived earlier. 
+</para>
+<para id="element-39">Like in the case of equation of rolling motion, this relation connects quantities, which are measured in two different references. Linear acceleration of center of mass is measured with respect to ground, whereas the angular acceleration is measured with respect to moving axis of rotation. This relation, therefore, also runs from sign syndrome. However, this should not cause concern as we shall use this relation mostly for magnitude purpose. If a particular condition (general derivation) requires to adjust the sign, then we will put a negative sign on the right hand of the equation to account for the direction. 
+</para>
+<para id="element-40">
+The fact that axis of rotation is accelerated poses a serious problem with respect to application of Newton’s second law for the analysis of rotation in the accelerated frame. Note here that rotation takes place in accelerated frame of reference – not the translation, which takes place in the inertial frame of  ground. Thus, application of Newton's second law for translation is valid. 
+</para>
+
+<para id="element-40a">We know that Newton’s second law for rotation is valid only in inertial frame of reference. However, an accelerated frame of reference can be rendered to an equivalent inertial frame of reference by applying a force (called pseudo force) at the center of mass. This pseudo force is equal to product of the mass of the rigid body and its linear acceleration. Whatever be its magnitude, the important point is that this pseudo force acts through center of mass. Since force through center of mass does not constitute torque, the angular velocity of the rotating body is not affected. 
+</para>
+
+<para id="element-40b">
+We, therefore, conclude that application of Newton's second law of rotation even in accelerated frame of reference is valid for rolling.  
+</para>   
+</section>
+
+<section id="section-6">
+<title> Laws governing rolling
+</title>
+
+<para id="element-41">
+Corresponding to two motion types involved with pure rolling, there are two Newton’s second laws governing the motion. One (Newton’s law second law of translation) governs the linear motion of the center of mass, whereas the other (Newton’s law second law of rotation) governs the rotational motion of the rolling disk. 
+</para>
+<para id="element-42">
+For pure translation of the center of mass, the second law of Newton's law is :
+</para>
+<para id="element-43">
+<equation id="equation-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mi> F </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-44">Here, "∑F" denotes the resultant force and "
+<m:math>
+		<m:msub>
+			<m:mi> a </m:mi>
+			<m:mi> C </m:mi>
+		</m:msub>
+	</m:math>
+" denotes the linear acceleration of the center of mass of the disk. For the sake of simplicity, we only consider rolling in one direction only and as such may avoid using vector notation.
+</para>
+<para id="element-45">
+<figure orient="horizontal" id="fig-45">
+<title> Independence of analysis </title>
+<subfigure id="fig-45a">
+<media id="idm1969744" alt=""><image src="../../media/ur1.gif" mime-type="image/gif"/></media>
+<caption> Forces are analyzed as if rigid body was not rotating at all. </caption>
+</subfigure>
+<subfigure id="fig-45b">
+<media id="idm1971984" alt=""><image src="../../media/ur2.gif" mime-type="image/gif"/></media>
+<caption> Torques are analyzed as if rigid body was not translating at all. </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-46">Similarly, for pure rotation of the disk about an axis passing through the center of mass and perpendicular to its surface, the second law of Newton's law for rotation is :
+</para>
+<para id="element-47">
+<equation id="equation-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mi> τ </m:mi>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-48">
+where "I" denotes the moment of inertia and "α" denotes angular acceleration about the axis of rotation through the center of mass.
+</para>
+<para id="element-49">Analysis of rolling, therefore, is carried out in terms of Newton’s second law of motion for translation and rotation. The application of the laws, however, is conditioned by a third relation between linear and angular accelerations,
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">What it means that we should apply Newton’s second laws for rotation and translation in conjunction with the equation of accelerated rolling.
+</para>
+
+</section>
+
+<section id="section-7">
+<title> Summary
+</title>
+
+<para id="element-60">
+<term>1:</term> Uniform rolling means pure rolling with constant velocity.
+</para>
+<para id="element-61">
+<term>2:</term> Rolling with constant velocity means constant linear velocity of COM and constant angular velocity of rigid body about the axis of rotation.
+</para>
+<para id="element-62">
+<term>3:</term> There is no friction involved in uniform rolling.
+</para>
+<para id="element-52"><term>4:</term> An accelerated rolling is described by “equation of accelerated rolling” as given by :
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54"><term>5:</term> The equation of accelerated rolling underlines the fact that there can not be selective acceleration. In other words, if there is linear acceleration, there is corresponding angular acceleration as well.
+</para>
+<para id="element-55"><term>6:</term> Governing laws of rolling motion are Newton’s second law of motion for translation and rotation. These two laws are subject to the condition imposed by equation of accelerated rolling as given above.
+</para>
+<para id="element-56">
+(i)	Newton’s second law for translation
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mi> F </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+(ii) Newton’s second law for rotation
+</para>
+<para id="element-59"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mi> τ </m:mi>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+  
+  </content>
+  
+</document>

@@ -1,0 +1,501 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+	<title>Vectors</title>
+	<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>305601b3-ce02-4f13-8e38-ad469b05237d</md:uuid>
+</metadata>
+	<content>
+<para id="element-1">A number of key fundamental physical concepts relate to quantities, which display directional property. Scalar algebra is not suited to deal with such quantities. The mathematical construct called vector is designed to represent quantities with directional property. A vector, as we shall see, encapsulates the idea of “direction” together with “magnitude”. 
+</para><para id="element-2">In order to elucidate directional aspect of a vector, let us consider a simple example of the motion of a person from point A to point B and from point B to point C, covering a distance of 4 and 3 meters respectively as shown in the <link target-id="fig4">Figure</link>
+. Evidently, AC represents the linear distance between the initial and the final positions. This linear distance, however, is not equal to the sum of the linear distances of individual motion represented by segments AB and BC ( 4 + 3 = 7 m) i.e.
+</para>
+		<para id="element-3">
+			<m:math display="block">
+				<m:mtable>
+					<m:mtr>
+						<m:mtd>
+							<m:mi> AC </m:mi>
+							<m:mo> ≠ </m:mo>
+							<m:mi> AB </m:mi>
+							<m:mo> + </m:mo>
+							<m:mi> BC </m:mi>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:math>
+		</para>
+		<para id="element-4">
+			<figure id="fig4">
+				<title> Displacement </title>
+				<media id="idm14359344" alt=""><image src="../../media/v1-45ae.gif" mime-type="image/gif"/></media>
+				<caption> Scalar inequality </caption>
+			</figure>
+		</para>
+<para id="element-5">However, we need to express the end result of the movement appropriately as the sum of two individual movements. The inequality of the scalar equation as above is basically due to the fact that the motion represented by these two segments also possess directional attributes; the first segment is directed along the positive x – axis, where as the second segment of motion is directed along the positive y –axis. Combining their magnitudes is not sufficient as the two motions are perpendicular to each other. We require a mechanism to combine directions as well.
+</para>
+<para id="element-5a">The solution of the problem lies in treating individual distance with a new term "displacement" – a vector quantity, which is equal to “linear distance plus direction”. Such a conceptualization of a directional quantity allows us to express the final displacement as the sum of two individual displacements in vector form  :
+</para>
+		<para id="element-6">
+			<m:math display="block">
+				<m:mtable>
+					<m:mtr>
+						<m:mtd>
+							<m:mi mathvariant="bold"> AC </m:mi>
+							<m:mo> = </m:mo>
+							<m:mi mathvariant="bold"> AB </m:mi>
+							<m:mo> + </m:mo>
+							<m:mi mathvariant="bold"> BC </m:mi>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:math>
+		</para>
+		<para id="element-7">The magnitude of displacement is obtained by applying Pythagoras theorem :
+</para>
+		<para id="element-8">
+			<m:math display="block">
+				<m:mtable>
+					<m:mtr>
+						<m:mtd>
+							<m:mi> AC </m:mi>
+							<m:mo> √ </m:mo>
+							<m:mo> ( </m:mo>
+								<m:mrow>
+									<m:msup>
+										<m:mi> AB </m:mi>
+										<m:mn> 2 </m:mn>
+									</m:msup>
+									<m:mo> + </m:mo>
+									<m:msup>
+										<m:mi> BC </m:mi>
+										<m:mn> 2 </m:mn>
+									</m:msup>
+								</m:mrow>
+
+							<m:mo> ) </m:mo>
+							<m:mo> = </m:mo>
+							<m:mo> √ </m:mo>
+							<m:mo> ( </m:mo>
+								<m:mrow>
+									<m:msup>
+										<m:mn> 4 </m:mn>
+										<m:mn> 2 </m:mn>
+									</m:msup>
+									<m:mo> + </m:mo>
+									<m:msup>
+										<m:mn> 3 </m:mn>
+										<m:mn> 2 </m:mn>
+									</m:msup>
+								</m:mrow>
+							<m:mo> ) </m:mo>
+							<m:mo> = </m:mo>
+							<m:mi> 5 m </m:mi>
+						</m:mtd>
+					</m:mtr>
+				</m:mtable>
+			</m:math>
+		</para>
+		<para id="element-60">It is clear from the example above that vector construct is actually devised in a manner so that physical reality having directional property is appropriately described. This "fit to requirement" aspect of vector construct for physical phenomena having direction is core consideration in defining vectors and laying down rules for vector operation.</para><para id="element-9">A classical example, illustrating the “fit to requirement” aspect of vector, is the product of two vectors. A product, in general, should evaluate in one manner to yield one value. However, there are natural quantities, which are product of two vectors, but evaluate to either scalar (example : work) or vector (example : torque) quantities. Thus, we need to define the product of vectors in two ways : one that yields scalar value and the other that yields vector value. For this reason product of two vectors is either defined as dot product to give a scalar value or defined as cross product to give vector value. This scheme enables us to appropriately handle the situations as the case may be. 
+</para>
+<para id="element-10"><m:math display="block">
+		<m:mtable>
+			<m:mtr>
+				<m:mtd>
+					<m:mi> W </m:mi>
+					<m:mo> = </m:mo>
+					<m:mi mathvariant="bold"> F </m:mi>
+					<m:mo mathvariant="bold"> . </m:mo>
+					<m:mo> Δ </m:mo>
+					<m:mi mathvariant="bold"> r </m:mi>
+				</m:mtd>
+				<m:mtd>
+					<m:mtext>       ……… Scalar dot product </m:mtext>
+				</m:mtd>
+			</m:mtr>
+			<m:mtr>
+				<m:mtd>
+					<m:mi mathvariant="bold"> τ </m:mi>
+					<m:mo> = </m:mo>
+					<m:mi mathvariant="bold"> r </m:mi>
+					<m:mo> x </m:mo>
+					<m:mi mathvariant="bold"> F </m:mi>
+				</m:mtd>
+				<m:mtd>
+					<m:mtext>       ……… Vector cross product </m:mtext>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+		<para id="element-11">
+Mathematical concept of vector is basically secular in nature and general in application. This means that mathematical treatment of vectors is without reference to any specific physical quantity or phenomena. In other words, we can employ vector and its methods to all quantities, which possess directional attribute, in a uniform and consistent manner. For example two vectors would be added in accordance with vector addition rule irrespective of whether vectors involved represent displacement, force, torque or some other vector quantities.
+</para>
+		<para id="element-12">The moot point of discussion here is that vector has been devised to suit the requirement of natural process and not the other way around that natural process suits vector construct as defined in vector mathematics. 
+</para>
+		<section id="section-1">
+			<title> What is a vector?</title>
+			<para id="element-14">
+				<definition id="definition-14">
+					<term> Vector </term>
+					<meaning id="idm3188640"> Vector is a physical quantity, which has both magnitude and direction. </meaning>
+				</definition>
+			</para>
+			<para id="element-15">A vector is represented graphically by an arrow drawn on a scale as shown <link target-id="fig16">Figure i</link>. In order to process vectors using graphical methods, we need to draw all vectors on the same scale. The arrow head point in the direction of the vector. </para>
+
+<para id="element-587">A vector is notionally represented in a characteristic style. It is denoted as bold face type like
+“<m:math>
+		<m:mi mathvariant="bold"> a </m:mi>
+	</m:math>
+” as shown <link target-id="fig16"> Figure (i) </link> or with a small arrow over the symbol like 
+“<m:math>
+		<m:mover>
+			<m:mi> a </m:mi>
+			<m:mo> → </m:mo>
+		</m:mover>
+	</m:math>
+” or with a small bar as in 
+“<m:math>
+		<m:mover>
+			<m:mi> a </m:mi>
+			<m:mo> - </m:mo>
+		</m:mover>
+	</m:math>
+”. The magnitude of a vector quantity is referred by simple identifier like “a” or as the absolute value of the vector as 
+“<m:math>
+		<m:mo> | </m:mo>
+		<m:mi mathvariant="bold"> a </m:mi>
+		<m:mo> | </m:mo>
+	</m:math>
+” .
+</para><para id="element-17">Two vectors of equal magnitude and direction are equal vectors (<link target-id="fig16"> Figure (ii) </link>).  As such, a vector can be laterally shifted as long as its direction remains same (<link target-id="fig16"> Figure (ii) </link>). Also, vectors can be shifted along its line of application represented by dotted line (<link target-id="fig16"> Figure (iii) </link>). The flexibility by virtue of shifting vector allows a great deal of ease in determining vector’s interaction with other scalar or vector quantities. 
+</para>
+			<para id="element-16">
+				<figure id="fig16">
+					<title> Vectors </title>
+					<media id="idm7168448" alt=""><image src="../../media/v2-42cc.gif" mime-type="image/gif"/></media>
+					
+				</figure>
+			</para>
+
+			<para id="element-18">It should be noted that graphical representation of vector is independent of the origin or axes of coordinate system except for few vectors like position vector (called localized vector), which is tied to the origin or a reference point by definition. With the exception of localized vector, a change in origin or orientation of axes or both does not affect vectors and vector operations like addition or multiplication (see figure below).
+</para>
+			<para id="element-19">
+				<figure id="fig19">
+					<title> Vectors </title>
+					<media id="idm3107008" alt=""><image src="../../media/v3-e95d.gif" mime-type="image/gif"/></media>
+					
+				</figure>
+			</para>
+			<para id="element-20">The vector is not affected, when the coordinate is rotated or displaced as shown in the figure above. Both the orientation and positioning of origin i.e reference point do not alter the vector representation. It remains what it is. This feature of vector operation is an added value as the study of physics in terms of vectors is simplified, being independent of the choice of coordinate system in a given reference.
+</para>
+		</section>
+		<section id="section-2">
+			<title> Vector algebra</title>
+			<para id="element-21">Graphical method is slightly meticulous and error prone as it involves drawing of vectors on scale and measurement of angles. In addition, it does not allow algebraic manipulation that otherwise would give a simple solution as in the case of scalar algebra. We can, however, extend algebraic techniques to vectors, provided vectors are represented on a rectangular coordinate system. The representation of a vector on a coordinate system uses the concept of unit vectors and scalar magnitudes. We shall discuss these aspects in a separate module titled <link document="m14519"> Components of a vector </link>. Here, we briefly describe the concept of unit vector and technique to represent a vector in a particular direction.
+</para>
+			<section id="section-2a">
+				<title> Unit vector </title>
+				<para id="element-22">Unit vector has a magnitude of one and is directed in a particular direction. It does not have dimension or unit like most other physical quantities. Thus, multiplying a scalar by unit vector converts the scalar quantity into a vector without changing its magnitude, but assigning it a direction (<link target-id="fig24"> Figure  </link>). 
+</para>
+
+				<para id="element-25">
+					<m:math display="block">
+						<m:mi mathvariant="bold"> a </m:mi>
+						<m:mo> = </m:mo>
+						<m:mi> a </m:mi>
+						<m:mover>
+							<m:mi> a </m:mi>
+							<m:mo> ^ </m:mo>
+						</m:mover>
+					</m:math>
+				</para>
+
+				<para id="element-24">
+					<figure id="fig24">
+						<title>Vector representation with unit vector </title>
+						<media id="idm8884064" alt=""><image src="../../media/v4.gif" mime-type="image/gif"/></media>
+						
+					</figure>
+				</para>
+<para id="element-23">This is an important relation as it allows determination of unit vector in the direction of any vector "<term>a</term> as :
+</para>
+
+				<para id="element-25a">
+					<m:math display="block">
+						<m:mover>
+							<m:mi> a </m:mi>
+							<m:mo> ^ </m:mo>
+						</m:mover>
+						<m:mo> = </m:mo>
+						<m:mfrac>
+							<m:mi mathvariant="bold"> a </m:mi>
+							<m:mrow>
+								<m:mo> | </m:mo>
+								<m:mi mathvariant="bold"> a </m:mi>
+								<m:mo> | </m:mo>
+							</m:mrow>
+						</m:mfrac>
+					</m:math>
+				</para>
+<para id="element-26">Conventionally, unit vectors along the rectangular axes is represented with bold type face symbols like :
+<m:math>
+						<m:mi mathvariant="bold"> i </m:mi>
+						<m:mo> , </m:mo>
+						<m:mi mathvariant="bold"> j </m:mi>
+						<m:mi> and </m:mi>
+						<m:mi mathvariant="bold"> k </m:mi>
+						<m:mo> , </m:mo>
+					</m:math>
+or with a cap heads like 
+
+<m:math>
+						<m:mover>
+							<m:mi> i </m:mi>
+							<m:mo> ^ </m:mo>
+						</m:mover>
+						<m:mo> , </m:mo>
+						<m:mover>
+							<m:mi> j </m:mi>
+							<m:mo> ^ </m:mo>
+						</m:mover>
+						<m:mi> and </m:mi>
+						<m:mover>
+							<m:mi> k </m:mi>
+							<m:mo> ^ </m:mo>
+						</m:mover>
+					</m:math>
+. The unit vector along the axis denotes the direction of individual axis.
+</para>
+			</section>
+			<para id="element-27">Using the concept of unit vector, we can denote a vector by multiplying the magnitude of the vector with unit vector in its direction. 
+
+</para>
+			<para id="element-28">
+				<m:math display="block">
+					<m:mi mathvariant="bold"> a </m:mi>
+					<m:mo> = </m:mo>
+					<m:mi> a </m:mi>
+					<m:mover>
+						<m:mi> a </m:mi>
+						<m:mo> ^ </m:mo>
+					</m:mover>
+				</m:math>
+			</para>
+			<para id="element-29">Following this technique, we can represent a vector along any axis in terms of scalar magnitude and axial unit vector like (for x-direction) :
+</para>
+			<para id="element-30">
+				<m:math display="block">
+					<m:mi mathvariant="bold"> a </m:mi>
+					<m:mo> = </m:mo>
+					<m:mi> a </m:mi>
+					<m:mi mathvariant="bold"> i </m:mi>
+				</m:math>
+			</para>
+		</section>
+
+<section id="section-3">
+<title> Other important vector terms  </title>
+<section id="section-3d">
+<title> Null vector </title>
+<para id="element-30a">Null vector is conceptualized for completing the development of vector algebra. We may encounter situations in which two equal but opposite vectors are added. What would be the result? Would it be a zero real number or a zero vector? It is expected that result of algebraic operation should be compatible with the requirement of vector. In order to meet this requirement, we define null vector, which has neither magnitude nor direction. In other words, we say that null vector is a vector whose all components in rectangular coordinate system are zero.
+</para>
+<para id="element-30b">Strictly, we should denote null vector like other vectors using a bold faced letter or a letter with an overhead arrow. However, it may generally not be done. We take the exception to denote null vector by number “0” as this representation does not contradicts the defining requirement of null vector.
+</para>
+<para id="element-30c">
+<m:math display="block">
+<m:mi mathvariant="bold">a</m:mi>
+<m:mo>+</m:mo>
+<m:mi mathvariant="bold">b</m:mi>
+<m:mo>=</m:mo>
+<m:mn>0</m:mn>
+</m:math>
+</para>
+</section>
+			<section id="section-3b">
+				<title> Negative vector </title>
+				<para id="element-35">
+					<definition id="definition-1"><term> Negative vector </term>
+						<meaning id="idm7277984"> A negative vector of a given vector is defined as the vector having same magnitude, but applied in the opposite direction to that of the given vector. </meaning>
+					</definition>
+				</para>
+				<para id="element-36">It follows that if 
+<m:math>
+						<m:mi mathvariant="bold">b</m:mi>
+					</m:math>
+is the negative of vector
+<m:math>
+						<m:mi mathvariant="bold">a</m:mi>
+					</m:math>
+
+
+
+, then
+</para>
+				<para id="element-37"><m:math display="block">
+						<m:mtable columnalign="left">
+							<m:mtr>
+								<m:mtd>
+									<m:mi mathvariant="bold"> a </m:mi>
+									<m:mo> = </m:mo>
+									<m:mo> - </m:mo>
+									<m:mi mathvariant="bold"> b </m:mi>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd>
+									<m:mo> ⇒ </m:mo>
+									<m:mi mathvariant="bold"> a </m:mi>
+									<m:mo> + </m:mo>
+									<m:mi mathvariant="bold"> b </m:mi>
+									<m:mo> = </m:mo>
+									<m:mn> 0 </m:mn>
+								</m:mtd>
+							</m:mtr>
+							<m:mtr>
+								<m:mtd>
+									<m:mi>        and     </m:mi>
+		<m:mspace width="4pt"/>				<m:mo> | </m:mo>
+									<m:mi mathvariant="bold"> a </m:mi>
+									<m:mo> | </m:mo>
+									<m:mo> = </m:mo>
+									<m:mo> | </m:mo>
+									<m:mi mathvariant="bold"> b </m:mi>
+									<m:mo> | </m:mo>
+								</m:mtd>
+							</m:mtr>
+						</m:mtable>
+					</m:math>
+				</para>
+				<para id="element-38">There is a subtle point to be made about negative scalar and vector quantities. A negative scalar quantity, sometimes, conveys the meaning of lesser value. For example, the temperature -5 K is a smaller temperature than any positive value. Also, a greater negative like – 100 K is less than the smaller negative like -50 K. However, a scalar like charge conveys different meaning. A negative charge of -10 μC is a bigger negative charge than – 5 μC. The interpretation of negative scalar is, thus, situational.
+
+</para>
+				<para id="element-39">On the other hand, negative vector always indicates the sense of opposite direction. Also like charge, a greater negative vector is larger than smaller negative vector or a smaller positive vector. The magnitude of force -10 <term>i</term> N, for example is greater than 5 <term>i</term> N, but directed in the opposite direction to that of the unit vector <term>i</term>. In any case, negative vector does not convey the meaning of lesser or greater  magnitude like the meaning of a scalar quantity in some cases.
+
+</para>
+			</section>
+			<section id="section-3c">
+				<title> Co-planar vectors</title>
+				<para id="element-40">
+A pair of vectors determines an unique plane. The pair of vectors defining the plane and other vectors in that plane are called coplanar vectors.
+</para>
+			</section>
+			<section id="section-3a">
+				<title> Axial vector </title>
+				<para id="element-31">Motion has two basic types : translational and rotational motions. The vector and scalar quantities, describing them are inherently different. Accordingly, there are two types of vectors to deal with quantities having direction. The system of vectors that we have referred so far is suitable for describing translational motion and such vectors are called “rectangular” or "polar" vectors. 
+</para>
+
+				<para id="element-33">A different type of vector called axial vector is used to describe rotational motion. Its graphical representation is same as that of  rectangular vector, but its interpretation is different.  What it means that the axial vector is represented by a straight line with an arrow head as in the case of polar vector; but the physical interpretation of axial vector differs. An axial vector, say 
+<m:math>
+						<m:mi mathvariant="bold">ω</m:mi>
+					</m:math>
+
+, is interpreted to act along the positive direction of the axis of rotation, while rotating anti –clockwise. A negative axial vector like, 
+<m:math>
+						<m:mo> - </m:mo>
+						<m:mi mathvariant="bold">ω</m:mi>
+					</m:math>
+, is interpreted to act along the negative direction of axis of rotation, while rotating clockwise. 
+</para>
+<para id="element-32">
+					<figure id="fig32">
+						<title> Axial vector </title>
+						<media id="idm1841776" alt=""><image src="../../media/v5-d858.gif" mime-type="image/gif"/></media>
+						
+					</figure>
+</para>
+<para id="element-34">The <link target-id="fig32"> figure above  </link>  captures the concept of axial vector. It should be noted that the direction of the axial vector is essentially tied with the sense of rotation (clockwise or anti-clockwise). 
+This linking of directions is stated with "Right hand  (screw) rule". According to this rule (<link target-id="fig34b"> see figure below </link>), if the stretched thumb of right hand points in the direction of axial vector, then the curl of the fist gives the direction of rotation.  Its inverse is also true i.e if the curl of the right hand fist is placed in a manner to follow the direction of rotation, then the stretched thumb points in the direction of axial vector.
+</para>
+
+
+
+				<para id="element-34b">
+					<figure id="fig34b">
+						<title> Righ hand rule </title>
+						<media id="idp2581600" alt=""><image src="../../media/v4a-4730.gif" mime-type="image/gif"/></media>
+						
+					</figure>
+				</para><para id="element-809">Axial vector is generally shown to be perpendicular to a plane. In such cases, we use a shortened symbol to represent axial or even other vectors, which are normal to the plane, by a "dot" or "cross" inscribed within a small circle. A "dot" inscribed within the circle indicates that the vector is pointing towards the viewer of the plane and a "cross" inscribed within the circle indicates that the vector is pointing away from the viewer of the plane.  </para><para id="element-643">Axial vector are also known as "pseudovectors". It is because axial vectors do not follow transformation of rectangular coordinate system. Vectors which follow coordinate transformation are called "true" or "polar" vectors. One important test to distinguish these two types of vector is that axial vector has a mirror image with negative sign unlike true vectors.  Also, we shall learn about vector or cross product subsequently. This operation represent many important physical phenomena such as rotation and magnetic interaction etc. We should know that the vector resulting from cross product of true vectors is always axial i.e. pseudovectors vector like magnetic field, magnetic force, angular velocity, torque etc.  </para>
+
+
+			</section>
+
+		</section>
+		<section id="section-4">
+			<title> Why should we study vectors? </title>
+			<para id="element-41">The basic concepts in physics – particularly the branch of mechanics - have a direct and inherently characterizing relationship with the concept of vector. The reason lies in the directional attribute of quantities, which is used to describe dynamical aspect of natural phenomena.   Many of the physical terms and concepts are simply vectors like position vector, displacement vector etc. They are as a matter of fact defined directly in terms of vector like  “it is a vector ……………”.
+
+</para>
+			<para id="element-42">The basic concept of “cause and effect” in mechanics (comprising of kinematics and dynamics), is predominantly based on the interpretation of direction in addition to magnitude. Thus, there is no way that we could accurately express these quantities and their relationship without vectors. There is, however, a general tendency (particular in the treatment designed for junior classes) to try to evade vectors and look around ways to deal with these inherently vector based concepts without using vectors! As expected this approach is a poor reflection of the natural process, where basic concepts are simply ingrained with the requirement of handling direction along with magnitude. 
+
+</para>
+			<para id="element-43">It is, therefore, imperative that we switch over from work around approach to vector approach to study physics as quickly as possible. Many a times, this scalar “work around” inculcates incorrect perception and understanding that may persist for long, unless corrected with an appropriate vector description.
+</para>
+			<para id="element-44">The best approach, therefore, is to study vector in the backdrop of physical phenomena and use it with clarity and advantage in studying nature. For this reasons, our treatment of “vector physics” – so to say - in this course will strive to correlate vectors with appropriate physical quantities and concepts. 
+
+</para>
+			<para id="element-45">
+The most fundamental reason to study nature in terms of vectors, wherever direction is involved, is that vector representation is concise, explicit and accurate.
+
+
+</para>
+			<para id="element-46">To score this point, let us consider an example of the magnetic force experienced by a charge, q, moving with a velocity
+
+<m:math>
+		<m:mi mathvariant="bold">v</m:mi>
+	</m:math>
+ in a magnetic field, “<m:math>
+		<m:mi mathvariant="bold">B</m:mi>
+	</m:math>
+. The magnetic force, 
+
+<m:math>
+		<m:mi mathvariant="bold">F</m:mi>
+	</m:math>
+, experienced by moving particle, is perpendicular to the plane, P, formed by the the velocity and the magnetic field vectors as shown in the  <link target-id="fig47"> figure  </link>.
+</para>
+			<para id="element-47">
+				<figure id="fig47">
+					<title> Magnetic force as cross product of vectors </title>
+					<media id="idm4350128" alt=""><image src="../../media/v6.gif" mime-type="image/gif"/></media>
+					
+				</figure>
+			</para>
+			<para id="element-48">
+The force is given in the vector form as :
+
+</para>
+			<para id="element-49">
+				<m:math display="block">
+					<m:mtable columnalign="left">
+						<m:mtr>
+							<m:mtd>
+								<m:mi mathvariant="bold"> F </m:mi>
+								<m:mo> = </m:mo>
+								<m:mi> q </m:mi>
+								<m:mo> ( </m:mo>
+								<m:mi mathvariant="bold"> v </m:mi>
+								<m:mo> x </m:mo>
+								<m:mi mathvariant="bold"> B </m:mi>
+								<m:mo> ) </m:mo>
+							</m:mtd>
+						</m:mtr>
+					</m:mtable>
+				</m:math>
+			</para>
+			<para id="element-50">This equation does not only define the magnetic force but also outlines the intricacies about the roles of the each of the constituent vectors. As per vector rule, we can infer from the vector equation that :
+
+</para>
+			<para id="element-51">
+				<list id="list-1" list-type="bulleted"><item> The magnetic force (<term>F</term>) is perpendicular to the plane defined by vectors  <term>v</term> and <term>B</term>.</item>
+	<item> The direction of magnetic force i.e. which side of plane.</item>
+	<item> The magnitude of magnetic force is "qvB sinθ", where θ is the smaller angle enclosed between the vectors <term>v</term> and <term>B</term>.
+</item>
+</list>
+			</para>
+			<para id="element-52">This example illustrates the compactness of vector form and completeness of the information it conveys. On the other hand, the equivalent scalar strategy to describe this phenomenon would involve establishing an empirical frame work like Fleming’s left hand rule to determine direction. It would be required to visualize vectors along three mutually perpendicular directions represented by three fingers in a particular order and then apply Fleming rule to find the direction of the force. The magnitude of the product, on the other hand, would be given by qvB sinθ as before.
+</para>
+			<para id="element-53">The difference in two approaches is quite remarkable. The vector method provides a paragraph of information about the physical process, whereas a paragraph is to be followed to apply scalar method ! Further, the vector rules are uniform and consistent across vector operations, ensuring correctness of the description of physical process. On the other hand, there are different set of rules like Fleming left and Fleming right rules for two different physical processes. </para><para id="element-616">The last word is that we must master the vectors rather than avoid them  - particularly when the fundamentals of vectors to be studied are limited in extent. 
+
+</para>
+		</section>
+	</content>
+</document>

@@ -1,0 +1,1059 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Equilibrium</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>def16ed8-065d-4656-9596-dfc5096ed70a</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">We have already used this term in reference to balanced force system. We used the concept of equilibrium with an implicit understanding that the body has no rotational tendency. In this module, we shall expand the meaning by explicitly considering both translational and rotational aspects of equilibrium.
+</para>
+<para id="element-2">A body is said to be in equilibrium when net external force and net external torque about any point, acting on the body, are individually equal to zero. Mathematically,
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>τ</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5">These two vector equations together are the requirement of body to be in equilibrium. We must clearly understand that equilibrium conditions presented here only ensure absence of acceleration (translational or rotational) – not rest. Absence of acceleration means that velocities are constant – not essentially zero. 
+</para>
+<para id="element-6">Now, we study translational motion of rigid body with respect to its center of mass, the linear and angular velocities under equilibrium are constants :
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>ω</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">
+We need to analyze equilibrium of a body simultaneously for both translational and rotational equilibrium in terms of conditions as laid down here.
+</para>
+<section id="section-1">
+<title>Equilibrium types</title>
+<para id="element-11">We are surrounded by great engineering architectures and mechanical devices, which are at rest in the frame of reference of Earth. A large part of engineering creations are static objects. On the other hand, we also seek equilibrium of moving objects like that of floating ship, airplane cruising at high speed and such other moving mechanical devices. In both cases – static or dynamic, external forces and torques are zero.
+</para>
+<para id="element-12">An equilibrium in motion is said be “dynamic equilibrium”. Similarly, an equilibrium at rest is said be “static equilibrium”. From this, it is clear that static equilibrium requires additional conditions to be fulfilled. 
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>ω</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2">
+<title>Equilibrium equations</title>
+<para id="element-16">
+In general, a body is subjected to sufficiently good numbers of forces. Consider for example, a book placed on a table. This simple arrangement actually is subjected to four normal forces operating at the four corners of the table top in the vertically upward direction and two weights, that of the book and the table, acting vertically downward.
+</para>
+<para id="element-17">
+<figure id="fig-4"><title> External forces on the body </title>
+<media id="idm9424160" alt=""><image src="../../media/e1.gif" mime-type="image/gif"/></media>
+<caption> There are six external forces acting the table top.</caption>
+</figure>
+</para>
+<para id="element-18">If we want to solve for the four unknown normal forces acting on the corners of the table top, we would need to have a minimum of four equations. Clearly, two vector relations available for equilibrium are insufficient to deal with the situation. 
+</para>
+<para id="element-19">We actually need to write two vector equations in component form along each of thee mutually perpendicular directions of a rectangular coordinate system. This gives us a set of six equations, enabling us to solve for the unknowns. We shall, however, see that this improvisation, though, helps us a great deal in analyzing equilibrium, but is not good enough for this particular case of the book and table arrangement. We shall explain this aspect in a separate section at the end of this module. Nevertheless, the component force and torque equations are :
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">The first set of equations are called “force balance equations”, whereas second set of equations are called “torque balance equations”.
+</para>
+<para id="element-23">We must understand that mere existence of component equations does not guarantee that we would have all six equations to work with. The availability of relations depend on the orientation of force system operating on the body and dimensions of force – whether it is in one, two or three dimensions. To understand this aspect, let us consider the case of static equilibrium of the beam as shown in the figure. The forces acting on the beam are coplanar in xy- plane.
+</para>
+<para id="element-24">
+<figure id="fig-24"><title> Torque on the body </title>
+<media id="idm2246416" alt=""><image src="../../media/e2.gif" mime-type="image/gif"/></media>
+<caption> Forces have tendencies to rotate beam about z-axis only.</caption>
+</figure>
+</para>
+<para id="element-25">Coplanar forces can rotate rigid body only around an axis perpendicular to the plane of forces. This is z-direction in this case. We can not write equations for torque around “x” or “y” axes. Thus, we have only torque balance equation in z-direction :
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">Further, all available balance equations may not be fruitful. Since forces lie in xy-plane in the example here, we would expect two force balance equations :
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:mi>F</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">
+Clearly, forces have no components in x-direction. As such the force balance equation in x-direction is not meaningful.
+</para>
+<para id="element-31">We should apply available meaningful balance equations with certain well thought out plan. The most important is  to select the point/ axis about which we calculate torque. In general, we choose the coordinate system in such a manner that moment arms of the most numbers of unknown forces become zero. This technique has the advantage that the resulting equation has least numbers of unknown and is likely to yield solution. In the figure shown here, the torque about a point “O” lying on the line of action of force “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” results in zero moment of arm for this force.  
+</para>
+<para id="element-32">
+<figure id="fig-32"><title> Torque on the body </title>
+<media id="idm9509664" alt=""><image src="../../media/e2.gif" mime-type="image/gif"/></media>
+<caption> Force have no components in x-direction.</caption>
+</figure>
+</para>
+<para id="element-33">If “a”, “b”, “c” and “d” be the linear distances of force "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+      <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+", mg, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+      <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+" and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" respectively from z-axis, then considering anticlockwise torque positive and anti-clockwise torque negative, we have :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>c</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>d</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">We can see that this equation eliminates “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and as such reduces numbers of unknowns in the equation. We must, however, understand that the selection of appropriate axis for calculation of torque is critical to evaluate the unknown. For example, if we consider to calculate torque through a perpendicular axis passing through center of mass of the beam, then we loose a known quantity (mg) and include additional unknown quanity, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" in the equation. </para>
+<section id="section-2a">
+<title>Example</title>
+<para id="element-36"><term>Problem 1 : </term>
+A uniform beam of length 20 m and linear mass density 0.1 kg/m rests horizontally on two pivots at its end. A block of mass of 4 kg rests on the beam with its center at a distance 5 m from the left end. Find the forces at the two ends of the beam.
+</para>
+<para id="element-37">
+<figure id="fig-37"><title> A horizontal beam on two pivots </title>
+<media id="idm846016" alt=""><image src="../../media/e3.gif" mime-type="image/gif"/></media>
+<caption> A block is placed on the beam.</caption>
+</figure>
+</para>
+<para id="element-38"><term>Solution : </term>The beam and block system is in static equilibrium. In order to write force balance equation, we first need to draw the free body diagram of the beam. 
+</para>
+<para id="element-39">The normal forces at the ends act in vertically upward direction. Weights of the beam and block, on the other hand, acts downward through the corresponding centers of mass. Clearly, all forces are acting in vertical direction. As such, we can have one force balance equation in vertical direction. But, there are two unknowns. We, therefore, need to write torque balance equation about an axis perpendicular to the plane of figure (z-axis). The important aspect of choosing an axis is here that we should aim to choose the axis such that moment arm of one of the unknown forces is zero. This eliminates one of the forces from the torque balance equation.
+</para>
+<para id="element-40"><figure id="fig-40">
+<title> A horizontal beam on two pivots </title>
+<media id="idp4638256" alt=""><image src="../../media/e4.gif" mime-type="image/gif"/></media>
+<caption> Forces on the beam are shown.</caption>
+</figure>
+</para>
+<para id="element-41">Force balance equation in vertical direction is :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">Where "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" are the masses of beam and block respectively. According to question,
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>λ</m:mi>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">Putting values,
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">Considering anticlockwise torque positive and clockwise torque negative, the torque balance equation is :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>L</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">where “L”, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” are moment arms of normal force “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, weight of beam, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+      <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+” and weight of block, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+      <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+” respectively. Putting values,
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Since one of the unknown normal forces is, now, known, we can solve force balance equation by substituting this value,
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>40</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-3">
+<title> Indeterminate condition of equilibrium </title>
+<para id="element-56">
+We had made the reference that equilibrium of a book on the table can not be analyzed for four unknown normal forces at the corners of the table. We shall have a closer look at the problem now. The figure below shows the forces on a table top on which a book lies in stable equilibrium.
+</para>
+<para id="element-57">
+<figure id="fig-57"><title> A table top and a book </title>
+<media id="idm2213312" alt=""><image src="../../media/e5.gif" mime-type="image/gif"/></media>
+<caption> Forces on the table top. </caption>
+</figure>
+</para>
+<para id="element-58">The forces are non-planar, but directed in one direction i.e y – direction. We can, therefore, have only one meaningful force balance equation,
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">The forces in y-direction can have tendency to rotate table top either around x-axis or z-axis, which are perpendicular directions to moment arm and forces involved here. As such we can have two torque balance equations in these directions. If table top be a square of side “a” and the coordinates of the book be x,z  in “xz” - plane, then : 
+</para>
+<para id="element-61"><m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>z</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">Thus, we see that it is not possible to solve these three equations of static equilibrium to find four unknown normal forces. Either we need to measure one of the four normal forces physically with some device like a balance attached to the leg of the table or we measure certain properties of the material of the rigid body involved (elastic deformation, strain or stress etc.) that relate the properties to the normal force.
+</para>
+</section>
+<section id="section-4">
+<title> Momentum and equilibrium </title>
+<para id="element-64">The equilibrium of a body can also be stated in terms of  linear and angular momentum. The conditions of equilibrium in terms of external force and torque are :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Σ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>τ</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">Since force is time rate of change of linear momentum, we can restate the force condition of equilibrium. Here,
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Σ</m:mi>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msub>
+          <m:mstyle mathvariant="bold">
+            <m:mi>P</m:mi>
+          </m:mstyle>
+          <m:mi>C</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>P</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>P</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">Similarly torque is time rate of change of angular momentum, we have :
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Σ</m:mi>
+    <m:mi>τ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mstyle mathvariant="bold">
+          <m:mi>L</m:mi>
+        </m:mstyle>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>L</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>L</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">In static equilibrium, not only the net external force and torque are zero, but velocities are also zero in the inertial frame of reference of measurement. Since linear momentum is product of mass and velocity; and angular momentum is product of moment of inertia and angular velocity, the conditions of static equilibrium, in an inertial frame of reference, are given by :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>P</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>L</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>ω</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+  </content>
+  
+</document>

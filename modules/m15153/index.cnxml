@@ -1,0 +1,2091 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Two body system - circular motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1ef200c6-c15c-493c-a7ef-24428cd6762d</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The trajectory of two body system depends on the initial velocities of the bodies and their relative mass. If the mass of the bodies under consideration are comparable, then bodies move around their “center of mass” along two separate circular trajectories. This common point about which two bodies revolve is also known as “barycenter”. 
+</para>
+<para id="element-2">In order to meet the requirement imposed by laws of motion and conservation laws, the motion of two bodies executing circular motion is constrained in certain ways. 
+</para>
+<section id="section-1">
+<title>Circular trajectory</title>
+<para id="element-3">Since external force is zero, the acceleration of center of mass is zero. This is the first constraint. For easy visualization of this constraint, we consider that center of mass of the system is at rest in a particular reference frame. 
+</para>
+<para id="element-3a">Now, since bodies are moving along two circular paths about "center of mass", their motions should be synchronized in a manner so that the length of line, joining their centers, is a constant . This is required; otherwise center of mass will not remain stationary in the chosen reference. Therefore, the linear distance between bodies is a constant and is given by :
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Two body system - circular motion </title>
+<media id="idm1535328" alt=""><image src="../../media/tbc2.gif" mime-type="image/gif"/></media>
+<caption> Each body moves around center of mass.</caption>
+</figure>
+</para>
+<para id="element-4a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4b">Now this condition can be met even if two bodies move in different planes. However, there is no external torque on the system. It means that the angular momentum of the system is conserved. This has an important deduction : the plane of two circular trajectories should be same. 
+</para>
+<para id="element-4c">Mathematically, we can conclude this, using the concept of angular momentum. We know that torque is equal to time rate of change of angular momentum,
+</para>
+<para id="element-4d"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mstyle mathvariant="bold">
+          <m:mi>L</m:mi>
+        </m:mstyle>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+    <m:mo>×</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4e">
+But, external torque is zero. Hence,
+</para>
+<para id="element-4f"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+    <m:mo>×</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4g">It means that “<term>r</term>” and “<term>F</term>” are always parallel. It is only possible if two planes of circles are same. We, therefore, conclude that motions of two bodies are coplanar. For coplanar circular motion, center of mass is given by definition as :
+</para>
+<para id="element-4h">
+<figure id="fig-4h">
+<title> Two body system - circular motion </title>
+<media id="idp7273248" alt=""><image src="../../media/tbc1.gif" mime-type="image/gif"/></media>
+<caption> Each body moves around center of mass. </caption>
+</figure>
+</para>
+
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mi>c</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">Taking first differentiation with respect to time, we have :
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">Now dividing second equation by first,
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>s</m:mi>
+        <m:mi>a</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-760">It means that two bodies move in such a manner that their angular velocities are equal.
+</para><para id="element-12a">
+<figure id="fig-12a">
+<title> Two body system - circular motion </title>
+<media id="idp18403744" alt=""><image src="../../media/tbc3.gif" mime-type="image/gif"/></media>
+<caption> Both bodies move with same angular velocity.</caption>
+</figure>
+</para>
+
+<section id="section-1a">
+<title>Gravitational force</title>
+<para id="element-15">The gravitational force on each of the bodies is constant and is given by :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>r</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>r</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+Since gravitational force provides for the requirement of centripetal force in each case, it is also same in two cases. Centripetal force is given by :
+</para>
+<para id="element-22"><m:math display="block">
+		<m:mrow>
+			<m:msub>
+				<m:mi>F</m:mi>
+				<m:mi>C</m:mi>
+			</m:msub>
+			<m:mo>=</m:mo>
+			<m:msub>
+				<m:mi>m</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+			<m:msub>
+				<m:mi>r</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+			<m:msup>
+				<m:mi>ω</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:msub>
+				<m:mi>m</m:mi>
+				<m:mn>2</m:mn>
+			</m:msub>
+			<m:msub>
+				<m:mi>r</m:mi>
+				<m:mn>2</m:mn>
+			</m:msub>
+			<m:msup>
+				<m:mi>ω</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:mi>G</m:mi>
+					<m:msub>
+						<m:mi>m</m:mi>
+						<m:mn>1</m:mn>
+					</m:msub>
+					<m:msub>
+						<m:mi>m</m:mi>
+						<m:mn>2</m:mn>
+					</m:msub>
+				</m:mrow>
+				<m:mrow>
+					<m:msup>
+						<m:mi>r</m:mi>
+						<m:mn>2</m:mn>
+					</m:msup>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title>Angular velocity</title>
+<para id="element-23">Each body moves along a circular path. The gravitational force on either of them provides the centripetal force required for circular motion. Hence, centripetal force is :
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>r</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>r</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>r</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>r</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">Let the combined mass be “M”. Then,
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">Using relation 
+<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>m</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+			<m:msub>
+				<m:mi>r</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+			<m:mo>=</m:mo>
+			<m:msub>
+				<m:mi>m</m:mi>
+				<m:mn>2</m:mn>
+			</m:msub>
+			<m:msub>
+				<m:mi>r</m:mi>
+				<m:mn>2</m:mn>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+, we have :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>r</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">Substituting in the equation, involving angular velocity,
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>r</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>r</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>   
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>3</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math> 
+</para>
+
+<para id="element-37">This expression has identical form as for the case when a body revolves around another body at rest along a circular path (compare with “Earth – satellite” system). Here, combined mass “M” substitutes for the mass of heavier mass at the center and sum of the linear distance replaces the radius of rotation. 
+</para>
+<para id="element-38">The linear velocity is equal to the product of the radius of circle and angular velocity. Hence,
+</para>
+<para id="element-938"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>    
+</para><para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+
+<section id="section-3a">
+<title>Time period</title>
+<para id="element-41">We can easily find the expression for time period of revolution as :
+</para>
+<para id="element-42"><m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">This expression also has the same form as for the case when a body revolves around another body at rest along a circular path (compare with “Earth – satellite” system). Further squaring on either side, we have :
+</para>
+<para id="element-44"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>∝</m:mo>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-4">
+<title>Moment of inertia</title>
+<para id="element-45">Here, we set out to find moment of inertia of the system about the common axis passing through center of mass and perpendicular to the plane of rotation.   For this, we consider each of the bodies as point mass. Note that two bodies are rotating about a common axis with same angular velocity. Clearly, MI of the system is :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">We can express individual distance in terms of their sum using following two equations,
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">Substituting for “
+<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>r</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+” in the equation or "r", we have :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Similarly,  we can express, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” as :
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">Substituting for “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” in the expression of moment of inertia,
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>m</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>m</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>  
+</para>
+
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo>+</m:mo>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">This expression is similar to the expression of momemnt of inertia of a particle about an axis at a perpendicualr distance, "r". It is, therefore, clear that “Two body” system orbiting around center of mass can be treated as “one body” system by using concepts of  net distance “r” and reduced mass “μ”.
+</para>
+</section>
+<section id="section-5">
+<title>Angular momentum</title>
+<para id="element-60">The bodies move about the same axis with the same sense of rotation. The angular momentum of the system, therefore, is algebraic sum of individual angular momentums.
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mi>ω</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mi>ω</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">Substituting for “
+<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>r</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+” and “
+<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>r</m:mi>
+				<m:mn>2</m:mn>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+” with expressions as obtained earlier,
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>m</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>m</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo>+</m:mo>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>       
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>    
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>ω</m:mi>
+  </m:mrow>
+</m:math>
+</para><para id="element-420">This expression is similar to the expression of angular momemntum of a particle about an axis at a perpendicualr distance, "r". Once again, we see that “Two body” system orbiting around center of mass can be treated as “one body” system by using concepts of  net distance “r” and reduced mass “μ”.
+</para>
+</section>
+<section id="section-6">
+<title>Kinetic energy </title>
+<para id="element-67">The kinetic energy of the system is equal to the algebraic sum of the kinetic energy of the individual body. We write expression of kinetic energy in terms of angular velocity – not in terms of linear velocity. It is so because angular velocity is same for two bodies and can, therefore, be used to simplify the expression for kinetic energy. Now, kinetic energy of the system is :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">Substituting for “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” with expressions as obtained earlier,
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>m</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>ω</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>m</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>ω</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>        
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>ω</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>ω</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>      
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para><para id="element-985">This expression of kinetic energy is also similar to the expression of kinetic energy of a particle rotating about an axis at a perpendicualr distance, "r". Thus, this result also substantiates equivalence of “Two body” system as “one body” system, using concepts of  net distance “r” and reduced mass “μ”.
+</para>
+
+</section>
+<section id="section-7">
+<title>Example </title>
+<para id="element-75"><term>Problem 1 :</term> In a binary star system, two stars of “m” and “M” move along two circular trajectories. If the distance between stars is “r”, then find the total mechanical energy of the system. Consider no other gravitational influence on the system.
+</para>
+<para id="element-76"><term>Solution : </term>Mechanical energy of the system comprises of potential and kinetic energy. Hence,
+</para>
+<para id="element-77"><m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>w</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">We know that angular velocity for “two body” system in circular motion is given by :
+</para>
+<para id="element-79"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>M</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>m</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+Also, reduced mass is given by :
+</para>
+<para id="element-81"><m:math display="block">
+  <m:mrow>
+    <m:mi>μ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">Putting in the expression of mechanical energy,
+</para>
+<para id="element-83"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>G</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>M</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>M</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-8">
+<title>Conclusions </title>
+<para id="element-86">
+Thus, we conclude the following :
+</para>
+<para id="element-87"><term>1:</term> Each body follows a circular path about center of mass.
+</para>
+<para id="element-88"><term>2:</term> The line joining centers of two bodies pass through center of mass.
+</para>
+<para id="element-89"><term>3:</term> The planes of two motions are in the same plane. In other words, two motions are coplanar.
+</para>
+<para id="element-90"><term>4:</term> The angular velocities of the two bodies are equal.
+</para>
+<para id="element-91"><term>5:</term> The linear distance between two bodies remains constant.
+</para>
+<para id="element-92"><term>6:</term> Magnitude of gravitational force is constant and same for two bodies.
+</para>
+<para id="element-93"><term>7:</term> Magnitude of centripetal force required for circular motion is constant and same for two bodies.
+</para>
+<para id="element-94"><term>8:</term> Since linear velocity is product of angular velocity and distance from the center of revolution, it may be different if the radii of revolutions are different.
+</para>
+<para id="element-95"><term>9:</term> We can treat two body system with an equivalent one body system by using concepts of (i) combined mass, “M”, (ii) net distance “r” and (iii) reduced mass “μ”. 
+</para>
+<para id="element-96">
+<figure id="fig-96">
+<title> Two body system - circular motion </title>
+<media id="idp6980048" alt=""><image src="../../media/tbc4.gif" mime-type="image/gif"/></media>
+<caption> Two body system as equivalent to one body system.</caption>
+</figure>
+</para>
+</section>
+
+
+  </content>
+  
+</document>

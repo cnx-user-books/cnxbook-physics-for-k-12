@@ -1,0 +1,1697 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Projectile motion on an incline (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5a0b2d8a-98e3-4bf1-8797-aee87ea14316</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+ 
+<section id="section-1a">
+<title> Hints for solving problems
+</title>
+<para id="element-2">Problems based on projectile motion over an incline are slightly difficult. The analysis is complicated mainly because  there are multitudes of approaches available. First there is issue of coordinates, then we might face the conflict to either use derived formula or analyze motion independently in component directions and so on. We also need to handle motion up and down the incline in an appropriate manner. However, solutions get easier if we have the insight into the working with new set of coordinate system and develop ability to assign appropriate values of accelerations, angles and component velocities etc. 
+</para>
+<para id="element-3">Here, we present a simple set of guidelines in a very general way :
+</para>
+<para id="element-4">
+<term>1: </term> Analyze motion independently along the selected coordinates. Avoid using derived formula to the extent possible.
+</para>
+
+<para id="element-5">
+<term>2: </term> Make note of information given in the question like angles etc., which might render certain component of velocity zero in certain direction.
+</para>
+<para id="element-6">
+<term>3: </term> If range of the projectile is given, we may try the trigonometric ratio of the incline itself to get the answer.
+</para>
+<para id="element-7">
+<term>4: </term> If we use coordinate system along incline and in the direction perpendicular to it, then always remember that component motion along both incline and in the direction perpendicular to it are accelerated motions. Ensure that we use appropriate components of acceleration in the equations of motion.
+</para>
+</section>
+
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-8">
+We discuss problems, which highlight certain aspects of the study leading to the concept of projectile motion on an incline. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-9">
+<list id="list-9" list-type="bulleted">
+<item> Range of the flight
+</item>
+<item> Angle of projection
+</item>
+<item> Final Speed of the projectile 
+</item>
+<item> Elastic collision with the incline
+</item>
+<item> Projectile motion on double inclines
+</item>
+</list>
+</para>
+</section>
+
+
+<section id="section-3">
+<title> Range of the flight
+</title>
+<example id="example-10">
+<para id="element-10"><term>Problem : </term> A projectile is thrown with a speed "u" at an angle 60° over an incline of 30°. If the time of flight of the projectile is “T”, then find the range of the flight.
+</para>
+<para id="element-11">
+<figure id="fig-11">
+<title> Projectile motion on an incline </title>
+<media id="idm1910864" alt=""><image src="../../media/pmiq1.gif" mime-type="image/gif"/></media>
+<caption> The time of flight is “T”.</caption>
+</figure>
+</para>
+<para id="element-12"> <term>Solution : </term> We can see here that time of flight is already given. We can find range considering projectile motion in the coordinates of horizontal and vertical axes. The range of the projectile “R” is obtained by using trigonometric ratio in triangle OAB. The range is related to horizontal base “OB” as : 
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Projectile motion on an incline </title>
+<media id="idm1030912" alt=""><image src="../../media/pmiq2.gif" mime-type="image/gif"/></media>
+<caption> The time of flight is “T”.</caption>
+</figure>
+</para>
+
+
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>sec</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+Now, we can find OB by considering motion in horizontal direction :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>u</m:mi>
+        <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+Thus, the range of the projectile, OA, is :
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>u</m:mi>
+        <m:mi>T</m:mi>
+        <m:mi>sec</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>u</m:mi>
+        <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+</section>
+<section id="section-4">
+<title> Angle of projection
+</title>
+<example id="example-22a">
+<para id="element-22a"><term>Problem : </term> A particle is projected from the foot of an incline of angle “30°” at a certain velocity so that it strikes the incline normally. Find the angle of projection (θ ) as measured from the horizontal.
+</para>
+<para id="element-23a">
+<figure id="fig-23a">
+<title> Projectile motion on an incline </title>
+<media id="idp867440" alt=""><image src="../../media/pmiq3.gif" mime-type="image/gif"/></media>
+<caption> The projectile hits the incline normally.</caption>
+</figure>
+</para>
+<para id="element-24a"> <term>Solution : </term> Here, projectile hits the incline normally. It means that component of velocity along the incline is zero. We should remember that the motion along the incline is not uniform motion, but a decelerated motion. In order to take advantage of the fact that final component velocity along incline is zero, we consider motion in a coordinate system along the incline and along a direction perpendicular to it. 
+</para>
+<para id="element-25a">
+<figure id="fig-25a">
+<title> Projectile motion on an incline </title>
+<media id="idm3972288" alt=""><image src="../../media/pmiq4.gif" mime-type="image/gif"/></media>
+<caption> The projectile hits the incline normally.</caption>
+</figure>
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>u</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>θ</m:mi>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mn>30</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">
+Now, time of flight is also given by the formulae :
+</para>
+
+
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mn>30</m:mn>
+                <m:mn>0</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mn>30</m:mn>
+            <m:mn>0</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">
+Equating two expressions for time of flight, we have :
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mn>30</m:mn>
+                <m:mn>0</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mn>30</m:mn>
+            <m:mn>0</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>u</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mn>30</m:mn>
+                <m:mn>0</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>sin</m:mi>
+          <m:msup>
+            <m:mn>30</m:mn>
+            <m:mn>0</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+      <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+      <m:mn>2</m:mn>
+        <m:mi>tan</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+<section id="section-5">
+<title> Final speed of the projectile 
+</title>
+<example id="example-31">
+<para id="element-31"><term>Problem : </term> A ball is projected on an incline of 30° from its base with a speed 20 m/s, making an angle 60° from the horizontal. Find the speed with which the ball hits the incline.
+</para>
+<para id="element-32">
+<figure id="fig-32"><title> Projectile motion on an incline </title>
+<media id="idp6796768" alt=""><image src="../../media/pmiq10.gif" mime-type="image/gif"/></media>
+<caption> The projectile is projected from base of the incline.</caption>
+</figure>
+</para>
+<para id="element-33"> <term>Solution : </term> We analyze this problem in the coordinates along the incline (x-axis) and in the direction perpendicular to the incline (y-axis). In order to find the speed at the end of flight, we need to find the component velocities in “x” and “y” directions. 
+</para>
+<para id="element-34">The velocity in y-direction can be determined making use of the fact that a ball under constant acceleration like gravity returns to the ground with the same speed, but in opposite direction. The component of velocity in y-direction at the end of the journey, therefore, is :
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Projectile motion on an incline </title>
+<media id="idm128480" alt=""><image src="../../media/pmiq7.gif" mime-type="image/gif"/></media>
+<caption> The projectile is projected from base of the incline.</caption>
+</figure>
+</para>
+
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">Now, we should attempt to find the component of velocity in x-direction. We should, however, recall that motion in x-direction is not a uniform motion, but has deceleration of “-gsinα”. Using equation of motion in x-direction, we have :
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+Putting values,
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+Clearly, we need to know time of flight to know the component of velocity in x-direction. The time of flight is given by :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>X</m:mi>
+          <m:mn>20</m:mn>
+        </m:mrow>
+        <m:mrow>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+          <m:mi>X</m:mi>
+          <m:mn>10</m:mn>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">
+Hence, component of velocity in x-direction is :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:mfrac>
+        <m:mn>4</m:mn>
+        <m:mrow>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>30</m:mn>
+        <m:mo>-</m:mo>
+        <m:mn>20</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+The speed of the projectile is equal to resultant of components :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mo>-</m:mo>
+              <m:mn>10</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mfrac>
+                <m:mn>10</m:mn>
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>400</m:mn>
+              <m:mn>3</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+</section>
+<section id="section-6">
+<title> Elastic collision with the incline
+</title>
+<example id="example-49">
+<para id="element-49"><term>Problem : </term> A ball falls through a height “H” and impacts an incline elastically. Find the time of flight between first and second impact of the projectile on the incline.
+</para>
+<para id="element-60"> <term>Solution : </term> The ball falls vertically through a distance "H". We can get the value of initial speed by considering free fall of the ball before impacting incline.
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>H</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>g</m:mi>
+          <m:mi>H</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-51a"> In order to answer this question, we need to identify the velocity with which projectile rebounds. Since impact is considered elastic, the projectile is rebounded without any loss of speed. The projectile is rebounded such that angle of incidence i.e. the angle with the normal is equal to angle of reflection.
+</para>
+
+
+<para id="element-52">
+<figure id="fig-52">
+<title> Projectile motion on an incline </title>
+<media id="idp1417216" alt=""><image src="../../media/pmiq5.gif" mime-type="image/gif"/></media>
+<caption> The ball impacts incline elastically.</caption>
+</figure>
+</para>
+<para id="element-53">
+The components of velocity along the incline and perpendicular to it are shown in the figure. The motion of ball, thereafter, is same as that of a projectile over an incline. Here, we shall analyze motion in y-direction (normal to the incline) to find the time of flight. We note that the net displacement between two strikes is zero in y – direction.
+</para>
+<para id="element-54">
+Applying equation of motion
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+Or
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-63">
+Putting value of initial speed in the equation of time of flight, we have :
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:mi>H</m:mi>
+              </m:mrow>
+              <m:mi>g</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">
+It should be noted here that we can find the time of flight also by using standard formula of time of flight for projectile motion down the incline. The time of flight for projection down an incline is given as :
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+</para>
+<para id="element-68">
+We need to be careful while appropriating angles in the above expression. It may be recalled that all angles are measured from the horizontal. We redraw the figure to denote the value of angle of projection “θ” from the horizon.
+</para>
+<para id="element-69">
+<figure id="fig-69"><title> Projectile motion on an incline </title>
+<media id="idp147664" alt=""><image src="../../media/pmiq6a.gif" mime-type="image/gif"/></media>
+<caption> The ball impacts incline elastically.</caption>
+</figure>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mn>90</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>α</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>α</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mn>90</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:mi>α</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>8</m:mn>
+                <m:mi>H</m:mi>
+              </m:mrow>
+              <m:mi>g</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+</section>
+
+<section id="section-7">
+<title> Projectile motion on two inclines
+</title>
+<example id="example-72">
+<para id="element-72"><term>Problem : </term> Two incline plane of angles 30° and 60° are placed touching each other at the base as shown in the figure. A projectile is projected at right angle with a speed of 10√3 m/s  from point “P” and hits the other incline at point “Q” normally. Find the linear distance between PQ.
+</para>
+<para id="element-73">
+<figure id="fig-73">
+<title> Projectile motion on two inclines </title>
+<media id="idp8351376" alt=""><image src="../../media/pmiq8.gif" mime-type="image/gif"/></media>
+<caption> A projectile projected at right angle from an incline hits another incline at right angle.</caption>
+</figure>
+</para>
+<para id="element-74a"> <term>Solution : </term> We notice here OPQ forms a right angle triangle at “O”. The linear distance, “PQ” is related as :
+</para>
+<para id="element-75a">
+<figure id="fig-75a">
+<title> Projectile motion on two inclines </title>
+<media id="idp8179552" alt=""><image src="../../media/pmiq9.gif" mime-type="image/gif"/></media>
+<caption> A projectile projected at right angle from an incline hits another incline at right angle.</caption>
+</figure>
+</para>
+
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:msup>
+      <m:mi>Q</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:msup>
+      <m:mi>P</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>O</m:mi>
+    <m:msup>
+      <m:mi>Q</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">
+In order to find “PQ”, we need to know “OP” and “OQ”. We can find “OP”, considering motion in y-direction.
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+Similarly,
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>T</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">In order to evaluate these two relations, we need to find components of accelerations and time of flight. 
+</para>
+<para id="element-80">
+Considering first incline, we have :
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">
+In order to find the time of flight, we can further use the fact that the component of velocity in x-direction i.e. along the second incline is zero. This, in turn, suggests that we can analyze motion in x-direction to obtain time of flight.
+</para>
+<para id="element-89">
+In x-direction,
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msub>
+            <m:mi>u</m:mi>
+            <m:mi>x</m:mi>
+          </m:msub>
+        </m:mrow>
+        <m:mrow>
+          <m:msub>
+            <m:mi>a</m:mi>
+            <m:mi>x</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+Putting values in the equation and solving, we have :
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>5</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">
+Now, we can evaluate “x” and “y” displacements as :
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99">
+Considering positive values, the linear distance, “PQ” is given as :
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>O</m:mi>
+          <m:msup>
+            <m:mi>P</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mi>O</m:mi>
+          <m:msup>
+            <m:mi>Q</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>10</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>10</m:mn>
+              <m:msqrt>
+                <m:mn>3</m:mn>
+              </m:msqrt>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+</section>
+  
+  </content>
+  
+</document>

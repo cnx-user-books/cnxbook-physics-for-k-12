@@ -1,0 +1,2302 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conservation of angular momentum (check your understanding)</title>
+  <metadata>
+  <md:content-id>m14364</md:content-id><md:title>Conservation of angular momentum (check your understanding)</md:title>
+  <md:abstract>Objective questions, contained in this module with hidden solutions, help improve understanding of the topics covered under the module "Conservation of angular momentum".</md:abstract>
+  <md:uuid>11c84588-11d6-4f88-874c-ca71fe7c7c43</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">The questions have been selected to enhance understanding of the topics covered in the module titled "<link document="m14342"> Conservation of angular momentum </link>". All questions are multiple choice questions with one or more correct answers. There are two sets of the questions. The “understanding level” questions seek to unravel the fundamental concepts involved, whereas “application level” are relatively difficult, which may interlink concepts from other topics.
+</para>
+<para id="element-2">
+Each of the questions is provided with solution. However, it is recommended that solutions may be seen only when your answers do not match with the ones given at the end of this module.  
+</para>
+<section id="section-1">
+<title> Understanding level (Conservation of angular momentum) </title>
+
+<para id="element-3">
+<exercise id="exercise-3">
+<problem id="id1172406770277">
+<para id="element-4">
+If the polar ice caps completely melt due to warming, then :
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> the earth will rotate faster  </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> the earth will rotate slower </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> there will be no change in the angular speed </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> duration of a day on the Earth will increase </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1172403322591">
+<para id="element-6">
+The gravitational pull of the Sun passes through COM of the Earth, providing centripetal force required for the rotation of the Earth about it. Thus, there is no external torque on the Earth. It means that the angular momentum of the Earth remains constant. 
+</para>
+<para id="element-7">
+The melting of ice cap will result in the rise of sea level. From the point of view of MI of the Earth, it means redistribution of mass. The water equivalent of ice moves away from the axis of rotation, which passes through the poles. This results in an increase in the MI of the Earth.
+</para>
+<para id="element-8">
+Now, applying law of conservation of angular momentum :
+</para>
+<para id="element-8a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-8d">
+Hence, increase in the MI of the Earth, due to melting of ice, will decrease angular velocity. On the other hand, the duration of a day on the Earth is equal to its time period of rotation, which is given as : 
+</para>
+<para id="element-8e"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8f">
+As the Earth rotate slowly (lesser angular speed, 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>
+), the duration of a day on the Earth will increase.
+</para>
+<para id="element-9">
+Hence, options (b) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-10">
+<exercise id="exercise-10">
+<problem id="id1172406479814">
+
+<para id="element-11">A circular disk of mass “M” and radius “R” is rotating with angular velocity “ω” about its vertical axis. When  two small objects  each of mass “m” are gently placed on the rim of the disk, the angular velocity of the ring becomes :
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> M </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> M </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> Mm </m:mi>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> M </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1172412745836">
+<para id="element-14">
+Since no external torque is operating on the disk – objects system, the angular momentum of the system is conserved. 
+</para>
+<para id="element-15">Let “
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>
+” be the common angular velocity of the composite system after objects are placed on the disk. Let subscripts “D”, “O” and “C” represent disk, objects and composite system respectively , then according to conservation of angular momentum,
+</para>
+
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> Di </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> Di </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> Oi </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> Oi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> Ci </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-17">
+Here,
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> Di </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+<m:mtd>
+<m:mi> ; </m:mi>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> ω  </m:mi>
+<m:mi> Di </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> ; </m:mi>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> I  </m:mi>
+<m:mi> Oi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+<m:mtd>
+<m:mi> ; </m:mi>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> ω  </m:mi>
+<m:mi> Oi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+Also, the MI of the composite system is :
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> Cf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+Putting in the equation of conservation law, 
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+Hence, options (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-25">
+<exercise id="exercise-25">
+<problem id="id1172408052174">
+<para id="element-26">
+What would be the duration of day, if earth shrinks to half its radius with two – third of its original mass ? Consider motion of the Earth about the Sun along a circular path.
+</para>
+<para id="element-26a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> hrs </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> hrs </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> hrs </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 16 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> hrs </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</problem>
+<solution id="id1172406762315">
+<para id="element-27">
+The Earth rotates around the Sun as gravitational pull provides the necessary centripetal force. This force passes through the center of mass of the Earth. As such, gravitational pull does not constitute torque on the Earth. Therefore, we can consider that angular momentum of the Earth remains unchanged. Now, let us use "i" and "f" subscripts to denote initial and final values, then according to law of conservation of angular momentum :
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+We know that time period of the Earth is :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 24 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> hrs </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+Hence, its angular velocity is :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mn> 24 </m:mn>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> π </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+Since data on mass and radius are missing, it is not possible to calculate MIs in two cases separately. However, we can find the ratio of MIs :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>	
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>	
+<m:mo> x </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 4 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mn> 6 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+Putting in the equation,
+</para>
+<para id="element-37"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 6 </m:mn>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mi> π </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+The new time period of rotation is :
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+</m:mrow>
+<m:mi> π </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> hrs </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39a">
+Hence, options (b) is correct.
+</para>
+
+<para id="element-40">
+<note id="id1172394087461"> This question underlines the fact that centripetal force does not constitute a torque for rotating body. Further this question describes a hypothetical situation in which mass of the body itself has changed – not its distribution, resulting in the change of MI and hence angular velocity to conserve angular momentum of the system. 
+</note>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-41">
+<exercise id="exercise-41">
+<problem id="id1172409049358">
+<para id="element-42">Two disks of moments of inertia 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ and having angular velocities 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ respectively are brought in contact with each other face to face such that their axis of rotation coincides. The situation is as shown in the figure just before the contact. What is the angular velocity of the combined system of two rotating disks, if they acquire a common angular velocity?
+</para>
+<para id="element-42a">
+<figure id="fig-42a">
+<title> Two rotating disks </title>
+<media id="id1172392531561" alt=""><image src="../../media/caq1-a96e.gif" mime-type="image/gif"/></media>
+<caption> Two disks are rotating about a common axis.</caption>
+</figure>
+</para>
+
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1172402568517">
+<para id="element-44">
+The bodies acquire equal angular velocity due to friction operating between the surfaces in contact. However, friction here is internal to the system of two rotating disks. Thus, there is no external torque on the system and we can employ law of conservation of angular momentum :
+</para>
+<para id="element-44a">
+<figure id="fig-44a">
+<title> Two rotating disks </title>
+<media id="id1172408353187" alt=""><image src="../../media/caq2.gif" mime-type="image/gif"/></media>
+<caption> Two disks are brought in contact along common axis of rotation.</caption>
+</figure>
+</para>
+
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Here,
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-48">When disks come in contact and rotate about a common axis with equal angular velocity, they acquire common angular velocity, say ”ω”. Since, 
+two disks are rotating about a common axis of rotation, the MI of the combination is arithmetic sum of individual MIs. The moment of inertia of the composite system, “
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> C </m:mn>
+</m:msub>
+</m:math>
+” is given as :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> C </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">Thus, final angular momentum of the system is :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> f </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+Putting values in the equation of conservation of angular momentum, we have :
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54a">
+Hence, option (c) is correct.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+</section> 
+
+<section id="section-2">
+<title> Application level (Conservation of angular momentum) </title>
+
+<para id="element-55">
+<exercise id="exercise-55">
+<problem id="id1172412347244">
+<para id="element-55a">Two disks of moments of inertia 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ and having angular velocities 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ respectively are brought in contact with each other face to face such that their axis of rotation coincides. The situation is as shown in the figure just before the contact. After sometime, the combined system of two rotating disks acquire a common angular velocity. The energy dissipated due to the friction is :
+</para>
+<para id="element-55e">
+<figure id="fig-55e">
+<title> Two rotating disks </title>
+<media id="id1172401143448" alt=""><image src="../../media/caq1-a96e.gif" mime-type="image/gif"/></media>
+<caption> Two disks are rotating about a common axis.</caption>
+</figure>
+</para>
+
+<para id="element-55c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</problem>
+<solution id="id1172392875867">
+
+<para id="element-56">
+Applying law of conservation of angular momentum,  the expression of common angular velocity is given as (as derived in the earlier question) :
+</para>
+<para id="element-56a">
+<figure id="fig-56a">
+<title> Two rotating disks </title>
+<media id="id1172392573172" alt=""><image src="../../media/caq2.gif" mime-type="image/gif"/></media>
+<caption> Two disks are brought in contact along common axis of rotation.</caption>
+</figure>
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+The energy dissipated due to the friction is equal to the change in the angular kinetic energy. Also as there is dissipation of energy, final angular kinetic energy is less than initial angular kinetic energy of the system. The change in angular kinetic energy, therefore, is  :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msubsup>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msubsup>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">Here,  final common angular speed and moment of inertia of the combined system are :
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> ; </m:mi>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+Putting values, we have :
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+Substituting value of common angular velocity and solving, we have :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+Hence, option (b) is correct.
+</para>
+<para id="element-68">
+<note id="id1172412256655">We observe here that 
+<m:math>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ is a square of difference of angular velocities. This means that this term is always positive. In turn, it means coupling two rotating disks due to friction will involve dissipation of angular kinetic energy of the system. In terms of angular kinetic energy, 
+<m:math>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>
+.
+</note>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-67">
+<exercise id="exercise-67">
+<problem id="id1172398476690">
+
+<para id="element-69">A cubical block of mass “M” and sides “L” hits a small obstruction at "p", while moving with a velocity “v” as shown in the figure. If the the block topples, then the angular speed of the block about "P", just after it hits the obstruction, is :
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> A block hitting an obstruction </title>
+<media id="id1172393519799" alt=""><image src="../../media/caq3.gif" mime-type="image/gif"/></media>
+<caption> The cubical block moves with a velocity “v” on a horizontal surface.</caption>
+</figure>
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1172394082742">
+
+<para id="element-72">The line of action of the force on the block due to obstruction passes through the axis of rotation about which block suddenly rotates i.e. about the obstruction for a brief period. These forces (operating at the time of collision) do not constitute torque. We can, therefore, conclude that there is no torque on the block. According to law of conservation of angular momentum,
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-74">The angular momentum of the block, treating it as a particle like body in translation, about the point of obstruction,"P", is :
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>  
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-76">Negative sign indicates that the angular momentum of the block about "P" is clockwise. The angular momentum of the block after collision, now treating it as a rigid body rotating about the axis perpendicular to the plane of motion and passing through the point of obstruction, is :
+</para>
+<para id="element-77">
+<figure id="fig-77">
+<title> A block hitting an obstruction </title>
+<media id="id4466264" alt=""><image src="../../media/caq4.gif" mime-type="image/gif"/></media>
+<caption> The cubical block overturns at P.</caption>
+</figure>
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">
+where “ω” is the angular velocity of the block about the axis of rotation. 
+</para>
+<para id="element-80">
+Thus,
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">For moment of inertia of the block, it can be treated like a square plate. Its MI about the axis passing through COM is,
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+<figure id="fig-84">
+<title> Axis of rotation </title>
+<media id="id1172393802735" alt=""><image src="../../media/caq5.gif" mime-type="image/gif"/></media>
+<caption> Axis of rotation lies in the central plane as seen from any of the six sides.</caption>
+</figure>
+</para>
+<para id="element-85">
+Recall that the formula used for MI here is that of plate about an axis that passes through COM but which is in the plane of plate. It is a valid assumption as cube can be considered to be a cylinder with square face. Since MI of the plate and its corresponding cylinder are same, MI of the cube is same as that of corresponding square plate. 
+</para>
+<para id="element-86">
+Here, the axis can be considered to lie in the central plane consisting of its COM. A central plane with perpendicular axis is shown for an enlarged cube. Since cube is symmetric about any such axis as seen from any of the six faces, we can conclude that MI as calculated above is about an axis, which is perpendicular to the plane of motion and passing through its COM. Now, using theorem of parallel axes, we have MI about the point of obstruction :
+</para>
+<para id="element-87"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+From the geometry,
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> OP </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-91">
+Putting in the expression,
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-93">
+Now, putting in the equation of conservation of angular momentum, we have :
+</para>
+<para id="element-94">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-95">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-96">
+The negative sign indicates that the cubical block overturns in clockwise rotation about point "P". The angular speed of the block about obstruction, therefore, is equal to the magnitude of angular velocity.
+</para>
+<para id="element-96a">
+Hence, option (a) is correct.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+</section>  
+<section id="section-3">
+<title> Answers </title>
+<para id="element-262">
+<code id="id1172401731632" display="block">
+1. (b) and (d)   2. (a)    3. (b)    4. (c)    
+5. (b)           6. (a)    
+</code>
+</para>
+</section>
+
+  </content>
+  
+</document>

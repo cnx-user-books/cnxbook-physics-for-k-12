@@ -1,0 +1,894 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Force analysis in accelerated frame</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7c2a65b4-ad7a-471b-bac3-5f2d8e2fc511</md:uuid>
+</metadata>
+  <content>
+
+ <para id="element-1">
+The description, measurement and analysis of motion or force system in inertial and accelerated (non-inertial) frames are different. As the motion of an object in two systems should represent same physical phenomenon, it is desirable that the differences are resolved and made consistent to each other.
+</para>
+<para id="element-2">Our objective here is to reconcile the differences. For this, we consider a block of mass 10 kg lying on the floor of a lift, which itself is moving up with an acceleration of 2 
+<m:math>
+		<m:mspace width="2pt"/>
+		<m:mi> m </m:mi>
+		<m:mo> / </m:mo>
+		<m:msup>
+			<m:mi> s </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+	</m:math>. For the sake of convenience, we consider acceleration due to gravity is equal to 10 
+<m:math>
+		<m:mspace width="2pt"/>
+		<m:mi> m </m:mi>
+		<m:mo> / </m:mo>
+		<m:msup>
+			<m:mi> s </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+	</m:math>. Here, we have taken numerical values so that we have the feel of the difference of measurements in inertial and accelerated reference systems. 
+</para>
+<para id="element-3">
+<figure id="fig-3">
+<title> Force analysis in accelerating lift </title>
+<media id="idm7007424" alt=""><image src="../../media/faa1.gif" mime-type="image/gif"/></media>
+<caption> A block is at rest with respect to lift.</caption>
+</figure>
+</para>
+
+
+<section id="section-1">
+<title> Inertial frame of reference (ground) </title>
+<para id="element-4">An observer on the ground, who can see the block (let us think that the lift is covered with transparent glass), makes following measurements/ assumptions based on his/her understanding of classical mechanics :
+</para>
+<para id="element-5">
+<list id="list-2" list-type="bulleted"><item> The block is moving up with an acceleration, a = 2 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+ </item>
+<item> The acceleration due to gravity is 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. The acceleration due to gravity in the vicinity of earth surface is a constant and should not change because of the acceleration of the lift.
+ </item>
+<item> The weight of the block is mg = 10 x 10 = 100 N.
+ </item>
+<item> The block is acted upon by a normal force, N, as applied by the floor of the lift in upwards direction.
+ </item>
+</list>
+</para>
+<para id="element-6">He/ She analyzes forces, applying Newton’s second law of motion. The free body diagram of the block is :
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> Free body diagram (inertial frame) </title>
+<media id="idm606688" alt=""><image src="../../media/faa2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> g </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> ( </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 120 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> Newton </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-9">The observer, therefore, concludes (applying Newton’s third law) that the force, which the block exerts on the floor is equal in magnitude, N = 120 N as against 100 N, when the lift would have been stationary. 
+</para>
+<para id="element-10">He/ She anticipates that a spring balance will register a value of 120 N as it measures normal force applied on it. We must know that spring balance measures normal force - not the weight. Clearly, the measurement is not same as the weight of the block, mg (10 x10 = 100 N), when lift in stationary. The normal force is equal to weight only when spring balance is stationary in inertial frame. 
+</para>
+
+</section>  
+<section id="section-2">
+<title> Accelerated frame of reference (lift) </title>
+
+
+<para id="element-11">As against above, an observer in the lift makes following measurements/ assumptions based on his/her understanding of classical mechanics :
+</para>
+<para id="element-12">
+<list id="list-12" list-type="bulleted"><item> The block is at rest.
+</item>
+<item> The acceleration due to gravity is 10 <m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ (This does not change in the vicinity of Earth).
+</item>
+<item> The weight of the block is mg = 10 x 10 = 100 N. This is based on the fact that mass of the block is 10 kg. Hence, weight, mg = 10 X 10 = 100 N.
+ </item>
+</list>
+</para>
+<para id="element-14">He analyzes the force applying Newton’s second law of motion. The free body diagram of the block is :
+</para>
+<para id="element-15">
+<figure id="fig-15"><title> Free body diagram (accelerated frame)  </title>
+<media id="idp6917584" alt=""><image src="../../media/faa3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> Newton </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">This observer is not capable to perceive and hence measure the acceleration of the lift. He, however, can measure the normal force on the block, say with a spring balance.  He/ She find that spring balance actually measures it to be 120 N! Clearly, there is something with his force analysis. The basic difference in the analysis of two observers arises due to the fact that observer on the ground recognizes block as an accelerated body, whereas observer on the lift recognizes block as stationary.
+</para>
+
+</section>  
+
+
+<section id="section-3">
+<title> Resolution of differences </title>
+
+<para id="element-18">The two observes meet and exchange their observations and discuss the differences. It is obvious that the observer on the ground (inertial frame of reference) prevails as his analysis of force yields the correct value of the normal force in the accelerated lift. Clearly, observer in the accelerated frame of reference (no-inertial) needs to do some adjustment, while applying Newton's second law of motion. The observer of inertial frame of reference points out to the observer in the accelerated frame of reference that the lift was actually being pulled up by an external force and that this external force needs to be accounted in the analysis by the observer in the lift.  </para>
+<para id="element-19">
+They conclude as :
+</para>
+<para id="element-20"><term>1:</term> Newton’s second law is valid in inertial frame of reference and needs to be modified, when used in the accelerated frame of reference.
+</para>
+
+<para id="element-21"><term>2:</term> The body need to be subjected to an additional force, usually referred as pseudo force, to account for the acceleration of the frame of reference. Once this additional force is applied on the body, Newton's second law can be applied as usual even in the non-inertial frame of reference. </para>
+<para id="element-358"><term>3:</term> The application of pseudo force should be carried out in the following manner : </para><para id="element-22">
+<list id="list-22" list-type="bulleted"><item> Determine magnitude of pseudo force,"
+<m:math>
+			<m:msub>
+                                <m:mi> F </m:mi>
+				<m:mi> S </m:mi>
+			</m:msub>
+		</m:math>
+", by multiplying the mass of the body "m" with the acceleration “a” of the accelerated frame of reference, 
+
+</item>
+	<item> Apply pseudo force on the body in the direction opposite to that of the acceleration “<term>a</term>”.
+</item>
+	<item> Analyze the situation, using Newton’s second law as if the frame of reference was an inertial frame of reference.
+ </item>
+</list>
+</para>
+<para id="element-502">In the nutshell, the pseudo force is given by following vector relation,</para><para id="element-689"><equation id="equation-689">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para><para id="element-764">where "<term>a</term>" is the acceleration of non-inertial frame of reference.</para><para id="element-461">The two observers also conclude that the spring balance does not measure weight of the block (mg), but the normal force applied on it. Besides they realize that normal contact force depends on the acceleration of the moving reference (container).</para><para id="element-23">Let us check the analysis of the observer in the lift, using the concept of pseudo force. Now, the free body diagram of the block with pseudo force is as given here (the downward forces are shown as two parallel vectors only to show them individually). 
+</para>
+<para id="element-24">
+<figure id="fig-24"><title> Free body diagram (accelerated frame) </title>
+<media id="idp8338736" alt=""><image src="../../media/faa4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> g </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mo> )</m:mo>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> ( </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> )</m:mo>
+<m:mo> = </m:mo>
+<m:mn> 120 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> Newton </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">Note that while applying law of motion in the accelerated frame, the observer has not modified his observation that the block is at rest. Adoption of pseudo force technique simply allows reconciling force analysis with the observed value measured in the accelerated system, using Newton’s second law. 
+</para>
+</section>  
+
+<section id="section-4">
+<title> Theoretical basis of analysis in accelerated frame </title>
+<para id="element-54">The conception of pseudo force in an accelerated frame of reference is not without basis. We can develop the theoretical framework that justifies using additional force in accelerated frame for applying Newton’s second law. 
+</para>
+<para id="element-55">Here, we consider a body “A” of mass “m”. An external force “<term>F</term>” acts on the body as shown. The acceleration of the body with respect to ground, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is related to external force as :
+</para>
+<para id="element-56">
+<figure id="fig-56"><title> Motion in accelerated frame </title>
+<media id="idp2848752" alt=""><image src="../../media/faa8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-56a">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57a">We, now, seek to analyze the motion with respect to a frame of reference, which is moving with acceleration, ”
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>” with respect to ground reference. Let the acceleration of the body with respect to this accelerated frame be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>AB</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>” 
+.</para>
+<para id="element-57">
+<figure id="fig-57"><title> Motion in accelerated frame </title>
+<media id="idp7176832" alt=""><image src="../../media/faa9a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-58">The product of the mass and the acceleration of the body with respect to accelerated reference is given by :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60a">
+This product is not equal to the product as obtained in inertial ground frame. This is because,  acceleration of the body with respect to accelerated reference “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>AB</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is given as :
+</para>
+<para id="element-60">
+<figure id="fig-60"><title> Relative acceleration </title>
+<media id="idp7568752" alt=""><image src="../../media/faa10.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+As such, the product in the accelerated frame evaluates to :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64a">
+If Newton’s second law of motion is valid in the accelerated frame, then it should connect external force on the body with the acceleration, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>AB</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”,  in the accelerated frame of reference. Clearly, this is not the case. However, if we replace external force “<term>F</term>” by “
+<m:math>
+  <m:mrow>
+      <m:mstyle mathvariant="bold">
+        <m:mi>F</m:mi>
+      </m:mstyle>
+        <m:mo>-</m:mo>
+        <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, then the modified external force is equal to the product of mass and acceleration of the body in the accelerated frame.
+</para>
+<para id="element-64">
+<figure id="fig-64"><title> Motion in accelerated frame </title>
+<media id="idp9934320" alt=""><image src="../../media/faa11a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-65"><equation id="equation-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-66">Clearly, we need to apply a force "
+<m:math>
+  <m:mrow>
+        <m:mi>a</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+"maB in the direction opposite to the acceleration of the frame of reference “B”. This force is known or termed as “pseudo” force.
+</para>
+
+
+<section id="section-4a">
+<para id="element-27"><term>Problem 1 : </term> A pendulum is suspended from the roof of a train compartment, which is moving with a constant acceleration “a”. Find the deflection of the pendulum bob from the vertical as observed from the ground and the compartment. 
+</para>
+<para id="element-28"> <term>Solution : </term> We analyze the problem from the perspectives of both inertial and accelerated frames.
+</para> 
+
+<para id="element-29"><term>(i) </term> In the inertial frame of reference,
+</para>
+<para id="element-30">
+<m:math>
+<m:mtext> Free body diagram of pendulum bob </m:mtext>
+</m:math>
+</para>
+<para id="element-31">
+The bob has acceleration “a” towards right. The forces on the bob are (i) weight of the bob, mg, and (ii) tension in the string.
+</para>
+<para id="element-32">
+<figure id="fig-32"><title> Free body diagram (inertial frame) </title>
+<media id="idp5393952" alt=""><image src="../../media/faa5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+and
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo>= </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+Combining two equations, we have :
+</para>
+<para id="element-37"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mi> g </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38"><term>(ii) </term> In the accelerated frame of reference,
+</para>
+<para id="element-39">
+<m:math>
+<m:mtext> Free body diagram of pendulum bob </m:mtext>
+</m:math>
+</para>
+<para id="element-40">
+The bob is at rest. The forces on the bob are (i) weight of the bob, mg, (ii) tension in the string and (iii) pseudo force ma.
+</para>
+<para id="element-41">
+<figure id="fig-41"><title> Free body diagram (accelerated frame) </title>
+<media id="idp2983632" alt=""><image src="../../media/faa6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+and
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">
+Combining two equations, we have :
+</para>
+<para id="element-46"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mi> g </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>  
+</section>  
+
+
+<section id="section-6">
+<title> Alternatives </title>
+
+<para id="element-47">Application of force analysis in accelerated frame of reference may have two approaches. We can analyze using Newton’s law from an inertial frame of reference. Alternatively, we can use the technique of pseudo force and apply Newton’s law right in the accelerated frame of reference as described above.
+</para>
+<para id="element-48">
+There is a school of thought that simply denies merit in pseudo force technique. The argument is that pseudo force technique is arbitrary without any fundamental basis. Further, this is like a short cut that conceals the true interaction of forces with body under examination.
+</para>
+<para id="element-49">On the other hand, there are complicated situation where inertial frame approach may turn out to be difficult to work with. Consider the illustration depicted in the figure. Here, a wedge is placed on the smooth surface of an accelerated lift. We have to study the motion of the block on the smooth incline surface of the wedge. 
+</para>
+<para id="element-50">
+<figure id="fig-50"><title> Accelerated systems </title>
+<media id="idp6957568" alt=""><image src="../../media/faa7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-51">Multiple accelerations here complicates the situation. The lift is accelerated with respect to ground; wedge is accelerated with respect to lift (as the surface of the lift is smooth) ; and finally block is accelerated with respect to wedge (as wedge surface is also smooth). In this case, it would be difficult to assess or determine attributes of motion by analyzing force in the inertial ground reference. In situation like this, analysis of forces in the non-inertial frame of reference of the lift eliminates one of the accelerations involved. 
+</para>
+<para id="element-52">It must again be emphasized that when we analyze motion with respect inertial frame of reference, then all measurements are done with respect to inertial frame. On the other hand, if we analyze with respect to accelerated frame of reference using concept of pseudo force, then all measurements are done with respect to accelerated frame of reference. For example, if the analysis of force in non-inertial frame yields an acceleration of the block as 5 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, then we must know that this is the acceleration of the block with respect to in incline i.e. accelerated frame of reference - not with respect to ground.
+</para>
+<para id="element-53">It is generally recommended that we should stick to force analysis in the inertial frame of reference, unless situation warrants otherwise.
+</para>
+
+
+</section>  
+
+  
+  </content>
+  
+</document>

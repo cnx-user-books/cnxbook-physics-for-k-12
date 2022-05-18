@@ -1,0 +1,1345 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Newton's second law of motion</title>
+  <metadata>
+  <md:content-id>m14042</md:content-id><md:title>Newton's second law of motion</md:title>
+  <md:abstract>Second law of motion is the centerpiece of classical dynamics, providing exact connection between force (cause) and acceleration (effect).</md:abstract>
+  <md:uuid>d9cc0d08-44b8-4509-adc6-51503ec0a889</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m14040/latest/" strength="3">Force</link>
+      <link url="http://cnx.org/content/m14041/latest/" strength="2">Newton's first law of motion</link>
+      <link url="http://cnx.org/content/m14043/latest/" strength="2">Newton’s third law of motion</link>
+      <link url="http://cnx.org/content/m14044/latest/" strength="1">Fundamental force types</link>
+      <link url="http://cnx.org/content/m14045/latest/" strength="1">Other force types</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+The second law of motion determines the effect of net force on a body. The first law only defines the natural state of the motion of a body, when net force on the body is zero. It does not provide us with any tool to quantitatively relate force and acceleration (rate of change in velocity). 
+</para>
+<para id="element-2">
+Second law of motion is the centerpiece of classical dynamics as it states the exact relation between force (cause) and acceleration (effect). This law has an explicit mathematical form and, therefore, has the advantage of quantitative measurement. As a matter of fact, the only available quantitative definition of force is given in terms of second law : “Force is equal to acceleration produced in unit mass.”
+</para>
+<para id="element-3">It must be clearly understood that the three laws of motion could well have been replaced by this single law of motion. However, the three laws are presented as they are, because first and third laws convey fundamental nature of "motion" and "force" which are needed to complete our understanding about them.
+</para>
+<para id="element-3a">
+The second law of motion is stated in terms of linear momentum. It would, therefore, be appropriate that we first familiarize ourselves with this term.
+</para>
+<section id="section-1">
+<title> Linear momentum </title>
+<para id="element-4">
+Linear momentum of a particle is defined as a vector quantity, having both magnitude and direction. It is the product of mass (a scalar quantity) and velocity (a vector quantity) of a particle at a given instant. 
+</para>
+<para id="element-5">
+<term>p</term> = m<term>v</term> 
+</para>
+<para id="element-6">The dimensional formula of linear momentum is 
+<m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+ and its SI unit of measurement is "
+<m:math>
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>∕</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+".
+</para>
+<para id="element-816">Few important aspects of linear momentum need our attention : </para><para id="element-8">
+First, linear momentum is a product of positive scalar (mass) and a vector (velocity). It means that the linear momentum has the same direction as that of velocity.
+</para>
+<para id="element-9">
+Second, we have earlier referred that motion of a body is represented completely by velocity. But, the velocity alone does not convey anything about the inherent relation that “change in velocity” has with force. The product of mass and velocity in linear momentum provides this missing information. 
+</para>
+<para id="element-10">In order to fully appreciate the connection between motion and force, we may consider two balls of different masses, moving at same velocity, which collide with a wall. It is our everyday common sense that tells us that the ball with greater mass exerts bigger force on the wall. We may, therefore, conclude that linear momentum i.e. the product of mass and velocity represents the “quantum of motion”, which can be connected to force.
+</para>
+<para id="element-11">
+It is this physical interpretation of linear momentum that explains why Newton’s second of motion is stated in terms of linear momentum as this quantity (not the velocity alone) connects motion with force.
+</para>
+</section>  
+
+
+<section id="section-2">
+<title> Newton’s second law of motion </title>
+
+<para id="element-12">
+The second law of motion is stated differently. We have chosen to state the law as given here :
+</para>
+<para id="element-14">
+<definition id="definition-14"><term> Newton’s second law of motion </term>
+<meaning id="id8506297"> The time rate of change of momentum of a body is equal to the net (resultant) external force acting on the body.
+</meaning>
+</definition>
+</para>
+<para id="element-15">
+In mathematical terms,
+</para>
+<para id="element-16"><equation id="equation-16"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi mathvariant="bold"> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-17">For invariant mass (the mass of the body under consideration does not change during application of force), we can take out mass "m" from the differential sign :
+</para>
+<para id="element-18"><equation id="equation-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-19">As mass “m” is a positive scalar quantity, directions of force and acceleration are same. The dimensional formula of force is 
+<m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+  and its SI unit of measurement is Newton, which is equal to "
+<m:math>
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>∕</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+". One Newton (denoted by symbol "N") is defined as the force, which when applied on a point mass of 1 kg produces an acceleration of 1 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>∕</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.</para>
+</section>  
+
+<section id="section-2a">
+<title>  Example </title>
+<para id="element-68"><term>Problem 1 : </term>
+A ball, weighing 10 gm, hits a hard surface in normal direction with a speed of 10 m/s and rebounds with the same speed. The ball remains in contact with the hard surface for 0.1 s. Find the magnitude of average force on the ball, applied by the surface.
+</para>
+<para id="element-70"><term>Solution : </term>
+We can find average force as the product of mass and average acceleration during the contact. Average acceleration is :
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v</m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v</m:mi>
+<m:mn> 1</m:mn>
+</m:msub></m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">If the rebound direction is considered positive, then 
+<m:math>
+<m:msub>
+<m:mi> v</m:mi>
+<m:mn> 1</m:mn>
+</m:msub>
+</m:math>
+= -10 m/s and 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+</m:math>
+= 10 m/s.
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 10</m:mn>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10</m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 0.1</m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 200 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+The average force is :
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 200 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 2000 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>  
+
+<section id="section-3">
+<title>  Interpreting Newton's second law of motion </title>
+
+
+<para id="element-20">
+Few important aspects of Newton’s second law of motion are discussed in the following sections : 
+</para>
+
+<section id="section-3a">
+<title>  Deduction of first law of motion </title>
+
+<para id="element-55"> <link document="m14041"> Newton's first law of motion </link>  is a subset of second law in the sense that first law is just a specific description of motion, when net external force on the body is zero.
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+
+      <m:mi mathvariant="bold">F</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+
+      <m:mi mathvariant="bold">a</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57"><equation id="equation-57">
+<m:math display="block">
+<m:mo> ⇒ </m:mo> 
+  <m:mrow>
+
+      <m:mi mathvariant="bold">a</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+
+          <m:mi mathvariant="bold">v</m:mi>
+
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</equation></para>
+
+<para id="element-59">
+This means that if there is no net external force on the body, then acceleration of the body is zero. Equivalently, we can state that if there is no net external force on the body, then velocity of the body can not change. Further, it is also easy to infer that if there is no net external force on the body, it will maintain its state of motion. These are exactly the statements in which first law of motion are stated. 
+</para>
+
+</section>
+<section id="section-3b">
+<title>  Forces on the body </title>
+
+<para id="element-21">The body under investigation may be acted upon by a number of forces. We must use vector sum of all external forces, while applying second law of motion. A more general form of Second law of motion valid for a system of force is :
+</para>
+<para id="element-22"><equation id="equation-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+
+      <m:mi mathvariant="bold">F</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+
+        <m:mi mathvariant="bold">a</m:mi>
+
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-23">The vector addition of forces as required in the left hand side of the equation excludes the forces that the body applies on other bodies. We shall know from Third law of motion that force always exists in the pair of “action” and “reaction”. Hence, if there are “n” numbers of forces acting on the body, then there are “n” numbers of forces that the body exerts on other bodies. We must carefully exclude all such forces that body as a reaction applies on other bodies.
+</para>
+<para id="element-24">
+Consider two blocks “A” and “B” lying on horizontal surface as shown in the figure. There are many forces in action here : 
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Forces acting on two blocks and Earth </title>
+<media id="id1165897305051" alt=""><image src="../../media/nsl1a.gif" mime-type="image/gif"/></media>
+<caption> There are many forces acting on different bodies. </caption>
+</figure>
+</para>
+<para id="element-26">
+<list id="list-26" list-type="enumerated">
+ 
+<item> Earth pulls down “A” (force of gravitation)
+ </item>
+<item>  “A” pulls up Earth (force of gravitation)
+ </item>
+<item> “B” pushes up “A” (normal force)  </item>
+<item> “A” pushes down “B” (weight of “A” : normal force) 
+ </item>
+<item> Earth pulls down “B”  (force of gravitation)
+ </item>
+<item>  “B” pulls up Earth (force of gravitation)
+ </item>
+<item> Earth pushes up “B” (normal force) and 
+ </item>
+<item>  “B” pushes down the Earth (weight of “B” and "A" : normal force)
+ </item>
+</list>
+</para>
+<para id="element-27">
+Let us now consider that we want to apply law of motion to block “B”. There are total of six forces related to “B” : 3, 4, 5, 6, 7 and 8. Of these, three forces 4, 5 and 7 act on “B”, while the remaining equal numbers of forces are applied by “B” on other bodies.
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> External forces acting on block B </title>
+<media id="id1165905204847" alt=""><image src="../../media/nsl2a.gif" mime-type="image/gif"/></media>
+<caption> There are three external forces on B as shown with red arrow. </caption>
+</figure>
+</para>
+<para id="element-29">From the point of view of the law of motion, there are, thus, only three forces as shown with red arrow in the figure, which are external force. These are the forces that the surrounding applies on the block "B".
+</para>
+<para id="element-30">Also as pointed out before in the course, we must not include internal forces like intermolecular forces in the consideration. In order to understand the role and implication of internal forces, we consider interaction of two blocks together with Earth’s surface. In this case, the forces 3 (B pushes up A) and 4 (A pushes down B) are pair of normal forces acting at the interface between blocks A and B. They are internal to the combined system of two bodies and as such are not taken into account for using law of motion. Here, external forces are 1 (Earth pulls down A), 5(Earth pulls down B) and 7(Earth pushes up B).  
+</para>
+<para id="element-30a">
+<figure id="fig-30a">
+<title> External and internal forces acting on blocks A and B </title>
+<media id="id6203226" alt=""><image src="../../media/nsl6a.gif" mime-type="image/gif"/></media>
+<caption> External and internal forces acting on blocks A and B </caption>
+</figure>
+</para>
+
+<para id="element-30b"> In nutshell, we must exclude (i) forces applied by the body and (ii) internal forces. Clearly, we must only consider external forces applied on the body while using equation of motion as given by Newton's second law.
+</para>
+</section>
+<section id="section-3c">
+<title>  Equation of motion in component directions </title>
+
+<para id="element-31">
+As the force and acceleration are vector quantities, we can represent them with three components in mutually perpendicular directions. The consideration of dimension is decided by the force system as applied to the body. 
+</para>
+<para id="element-32">If forces are collinear i.e. acting along a particular direction, then we use equation of motion in one direction. In such situation, it is possible to represent vector quantities with equivalent signed scalar quantities, in which sign indicates the direction. This is the simplest case.
+</para>
+<para id="element-33">
+If forces are coplanar i.e. acting in a plane, then we use component equations of motion in two directions. In such situation, we use component equations of motion in two directions.
+</para>
+<para id="element-34"><equation id="equation-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-35">Since each coordinate direction is bi-directional, we treat component vectors by equivalent scalar representation whose sign indicates direction. The important aspect of component equation of motion is that acceleration in a particular component direction is caused by net of force components in that direction and is independent of other net of component force in perpendicular direction. 
+</para>
+<para id="element-36">
+In case forces are distributed in three dimensional volume, then we must consider component equation of motion in third perpendicular direction also :
+</para>
+<para id="element-37"><equation id="equation-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+</section>  
+ 
+<section id="section-3d">
+<title>  Application of force </title>
+<para id="element-38">
+We implicitly consider that forces are applied at a single point object. The forces that act on a point object are concurrent by virtue of the fact that a point is dimensionless entity. This may appear to be confusing as we have actually used the word “body” – not “point” in the definition of second law. Here, we need to appreciate the intended meaning clearly. 
+</para>
+<para id="element-39">Actually second law is defined in the context of translational motion, in which a three dimensional real body behaves like a point. We shall subsequently learn that application of a force system (forces) on a body in translation is equivalent to a point, where all mass of the body can be considered to be concentrated. In that case, the acceleration of the body is associated with that point, which is termed as “center of mass (C)”. The Newton's second law is suitably modified as :
+</para>
+<para id="element-40"><equation id="equation-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>c</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-41">where 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>c</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is the acceleration of the center of mass (we shall elaborate about the concept of center of mass in separate module). In general, application of a force system on a real body can involve both translational and rotational motion. In such situation, the concurrency of the system of forces with respect to points of application on the body assumes significance. If the forces are concurrent (meeting at a common point), then the force system can be equivalently represented by a single force, applied at the common point. Further, if the common point coincides with “center of mass (C)”, then body undergoes pure translation. Otherwise, there is a turning effect (angular/rotational effect) also involved.
+</para>
+<para id="element-42">
+<figure id="fig-42" orient="horizontal"><title> Concurrent force system </title>
+<subfigure id="fig-42a">
+<media id="id1165896893716" alt=""><image src="../../media/nsl3.gif" mime-type="image/gif"/></media>
+<caption> Common point coincides with center of mass </caption>
+</subfigure>
+<subfigure id="fig-42b">
+<media id="id1165893390847" alt=""><image src="../../media/nsl4a.gif" mime-type="image/gif"/></media>
+<caption> Common point does not coincide with center of mass  </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-43">
+What if the forces are not concurrent? In this case, there are both translational and rotational effects to be considered. The translational motion is measured in terms of center of mass as in pure translation, whereas the turning effect is studied in terms of “moment of force” or “torque”. This is defined as :
+</para>
+<para id="element-44">
+<figure id="fig-44"><title> Non-concurrent force system </title>
+<media id="id1165894455031" alt=""><image src="../../media/nsl5a.gif" mime-type="image/gif"/></media>
+<caption> Forces as extended do not meet at a common point. </caption>
+</figure>
+</para>
+<para id="element-45"><equation id="equation-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>τ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+    <m:mo>×</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+    <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-46">
+where 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is perpendicular distance from the point of rotation. 
+</para>
+<para id="element-47">Most importantly, same force or force system is responsible for both translational effect (force acting as "force" as defined by the second law) and angular/rotational effect (force manifesting as "torque" as defined by the angular form of Newton's second law in the module titled <link document="m14320"> Second law of motion in angular form </link>). We leave the details of these aspects of application of force as we will study it separately. But the point is made. Linear acceleration is not the only “effect” of the application of force (cause). 
+</para>
+<para id="element-48">
+Also, force causes “effect” not necessarily as cause of acceleration – but can manifest in many ways : as torque to cause rotation; as pressure to change volume, as stress to deform a body etc. We should, therefore, always keep in mind that the study of translational effect of force is specific and not inclusive of other possible effects of force(s).
+</para>
+<para id="element-49">
+In the following listing, we intend to clarify the context of the study of the motional effect of force :
+</para>
+<para id="element-50">
+<term>1: </term> The body is negligibly small to approximate a point. We apply Newton’s second law for translation as defined without any consideration of turning effect.
+</para>
+<para id="element-51">
+<term>2: </term> The body is a real three dimensional entity. The force system is concurrent at a common point. This common point coincides with the center of mass. We apply Newton’s second law for translation as defined without any consideration of turning effect. Here, we implicitly refer the concurrent point as the center of mass.
+</para>
+<para id="element-52">
+<term>3: </term> The body is a real three dimensional entity. The force system is concurrent at a common point. But this common point does not coincide with the center of mass. The context of study in this case is also same as that for the case in which force system is not concurrent. We apply Newton’s second law for translation as defined for the center of mass and Newton’s second law for angular motion (we shall define this law at a later stage) for angular or rotational effect.
+</para>
+<para id="element-53">The discussion so far assumes that the body under consideration is free to translate and rotate. There are, however, real time situations in which rotational effect due to external force is counter-balanced by restoring torque. For example, consider the case of a sliding block on an incline. Application of an external force on the body along a line, not passing through center of mass, may not cause the body to overturn (rotate as it moves). The moment of external force i.e. applied torque may not be sufficient enough to overcome restoring torque due to gravity. As such, if it is stated that body is only translating under the given force system, then we assume that the body is a point mass and we apply Newton’s second law straight way as if the body were a point mass.
+</para>
+<para id="element-54">Unless otherwise stated or specified, we shall assume that the body is a point mass and forces are concurrent. We shall, therefore, apply Newton’s second law, considering forces to be concurrent, even if they are not. Similarly, we will consider that the body is a point mass, even if it is not. For example, we may consider a block, which is sliding on an incline. Here, “friction force” is along the interface, whereas the “normal force” and “weight” of the block act through center of mass (C). Obviously these forces are not concurrent. We, however, apply Newton’s second law for translation, as if forces were concurrent. 
+</para>
+
+</section>  
+</section>  
+
+<section id="section-4">
+<title>  Exercises </title>
+<para id="element-66a">
+<exercise id="exercise-66a">
+<problem id="id1165896774177">
+<para id="element-66">A ball of mass 0.1 kg is thrown vertically. In which of the following case(s) the net force on the ball is zero? (ignore air resistance)
+</para>
+<para id="element-67">(a) Just after the ball leaves the hand
+</para>
+<para id="element-68a">(b) During upward motion
+</para>
+<para id="element-69a">(c) At the highest point
+</para>
+<para id="element-70a">(d) None of above cases
+</para>
+</problem>
+
+<solution id="id1165905806604">
+<para id="element-71a">The only force acting on the ball is gravity (gravitational force due to Earth). It remains constant as acceleration due to gravity is constant in the vicinity of Earth. Thus, net force on the ball during its flight remains constant, which is equal to the weight of the ball i.e. 
+</para>
+<para id="element-72a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>mg</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mo>X</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73a">Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-96a">
+<exercise id="exercise-96a">
+<problem id="id1165901699184">
+<para id="element-96">
+A pebble of 0.1 kg is subjected to different sets of forces in different conditions on a train which can move on a horizontal linear direction. Determine the case when magnitude of net force on the pebble is greatest. Consider g = 10 <m:math>
+  <m:mrow>
+         <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+<m:msup>
+         <m:mi>s</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+.
+
+</para>
+<para id="element-97">
+(a)	The pebble is stationary on the floor of the train, which is accelerating at 10 
+<m:math>
+  <m:mrow>
+         <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+<m:msup>
+         <m:mi>s</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-98">
+(b)	The pebble is dropped from the window of train, which is moving with uniform velocity of 10 m/s.
+</para>
+<para id="element-99">
+(c) The pebble is dropped from the window of train, which is accelerating at 10 <m:math>
+  <m:mrow>
+         <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+<m:msup>
+         <m:mi>s</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-100">
+(d)	Magnitude of force is equal in all the above cases.
+
+</para>
+</problem>
+
+<solution id="id1165899769687">
+<para id="element-101">
+In the case (a), the pebble is moving with horizontal acceleration of 10 <m:math>
+  <m:mrow>
+         <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+<m:msup>
+         <m:mi>s</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+ as seen from the ground reference (inertial frame of reference). The net external force in horizontal direction is :
+
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+     <m:mo>⇒</m:mo>
+    <m:msub>
+     <m:mi>F</m:mi>
+  <m:mtext>net</m:mtext>
+ </m:msub>
+ <m:mo>=</m:mo>
+            <m:mi>ma</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.01</m:mn>
+    <m:mo>X</m:mo>
+   <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1 </m:mn>
+    <m:mspace width="2pt"/>
+     <m:mi>N</m:mi>
+    <m:mspace width="2pt"/>
+  <m:mtext>(acting horizontally)</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">
+There is no vertical acceleration. As such, there is no net external force in the vertical direction. The magnitude of net force on the pebble is, therefore, 1 N in horizontal direction.
+
+</para>
+<para id="element-104">
+In the case (b), the pebble is moving with uniform velocity of 10 m/s in horizontal direction as seen from the ground reference (inertial frame of reference). There is no net force in horizontal direction. When dropped, only force acting on it is due to gravity. The magnitude of net force is, thus, equal to its weight : 
+
+</para>
+<para id="element-105">
+
+<m:math display="block">
+  <m:mrow>
+     <m:mo>⇒</m:mo>
+    <m:msub>
+     <m:mi>F</m:mi>
+  <m:mtext>net</m:mtext>
+ </m:msub>
+ <m:mo>=</m:mo>
+            <m:mi>mg</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.01</m:mn>
+    <m:mo>X</m:mo>
+   <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1 </m:mn>
+    <m:mspace width="2pt"/>
+     <m:mi>N</m:mi>
+    <m:mspace width="2pt"/>
+  <m:mtext>(acting downward)</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-106">
+In the case (c), the pebble is moving with acceleration of 10 <m:math>
+  <m:mrow>
+         <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+<m:msup>
+         <m:mi>s</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+ as seen from the ground reference (inertial frame of reference). When the pebble is dropped, the pebble is disconnected with the accelerating train. As force has no past or future, there is no net horizontal force on the pebble. Only force acting on pebble is its weight. The magnitude of force on the pebble is :
+
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+     <m:mo>⇒</m:mo>
+    <m:msub>
+     <m:mi>F</m:mi>
+  <m:mtext>net</m:mtext>
+ </m:msub>
+ <m:mo>=</m:mo>
+            <m:mi>mg</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.01</m:mn>
+    <m:mo>X</m:mo>
+   <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1 </m:mn>
+    <m:mspace width="2pt"/>
+     <m:mi>N</m:mi>
+    <m:mspace width="2pt"/>
+  <m:mtext>(acting downward)</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">
+Hence, option (d) correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+<para id="element-109a">
+<exercise id="exercise-109a">
+<problem id="id1165901364080">
+<para id="element-109">
+A rocket weighing 10000 kg is blasted upwards with an initial acceleration 10 <m:math>
+  <m:mrow>
+         <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+<m:msup>
+         <m:mi>s</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+. The thrust of the blast is :
+
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+     <m:mi>(a)</m:mi>
+     <m:mspace width="2pt"/>
+    <m:mn>1</m:mn>
+    <m:mo>X</m:mo>
+<m:msup>
+   <m:mn>10</m:mn>
+   <m:mn>2</m:mn>
+</m:msup>
+     <m:mspace width="2pt"/>
+     <m:mi>(b)</m:mi>
+     <m:mspace width="2pt"/>
+    <m:mn>2</m:mn>
+    <m:mo>X</m:mo>
+<m:msup>
+   <m:mn>10</m:mn>
+   <m:mn>5</m:mn>
+</m:msup>
+     <m:mspace width="2pt"/>
+     <m:mi>(c)</m:mi>
+     <m:mspace width="2pt"/>
+    <m:mn>3</m:mn>
+    <m:mo>X</m:mo>
+<m:msup>
+   <m:mn>10</m:mn>
+   <m:mn>4</m:mn>
+</m:msup>
+     <m:mspace width="2pt"/>
+     <m:mi>(d)</m:mi>
+     <m:mspace width="2pt"/>
+    <m:mn>4</m:mn>
+    <m:mo>X</m:mo>
+<m:msup>
+   <m:mn>10</m:mn>
+   <m:mn>3</m:mn>
+</m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</problem>
+
+<solution id="id1165903367271">
+<para id="element-111">
+The net force on the rocket is difference of the thrust and weight of the rocket (thrust being greater). Let thrust be F, then applying Newton’s second law of motion :
+
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+     <m:mi>F</m:mi>
+  <m:mtext>net</m:mtext>
+ </m:msub>
+    <m:mo>=</m:mo>
+     <m:mi>F</m:mi>
+    <m:mo>-</m:mo>
+     <m:mi>mg</m:mi>
+     <m:mo>=</m:mo>
+     <m:mi>ma</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+       <m:mo>⇒</m:mo>
+   <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+     <m:mi>m</m:mi>
+     <m:mo>(</m:mo>
+    <m:mi>g</m:mi>
+     <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>)</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>10000</m:mn>
+   <m:mo>X</m:mo>
+   <m:mo>(</m:mo>
+  <m:mn>10</m:mn>
+     <m:mo>+</m:mo>
+  <m:mn>10</m:mn>
+    <m:mo>)</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>200000</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>X</m:mo>
+<m:msup>
+   <m:mn>10</m:mn>
+   <m:mn>5</m:mn>
+</m:msup>
+     <m:mspace width="2pt"/>
+     <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-74aa">
+<exercise id="exercise-74aa">
+<problem id="id1165898483263">
+<para id="element-74a"> The motion of an object of mass 1 kg along x-axis is given by equation,
+
+</para>
+<para id="element-75a"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+  <m:msup>
+    <m:mi>t</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">
+where “x” is in meters and “t” is in seconds. The force on the object is :
+
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>(a)</m:mi>
+<m:mspace width="2pt"/>
+    <m:mn>0.1</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+<m:mspace width="2pt"/>
+    <m:mi>(b)</m:mi>
+<m:mspace width="2pt"/>
+    <m:mn>0.5</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+<m:mspace width="2pt"/>
+    <m:mi>(c)</m:mi>
+<m:mspace width="2pt"/>
+    <m:mn>2.5</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+<m:mspace width="2pt"/>
+    <m:mi>(d)</m:mi>
+<m:mspace width="2pt"/>
+    <m:mn>10</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</problem>
+
+<solution id="id1165894326989">
+<para id="element-78">
+The given equation of displacement is a quadratic equation in time. This means that the object is moving with a constant acceleration. Comparing given equation with the standard equation of motion along a straight line :
+
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ut</m:mi>
+    <m:mo>+</m:mo>
+  <m:mfrac>
+     <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+ </m:mfrac>
+    <m:mi>a</m:mi>
+  <m:msup>
+    <m:mi>t</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-80">
+We have acceleration of the object as :
+
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+     <m:mn>5</m:mn>
+     <m:mo>X</m:mo>
+   <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+     <m:mn>10</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+  <m:msup>
+    <m:mi>t</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-82">
+Applying Newton’s second law of motion :
+
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ma</m:mi>
+    <m:mo>=</m:mo>
+     <m:mn>1</m:mn>
+     <m:mo>X</m:mo>
+   <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+     <m:mn>10</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-84">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-85a">
+<exercise id="exercise-85a">
+<problem id="id1165905468923">
+<para id="element-85">
+A bullet of mass 0.01 kg enters a wooden plank with a velocity 100 m/s. The bullet is stopped at a distance of 50 cm. The average resistance by the plank to the bullet is :
+
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>(a)</m:mi>
+<m:mspace width="2pt"/>
+    <m:mn>10</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+<m:mspace width="2pt"/>
+    <m:mi>(b)</m:mi>
+<m:mspace width="2pt"/>
+    <m:mn>100</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+<m:mspace width="2pt"/>
+    <m:mi>(c)</m:mi>
+<m:mspace width="2pt"/>
+    <m:mn>1000</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+<m:mspace width="2pt"/>
+    <m:mi>(d)</m:mi>
+<m:mspace width="2pt"/>
+    <m:mn>10000</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id1165896523141">
+<para id="element-87">
+The plank applies resistance as force. This force decelerates the bullet and is in opposite direction to the motion of bullet. Since we seek to know average acceleration, we shall consider this force as constant force assuming that wooden has uniform constitution. Let the corresponding deceleration be “a”. Then, according to equation of motion,
+
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+   <m:msup>
+    <m:mi>v</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+    <m:mo>=</m:mo>
+   <m:msup>
+    <m:mi>u</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+    <m:mo>+</m:mo>
+     <m:mn>2</m:mn>
+   <m:mi>as</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+     <m:mo>⇒</m:mo>
+         <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+   <m:mfrac>
+  <m:mrow>
+<m:msup>
+    <m:mi>v</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+    <m:mo>-</m:mo>
+<m:msup>
+    <m:mi>u</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+  <m:mrow>
+      <m:mn>2</m:mn>
+   <m:mi>s</m:mi>
+ </m:mrow>
+   </m:mfrac>
+
+   
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-90">
+Putting values,
+
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+     <m:mo>⇒</m:mo>
+         <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+
+   <m:mfrac>
+  <m:mrow>
+<m:msup>
+    <m:mn>10</m:mn>
+    <m:mn>4</m:mn>
+  </m:msup>
+    <m:mo>-</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+  <m:mrow>
+      <m:mn>2</m:mn>
+    <m:mo>X</m:mo>
+      <m:mn>0.5</m:mn>
+ </m:mrow>
+   </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+<m:msup>
+    <m:mn>10</m:mn>
+    <m:mn>4</m:mn>
+  </m:msup>
+<m:mspace width="2pt"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+  <m:msup>
+    <m:mi>t</m:mi>
+    <m:mn>2</m:mn>
+  </m:msup>
+
+   
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-93">
+Applying Newton’s second law of motion :
+
+</para>
+<para id="element-94">
+
+<m:math display="block">
+  <m:mrow>
+     <m:mo>⇒</m:mo>
+         <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+            <m:mi>ma</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.01</m:mn>
+    <m:mo>X</m:mo>
+<m:msup>
+    <m:mn>10</m:mn>
+    <m:mn>4</m:mn>
+  </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>100</m:mn>
+    <m:mspace width="2pt"/>
+     <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-95">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+</section>  
+
+
+  </content>
+  
+</document>

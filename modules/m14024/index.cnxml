@@ -1,0 +1,874 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Circular motion with constant acceleration (application)</title>
+  <metadata>
+  <md:content-id>m14024</md:content-id><md:title>Circular motion with constant acceleration (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>97af4664-dbe1-44b0-8a12-0ecc7bd37257</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-1">
+<title>  Check understanding </title>
+<para id="element-2">
+An online examination, based on the basic subject matter, is available at the link given here. The examination session is designed only for the basic level so  that we can ensure that our understanding of subject matter is satisfactory. 
+</para>
+<para id="element-3">
+<link url="http://www.wcourses.com/ec/pec/ptest1.htm?01050400"> Circular motion with constant acceleration </link>
+</para>
+</section> 
+
+<section id="section-2">
+<title> Hints for problem solving </title>
+<para id="element-4">
+<term>1: </term> Visualize the circular motion as if we are dealing with straight line (pure translational) motion. Write down formula with substitution of linear quantities with angular quantities. 
+</para>
+<para id="element-5">
+<term>2: </term> Use formula in scalar form. Stick to anticlockwise measurement as positive and clockwise measurement as negative. 
+</para>
+</section> 
+
+<section id="section-3">
+<title> Representative problems and their solutions </title>
+<para id="element-6">We discuss problems, which highlight certain aspects of the study leading to circular motion with constant acceleration. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+
+<para id="element-7">
+<list id="list-7" list-type="bulleted">
+<item> Nature of angular motion 
+</item>
+<item> Time interval
+</item>
+<item> Angular displacement
+</item>
+</list>
+</para>
+</section> 
+<section id="section-4">
+<title> Nature of angular motion </title>
+<example id="example-69">
+<para id="element-38a"><term>Problem : </term> 
+The angular velocity .vs. time plot of the motion of a rotating disk is shown in the figure. 
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> angular displacement .vs. time plot </title>
+<media id="id18829421" alt=""><image src="../../media/cmcaq1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-40">
+Determine (i) nature of angular velocity (ii) nature of angular acceleration and  (iii) whether the disk comes to a standstill during the motion? 
+</para>
+
+<para id="element-44"><term>Solution : </term> 
+The angular velocity is anticlockwise (positive) above time axis and clockwise (negative) below time axis. 
+</para>
+<para id="element-44a">
+The slope of angular velocity - time plot indicates nature of acceleration. Since the plot is a straight line, motion is accelerated/ decelerated at constant rate. Further, the slope of the straight line (angular velocity - time plot) is negative all through out. 
+</para>
+<para id="element-44b">
+Recall that it is easy to determine the sign of the straight line. Just move from left to right in the direction of increasing time along the time - axis. See whether the angular velocity increases of decreases. If increases, then slope is positive; otherwise negative. The angular velocity, here, becomes less positive above time axis and becomes more negative below time axis. Hence, slope is negative all through out.
+</para>
+<para id="element-45">
+It means that acceleration (negative) is opposite to angular velocity (positive) above time axis. Therefore, the disk is decelerated and the angular speed of disk decreases at constant rate. Below time - axis, the angular acceleration is still negative. However, angular velocity is also negative below the time axis. As such, disk is accelerated and the angular speed increases at constant rate.    
+</para>
+<para id="element-45a">
+We see here that the plot intersects time - axis. It means that the disk comes to a stand still before changing direction from anticlockwise rotation to clockwise rotation.   
+</para>
+</example>
+</section> 
+
+<section id="section-5">
+<title> Time interval </title>
+
+<example id="example-29">
+<para id="element-29"><term>Problem : </term> 
+The angular position of a point on a flywheel is given by the relation :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mi> (rad) </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.025 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 0.01 </m:mn>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">Find the time (in seconds) when flywheel comes to a stop.
+</para>
+
+<para id="element-33"><term>Solution : </term> 
+The speed of the particle is :
+</para>
+<para id="element-34"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.025 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 0.1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">When flywheel comes to a standstill, ω = 0,
+</para>
+<para id="element-171"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.025 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 0.1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-36"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 0.1 </m:mn>
+<m:mn> 0.025 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 100 </m:mn>
+<m:mn> 25 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+<example id="example-73">
+<para id="element-73"><term>Problem : </term> 
+The magnitude of deceleration of the motion of a point on a rotating disk is equal to the acceleration due to gravity (10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+). The point is at a linear distance 10 m from the center of the disk. If initial speed is 40 m/s in anti-clockwise direction, then find the time for the point to return to its position.
+</para>
+<para id="element-74"><term>Solution : </term> 
+The disk first rotates in anti-clockwise direction till its speed becomes zero and then the disk turns back to move in clockwise direction. In order to analyze the motion, we first convert linear quantities to angular quantities as :
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>40</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>rad</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>T</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>rad</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+When the point returns to its initial position, the total displacement is zero. Applying equation of motion for angular displacement, we have :
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>ω</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>α</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mi>t</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>o</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mn>8</m:mn>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">The zero time corresponds to initial position. The time of return to initial position, therefore, is 8 seconds.
+</para>
+</example>
+
+</section> 
+
+<section id="section-6">
+<title> Angular displacement </title>
+<example id="example-14">
+<para id="element-14"><term>Problem : </term> 
+A disk initially rotating at 80 rad/s is slowed down with a constant deceleration of magnitude 4 
+<m:math>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mo> s </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. What angle (rad) does the disk rotate before coming to rest ?
+</para>
+
+<para id="element-16"><term>Solution : </term> 
+Initial and final angular velocities and angular acceleration are given. We can use 
+<m:math>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:math>
+to determine the time disk takes to come to stop. Here,
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+
+<m:mo> = </m:mo>
+<m:mn> 80 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mo> s </m:mo>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mo> s </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 80 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> t </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> t </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> s </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+Using equation, 
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>, we have :
+</para>
+<para id="element-20"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 80 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 20 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:msup>
+<m:mn> 20 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 1600 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 800 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 800 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> rad </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+<example id="example-47a">
+<para id="element-47a"><term>Problem : </term> 
+The initial angular velocity of a point (in radian) on a rotating disk is 0.5 rad/s. The disk is subjected to a constant acceleration of 0. 2 
+<m:math>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mo> s </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.  in the direction opposite to the angular velocity. Determine the angle (in radian) through which the point moves in third second.
+</para>
+<para id="element-49"><term>Solution : </term> 
+Here, we need to be careful as the point reverses its direction in the third second ! For ω = 0,
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 0.5 </m:mn>
+<m:mn> 0.2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 2.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">Thus the disk stops at t = 2.5 second. In this question, we are to find the angle (in rad) through which the point moves in third second – not the displacement. The figure here qualitatively depicts the situation. In the third second, the point moves from B to C and then from C to D. The displacement in third second is BOD, whereas the angle moved in the third second is |BOC| + |DOC|. Where,
+</para>
+<para id="element-53">
+∠BOC = displacement between 2 and 2.5 seconds.
+</para>
+<para id="element-54">
+∠DOC = displacement between 2.5 and 3 seconds.
+</para>
+<para id="element-55">
+<figure id="fig-55">
+<title> Angle measurement</title>
+<media id="id19918120" alt=""><image src="../../media/cmcaq3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-56">
+The angular velocity at the end of 2 seconds is :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∠ </m:mo>
+<m:mi> BOC </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∠ </m:mo>
+<m:mi> BOC </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 0.5 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:msup>
+<m:mn> 0.5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∠ </m:mo>
+<m:mi> BOC </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.05 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 0.25 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.05 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0.025 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.025 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+The angular velocity at the end of 2.5 seconds is zero. Hence,
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∠ </m:mo>
+<m:mi> DOC </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mn> 0.5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∠ </m:mo>
+<m:mi> BOC </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0.25 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.025 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-190">It means that the point, at t = 3 s, actually returns to the position where it was at t = 2 s. The displacement is, thus, zero.</para>
+<para id="element-61">The total angle moved in third second = |0.025| + |-0.025| = 0.05 rad
+</para>
+</example> 
+
+<example id="example-64">
+<para id="element-64"><term>Problem : </term> 
+The angular velocity of a point (in radian) on a rotating disk is given by |t – 2|, where “t” is in seconds. If the point aligns with the reference direction at time t = 0, then find the quadrant in which the point falls after 5 seconds.
+</para>
+<para id="element-66"><term>Problem : </term> 
+The area under the angular velocity – time plot and time axis is equal to angular displacement. As required, let us generate angular velocity data for first 5 seconds to enable us draw the requisite plot :
+</para>
+<para id="element-67">
+<code id="id19918684" display="block">
+---------------------------------
+Time (t)    Angular velocity (θ)
+(s)             (rad/s)
+---------------------------------
+0                  2
+1                  1
+2                  0
+3                  1
+4                  2
+5                  3
+---------------------------------
+</code>
+</para>
+<para id="element-68">
+The angular velocity – time plot is as shown in the figure :
+</para>
+<para id="element-69">
+<figure id="fig-69">
+<title> Angular velocity – time plot </title>
+<media id="id19918746" alt=""><image src="../../media/cmcaq4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-70">The displacement is equal to the area of two triangles :
+</para>
+<para id="element-71"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ  </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 2 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 6.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">Thus, the point moves 6.5 rad from the reference direction. Now, one revolution is equal to 2π = 2 x 3.14 = 6.28 rad. The particle is, therefore, in the fourth quadrant with respect to the reference direction.
+</para>
+</example> 
+
+</section>
+
+
+  </content>
+  
+</document>

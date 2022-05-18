@@ -1,0 +1,1103 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Understanding motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>83d1b254-f149-4140-b963-351f8a830d8f</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The discussion of different attributes of motion in previous modules has led us to the study of motion from the point of view of a general consideration to a simplified consideration such as uniform or rectilinear motion. The time is now ripe to recapitulate and highlight important results - particularly where distinctions are to be made. 
+</para>
+<para id="element-2">For convenience, we shall refer general motion as the one that involves non-linear, two/ three dimensional motion. The simplified motion, on the other hand, shall refer motion that involves one dimensional, rectilinear and uniform motion. 
+</para>
+<para id="element-3">
+Consideration of scalar quantities like distance and speed are same for “general” as well as “simplified” cases. We need to score similarities or differences for vector quantities to complete our understanding up to this point. It is relevant here to point out that most of these aspects have already been dealt in detail in previous modules. As such, we shall limit our discussion on main points/ results and shall generally not use figures and details.
+</para>
+
+<section id="section-1">
+<title> Similarities and differences </title>
+
+<para id="element-4">
+<term> Similarity / Difference 1 : </term> In general, the magnitude of displacement is not equal to distance.
+</para>
+<para id="element-5">
+<equation id="equation-5"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> ≤ </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-6">For rectilinear motion (one dimensional case) also, displacement is not equal to distance as motion may involve reversal of direction along a line.
+</para>
+<para id="element-7">
+<equation id="equation-7"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> ≤ </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-8">For uniform motion (unidirectional motion),
+</para>
+<para id="element-9">
+<equation id="equation-9"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10a"><term> Similarity / Difference 2 : </term> The change in the magnitude of position vector is not equal to the magnitude of change in position vector except for uniform motion i.e motion with constant velocity.
+</para>
+<para id="element-10b">
+For two/three dimensional motion,
+</para>
+<para id="element-10c">
+<equation id="equation-10c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ≠ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10c1">
+For one dimensional motion,
+</para>
+<para id="element-10d">
+<equation id="equation-10d">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ≠ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10e">
+For uniform motion (unidirectional),
+</para>
+<para id="element-10f">
+<equation id="equation-10f">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10">
+<term> Similarity / Difference 3 : </term> In all cases, we can draw a distance – time or speed – time plot. The area under speed – time plot equals distance (s).
+</para>
+<para id="element-11">
+<equation id="equation-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10g"><term> Similarity / Difference 4 : </term> There is an ordered sequence of differentiation with respect to time that gives motional attributes of higher order. For example first differentiation of position vector or displacement yields velocity. We shall come to know subsequently that differentiation of velocity, in turn, with respect to time yields acceleration. Differentiation, therefore, is a tool to get values for higher order attributes. 
+</para>
+<para id="element-10h">These differentiations are defining relations for the attributes of motion and hence applicable in all cases irrespective of the dimensions of motion or nature of velocity (constant or variable). 
+</para>
+<para id="element-10i">
+For two or three dimensional motion,
+</para>
+<para id="element-10j">
+<equation id="equation-10j">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10k">
+For one dimensional motion,
+</para>
+<para id="element-10l">
+<equation id="equation-10l">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10m"><term> Similarity / Difference 5 : </term> Just like differentiation, there is an ordered sequence of integration that gives motional attributes of lower attributes. Since these integrations are based on basic/ defining differential equations, the integration is applicable in all cases irrespective of the dimensions of motion or nature of velocity (constant or variable). 
+</para>
+<para id="element-10n">
+For two or three dimensional motion,
+</para>
+<para id="element-10o">
+<equation id="equation-10o">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∫ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mo> t </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10p">
+For one dimensional motion,
+</para>
+<para id="element-10q">
+<equation id="equation-10q">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∫ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mo> t </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-12"><term> Similarity / Difference 6 : </term> We can not draw position – time, displacement – time or velocity – time plots for three dimensional motion. We can draw these plots for two dimensional motion, but the same would be complex and as such we would avoid drawing them.
+</para>
+<para id="element-14">We can, however, draw the same for one – dimensional motion by treating the vector attributes (position vector, displacement and velocity) as scalar with appropriate sign. Such drawing would be in the first and fourth quarters of two – dimensional plots. We should clearly understand that if we are drawing these plots, then the motion is either one or two dimensional. In general, we draw attribute .vs. time plots mostly for one – dimensional motion. We should also understand that graphical method is an additional tool for analysis in one dimensional motion.
+</para>
+<para id="element-15">The slope of the curve on these plots enables us to calculate the magnitude of higher attributes. The slope of position – time and displacement – time plot gives the magnitude of velocity; whereas the slope of velocity – time plot gives the magnitude of acceleration (This will be dealt in separate module). 
+</para>
+<para id="element-16">Significantly, the tangent to the slopes on a "time" plot does not represent direction of motion. It is important to understand that the though the nature of slope (positive or negative) gives the direction of motion with respect to reference direction, but the tangent in itself does not indicate direction of motion. We must distinguish these “time” plots with simple position plots. The curve on the simple position plot is actual representation of the path of motion. Hence, tangent to the curve on position plot (plot on a x,y,z coordinate system) gives the direction of motion.
+</para>
+<para id="element-17"><term> Similarity / Difference 7 : </term>  Needless to say that what is valid for one dimensional motion is also valid for the component motion in the case of two or three dimensional motion. This is actually a powerful technique to even treat a complex two or three dimensional motion, using one dimensional techniques. This aspect will be demonstrated on topics such as projectile and circular motion.
+</para>
+<para id="element-18"><term> Similarity / Difference 8 : </term>   The area under velocity – time plot (for one dimensional motion) is equal to displacement. 
+</para>
+<para id="element-19">
+<equation id="equation-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-20">As area represents a vector (displacement), we treat area as scalar with appropriate sign for one dimensional motion. The positive area above the time axis gives the positive displacement, whereas the negative area below time axis gives negative displacement. The algebraic sum with appropriate sign results in net displacement. The algebraic sum without sign results in net distance. 
+</para>
+<para id="element-21">Important thing to realize is that this analysis tool is not available for analysis of three dimensional motion as we can not draw the plot in the first place. 
+</para>
+<para id="element-22"><term> Similarity / Difference 9 : </term>  There is a difficulty in giving differentiating symbols to speed and velocity in one dimensional motion as velocity is treated as scalar. Both are represented as simple letter “v”. Recall that a non-bold faced letter “v” represents speed in two/three dimensional case. An equivalent representation of speed, in general, is |v|, but is seldom used in practice. As we do not use vector for one dimensional motion, there is a conflicting representation of the same symbol, “v”. We are left with no other solution as to be elaborate and specific so that we are able to convey the meaning either directly or by context. Some conventions, in this regard, may be helpful :
+</para>
+<para id="element-23">
+<list id="list-23" list-type="bulleted"><item> If “v” is speed, then it can not be negative.
+ </item>
+<item> If “v” is velocity, then it can be either positive or negative.
+ </item>
+<item> If possible follow the convention as under :
+ </item>
+</list>
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> velocity </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> speed </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25"><term> Similarity / Difference 10 : </term>  In the case of uniform motion (unidirectional motion), there is no distinction between scalar and vector attributes at all. The distance .vs. displacement and  speed .vs. velocity differences have no relevance. The paired quantities are treated equal and same. Motion is one dimensional and unidirectional; there being no question of negative value for attributes with direction.
+</para>
+<para id="element-26"><term> Similarity / Difference 11 : </term>  Since velocity is a vector quantity being the time rate of change of position vector (displacement), there can be change in velocity due to the change in position vector (displacement) in any of the following three ways :
+</para>
+<para id="element-27">
+<list id="list-27" list-type="enumerated">
+<item> change in magnitude 
+ </item>
+<item> change in direction 
+ </item>
+<item> change in both magnitude and direction 
+ </item>
+</list>
+</para>
+<para id="element-28">This realization brings about important subtle differences in defining terms of velocity and their symbolic representation. In general motion, velocity is read as the "time rate of change of position vector" :
+</para>
+<para id="element-29">
+<equation id="equation-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-30">The speed i.e. the magnitude of velocity is read as the "absolute value (magnitude) of the time rate of change of position vector" :
+</para>
+<para id="element-31">
+<equation id="equation-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-32">But the important thing to realize is that “time rate of change in the magnitude of position vector” is not same as “magnitude of the time rate of change of position vector”. As such the time rate of change of the magnitude of position vector is not equal to speed. This fact can be stated mathematically in different ways :
+</para>
+<para id="element-33">
+<equation id="equation-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ≠ </m:mo> 
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ≠ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-34">We shall work out an example of a motion in two dimensions (circular motion) subsequently in this module to illustrate this difference.
+</para>
+<para id="element-35">However, this difference disappears in the case of one dimensional motion. It is so because we use scalar quantity to represent vector attribute like position vector and velocity. Physically, we can interpret that there is no difference as there is no change of direction in one dimensional motion. It may be argued that there is a change in direction even in one dimensional motion in the form of reversal of motion, but then we should realize that we are interpreting instantaneous terms only – not the average terms which may be affected by reversal of motion. Here, except at the point of reversal of direction, the speed is :
+</para>
+
+
+<para id="element-38">
+<equation id="equation-38"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-39"><term> Similarity / Difference 12 : </term>  Understanding of the class of motion is important from the point of view of analysis of motion (solving problem). The classification lets us clearly know which tools are available for analysis and which are not? Basically, our success or failure in understanding motion largely depends on our ability to identify motion according to a certain scheme of classification and then apply appropriate tool (formula/ defining equations etc) to analyze or solve the problem. It is, therefore, always advisable to write down the characteristics of motion for analyzing a situation involving motion in the correct context.
+</para>
+<para id="element-40">A simple classification of translational motion types, based on the study up to this point is suggested as given in the figure below. This classification is based on two considerations (i) dimensions of motion and (ii) nature of velocity.  
+</para>
+<para id="element-41">
+<figure id="fig-41"><title> Classification of motion </title>
+<media id="idp2714736" alt=""><image src="../../media/um1a.gif" mime-type="image/gif"/></media>
+<caption> Classification based on (i) dimensions and (ii) velocity.</caption>
+</figure>
+</para>
+<example id="example-42">
+<para id="element-42"><term>Problem : </term> The position vector of a particle in motion is :
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">where “a” is a constant. Find the time rate of change in the magnitude of position vector.
+</para>
+<para id="element-45"> <term>Solution : </term> We need to know the magnitude of position vector to find its time rate of change. The magnitude of position vector is :
+</para>
+<para id="element-45a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> cos </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> sin </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+But  “a” is a constant. Hence, the time rate of change of the magnitude of position vector is zero :
+</para>
+<para id="element-46a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">This result is an important result. This highlights that time rate of change of the magnitude of position vector is not equal to magnitude of time rate of change of the position vector (speed). </para>
+<para id="element-47a">
+The velocity of the particle is obtained by differentiating the position vector with respect to time as :
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+The speed, which is magnitude of velocity, is :
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> sin </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> cos </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">Clearly, speed of the particle is not zero. This illustrates that even if there is no change in the magnitude of position vector, the particle can have instantaneous velocity owing to the change in the direction. 
+</para>
+<para id="element-52">As a matter of fact, the motion given by the position vector in the question actually represents uniform circular motion, where particle is always at constant distance (position) from the center, but has velocity of constant speed and varying directions. We can verify this by finding the equation of path for the particle in motion, which is nothing but a relation between coordinates. An inspection of the expression for “x” and “y” coordinates suggest that following trigonometric identity would give the desired equation of path,
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:mi> sin </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> cos </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">For the given case,
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+Rearranging, we have :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> a </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+and
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> y </m:mi>
+<m:mi> a </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Now, using trigonometric identity :
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+This is an equation of a circle of radius “a”.
+</para>
+<para id="element-63">
+<figure id="fig-63"><title> Uniform circular motion </title>
+<media id="idm8001280" alt=""><image src="../../media/um2.gif" mime-type="image/gif"/></media>
+<caption> The particle moves along a circular path with a constant speed.</caption>
+</figure>
+</para>
+<para id="element-64">
+In the nutshell, for motion in general (for two/three dimensions),
+</para>
+<para id="element-65"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ≠ </m:mo> 
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ≠ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">It is only in one dimensional motion that this distinction disappears as there is no change of direction as far as instantaneous velocity is concerned. 
+</para>
+</example>
+
+
+</section>
+
+  </content>
+  
+</document>

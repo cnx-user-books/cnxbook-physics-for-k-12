@@ -1,0 +1,1683 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Resultant motion (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ea0762b9-168e-4ea7-b858-90755fbfbb87</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3a">We discuss problems, which highlight certain aspects of the study leading to the resultant velocity. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-4a">
+<list id="list-4" list-type="bulleted"><item> Velocity of the object
+</item>
+<item> Time to cross the stream
+</item>
+<item> Multiple references 
+</item>
+<item> Minimum time, distance and speed 
+</item></list>
+</para>
+</section> 
+
+<section id="section-3">
+<title> Velocity of the object
+</title>
+
+<example id="example-4">
+<para id="element-4"><term>Problem : </term> A person can swim at 1 m/s in still water. He swims to cross a river of width 200 m to a point exactly opposite to his/her initial position. If the water stream in river flows at 2 m/s in a linear direction, then find the time taken (in seconds) to reach the opposite point. 
+</para>
+<para id="element-5"><term>Solution : </term> Let the direction of stream be x-direction and the direction across stream be y-direction. Let us also denote person with “A” and water stream with “B”. 
+</para>
+<para id="element-7">To reach the point across, the person has to swim upstream at an angle such that the velocity of the person with respect to ground(
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+) is across the direction of water stream. The situation is shown in the figure. 
+</para>
+<para id="element-8">
+<figure id="fig-8"><title> Relative velocity </title>
+<media id="idm628336" alt=""><image src="../../media/rmq1-28e9.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-9">
+Here,
+</para>
+<para id="element-10"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of the person (A) with respect to stream (B)  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of water stream (B) with respect to ground  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of the person (A) with respect to ground  :</m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> d </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 200 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+From the ΔOAB,
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> OQ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> OP </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> PQ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> OP </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> {</m:mo>
+<m:msup>
+<m:mi> OQ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> PQ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> }</m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> d </m:mi>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mo> {</m:mo>
+<m:msup>
+<m:mi> OB </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> AB </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> }</m:mo>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">It is clear from the denominator of the expression that for finite time, OB &gt; AB.  From the values as given in the question, OB &lt; AB and the denominator becomes square root of negative number. The result is interpreted to mean that the physical event associated with the expression is not possible.The swimmer, therefore, can not reach the point, which is exactly opposite to his position. The speed of the swimmer should be greater than that of the stream to reach the point lying exactly opposite.
+ </para>
+<para id="element-15">Note that we had explained the same situation in the module on the subject with the help of the value of "sinθ", which can not be greater than 1. We have taken a different approach here to illustrate the same limitation of the swimmer's ability to cross the water stream, showing that the interpretation is consistent and correct. 
+</para>
+</example>
+
+<example id="example-16a">
+<para id="element-16a"><term>Problem : </term> The direction of water stream in a river is along x – direction of the coordinate system attached to the ground. A swimmer swims across the river with a velocity (  
+<m:math>
+<m:mn> 0.8 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1.4 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+) m/s, as seen from the ground. If the river is 70 m wide, how long (in seconds) does he take to reach the river bank on the other side ?
+</para>
+<para id="element-17"><term>Solution : </term> We recognize here that the given velocity represents the resultant velocity (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+) of the swimmer (A). The time to reach the river bank on the other side is a function of component velocity in y-direction. 
+</para>
+
+<para id="element-19">
+<figure id="fig-19"><title> Relative velocity </title>
+<media id="idm2010096" alt=""><image src="../../media/rmq2-4a86.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-20">
+Here,
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0.8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1.4  </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> Width of the river </m:mi>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 70  </m:mn>
+<m:mn> 1.4  </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 50  </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+
+<example id="example-35">
+<para id="element-25"><term>Problem : </term> A person can swim at a speed “u” in still water. He points across the direction of water stream to cross a river. The water stream flows with a speed “v” in a linear direction. Find the direction in which he actually swims with respect to the direction of stream.
+</para>
+<para id="element-36"><term>Solution : </term> Let the direction of stream be x-direction and the direction across stream be y-direction. Let us also denote person with "A" and water stream with “B”. 
+</para>
+<para id="element-38">
+Here,
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of the person (A) with respect to stream (B)  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of stream (B) with respect to ground  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of the person (A) with respect to ground  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40a">
+Using equation,
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+, 
+</para>
+<para id="element-40b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+From the figure,
+</para>
+<para id="element-41">
+<figure id="fig-41"><title> Relative velocity </title>
+<media id="idp1570528" alt=""><image src="../../media/rmq4-3b94.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-42"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ' </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> u </m:mi>
+<m:mi> v </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+The direction in which he actually swims with respect to the direction of stream is 
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mi> ‘ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> u </m:mi>
+<m:mi> v </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+
+
+<section id="section-4">
+<title> Time to cross the river </title>
+
+<example id="example-25a">
+<para id="element-25a"><term>Problem : </term> A person can swim at a speed 1 m/s in still water. He swims perpendicular to the direction of water stream, flowing at the speed 2 m/s. If the linear distance covered during the motion is 300 m, then find the time taken to cross the river.
+</para>
+<para id="element-26"><term>Solution : </term> Let the direction of stream be x-direction and the direction across stream be y-direction. Let us also denote ground person with "A" and water stream with “B”. This is clearly the situation corresponding to the least time for crossing the river. 
+</para>
+<para id="element-28">
+Here,
+</para>
+<para id="element-29"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of the person (A) with respect to stream (B)  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 1 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of water stream (B) with respect to ground  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Speed of the person (A) with respect to ground  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30a">We note here that the perpendicular linear distance i.e. the width of river is not given. Instead, the linear distance covered during the motion is given. Hence, we need to find the resultant speed in the direction of motion to find time. Using equation for the resultant velocity,
+
+</para>
+<para id="element-30b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+From the figure, we have :
+</para>
+<para id="element-31">
+<figure id="fig-31"><title> Relative velocity </title>
+<media id="idp939344" alt=""><image src="../../media/rmq3-cf48.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-32"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> {</m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> }</m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> {</m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> }</m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> {</m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> }</m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 500 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<example id="example-73">
+<para id="element-73"><term>Problem : </term> A person can swim at a speed of √3  m/s in still water. He swims at an angle of 120° from the stream direction while crossing a river. The water stream flows with a speed of 1 m/s. If the river width is 300 m, how long (in seconds) does he take to reach the river bank on the other side ?
+</para>
+<para id="element-74"><term>Solution : </term> Let the direction of stream be x-direction and the direction across stream be y-direction. Here, we need to know the component of the resultant velocity in the direction perpendicular to the stream. 
+</para>
+
+
+<para id="element-76">
+<figure id="fig-76"><title> Relative velocity </title>
+<media id="idp3388352" alt=""><image src="../../media/rmq5-bc34.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-78">This approach, however, would be tedious. We shall use the fact that the component of "<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+" in any one of the two mutually perpendicular directions is equal to the sum of the components of  
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+in that direction.
+</para>
+<para id="element-79"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> Ay </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> Ay </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-80">
+Thus, time taken to cross the river is :
+</para>
+<para id="element-81"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> Width of the river </m:mi>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> Ay </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 300  </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2  </m:mn>
+</m:mrow>
+<m:mn> 3  </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 200  </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-5">
+<title> Multiple references </title>
+
+<example id="example-47">
+<para id="element-47"><term>Problem : </term> A boat, capable of sailing at 2 m/s, moves upstream in a river. The water stream flows at 1 m/s. A person walks from the front end to the rear end of the boat at a speed of 1 m/s along the linear direction. What is the speed of the person (m/s) with respect to ground ?
+</para>
+<para id="element-48"><term>Solution : </term> Let the direction of stream be x-direction and the direction across stream be y-direction. We further denote boat with “A”, stream with “B”,  and person with “C”. 
+</para>
+
+
+<para id="element-49"> 
+</para>
+<para id="element-50">We shall work out this problem in two parts. In the first part, we shall find out the velocity of boat (A) with respect to ground and then we shall find out the velocity of person (C) with respect to ground. 
+</para>
+<para id="element-50a"> Here,
+</para>
+<para id="element-50b"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> Velocity of boat (A) with respect to stream (B) : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> 2 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Velocity of the stream (A) with respect to ground  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 1 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Velocity of the person (C) with respect to boat (A)  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> CA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 1 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Velocity of the person (C) with respect to ground  : </m:mtext>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ? </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-51">
+<figure id="fig-51"><title> Relative velocity </title>
+<media id="idp9329216" alt=""><image src="../../media/rmq6-5793.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-51a">
+The velocity of boat with respect to ground is equal to the resultant velocity of the boat as given by :
+</para>
+<para id="element-52"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">For the motion of person and boat, the velocity of the person with respect to ground is equal to the resultant velocity of (i) velocity of the person (C) with respect to boat (A) and (ii) velocity of the boat (A) with respect to ground. We note here that relative velocity of person with respect to boat is given and that we have already determined the velocity of boat (A) with respect to ground in the earlier step. Hence,
+</para>
+<para id="element-54">
+<figure id="fig-54"><title> Relative velocity </title>
+<media id="idp3685856" alt=""><image src="../../media/rmq7-6639.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-55"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>  
+
+<section id="section-6">
+<title> Minimum time, distance and speed
+</title>
+
+<example id="example-80a">
+<para id="element-80a"><term>Problem : </term> A boy swims to reach a point “Q” on the opposite bank, such that line joining initial and final position makes an angle of 45 with the direction perpendicular to the stream of water. If the velocity of water stream is “u”, then find the minimum speed with which the boy should swim to reach his target.
+</para>
+<para id="element-81a">
+<figure id="fig-81a"><title> Crossing a river </title>
+<media id="idp5488704" alt=""><image src="../../media/rmq9.gif" mime-type="image/gif"/></media>
+<caption> The boy swims to reach point “Q”.</caption>
+</figure>
+</para>
+<para id="element-82"><term>Solution : </term> Let “A” and “B” denote the boy and the stream respectively. Here, we are required to know the minimum speed of boy, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+(say “v”) such that he reaches point “Q”. Now, he can adjust his speed with the direction he swims. Let the boy swims at an angle “θ” with a speed “v”.  
+</para>
+
+<para id="element-83">
+<figure id="fig-83"><title> Crossing a river </title>
+<media id="idp10576304" alt=""><image src="../../media/rmq10.gif" mime-type="image/gif"/></media>
+<caption> The boy swims to reach point “Q”.</caption>
+</figure>
+</para>
+<para id="element-84">
+</para>
+<para id="element-85">
+Looking at the figure, it can be seen that we can make use of the given angle by taking trigonometric ratio such as tangent, which will involve speed of boy in still water (v) and the speed of water stream (u). This expression may then be used to get an expression for the minimum speed as required. 
+</para>
+<para id="element-86">The slope of resultant velocity, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+, is :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+  <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+Now, the components of velocity in “x” and “y” directions are :
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">
+Putting  in the equation we  have :
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>u</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">
+Solving for “v”, we have :
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>sin</m:mi>
+            <m:mi>θ</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>cos</m:mi>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-96">
+The velocity is minimum for a maximum value of denominator. The denominator is maximum for a particular value of the angle, θ; for which :
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-101">It means that the boy swims with minimum speed if he swims in the direction making an angle of 45 with y-direction. His speed with this angle is :
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>sin</m:mi>
+            <m:msup>
+              <m:mn>45</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mi>cos</m:mi>
+            <m:msup>
+              <m:mn>45</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:mi>u</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+<example id="example-103">
+<para id="element-103"><term>Problem : </term> A boat crosses a river in minimum time, taking 10 minutes during which time the it drifts by 120 m in the direction of stream. On the other hand, boat takes 12.5 minutes while moving across the river. Find  (i) width of the river (ii) velocity of boat in still water and (iii) speed of the stream.
+</para>
+<para id="element-104"><term>Solution : </term> There are three pieces of information about "minimum time", "drift" and "time along shortest path". Individually each of these values translate into three separate equations, which can be solved to find the required values.
+</para>
+
+
+<para id="element-105">The boat takes minimum time, when it sails in the direction perpendicular to the stream (current). The time to cross the river is given by dividing width with component of resultant velocity (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+). The boat, in this case, sails in the perpendicular direction. Hence, the component of resultant velocity is equal to the velocity of boat in still water (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>AB</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+). The time to cross the river in this case is :
+</para>
+<para id="element-106a">
+<figure id="fig-106a"><title> Crossing a river </title>
+<media id="idp4385888" alt=""><image src="../../media/rmq8.gif" mime-type="image/gif"/></media>
+<caption> The swims towards “P”.</caption>
+</figure>
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>min</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">
+The drift in this time is given by :
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>min</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-111">
+Putting values,
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>120</m:mn>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mspace width="1em"/>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>12</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>meter</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>minute</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115">
+Now we need to use the information on shortest path. It is given that the boat moves across stream in 12.5 minutes. For this boat has to sail upstream at certain angle. The resultant speed is given by :
+</para>
+<para id="element-116">
+<figure id="fig-106"><title> Crossing a river </title>
+<media id="idp7300048" alt=""><image src="../../media/rmq1-28e9.gif" mime-type="image/gif"/></media>
+<caption> The swims towards “P”.</caption>
+</figure>
+</para>
+<para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mo>−</m:mo>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-118">
+and the time taken is :
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mi>A</m:mi>
+                <m:mi>B</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+            <m:mo>−</m:mo>
+            <m:msubsup>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mi>B</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>12.5</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120">
+Substituting for “d” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and squaring on both sides, we have :
+</para>
+<para id="element-121">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mn>12</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mn>12.5</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+        <m:msup>
+      <m:mi>d</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-122">
+<m:math display="block">
+  <m:mrow>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mn>12.5</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>12</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>x</m:mi>
+    <m:msup>
+      <m:mn>12.5</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-123">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>12</m:mn>
+        <m:mspace width="1em"/>
+        <m:mi>x</m:mi>
+        <m:mspace width="1em"/>
+        <m:mn>12.5</m:mn>
+      </m:mrow>
+      <m:mn>7.5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>meter</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>minute</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-124">
+and
+</para>
+<para id="element-125">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mspace width="1em"/>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>200</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+
+</example>
+</section>
+
+  
+  </content>
+  
+</document>

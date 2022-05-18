@@ -1,0 +1,1188 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Working with friction (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>8884ef2e-c3d0-46fd-85e5-b619a0595d48</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to working with friction. The questions are categorized in terms of the characterizing features of the subject matter/ question :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Equilibrium 
+</item>
+<item> Acceleration along incline
+</item>
+<item> Motion with friction 
+</item>
+<item> Contact force on an incline
+</item>
+</list>
+</para>
+</section>
+<section id="section-3">
+<title> Equilibrium    
+</title>
+<section id="section-3a">
+<title> Stack of blocks   
+</title> 
+<para id="element-88"><term>Problem 1 : </term> The coefficient of friction between sand particles of uniform size is “μ”. Find the maximum height of the sand pile that can be made in a circular area of radius “r”.
+</para>
+
+<para id="element-90"><term>Solution : </term> We consider a sand particle on the slant side of the sand pile. We observe here that the particle on the sand pile resembles the situation that of the motion of a particle on an incline of certain angle. The pile will have the maximum height for which the friction between the particles has maximum friction i.e. limiting friction. Beyond this angle, the sand particle will slide down and spill outside the circular base boundary of the sand pile.
+</para><para id="element-91">
+<figure id="fig-91"><title> Sand pile </title>
+<media id="idm3075504" alt=""><image src="../../media/fa11a.gif" mime-type="image/gif"/></media>
+<caption> The slant side of the sand pile can be treated as an inline. </caption>  
+</figure>  
+</para>
+<para id="element-92">We know that the angle of incline corresponding to the limiting friction is the angle of repose,
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">
+From the geometry of right angle ABC, we have :
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>h</m:mi>
+          <m:mrow>
+            <m:mi>max</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>h</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>  
+<section id="section-3b">
+<para id="element-6"><term>Problem 2 : </term>A homogeneous chain of length “L” lies on a horizontal surface of a table. The coefficient of friction between table and chain is “μ”. Find the maximum length of the chain, which can hang over the table in equilibrium.
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> Chain lying on a table </title>
+<media id="idm14314240" alt=""><image src="../../media/fa3-2c3d.gif" mime-type="image/gif"/></media>
+<caption> The chain is in equilibrium.</caption>  
+</figure>
+</para>
+<para id="element-8"><term>Solution : </term> Here, we have to consider the translational equilibrium of the chain for which net force on the chain should be zero. Now, the chain is homogeneous. It means that the chain has uniform linear mass density. Let it be “λ”. Further, let a length “y” hangs down the table in equilibrium. The length of chain residing on the table, then, is "L – y".
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Chain lying on a table </title>
+<media id="idm7165344" alt=""><image src="../../media/fa4-0aed.gif" mime-type="image/gif"/></media>
+<caption> A length "y" of the chain hangs from the table. </caption>  
+</figure>
+</para>
+<para id="element-10">
+The mass of the chain,”
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, on the table is 
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>L</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>λ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+The mass of the chain,”
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, hanging is 
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mi>λ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+Free body diagram of the mass of chain, “
+<m:math>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+”, on the table is shown in the figure above. This mass is pulled down by the weight of the hanging chain. For balanced force condition, the friction force on the chain on the table should be equal to the weight of the hanging chain,
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>L</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>λ</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mi>λ</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>L</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>μ</m:mi>
+    <m:mi>L</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>μ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+    <m:mrow>
+      <m:mi>μ</m:mi>
+      <m:mi>L</m:mi>
+    </m:mrow>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>+</m:mo>
+          <m:mi>μ</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-3c">
+<para id="element-22"><term>Problem 3 : </term> In the arrangement of three blocks on a smooth horizontal surface, the friction between blocks “A” and “B” is negligible, whereas coefficient of friction between blocks “B” and “C” is “μ”. Find the minimum force “F” to prevent middle block from sliding down.
+</para>
+<para id="element-23">
+<figure id="fig-23"><title> Three blocks system  </title>
+<media id="idm2828256" alt=""><image src="../../media/fa1-3de6.gif" mime-type="image/gif"/></media>
+<caption> The blocks are pushed together towards right.</caption>  
+</figure>
+</para>
+<para id="element-24"><term>Solution : </term> The block “B” can be held in position by the friction force between “B” and “C”, which operates in vertically upward direction. The friction acts in the upward direction on block “B” as it has the tendency to fall down vertically. We need to evaluate the minimum external force, “F”, which corresponds to a situation when friction in upward direction at the interface is equal to the weight of the block “B”.
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Three blocks system </title>
+<media id="idp551632" alt=""><image src="../../media/fa2.gif" mime-type="image/gif"/></media>
+<caption> The blocks are in equilibrium. </caption>  
+</figure>
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">
+The friction force in vertically upward direction at the interface, however, depends on the normal force applied by the block “C” on the block “B”. It is important to understand that “N” is the normal force at the interface between blocks “B” and “C”.
+</para>
+<para id="element-28">
+We can find horizontal normal force on block “C”, using second law of motion. Referring to the free body diagram shown in the right side of the figure above.
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+
+      <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">
+Here, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+   </m:mrow>
+</m:math>
+. The acceleration “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+   </m:mrow>
+</m:math>” is equal to the acceleration of the combined body as three blocks move together. Let “a” be the acceleration of the combined body. Then,
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+We can find the common acceleration of the blocks, by considering three blocks together. The common acceleration for the combined body is given by :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mi>m</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>m</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>m</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+Hence,
+</para>
+<para id="element-35"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">For preventing the middle block “B” to fall down, the forces in vertical direction on block “B” should form a balanced force system.
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mi>F</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>μ</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+</section>
+<section id="section-4">
+<title> Acceleration along incline  
+</title>
+
+<para id="element-41"><term>Problem 4 : </term> A block “A” is placed over block “B”, whose base matches with the incline as shown in the figure. The incline is fixed on the horizontal plane. The friction between blocks is “μ”, whereas friction between block “B” and incline is negligible. Find the angle of incline for which block “A” is about to move over block “B”. 
+</para>
+<para id="element-42">
+<figure id="fig-42"><title> Blocks on an incline </title>
+<media id="idm5279936" alt=""><image src="../../media/fa9.gif" mime-type="image/gif"/></media>
+<caption> Block "A" is placed on a horizontal surface. </caption>  
+</figure>
+</para>
+<para id="element-43"><term>Solution : </term> The block “A” is about to move on the block “B”. It means that the friction between the blocks is equal to limiting friction,
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+   </m:mrow>
+</m:math>
+</para>
+<para id="element-45">Now, we need to know the value of “N” in order to determine limiting friction. The block “A” is about to move relative to block “B”. As such, block “A” is not having relative motion with respect “B”. The two blocks move together with common acceleration, “a”, given by  :
+</para>
+<para id="element-46">
+<figure id="fig-46"><title> Blocks on an incline </title>
+<media id="idp1649568" alt=""><image src="../../media/fa10.gif" mime-type="image/gif"/></media>
+<caption> Acceleration of block "A". </caption>  
+</figure>
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+Since we require to find normal force "N", we shall consider forces in vertical direction. For this, we need to find acceleration in vertical direction. Hence, resolving acceleration in “x” and “y’ direction, we have :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+Now, the forces on block “A” in vertical (“y”) direction are (i) its weight and (ii) normal force. Thus,
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>sin</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+Putting expression of “N” in the equation of limiting friction, we have :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">The limiting friction provides the acceleration in horizontal direction (note that blocks have no relative motion between them, but have accelerations with respect to ground),
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>cos</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>μ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-5">
+<title> Motion with friction    
+</title> 
+<para id="element-60"><term>Problem 5 : </term> A car, starting from rest, is brought to rest during which it covers a linear distance of 125 m. If the friction between tyre and road is 0.5, then what is the minimum time taken by the car to cover the distance?
+</para>
+<para id="element-61"><term>Solution : </term>The acceleration or deceleration of the car during travel is determined by the friction. The car will cover the distance in minimum time, if it moves at the maximum acceleration and breaks motion with the maximum deceleration. The journey takes equal time (say “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”) in two phases of motion for minimum time of journey.
+</para>
+<para id="element-62a">The limiting friction on the car is given by, 
+</para>
+<para id="element-62b">
+<m:math display="block">
+  <m:mrow>
+  <m:msub>
+    <m:mi>F</m:mi>
+    <m:mi>S</m:mi>
+  </m:msub>
+    <m:mo>=</m:mo>
+        <m:mi>μ</m:mi>
+        <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+        <m:mi>μ</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-64">Acceleration/ deceleration of car corresponding to limiting friction is given by :
+</para>
+<para id="element-64a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-62">
+The velocity – time plot corresponding to the situation is given here. From the plot, the maximum speed, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+",  is given by the vertical height of the triangle. The magnitude of acceleration/ deceleration is equal to the slope of velocity – time plot.
+</para>
+<para id="element-63">
+<figure id="fig-63"><title> Velocity time plot </title>
+<media id="idm2247648" alt=""><image src="../../media/fa5-dc80.gif" mime-type="image/gif"/></media>
+<caption> The car accelerates and decelerates for equal time. </caption>  
+</figure>
+</para>
+
+<para id="element-65">
+
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>t</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>g</m:mi>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+The total displacement during journey is equal to the area of the triangle on velocity – time plot,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>125</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mi>μ</m:mi>
+    <m:mi>g</m:mi>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mn>0.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msubsup>
+      <m:mi>t</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>t</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mn>25</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">
+Hence, time taken to cover the distance is :
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-6">
+<title> Contact force on an incline  
+</title> 
+<para id="element-74"><term>Problem 6 : </term> A block is placed on a rough incline whose angle can be varied as shown in the figure. Draw a plot between contact force and angle of incline (θ) for 0°≤θ≤90° (only show the nature of the plot). 
+</para>
+<para id="element-75">
+<figure id="fig-75"><title> A block on an incline </title>
+<media id="idp6093360" alt=""><image src="../../media/fa6-b9fa.gif" mime-type="image/gif"/></media>
+<caption> Angle of incline varies. </caption>  
+</figure>
+</para>
+<para id="element-76"><term>Solution : </term> The contact force comprises of normal force and friction. When θ = 90°, there is no normal force. Hence, there is no friction either. The block is under free fall. And,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">
+We have studied that the block does not slide till the angle of incline is equal to angle of repose. The angle of repose is given by :
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>μ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+Till this angle, the block is stationary and the contact forces (normal and friction forces) and gravity form the balanced force system. It means that contact force is equal to the weight of the block in magnitude. Hence,
+</para>
+<para id="element-81">
+<figure id="fig-81"><title> A block on an incline </title>
+<media id="idp5472576" alt=""><image src="../../media/fa7-92e9.gif" mime-type="image/gif"/></media>
+<caption> Before motion, the contact force is equal to the weight of the block in magnitude. </caption>  
+</figure>
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>N</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>f</m:mi>
+            <m:mrow>
+              <m:mi>s</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82a">
+ When the angle of incline exceeds the value of angle of repose, then the component of weight parallel to the incline is greater than the friction force. As such, block begins to slide down with kinetic friction. The contact force beyond angle of repose, therefore, is given by :
+</para>
+
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mrow>
+          <m:msup>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>m</m:mi>
+                <m:mi>g</m:mi>
+                <m:mi>cos</m:mi>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:mfenced>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>μ</m:mi>
+                <m:mi>m</m:mi>
+                <m:mi>g</m:mi>
+                <m:mi>cos</m:mi>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:mfenced>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>μ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">
+The plot in this region is a portion of cosine curve for 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>μ</m:mi>
+  </m:mrow>
+</m:math>
+The figure below shows the plot for the complete range.    
+</para>
+<para id="element-87">
+<figure id="fig-87"><title> Contact force </title>
+<media id="idp6469552" alt=""><image src="../../media/fa8.gif" mime-type="image/gif"/></media>
+<caption> Plot of contact force and angle of incline. </caption>  
+</figure>  
+</para>
+</section>  
+  </content>
+  
+</document>

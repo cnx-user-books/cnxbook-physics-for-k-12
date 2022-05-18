@@ -1,0 +1,1318 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Work and energy in rolling motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9344df5e-6413-43eb-b312-cc441e5ebc7e</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Work and energy consideration in rolling has certain interesting aspects. It gives a new functional meaning to friction, which otherwise has always been associated with negative work. Also, work and energy consideration in rolling has two parts : one that pertains to translation and other that pertains to rotation.
+</para>
+<para id="element-2">In this module, we shall also find that work – energy consideration provides a very useful frame work to deal with situation in which rolling is not along a straight line, but a curved path.
+</para>
+
+<section id="section-1">
+<title> Work done in rolling 
+</title>
+
+<para id="element-3">
+Work is associated with force and displacement. When a body rolls on a horizontal plane at a constant velocity, there is no external force. Irrespective of the nature of surface, friction is zero. No work, therefore, is done on the body. There is no corresponding change in the kinetic energy of the rolling body.
+</para>
+<para id="element-4">For an accelerated rolling, an external force is applied on the body. Application of external force in rolling, however, is not very straight forward as in the case of translation. Static friction comes into picture – whenever there is sliding tendency. Depending on the situation, friction plays specific role to maintain rolling.   
+</para>
+<para id="element-5">
+We shall begin with the simplest case of rolling along a horizontal line to the case of rolling along an incline to clearly understand work by different forces in rolling.
+</para>
+<section id="section-1a">
+<title> Accelerated rolling along a straight horizontal line
+</title>
+<para id="element-6">For illustration purpose, we consider an external force, “F”, that acts through the COM and parallel to the surface as shown in the figure below. Friction acts in the backward direction. Let the disk rolls a linear distance “x” in the x-direction.
+</para>
+<para id="element-7">
+<term>(i)</term> Work by external force “F”
+</para>
+<figure id="fig-7"><title> Work done by external forces </title>
+<media id="idm6735968" alt=""><image src="../../media/we1.gif" mime-type="image/gif"/></media>
+<caption> Friction does negative translational work, but positive rotational work.</caption>
+</figure>
+<para id="element-8">
+<equation id="equation-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-9">
+<term> (ii) </term> Work by static friction
+</para>
+<para id="element-10">
+The static friction has dual role here. It negates translation i.e. does negative work. Also, it accelerates rotation. As such, friction does the positive rotational work. If “T” and “R” denotes translation and rotation respectively, then :
+</para>
+<para id="element-11">
+<equation id="equation-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> fT </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-12">
+and
+</para>
+<para id="element-14">
+<equation id="equation-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> fR </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-15">
+where “θ” is total angle covered during the motion. For rolling motion, 
+</para>
+<para id="element-16">
+<equation id="equation-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-17">
+Putting the expression of angle in equation – 3, 
+</para>
+<para id="element-18"><equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> fR </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> x </m:mi> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-19">
+The results for the work done by friction in translation and rotation are very significant. They are equal, but opposite in sign. The net work by friction, therefore, is zero.
+</para>
+<para id="element-20"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> fT </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> fR </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> x </m:mi> 
+<m:mi> + </m:mi>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> x </m:mi> 
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+Thus, total work done by the external forces is :
+</para>
+<para id="element-22">
+<equation id="equation-22a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+</section>
+<section id="section-1b">
+<title> Accelerated rolling along an incline
+</title>
+<para id="element-23">
+In this case also, friction does negative work in translation and positive work in rotation.
+</para>
+<para id="element-24">
+<figure id="fig-24">
+<title> Work done by external forces along an incline </title>
+<media id="idm7311440" alt=""><image src="../../media/we2-2421.gif" mime-type="image/gif"/></media>
+<caption> Friction does negative translational work, but positive rotational work.</caption>
+</figure>
+</para>
+<para id="element-25">
+<term>(i)</term> Work by gravity 
+</para>
+<para id="element-26">
+The component of gravity perpendicular to motion is perpendicular to displacement. Hence, it does not do work. The work by the component of gravity parallel to incline is :
+</para>
+<para id="element-27">
+<equation id="equation-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> g </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> g </m:mi>
+<m:mi> x </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-28">
+<term>(ii)</term> Work by static friction
+</para>
+<para id="element-29">
+The static friction has dual role here. If “T” and “R” denotes translation and rotation respectively, then :
+</para>
+<para id="element-30">
+<equation id="equation-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> fT </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-31">
+and
+</para>
+<para id="element-32">
+<equation id="equation-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> fR </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-33">
+where “θ” is total angle covered during the motion. For rolling motion, 
+</para>
+<para id="element-34">
+<equation id="equation-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-35">
+Putting the expression of angle in equation – 8, 
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> fR </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> x </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">The work done by friction in translation and rotation are equal, but opposite in sign. The net work by friction is zero.
+</para>
+<para id="element-38">
+Thus, total work done by the external forces is :
+</para>
+<para id="element-39">
+<equation id="equation-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> g </m:mi>
+<m:mi> x </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-40">We find that work by friction in rolling is zero. It is so because it does negative work in translation and equal positive work in rotation. There may be situations in which friction does positive work in translation and negative work in rotation. For example, if a body is initially given  angular velocity greater than linear velocity required by equation of rolling, then the friction does the positive work in translation (accelerates translation) and negative work in rotation (decelerates rotation). Here also, net work by friction is zero in rolling.
+</para>
+</section>
+
+</section>
+
+
+<section id="section-2">
+<title> Mechanical energy of rolling body
+</title>
+<para id="element-41">
+Mechanical energy comprises of potential and kinetic energy of the rolling body. These two forms of energy is described, in reference to rolling, as here :
+</para>
+<section id="section-2a">
+<title> Potential energy 
+</title>
+<para id="element-42">
+We must have observed the conspicuous absence of reference to the potential energy in rotation. The reason is simple. The rotating body does not change its center of mass over a period of time in pure rotation. There is no change in the body – Earth configuration due to rotation. This is a valid approximation for a relatively small body such that its mass distribution with respect to Earth remains same. 
+</para>
+<para id="element-43">
+If a body is rolling along a straight line on a horizontal surface, then there is no change in potential energy as COM of the rolling body remains at same vertical height from the ground. In the case of rolling along an incline, the COM of the rolling body changes elevation and as such there is change in the gravitational potential energy of the body – Earth system (Note that potential energy is always referred to a system – not to a single body like kinetic energy. When we assign potential energy to a body, the reference to Earth or other force field is implicit). It must be borne in mind that potential energy changes in rolling is on account of translation only. 
+</para>
+<para id="element-44">
+<figure id="fig-44">
+<title> Change in potential energy </title>
+<media id="idm14088464" alt=""><image src="../../media/we3-d4a9.gif" mime-type="image/gif"/></media>
+<caption> The potential energy changes as vertical elevation of the body changes. </caption>
+</figure>
+</para>
+<para id="element-45">
+<equation id="equation-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-46">
+where “h” is the change in vertical elevation.
+</para>
+</section>
+<section id="section-2b">
+<title> Kinetic energy
+</title>
+<para id="element-47">Unlike potential energy, kinetic energy arises from both translation and rotation. The kinetic energy of rolling body is a positive sum of translational and rotational kinetic energies. The total kinetic energy of a rolling body is given by :
+</para>
+<para id="element-48"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+Looking at the expressions of translational and rotational kinetic energy, we find that we can convert the expression either in terms of linear or angular velocity, using equation of rolling,
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-51">
+Total kinetic energy in terms of linear velocity,
+</para>
+<para id="element-52">
+<equation id="equation-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> I </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-53">
+Total kinetic energy in terms of angular velocity,
+</para>
+<para id="element-54">
+<equation id="equation-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> I </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<section id="section-2b1">
+<title> Distribution of kinetic energy
+</title>
+
+<para id="element-55">
+The rolling motion is characterized by unique distribution of kinetic energy between translation and rotation. This distribution is dependent on the distribution of mass about the axis of rotation. If “T” and “R” subscripts denote translational and rotational motions respectively, then :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+<equation id="equation-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> I </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-58">
+For a ring, 
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">This means that energy is equally distributed between translation and rotation in the case of ring. Similarly, for a solid sphere,
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+We can infer from the values of ratio in two cases that the ratio of kinetic energies in translation and rotation is equal to the inverse of the numerical coefficient of MI of the rolling body.
+</para>
+</section>
+</section>
+</section>
+
+<section id="section-3">
+<title> Work – kinetic energy theorem
+</title>
+<para id="element-62a">
+Work by net external force is related to kinetic energy of the rolling body in accordance with work – energy theorem as :
+</para>
+<para id="element-63a">
+<equation id="equation-63a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> ext </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> K </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-64a">In rolling, the important feature of work by net external force on the left of the equation is that this net external force term does not include friction as work by friction is zero. This is the first difference between consideration of work – energy theorem in pure rolling as against in pure translation or pure rotation. Secondly, the change in kinetic energy in rolling refers to both translational and rotational kinetic energy. 
+</para>
+
+</section>
+
+<section id="section-4">
+<title> Conservation of mechanical energy in rolling
+</title>
+
+<para id="element-65">
+The work by friction in rolling is zero. The presence of friction does not result in dissipation of energy like heat to the system and its surrounding. It means that total mechanical energy comprising of potential and kinetic energy of a rolling body system remains same or is conserved. 
+</para>
+<para id="element-66">This is contrary to the motion of translation alone i.e. sliding - in which case, friction converts some of the mechanical energy into heat, sound etc, which can not be regained by the system as mechanical energy. Thus, mechanical energy of a body in translation only (sliding) is not conserved. In the case of pure rotation, mechanical energy of the rotating body is not conserved as the force of friction at the shaft (axis of rotation) results in dissipation of energy.
+</para>
+<para id="element-67">Conservation of mechanical energy is the characterizing feature of pure rolling. This is significant as mechanical energy is conserved even when friction is present. 
+</para>
+
+<example id="example-68">
+<para id="element-69"><term>Problem : </term> A small spherical ball of mass “m” and radius “r” rolls down a hemispherical shell of radius “R” as shown in the figure. The ball is released from the top position of the shell. What is the angular velocity of the spherical ball at the bottom of the shell as measured about perpendicular axis through the center of hemispherical shell. 
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Rolling motion </title>
+<media id="idm13627728" alt=""><image src="../../media/we5.gif" mime-type="image/gif"/></media>
+<caption> A spherical ball rolls down the slope of a hemispherical shell. </caption>
+</figure>
+</para>
+<para id="element-71"><term>Solution : </term> Let the ball reaches the bottom with certain velocity “
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+”. Then, the angular velocity of the ball about perpendicular axis through the center of hemispherical shell is :
+</para>
+<para id="element-72">
+<equation id="equation-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> 0 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-73">
+Note that the linear distance between the center of ball and center of hemispherical shell is (R-r). In order to evaluate this equation, we need to find linear velocity of the spherical ball. Now, the ball is rolling along a curved path, while transcending a height of (R-r). 
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> Rolling motion </title>
+<media id="idm42560" alt=""><image src="../../media/we4.gif" mime-type="image/gif"/></media>
+<caption> A spherical ball rolls down the slope of a hemispherical shell. </caption>
+</figure>
+</para>
+<para id="element-75">
+According to conservation of mechanical energy,
+</para>
+<para id="element-76"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">Using, 
+<m:math>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:math>
+ and putting expression of MI of the sphere,
+</para>
+<para id="element-78"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> V </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 10 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">The required angular velocity about perpendicular axis through the center of hemispherical shell is obtained by substituting for vC in equation – 17 :
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> 0 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 10 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-5">
+<title> Summary
+</title>
+<para id="element-83">
+<term>1: </term> Work by friction is zero in rolling.
+</para>
+<para id="element-84">
+<term>2: </term> Work by friction in translation and rotation are equal in magnitude but opposite in direction.
+</para>
+<para id="element-85">
+<term>3: </term> Gravitational potential energy change in rolling motion is due to change in position of the COM due to translation – not rotation.
+</para>
+<para id="element-86"><term>4: </term> The rolling has both kinetic energies corresponding to translation and rotation. The distribution of kinetic energy between two motions depend on the distribution of moment of inertia as :
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> I </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+<term>5: </term> Conservation of mechanical energy is the characterizing feature of pure rolling. This is significant as mechanical energy is conserved even when friction is present.
+</para>
+
+</section>
+
+  
+  </content>
+  
+</document>

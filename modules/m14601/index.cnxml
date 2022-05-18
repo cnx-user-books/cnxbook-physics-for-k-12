@@ -1,0 +1,1923 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Relative motion of projectiles</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>893ae0db-ad91-4d59-a978-c4d6d122ebed</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">In this module, we shall apply the concept of relative velocity and relative acceleration to the projectile motion. The description here is essentially same as the analysis of relative motion in two dimensions, which was described earlier in the course except that there is emphasis on projectile motion. Besides, we shall extend the concept of relative motion to analyze the possibility of collision between projectiles. 
+</para>
+<para id="element-2">We shall maintain the convention of subscript designation for relative quantities for the sake of continuity. The first letter of the subscript determines the “object”, whereas the second letter determines the “other object” with respect to which measurement is carried out. Some expansion of meaning is given here to quickly recapitulate uses of subscripted terms :
+</para>
+<para id="element-3">
+<m:math>
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+: Relative velocity of object “A” with respect to object “B”
+</para>
+<para id="element-4">
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+: Component of relative velocity of object “A” with respect to object “B” in x-direction
+</para>
+<para id="element-5">For two dimensional case, the relative velocity is denoted with bold type vector symbol. We shall , however, favor use of component scalar symbol with appropriate sign to represent  velocity vector in two dimensions like in the component direction along the axes of the coordinate system. The generic expression for two dimensional relative velocity are :
+</para>
+<para id="element-8">
+In vector notation  :
+</para>
+<para id="element-9"><equation id="equation-9">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation>
+</para>
+
+<para id="element-6">
+In component scalar form :
+</para>
+<para id="element-7">
+<equation id="equation-7">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+
+</equation>
+</para>
+
+<para id="element-7a">
+<equation id="equation-7a">
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation>
+</para>
+<section id="section-1">
+<title> Relative velocity of projectiles
+</title>
+
+<para id="element-10">The relative velocity of projectiles can be found out, if we have the expressions of velocities of the two projectiles at a given time. Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” denote velocities of two projectiles respectively at a given instant “t”. Then :
+</para>
+<para id="element-11">
+<figure id="fig-11">
+<title> Relative velocity of projectiles </title>
+<media id="idm8570864" alt=""><image src="../../media/rmp1-afb2.gif" mime-type="image/gif"/></media>
+<caption> Velocities of projectiles. </caption>
+</figure>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">i</m:mi>
+
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">j</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">i</m:mi>
+
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">j</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+Hence, relative velocity of projectile “A” with respect to projectile “B” is :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+        <m:mi mathvariant="bold">v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+        <m:mi mathvariant="bold">v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">i</m:mi>
+
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">j</m:mi>
+
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">i</m:mi>
+
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">j</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17"><equation id="equation-17">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+
+      <m:mi mathvariant="bold">i</m:mi>
+
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+
+      <m:mi mathvariant="bold">j</m:mi>
+
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-18">We can interpret this expression of relative velocity as equivalent to consideration of relative velocity in component directions. In the nutshell, it means that we can determine relative velocity in two mutually perpendicular directions and then combine them as vector sum to obtain the resultant relative velocity. Mathematically,
+</para>
+<para id="element-19"><equation id="equation-19">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">i</m:mi>
+
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">j</m:mi>
+
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-20">
+where,
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+This is a significant analysis simplification as study of relative motion in one dimension can be done with scalar representation with appropriate sign.
+</para>
+</section>
+
+<section id="section-10">
+<title> Interpretation of relative velocity of projectiles
+</title>
+<para id="element-24">The interpretation is best understood in terms of component relative motions. We consider motion in both horizontal and vertical directions. 
+</para>
+<section id="section-10a">
+<title> Relative velocity in horizontal direction
+</title>
+<para id="element-24a">The interpretation is best understood in terms of component relative motion. In horizontal direction, the motion is uniform for both projectiles. It follows then that relative velocity in horizontal x-direction is also a uniform velocity i.e. motion without acceleration.
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Component relative velocity </title>
+<media id="idm5077824" alt=""><image src="../../media/rmp2-4907.gif" mime-type="image/gif"/></media>
+<caption> Component relative velocity in x-direction. </caption>
+</figure>
+</para>
+<para id="element-26">
+The relative velocity in x-direction is :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+As horizontal component of velocity of projectile does not change with time, we can re-write the equation of component relative velocity as :
+</para>
+<para id="element-29"><equation id="equation-29">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-30">Significantly, relative velocity in x-direction is determined by the initial velocities or initial conditions of the projection of two projectiles. It is expected also as components of velocities in x-direction do not change with time. The initial velocity, on the other hand, is fixed for a given projectile motion. As such, horizontal component of relative velocity is constant. A plot of relative velocity in x - direction .vs. time will be a straight line parallel to time axis. 
+</para>
+<para id="element-30a">The separation between two objects in x-direction at a given time "t" depends on two factors : (i) the initial separation of two objects in x-direction and (ii) relative velocity in x - direction. The  separation in x - direction is given as :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">where <m:math>
+  <m:mrow>
+
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+
+  </m:mrow>
+</m:math> is the initial separation between two projectiles in x-direction. Clearly, the separation in horizontal direction .vs. time plot would be a straight line with  a constant slope. In physical terms, the separation between two projectiles in horizontal direction keeps increasing at a constant rate, which is equal to the magnitude of the component of relative velocity in that direction. 
+</para>
+</section>
+<section id="section-10b">
+<title> Relative velocity in vertical direction
+</title>
+
+<para id="element-33">The motion in the vertical direction, however,  is subject to acceleration due to gravity, which always acts in vertically downward direction. The relative velocity in y-direction is :
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Component relative velocity </title>
+<media id="idm561872" alt=""><image src="../../media/rmp3-948d.gif" mime-type="image/gif"/></media>
+<caption> Component relative velocity in y-direction. </caption>
+</figure>
+</para>
+<para id="element-35"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+        <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+As vertical component of motion is not a uniform motion, we can use equation of motion to determine velocity at a given time “t” as,
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+Putting in the expression of relative velocity in y-direction, we have :
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41"><equation id="equation-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-42">The important aspect of the relative velocity in vertical y-direction is that acceleration due to gravity has not made any difference. The component relative velocity in y-direction is equal to simple difference of components of initial velocities of two projectiles in vertical direction. It is clearly due to the fact the acceleration of two projectiles in y-direction are same i.e. acceleration due to gravity and hence relative acceleration between two projectiles in vertical direction is zero. It means that the nature of relative velocity in vertical direction is same as that in the horizontal direction. A plot of relative velocity in y -direction .vs. time will be a straight line parallel to time axis. 
+</para>
+<para id="element-43a">The separation between two objects in y-direction at a given time "t" depends on two factors : (i) the initial separation of two objects in y-direction and (ii) relative velocity in y - direction. The separation in y - direction is given as :
+</para>
+<para id="element-44"><m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">where <m:math>
+  <m:mrow>
+
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+
+  </m:mrow>
+</m:math> is the initial separation between two projectiles in y-direction. Note that acceleration term has not appeared in the expression of relative velocity, because they cancel out. Clearly, the separation in vertical direction .vs. time plot would be a straight line with a constant slope. In physical terms, the separation between two projectiles in vertical direction keeps increasing at a constant rate, which is equal to the magnitude of the component of relative velocity in that direction. 
+</para>
+</section>
+</section>
+
+<section id="section-11">
+<title> Resultant relative motion
+</title>
+<para id="element-46">The component relative velocities in two mutually perpendicular directions have been derived in the previous section as :
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> Relative velocity of projectiles </title>
+<media id="idm4362176" alt=""><image src="../../media/rmp4.gif" mime-type="image/gif"/></media>
+<caption> Relative velocity of projectiles depends on initial velocities of projectiles. </caption>
+</figure>
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">These equations are very important results. It means that relative velocity between projectiles is exclusively determined by initial velocities of the two projectiles i.e. by the initial conditions of the two projectiles as shown in the figure below. The component relative velocities do not depend on the subsequent motion i.e. velocities. The resultant relative velocity is vector sum of component relative velocities :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+
+        <m:mi>v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">i</m:mi>
+
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+
+      <m:mi mathvariant="bold">j</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> Resultant relative velocity of projectiles </title>
+<media id="idm8180240" alt=""><image src="../../media/rmp5-f160.gif" mime-type="image/gif"/></media>
+<caption> Resultant relative velocity of projectiles is constant. </caption>
+</figure>
+</para>
+<para id="element-54">
+Since the component relative velocities do not depend on the subsequent motion, the resultant relative velocity also does not depend on the subsequent motion. The magnitude of resultant relative velocity is given by :
+</para>
+<para id="element-55"><equation id="equation-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mo>+</m:mo>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-56">The slope of the relative velocity of “A” with respect to “B” from x-direction is given as :
+</para>
+<para id="element-57"><equation id="equation-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+              <m:mi>y</m:mi>
+            </m:mrow>
+          </m:msub>
+        </m:mrow>
+        <m:mrow>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:msub>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</equation></para>
+
+
+<example id="example-126">
+
+<para id="element-126"><term>Problem : </term> 
+
+Two projectiles are projected simultaneously from two towers as shown in the figure. 
+Find the magnitude of relative velocity, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>, and the angle that relative velocity makes with horizontal direction
+
+</para>
+<para id="element-127">
+<figure id="fig-127">
+<title> Relative motion of projectiles </title>
+<media id="idm4447312" alt=""><image src="../../media/rp3.gif" mime-type="image/gif"/></media>
+<caption> Relative motion of projectiles </caption>
+</figure>
+
+</para>
+<para id="element-129">
+<term>Solution : </term> 
+We shall first calculate relative velocity in horizontal and vertical directions and then combine them to find the resultant relative velocity. Let "x" and "y" axes be in horizontal and perpendicular directions. In x-direction,
+
+
+</para>
+<para id="element-130">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-131">
+In y-direction,
+
+</para>
+<para id="element-132">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-133">
+The magnitude of relative velocity is :
+
+</para>
+<para id="element-134">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mi>A</m:mi>
+                <m:mi>B</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mi>A</m:mi>
+                <m:mi>B</m:mi>
+                <m:mi>y</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mn>20</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>5</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-135">
+The angle that relative velocity makes with horizontal is :
+
+</para>
+<para id="element-136">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>20</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+
+
+
+
+</section>
+
+<section id="section-12">
+<title> Physical interpretation of relative velocity of projectiles
+</title>
+
+<para id="element-58">The physical interpretation of the results obtained in the previous section will help us to understand relative motion between two projectiles. We recall that relative velocity can be interpreted by assuming that the reference object is stationary. Consider the expression, for example,
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">What it means that relative velocity “vABx” of object “A” with respect to object “B” in x-direction is the velocity of the object “A” in x-direction as seen by the stationary object “B”. This interpretation helps us in understanding the nature of relative velocity of projectiles. 
+</para>
+<para id="element-62"> Extending the reasoning, we can say that object “A” is moving with uniform motion in “x” and “y” directions as seen by the stationary object “B”. The resultant motion of “A”, therefore, is along a straight line with a constant slope. This result may be a bit surprising as we might have expected that two projectiles see (if they could) each other moving along some curve - not a straight line.
+</para>
+<para id="element-64">
+<figure id="fig-64"><title> Relative velocity of projectiles </title>
+<media id="idm471776" alt=""><image src="../../media/rmp6a.gif" mime-type="image/gif"/></media>
+<caption> Relative velocity of projectiles is constant. </caption>
+</figure>
+</para>
+
+
+
+<section id="section-12a">
+<title> Special cases 
+</title>
+<para id="element-65">There are two interesting cases. What if horizontal component of velocities of the two projectiles are same? In this case, relative velocity of projectiles in horizontal direction is zero. Also, it is imperative that there is no change in the initial separation between two projectiles in x-direction. Mathematically, 
+
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-68">There is no relative motion between two projectiles in horizontal direction. They may, however, move with respect to each other in y-direction. The relative velocity in y-direction is given by :
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">Since relative velocity in x-direction is zero, the relative velocity in y-direction is also the net relative velocity between two projectiles.
+</para>
+<para id="element-71">In the second case, components of velocities in y-direction are equal. In this case, there is no relative velocity in y-direction. The projectiles may, however, have relative velocity in x-direction. As such the relative velocity in y-direction is also the net relative velocity between two projectiles.
+</para>
+</section>
+</section>
+
+<section id="section-13">
+<title> Exercises </title> 
+
+<para id="element-137a">
+<exercise id="exercise-137a">
+<problem id="idm2594672">
+<para id="element-137">
+Two projectiles are projected simultaneously at same speeds, but with different angles of projections from a common point in a given vertical plane. The path of one projectile, as viewed from other projectile is :
+</para>
+<para id="element-138">
+  (a) a straight line parallel to horizontal
+</para>
+<para id="element-139">
+  (b) a straight line parallel to vertical
+</para>
+<para id="element-140">
+  (c) a circle
+</para>
+<para id="element-141">
+  (d) None of above
+
+  
+</para>
+</problem>
+
+<solution id="idm5073488">
+<para id="element-142">
+The component relative velocities in horizontal and vertical directions are, defined in terms of initial velocities, which are constant for the given pair of projectiles. Therefore, the relative velocities of two projectiles in horizontal and vertical directions are constants. Let "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the initial velocities of two projectiles, then component relative velocities in "x" and "y" directions are :
+
+</para>
+<para id="element-143">
+<figure id="fig-143">
+<title> Relative motion of projectiles </title>
+<media id="idm7818128" alt=""><image src="../../media/rp1.gif" mime-type="image/gif"/></media>
+<caption> Relative motion of projectiles </caption>
+</figure>
+
+</para>
+<para id="element-144">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-145">
+The resultant relative velocity is :
+
+</para>
+<para id="element-146">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+        <m:mi mathvariant="bold">u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+      <m:mi mathvariant="bold">j</m:mi>
+  </m:mrow>
+</m:math>
+ </para>
+<para id="element-147">
+As given in the question, the initial speeds of the projectiles are same, but angles of projections are different.  Since sine and cosine of two different angles are different, it follows that component velocities of two projectiles  are different in either direction. This is ensured as speeds of two projectiles are same. It implies that components (horizontal or vertical) of the relative velocity are non-zero and finite constant. The resultant relative velocity is, thus, constant, making an angle "<m:math>
+  <m:mrow>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+" with horizontal (x-axis) such that :
+
+</para>
+<para id="element-148">
+<figure id="fig-148">
+<title> Relative motion of projectiles </title>
+<media id="idp3575280" alt=""><image src="../../media/rp2.gif" mime-type="image/gif"/></media>
+<caption> Relative motion of projectiles </caption>
+</figure>
+
+
+</para>
+<para id="element-148a">
+<m:math display="block">
+  <m:mrow>
+
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+
+        </m:mrow>
+        <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-149">
+Thus, one projectile (B) sees other projectile (A) moving in a straight line with constant velocity, which makes a constant angle with the horizontal. Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-150a">
+<exercise id="exercise-150a">
+<problem id="idm1558416">
+<para id="element-150">
+Two projectiles are projected simultaneously at different velocities from a common point in a given vertical plane. If the components of initial velocities of two projectiles in horizontal direction are equal, then the path of one projectile as viewed from other projectile is :
+</para>
+<para id="element-151">
+(a) a straight line parallel to horizontal
+</para>
+<para id="element-152">
+(b) a straight line parallel to vertical
+</para>
+<para id="element-153">
+  (c) a parabola
+</para>
+<para id="element-154">
+  (d) None of above
+</para>
+</problem>
+
+<solution id="idp2448208">
+<para id="element-155">
+The component relative velocities in horizontal and vertical directions are, defined in terms of initial velocities, which are constant for the given projectiles. Let "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>” and “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>” be the initial velocities of two projectiles, then component relative velocities in "x" and "y" directions are :
+
+</para>
+<para id="element-156">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-157">
+According to the question, components of initial velocities of two projectiles in horizontal direction are equal :
+
+</para>
+<para id="element-158">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-159">
+It is given that velocities of projections are different. As horizontal components of velocities in horizontal directions are equal, the components of velocities in vertical directions are different. As such, above expression evaluates to a constant vector. Thus, one projectile sees other projectile moving in a straight line parallel to vertical  (i.e. direction of unit vector <term>j</term>). 
+
+</para>
+<para id="element-160">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>
+
+  </content>
+  
+</document>

@@ -1,0 +1,928 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Uniform circular motion (application)</title>
+  <metadata>
+  <md:content-id>m14015</md:content-id><md:title>Uniform circular motion (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>1ab82fe6-5fdf-4a61-9114-124860700771</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+
+
+<section id="section-2">
+<title> Representative problems and their solutions </title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to the uniform circular motion. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Direction of velocity 
+</item>
+<item> Direction of position vector
+</item>
+<item> Velocity 
+</item>
+<item> Relative speed
+</item>
+<item> Nature of UCM
+</item>
+
+</list>
+</para>
+</section> 
+
+<section id="section-3">
+<title> Direction of velocity  </title>
+<example id="example-6">
+<para id="element-6"> <term>Problem : </term> A particle moves in xy-plane along a circle of radius "r". The particle moves at a constant speed in anti-clockwise direction with center of circle as the origin of the coordinate system. At a certain instant, the velocity of the particle is <term>i</term> – √3<term>j</term>. Determine the angle that velocity makes with x-direction.
+</para>
+<para id="element-7"> <term>Solution : </term> The sign of y-component of velocity is negative, whereas that of x-component of velocity is positive. It means that the particle is in the third quadrant of the circle as shown in the figure. 
+</para>
+<para id="element-8"> 
+<figure id="fig-8">
+<title> Top view of uniform circular motion in xy-plane </title>
+<media id="id43346447" alt=""><image src="../../media/ucmq2a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-9"> 
+The acute angle formed by the velocity with x-axis is obtained by considering the magnitude of components (without sign) as :
+</para>
+<para id="element-10"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>x</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">This is the required angle as measured in clockwise direction from x-axis. If the angle is measured in anti-clockwise direction from positive direction of x-axis, then 
+</para>
+<para id="element-14"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>360</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>300</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+
+
+<section id="section-4">
+<title> Direction of position vector  </title>
+<example id="example-15">
+<para id="element-15"> <term>Problem : </term> 
+A particle moves in xy-plane along a circle of radius “r”. The particle moves at a constant speed in anti-clockwise direction with center of circle as the origin of the coordinate system. At a certain instant, the velocity of the particle is <term>i</term> – √3<term>j</term>. Determine the angle that position vector makes with x-direction.
+</para>
+<para id="element-16"> <term>Solution : </term> The sign of y-component of velocity is negative, whereas that of x-component of velocity is positive. It means that the particle is in the third quadrant of the circle as shown in the figure. 
+</para>
+<para id="element-17"> 
+<figure id="fig-17">
+<title> Top view of uniform circular motion in xy-plane </title>
+<media id="id43316856" alt=""><image src="../../media/ucmq3a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-18"> 
+The acute angle formed by the velocity with x-axis is obtained by considering the magnitude of components (without sign) as :
+</para>
+<para id="element-19"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>x</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21"> 
+But, we know that position vector is perpendicular to velocity vector. By geometry,
+</para>
+
+<para id="element-22"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>180</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>150</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">This is the angle as measured in clockwise direction from x-axis. If the angle is measured in anti-clockwise direction from positive direction of x-axis, then 
+</para>
+<para id="element-24"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>360</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mn>150</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>210</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25"><term>Note : </term> Recall the derivation of the expression of velocity vector in the previous module. We had denoted “θ” as the angle that position vector makes with x-axis (not the velocity vector). See the figure that we had used to derive the velocity expression.
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> Top view of uniform circular motion in xy-plane </title>
+<media id="id43320891" alt=""><image src="../../media/ucm6a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-27">As a matter of fact “θ” is the angle that velocity vector makes with y-axis (not x-axis). We can determine the angle “θ” by considering the sign while evaluating tan θ,
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+    <m:mrow>
+      <m:msub>
+        <m:mi>v</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+    </m:mrow>
+
+    <m:mrow>
+      <m:msub>
+        <m:mi>v</m:mi>
+        <m:mi>y</m:mi>
+      </m:msub>
+    </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>150</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>150</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+
+
+
+
+<section id="section-5">
+<title> Velocity </title>
+
+<example id="example-38">
+<para id="element-38"><term>Problem : </term> A particle moves with a speed 10 m/s in xy-plane along a circle of radius 10 m in anti-clockwise direction. The particle starts moving with constant speed from position
+ (r,0), where "r" denotes the radius of the circle. Find the velocity of the particle (in m/s), when its position makes an angle 135° with x – axis.
+</para>
+<para id="element-40"> <term>Solution : </term> The velocity of the particle making an angle "θ" with x – axis is given as :
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Uniform circular motion </title>
+<media id="id43321169" alt=""><image src="../../media/ucmq1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-41a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-864">Here,</para><para id="element-42"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 135 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+
+<m:mfrac>
+<m:mrow>
+
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 135 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+Here, both the components are negative.
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-6">
+<title> Relative speed  </title>
+<example id="example-45">
+<para id="element-45"> <term>Problem : </term> 
+Two particles tracing a circle of radius 10 m begin their journey simultaneously from a point on the circle in opposite directions. If their speeds are 2.0 m/s and 1.14 m/s respectively, then find the time after which they collide.
+</para>
+<para id="element-46"> <term>Solution : </term> The particles approach each other with a relative speed, which is equal to the sum of their speeds.
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>l</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2.0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>1.14</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>3.14</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+For collision to take place, the particles need to cover the initial separation with the relative speed as measured above. The time for collision is, thus, obtained as : 
+</para>
+<para id="element-49"><m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>l</m:mi>
+      </m:mrow>
+    </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mn>3.14</m:mn>
+        <m:mi>x</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>3.14</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="2pt"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+</section>
+
+
+<section id="section-7">
+<title> Nature of UCM  </title>
+<example id="example-50">
+<para id="element-50"> <term>Problem : </term> 
+Two particles “A” and “B” are moving along circles of radii "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" respectively at constant speeds. If the particles complete one revolution in same time, then prove that speed of the particle is directly proportional to radius of the circular path.
+</para>
+<para id="element-51"> <term>Solution : </term> As the time period of the UCM is same,
+</para>
+
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para><para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-55">
+Hence, speed of the particle is directly proportional to the radius of the circle.
+</para>
+</example>
+
+<example id="example-56">
+<para id="element-56"> <term>Problem : </term> 
+Two particles “A” and “B” are moving along circles of radii "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" respectively at constant speeds. If the particles have same acceleration, then prove that speed of the particle is directly proportional to square root of the radius of the circular path.
+</para>
+<para id="element-57"> <term>Solution : </term> As the acceleration of the UCM is same,
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mi>A</m:mi>
+          </m:msub>
+        </m:mrow>
+        <m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mi>B</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:msub>
+              <m:mi>r</m:mi>
+              <m:mi>A</m:mi>
+            </m:msub>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:msub>
+              <m:mi>r</m:mi>
+              <m:mi>B</m:mi>
+            </m:msub>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-59">
+Hence, speed of the particle is directly proportional to square root of the radius of the circular path.
+</para>
+
+
+</example>
+</section>
+  </content>
+  
+</document>

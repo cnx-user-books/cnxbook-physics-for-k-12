@@ -1,0 +1,2457 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Projectile motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>720efcbf-d0b3-45a7-bac9-2a3da43bf61b</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Projectile motion is a special case of two dimensional motion with constant acceleration. Here, force due to gravity moderates linear motion of an object thrown at certain angle to the vertical direction. The resulting acceleration is a constant, which is always directed in vertically downward direction. 
+</para>
+<para id="element-2">The projectile motion emphasizes one important aspect of constant acceleration that even constant acceleration, which is essentially unidirectional, is capable to produce two dimensional motion. The basic reason is that force and initial velocity of the object are not along the same direction. The linear motion of the projected object is continuously worked upon by the gravity, which results in the change of both magnitude and direction of the velocity. A change in direction of the velocity ensures that motion is not one dimensional.
+</para>
+<para id="element-3">The change in magnitude and direction of the velocity is beautifully managed so that time rate of change in velocity is always directed in vertically downward direction i.e. in the direction of gravity. This aspect is shown qualitatively for the motion in the figure below as velocity change successively at the end of every second from 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mn> 1 </m:mn>
+		</m:msub>
+	</m:math>
+to 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msub>
+	</m:math>
+ to 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mn> 3 </m:mn>
+		</m:msub>
+	</m:math>
+ and so on….. by exactly a vector, whose magnitude is equal to acceleration due to gravity “g”.
+</para>
+
+
+<para id="element-4">
+<figure id="fig-4">
+<title> Projectile motion </title>
+<media id="idp4891248" alt=""><image src="../../media/pm1.gif" mime-type="image/gif"/></media>
+<caption> Velocity of the projectile changes by acceleration vector in unit time.</caption>
+</figure>
+</para>
+<section id="section-1">
+<title> Force(s) in projectile motion </title>
+<para id="element-5">Flight of base ball, golf ball etc. are examples of projectile motion. In these cases, the projectile is projected with certain force at certain angle to vertical direction. The force that initiates motion is a contact force. Once the motion of the ball is initiated, the role of contact force is over. It does not subsequently affect or change the velocity of the ball as the contact is lost. 
+</para>
+<para id="element-6">In order to emphasize, we restate three important facts about projectile motion. First, we need to apply force at the time of projection. This force as applied by hand or by any other mechanical device, accelerates projectile briefly till it is in contact with "thrower". The moment the projectile is physically disconnected with the throwing device, it moves with a velocity, which it gained during brief contact period. The role of force responsible for imparting motion is over. Second, motion of projectile is maintained if there is no net external force (Newton's laws of motion). This would be the case for projection in force free space. The projectile is initiated into the motion with certain initial velocity, say <term>u</term>. Had there been no other force(s), then the ball would have moved along the dotted straight line (as shown in figure below) and might have been lost in to the space. 
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Projectile motion </title>
+<media id="idm1473872" alt=""><image src="../../media/pm2.gif" mime-type="image/gif"/></media>
+<caption> Path of a projectile projected at an angle with horizontal direction. </caption>
+</figure>
+</para>
+<para id="element-8">Third, the projectile, once out in the space, is acted upon by the force due to gravity and air resistance. We, however, neglect the effect of air resistance for the time being and confine our study of the motion which is affected by force due to gravity acting downwards. The motion or velocity of projectile is then moderated i.e. accelerated (here, acceleration means change of speed or change of direction or both) by gravity. This is the only force. Hence, acceleration due to gravity is the only acceleration involved in the motion. This downward acceleration is a constant and is the acceleration in any projectile motion near Earth, which is not propelled or dragged. 
+</para>
+
+</section>
+<section id="section-2">
+<title> Analysis of projectile motion </title> 
+<para id="element-10">There is a very useful aspect of two dimensional motion that can be used with great effect. Two dimensional motion can be resolved in to two linear motions in two mutually perpendicular directions : (i) one along horizontal direction and (ii) the other along vertical direction. The linear motion in each direction can, then, be analyzed with the help of equivalent scalar system, in which signs of the attributes of the motion represent direction.
+</para>
+<para id="element-9"> We can analyze the projectile motion with the help of equations of motion. As the motion occurs in two dimensions, we need to use vector equations and interpret them either graphically or algebraically as per the vector rules. We know that algebraic methods consisting of component vectors render vectors analysis in relatively simpler way. Still, vector algebra requires certain level of skills to manipulate vector components in two directions. 
+</para>
+
+<para id="element-11">In the nutshell, the study of projectile motion is equivalent to two independent linear motions. This paradigm simplifies the analysis of projectile motion a great deal. Moreover, this equivalent construct is not merely a mathematical construct, but is a physically verifiable fact. The motions in vertical and horizontal directions are indeed independent of each other. 
+</para>
+<para id="element-12">To illustrate this, let us consider the flight of two identical balls, which are initiated in motion at the same time. One ball is dropped vertically and another is projected in horizontal direction with some finite velocity from the same height. It is found that both balls reach the ground at the same time and also their elevations above the ground are same at all times during the motion.   
+</para>
+<para id="element-14">
+<figure id="fig-14">
+<title> Projectile motion </title>
+<media id="idp300928" alt=""><image src="../../media/pm3.gif" mime-type="image/gif"/></media>
+<caption> Comparing vertical and projectile motion  </caption>
+</figure>
+</para>
+<para id="element-15">The fact that two balls reach the ground simultaneously and that their elevations from the ground during the motion at all times are same, point to the important aspect of the motion that vertical motion in either of the two motions are identical. This implies that the horizontal motion of the second ball does not interfere with its vertical motion. By extension, we can also say that the vertical motion of the second ball does not interfere with its horizontal motion.   
+</para>
+
+</section>
+
+<section id="section-3">
+<title> Projectile motion and equations of motion </title>
+<para id="element-16">Here, we describe the projectile motion with the help of a two dimensional rectangular coordinate system such that (This not not a requirement. One can choose reference coordinate system to one's convenience):
+</para>
+<para id="element-17">
+<list id="list-17" list-type="bulleted">
+<item> Origin of the coordinate system coincides with point of projection.
+</item>
+<item> The x – axis represents horizontal direction.
+</item>
+<item> The y – axis represents vertical direction.
+</item>
+</list>
+</para>
+<section id="section-3a">
+<title> Initial velocity </title>
+<para id="element-18">
+Let us consider that the projectile is thrown with a velocity “u” at an angle θ from the horizontal direction as shown in the figure. The component of initial velocity in the two directions are :
+</para>
+<para id="element-19">
+<equation id="equation-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-20">
+<figure id="fig-20"><title> Projectile motion </title>
+<media id="idp271504" alt=""><image src="../../media/pm4.gif" mime-type="image/gif"/></media>
+<caption> Component projection velocities in x and y directions </caption>
+</figure>
+</para>
+</section>
+
+<section id="section-3b">
+<title> Equations of motion in vertical direction </title>
+<para id="element-21">
+Motion in vertical direction is moderated by the constant force due to gravity. This motion, therefore, is described by one dimensional equations of motion for constant acceleration. 
+</para>
+
+<section id="section-3b1">
+<title> Velocity </title> 
+<para id="element-180">The velocity in the vertical direction is given by :</para><para id="element-22">
+<equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-23">An inspection of equation - 2 reveals that this equation can be used to determine velocity in vertical direction at a given time “t” or to determine time of flight “t”, if final vertical velocity is given. This assumes importance as we shall see that final vertical velocity at the maximum height becomes zero. 
+</para>
+<para id="element-24">
+<figure id="fig-24"><title> Projectile motion </title>
+<media id="idm3470944" alt=""><image src="../../media/pm5.gif" mime-type="image/gif"/></media>
+<caption> Vertical component of velocity during motion </caption>
+</figure>
+</para>
+
+<para id="element-25">The equation for velocity further reveals that the magnitude of velocity is reduced by an amount “gt” after a time interval of “t” during upward motion. The projectile is decelerated in this part of motion (velocity and acceleration are in opposite direction). The reduction in the magnitude of velocity with time means that it becomes zero corresponding to a particular value of “t”. The vertical elevation corresponding to the position, when projectile stops, is maximum height that projectile attains. For this situation (
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mn> y </m:mn>
+		</m:msub>
+	</m:math>
+ = 0), the time of flight “t” is obtained as :
+</para>
+<para id="element-26"><equation id="equation-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-27">Immediately thereafter, projectile is accelerated in vertically downward direction with increasing speed. In order to appreciate variation of speed and velocity during projectile motion, we calculate the values of a projectile for successive seconds, which is projected with an initial velocity of 60 m/s making an angle of 
+<m:math>
+		<m:msup>
+			<m:mn> 30 </m:mn>
+			<m:mn> 0 </m:mn>
+		</m:msup>
+	</m:math>
+with the horizontal. Here, vertical component of velocity is 60 sin 
+<m:math>
+		<m:msup>
+			<m:mn> 30 </m:mn>
+			<m:mn> 0 </m:mn>
+		</m:msup>
+	</m:math>
+" i.e. 30 m/s.
+</para>
+
+<para id="element-28">
+<code display="block" id="idp1153120">
+--------------------------------------------------------
+Time      gt        Velocity      Magnitude of velocity
+(s)     (m/s)         (m/s)            (m/s)
+--------------------------------------------------------
+0         0            30               30
+1        10            20               20
+2        20            10               10
+3        30             0                0
+4        40           -10               10
+5        50           -20               20
+6        60           -30               30
+--------------------------------------------------------
+</code>
+</para>
+<para id="element-29">
+Above table substantiate the observations made earlier. The magnitude of vertical velocity of the projectile first decreases during upward flight; becomes zero at maximum height; and, thereafter, picks up at the same rate during downward flight.
+</para>
+<para id="element-30">
+It is also seen from the data that each of the magnitude of vertical velocity during upward motion is regained during downward motion. In terms of velocity, for every vertical velocity there is a corresponding vertical velocity of equal magnitude, but opposite in direction.
+</para>
+<para id="element-31">
+The velocity – time plot of the motion is a straight line with negative slope. The negative slope here indicates that acceleration i.e acceleration due to gravity is directed in the opposite direction to that of positive y- direction.
+</para>
+<para id="element-32">
+<figure id="fig-32">
+<title> Velocity – time plot </title>
+<media id="idm3173184" alt=""><image src="../../media/pm8.gif" mime-type="image/gif"/></media>
+<caption> The velocity – time plot for constant acceleration in vertical direction </caption>
+</figure>
+</para>
+<para id="element-33">
+From the plot, we see that velocity is positive and acceleration is negative for upward journey, indicating deceleration i.e. decrease in speed.
+</para>
+<para id="element-34">
+The time to reach maximum height in this case is :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 30 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+The data in the table confirms this. Further, we know that vertical motion is independent of horizontal motion and time of flight for vertical motion is equal for upward and downward journey. This means that total time of flight is 2t i.e. 2x3 = 6 seconds. We must, however, be careful to emphasize that this result holds if the point of projection and point of return to the surface are on same horizontal level.
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> Projectile motion </title>
+<media id="idp4166304" alt=""><image src="../../media/pm9.gif" mime-type="image/gif"/></media>
+<caption> Initial and final velocities are equal in magnitude but opposite in direction. </caption>
+</figure>
+</para>
+
+<para id="element-38">There is yet another interesting feature that can be drawn from the data set. The magnitude of vertical velocity of the projectile (30 m/s) at the time it hits the surface on return is equal to that at the time of the start of the motion. In terms of velocity, the final vertical velocity at the time of return is inverted initial velocity.   
+</para>
+
+</section> 
+
+<section id="section-3b2">
+<title> Displacement </title>
+<para id="element-39">
+The displacement in vertical direction is given by :
+</para>
+<para id="element-40">
+<equation id="equation-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Projectile motion </title>
+<media id="idp1118320" alt=""><image src="../../media/pm6.gif" mime-type="image/gif"/></media>
+<caption> Vertical displacement at a given time </caption>
+</figure>
+</para>
+<para id="element-42">
+This equation gives vertical position or displacement at a given time. It is important to realize that we have simplified the equation 
+<m:math>
+<m:mo> Δ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ by selecting origin to coincide by the point of projection so that,     
+</para>
+
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> y </m:mi>
+<m:mspace width="2pt"/> 
+<m:mo> ( </m:mo>
+<m:mi> say </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+Thus, “y” with this simplification represents position or displacement.
+</para>
+<para id="element-45">
+The equation for position or displacement is a quadratic equation in time “t”. It means that solution of this equation yields two values of time for every value of vertical position or displacement. This interpretation is in fine agreement with the motion as projectile retraces all vertical displacement as shown in the figure.
+</para>
+<para id="element-46">
+<figure id="fig-46">
+<title> Projectile motion </title>
+<media id="idp4860448" alt=""><image src="../../media/pm10.gif" mime-type="image/gif"/></media>
+<caption> All vertical displacement is achieved twice by the projectile except the point of maximum height. </caption>
+</figure>
+</para>
+</section>
+<section id="section-3b3">
+<title> Time of flight </title>
+
+<para id="element-47"> The time taken to complete the journey from the point of projection to the point of return is the time of the flight for the projectile. In case initial and final points of the journey are on the same horizontal level, then the net displacement in vertical direction is zero i.e. y = 0. This condition allows us to determine the total time of flight “T” as :
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> T </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> T </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+
+<m:mi> T </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mspace width="2pt"/> 
+<m:mi> or </m:mi>
+<m:mspace width="2pt"/> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+T = 0 corresponds to the time of projection. Hence neglecting the first value, the time of flight is :
+</para>
+<para id="element-50"><equation id="equation-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<para id="element-51">We see that total time of flight is twice the time projectile takes to reach the maximum height. It means that projectile takes equal times in "up" and "down"  motion. In other words, time of ascent equals time of descent.   
+</para>
+
+<example id="example-1">
+<para id="element-52"><term>Problem : </term> A ball is thrown upwards with a speed of 10 m/s making an angle 30° with horizontal and returning to ground on same horizontal level. Find (i) time of flight and (ii) and time to reach the maximum height 
+</para>
+
+<para id="element-53"> <term>Solution : </term> Here, component of initial velocity in vertical direction is : 
+</para>
+<para id="element-54"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> sin </m:mi>
+<m:mn> 30 </m:mn>
+<m:mi> ° </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+(i) The time of flight, T, is :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/> <m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+(ii) Time to reach the maximum height is half of the total flight when starting and end points of the projectile motion are at same horizontal level. Hence, the time to reach the maximum height is 0.5 s.
+</para>
+
+</example> 
+
+</section>
+</section>
+
+
+<section id="section-4">
+<title> Equations of motion in horizontal direction </title>
+<para id="element-58">The force due to gravity has no component in horizontal direction. Since gravity is the only force acting on the projectile, this means that the motion in horizontal direction is not accelerated. Therefore, the motion in horizontal direction is an uniform motion. This implies that the component of velocity in x-direction is constant. As such, the position or displacement in x-direction at a given time “t” is :
+</para>
+<para id="element-59">
+<equation id="equation-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Projectile motion </title>
+<media id="idm3148896" alt=""><image src="../../media/pm7.gif" mime-type="image/gif"/></media>
+<caption> Horizontal displacement at a given time  </caption>
+</figure>
+</para>
+<para id="element-61">
+This equation gives the value of horizontal position or displacement at any given instant. 
+</para>
+
+</section>
+
+<section id="section-5">
+<title> Displacement of projectile </title>
+<para id="element-62">
+The displacement of projectile is obtained by vector addition of displacements in x and y direction. The magnitude of displacement of the projectile from the origin at any given instant is :
+</para>
+<para id="element-63"><equation id="equation-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Displacement, OP </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> )</m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-64">
+<figure id="fig-64">
+<title> Displacement in projectile motion </title>
+<media id="idm3657360" alt=""><image src="../../media/pm11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-65">The angle that displacement vector subtends on x-axis is :
+</para>
+<para id="element-66"><equation id="equation-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> y </m:mi>
+<m:mi> x </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+</section>
+
+<section id="section-6">
+<title> Velocity of projectile </title>
+<para id="element-67">The velocity of projectile is obtained by vector addition of velocities in x and y direction. Since component velocities are mutually perpendicular to each other, we can find magnitude of velocity of the projectile at any given instant, applying Pythagoras theorem :
+</para>
+<para id="element-68"><equation id="equation-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+<m:mo> + </m:mo>
+
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+<m:mo> )</m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-69">
+<figure id="fig-69">
+<title> Velocity of a projectile </title>
+<media id="idp4184816" alt=""><image src="../../media/pm12.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-70">The angle that the resultant velocity subtends on x-axis is :
+</para>
+<para id="element-71"><equation id="equation-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> β </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<example id="example-2">
+<para id="element-72"><term>Problem : </term> A ball is projected upwards with a velocity of 60 m/s at an angle 60° to the vertical. Find the velocity of the projectile after 1 second.
+</para>
+<para id="element-73"><term>Solution : </term> In order to find velocity of the projectile, we need to know the velocity in vertical and horizontal direction. Now, initial velocities in the two directions are (Note that the angle of projection is given in relation to vertical direction.):
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+<m:mi> sin </m:mi>
+<m:mn> 60 </m:mn>
+<m:mi> ° </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+<m:mi> cos </m:mi>
+<m:mn> 60 </m:mn>
+<m:mi> ° </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">Now, velocity in horizontal direction is constant as there is no component of acceleration in this direction. Hence, velocity after "1" second is :
+</para>
+
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">On the other hand, the velocity in vertical direction is obtained, using equation of motion as :
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">
+The resultant velocity, v, is given by :
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+<m:mo> + </m:mo>
+
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+<m:mo> )</m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+     
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> { </m:mo>
+
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 30 </m:mn>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> }</m:mo>
+</m:msqrt>
+<m:mo> = </m:mo>
+
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:mn> 900 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 400 </m:mn>
+<m:mo> ) </m:mo>
+</m:msqrt>
+
+
+<m:mo> = </m:mo>
+<m:mn> 55.68 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+</section>
+
+<section id="section-7">
+<title> Equation of the path of projectile </title>
+<para id="element-81">Equation of projectile path is a relationship between “x” and “y”. The x and y – coordinates are given by equations,
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+Eliminating “t” from two equations, we have :
+</para>
+<para id="element-84"><equation id="equation-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> - </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-85">For a given initial velocity and angle of projection, the equation reduces to the form of 
+<m:math>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> A </m:mi>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo>
+<m:mi> B </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, where A and B are constants. The equation of “y” in “x” is the equation of parabola. Hence, path of the projectile motion is a parabola. Also, putting expressions for initial velocity components 
+<m:math>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi> and </m:mi>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:math>
+, we have :
+</para>
+
+<para id="element-86">
+<equation id="equation-86">
+
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin</m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+
+<m:mrow>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> - </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+
+<m:mi> x </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mo> - </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+
+
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+
+
+
+<para id="element-87">
+Some other forms of the equation of projectile are :
+</para>
+
+<para id="element-88">
+<equation id="equation-88">
+
+<m:math display="block">
+<m:mo> ⇒ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+
+<m:mi> x </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mo> - </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sec </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+
+</m:mrow>
+</m:mfrac>
+
+
+</m:math>
+</equation>
+</para>
+
+<para id="element-89">
+<equation id="equation-89">
+
+<m:math display="block">
+<m:mo> ⇒ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+
+<m:mi> x </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mo> - </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+
+</m:mrow>
+</m:mfrac>
+
+
+</m:math>
+</equation>
+</para>
+</section>
+</section>
+
+<section id="section-8">
+<title>Exercises</title>
+
+<para id="element-90a">
+<exercise id="exercise-90a">
+<problem id="idp6189360">
+<para id="element-90">
+A projectile with initial velocity 2<term>i</term> + <term>j</term> is thrown in air (neglect air resistance). The velocity of the projectile before striking the ground is (consider g = 10 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+) :
+</para>
+<para id="element-91">
+(a) <term>i</term> + 2<term>j</term>  (b) 2<term>i</term> – <term>j</term>  (c) <term>i</term> – 2<term>j</term> (d) 2<term>i</term> – 2<term>j</term>
+</para>
+</problem>
+
+<solution id="idm3306928">
+<para id="element-92">
+The vertical component of velocity of the projectile on return to the ground is equal in magnitude to the vertical component of velocity of projection, but opposite in direction. On the other hand, horizontal component of velocity remains unaltered. Hence, we can obtain velocity on the return to the ground by simply changing the sign of vertical component in the component expression of velocity of projection. 
+</para>
+<para id="element-93">
+<figure id="fig-93">
+<title> Projectile motion </title>
+<media id="idp1151344" alt=""><image src="../../media/p1a.gif" mime-type="image/gif"/></media>
+<caption> Components of velocities </caption>
+</figure>
+</para>
+<para id="element-94">
+<term>v</term> = 2<term>i</term> - <term>j</term>
+</para>
+<para id="element-95">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-96a">
+<exercise id="exercise-96a">
+<problem id="idp1014208">
+<para id="element-96"> 
+Which of the following quantities remain unaltered during projectile motion :</para>
+<para id="element-97"> 
+(a)	vertical component of velocity and vertical component of acceleration
+</para>
+<para id="element-98"> 
+(b)	horizontal component of velocity and horizontal component of acceleration
+</para>
+<para id="element-99"> 
+(c)	vertical component of velocity and horizontal component of acceleration
+</para>
+<para id="element-100"> 
+(d)	horizontal component of velocity and vertical component of acceleration
+</para>
+</problem>
+
+<solution id="idp3205984">
+<para id="element-101"> 
+The horizontal component of acceleration is zero. As such, horizontal component of velocity is constant. On the other hand, vertical component of acceleration is “g”, which is a constant. Clearly, vertical component of velocity is not constant. 
+</para>
+<para id="element-102">
+Hence, options (b) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-103a">
+<exercise id="exercise-103a">
+<problem id="idm4022256">
+<para id="element-103"> 
+Motion of a projectile is described in a coordinate system, where horizontal and  vertical directions of the projectile correspond to x and y axes. At a given instant, the velocity of the projectile is 2<term>i</term> + 3<term>j</term> m/s. Then, we can conclude that :
+</para>
+<para id="element-104"> 
+(a) the projectile has just started its motion
+</para>
+<para id="element-105"> 
+(b)	the projectile is about to hit the ground
+</para>
+<para id="element-106"> 
+(c)	the projectile is descending from the maximum height
+</para>
+<para id="element-107"> 
+(d)	the projectile is ascending to the maximum height
+</para>
+</problem>
+<solution id="idm4018752">
+<para id="element-108"> 
+Here, the vertical component of the velocity (3 m/s) is positive.  Therefore, projectile is moving in positive y-direction. It means that the projectile is still ascending to reach the maximum height (the vertical component of velocity at maximum height is zero). It is though possible that the given velocity is initial velocity of projection. However, the same can not be concluded.
+</para>
+<para id="element-109">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-110a">
+<exercise id="exercise-110a">
+<problem id="idm1978992">
+<para id="element-111">
+A projectile, thrown at angle " <m:math>
+  <m:mrow>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+" with an initial velocity "u", returns to the same horizontal ground level. If "x" and "y" coordinates are in horizontal and vertical directions, the equation of projectile in x and y coordinates has the form :
+
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>B</m:mi>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>B</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+
+
+</problem>
+
+<solution id="idp1071840">
+<para id="element-113">
+The equation of projectile is given as :
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>cos</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115">
+This is a quadratic equation in x. The correct choice is (b).
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-116a">
+<exercise id="exercise-116a">
+<problem id="idp3530272">
+<para id="element-116">
+Select correct observation(s) about  the "xy" - plot of the projectile motion from the following :
+
+</para>
+<para id="element-117">
+<figure id="fig-117">
+<title> Projectile motion </title>
+<media id="idp1049328" alt=""><image src="../../media/p2-2ff3.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion </caption>
+</figure>
+</para>
+<para id="element-118">
+(a)  it covers greater horizontal distance during the middle part of the motion.
+</para>
+<para id="element-119">
+         (b) it covers greater vertical distance during the middle part of the motion.
+</para>
+<para id="element-120">
+         (c)  it covers lesser horizontal distance near the ground.
+</para>
+<para id="element-121">
+         (d) it covers greater vertical distance near the ground.
+</para>
+
+</problem>
+
+<solution id="idm2244080">
+<para id="element-122"> There is no component of acceleration in horizontal direction. The motion in this direction is a uniform motion and, therefore, covers equal horizontal distance in all parts of motion. It means that options (a) and (c) are incorrect. 
+
+</para>
+<para id="element-123">
+In the vertical direction, projectile covers maximum distance when vertical component of velocity is greater. Now, projectile has greater vertical component of velocity near ground at the time of projection and at the time of return.  As such, it covers maximum distance near the ground.
+</para>
+<para id="element-124">
+The correct choice is (d).
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-125a">
+<exercise id="exercise-125a">
+<problem id="idp2066000">
+<para id="element-125">
+A projectile is projected with an initial speed "u", making an angle " <m:math>
+  <m:mrow>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+" to the horizontal direction along x-axis. Determine the average velocity of the projectile for the complete motion till it returns to the same horizontal plane.
+</para>
+
+</problem>
+
+<solution id="idm3091520">
+<para id="element-126">
+Average velocity is defined as the ratio of displacement and time. Since we treat projectile motion as two dimensional motion, we can find average velocity in two mutually perpendicualr directions and then find the resultant average velocity. Projectile motion, however, is a unique case of uniform acceleration and we can find components of average velcity by averaging initial and final values.
+</para>
+<para id="element-128">
+If <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+and  <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ be the initial and final velocities, then the average velocity for linear motion under constant acceleration is defined as : 
+</para>
+<para id="element-129">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-130">
+Employing this relation in x-direction and making use of the fact that motion in horizontal direction is uniform motion, we have :
+</para>
+<para id="element-131">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mi>x</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>x</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>u</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>u</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+    
+</para>
+<para id="element-132">
+Similarly, applying the relation of average velocity in y-direction and making use of the fact that component of velocity in vertical direction reverses its direction on return, we have :
+</para>
+<para id="element-133">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-134">
+Hence, the resultant average velocity is :
+</para>
+<para id="element-135">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-136a">
+<exercise id="exercise-136a">
+<problem id="idp4127712">
+<para id="element-136">
+  A projectile is projected with an initial speed "u", making an angle "<m:math>
+  <m:mrow>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+" to the horizontal direction along x-axis. Determine change in speed of the projectile for the complete motion till it returns to the same horizontal plane.
+</para>
+
+</problem>
+
+<solution id="idp2027280">
+<para id="element-137">
+Both initial and final speeds are equal. Hence, there is no change in speed during the motion of projectile.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-138a">
+<exercise id="exercise-138a">
+<problem id="idp2031120">
+<para id="element-138">
+A projectile is projected with an initial speed "u", making an angle "<m:math>
+  <m:mrow>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>" to the horizontal direction along x-axis. Determine the change in velocity of the projectile for the complete motion till it returns to the same horizontal plane.
+
+
+</para>
+
+</problem>
+
+<solution id="idp1294192">
+<para id="element-139">
+Initial velocity is :
+
+</para>
+<para id="element-140">
+<figure id="fig-140">
+<title> Projectile motion </title>
+<media id="idp1298240" alt=""><image src="../../media/p1a.gif" mime-type="image/gif"/></media>
+<caption> Components of velocities </caption>
+</figure>
+</para>
+<para id="element-141">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">u</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-142">
+Final velocity is :
+</para>
+<para id="element-143">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">v</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">i</m:mi>
+    </m:mstyle>
+    <m:mo>−</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-144">
+Change in velocity is given by :
+</para>
+<para id="element-145">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">v</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">i</m:mi>
+    </m:mstyle>
+    <m:mo>-</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">j</m:mi>
+    </m:mstyle>
+    <m:mo>-</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">i</m:mi>
+    </m:mstyle>
+    <m:mo>-</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">v</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi mathvariant="bold">j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-146">
+where <term>j</term> is unit vector in y-direction.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-147a">
+<exercise id="exercise-147a">
+<problem id="idp3243568">
+<para id="element-147">
+A projectile is projected at 60° to the horizontal with a speed of 10 m/s. After some time, it forms an angle 30° with the horizontal. Determine the speed (m/s) at this instant.
+</para>
+
+</problem>
+
+<solution id="idp3245600">
+<para id="element-148">
+We shall make use of the fact that horizontal component of projectile velocity does not change with time. Therefore, we can equate horizontal components of velocities at the time of projection and at the given instants and find out the speed at the later instant as required. Then,
+</para>
+<para id="element-149">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+
+
+        <m:mi>v</m:mi>
+      </m:mrow>
+        <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-150a">
+<exercise id="exercise-150a">
+<problem id="idp4071376">
+<para id="element-150">
+The horizontal and vertical components of a projectile at a given instant after projection are <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ respectively at a position specified as x (horizontal),y (vertical). Then,
+</para>
+<para id="element-151">
+(a) The "x - t" plot is a straight line passing through origin.
+</para>
+<para id="element-152">
+      (b) The "y - t" plot is a straight line passing through origin.
+</para>
+<para id="element-153">
+      (c) The "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+" plot is a straight line passing through origin.
+</para>
+<para id="element-154">
+(d) The "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+	" plot is a straight line.
+
+</para>
+
+</problem>
+
+<solution id="idm2928608">
+<para id="element-155a">The displacement in x-direction is given as :
+</para>
+<para id="element-156">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-157">
+Since <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> is a constant, the "x-t" plot is a straight line passing through origin. Hence, option (a) is correct.
+</para>
+<para id="element-155b">The displacement in y-direction is :
+</para>
+<para id="element-160">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-161">
+This is an equation of parabola. The option (b), therefore, is incorrect.
+</para>
+
+
+<para id="element-155">
+The motion in horizontal direction is uniform motion. This means that component of velocity in x-direction is a constant.  Therefore, "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+” plot should be a straight line parallel to time axis. It does not pass through origin. Hence, option (c) is incorrect.  
+</para>
+
+<para id="element-155c"> The motion in vertical direction has acceleration due to gravity in downward direction. The component of velocity in y-direction is :
+</para>
+<para id="element-158">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-159">
+This is an equation of straight line having slope of "-g" and intercept "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+". The "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+”  plot, therefore, is a straight line. Hence, option (d) is correct. 
+</para>
+
+
+</solution>
+</exercise>
+</para>
+
+
+
+
+</section>
+  </content>
+  
+</document>

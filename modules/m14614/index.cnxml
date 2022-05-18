@@ -1,0 +1,4821 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Projectile motion on an incline</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fbe4f32a-3081-45ab-9a00-97ed93dbd7a1</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Projectile motion on an incline plane is one of the various projectile motion types. The main distinguishing aspect is that points of projection and return are not on the same horizontal plane.  There are two possibilities : (i) the point of return is at a higher level than the point of projection i.e projectile is thrown up the incline and (ii) Point of return is at a lower level than point of projection i.e. projectile is thrown down the incline.
+
+</para>
+<para id="element-2">
+<figure orient="horizontal" id="fig-2"><title> Projection on the incline </title>
+<subfigure id="fig-2a">
+<media id="idp985760" alt=""><image src="../../media/pmi1.gif" mime-type="image/gif"/></media>
+<caption> Projection up the incline </caption>
+</subfigure>
+<subfigure id="fig-2b">
+<media id="idp5566528" alt=""><image src="../../media/pmi2.gif" mime-type="image/gif"/></media>
+<caption> Projection down the incline </caption>
+</subfigure>
+</figure>
+</para>
+
+<para id="element-3">
+We have so far studied the projectile motion, using technique of component motions in two mutually perpendicular directions – one which is horizontal and the other which is vertical. We can simply extend the methodology to these types of  projectile motion types as well. Alternatively, we can choose coordinate axes along the incline and in the direction of perpendicular to the incline. The analysis of projectile motion in two coordinate systems differs in the detail of treatment. 
+</para>
+<para id="element-3a">
+
+</para>
+<para id="element-4">For convenience of comparison, we shall refer projectile motion on a horizontal surface as the “normal case”. The reference to “normal case” enables us to note differences and similarities between “normal case” and the case of projectile motion on an incline plane.
+</para>
+
+<section id="section-1">
+<title> Analyzing alternatives </title>
+
+
+<para id="element-5">
+As pointed out, there are two different approaches of analyzing projectile motion on an incline plane. The first approach could be to continue analyzing motion in two mutually perpendicular horizontal and vertical directions. The second approach could be to analyze motion by changing the reference orientation i.e. we set up our coordinate system along the incline and a direction along the perpendicular to incline.
+</para>
+<para id="element-6">The analysis alternatives are, therefore, distinguished on the basis of coordinate system that we choose to employ :
+</para>
+<para id="element-7">
+<list id="list-7" list-type="bulleted">
+<item> planar coordinates along incline (x) and perpendicular to incline (y)
+ </item>
+<item> planar coordinates in horizontal (x) and vertical (y) directions
+ </item>
+</list>
+</para>
+<para id="element-8">
+<figure orient="horizontal" id="fig-8"><title> Coordinate systems </title>
+<subfigure id="fig-8a">
+<media id="idp1381104" alt=""><image src="../../media/pmi3.gif" mime-type="image/gif"/></media>
+<caption> With reference to incline </caption>
+</subfigure>
+<subfigure id="fig-8b">
+<media id="idp1495472" alt=""><image src="../../media/pmi4.gif" mime-type="image/gif"/></media>
+<caption> With reference to horizontal </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-9">
+The two alternatives, as a matter of fact, are entirely equivalent. However, we shall study both alternatives separately for the simple reason that they provide advantage in analyzing projectile motion in specific situation.
+</para>
+
+</section>
+
+<section id="section-2">
+<title> Projection up the incline </title>
+
+<para id="element-11">As pointed out, the projection up the incline can be studied in two alternative ways. We discuss each of the approach, highlighting intricacies of each approach in the following sub-section.
+</para>
+<section id="section-2a">
+<title> Coordinates along incline (x) and perpendicular to incline (y)
+</title>
+<para id="element-12">
+This approach is typically superior approach in so far as it renders measurement of time of flight in a relatively simpler manner. However, before we proceed to analyze projectile motion in this new coordinate set up, we need to identify and understand attributes of motion in mutually perpendicular directions. 
+</para>
+<para id="element-14">
+Measurement of angle of projection is one attribute that needs to be handled in a consistent manner. It is always convenient to follow certain convention in referring angles involved. We had earlier denoted the angle of projection as measured from the horizontal and denoted the same by the symbol “θ”. It is evident that it would be reasonable to extend the same convention and also retain the same symbol for the angle of projection.
+</para>
+<para id="element-15">
+It also follows that we measure other angles from the horizontal – even if we select x-coordinate in any other direction like along the incline.  This convention avoids confusion. For example, the angle of incline “α” is measured from the horizontal. The horizontal reference, therefore, is actually a general reference for measurement of angles in the study of projectile motion.  
+</para>
+<para id="element-16">
+Now, let us have a look at other characterizing aspects of new analysis set up :
+</para>
+<para id="element-17">
+<term>1: </term> The coordinate “x” is along the incline – not in the horizontal direction; and the coordinate “y” is perpendicular to incline – not in the vertical direction.
+</para>
+<para id="element-18">
+<term>2: </term> Angle with the incline 
+</para>
+<para id="element-19">
+From the figure, it is clear that the angle that the velocity of projection makes with x-axis (i.e. incline) is “θ – α”. 
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> Projectile motion up an incline </title>
+<media id="idp8414624" alt=""><image src="../../media/pmi5.gif" mime-type="image/gif"/></media>
+<caption> The projection from lower level.</caption>
+</figure>
+</para>
+<para id="element-21">
+<term>3: </term> The point of return
+</para>
+<para id="element-22">
+The point of return is specified by the coordinate R,0 in the coordinate system, where “R” is the range along the incline. 
+</para>
+<para id="element-23">
+<term>4: </term> Components of initial velocity 
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-26">
+<term>5: </term> The components of acceleration 
+</para>
+<para id="element-27">In order to determine the components of acceleration in new coordinate directions, we need to know the angle between acceleration due to gravity and y-axis. We see that the direction of acceleration is perpendicular to the base of incline (i.e. horizontal) and y-axis is perpendicular to the incline. 
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Components of acceleration due to gravity </title>
+<media id="idp3732896" alt=""><image src="../../media/pmi6.gif" mime-type="image/gif"/></media>
+<caption> The acceleration due to gravity forms an angle with y-axis, which is equal to angle of incline.</caption>
+</figure>
+</para>
+<para id="element-29">
+Thus, the angle between acceleration due to gravity and y – axis is equal to the angle of incline i.e. “α”. Therefore, components of acceleration due to gravity  are :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+The negative signs precede the expression as two components are in the opposite directions to the positive directions of the coordinates.
+</para>
+<para id="element-33">
+<term>6: </term> Unlike in the normal case, the motion in x-direction i.e. along the incline is not uniform motion, but a decelerated motion. The velocity is in positive x-direction, whereas acceleration is in negative x-direction. As such, component of motion in x-direction is decelerated at a constant rate “gsin α”.
+</para>
+
+<section id="section-2aa">
+<title> Time of flight
+</title>
+
+<para id="element-34">
+The time of flight (T) is obtained by analyzing motion in y-direction (which is no more vertical as in the normal case). The displacement in y-direction after the projectile has returned to the incline, however, is zero as in the normal case. Thus,
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Projectile motion up an incline </title>
+<media id="idp2552080" alt=""><image src="../../media/pmi5.gif" mime-type="image/gif"/></media>
+<caption> The projection from lower level.</caption>
+</figure>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37"><m:math display="block">
+		<m:mrow>
+			<m:mo>⇒</m:mo>
+			<m:mi>u</m:mi>
+			<m:mi>sin</m:mi>
+			<m:mfenced>
+				<m:mrow>
+					<m:mi>θ</m:mi>
+					<m:mo>−</m:mo>
+					<m:mi>α</m:mi>
+				</m:mrow>
+			</m:mfenced>
+			<m:mi>T</m:mi>
+			<m:mo>+</m:mo>
+			<m:mfrac>
+				<m:mn>1</m:mn>
+				<m:mn>2</m:mn>
+			</m:mfrac>
+			<m:mfenced>
+				<m:mrow>
+					<m:mo>−</m:mo>
+					<m:mi>g</m:mi>
+					<m:mi>cos</m:mi>
+					<m:mi>α</m:mi>
+				</m:mrow>
+			</m:mfenced>
+			<m:msup>
+				<m:mi>T</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+			<m:mo>=</m:mo>
+			<m:mn>0</m:mn>
+		</m:mrow>
+	</m:math>
+</para>
+<para id="element-38"><m:math display="block">
+		<m:mrow>
+			<m:mo>⇒</m:mo>
+			<m:mi>T</m:mi>
+			<m:mo>{</m:mo>
+			<m:mi>u</m:mi>
+			<m:mi>sin</m:mi>
+			<m:mfenced>
+				<m:mrow>
+					<m:mi>θ</m:mi>
+					<m:mo>-</m:mo>
+					<m:mi>α</m:mi>
+				</m:mrow>
+			</m:mfenced>
+			<m:mo>+</m:mo>
+			<m:mfrac>
+				<m:mn>1</m:mn>
+				<m:mn>2</m:mn>
+			</m:mfrac>
+			<m:mfenced>
+				<m:mrow>
+					<m:mo>−</m:mo>
+					<m:mi>g</m:mi>
+					<m:mi>cos</m:mi>
+					<m:mi>α</m:mi>
+				</m:mrow>
+			</m:mfenced>
+			<m:mi>T</m:mi>
+			<m:mo>}</m:mo>
+			<m:mo>=</m:mo>
+			<m:mn>0</m:mn>
+		</m:mrow>
+	</m:math>
+</para>
+<para id="element-39">
+Either,
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+or,
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>θ</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>α</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">
+The first value represents the initial time of projection. Hence, second expression gives us the time of flight as required. We should note here that the expression of time of flight is alike normal case in a significant manner. 
+</para>
+<para id="element-44">In the generic form, we can express the formula of the time of flight as :
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>u</m:mi>
+            <m:mi>y</m:mi>
+          </m:msub>
+        </m:mrow>
+        <m:mrow>
+          <m:msub>
+            <m:mi>a</m:mi>
+            <m:mi>y</m:mi>
+          </m:msub>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>|</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+In the normal case, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+and 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+. Hence,
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+In the case of projection on incline plane, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+ and 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+. Hence,
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>θ</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>α</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+This comparison and understanding of generic form of the expression for time of flight helps us write the formula accurately in both cases.
+</para>
+</section>
+<section id="section-2ab">
+<title> Range of flight
+</title>
+
+<para id="element-51">
+First thing that we should note that we do not call “horizontal range” as the range on the incline is no more horizontal. Rather we simply refer the displacement along x-axis as “range”. We can find range of flight by considering motion in both “x” and “y” directions. Note also that we needed the same approach even in the normal case. Let “R” be the range of projectile motion. 
+</para>
+<para id="element-52">
+The motion along x-axis is no more uniform, but decelerated. This is the major difference with respect to normal case.
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+Substituting value of “T” as obtained before, we have :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>u</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mi>X</m:mi>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>−</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mi>α</m:mi>
+          <m:mi>X</m:mi>
+          <m:mn>4</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>sin</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>g</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>cos</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>cos</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">Using trigonometric relation, 
+<m:math>
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:msup>
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>,
+</para>
+<para id="element-58"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>[</m:mo>
+
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>{</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+
+    <m:mi>sin</m:mi>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+We use the trigonometric relation, 
+<m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+,
+</para>
+<para id="element-61"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>α</m:mi>
+        <m:mo>+</m:mo>
+
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-872"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para><para id="element-62">
+This is the expression for the range of projectile on an incline. We can see that this expression reduces to the one for the normal case, when 
+<m:math>
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+,
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>sin</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2ac">
+<title> Maximum range
+</title>
+
+<para id="element-64">
+The range of a projectile thrown up the incline is given as :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>cos</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+We see here that the angle of incline is constant. The range, therefore, is maximum for maximum value of “sin(2θ – α)”. Thus, range is maximum for the angle of projection as measured from horizontal direction, when :
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+The maximum range, therefore, is :
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mi>max</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+</section>
+<example id="example-73">
+<para id="element-73"><term>Problem : </term> Two projectiles are thrown with same speed, “u”, but at different angles from the base of an incline surface of angle “α”. The angle of projection with the horizontal is “θ” for one of the projectiles. If two projectiles reach the same point on incline, then determine the ratio of times of flights for the two projectiles.
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> Projectile motion up an incline </title>
+<media id="idp10665792" alt=""><image src="../../media/pmi7.gif" mime-type="image/gif"/></media>
+<caption> Two projectiles reach the same point on the incline.</caption>
+</figure>
+</para>
+<para id="element-75"> <term>Solution : </term> We need to find the ratio of times of flights. Let 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ be the times of fights. Now, the time of flight is given by :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+Here, the angle of projection of one of the projectiles, “θ”, is given. However, angle of projection of other projectile is not given. Let “θ’” be the angle of projection of second projectile. 
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msub>
+            <m:mi>T</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+        </m:mrow>
+        <m:mrow>
+          <m:msub>
+            <m:mi>T</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>θ</m:mi>
+                <m:mo>′</m:mo>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">
+We need to know “θ’” to evaluate the above expression. For this, we shall make use of the fact that projectiles have same range for two angles of projections. We can verify this by having a look at the expression of range, which is given as :
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">Since other factors remain same, we need to analyze motions of two projectiles for same range in terms of angle of projection only. We have noted in the case of normal projectile motion that there are complimentary angle for which horizontal range is same. Following the same line of argument and making use of the trigonometric relation sinθ = sin (π -θ), we analyze the projectile motions of equal range. Here, 
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>θ</m:mi>
+          <m:mo>′</m:mo>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mo>{</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>θ</m:mi>
+      <m:mo>′</m:mo>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>θ</m:mi>
+      <m:mo>′</m:mo>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>θ</m:mi>
+      <m:mo>′</m:mo>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">
+Putting this value in the expression for the ratio of times of flights, we have :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msub>
+            <m:mi>T</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+        </m:mrow>
+        <m:mrow>
+          <m:msub>
+            <m:mi>T</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>π</m:mi>
+              <m:mo>/</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>−</m:mo>
+              <m:mi>θ</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>α</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msub>
+            <m:mi>T</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+        </m:mrow>
+        <m:mrow>
+          <m:msub>
+            <m:mi>T</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>π</m:mi>
+              <m:mo>/</m:mo>
+              <m:mn>2</m:mn>
+              <m:mo>−</m:mo>
+              <m:mi>θ</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msub>
+            <m:mi>T</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+        </m:mrow>
+        <m:mrow>
+          <m:msub>
+            <m:mi>T</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>cos</m:mi>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+<section id="section-2b">
+<title> Coordinates in horizontal (x) and vertical (y) directions
+</title>
+
+<para id="element-90">This approach retains the coordinates used in the normal case (in which projectile returns to the same horizontal level). In this consideration, the description of projectile motion is same as normal case except that motion is aborted in the mid-air by the incline. Had incline been not there, the projectile would have continued with its motion as shown in the figure.
+</para>
+<para id="element-91"><figure id="fig-91"><title> Projectile motion up an incline </title>
+<media id="idp6139744" alt=""><image src="../../media/pmi8b.gif" mime-type="image/gif"/></media>
+<caption> Projetile motion up is curtailed by incline.</caption>
+</figure>
+</para>
+<para id="element-92">When the projectile is allowed to return to the projection level, then the point of return is (OQ,0), where OQ is the horizontal range. This position of point of return changes to a new point (x,y), specified by the angle of elevation “α” of the wedge with respect to horizontal as shown in the figure.
+</para>
+<para id="element-93"><figure id="fig-93">
+<title> Projectile motion up an incline </title>
+<media id="idp6622864" alt=""><image src="../../media/pmi9b.gif" mime-type="image/gif"/></media>
+<caption> Projetile motion descrbed with x-axis in horizontal direction and y-axis in vertical direction.</caption>
+</figure>
+</para>
+<para id="element-94">
+From the triangle OPQ,
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>P</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">
+The range of the projectile is given by :
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">
+The strategy here is to determine “x” i.e. “OQ” considering the motion as normal projectile motion. Thus, we shall first determine “x” and then using above relation, we obtain the relation for the range of flight along the incline. Now, considering motion in horizontal direction , we have :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">
+where “T” is the time of flight of projectile motion on the incline. It is given as determined earlier :
+</para>
+<para id="element-101">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>θ</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>α</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-102">
+Substituting in the epression of “x”, we have :
+</para>
+<para id="element-103">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>u</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>θ</m:mi>
+          <m:mi>X</m:mi>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mn>2</m:mn>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mi>cos</m:mi>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-105">
+We simplify this relation, using trigonometric relation as given here :
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>C</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>D</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>C</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>D</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107">
+Comparing right hand side of the equation with the expression in the numerator of the equation of “x”, we have :
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>C</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>C</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110">
+Adding, we have :
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-113">
+Thus, we can write :
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115">
+Substituting the expression in the equation of “x”, 
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-117">
+Using the relation connecting horizontal range “x” with the range on incline, “R”, we have :
+</para>
+<para id="element-118">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>cos</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120">
+Thus, we get the same expression for range as expected. Though the final expressions are same, but the understanding of two approaches is important as they have best fit application in specific situations. 
+</para>
+</section>
+</section>
+<section id="section-3">
+<title> Projection down the incline
+</title>
+
+<para id="element-121">
+A typical projection down the incline is shown with a reference system in which “x” and “y” axes are directions along incline and perpendicular to incline. The most important aspect of the analysis of this category of projectile motion is the emphasis that we put on the convention for measuring angles.
+</para>
+<para id="element-122">
+<figure id="fig-122">
+<title> Projectile motion down an incline </title>
+<media id="idp6131264" alt=""><image src="../../media/pmi10.gif" mime-type="image/gif"/></media>
+<caption> Projetile motion thrown from a higher point.</caption>
+</figure>
+</para>
+
+<para id="element-123">
+The angle of projection and angle of incline both are measured from a horizontal line. The expression for the time of flight is obtained by analyzing motion in vertical directions. Here we present the final results without working them out as the final forms of expressions are suggestive. 
+</para>
+<para id="element-124">
+<term>1: </term> Components of initial velocity
+</para>
+<para id="element-125">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-126">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>θ</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-127">
+<term>2: </term>Components of acceleration 
+</para>
+<para id="element-128">
+<figure id="fig-128"><title> Components of acceleration due to gravity </title>
+<media id="idp7430720" alt=""><image src="../../media/pmi11.gif" mime-type="image/gif"/></media>
+<caption> Accelration due to gravity forms an angle with y-direction, which is equal to angle of incline.</caption>
+</figure>
+</para>
+<para id="element-129">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-130">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+
+<para id="element-131">
+<term>3: </term> Time of flight 
+</para>
+<para id="element-132">
+The expression of time of flight differs only with respect to angle of sine function in the numerator of the expression :
+</para>
+<para id="element-133">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>u</m:mi>
+          <m:mi>sin</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>α</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-134">
+<term>4: </term> Range of flight 
+</para>
+<para id="element-136">
+The expression of range of flight differs only with respect to angle of sine function :
+</para>
+<para id="element-135">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>cos</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-137">
+It is very handy to note that expressions have changed only with respect of the sign of “α” for the time of flight and the range. We only need to exchange “α” by “-α” . 
+</para>
+<example id="example-138">
+<para id="element-138"><term>Problem : </term> A ball is projected in horizontal direction from an elevated point “O” of an incline of angle “α” with a speed “u”. If the ball hits the incline surface at a point “P” down the incline, find the coordinates of point “P”. 
+</para>
+<para id="element-139">
+<figure id="fig-139"><title> Projectile motion down an incline </title>
+<media id="idp3597584" alt=""><image src="../../media/pmi12.gif" mime-type="image/gif"/></media>
+<caption> A ball is projected in horizontal direction.</caption>
+</figure>
+</para>
+<para id="element-140"><term>Solution : </term> We can answer this question, using the relation of coordinates with range “R” as :</para>
+
+<para id="element-142">
+<figure id="fig-142"><title> Projectile motion down an incline </title>
+<media id="idp8759472" alt=""><image src="../../media/pmi14.gif" mime-type="image/gif"/></media>
+<caption> A ball is projected in horizontal direction.</caption>
+</figure>
+</para>
+<para id="element-143">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-144">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-145">
+Now, range of the flight for the downward flight is given as :
+</para>
+<para id="element-146">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>{</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-147">The important thing to realize here is that the ball is projected in horizontal direction. As we measure angle from the horizontal line, it is evident that the angle of projection is zero. Hence,
+</para>
+<para id="element-148">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-149">
+Putting in the equation for the range of flight, we have :
+</para>
+<para id="element-150">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>sin</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>cos</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-151">
+Therefore, coordinates of the point of return, “P”, is :
+</para>
+<para id="element-152">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>sin</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-153">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>tan</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-154">
+Similarly,
+</para>
+<para id="element-155">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>sin</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>cos</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-156">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+    <m:mo>−</m:mo>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>tan</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>g</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+
+<para id="element-157">This example illustrated how to use formulae of the range of flight. We should, however, know that actually, we have the options to analyze projectile motion down an incline without using derived formula. 
+</para>
+<para id="element-158">
+As a matter of fact, we can consider projectile motion down an incline as equivalent to projectile motion from an elevated point as studied in the previous module with out any reference to an incline or wedge. We need to only shift the horizontal base line to meet the point of return. The line joining the point of projection and point of return, then, represents the incline surface.
+</para>
+<para id="element-159">
+<figure id="fig-159"><title> Projectile motion down an incline </title>
+<media id="idp6137088" alt=""><image src="../../media/pmi14.gif" mime-type="image/gif"/></media>
+<caption> A ball is projected in horizontal direction.</caption>
+</figure>
+</para>
+<para id="element-160">
+Observe the projectile motion from a height as shown in the figure. Let the projectile returns to a point “P”. The line “OP” then represents the incline surface. We can analyze this motion in rectangular coordinates “x” and “y” in horizontal and vertical direction, using general technique of analysis in component directions. 
+</para>
+<para id="element-161">Here, we work with the same example as before to illustrate the working in this alternative manner.
+</para>
+
+<example id="example-162">
+<para id="element-162"><term>Problem : </term> A ball is projected in horizontal direction from an elevated point “O” of an incline of angle “α” with a speed “u”. If the ball hits the incline surface at a point “P” down the incline, find the coordinates of point “P”. 
+</para>
+<para id="element-163">
+<figure id="fig-163">
+<title> Projectile motion down from a height </title>
+<media id="idp9633760" alt=""><image src="../../media/pmi14.gif" mime-type="image/gif"/></media>
+<caption> A ball is projected in horizontal direction.</caption>
+</figure>
+</para>
+<para id="element-164"> <term>Solution : </term> We draw or shift the horizontal base and represent the same by the line QP as shown in the figure below.
+</para>
+<para id="element-165">
+From the general consideration of projectile motion, the vertical displacement, “y”, is :
+</para>
+<para id="element-166">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-167">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-168">
+Considering the magnitude of vertical displacement only, we have :
+</para>
+<para id="element-169">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-170">
+On the other hand, consideration of motion in x-direction yields,
+</para>
+<para id="element-171">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-172">
+Since, we aim to find the coordinates of point of return “P”, we eliminate “T” from the two equations. This gives us :
+</para>
+<para id="element-173">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-174">
+From the triangle OPQ, we have :
+</para>
+<para id="element-175">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-176">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-177">
+Combining two equations, we have :
+</para>
+<para id="element-178">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-179">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-180">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>tan</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+        <m:mi>g</m:mi>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-181">
+and 
+</para>
+<para id="element-182">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>tan</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+        <m:mi>g</m:mi>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-183">
+The y-coordinate, however, is below origin and is negative. Thus, we put a negative sign before the expression :
+</para>
+<para id="element-183a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mo>-</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>tan</m:mi>
+          <m:msup>
+            <m:mi/>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>α</m:mi>
+        </m:mrow>
+        <m:mi>g</m:mi>
+      </m:mfrac>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-5">
+<title> Exercises </title>
+<para id="element-310a">
+<exercise id="exercise-310a">
+<problem id="idm9636464">
+<para id="element-310">
+A projectile is thrown from the base of an incline of angle 30° as shown in the figure. It is thrown at an angle of 60° from the horizontal direction at a speed of 10 m/s. The total time of flight is (consider g = 10 <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+) :
+
+</para>
+<para id="element-311">
+<figure id="fig-311">
+<title> Projectile motion on an incline </title>
+<media id="idm10246112" alt=""><image src="../../media/pq1-a767.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-312">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="idm9517840">
+<para id="element-313">
+This situation can be handled with a reoriented coordinate system as shown in the figure. Here, angle of projection with respect to x - direction is (θ-α) and acceleration in y - direction is "g cosα". Now, total time of flight for projectile motion,  when points of projection and return are on same level, is :
+
+</para>
+<para id="element-314">
+<figure id="fig-314">
+<title> Projectile motion on an incline </title>
+<media id="idp2311824" alt=""><image src="../../media/pq2-98c6.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+</para>
+<para id="element-315">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-316">
+Replacing "θ" by "(θ-α)" and "g" by "gcosα", we have formula of time of flight over the incline :
+
+</para>
+<para id="element-317">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>θ</m:mi>
+            <m:mo>-</m:mo>
+            <m:mi>α</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-318">
+Now, θ  = 60° , α  = 30°, u = 10 m/s. Putting these values,
+  
+</para>
+<para id="element-319">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mn>60</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mn>30</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>20</m:mn>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>10</m:mn>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-320">
+Hence, option (d) is correct.  
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-321a">
+<exercise id="exercise-321a">
+<problem id="idp987392">
+<para id="element-321">
+Two projectiles are thrown with the same speed from point "O" and "A" so that they hit the incline. If <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ be the time of flight in two cases, then :
+
+</para>
+<para id="element-322">
+<figure id="fig-322">
+<title> Projectile motion on an incline </title>
+<media id="idp2046976" alt=""><image src="../../media/pq3-5c89.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-323">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>u</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="idp685744">
+<para id="element-324">
+We have discussed that projectile motion on an incline surface can be rendered equivalent to projectile motion on plane surface by reorienting coordinate system as shown here :
+
+</para>
+<para id="element-325">
+<figure id="fig-325">
+<title> Projectile motion on an incline </title>
+<media id="idp725328" alt=""><image src="../../media/pq4-59da.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-326">
+In this reoriented coordinate system, we need to consider component of acceleration due to gravity along y-direction. Now, time of flight is given by :
+
+</para>
+<para id="element-327">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-328">
+Let us first consider the projectile thrown from point "O". Considering the angle the velocity vector makes with the horizontal, the time of flight is given as :
+
+</para>
+<para id="element-329">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>θ</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-330">
+For the projectile thrown from point "A", the angle with horizontal is zero. Hence, the time of flight is :
+
+</para>
+<para id="element-331">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>X</m:mi>
+            <m:mn>0</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>u</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-332">
+Thus, we see that times of flight in the two cases are equal.
+
+
+</para>
+<para id="element-333">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-334">
+Hence, option (a) is correct.  
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-335a">
+<exercise id="exercise-335a">
+<problem id="idp4741776">
+<para id="element-335">
+A ball is projected on an incline of 30° from its base with a speed 20 m/s, making an angle 60° from the horizontal. The magnitude of the component of velocity, perpendicular to the incline, at the time ball hits the incline is :
+
+</para>
+<para id="element-336">
+<figure id="fig-336">
+<title> Projectile motion on an incline </title>
+<media id="idp2310720" alt=""><image src="../../media/pq5-9052.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-337">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>20</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>20</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</problem>
+
+<solution id="idp26208">
+<para id="element-338">
+The velocity in y-direction can be determined making use of the fact that a ball under constant acceleration like gravity returns to the ground with the same speed, but inverted direction. The component of velocity in y-direction at the end of the journey, in this case,  is :
+
+</para>
+<para id="element-339">
+<figure id="fig-339">
+<title> Projectile motion on an incline </title>
+<media id="idp1552496" alt=""><image src="../../media/pq6-71c0.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+  
+</para>
+<para id="element-340">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-341">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-342">
+Hence, option (a) is correct.  
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-343a">
+<exercise id="exercise-343a">
+<problem id="idm395104">
+<para id="element-343">
+A projectile is projected from the foot of an incline of angle 30°. What should be the angle of projection, as measured from the horizontal direction so that range on the incline is maximum?
+
+</para>
+<para id="element-344">
+<figure id="fig-344">
+<title> Projectile motion on an incline </title>
+<media id="idp4463744" alt=""><image src="../../media/pq7-bb86.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-345"><m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>45</m:mn>
+    <m:mo>°</m:mo>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>60</m:mn>
+    <m:mo>°</m:mo>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>75</m:mn>
+    <m:mo>°</m:mo>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>90</m:mn>
+    <m:mo>°</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="idp945728">
+<para id="element-346">
+We can interpret the equation obtained for the range of projectile :
+
+</para>
+<para id="element-347">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-348">
+The range is maximum for the maximum value of  "sin(2θ-α) “ :
+</para>
+<para id="element-349">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>90</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>90</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-350">
+Hence, option (b) is correct.  
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-351a">
+<exercise id="exercise-351a">
+<problem id="idm953200">
+<para id="element-351">
+A projectile is projected from the foot of an incline of angle 30° with a velocity 30 m/s. The angle of projection as measured from the horizontal is 60°.  What would be its speed when the projectile is parallel to the incline?
+
+
+</para>
+
+<para id="element-352">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>2</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="idm4479072">
+<para id="element-353">
+In the coordinate system of incline and perpendicular to incline, motion parallel to incline 
+denotes a situation when component of velocity in y-direction is zero. Note that this is an analogous situation to the point of maximum height in the normal case when projectile returns to same level.  
+</para>
+<para id="element-354">
+<figure id="fig-354">
+<title> Projectile motion on an incline </title>
+<media id="idp4701072" alt=""><image src="../../media/pq8-e79b.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-355">
+We shall analyze the situation, taking advantage of this fact. Since component of velocity in y - direction is zero, it means that velocity of projectile is same as that of component velocity in x-direction. For consideration of motion in y -direction, we have :
+
+
+</para>
+<para id="element-356">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-357">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>15</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-358">
+For consideration of motion in x -direction, we have :
+
+</para>
+<para id="element-359">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+    </m:mrow>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-360">
+But, component of velocity in y-direction is zero. Hence,
+
+</para>
+<para id="element-361">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-362">
+Hence, option (d) is correct.  
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-363a">
+<exercise id="exercise-363a">
+<problem id="idp9313712">
+<para id="element-363">
+Two incline planes of angles 30° and 60° are placed touching each other at the base as 
+shown in the figure. A projectile is projected at right angle with a speed of <m:math>
+  <m:mrow>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+m/s  from point "P" and hits the other incline at point "Q" normally. If the coordinates are taken along the inclines as shown in the figure, then
+
+</para>
+<para id="element-364">
+<figure id="fig-364">
+<title> Projectile motion on an incline </title>
+<media id="idp7445456" alt=""><image src="../../media/pq10-ba26.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-365a">
+(a) component of acceleration in x-direction is <m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-365b">
+(b) component of acceleration in x-direction is <m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+</para>
+
+<para id="element-365c">
+
+
+(c) component of acceleration in y-direction is  <m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+  
+</para>
+<para id="element-365d">
+
+
+(d) component of acceleration in y-direction is  <m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+   
+</para>
+
+</problem>
+
+<solution id="idp5911808">
+<para id="element-366">
+This arrangement is an specific case in which incline plane are right angle to each other. 
+We have actually taken advantage of this fact in assigning our coordinates along the planes, say y-axis along first incline and x-axis against second incline.
+
+</para>
+<para id="element-367">
+The acceleration due to gravity is acting in vertically downward direction. We can get the component accelerations either using the angle of first or second incline. Either of the considerations will yield same result. Considering first incline,
+
+</para>
+<para id="element-368">
+<figure id="fig-368">
+<title> Projectile motion on an incline </title>
+<media id="idp8784880" alt=""><image src="../../media/pq9-3212.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-369">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-370">
+Hence, options (a) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+<para id="element-371a">
+<exercise id="exercise-371a">
+<problem id="idm10724528">
+<para id="element-371">
+Two incline planes of angles 30° and 60° are placed touching each other at the base as 
+shown in the figure. A projectile is projected at right angle with a speed of <m:math>
+  <m:mrow>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+m/s  from point "P" and hits the other incline at point "Q" normally. Then, the time of flight is :
+
+</para>
+<para id="element-372">
+<figure id="fig-372">
+<title> Projectile motion on an incline </title>
+<media id="idp6129360" alt=""><image src="../../media/pq10-ba26.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-373">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>1</m:mn>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>2</m:mn>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>3</m:mn>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>4</m:mn>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="idp3148416">
+<para id="element-374">
+This arrangement is an specific case in which incline plane are right angle to each other. 
+We have actually taken advantage of this fact in assigning our coordinates along the planes, say y-axis along first incline and x-axis against second incline.
+
+
+</para>
+<para id="element-375">
+In order to find the time of flight, we can further use the fact that projectile hits the other 
+plane at right angle i.e. parallel to y-axis. This means that component of velocity in x-direction i.e. along the second incline is zero. This, in turn, suggests that we can analyze motion in x-direction to obtain time of flight.
+
+</para>
+<para id="element-376">
+<figure id="fig-376"><title> Projectile motion on an incline </title><media id="idp8887952" alt=""><image src="../../media/pq11a.gif" mime-type="image/gif"/></media><caption> Projectile motion on an incline </caption></figure>
+
+</para>
+<para id="element-377">
+In x-direction,
+
+</para>
+<para id="element-378">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>u</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+      <m:msub>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-381">
+We know need to know "ux” and "ax” in this coordinate system. The acceleration due to gravity is acting in vertically downward direction. Considering first incline, 
+
+</para>
+<para id="element-382">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-383">
+Also, we observe that projectile is projected at right angle. Hence, component of projection velocity in x - direction is :
+
+</para>
+<para id="element-384">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-385">
+Putting values in the equation and solving, we have :
+
+</para>
+<para id="element-386">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>u</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+      <m:msub>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>10</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-387">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-388a">
+<exercise id="exercise-388a">
+<problem id="idp7609264">
+<para id="element-388">
+Two incline planes of angles 30° and 60° are placed touching each other at the base as 
+shown in the figure. A projectile is projected at right angle with a speed of 
+<m:math>
+  <m:mrow>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math> m/s  from point "P" and hits the other incline at point "Q" normally. The speed with which the projectile hits the incline at "Q" is :
+
+
+
+</para>
+<para id="element-389">
+<figure id="fig-389">
+<title> Projectile motion on an incline </title>
+<media id="idp7407488" alt=""><image src="../../media/pq10-ba26.gif" mime-type="image/gif"/></media>
+<caption> Projectile motion on an incline </caption>
+</figure>
+
+</para>
+<para id="element-390">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</problem>
+
+<solution id="idp4638928">
+<para id="element-391">
+We notice here that initial velocity in y-direction is zero. On the other hand, final velocity in the y-direction is equal to the velocity with which projectile hits at "Q". The x-component of velocity at "Q" is zero. The analysis of motion in y - direction gives us the relation for component of velocity in y-direction as :
+
+</para>
+<para id="element-392">
+<figure id="fig-392"><title> Projectile motion on an incline </title><media id="idp2479376" alt=""><image src="../../media/pq11a.gif" mime-type="image/gif"/></media><caption> Projectile motion on an incline </caption></figure>
+
+</para>
+<para id="element-393">
+In y-direction,
+
+</para>
+<para id="element-394">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-395">
+Thus, we need to know component of acceleration in y-direction and time of flight. As far as components of acceleration are concerned, the acceleration due to gravity is acting in vertically downward direction. Considering first incline, we have :
+
+</para>
+<para id="element-396">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-397">
+In order to find the time of flight, we can further use the fact that the component of velocity in x-direction i.e. along the second incline is zero. This, in turn, suggests that we can analyze motion in x-direction to obtain time of flight.
+
+
+</para>
+<para id="element-398">
+In x-direction,
+
+</para>
+<para id="element-399">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>u</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+      <m:msub>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-400">
+We know need to know "ux" in this coordinate system. We observe that projectile is projected at right angle. Hence, component of projection velocity in x - direction is :
+
+</para>
+
+<para id="element-401">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-402">
+Putting values in the equation and solving, we have :
+
+</para>
+<para id="element-403">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>u</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+      <m:msub>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>10</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-404">
+Thus putting values for the expression for the speed of the projectile with which it hits the incline is :
+
+</para>
+<para id="element-405">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-406">
+Thus, speed is 10 m/s.
+
+</para>
+<para id="element-407">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+</section>
+ 
+  </content>
+  
+</document>

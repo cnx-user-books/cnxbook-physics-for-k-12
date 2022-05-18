@@ -1,0 +1,925 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+	<title>Work</title>
+	<metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>0f31fcb8-d7d5-4b27-9408-57f65168d82c</md:uuid>
+</metadata>
+	<content>
+<para id="element-9">Work is a general term that we use in our daily life to assess execution or completion of a task. The basic idea is to define a quantity that can be used to determine both "effort" and "result". In physics also, the concept of work follows the same basic idea. But, it is completely "physical" in the sense that it recognizes only force as the "effort" and only displacement as the "result". There is no recognition of mental or any other effort that does not involve physical movement of a body.
+</para>
+<para id="element-10">For a constant force (F) applied on a particle, work is defined as the product of "component of force along the direction of displacement" and "the magnitude of displacement of the particle". Mathematically,</para>
+<para id="element-11"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">where "θ" is angle between force and displacement vectors and "r" is magnitude of displacement. The scalar component of force is also known as the projection of force. SI unit of work is Newton - meter (N-m). This is equivalent to the unit of energy 
+<m:math>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mi> 2 </m:mi>
+</m:msup>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mi> 2 </m:mi>
+</m:mrow>
+</m:msup>
+</m:math> i.e. Joule (J). 
+</para>
+<para id="element-14">In order to appreciate the working of the formula to compute work, let us consider an example. A block is being pulled by an external force "F" on a smooth horizontal plane as shown in the figure. The work (W) by force (F) is :</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> A block pulled by external force  </title>
+<media id="idp321872" alt=""><image src="../../media/ew1.gif" mime-type="image/gif"/></media>
+<caption> External force "F" is a constant force.</caption>
+</figure>
+</para>
+<para id="element-16"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">The perpendicular forces i.e. normal force "N" and  weight of block "mg" (not shown in the figure) do "no work" on the block as cosθ = cos90° = 0. An external force does the maximum work when it is applied in the direction of displacement. In that case, θ = 0°, cos0° = 1 (maximum) and Work  
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+</m:math>
+.
+</para>
+
+<section id="section-1">
+<title> Work as vector dot product </title>
+<para id="element-24"> Work involves two vector quantities force and displacement, but work itself is a signed scalar quantity. Vector algebra provides framework for such multiplication of vectors, yielding scalar result via multiplication known as dot product. The work done by the constant force as dot product is  :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo mathvariant="bold"> . </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26"> where "θ" is the angle between force and displacement vectors. 
+</para>
+</section>
+
+<section id="section-2">
+<title> Computation of work </title>
+<section id="section-2a">
+<title> Sign of work </title>
+<para id="element-26a">Work is a signed scalar quantity. It means that it can be positive or negative depending on the value of angle between force and displacement. We shall discuss the significance of the sign of work in a separate module. We should, however, be aware that the sign of work has specific meaning for the body on which force works. The sign determines the direction of energy exchange taking place between the body and its surrounding. 
+</para>
+<para id="element-26b"> It is clear that the value of "cosθ" decides the sign of work. However, there is an easier method to determine sign of work. We determine the magnitude of work considering projection of force and displacement - without any consideration of the sign. Once magnitude is calculated, we simply check whether the component of force and displacement are in same direction or in opposite direction? If they are in opposite direction, then we put a negative sign before the magnitude of work. 
+</para>
+</section>
+
+<section id="section-2b">
+<title> Work by the named force </title>
+<para id="element-17a">A body like the block on an incline is subjected to many forces viz weight, friction, normal force and other external forces. Which of the forces do work? Does the work is associated with net force or any of the forces mentioned? In physics, we can relate work with any force or the net force working on the body. The only requirement is that we should mention the force involved. For this reason, we may be required to calculate work by any of the named forces.
+</para>
+<para id="element-17b">It is, therefore, a good idea that we specify the force(s) that we have considered in the calculation of work. To appreciate this point, we consider a block being slowly raised vertically by hand to a height "h" as shown in the figure. As the block is not accelerated, the normal force applied by the hand is equal to the weight of the body : 
+</para>
+<para id="element-18">
+<figure id="fig-18">
+<title> A block being raised slowly up </title>
+<media id="idp6525152" alt=""><image src="../../media/ew9.gif" mime-type="image/gif"/></media>
+<caption> Work done by normal force and gravity are different. </caption>
+</figure>
+</para>
+<para id="element-19"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">For gravity (gravitational force due to Earth), the force and displacement are opposite. Hence, work by gravity is negative.
+</para>
+<para id="element-21">The work done by gravity is : 
+</para>
+<para id="element-438"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-844">For normal force applied by the hand on the block, force and displacement are both in the same direction. Hence, work done is positive :</para><para id="element-22">The work by the hand is : 
+</para>
+<para id="element-877"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> H </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para><para id="element-23">Thus, two works are though equal in magnitude, but opposite in sign. It can be easily inferred from the example here that work is positive, if both displacement and component of force along displacement are in the same direction; otherwise negative. It is also pertinent to mention that a subscripted notation for work as above is a good practice to convey the context of work. Finally, we should also note that net force on the body is zero. Hence, work by net force is zero - though works by individual forces are not zero.
+</para>
+</section>
+<section id="section-2c">
+<title> Examples  </title>
+<para id="element-100">In the discussion above, we have made two points : (i) the sign of work can be evaluated either evaluating "cosθ" or by examining the relative directions of the component of force and displacement and (ii) work is designated to named force. Here, we select two examples to illustrate these points. First example shows computation of work by friction - one of the forces acting on the body. The determination of sign of work is based on evaluation of cosine of angle between force and displacement. Second example shows computation of work by gravity. The determination of sign is based on relative comparison of the directions of the component of force and displacement. 
+</para>
+<section id="section-2c1">
+<title> Evaluation of cosine of angle   </title>
+<para id="element-101"><term>Problem 1 : </term> A block of 2 kg is brought up from the bottom to the top along a rough incline of length 10 m and height 5 m by applying an external force parallel to the surface. If the coefficient of kinetic friction between surfaces is 0.1, find  work done by the friction during the motion. (consider, g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-102"><term>Solution : </term>  We see here that there are four forces on the block : (i) weight (ii) normal force (iii) friction and (iv) force, "F" parallel to incline. The magnitude of external force is not given. We are, however, required to find work by friction. Thus, we need to know the magnitude of friction and its direction. As the block moves up, kinetic friction acts downward. Here, displacement is equal to the length of incline, which is 10 m.   
+</para>
+<para id="element-103">
+<figure id="fig-103"><title> Motion on a rough incline </title>
+<media id="idm289280" alt=""><image src="../../media/ew4b.gif" mime-type="image/gif"/></media>
+<caption> The forces on the incline </caption>
+</figure>
+</para>
+<para id="element-116">From the figure, it is clear that friction force is given as :
+</para>
+<para id="element-117"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Here, </m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> and </m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0.866 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1.732 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-118">To evaluate work in terms of "Frcosφ", we need to know the angle between force and displacement. In this case, this angle is 180° as shown in the figure below.
+</para>
+<para id="element-105">
+<note id="idp1489136"> We denote "φ" instead of "θ" as angle between force and displacement to distinguish this angle from the angle of incline.
+</note>
+</para>
+<para id="element-119">
+<figure id="fig-119"><title> Motion on a rough incline </title>
+<media id="idm1687744" alt=""><image src="../../media/ew5b.gif" mime-type="image/gif"/></media>
+<caption> The angle between friction and displacement </caption>
+</figure>
+</para>
+<para id="element-104">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> φ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-120"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> φ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1.732 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 180 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1.732 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 17.32 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-121">This example brings out the concept of work by named force (friction). The important point to note here is that we could calculate work by friction even though we were not knowing the magnitude of force of external force, "F". Yet another point to note here is that computation of work by friction is actually independent of - whether block is accelerated or not? In addition, this example illustrates how the evaluation of the cosine of angle between force and displacement determines the sign of work. </para>
+</section>
+<section id="section-2c2">
+<title> Relative comparison of directions   </title>
+<para id="element-122"><term>Problem 2 : </term> A block of 2 kg is brought up from the bottom to the top along a smooth incline of length 10 m and height 5 m by applying an external force parallel to the surface. Find  work done by the gravity during the motion. (consider, g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-123"><term>Solution : </term> In this problem, incline is smooth. Hence, there is no friction at the contact surface. Now, the component of gravity (weight) along the direction of the displacement is :
+</para>
+<para id="element-124">
+<figure id="fig-124"><title> Motion on a smooth incline </title>
+<media id="idp6567376" alt=""><image src="../../media/ew6b.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block (except external force) </caption>
+</figure>
+</para>
+<para id="element-125">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-127">We, now, determine the magnitude of work without taking into consideration of sign of work. The magnitude of work by gravity is :
+</para>
+<para id="element-128">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> x </m:mo>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-129"> Once magnitude is calculated, we compare the directions of the component of force and displacement.  We note here that the component of weight is in the opposite direction to the displacement. Hence, work by gravity is negative. As such, we put a negative sign before magnitude.
+</para>
+<para id="element-130">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> g </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-183">It is clear that this second method of computation is easier of two approaches. One of the simplifying aspect is that we need to calculate cosine of only acute angle to determine the magnitude of work without any concern about directions. We assign sign, subsequent to calculation of the magnitude of work.</para>
+</section>
+
+</section>
+</section>
+
+<section id="section-6">
+<title> Work in three dimensions </title>
+<para id="element-51">We can extend the concept of work to motion in three dimensions. Let us consider three dimensional vector expressions of force and displacement :
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+and
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+<m:mi> z </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+The work as dot product of two vectors is :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo mathvariant="bold"> . </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+<m:mi> z </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> y </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mi> z </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">Form the point of view of computing work, we can calculate "work" as the sum of the products of scalar components of force and displacement in three mutually perpendicular directions along the axes with appropriate sign. Since respective components of force and displacement are along the same direction, we can determine work in each direction with appropriate sign. Finally, we compute their algebraic sum to determine work by force, "F".
+</para>
+</section> 
+<section id="section-7">
+<title> Work by a variable force </title>
+<para id="element-58">We have defined work for constant force. This condition of constant force is, however, not a limitation as we can use calculus to compute work by a variable force. In order to keep the derivation simple, we shall consider force and displacement along same straight line or direction. We have already seen that calculation of work in three dimensional case is equivalent to calculation of work in three mutually perpendicular directions. 
+</para>
+<para id="element-58a">A variable force can be approximated to be a series of constant force of different magnitude as applied to the particle. Let us consider that force and displacement are in the same x-direction. 
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> work by variable force </title>
+<media id="idp4582960" alt=""><image src="../../media/ew7.gif" mime-type="image/gif"/></media>
+<caption> Work is given by the area under the plot. </caption>
+</figure>
+</para>
+<para id="element-60">
+For a given small displacement (Δx), let 
+<m:math display="block">
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:math>
+ be the constant force. Then, the small amount of work for covering a small displacement is :
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+We note that this is the area of the small strip as shown in the figure above. The work by the variable force over a given displacement is equal to sum of all such small strips,
+</para>
+<para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">For better approximation of the work by the variable force, the strip is made thinner as Δx--&gt;0, whereas the number of stips tends to be infinity. For the limit,
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mo> lim </m:mo>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> → </m:mo>
+<m:mn> 0 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+This limit is equal to the area of the plot defined by the integral of force function F(x) between two limits,
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:msubsup>
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<section id="section-7a">
+<title> Example </title>
+<para id="element-68"><term>Problem 3 : </term> A particle moves from point A to B along x - axis of a coordinate system. The force on the particle during the motion varies with displacement in x-direction as shown in the figure. Find the work done by the force. 
+</para>
+<para id="element-69">
+<figure id="fig-69"><title> Work by variable force </title>
+<media id="idp8283696" alt=""><image src="../../media/ew8.gif" mime-type="image/gif"/></media>
+<caption> Force - displacement plot. </caption>
+</figure>
+</para>
+<para id="element-70"> <term>Solution : </term> The work done by the force is :
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:msubsup>
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mtext> Area between plot and x-axis within the limits </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+Now, the area is :
+</para>
+<para id="element-73"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 15</m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 1</m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3.75 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 25</m:mn>
+<m:mo> + </m:mo>
+<m:mn> 40</m:mn>
+<m:mo> = </m:mo>
+<m:mn> 66.25 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section> 
+</section>
+
+<section id="section-100">
+<title>Acknowledgment</title>
+<para id="element-1000">
+Author wishes to thank Keith for making suggestion to remove calculation error in the module. 
+</para>
+</section>
+
+	</content>
+</document>

@@ -1,0 +1,697 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Work and energy</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e7317ebb-5b29-4d55-8c07-13ef3e6534da</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-201">Work is an important concept in analyzing physical process. We must know that we have actually made transition to a different analysis framework than that of force, which is based on Newton's laws of motion. What it means that our analysis will ,now, be governed by new set of laws - other than that of laws of motion. Before we discuss details of these laws, we need to first establish new concepts that consitute these laws. Work and energy are two important concepts that will be largely employed for building this new analysis technique.
+</para>
+<para id="element-202">We have already learned a bit about work. Therefore, we shall introduce the concept of energy first and then discuss relevance of work in the context of energy. Subsequently, we shall accomplish the important step to connect the concept of work with that of energy through a theorem known as "work - kinetic energy theorem" in a separate module. 
+</para>
+
+
+<section id="section-1">
+<title> Energy </title>
+<para id="element-204">Energy is one of two basic quantities (besides mass) that constitute this universe. Because of the basic nature and generality involved with energy, it is difficult to propose an explicit definition of energy, which is meaningful in all situations. We have two options either (i) we define energy a bit vaguely for all situations or (ii) we define energy explicitly in limited context. For all situations, we can say that energy is a quantity that measures the "state of matter". 
+</para>
+<para id="element-205">
+There are wide verities or forms of energy. The meaning of energy in particular context is definitive. For example, kinetic energy, which is associated with the motion (speed) of a particle, has a mathematical expression to compute it precisely. Similarly, energy has concise and explicit meaning in electrical, thermal, chemical and such specific contexts.
+</para>
+<para id="element-206">We need to clarify here that our study of energy and related concepts presently deals with particle or particle like objects such that particles composing the object have same motion. We shall extend these concepts subsequently to group of particles and situation where particles composing object may have different motions (rotational motion). 
+</para>
+<para id="element-207">For easy visualization, we (in mechanical context) relate energy with the capacity of a body to do work ("work" as defined in physics). This definition enables us to have the intuitive appreciation of the concept of energy. The capacity of doing work, here, does not denote that the particle will do the amount of work as indicated by the level of energy. For example, our hand has the capacity to do work. However, we may end up doing "no work" like when pushing a building with our hand. 
+</para>
+<para id="element-208">On the other hand, thermal energy (non-mechanical context) of a body can not be completely realized as work. This is actually one of the laws of thermodynamics. Hence, we may appreciate the connection between energy and work, but should  avoid defining energy in terms of the capacity to do work. We shall soon find that work is actually a form of energy, which is in "transit" between different types of energies.
+</para>
+<section id="section-1a">
+<title> Kinetic energy </title>
+<para id="element-209">
+One of the most common energy that we come across in our day to day life is the energy of motion. This energy is known as kinetic energy and defined for a particle of mass "m" and speed "v" as :
+</para>
+<para id="element-210">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-211">Kinetic energy arises due to "movement" of a particle. The main characteristics of kinetic energy are as follows :
+</para>
+<para id="element-212">
+<list id="list-212" list-type="bulleted"><item> The expression of Kinetic energy involves scalar quantities mass "m" and speed "v". Importantly, it involves speed i.e. the magnitude of velocity - not vector velocity. Therefore, kinetic energy is a scalar quantity.  </item>
+<item>  Both mass "m" and speed "v" are positive scalar quantities. Therefore, kinetic energy is a positive scalar quantity. This means that a particle can not have negative kinetic energy. </item>
+<item> Kinetic energy of a particle, at rest, is zero.  </item>
+<item> Greater the speed or mass, greater is the kinetic energy and vice-versa. </item>
+</list>
+</para>
+<para id="element-214">The SI unit of kinetic energy is 
+<m:math>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mi> 2 </m:mi>
+</m:msup>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mi> 2 </m:mi>
+</m:mrow>
+</m:msup>
+</m:math>
+, which is known as "Joule". Since kinetic energy is a form of energy, Joule (J) is SI unit of all types of energy.
+</para>
+</section>  
+</section>  
+
+<section id="section-2">
+<title> Work and kinetic energy </title>
+<para id="element-30"> We have reached the situation when we can attempt to relate work with energy (actually kinetic energy). The relationship is easy to visualize in terms of the motion of a body.  
+</para>
+<para id="element-31">In order to fully appreciate the connection between work and kinetic energy,  we consider an example. A force is applied on a block such that component of force is in the direction of the displacement as shown in the figure. Here, work by force on the block is positive. During the time force does positive work, the speed and consequently kinetic energy of the block increases (
+<m:math>
+		<m:mspace width="2pt"/>
+		<m:msub>
+			<m:mi> K </m:mi>
+			<m:mi> f </m:mi>
+		</m:msub>
+		<m:mo> &gt; </m:mo>
+		<m:msub>
+			<m:mi> K </m:mi>
+			<m:mi> i </m:mi>
+		</m:msub>
+	</m:math>
+) as block moves ahead with certain acceleration.  We shall know later that the kinetic energy of the block increases by the amount of work done by net external force on it. This is what is known as "work - kinetic energy" theorem and will be the subject matter of a separate module. </para>
+<para id="element-32">
+<figure id="fig-32">
+<title> Work done on a block </title>
+<media id="idp434080" alt=""><image src="../../media/uw3.gif" mime-type="image/gif"/></media>
+<caption> The component of external force and displacement are in same direction. </caption>
+</figure>
+</para>
+<para id="element-33">For the time being, we concentrate on work and determine its relationship with energy in qualitative term. Since kinetic increases by the amount of work done on the particle, it follows that work, itself, is an energy which can be added as kinetic energy to the block. The other qualification of the work is that it is the "energy" which is transferred by the force from the surrounding to the block. Clearly, force here is an agent, which does the work to increase the speed of the object and hence to increase its kinetic energy. In this sense, "work" by a force is the energy transferred "to" the block, on which force is applied.
+</para>
+
+<para id="element-35">We, now, consider the reverse situation as illustrated in the figure below. A force is applied to retard the motion of a block. Here, the component of force is in the opposite direction to the displacement. The work done on the block is negative. The kinetic energy of the block decreases (
+<m:math>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+) by the amount of work done by the force. In this case, kinetic energy is transferred "out" of the block and is equal to the amount of negative work by force. Here, "work" by a force is the energy transferred "from" the block, on which force is applied. Thus, we can define "work" as :
+</para>
+<para id="element-330"><figure id="fig-330">
+<title> Work done on a block </title>
+<media id="idm202912" alt=""><image src="../../media/uw4.gif" mime-type="image/gif"/></media>
+<caption> The component of external force and displacement are in opposite directions. </caption>
+</figure></para><para id="element-36">
+<definition id="definition-36">
+<term> Work </term>
+<meaning id="idp1373280"> Work is the energy transferred by the force "to" or "from" the particle on which force is applied.
+</meaning>
+</definition>
+</para>
+<para id="element-38">It is also clear that a positive work means transfer of energy "to" the particle and negative work means transfer of energy "from" the particle. Further, the term "work done" represents the process of transferring energy to the particle by the force. </para>
+</section>  
+
+<section id="section-6">
+<title> Work done by a system of forces </title>
+<para id="element-100a">The connection of work with kinetic energy is true for a special condition. The change in kinetic energy resulting from doing work on the body refers to work by net force - not work by any of the forces operating on the body. This fact should always be kept in mind, while attempting to explain motion in terms of work and energy. 
+</para>
+<para id="element-100b">Above observation is quite easy to comprehend. Consider motion of a block on a rough incline. As the block comes down the incline, component of gravity does the positive work i.e. transfers energy from gravitational system to the block. As a consequence, speed and therefore kinetic energy of the block increases. On the other hand, friction acts opposite to displacement and hence does negative work. It draws some of the kinetic energy of the block and transfers the same to surrounding as heat. We can see that gravity increases speed, whereas friction decreases speed. Since work by gravity is more than work by fraction in this case, the block comes down with increasing speed. The point is that net change in speed and hence kinetic energy is determined by both the forces, operating on the block. Hence, we should think of relation between work by "net" force and kinetic energy.</para>
+
+<para id="element-100">As mentioned earlier, a body under consideration may be subjected to more than one force. In that case, if we have to find the work by the net force, then we can adopt either of two approaches:
+</para>
+<para id="element-101">(i) Determine the net (resultant) force. Then, compute the work by net force.
+</para>
+<para id="element-102">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo mathvariant="bold"> . </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-104">(ii) Compute work by individual forces. Then, sum the works to compute work by net force.
+</para>
+<para id="element-105">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo mathvariant="bold"> . </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-106">Either of two methods yields the same result. But, there is an important aspect about the procedures involved. If we determine the net force first, then we shall require to use free body diagram and a coordinate system to analyze forces to determine net force. Finally, we use the formula to compute work by the net force. On the other hand, if we follow the second approach, then we need to find the product of the components of individual forces along the displacement and displacement. Finally, we carry out the algebraic sum to find the work by the net force.
+</para>
+<para id="element-107">
+This is a very significant point. We can appreciate this point fully, when the complete framework of the analysis of motion, using concepts of work and energy, is presented. For the time being, we should understand that work together with energy provides an alternative to analyze motion. And, then think if we can completely do away with "free body diagram" and "coordinate system". Indeed, it is a great improvisation and simplification, if we can say so. But then this simplification comes at the cost of more involved understanding of physical process. Meaning of this paragraph will be more clear as we go through the modules on the related topics. For the time being, let us work out a simple example illustrating the point.
+</para>
+<section id="section-6a">
+<title> Example </title>
+<para id="element-108"><term>Problem 1: </term> A block of mass "10 kg" slides down through a length of 10 m over an incline of 30°. If the coefficient of kinetic friction is 0.5, then find the work done by the net force on the block. 
+</para>
+<para id="element-109"><term>Solution : </term> There are two forces working on the block along the direction of displacement (i) component of gravity and (ii) kinetic friction in the direction opposite displacement.   
+</para>
+<para id="element-542"><figure id="fig-542">
+<title> A block on a rough incline  </title>
+<media id="idm8929360" alt=""><image src="../../media/uw1.gif" mime-type="image/gif"/></media>
+<caption> Work by gravity is positive and work by friction is negative. </caption>
+</figure></para><para id="element-110"> The component of gravity along displacement is "mg sinθ" and is in the direction of displacement. Work by gravity is :
+</para>
+<para id="element-111"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mn> 30 </m:mn>
+<m:mi> ° </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 500 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-112"> Friction force is "
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:math>
+" amd is in the opposite direction to that of displacement. 
+</para>
+<para id="element-114"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> cos </m:mi>
+<m:mn> 30 </m:mn>
+<m:mi> ° </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> √ </m:mn>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 433 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-115"> Hence, work by net force is :
+</para>
+<para id="element-116"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1000 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 433 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 567 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-117">The important thing to note here is that reference of component of force is with respect to displacement - not with respect to any coordinate direction. This is how we eliminate the requirement of coordinate system to calculate work. 
+</para>
+<para id="element-118">Imgine if we first find the net force. It would be tedius as friction acts along the incline, but gravity acts vertically at angle with the incline. Even if, we find the net force, its angle with displacement would be required to evaluate the expression of work. Clearly, calculation of work for individual force is easier. However, we must keep in mind that we can employ this technique only if we know the forces beforehand.
+</para>
+</section>
+</section>
+
+<section id="section-3">
+<title> Anaysis of motion </title>
+<para id="element-3">The concepts of work and energy together are used to analyze motion. The basic idea is to analyze motion such that it does not require intermediate details of the motion like velocity, acceleration and path of motion. The independence from the intermediate details is the central idea that makes work - energy analysis so attractive and elegant. It allows us to analyze motion of circular motion in a vertical plane, motion along paths which are not straight line and host of other motions, which can not be analyzed with laws of motion easily. This is possible because we find that work by certain class of force is independent of path. Further, under certain situations, the analysis is independent of details of attributes like velocity and acceleration. 
+</para>
+<section id="section-3a">
+<title> Path of motion </title>
+
+<para id="element-4">In this section, let us examine the issue of path independence. Does the work depend on the path of motion? The answer is both yes and no. Even though computation of work involves displacement - a measurement in terms of end points, work is not always free of the path involved. The freedom to path  depends on the nature of force. We shall see that work is independent of path for force like gravity. Work only depends on the vertical displacement and is independent of horizontal displacement. It is so because horizontal component of Earth's gravity is zero. However, work by force like friction depends how long (distance) a particle moves on the actual path. 
+</para>
+<para id="element-5">The class of force for which work is independent of path is called "conservative" force; others are called "non-conservative". We can, therefore, say that work is independent of path for conservative force and is dependent for non-conservative force. This is the subject matter of a separate module on "conservative force" and as such we would not elaborate the concept any more.  </para>
+
+<para id="element-119">This limited independence may appear to be disadvantageous. A complete independence for all forces would have allowed us to analyze motion without intermediate details in all situations. However, important point here is that major forces in nature are conservative forces - gravitational and electromagnetic forces. This allows us to devise techniques to calculate work by "non-conservative force" indirectly without details, using other concepts (work - kinetic energy theory) that we are going to develop in next module. 
+</para>
+</section> 
+<section id="section-3b">
+<title> Details of motion </title>
+<para id="element-3a">Let us check out on the details of the motion. Does work depend on whether a body is moved with acceleration or without acceleration? We can have a look at the illustration, in which we raise a block slowly against gravity through a certain height. Here, net force on the block is zero. Hence, work by net force is zero.    
+</para>
+<para id="element-258"><figure id="fig-258">
+<title> Work in raising a body  </title>
+<media id="idm8519984" alt=""><image src="../../media/uw2.gif" mime-type="image/gif"/></media>
+<caption> Work by net force is zero. </caption>
+</figure></para><para id="element-3b">Now, let us modify the illustration a bit. We raise the block with certain constant velocity through the same height. As velocity is constant, it means that there is no acceleration and net force on the block is zero. Hence, work by net force is zero. However, if we raise the block with some acceleration, would it affect the amount of work by net force? The presence of acceleration means net force and as such, work by net force is not zero. Greater net force will mean greater work and acceleration.  
+</para>
+<para id="element-3c">In order to get the picture, we now look at the illustration from a different perspective. What about the work by component forces like gravity or normal force as applied by the hand? Work by individual force is  multiplication of force and the displacement. Since gravity is constant near the surface, work by gravity is constant for the given displacement. As a matter of fact, work by gravity is only dependent on vertical displacement. </para>
+
+<para id="element-680">When the block is raised slowly or with constant velocity, the net force is zero. In these circumstances, the work by normal force is equal to work by gravity. This is an important deduction. It allows us to compute work by either force without any reference to velocity and acceleration. </para><para id="element-3d">We see that the work by conservative force is independent of the details of motion. Under certain situations, when work by net force is zero, we can determine work by other force(s) in terms of work by conservative force. Thus, the basic idea is to make use of the features of conservative force to simplify analysis such that our consideration is independent of the details of motion. </para>
+</section> 
+
+</section> 
+
+<section id="section-7">
+<title> Role of Newton's laws of motion </title>
+<para id="element-123a">
+The discussion so far leads us to identify distinguishing features of laws of motion at one hand and work-energy concepts on the other - as far as analysis of motion is concerned. 
+</para>
+<para id="element-123b">
+The main distinguishing feature of the application of laws of motion is that we should know the details of motion to analyze the same. This feature is both a strength and a weakness. The strength in the sense that if we have to know the details like acceleration, then we are required to analyze motion in terms of laws of motion. "Work - energy" does not provide details.
+</para>
+<para id="element-123c">
+On the other hand, if we have to know the broad parameters like energy or work, then "Work - energy" provides the most elegant solution. As a matter of fact, we would find that analysis by "Work - energy" is often supplemented with analysis by laws of motion to obtain detailed results. 
+</para>
+<para id="element-123d">
+Clearly, when both frameworks are used in tandem, we get the best of both worlds. The example here highlights this aspect. Carefully, note how two concepts are combined to achieve the result.
+</para>
+<section id="section-7a">
+<title> Example </title>
+<para id="element-123"><term>Problem 2 : </term> A block of 10 kg is being pulled by a force "F" applied at an angle 45° as shown in the figure. The coefficient of kinetic friction between the surfaces is 0.5.  If the block moves with constant velocity, calculate the work done by the applied force in moving the block by 1.5 m.
+</para>
+<para id="element-124">
+<figure id="fig-124"><title> A block being pulled by an external force </title>
+<media id="idp5885872" alt=""><image src="../../media/uw5a.gif" mime-type="image/gif"/></media>
+<caption> A constant force pulls the block horizontally. </caption>
+</figure>
+</para>
+<para id="element-125"><term>Solution : </term> We had earlier made the point that calculation of work does not require force analysis. This is indeed the case when we know the force. In this case, however, we do not know force and as such we can not do away with free body diagram and coordinate system. </para>
+<para id="element-29a">In order to find work by applied force, "F", we are required to know the force. We can know force by analyzing force system on the block. Here, velocity is constant. This means that the block is moving with a constant speed along a straight line. As there is no acceleration involved, the forces on the blocks are balanced. Now the free body diagram for the balanced force system is shown here :
+</para>
+<para id="element-126">
+<figure id="fig-126"><title> A block being pulled by an external force </title>
+<media id="idp2669728" alt=""><image src="../../media/uw6.gif" mime-type="image/gif"/></media>
+<caption> Free body diagram drawn on the body system. </caption>
+</figure>
+</para>
+<para id="element-127">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-128">
+and
+</para>
+<para id="element-129">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> + </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-130">
+Combining two equations, we have :
+</para>
+<para id="element-131"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-132"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-133">Work done by external force, F, :</para><para id="element-134"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo mathvariant="bold"> . </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.5 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 1.5 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mn> 0.5 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+</section>
+
+  </content>
+  
+</document>

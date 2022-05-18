@@ -1,0 +1,1054 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Work by gravity and spring force (check your understanding)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>be9a11f3-82cc-49a7-bb9c-42da1009b5bb</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The questions have been selected to enhance understanding of the topics covered in the modules titled "<link document="m14101"> Work by gravity </link>" and "<link document="m14102"> Work by spring force </link>" . All questions are multiple choice questions with one or more correct answers. There are two sets of the questions. The “understanding level” questions seek to unravel the fundamental concepts involved, whereas “application level” are relatively difficult, which may interlink concepts from other topics.
+</para>
+<para id="element-2">
+Each of the questions is provided with solution. However, it is recommended that solutions may be seen only when your answers do not match with the ones given at the end of this module.  
+</para>
+<section id="section-1">
+<title> Understanding level (Work by gravity and spring force) </title>
+
+<para id="element-3">
+<exercise id="exercise-3">
+<problem id="idp1095792">
+<para id="element-4">
+An object released from the top of a rough incline of height "h" reaches its bottom and stops there. If coefficient of kinetic friction between surfaces is 0.5, then what should be the work done by the external force to return the object along the incline to its initial position ?
+</para>
+
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> 1.5 mgh </m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> 2mgh </m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> 3.5 mgh </m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> 4 mgh </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm3127952">
+
+<para id="element-6">
+Speeds at initial and final poistions are same. Therefore, total work done by gravity and friction during downward motion is zero according to "work-kinetic energy" theorem. It means that work done during downward motion by gravity (mgh) equals work done by friction (-mgh), which is opposite in sign. During upward motion, both gravity and friction oppose motion of the object. Hence, work by external force must equal to the magnitude of negative works by gravity and friction. 
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> Ext </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> Gravity </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> Friction </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> Ext </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> Gravity </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> Ext </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">
+<note id="idm2515408">The work by external force is positive as direction of force and displacement are same.</note>
+</para>
+<para id="element-9">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-10">
+<exercise id="exercise-10">
+<problem id="idm5309184">
+<para id="element-11">
+Two springs, having spring constants 
+<m:math>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+(
+<m:math>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+), are stretched by same external force. If 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ be the work done by the external force on two springs, then :
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm2605696">
+<para id="element-14">
+Work done by the external force in stretching spring by "x" is :
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+We need to eliminate extension "x" in terms of "F" and "k" in order to make the comparison for same force. Now, external force on the spring is :
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+Combining two equations, we have :
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> k </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">
+For same external force,
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+As 
+<m:math>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> k </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+, 
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-25">
+<exercise id="exercise-25">
+<problem id="idp145456">
+<para id="element-26">
+A block is released from the height "h" along a rough incline. If "m" is the mass of the block, then speed of the object at the bottom of the incline is proportional to :
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm1348656">
+<para id="element-28">
+We need to obtain an expression for the speed "v". This relation can be obtained, using "work - kinetic energy" theorem :
+</para>
+<para id="element-29">
+<figure id="fig-29">
+<title> Block on an incline </title>
+<media id="idp1268672" alt=""><image src="../../media/wgsq1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> l </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> l </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> g </m:mi>
+<m:mi> l </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mi> l </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+Clearly, the speed at the bottom of the incline is independent of mass "m".
+</para>
+<para id="element-32">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-33">
+<exercise id="exercise-33">
+<problem id="idm13428128">
+<para id="element-34">
+Two blocks of equal masses are attached to ends of a spring of spring constant "k". The whole arrangement is placed on a horizontal surface and the blocks are pulled horizontally by equal force to produce an extension of "x" in the spring. The work done by the spring on each block is :
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Spring - blocks system </title>
+<media id="idm4685040" alt=""><image src="../../media/wgsq2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm6097184">
+<para id="element-37">
+The work done by a spring force for an extension "x" is :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+However, spring does this work on blocks of same mass, which are pulled by equal horizontal force. The work by spring is, thus, equally divided on two blocks. Hence, work done by the sping on each block is :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W' </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-42">
+<exercise id="exercise-42">
+<problem id="idm1901904">
+<para id="element-43">
+An external force does 4 joule of work to extend it by 10 cm. What additional work (in Joule) is required to extend it further by 10 cm ?
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 4 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 8 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 12 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 16 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm4077392">
+<para id="element-45">
+The first part of the question can be used to determine the spring constant. The work done by external force is :
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> k </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> W </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> k </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 4 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn> 0.1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mn> 800 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> / </m:mo>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+Now, work done to extend the spring by a total of 20 cm,
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mo> x </m:mo> 
+<m:mn> 800 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 0.2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 16 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+Thus, additional work required is 16 - 4 = 12 J
+</para>
+<para id="element-51">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>  
+
+<section id="section-2">
+<title> Application level (Work by gravity and spring force) </title>
+<para id="element-52">
+<exercise id="exercise-52">
+<problem id="idm2617536">
+<para id="element-53">
+Rain drop falls from a certain height and attains terminal velocity before hitting the ground. If radius of rain drop is "r", then work done by the forces (gravity and viscous force) on the rain drop is proportional to :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> r </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 5 </m:mn>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 7 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm11657200">
+<para id="element-55">
+Let "v" be the terminal speed. The change in kinetic energy (
+<m:math>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+) is equal to the work done by gravity and viscous force. Gravity does the positive work, whereas viscous force does negative force. When the drop attains terminal velocity, then viscous force equals the weight of the rain drop,
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> η </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 6 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> η </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>	
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mi> ρ </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 6 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> η </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ∝ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> A </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+where "A" is a constant. Now, work done by the forces :
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>	
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mi> ρ </m:mi>
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> ∝ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 7 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+</section>  
+<section id="section-3">
+<title> Answers </title>
+<para id="element-262">
+<code display="block" id="idm1935424">
+1. (b)    2. (b)     3. (a)    4. (d)    5. (c) 
+6. (d)    
+</code>
+</para>
+</section>
+  </content>
+  
+</document>

@@ -1,0 +1,1355 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Velocity (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>f6ea37b6-9e63-4696-af05-5d6393cfbbfc</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+<section id="section-1">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3">
+We discuss problems, which highlight certain aspects of the study leading to the concept of velocity. For this reason, questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted"><item> Position vector
+</item>
+<item> Displacement 
+</item>
+<item> Constrained motion 
+</item>
+<item>  Nature of velocity
+</item>
+<item>  Comparing velocities
+</item></list>
+</para>
+
+<section id="section-1a">
+<title> Position vector
+</title>
+<example id="example-5a">
+<para id="element-5a"><term>Problem : </term> A particle is executing motion along a circle of radius “a” with a constant angular speed “ω” as shown in the figure. If the particle is at “O” at t = 0, then determine the position vector of the particle at an instant in xy - plane with "O" as the origin of the coordinate system. 
+</para>
+<para id="element-6a">
+<figure id="fig-6a">
+<title> A particle in circular motion </title>
+<media id="idm3132656" alt=""><image src="../../media/vq1.gif" mime-type="image/gif"/></media>
+<caption> The particle moves with a constant angular velocity. </caption>
+</figure>
+</para>
+<para id="element-7a"> <term>Solution : </term> Let the particle be at position “P” at a given time “t”. Then the position vector of the particle is :
+</para>
+<para id="element-8a">
+<figure id="fig-8a"><title> A particle in circular motion </title>
+<media id="idm10144256" alt=""><image src="../../media/vq2-5ec2.gif" mime-type="image/gif"/></media>
+<caption> The particle moves with a constant angular velocity starting from “O” at t = 0. </caption>
+</figure>
+</para>
+<para id="element-2a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-800">Note that "x" and "y" components of position vector is measured from the origin "O". From the figure,</para>
+<para id="element-4a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5b">
+and 
+</para>
+<para id="element-6b"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> - </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-7b">
+Thus, position vector of the particle in circular motion is :
+</para>
+<para id="element-8b"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> - </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+<example id="example-9">
+<para id="element-9"><term>Problem : </term> The position vector of a particle (in meters) is given as a function of time as :
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+Determine the time rate of change of the angle “θ” made by the velocity vector with positive x-axis at time, t = 2 s.
+</para>
+<para id="element-12"><term>Solution : </term> It is a two dimensional motion. The figure below shows how velocity vector makes an angle "θ" with x-axis of the coordinate system. In order to find the time rate of change of this angle "θ", we need to express trigonometric ratio of the angle in terms of the components of velocity vector. From the figure :
+</para>
+<para id="element-129"><figure id="fig-129"><title> Velocity of a particle in two dimensions </title>
+<media id="idm72496" alt=""><image src="../../media/vq7-cc14.gif" mime-type="image/gif"/></media>
+<caption> The velocity has two components. </caption>
+</figure></para><para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">As given by the expression of position vector, its component in coordinate directions are : 
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> t </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">We obtain expression of the components of velocity in two directions by differentiating "x" and "y" components of position vector with respect to time :
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-19">Putting in the trigonometric function, we have :
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn> 
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">Since we are required to know the time rate of the angle, we differentiate the above trigonometric ratio with respect to time as,
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:mi> sec </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> tan </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+At t = 2 s,
+</para>
+<para id="element-25"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 2 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 17 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-1b">
+<title> Displacement 
+</title>
+
+
+
+<example id="example-79">
+<para id="element-79"><term>Problem : </term> The displacement (x) of a particle is given by :
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> A </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+At what time is the displacement maximum?
+</para>
+<para id="element-82"> <term>Solution : </term> The displacement (x) depends on the value of sine function. It will be maximum for maximum value of sin(wt + θ). The maximum value of sine function is 1. Hence,
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mfrac> 
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> ω </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mi> ω </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-1f">
+<title> Constrained motion  </title>
+
+<example id="example-84">
+<para id="element-84"><term>Problem : </term> Two particles A and B are connected by a rigid rod AB. The rod slides along perpendicular rails as shown here. The velocity of A moving down is 10 m/s. What is the velocity of B when angle θ = 60°  ?
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Motion of a leaning rod </title>
+<media id="idp1121824" alt=""><image src="../../media/vq3a.gif" mime-type="image/gif"/></media>
+<caption> One end of the ros is moving with a speed 10 m/s in vertically downward direction. </caption>
+</figure>
+</para>
+<para id="element-86"><term>Solution : </term> The velocity of B is not an independent velocity. It is tied to the velocity of the particle “A”  as two particles are connected through a rigid rod. The relationship between two velocities is governed by the inter-particles separation, which is equal to the length of rod.
+</para>
+
+<para id="element-87">
+The length of the rod, in turn, is linked to the positions of particles “A” and “B” .
+From figure,
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>L</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+Differentiatiting, with respect to time :
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>y</m:mi>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+Considering magnitude only,
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mi>m</m:mi>
+      <m:mi>s</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-1d">
+<title> Nature of velocity 
+</title>
+
+<example id="example-100">
+<para id="element-100"><term>Problem : </term> The position vector of a particle is :
+</para>
+<para id="element-101">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-101a">
+where “a” is a constant. Show that velocity vector is perpendicular to position vector.
+</para>
+<para id="element-102"><term>Solution : </term> In order to prove as required, we shall use the fact that scalar (dot) product of two perpendicular vectors is zero. Now, we need to find the expression of velocity to evaluate the dot product as intended. We can obtain the same by differentiating the expression of position vector with respect to time as :
+</para>
+
+<para id="element-103">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-104">
+To check whether velocity is perpendicular to the position vector, we evalaute the scalar product of <term>r</term> and <term>v</term>, which should be equal to zero.
+</para>
+<para id="element-105">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-106">
+In this case,
+</para>
+<para id="element-107">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-108">This means that the angle between position vector and velocity are at right angle to each other. Hence, velocity is perpendicular to position vector. It is pertinent to mention here that this result can also be inferred from the plot of motion. An inspection of position vector reveals that it represents uniform circular motion as shown in the figure here.
+</para>
+<para id="element-109">
+<figure id="fig-109"><title> Circular motion </title>
+<media id="idm2883232" alt=""><image src="../../media/vq9-08a3.gif" mime-type="image/gif"/></media>
+<caption> The particle describes a circular path. </caption>
+</figure>
+</para>
+<para id="element-110">
+The position vector is always directed radially, whereas velocity vector is always tangential to the circular path. These two vectors are, therefore, perpendicular to each other.
+</para>
+</example>
+
+
+<example id="example-76">
+<para id="element-76"><term>Problem : </term> Two particles are moving with the same constant speed, but in opposite direction. Under what circumstance will the separation between two remains constant?
+</para>
+<para id="element-77"> <term>Solution : </term> The condition of motion as stated in the question is possible, if particles are at diametrically opposite positions on a circular path. Two particles are always separated by the diameter of the circular path. See the figure below to evaluate the motion and separation between the particles. 
+</para>
+
+<para id="element-78">
+<figure id="fig-78"><title> Motion along a circular path </title>
+<media id="idp1156960" alt=""><image src="../../media/vq8b.gif" mime-type="image/gif"/></media>
+<caption> Two particles are always separated by the diameter of the circle transversed by the particles. </caption>
+</figure>
+</para>
+</example>
+</section>
+
+<section id="section-1e">
+<title> Comparing velocities 
+</title>
+
+<example id="example-53">
+<para id="element-53"><term>Problem : </term> A car of width 2 m is approaching a crossing at a velocity of 8 m/s. A pedestrian at a distance of 4 m wishes to cross the road safely. What should be the minimum speed of pedestrian so that he/she crosses the road safely?
+</para>
+<para id="element-54"><term>Solution : </term> We draw the figure to illustrate the situation. Here, car travels the linear distance (AB + CD) along the direction in which it moves,  by which time the pedestrian travels the linear distance BD. Let pedestrian travels at a speed “v” along BD, which makes an angle “θ” with the direction of car. 
+</para>
+
+<para id="element-55">
+<figure id="fig-55">
+<title> Motion of a car and a pedestrian </title>
+<media id="idp3245728" alt=""><image src="../../media/vq5-929e.gif" mime-type="image/gif"/></media>
+<caption> The pedestrian crosses the road at angle with direction of car. </caption>
+</figure>
+</para>
+<para id="element-56">
+We must understand here that there may be number of combination of angle and speed for which pedestrian will be able to safely cross before car reaches. However, we are required to find the minimum speed. This speed should, then, correspond to a particular value of θ.
+</para>
+<para id="element-57">
+We can also observe that pedestrian should move obliquely. In doing so he/she gains extra time to cross the road.
+</para>
+<para id="element-58">
+From triangle BCD,
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 90 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> CD </m:mi>
+<m:mi> BC </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> CD </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> CD </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Also,
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 90 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> BC </m:mi>
+<m:mi> BD </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mi> BD </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> BD </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">According to the condition given in the question, the time taken by car and pedestrian should be equal for the situation outlined above :
+</para>
+<para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mi> v </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">For minimum value of speed, 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:math>
+,
+</para>
+
+<para id="element-67"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">In order to evaluate the expression of velocity with trigonometric ratios, we take the help of right angle triangle as shown in the figure, which is consistent with the above result.
+</para>
+<para id="element-69">
+<figure id="fig-69">
+<title> Trigonometric ratio </title>
+<media id="idm865328" alt=""><image src="../../media/vq6-110d.gif" mime-type="image/gif"/></media>
+<caption> The tangent of angle is equal to 2. </caption>
+</figure>
+</para>
+<para id="element-70">From the triangle, defining angle “θ”, we have :
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+and
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+The minimum velocity is :
+</para>
+<para id="element-75"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 3.57 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+</section>
+
+</section>     
+
+  
+  </content>
+  
+</document>

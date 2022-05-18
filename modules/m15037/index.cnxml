@@ -1,0 +1,4361 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Dimensional analysis</title>
+  <metadata>
+  <md:content-id>m15037</md:content-id><md:title>Dimensional analysis</md:title>
+  <md:abstract>Seven basic quantities are the seven dimensions of physical quantities.</md:abstract>
+  <md:uuid>13cc2dd1-c798-47ef-a935-d2fc63d45a74</md:uuid>
+</metadata>
+
+<content>
+      
+
+<para id="element-1">We are familiar with dimensions of motion and motion related quantities. Often, we specify the description of physical process by numbers of coordinates involved – one, two or three. It indicates the context of motion in space. The dimension of physical quantities follows the same philosophy and indicates the nature of the constitution of quantities. In other words, dimension of a physical quantity indicates how it relates to one of the seven basic/ fundamental quantities. Basic quantities are the seven dimensions of the physical quantities.
+</para>
+<para id="element-2">Dimensions of a physical quantity are the powers with which basic quantities are raised to represent it. The dimension of a physical quantity in an individual basic quantity is the power with which that basic quantity is raised in the dimensional representation of physical quantity. We should be clear here that the dimension is not merely a power, but a combination of basic quantity and its power. Both are taken together and hence represented together. We may keep in mind that units follow dimensional constitution. Speed, for example, has dimension of 1 in length and dimension of -1 in time and hence its unit is m/s. 
+</para>
+
+<para id="element-4">A pair of square bracket is used to represent the dimension of individual basic quantity with its symbol enclosed within the bracket. There is a convention in using symbol of basic quantities. The dimensions of seven basic quantities are represented as :
+</para>
+<para id="element-5"><list id="list-5" list-type="enumerated">
+<item> Mass : [M] </item>
+<item> Length : [L] </item>
+<item> Time : [T] </item>
+<item> Current : [A] </item>
+<item> Temperature : [K] </item>
+<item> Amount of substance : [mol] </item>
+<item>  Luminous Intensity : [cd] </item>
+</list>
+</para>
+<para id="element-6">We can see here that there is no pattern. Sometimes we use initial letter of the basic physical quantity like "M", sometimes we use initial letter of basic unit like "A" and we even use abbreviated name of the basic unit like "mol".
+</para>
+
+<section id="section-1">
+<title>Dimensions of derived quantities</title>
+<para id="element-7">The dimensions of derived quantities may include few or all dimensions in individual basic quantities. In order to understand the technique to write dimensions of a derived quantity, we consider the case of force. The force is defined as :
+</para>
+<para id="element-8"><m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-9">Thus, dimensions of force is :
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">The dimension of acceleration, represented as [a], is itself a derived quantity being the ratio of velocity and time. In turn, velocity is also a derived quantity, being ratio of length and time. 
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">We read the dimension of force as : it has “1” dimension in mass, “1” dimension in length and “-2” dimension in time. This reading emphasizes the fact that the dimension is not merely a power, but a combination of basic quantity and its power.
+</para>
+</section>
+
+<section id="section-2">
+<title>Dimensional formula</title>
+<para id="element-15">The expression of dimensional representation is also called “dimensional formula” of the given physical quantity. For brevity, we do not include basic dimensions, which are not part of derived quantity, in the dimensional formula.
+</para>
+
+
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mtext>Force</m:mtext>
+    </m:mrow>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mtext>Velocity</m:mtext>
+    </m:mrow>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mtext>Charge</m:mtext>
+    </m:mrow>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>q</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22"><m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mtext>Specific heat</m:mtext>
+    </m:mrow>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mtext>Gas constant</m:mtext>
+    </m:mrow>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>o</m:mi>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">It is conventional to omit power of “1”. Further, in mechanics, we can optionally use all three symbols corresponding to three basic quantities, which may or may not be involved. Even if one or two of them are not present, it is considered conventional to report absence of the dimension in a particular basic quantity. It is done by raising the symbol to zero as :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-16">It should be noted here that dimensional representation of a physical quantity does not include “magnitude (n)” of the physical quantity. Further, dimensional formula does not distinguish nature of quantity. For example, the nature of force (or types of force) has no bearing on its dimensional representation. It, then, also follows that variants of a physical quantity bears the same dimensional representation. For example, velocity – whether instantaneous, average, relative – has the same dimensional representation 
+<m:math>
+		<m:mrow>
+			<m:mo>[</m:mo>
+			<m:mi>L</m:mi>
+			<m:msup>			<m:mi>T</m:mi>
+				<m:mrow>
+					<m:mo>-</m:mo>
+					<m:mn>1</m:mn>
+				</m:mrow>
+			</m:msup>
+			<m:mo>]</m:mo>
+		</m:mrow>
+	</m:math>
+. Moreover, dimensional representation of a vector and its scalar counterpart is same. For example, the dimensions of velocity and speed are same. Further, dimensions of the difference of a physical quantity are same as that of physical quantity itself. For this reason, dimensions of velocity and difference of two velocities are same.
+
+</para>
+
+
+<para id="element-26">A physical quantity need not have dimensions in any of the basic quantities. Such is the case, where physical quantities are equal to the ratio of quantities having same dimensions. Take the case of an angle, which is a ratio of arc(length) and radius(length). The dimensions of such physical quantity are zero in each of the basic quantities.
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mtext>Angles</m:mtext>
+    </m:mrow>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">Similar is the case with Reynold’s number, used in fluid mechanics. It also does not have dimensions in basic quantities. Thus, a physical quantity can be either “dimensional” or “dimensionless”. 
+</para>
+<para id="element-29">On the other hand, there are numerical constants like trigonometric function, pi etc, which are not dependent on the basic physical quantities. The dimensions of such a constant are zero in each of the basic quantities. They are, therefore, called “dimensionless” constants.
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mi>pi</m:mi>
+    </m:mrow>
+    <m:mo>,</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>π</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">However, there are physical constants, which appear as the constant of proportionality in physical formula. These constants have dimensions in basic quantities. Such constant like Gravitational constant, Boltzmann constant, Planck's constant etc. are, therefore, “dimensional” constant.
+</para>
+<para id="element-32">In the nutshell, we categorize variables and constants in following categories :
+</para>
+<para id="element-33"><list id="list-33" list-type="bulleted">
+<item> Dimensional variable : speed, force, current etc. </item>
+<item> 
+Dimensionless variable : angle, reynold’s number, trigonometric, logarithmic functions etc. </item>
+<item> Dimensional constant : universal gas constant, permittivity, permeability </item>
+<item> Dimensionless constant : numerical constants, mathematical constants, trigonometric, logarithmic functions etc.</item>
+</list>
+</para>
+<section id="section-2b11">
+<title>Dimensional equation</title>
+<para id="element-34">Dimensional equation is obtained by equating dimension of a given physical quantity with its dimensional formula. Hence, followings constitute a dimensional equation :
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math> 
+</para>
+
+</section>
+<section id="section-2b">
+<title>Dimensions and unit</title>
+<para id="element-34a">Dimensions of a derived quantities can always be expressed in accordance with their dimensional constitutions. Consider the example of force. Its dimensional formula is 
+<m:math>
+  <m:mrow>
+      <m:mi>M</m:mi>
+      <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>-2</m:mn>
+    </m:msup>
+
+  </m:mrow>
+</m:math> . Its SI unit, then, can be “kg-m/s2”
+<m:math>
+  <m:mrow>
+      <m:mi>kg-m</m:mi>
+      <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>. Instead of using dimensional unit, we give a single name to it like Newton to honour his contribution in understanding force.  Such examples are prevalent in physics. 
+</para>
+<para id="element-34b">A dimensionless physical quantity, on the other hand, has no dimensional unit as no dimension is involved. Consider the case of reynold’s number. It is a number without unit. However, there are exceptions. Consider measure of angle. It is a dimensionless quantity, but has radian as unit.
+</para>
+</section>
+<section id="section-2c234">
+<title>Basic dimensions and their group</title>
+
+<para id="element-34c">Each of the basic dimensions form a group in dimensional formula. Consider a physical quantity work. The work is product of force and displacement. The basic dimension “length” is present in both force and displacement. Dimension in length, therefore, forms a group – one from force and one from displacement. The dimensions in the group is operated by multiplication following rule of indices <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>n</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+</section>
+<section id="section-2c">
+<title>Determining dimensional formula</title>
+<para id="element-34d">The basic approach to determine dimensional formula of a physical quantity is to use its defining equation. A defining equation like that of force in terms of mass and acceleration allows us to determine dimensional formula by further decomposing dependent quantities involved. This is the standard way. However, this approach is cumbersome in certain cases when dependencies are complicated. In such cases, we can take advantage of the fact that a physical quantity may appear in simpler relation in some other context. Let us consider the case of magnetic field strength. We can determine its dimensional expression, using Biot-Savart’s law. But, we know that Magnetic field strength appears in the force calculation on a wire carrying current in a magnetic field. The force per unit length  : 
+</para>
+<para id="element-34e">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>l</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>I</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34f">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mo>[</m:mo>
+      <m:mi>B</m:mi>
+      <m:mo>]</m:mo>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>F</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>A</m:mi>
+        <m:mi>L</m:mi>
+        <m:mi>T</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>M</m:mi>
+        <m:mi>L</m:mi>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>A</m:mi>
+        <m:mi>L</m:mi>
+        <m:mi>T</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mo>[</m:mo>
+      <m:mi>M</m:mi>
+      <m:msup>
+        <m:mi>T</m:mi>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>2</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:msup>
+        <m:mi>A</m:mi>
+        <m:mrow>
+          <m:mo>-</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mo>]</m:mo>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+
+
+<example id="example-6">
+<para id="element-506"><term>Problem  : </term> Find the dimensional formula of thermal conductivity.
+</para>
+<para id="element-507"><term>Solution : </term>  The thermal heat of conduction (Q) is given as :
+</para> 
+
+<para id="element-508">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mi>k</m:mi>
+          <m:mi>A</m:mi>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>θ</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+              <m:mo>−</m:mo>
+              <m:msub>
+                <m:mi>θ</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mrow>
+      <m:mi>d</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-509">where “k” is thermal conductivity, “Q” is heat, “A” is area of cross-section, “θ” is temperature and “t” is time. 
+</para>
+<para id="element-5010">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>Q</m:mi>
+        <m:mi>d</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>A</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>θ</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:msub>
+              <m:mi>θ</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>t</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5011">We make use of two facts (i) heat is energy and (ii) dimension of difference of temperature is same as that of temperature.
+</para>
+<para id="element-5012"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:mi>L</m:mi>
+        <m:mo>]</m:mo>
+
+      </m:mrow>
+      <m:mrow>
+
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>K</m:mi>
+        <m:mi>T</m:mi>
+        <m:mo>]</m:mo>
+
+
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5014">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>k</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+<example id="example-5015">
+<para id="element-5015"><term>Problem : </term> Find the dimension of expression,
+</para>
+<para id="element-5016">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para> 
+<para id="element-5017">where “C” is capacitance, “V” is potential difference, “
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+” is permittivity of vacuum and “ρ” is specific resistance.
+</para>
+<para id="element-5018"><term>Solution : </term> 
+</para>
+<para id="element-5019"> By inspection of expression, we observe that capacitance of parallel plate capacitor is given by the expression containing “
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+”. This may enable us to cancel “
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+” from the ratio. The capacitance is given as :
+</para>
+<para id="element-5020">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>A</m:mi>
+      </m:mrow>
+      <m:mi>d</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5021">
+On the other hand, specific resistance,
+</para>
+<para id="element-5022">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ρ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+      <m:mi>L</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5028">Hence, </para><para id="element-5023">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>A</m:mi>
+        <m:mi>L</m:mi>
+        <m:mi>V</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>d</m:mi>
+        <m:mi>R</m:mi>
+        <m:mi>A</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5024">Applying Ohm’s law,
+</para>
+<para id="element-5025">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>A</m:mi>
+        <m:mi>L</m:mi>
+        <m:mi>V</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>L</m:mi>
+        <m:mi>R</m:mi>
+        <m:mi>A</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>V</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>R</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5025a">
+Applying Ohm's law,  
+</para>
+<para id="element-5025b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>V</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>R</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+<example id="example-5026">
+<para id="element-5026"> <term>Problem  : </term> Find the dimension of term given as :
+</para>
+<para id="element-5027">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>E</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5028a">
+where “E” is electric field and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is absolute permeability of vacuum.
+</para>
+<para id="element-5030"><term>Solution : </term> We can approach the problem by evaluating each of the quantities in the expression terms of basic quantities. Alternatively, however, we can evaluate the dimension of the given ratio by expressing the given expression in terms of physical quantities, whose dimensions can be easily found out. For illustration purpose, we shall use the second approach.
+</para>
+<para id="element-5031">Here we can write given expression in the following manner :
+</para>
+<para id="element-5032">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>E</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msub>
+        <m:mi>μ</m:mi>
+        <m:mn>0</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>E</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5032a">
+where “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>ε</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is absolute permittivity of vacuum.
+</para>
+<para id="element-5032b">
+However, we know that electric energy density of a medium is 
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>ε</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>E</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. It means that numerator has the same dimension as “energy/volume”. On the other hand, speed of light in vacuum is given as :
+</para>
+<para id="element-5033">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>ε</m:mi>
+                  <m:mn>0</m:mn>
+                </m:msub>
+                <m:msub>
+                  <m:mi>μ</m:mi>
+                  <m:mn>0</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5034">Thus, dimension of denominator is same as that of 
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msup>
+          <m:mi>c</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+. 
+</para>
+<para id="element-5035">Therefore,
+</para>
+<para id="element-5036">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>E</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>energy/volume</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:msup>
+            <m:mi>c</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mfrac>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5037">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>E</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>L</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+
+
+
+
+<section id="section-5">
+<title>Conversion from one system to another</title>
+<para id="element-39a"> We note that same physical quantity is expressed in different units. Clearly, conversion of unit is associated with single physical quantity.  We know that different units for physical quantities have evolved through human progress in different parts of the world and have prevailed despite efforts towards uniform system. Secondly, a physical quantity has different scales of measurement - small, large etc. Whatever be the reason of different units being used, we need to have a  “conversion factor” which coverts one unit to another.  The conversion related to magnitude of unit is defined by the system of measurement itself. For example, 1 kilogram is equal to 1000 gm. Here, we shall derive a process to affect the conversion of one unit of one kind to another kind. In another words,  we shall derive a “dimensionless constant” as conversion factor.
+</para>
+<para id="element-39b"> The underlying principle of process involved here is that a given physical quantity has same dimensional constitution – whatever be the system or unit. This fact is underlined by the fact that a given quantity of a given physical entity remains same. For, example, whether we call 1 inch or 2.54 cm, the length remains same. Now, physical quantity is product of  “measurement” and “unit. Hence,
+We know that :
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">Since unit represents a standard division of the quantity, the dimensional formula of the unit quantity is same as that of the quantity in question. Let dimensions of units in two systems are :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msubsup>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:msubsup>
+    <m:msubsup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mi>b</m:mi>
+    </m:msubsup>
+    <m:msubsup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:msubsup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msubsup>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:msubsup>
+    <m:msubsup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mi>b</m:mi>
+    </m:msubsup>
+    <m:msubsup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:msubsup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">Combining equations, we have :
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>[</m:mo>
+    <m:msubsup>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:msubsup>
+    <m:msubsup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mi>b</m:mi>
+    </m:msubsup>
+    <m:msubsup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:msubsup>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>[</m:mo>
+    <m:msubsup>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:msubsup>
+    <m:msubsup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mi>b</m:mi>
+    </m:msubsup>
+    <m:msubsup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:msubsup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msubsup>
+          <m:mi>M</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mi>a</m:mi>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>L</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mi>b</m:mi>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mi>c</m:mi>
+        </m:msubsup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msubsup>
+          <m:mi>M</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mi>a</m:mi>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>L</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mi>b</m:mi>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mi>c</m:mi>
+        </m:msubsup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">This is the formula used to convert a quantity from one system of units to another. In case, only 1 unit of the quantity in first system is involved, then we can put 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math> 
+in the above equation.
+</para>
+
+<example id="example-48">
+<para id="element-48"><term>Problem : </term>Convert 1 Joule in SI system into ergs in “cgs” system
+</para>
+<para id="element-48a"><term>Solution : </term> Putting 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+ and applying formula, we have :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msubsup>
+          <m:mi>M</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mi>a</m:mi>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>L</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mi>b</m:mi>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mi>c</m:mi>
+        </m:msubsup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msubsup>
+          <m:mi>M</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mi>a</m:mi>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>L</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mi>b</m:mi>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mi>c</m:mi>
+        </m:msubsup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">Now, the dimensional formula of energy is 
+<m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+. Hence, a = 1, b = 2 and c = -2. Putting values in the equation and rearranging,
+</para>
+<para id="element-51"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>k</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>g</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mn>1</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>c</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>s</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>s</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">The basic units of SI system is related to corresponding basic units in “cgs” system as :
+</para>
+<para id="element-53"><m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>K</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+<m:mspace width="2pt"/>
+    <m:mi>g</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55"><m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>s</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-882">Putting in the conversion formula, we have :</para><para id="element-56"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>3</m:mn>
+        </m:msup>
+<m:mspace width="2pt"/>
+        <m:mi>g</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>g</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mn>1</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+<m:mspace width="2pt"/>
+        <m:mi>c</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>c</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>s</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+        <m:mi>s</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>7</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Hence, 
+</para>
+<para id="element-59"><m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>J</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>7</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>e</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+
+
+<section id="section-3">
+<title>Dimensional analysis</title>
+<para id="element-37">Dimensional analysis is based on the simple understanding of the fact that only similar quantities can be added, subtracted and equated. Can we add 2 mangoes and 3 oranges? This requirement of similar terms is the underlying principle of dimensional analysis. This principle is known as principle of homogeneity.  
+</para>
+<para id="element-38"> Dimensional analysis gives an insight into the composition of a physical quantity. Take the case of frequency. Its SI unit is Hertz. What is its true relation with basic quantities? Notwithstanding the exact definition, its dimensional formula tells us that it is actually inverse of time (T). It has the dimension of “-1” in time. 
+</para>
+<para id="element-38z">
+In this section, we shall discuss three important applications of dimensional analysis involving : (i) Transcendental functions  (ii) checking of dimensional formula and (iii) derivation of a formula.
+</para>
+<para id="element-38a"> An elaborate form of homogeneity principle is known as Buckingham π theorem. This theorem states that an expression of physical quantity having n variables can be expressed as an expression of n-m dimensionless parameters, where m is the numbers of dimensions. This principle is widely used in fluid mechanics to establish equations of physical quantities. A full treatment of this priciple is beyond the context of physics being covered in this course. Therefore, we shall use the simplified concept of homogeinity that requires that only dimensionally similar quantities can be added, subtracted and equated. 
+</para>
+<para id="element-38b">One interesting aspect of Buckingham π theorem is formation of dimensionless groups of variables. It helps us to understand relation among variables (physical quantities) and nature of dependence. Consider a simple example of time period of simple pendulum (T). Other relevant parameters affecting the phenomenon of  oscillation are mass of pendulum bob (m), length of pendulum (l), acceleration due to gravity (g). The respective dimensional formula for time period is [T], mass of bob is [M], length of pendulum is [L] and acceleartion due to gravity is [<m:math>
+  <m:mrow>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+].
+</para>
+<para id="element-38c">
+We can have only one unique dimension-less group of these variables (quantities). Let us consider few combinations that aim to obtain one dimensionless group.
+</para>
+<para id="element-38d">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>L</m:mi>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38e">This grouping indicates that we can not form a dimensionless group incorporating “mass of the bob”. A dimensionless group here is :
+</para>
+<para id="element-38f">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>L</m:mi>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mtext>a constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38g">
+Rearranging,
+</para>
+<para id="element-38h">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>l</m:mi>
+          <m:mi>g</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38i">
+Thus, grouping of dimensionless parameter helps us to (i) determine the form of relation and (ii) determine dependencies. In this case, time period is independent of mass of bob. Formation of dimensionless parameter is one of the important considerations involved in the dimensional analysis based on Buckingham π theorem. 
+</para>
+
+
+<section id="section-3c567">
+<title> Transcendental functions </title>
+<para id="element-38j"> Many physical quantities are expressed in terms of transcendental functions like trigonometric, exponential or logarithmic functions etc. An immediate fall out of homogeneity principle is that we can only have “dimensionless groups” as the argument of these transcendental functions. These functions are expansions involving power terms :
+</para>
+<para id="element-38k">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>!</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mo>!</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38l">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>5</m:mn>
+      </m:msup>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38m">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>5</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>15</m:mn>
+    </m:mfrac>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38n">
+If x is dimensional quantity, then each term on right hand sides have different dimensions as x is raised to different powers . This violates principle of homogeneity. For example, we know that trigonometric function has angle as its argument.  Angle being dimensionless is permissible here as no dimension is involved. But, we can not have a dimensional argument like time to trigonometric functions. However, we know of the expressions involving physical quantities have transcendental terms. In accordance with homogeneity principle, argument to the functions needs to be dimensionless. Consider for example the wave equation given by :
+
+
+</para>
+<para id="element-38o"><m:math display="block">
+    <m:mrow>
+    <m:mo>y</m:mo>
+    <m:mo>=</m:mo>
+      <m:mi>A</m:mi>
+      <m:mi>sin</m:mi>
+    <m:mo>(</m:mo>
+      <m:mi>kx</m:mi>
+    <m:mo>-</m:mo>
+      <m:mi>ω</m:mi>
+      <m:mi>t</m:mi>
+    <m:mo>)</m:mo>
+    </m:mrow>
+</m:math>
+</para>
+<para id="element-38p">Here, both terms “kx” and “ωt” needs to be dimensionless.
+</para>
+<example id="example-4438q">
+<para id="element-38q">
+<term>Problem : </term> 
+Disintegration of radioactive takes place in accordance with relation given as : 
+</para>
+<para id="element-38r"><m:math display="block">
+    <m:mrow>
+    <m:mo>N(t)</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>e</m:mi>
+    <m:mrow>
+    <m:mo>-</m:mo>
+      <m:mi>kt</m:mi>
+    </m:mrow>
+    </m:msup>
+    </m:mrow>
+</m:math>
+</para>
+<para id="element-38s">
+What is dimension of disintegration constant ?
+</para>
+<para id="element-38t">
+<term>Solution : </term> 
+Since argument of transcendental function is dimensionless, 
+</para>
+<para id="element-38u"><m:math display="block">
+
+    <m:mo>[kt]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+    </m:math></para>
+<para id="element-38v"><m:math display="block">
+    <m:mrow>
+    <m:mo>[k]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+    <m:mrow>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+    </m:mrow>
+    <m:mrow>
+    <m:mo>[</m:mo>
+      <m:mi>T</m:mi>
+    <m:mo>]</m:mo>
+    </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>T</m:mi>
+    <m:mrow>
+    <m:mo>-</m:mo>
+      <m:mn>1</m:mn>
+    </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+    </m:mrow>
+    </m:math>
+
+</para>
+</example> 
+
+<example id="example-4467">
+<para id="element-4467"><term>Problem : </term>  Find the value of “x” in the equation :
+</para>
+<para id="element-4468">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>a</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4469"><term>Solution : </term>  It appears that this question is out of the context of dimensional analysis. Actually, however, we can find the solution of "x" for the unique situation by applying principle of homogeneity. We know that the argument of a trigonometric function is an angle, which does not have dimension. In other words, the argument of trigonometric function is a dimensionless variable. Hence, “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+” is dimensionless. For this,
+</para>
+<para id="element-4470">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4471">With this information, let us, now, find the dimension of the expression enclosed in the integral on the left hand side (LHS).
+</para>
+<para id="element-4472">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:mi>H</m:mi>
+    <m:mi>S</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>d</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mo>[</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                <m:mo>−</m:mo>
+                <m:msup>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>]</m:mo>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4473">We know that dimension of difference is same as that of the quantity. Hence, 
+<m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>d</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>. Putting dimensions,
+</para>
+<para id="element-4474">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:mi>H</m:mi>
+    <m:mi>S</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>L</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mo>[</m:mo>
+                <m:msup>
+                  <m:mi>L</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>]</m:mo>
+                <m:mo>−</m:mo>
+                <m:mo>[</m:mo>
+                <m:msup>
+                  <m:mi>L</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>]</m:mo>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>L</m:mi>
+      <m:mi>L</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4475">We see that LHS is dimensionless. Hence, RHS should also be dimensionless. The trigonometric function on the right is also dimensionless. It means that factor “
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+” should also be dimensionless. But, the base “a” has a dimension that of length. The factor can be dimensionless, only if it evaluates to a constant. An exponential with variable power like “
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+” is constant if it evaluates to 1 for x=0. Hence,
+</para>
+<para id="element-4476">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+</section>
+<section id="section-3b">
+<title>Checking a formula</title>
+
+<para id="element-60">The terms of an equation connecting different physical quantities are dimensionally compatible. In accordance with “principle of homogeneity of dimensions”, each term of the equation has dimensions. 
+</para>
+<para id="element-61">Hence, a formula not having dimensionally compatible terms are incorrect. In plain words, it means that (i) dimensions on two sides of an equation are equal and (ii) terms connected with plus or minus sign in the expression have the same dimensions. As a matter of fact, this deduction of the homogeneity principle can be used to determine the nature of constants/ variables and their units as illustrated in the example here. 
+
+</para>
+
+<example id="example-62asdf">
+<para id="element-62"><term>Problem : </term> The Vander Wall’s equation is given as :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>P</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>a</m:mi>
+          <m:mrow>
+            <m:msup>
+              <m:mi>V</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>V</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">where “P” is pressure, “V” is volume, “T” is temperature and “R” is gas constant. What are the units of constants “a” and “b”?
+</para>
+<para id="element-65a"><term>Solution : </term>  Applying principle of homogeneity of dimensions, we realize that dimensions of the terms connected with “plus” or “minus” signs are equal. Hence,
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:msup>
+          <m:mi>V</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>P</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>A</m:mi>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>L</m:mi>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>V</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>5</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+The unit of “a” is “
+<m:math>
+  <m:mrow>
+    <m:mi>kg</m:mi>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>5</m:mn>
+    </m:msup>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+”.
+</para>
+<para id="element-70">Also,
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">The unit of “b” is same as that of volume i.e. "
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>"
+.
+</para>
+</example>
+</section>
+
+<section id="section-3c">
+<title>Deriving a formula</title>
+
+<para id="element-73">This is a curious aspect of the application of dimensional analysis. If we could have the general capability to construct formula in this manner, then we would have known all the secrets of nature without much difficulty. Clearly, derivation of formula by dimensional analysis is possible under certain limited circumstance only. Even then, significance of deriving formula is important as it has contributed quite remarkably in fluid mechanics and other branches of science.
+</para>
+<para id="element-74">We shall use dimensional analysis to derive Stoke’ law for viscous force in the example given here. We should appreciate, however, that dimensional analysis can not determine constant of a formula. As such, we shall work the example given here with this particular limitation.
+</para>
+
+<section id="section-3c1">
+<title>Example</title>
+<para id="element-75"><term>Problem 3: </term> Stoke observed that viscous drag force, “F”, depends on  (i) coefficient of viscosity, “η”  (ii) velocity of the spherical mass, “v” and (iii) radius of the spherical body, “r”. 
+</para>
+<para id="element-76">If the dimensional formula of coefficient of viscosity is <m:math>
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+    <m:mi>T</m:mi>
+    <m:mrow>
+      <m:mo>-</m:mo>
+      <m:mn>1</m:mn>
+    </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>, drive Stoke’s law for viscous force on a small spherical body in motion through a static fluid medium. 
+</para>
+<para id="element-77"><term>Solution : </term>  We first write the observations in mathematical form as :
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>∝</m:mo>
+    <m:msup>
+      <m:mi>η</m:mi>
+      <m:mi>a</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>∝</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mi>b</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>∝</m:mo>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mi>c</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">Combining, we have :
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>K</m:mi>
+    <m:msup>
+      <m:mi>η</m:mi>
+      <m:mi>a</m:mi>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mi>b</m:mi>
+    </m:msup>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mi>c</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">where “K” is the constant of proportionality and is dimensionless. Applying principle of homogeneity of dimensions, the dimensions on the left and right side of the equation should be same. Hence,
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>K</m:mi>
+    <m:msup>
+      <m:mi>η</m:mi>
+      <m:mi>a</m:mi>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mi>b</m:mi>
+    </m:msup>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mi>c</m:mi>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">Neglecting "K" as it is dimensionless and putting dimensional formulas of each quantity, we have :
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mi>a</m:mi>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mi>b</m:mi>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mo>]</m:mo>
+      <m:mi>c</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-85">Applying indices law and rearranging, we have :
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mi>a</m:mi>
+    </m:msup>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>b</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-87">For dimensional consistency as required by the principle, the powers of individual basic quantities should be equal. Hence,
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">Combining first and second equations, we have :
+</para>
+<para id="element-92a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">Combining first and third equations, we have :
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-97">Hence, <m:math>
+  <m:mrow>    
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>,</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>. Now putting values in the equation for the force,
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>K</m:mi>
+    <m:mi>η</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99"><term>Note : </term> It is evident that we can not determine the constant, “K”, using dimensional analysis. It is found experimentally to be equal to “6π”. Hence, Stoke’s law for viscous drag is written as :
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>η</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<para id="element-101">This example highlights the limitations of dimensional analysis. First, we notice that it is not possible to evaluate constant by dimensional analysis. Further, numbers of basic quantities involved in the dimensional formula determine the numbers of equations available for simultaneous evaluation. As such, it is required that the numbers of variables (quantities) involved should be less than or equal to numbers of basic quantities involved in the dimensional formula. If the quantity pertains to mechanics, then numbers of variable (quantities) should be limited to "3" at the most. In the example of viscous force, had there been fourth variable (quantity), then we would not be able to solve simultaneous equations.
+</para>
+
+<para id="element-103">It can also be seen that dimensional analysis can <term>not</term> be applied in situation, where there are more than one term like in the case of 
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+        <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+        <m:mo>+</m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+      <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn> 2 </m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. We can not derive this equation as dimensional analysis will yield one of two terms - not both simultaneously. 
+</para>
+
+</section>
+</section>
+
+
+
+
+
+
+<section id="section-7">
+<title>Exercises</title>
+
+<para id="element-4517">
+<exercise id="exercise-4517">
+<problem id="id1172733530452">
+<para id="element-4438">Determine the dimension of expression,
+</para>
+<para id="element-4439">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>h</m:mi>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4440">where “e” is electronic charge, “
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+” is absolute permittivity of vacuum, “c” is the speed of light.
+</para>
+</problem>
+
+<solution id="id1172733530550">
+<para id="element-4442">We can break up the ratio as :
+</para>
+<para id="element-4443">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>h</m:mi>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>h</m:mi>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4444">It is advantageous to use the expression of potential energy of two electrons system to evaluate the first term. The potential energy of two electrons system is :
+</para>
+<para id="element-4445">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4446">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+
+    <m:mi>U</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4446a">
+Neglecting dimensionless constants,
+</para>
+<para id="element-4446b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>U</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>L</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4447">The expression “hc” is related to energy of a photon as :
+</para>
+<para id="element-4448">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>h</m:mi>
+        <m:mi>c</m:mi>
+      </m:mrow>
+      <m:mi>λ</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4449">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>h</m:mi>
+    <m:mi>c</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4450">Putting dimensions as calculated in the original expression,
+</para>
+<para id="element-4451">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>h</m:mi>
+        <m:mi>c</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4452">
+Thus, given expression is dimensionless.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-4518">
+<exercise id="exercise-4518">
+<problem id="id1172733531440">
+<para id="element-4453">Pressure in a gas filled container is given by the equation :
+</para>
+<para id="element-4454">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>b</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4455">where “a” and “b” are constants, “t” is temperature and “h” is the height. Find the dimension of ratio “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+”.
+</para>
+</problem>
+
+<solution id="id1172733531542">
+
+
+<para id="element-4456">We can find the dimension of the constant “a” by applying principle of homogeneity, appearing in the numerator of the given expression. Hence,
+</para>
+<para id="element-4457">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>K</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4458">The dimension of the sum of quantities in numerator is equal to the dimension of individual term. It means that :
+</para>
+<para id="element-4459">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>K</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4460">Now, 
+</para>
+<para id="element-4461">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>P</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>b</m:mi>
+        <m:mi>h</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4462">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+          <m:mo>[</m:mo>
+          <m:mi>P</m:mi>
+          <m:mi>h</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4463">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>K</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mfrac>
+          <m:mi>F</m:mi>
+          <m:mi>A</m:mi>
+        </m:mfrac>
+        <m:mi>h</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>K</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>M</m:mi>
+              <m:mi>L</m:mi>
+              <m:msup>
+                <m:mi>T</m:mi>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:mrow>
+          <m:msup>
+            <m:mi>L</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mfrac>
+        <m:mi>X</m:mi>
+        <m:mi>L</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4464">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>K</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>     
+</para>
+<para id="element-65">The dimension of the ratio “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+” is :
+</para>
+<para id="element-4466">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>K</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mi>M</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>K</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-4527">
+<exercise id="exercise-4527">
+<problem id="id1172733532274">
+<para id="element-4477">If velocity, time and force were chosen as basic quantities, then find the dimension of mass, length and work.
+</para>
+</problem>
+<solution id="id1172733532292">
+<para id="element-4478"> Here, the basic quantities of the system are assumed to be different than that of SI system. We see here that mass can be linked to force, using equation of motion,
+</para>
+<para id="element-4479">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Force </m:mi>
+    <m:mo>=</m:mo>
+    <m:mtext>mass X acceleration</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+	    <m:mtext>mass X velocity</m:mtext>
+      </m:mrow>
+	    <m:mtext>time</m:mtext>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4480">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+	    <m:mtext>mass</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+	  	    <m:mtext>force X time</m:mtext>
+      </m:mrow>
+      <m:mrow>
+	  	    <m:mtext>velocity</m:mtext>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4481">Each of the quantities on the right hand is the basic quantity of new system. Let us represent new basic quantities by first letter of the quantities in capital form as :
+</para>
+<para id="element-4482"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>mass</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:msup>
+      <m:mi>V</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>T</m:mi>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4483">Similarly, we can dimensionally link length to basic quantities, using definition of velocity.
+</para>
+<para id="element-4484">
+<m:math display="block">
+  <m:mrow>
+	  	    <m:mtext>velocity</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+	  	    <m:mtext>displacement</m:mtext>
+      </m:mrow>
+      <m:mrow>
+	  	    <m:mtext>time</m:mtext>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+	  	    <m:mtext>length</m:mtext>
+      </m:mrow>
+      <m:mrow>
+	  	    <m:mtext>time</m:mtext>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4485">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+	  	    <m:mtext>length</m:mtext>
+    <m:mo>=</m:mo>
+		  	    <m:mtext>velocity X time</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4486">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+	  	    <m:mtext>length</m:mtext>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>V</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4487">Now, work is given as :
+</para>
+<para id="element-4488">
+<m:math display="block">
+  <m:mrow>
+	  	    <m:mtext>work</m:mtext>
+    <m:mo>=</m:mo>
+	  	    <m:mtext>force X displacement</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4489">Dimensionally,
+</para>
+<para id="element-4490">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+	  	    <m:mtext>work</m:mtext>
+    <m:mo>=</m:mo>
+	  	    <m:mtext>force X length</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4491">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+	  	    <m:mtext>work</m:mtext>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>V</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>V</m:mi>
+    <m:mi>T</m:mi>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-4521">
+<exercise id="exercise-4521">
+<problem id="id1172733532811">
+<para id="element-92">  If the unit of force were kilo-newton, that of time milli-second and that of power kilo-watt, then find the units of mass and length.
+</para>
+</problem>
+
+<solution id="id1172733532830">
+<para id="element-4493">We are required to find the units of mass and length in terms of the newly defined units. 
+</para>
+<para id="element-4494">We need to first find dimensional expression of the quantity as required in terms of units defined in the question. We see that dimensional formula of physical quantities as basic units are :
+</para>
+<para id="element-4495">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4496">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4497">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>P</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:msup>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4498">Dividing dimensional formula of “P” by “F”, we have :
+</para>
+<para id="element-4499">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>P</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>F</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>M</m:mi>
+          <m:mi>L</m:mi>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+    <m:mi>L</m:mi>
+    <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44100">As we are required to know the units of length, its dimension in new units are :
+</para>
+<para id="element-44101">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>P</m:mi>
+        <m:mi>T</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>F</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>        
+</para>
+<para id="element-44102">
+In order to find the unit of “L” in terms of new system, we have :
+</para>
+<para id="element-44103">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>P</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>T</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>P</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44104">We should note here that subscript “1” denotes new system of units, which comprises of force, time and power as basic dimensions. Hence,
+</para>
+<para id="element-44105">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>W</m:mi>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+
+
+        <m:mi>s</m:mi>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:mn>1</m:mn>
+        <m:mi>N</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mn>1</m:mn>
+        <m:mi>W</m:mi>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:mn>1</m:mn>
+
+        <m:mi>s</m:mi>
+        <m:mo>]</m:mo>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>N</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44106">Hence, length has the unit of length,
+</para>
+<para id="element-44107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44108">From the dimensional formula of force, we have : 
+</para>
+<para id="element-44109">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>[</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>L</m:mi>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44110">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>F</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mi>L</m:mi>
+        <m:msup>
+          <m:mi>T</m:mi>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>N</m:mi>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mn>3</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:mi>m</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mn>10</m:mn>
+                <m:mrow>
+                  <m:mo>−</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>    
+</para>
+<para id="element-44111">Hence, unit of mass is "1 kg".
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+</section>
+
+
+
+
+ 
+  </content>
+  
+</document>

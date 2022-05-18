@@ -1,0 +1,966 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rocket</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5908ee2d-c0c5-4165-b8ba-d44fdaa967b3</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Space investigation revolves around this complicated machine. Our consideration in this module, however, is limited to the governing laws that broadly guide this piece of engineering marvel to destinations that we could not have imagined. We shall, therefore, study motion of a rocket from the perspective of physical laws only – not the sophisticated technology otherwise associated with it.
+</para>
+<para id="element-2">A rocket is known to gain quick acceleration and speed. It achieves outstanding speed good enough to propel itself beyond the influence of gravity and into the space that is being actively probed since its advent. 
+</para>
+<para id="element-3">The rocket attains speed by ejecting high speed gas through exhaust nozzles. This results in a force termed as “thrust” (we studied about this force in previous module). Along the way, the rocket keeps loosing mass, while it is accelerated against air resistance and gravitational pull. These opposing forces gradually vanish as it reaches sufficient distance away from Earth.
+</para>
+<para id="element-4">It is apparent from the description of the motion so far that a good part of rocket mass is fuel. If the time rate of gas ejection is constant, then the same thrust would propel rocket with increasing acceleration (because of reduced mass) with the progress of motion through the space. 
+</para>
+<para id="element-5">
+In this module, we would establish working relations to determine speed, thrust and time rate of ejection. We shall, though, restrict ourselves to linear motion of rocket in one dimension to keep the description simple. 
+</para>
+<section id="section-1">
+<title> Motion of a rocket </title>
+<para id="element-6">Conservation of linear momentum provides appropriate analysis framework for analyzing motion of a rocket. 
+</para>
+<para id="element-7">The important difference in the approach here vis-a-vis application of Newton’s second is that we can consider “rocket” and “ejected gas mass” as components of a closed, isolated system. Though, the mass of the rocket is varying with time, but the mass of the “rocket – gas mass” system is constant. This fact eliminates the complexity resulting from varying mass.
+</para>
+<para id="element-8">
+It is easy to visualize that “thrust” on the rocket should be greater than forces like gravity and air resistance, which are opposing its motion. Since rocket acquires great enough velocity and goes beyond the influence of opposing forces quickly, it is intuitive to study motion in ideal condition, when no external force other than “thrust” operates on it. This enables us to draw a base case, which can be appropriately modified by taking other external forces into account, if so required.
+</para>
+
+<para id="element-10">Thus, system is closed and isolated. The net external force is zero. As such, the linear momentum of the system is conserved. 
+</para>
+<para id="element-11">For the analysis of the motion of a rocket, we shall make few simplifying assumptions :
+</para>
+<para id="element-12">
+<list id="list-12" list-type="bulleted">
+<item> There is no external force like gravity and air resistance. </item>
+<item> The motion is taking place in one dimension. </item>
+<item> Fuel is consumed at constant rate.  </item>
+<item> Gas is ejected at constant relative velocity with respect to rocket. </item>
+</list>
+</para>
+<section id="section-1a">
+<title> Reference to different velocities </title>
+<para id="element-14">Conventionally, we represent velocity of rocket with respect to ground by symbol “v”, velocity of escaping gas with respect to ground by “u” and relative velocity of rocket with respect to escaping gas by “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. Also, we consider the direction of motion of rocket as the reference direction (x –direction).
+</para>
+<para id="element-15">The absolute velocities of the rocket and ejected gas mass are shown in the figure :
+</para>
+<para id="element-16">
+<figure id="fig-16">
+<title> Absolute velocities </title>
+<media id="idp6460176" alt=""><image src="../../media/r1-597f.gif" mime-type="image/gif"/></media>
+<caption> The velocities of rocket and ejected gas mass are shown with respect to ground.</caption>
+</figure>
+</para>
+<para id="element-17">The relative velocity of rocket with respect to escaping gas is equal to difference of absolute velocities with respect to ground. It may also be emphasized here that relative velocity of rocket with respect to escaping gas and relative velocity of escaping gas with respect to rocket are equal and opposite to each other. 
+</para>
+</section>
+<section id="section-1b">
+<title> Time rate of change in mass </title>
+<para id="element-18">The expression “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+” is time rate of change in the mass of the rocket. Since final mass of the rocket is less than initial mass during a small time interval “dt”, the time rate of change is essentially a negative quantity. We should note that mass is an unsigned scalar, which can not be negative. However, change in mass can be negative. Clearly, the mass of rocket, after a small time interval, is "m+dm" -  not "m-dm". The masses of two components of system are shown in the figure.
+</para>
+<para id="element-19">
+<figure id="fig-19">
+<title> Change in mass </title>
+<media id="idp10854944" alt=""><image src="../../media/r2-8c4f.gif" mime-type="image/gif"/></media>
+<caption> The change in the mass of the rocket with time is negative.</caption>
+</figure>
+</para>
+</section>
+<section id="section-1c">
+<title> Conservation of linear momentum </title>
+<para id="element-20">We analyze motion of “rocket and ejected mass” system in the inertial frame of reference of ground. There is no difficulty in the interpretation as system is a single entity without any variation in mass.
+</para>
+<para id="element-21">At a given instant, t = t, let “m” be the mass of the rocket and “v” be the velocity of the rocket. 
+</para>
+<para id="element-22">We, now, consider the situation at a time instant t’ = t + dt, after a small time interval, “dt”. Let “m+dm” be the mass of the rocket, v+dv be the absolute velocity of the rocket with respect to ground, “-dm” be the mass of the ejected gas and “u” be the absolute velocity of the gas mass with respect to ground.
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Velocities of the components of the system </title>
+<media id="idp8784160" alt=""><image src="../../media/r3-b4c0.gif" mime-type="image/gif"/></media>
+<caption> Velocity of rocket increases with time.</caption>
+</figure>
+</para>
+<para id="element-24">Now, applying conservation of linear momentum, we have :
+</para>
+<para id="element-24a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>+</m:mo>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>+</m:mo>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>u</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">This form of equation, however, is not very useful as it consists of absolute velocity of escaping gas, which is variable and is difficult to be measured. We need to convert this velocity in terms of relative velocity of rocket with respect to ejected mass (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+) and the velocity of the rocket (v). 
+</para>
+<para id="element-26">
+The relative velocity of rocket with respect to ejected gas is equal to the magnitude of relative velocity of ejected mass with respect to rocket. This later velocity i.e. relative velocity of ejected mass with respect to rocket is actually the velocity that can be calibrated for different time rates of mass ejection at the ground.  
+</para>
+<para id="element-27">
+From consideration of relative motion, we know that
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>u</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">In the figure, negative of the velocity of gas mass is applied to both components of the system to obtain relative velocity of the rocket with respect to ejected gas mass.
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Relative velocity of the rocket </title>
+<media id="idm1042048" alt=""><image src="../../media/r4.gif" mime-type="image/gif"/></media>
+<caption> Relative velocity is obtained by subtracting velocities.</caption>
+</figure>
+</para>
+<para id="element-30a">Rearranging, we have :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+Substituting this expression for “u” in the equation of conservation of linear momentum, we have :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>+</m:mo>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>+</m:mo>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>+</m:mo>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>v</m:mi>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>−</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">Dividing both sides by “dt”, we have :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">We have discussed the expression on the right hand side of the equation in the module named “Force and invariant mass”. This term was found to be the “cause” element in Newton’s second law of motion known as “thrust”. The thrust, “T”, is a force that results from exchange of mass between rocket and its surrounding. It acts on the rocket in the direction opposite to the direction in which gas escapes from the rocket i.e. in the direction of motion of the rocket. 
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">This equation is the governing expression for the motion of a rocket in the absence of other external forces. 
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title> Rocket parameters </title>
+<para id="element-43">
+A rocket is usually designed for different uniform time rates of change in mass (
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+). by This rate, in turn, determines (i) fuel consumption rate (ii) velocity with which gas is ejected for given nozzle size (iii) thrust on the rocket and (iv) velocity of the rocket. 
+</para>
+<section id="section-2a">
+<title> Fuel consumption rate </title>
+<para id="element-44">We have seen that time rate of change in mass is a negative quantity. On the other hand, we report fuel consumption with a positive number like 1 kg/s or so. Negative number, as we can see, does not make sense in reporting fuel consumption rate. It is, therefore, imperative that we define fuel consumption rate, “r”, as negative of time rate of change in mass i.e.
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">The equation of rocket can be written in terms of fuel consumption rate as :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2b">
+<title> Velocity of a rocket </title>
+<para id="element-48">
+We have established relation for thrust in terms of relative velocity of rocket and time rate of change in mass. Yet another interesting aspect to know about rocket would be the velocity of rocket for a given set of design parameters. In order to find the same, we need to have another close look at the governing expression of the rocket,
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">The important thing to emphasize here is that acceleration “a” is the acceleration of the rocket and as such is equal to the time rate of change of velocity of the rocket – not the time rate of change of relative velocity. Rewriting the equation,
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">Rearranging,
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mo>ⅆ</m:mo>
+      <m:mi>v</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53a">Integrating both sides of the equation,
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mrow>
+      <m:mo>ⅆ</m:mo>
+      <m:mi>v</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>∫</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">As pointed out, rocket design considers uniform ejection rate and relative velocity. Hence, we can take “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” term out of the integral. Now, integrating both sides between initial and final values, we have :
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:msubsup>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:msubsup>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>ln</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>ln</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">Converting natural logarithm to the base “10”, we have :
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2.303</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>log</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">If initial velocity is zero and final velocity, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+, then velocity of rocket, “v”, is given as :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.303</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>log</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">We should note here that 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ &lt; 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+. Hence, ratio “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+” is greater than "1". Its logarithm is positive. 
+</para>
+</section>
+<section id="section-2c">
+<title> Multistage rocket system </title>
+<para id="element-64">The expression of velocity of a rocket as derived is :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.303</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>log</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">This expression is indicative of one important aspect about the motion of rocket. The motion of the rocket can be increased in two ways (i) by increasing gas ejection velocity, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”  and (ii) by reducing mass of the rocket, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. The first factor is the primary cause of motion. We can not impart acceleration and velocity to a standstill rocket by removing a part of it. However, if the rocket has acquired certain velocity, then it is possible to increase velocity of the rocket by merely dislodging unnecessary part (mass), therefore reducing final mass at any time.
+</para>
+<para id="element-67">This is what is achieved in the multi – stage rocket system. Fuel load is divided in different segments. Once the fuel is exhausted, then that segment is dislodged successively.
+</para>
+</section>
+<section id="section-2d">
+<title> Other external force(s) </title>
+<para id="element-68">We are now equipped to analyze motion of a rocket with external force other than thrust. Analyzing air resistance is complicated as it depends on many factors including velocity of the rocket. This aspect is beyond the scope of this module. The effect of force due to gravity, in the range in which acceleration due to gravity is considered constant, is relatively easy to assess. 
+</para>
+<para id="element-69">As pointed out earlier in the module named "Force and invariant mass",
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">Gravity acts downward – opposite to the direction of motion of a vertically moving rocket. Hence, 
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">We should be careful in using this relation. This relation is valid for a given instant, when mass of the rocket is “m”. Generally, we know the initial mass and as such this relation can be used to determine acceleration of the rocket in the beginning of motion of rocket fired from the ground or from near the ground.
+</para>
+</section>
+</section>
+  </content>
+  
+</document>

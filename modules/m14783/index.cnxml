@@ -1,0 +1,916 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Pulleys (application - II)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>2e2ce427-b519-4968-aa36-57b4688b42b9</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to pulleys. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Change of force direction  
+</item>
+<item> External force on pulley system
+</item>
+
+<item> Horizontal pulley system 
+</item>
+<item> 
+Vertical pulley system
+</item>
+<item> 
+Incline and pulley system
+</item>
+</list>
+</para>
+</section>
+<section id="section-3">
+<title> Change of force direction  
+</title>
+<para id="element-6"><term>Problem 1 : </term>
+A person is pulling a block of 50 kg at a uniform speed with the help of a pulley and rope arrangement as shown in the figure. If the person weighs 60 kg, find the normal force that the person exerts on the surface underneath.
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> Change of force direction </title>
+<media id="idm6076096" alt=""><image src="../../media/wpq9.gif" mime-type="image/gif"/></media>
+<caption> Applied force is opposite to the direction of force lifting the block.</caption>  
+</figure>
+</para>
+<para id="element-8"><term>Solution : </term> In order to find normal force applied by the person on the surface underneath, we need to carry out force analysis of the external forces on the person. The surface and the person apply normal force on each other, which is equal in magnitude but opposite in direction. The forces on the person are (i) weight, “mg”, acting downward (ii) normal force, “N”, acting upward and (iii) tension, “T”, acting upward.
+</para>
+<para id="element-9">The free body diagram of the person is shown on the right side of the figure shown below.
+</para>
+<para id="element-974"><figure id="fig-974"><title> Free body diagrams </title>
+<media id="idm9420608" alt=""><image src="../../media/wpq10.gif" mime-type="image/gif"/></media>
+<caption> Free body diagrams of block and boy are shown. </caption> 
+</figure></para><para id="element-10"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo> ⇒ </m:mo> 
+    <m:mi>T</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>60</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>600</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-14">It is clear that we would need the value of tension, “T”, to solve the equation for the normal force. We can find the value of “T” by considering the FBD of the block being raised. The FBD of the block is shown on the left side of the figure above. Note that we consider that person is raising the block without acceleration (at uniform velocity as given in the question).
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>50</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>50</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>50</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>500</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-18">Putting this value in the equation for normal force, we have :
+</para>
+<para id="element-19"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>600</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>600</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>500</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>100</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title> External force on pulley system
+</title>
+<section id="section-4a">
+<para id="element-20"><term>Problem 2 : </term> In the arrangement shown in the figure, the strings are taught initially. An external force of 600 N is applied in the vertically upward direction. Considering strings and pulleys to be “mass – less” and all contacts without friction, determine the accelerations of the blocks. 
+</para>
+<para id="element-21">
+<figure id="fig-21">
+<title> External force on pulley </title>
+<media id="idm6487456" alt=""><image src="../../media/wpq1.gif" mime-type="image/gif"/></media>
+<caption> External force of 600 N acts upwards on the topmost pulley. </caption> 
+</figure>
+</para>
+<para id="element-22"><term>Solution : </term> The forces on each of the blocks are (i) weight of the block (ii) tension in the string and (iii) normal force. 
+</para>
+<para id="element-23">When a block is lifted, the normal force becomes zero as the contact between surfaces is broken. The external forces on the block are, then, only two, comprising of its weight and tension in the string. It is, therefore, clear that we need to know the tension in the string to know the accelerations of the blocks.
+</para>
+<para id="element-24">
+Let "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" be the tensions in the two strings as shown in the figure.
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> External force on pulley  </title>
+<media id="idp3194256" alt=""><image src="../../media/wpq2.gif" mime-type="image/gif"/></media>
+<caption> Forces on the elements of the system are shown. </caption> 
+</figure>
+</para>
+<para id="element-26">As the pulleys are “mass – less”, we have following force relations,
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>600</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>300</m:mn>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>T</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>300</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>150</m:mn>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">On the other hand, weights of the blocks are 100 N and 200 N. Since tension in the string is 150 N, only block of 10 kg with weight 100 N will move up. The other block will remain stationary. Force analysis on the mass of 10 kg in shown on the right hand side of the figure shown above. The acceleration of the block of mass 10 kg is :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>T</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>150</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>10</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4b">
+<para id="element-31"><term>Problem 3 : </term> Two blocks of mass 1 kg and 2 kg are connected with a string that passes over a “mass – less” pulley. A time dependent force "F = 20 t" acts on the pulley as shown. Find the time when the block of mass 1 kg looses contact from the floor.   
+</para>
+<para id="element-32">
+<figure id="fig-32">
+<title> External force on pulley </title>
+<media id="idm5050064" alt=""><image src="../../media/wpq3.gif" mime-type="image/gif"/></media>
+<caption> A variable force acts upwards on the pulley. </caption> 
+</figure>
+</para>
+<para id="element-33"><term>Solution : </term>The block of mass 1 kg is about to be lifted when tension in the string is equal to the weight of the block such that normal force between the surfaces becomes zero. This means that :
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> External force on pulley </title>
+<media id="idm7030960" alt=""><image src="../../media/wpq4.gif" mime-type="image/gif"/></media>
+<caption> A variable force acts upwards on the pulley. </caption> 
+</figure>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">On the other hand, the analysis of force on the pulley, "A", yields,
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>20</m:mn>
+        <m:mi>t</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+Equating two equations, we have :
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-5">
+<title> Horizontal pulley system 
+</title>
+<para id="element-43"><term>Problem 4 : </term>In the arrangement shown in the figure, the block “A” moves with a velocity 4 m/s towards right. The string and the pulleys are “mass-less” and friction is absent everywhere. What is relative velocity of block “B” with respect to “A”?
+</para>
+<para id="element-44">
+<figure id="fig-44">
+<title> Horizontal pulley system  </title>
+<media id="idm4597632" alt=""><image src="../../media/wpq5.gif" mime-type="image/gif"/></media>
+<caption> Pulley and block system. </caption> 
+</figure>
+</para>
+<para id="element-45"><term>Solution : </term>The blocks are connected by a single string, which is intervened by two pulleys. We can connect velocities of blocks, if we have constraint relation for the length of string. First differentiation of the constraint relation will yield the required relation between velocities.
+</para>
+<para id="element-46">Since the pulleys are connected to blocks as their part (their relative positions do not change due to motion), we treat block and the attached pulley as a single entity, whose positions are same. Following the procedure for writing constraint relation, we select the fixed end of the string as the reference point. 
+</para>
+<para id="element-47">
+<figure id="fig-47"><title> Constraint relation  </title>
+<media id="idm3612832" alt=""><image src="../../media/wpq6a.gif" mime-type="image/gif"/></media>
+<caption> Positions of moving parts from a fixed point. </caption> 
+</figure>
+</para>
+<para id="element-48">
+From the figure,
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>3</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+Differentiating w.r.t time, we have :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>3</m:mn>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">There is an important subtle point here. The positions of blocks are on either side of the reference point (not on the same side as usually is the case). If positive direction of reference x-direction is towards right as shown in the figure, then velocities of  two blocks are :
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">Substituting in the equation, we have :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>3</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-265">The sign of this relation (positive) denotes that velocities of blocks "A" and "B" are both in the reference direction of x-axis. </para><para id="element-59">
+Relative velocity of “B” with respect to “A” is :
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mtext>towards right</m:mtext>
+      </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6">
+<title> Vertical pulley system 
+</title>
+<para id="element-61"><term>Problem 5 : </term>
+A ball and rod of mass “m” and “nm” respectively are held in positions as shown in the figure. The friction is negligible everywhere and mass of the pulleys and the strings are also negligible. At a certain time, the ball and rod are released simultaneously. If the length of the rod is “L”, what time would the ball take to reach the other end of the rod. Consider "n &gt; 1".
+</para>
+<para id="element-62">
+<figure id="fig-62">
+<title> Vertical pulley system  </title>
+<media id="idm3188192" alt=""><image src="../../media/wpq7.gif" mime-type="image/gif"/></media>
+<caption> A ball travels past a vertical rod. </caption> 
+</figure>
+</para>
+<para id="element-63"><term>Solution : </term>The ball and the moving pulley are connected through the same string that goes over a fixed pulley. As such, their accelerations are same. Now, the rod is hanging from a string that passes over the moving pulley and its other end is attached to a fixed point. From the constrain relation as worked out in the subject module <link document="m14060" target-id="section-2">Pulleys</link>, we know that acceleration of the rod is twice that of the moving pulley. Hence, we can conclude that acceleration of the rod is twice as that of the ball. Let us, then, consider that ball and rod move with accelerations “a” and “2a” respectively.
+</para>
+<para id="element-64">As the rod moves down (n &gt;1), the ball moves up. The motions are in opposite direction. Since two elements are moving in opposite directions, the relative acceleration is arithmetic sum “a + 2a = 3a”. Now, using equation of motion for constant acceleration, we have :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>L</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mi>a</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    <m:mo>)</m:mo>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">In order to evaluate this expression, we need to know acceleration “a”. From the free body diagram of the moving pulley, we note that the tension in the string attached to ball is twice the tension in the string attached to the rod. 
+</para>
+<para id="element-68">
+<figure id="fig-68">
+<title> Vertical pulley system  </title>
+<media id="idm8048208" alt=""><image src="../../media/wpq8.gif" mime-type="image/gif"/></media>
+<caption> Forces on the elements of the system. </caption> 
+</figure>
+</para>
+<para id="element-69">The free body diagram of the ball and the rod are shown on the right side of the above figure. The force analysis in the vertical directions yields following relations :
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">
+Multiplying first equation by “2” and eliminating “T”, we have :
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>n</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>4</m:mn>
+            <m:mi>n</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">
+Putting this value in the expression of time, we have :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>L</m:mi>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>4</m:mn>
+                <m:mi>n</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>n</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:mfenced>
+            <m:mi>g</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    <m:mo>)</m:mo>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+  </content>
+  
+</document>

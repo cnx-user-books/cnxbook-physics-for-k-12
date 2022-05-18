@@ -1,0 +1,1747 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Vector (cross) product</title>
+  <metadata>
+  <md:content-id>m13603</md:content-id><md:title>Vector (cross) product</md:title>
+  <md:abstract>Vector multiplication provides concise and accurate representation of natural laws, which involve vectors.</md:abstract>
+  <md:uuid>d9fe1705-f81c-43dd-abe6-da41ec629391</md:uuid>
+</metadata>
+
+<content>
+
+<para id="element-48">
+The cross product of two vectors <term>a</term> and <term>b</term> is a third vector. The magnitude of the vector product is given by the following expression :
+</para>
+
+<para id="element-49"><equation id="equation-49"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> c </m:mi>
+  <m:mo> | </m:mo>
+  <m:mo> = </m:mo>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-50">
+where θ is the smaller of the angles between the two vectors. It is important to note that vectors have two angles θ and 2π - θ. We should use the smaller of the angles as sine of  θ and 2π - θ are different. 
+</para>
+<para id="element-50a">If "<term>n</term>" denotes unit vector in the direction of vector product, then
+</para>
+<para id="element-50b">
+<equation id="equation-50b"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> c </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> n </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<section id="section-1a">
+<title> Direction of vector product </title>
+
+<para id="element-51">The two vectors (<term>a</term> and <term>b</term>) define an unique plane. The vector product is perpendicular to this plane defined by the vectors as shown in the figure below. The most important aspect of the direction of cross product is that it is independent of the angle, θ, enclosed by the vectors. The enclosed angle , θ, only impacts the magnitude of the cross product and not its direction.
+</para>
+
+<para id="element-52">
+<figure id="fig52">
+<title> Direction of vector product </title>
+<media id="id11239221" alt=""><image src="../../media/vm4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-53">Incidentally, the requirement for determining direction suits extremely well with rectangular coordinate system. We know that rectangular coordinate system comprises of three planes, which are at right angles to each other. It is, therefore, easier if we orient our coordinate system in such a manner that vectors lie in one of the three planes defined by the rectangular coordinate system. The cross product is, then, oriented in the direction of axis, perpendicular to the plane of vectors.
+</para>
+<para id="element-54">
+<figure id="fig54">
+<title> Direction of vector product </title>
+<media id="id9708829" alt=""><image src="../../media/vm5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-55">As a matter of fact, the direction of vector product is not yet actually determined. We can draw the vector product perpendicular to the plane on either of the two sides. For example, the product can be drawn either along the positive direction of y – axis or along the negative direction of y-axis (See Figure below).
+</para>
+
+<para id="element-56">
+<figure id="fig56">
+<title> Direction of vector product </title>
+<media id="id11984362" alt=""><image src="../../media/vm6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-57">The direction of the vector product, including which side of the plane, is determined by right hand rule for vector products. According to this rule, we place right fist such that the curl of the fist follows as we proceed from the first vector, <term>a</term>, to the second vector, <term>b</term>. The stretched thumb, then gives the direction of vector product.
+</para>
+<para id="element-58">
+<figure id="fig58">
+<title> Direction of vector product </title>
+<media id="id11371424" alt=""><image src="../../media/vm7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-59">When we apply this rule to the case discussed earlier, we find that the vector product is in the positive y – direction as shown below :
+</para>
+<para id="element-60">
+<figure id="fig60">
+<title> Direction of vector product </title>
+<media id="id11033522" alt=""><image src="../../media/vm8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-61">Here, we notice that we move in the anti-clockwise direction as we move from vector, <term>a</term>, to vector, <term>b</term>, while looking at the plane formed by the vectors. This fact can also be used to determine the direction of the vector product. If the direction of movement is anticlockwise, then the vector product is directed towards us; otherwise the vector product is directed away on the other side of the plane.
+</para>
+<para id="element-62">It is important to note that the direction of cross product can be on a particular side of the plane, depending upon whether we take the product from <term>a</term> to <term>b</term> or from <term>b</term> to <term>a</term>. This implies :
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> ≠ </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">Thus, vector product is not commutative like vector addition. It can be inferred from the discussion of direction that change of place of vectors in the sequence of cross product actually changes direction of the product such that :
+</para><para id="element-279"><equation id="equation-279">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+
+<section id="section-1b">
+<title> Values of cross product </title>
+<para id="element-65">The value of vector product is maximum for the maximum value of sinθ. Now, the maximum value of sine is sin 90° = 1. For this value, the vector product evaluates to the product of the magnitude of two vectors multiplied. Thus maximum value of cross product is :
+</para>
+
+<para id="element-148"><equation id="equation-148"><m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:msub>
+						<m:mrow>
+							<m:mo> ( </m:mo>
+							<m:mi mathvariant="bold"> a </m:mi>
+					<m:mo> × </m:mo>							<m:mi mathvariant="bold"> b </m:mi>
+							<m:mo> ) </m:mo>
+						</m:mrow>
+						<m:mi> max </m:mi>
+					</m:msub>
+					<m:mo> = </m:mo>
+					<m:mi> a </m:mi>
+					<m:mi> b </m:mi>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</equation></para>
+
+
+
+
+
+
+
+
+<para id="element-70">The vector product evaluates to zero for θ = 0° and 180° as sine of these angles are zero. These results have important implication for unit vectors. The cross product of same unit vector evaluates to 0.
+</para>
+
+<para id="element-71"><equation id="equation-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mn> 0 </m:mn>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-72">
+The cross products of combination of different unit vectors evaluate as :
+</para>
+
+<para id="element-73"><equation id="equation-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> ; </m:mo>
+
+
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> ; </m:mo>
+
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> ; </m:mo>
+
+
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> ; </m:mo>
+
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+   <m:mo> - </m:mo>
+   <m:mi mathvariant="bold"> j </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation></para>
+
+<para id="element-74">There is a simple rule to determine the sign of the cross product. We write the unit vectors in sequence <term>i</term>,<term>j</term>,<term>k</term>. Now, we can form pair of vectors as we move from left to right like <term>i</term> x <term>j</term>, <term>j</term> x <term>k</term> and right to left at the end like <term>k</term> x <term>i</term> in cyclic manner. The cross products of these pairs result in the remaining unit vector with positive sign. Cross products of other pairs result in the remaining unit vector with negative sign.
+</para>
+
+</section>
+
+<section id="section-1c">
+<title> Cross product in component form</title>
+
+<para id="element-75">
+Two vectors in component forms are written as :
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-77">
+In evaluating the product, we make use of the fact that multiplication of the same unit vectors gives the value of 0, while multiplication of two different unit vectors result in remaining vector with appropriate sign. Finally, the vector product evaluates to vector terms :
+</para>
+<para id="element-78"><equation id="equation-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> ) </m:mo>
+
+  <m:mo> × </m:mo>
+  <m:mo> ( </m:mo>
+
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> ) </m:mo>
+
+     </m:mtd>
+   </m:mtr>
+
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mo> ⇒ </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+ <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> × </m:mo>
+
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> × </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> × </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+
+  <m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> × </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+
+<m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> × </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+<m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> × </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+
+
+
+
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+
+  <m:mo> ⇒ </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> - </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> - </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> + </m:mo>
+
+   <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+
+   <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> - </m:mo>
+
+
+   <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+
+
+   <m:mtr>
+     <m:mtd>
+
+  <m:mo> ⇒ </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mo> - </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mo> ) </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+
+
+   <m:mo> ( </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mo> - </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mo> ) </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+
+  <m:mo> ( </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mo> - </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mo> ) </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+
+
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation></para>
+
+<para id="element-79">Evidently, it is difficult to remember above expression. If we know to expand determinant, then we can write above expression in determinant form, which is easy to remember.
+</para>
+<para id="element-80"><equation id="equation-80">
+<m:math display="block">
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+
+       <m:mrow> 
+        <m:mo> | </m:mo>
+      <m:mtable>
+        <m:mtr>
+          <m:mtd>
+            <m:mi mathvariant="bold">i</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">j</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">k</m:mi>
+          </m:mtd>
+        </m:mtr>
+        <m:mtr>
+          <m:mtd>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+          </m:mtd>
+        </m:mtr>
+
+        <m:mtr>
+          <m:mtd>
+
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+          </m:mtd>
+        </m:mtr>
+
+      </m:mtable>
+        <m:mo> | </m:mo>
+      </m:mrow>
+</m:math>
+</equation></para>
+
+<para id="element-81">
+<exercise id="exercise-81">
+<problem id="id9716618">
+<para id="element-82">
+If <term>a</term> = 2<term>i</term> + 3<term>j</term> and <term>b</term> = -3<term>i</term> – 2<term>j</term>, find <term>A</term> x <term>B</term>.
+</para>
+</problem>
+
+<solution id="id13556822">
+<para id="element-83">
+<m:math display="block">
+      <m:mtable columnalign="left">
+        <m:mtr>
+          <m:mtd>
+
+
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo> 
+  <m:mn> 2 </m:mn>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> × </m:mo>
+   <m:mo> ( </m:mo> 
+
+  <m:mo> - </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> - </m:mo>
+  <m:mn> 2 </m:mn>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> ) </m:mo>
+
+          </m:mtd>
+        </m:mtr>
+ </m:mtable>
+</m:math>
+</para>
+
+<para id="element-84">
+Neglecting terms involving same unit vectors, we expand the multiplication algebraically as :
+</para>
+
+<para id="element-85"><m:math display="block">
+      <m:mtable columnalign="left">
+        <m:mtr>
+          <m:mtd>
+
+
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mn> 2 </m:mn>
+  <m:mi mathvariant="bold"> i </m:mi>
+   <m:mo> ) </m:mo>
+ <m:mo> × </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mo> - </m:mo>
+  <m:mn> 2 </m:mn>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> ) </m:mo>
+
+  <m:mo> + </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> × </m:mo>
+  <m:mo> ( </m:mo>  <m:mo> - </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> ) </m:mo>
+
+          </m:mtd>
+        </m:mtr>
+
+
+        <m:mtr>
+          <m:mtd>
+<m:mo> ⇒ </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> - </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> + </m:mo>
+  <m:mn> 9 </m:mn>  
+
+ <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 5 </m:mn>  
+<m:mi mathvariant="bold"> k </m:mi>
+
+
+
+
+          </m:mtd>
+        </m:mtr>
+
+ </m:mtable>
+
+</m:math>
+</para>
+
+
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-86">
+<exercise id="exercise-1">
+<problem id="id10178347">
+<para id="element-87">Consider the magnetic force given as :
+</para>
+<para id="element-88">
+<term>F</term> = q (<term>v</term> x <term>B</term>)
+</para>
+<para id="element-89">Given q = 
+<m:math>
+   <m:msup>
+   <m:mn> 10 </m:mn>
+   <m:mrow>
+   <m:mo> - </m:mo>
+    <m:mn> 6 </m:mn>
+   </m:mrow>
+   </m:msup>
+</m:math>
+C, <term>v</term> = (3<term>i</term> + 4<term>j</term>) m/s, B = 1<term>i</term> Tesla. Find the magnetic force.
+</para>
+</problem>
+
+<solution id="id9806204">
+<para id="element-90"><m:math display="block">
+      <m:mtable columnalign="left">
+        <m:mtr>
+          <m:mtd>
+  <m:mi mathvariant="bold"> F </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> q </m:mi>
+  <m:mo> ( </m:mo>
+  <m:mi mathvariant="bold"> v </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> B </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> = </m:mo>
+  <m:msup>
+  <m:mn> 10 </m:mn>
+  <m:mrow>
+  <m:mo> - </m:mo>
+  <m:mn> 6 </m:mn>
+  </m:mrow>
+  </m:msup>
+  <m:mo> { </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mn> 3 </m:mn>
+
+  <m:mi mathvariant="bold"> i </m:mi>
+   <m:mo> + </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> × </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mo> - </m:mo>
+  <m:mn> 1 </m:mn>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> } </m:mo>
+          </m:mtd>
+        </m:mtr>
+
+        <m:mtr>
+          <m:mtd>
+<m:mo> ⇒ </m:mo>
+  <m:mi mathvariant="bold"> F </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mo> x </m:mo>
+  <m:msup>
+  <m:mn> 10 </m:mn>
+  <m:mrow>
+  <m:mo> - </m:mo>
+  <m:mn> 6 </m:mn>
+  </m:mrow>
+  </m:msup>
+
+  <m:mi mathvariant="bold"> k </m:mi>
+
+
+
+          </m:mtd>
+        </m:mtr>
+
+ </m:mtable>
+
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+</section>
+<section id="section-2">
+<title> Geometric meaning vector product </title>
+
+<para id="element-1">
+In order to interpret the geometric meaning of the cross product, let us draw two vectors by the sides of a parallelogram as shown in the figure. Now, the magnitude of cross product is given by :
+</para>
+<para id="element-1a">
+<figure id="fig-1a">
+<title> Cross product of two vectors </title>
+<media id="id8841429" alt=""><image src="../../media/vm11.gif" mime-type="image/gif"/></media>
+<caption> Two vectors are represented by two sides of a parallelogram.</caption>
+</figure>
+</para>
+
+<para id="element-2">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-3">
+We drop a perpendicular BD from B on the base line OA as shown in the figure. From ΔOAB, 
+</para>
+<para id="element-4">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> OB </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> BD </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5">
+Substituting, we have :
+</para>
+<para id="element-6">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+
+  <m:mo> = </m:mo>
+  <m:mi> OA </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mi> BD </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> Base </m:mi>
+ <m:mspace width="2pt"/>
+ <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mi> Height </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> Area of parallelogram  </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-7">
+It means that the magnitude of cross product is equal to the area of parallelogram formed by the two vectors. Thus, 
+</para>
+<para id="element-8">
+<equation id="equation-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi> Area of parallelogram  </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-9">
+Since area of the triangle OAB is half of the area of the parallelogram, the area of the triangle formed by two vectors is :
+</para>
+<para id="element-10">
+<equation id="equation-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi> Area of triangle </m:mi>
+  <m:mo> = </m:mo>
+ <m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+
+ <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+</section>
+
+<section id="section-3">
+<title>  Attributes of vector (cross) product  </title>
+
+<para id="element-11">In this section, we summarize the properties of cross product :
+</para>
+<para id="element-12">
+<term>1: </term> Vector (cross) product is not commutative
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> ≠ </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">A change of sequence of vectors results in the change of direction of the product (vector) :
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">The inequality resulting from change in the order of sequence, denotes “anti-commutative” nature of vector product as against scalar product, which is commutative. 
+</para>
+<para id="element-18">
+Further, we can extend the sequence to more than two vectors in the case of cross product. This means that vector expressions like <term>a x b x c </term> is valid. Ofcourse, the order of vectors in sequence will impact the ultimate product.
+</para>
+<para id="element-19">
+<term>2: </term> Distributive property of cross product :
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi mathvariant="bold"> c </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> c </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+<term>3: </term> The magnitude of cross product of two vectors can be obtained in either of the following manner :
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">
+or,
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mo> ( </m:mo>
+  <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> ) </m:mo>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+<m:mo> ⇒ </m:mo> 
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mi> component of  </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> b </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi> in the direction perpendicular to vector  </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> a  </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+or,
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi> b </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mo> ( </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> ) </m:mo>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+<m:mo> ⇒ </m:mo> 
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> | </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mi> component of  </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> a </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi> in the direction perpendicular to vector  </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> b  </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43"><term>4: </term>  Vector product in component form is :
+ </para>
+<para id="element-44">
+<m:math display="block">
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+
+       <m:mrow> 
+        <m:mo> | </m:mo>
+      <m:mtable>
+        <m:mtr>
+          <m:mtd>
+            <m:mi mathvariant="bold">i</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">j</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">k</m:mi>
+          </m:mtd>
+        </m:mtr>
+        <m:mtr>
+          <m:mtd>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+          </m:mtd>
+        </m:mtr>
+
+        <m:mtr>
+          <m:mtd>
+
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+          </m:mtd>
+        </m:mtr>
+
+      </m:mtable>
+        <m:mo> | </m:mo>
+      </m:mrow>
+</m:math> 
+</para>
+
+<para id="element-27">
+<term>5: </term>  Unit vector in the direction of cross product
+</para>
+<para id="element-28">Let “<term>n</term>” be the unit vector in the direction of cross product. Then, cross product of two vectors is given by :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> n </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-31">
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> n </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> n </m:mi>
+  <m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+</m:mrow>
+<m:mrow>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> | </m:mo>
+</m:mrow>
+</m:mfrac>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+<term>6: </term>  The condition of two parallel vectors in terms of cross product is given by :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+    <m:mi> a </m:mi>
+    <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> n </m:mi>
+
+  <m:mo> = </m:mo>
+    <m:mi> a </m:mi>
+    <m:mi> b </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mn> 0 </m:mn>
+  <m:mo> ° </m:mo>
+  <m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> n </m:mi>
+<m:mo> = </m:mo>
+  <m:mn> 0 </m:mn>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+If the vectors involved are expressed in component form, then we can write the above condition as :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+
+       <m:mrow> 
+        <m:mo> | </m:mo>
+      <m:mtable>
+        <m:mtr>
+          <m:mtd>
+            <m:mi mathvariant="bold">i</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">j</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">k</m:mi>
+          </m:mtd>
+        </m:mtr>
+        <m:mtr>
+          <m:mtd>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+          </m:mtd>
+        </m:mtr>
+
+        <m:mtr>
+          <m:mtd>
+
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+          </m:mtd>
+          <m:mtd>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+          </m:mtd>
+        </m:mtr>
+
+      </m:mtable>
+        <m:mo> | </m:mo>
+      </m:mrow>
+        <m:mo> = </m:mo>
+        <m:mn> 0 </m:mn>
+
+</m:math>
+
+</para>
+<para id="element-38">
+Equivalently, this condition can be also said in terms of the ratio of components of two vectors in mutually perpendicular directions :
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> b </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+        <m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> b </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+        <m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> b </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40"><term>7: </term>  Properties of cross product with respect to unit vectors along the axes of rectangular coordinate system are :
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mn> 0 </m:mn>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> ; </m:mo>
+
+
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> ; </m:mo>
+
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> ; </m:mo>
+
+
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> ; </m:mo>
+
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+   <m:mo> - </m:mo>
+   <m:mi mathvariant="bold"> j </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+
+</section>
+
+
+
+
+ 
+  </content>
+  
+</document>

@@ -1,0 +1,721 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conservation of angular momentum</title>
+  <metadata>
+  <md:content-id>m14342</md:content-id><md:title>Conservation of angular momentum</md:title>
+  <md:abstract>Conservation of angular momentum of an isolated system is a general and fundamental law.</md:abstract>
+  <md:uuid>8b7f378f-fbb0-4498-a9cc-639b2cbe143b</md:uuid>
+</metadata>
+
+<content>
+
+<para id="element-2">Conservation of angular momentum is a powerful general law that encapsulates various aspects of motion as a result of internal interactions. The conservation laws, including this one, actually addresses situations of motions, which otherwise can not be dealt easily by direction application of Newton's law of motion. We encounter rotation, in which the rotating body is changing mass distribution and hence moment of inertia. For example, a spring board diver or a skater displays splendid rotational acrobatics by manipulating mass distribution about the axis of rotation. Could we deal such situation easily with Newton's law (in the angular form)? Analysis of motions like these is best suited to the law of conservation of angular momentum.
+</para>
+
+<para id="element-1">Conservation of angular momentum is generally believed to be the counterpart of conservation of linear momentum as studied in the case of translation. This perception is essentially flawed. As a matter of fact, this is a generalized law of conservation  applicable to all types of motions. We must realize that conservation law of linear momentum is a subset of more general conservation law of angular momentum. Angular quantities are all inclusive of linear and rotational quantities. As such, conservation of angular momentum is also all inclusive.  However, this law is regarded to suit situations, which involve rotation. This is the reason that we tend to identify this conservation law with rotational motion.
+</para>
+
+
+
+
+<para id="element-530">The domain of application for different conservation laws are different. The conservation law pertaining to linear momentum is broader than force analysis, but limited in scope to translational motions. Conservation of energy, on the other hand, is all inclusive kind of analysis framework as we can write energy conservation for both pure and impure motion types, involving translation and rotation. Theoretically, however, energy conservation is limited at nuclear or sub-atomic level or at high speed translation as mass and energy becomes indistinguishable. These exceptional limits of energy conservation can, however, be overcome simply by substituting energy conservation by an equivalent "mass-energy" conservation law. In this context, conservation of angular momentum is as general as "mass-energy" conservation law to the extent that it is valid at extreme bounds of sub-atomic, nuclear and high speed motions.
+</para>
+<para id="element-71">
+<exercise id="exercise-71">
+<problem id="id1172262815522">
+<para id="element-71a">
+What is conserved in the uniform circular motion of a particle?
+</para>
+<para id="element-77">
+<figure id="fig-77"><title> Uniform circular motion </title>
+<media id="id1172260285659" alt=""><image src="../../media/ca9.gif" mime-type="image/gif"/></media>
+<caption> A particle executing uniform circular motion.</caption>
+</figure>
+</para>
+<para id="element-77a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> speed of the particle
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> velocity of the particle
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> linear momentum of the particle
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> angular momentum of the particle
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1172262902687">
+<para id="element-72">
+The uniform circular motion is characterized by constant speed. Hence, speed is conserved. 
+</para>
+<para id="element-73">
+The particle continuously changes direction. Hence, velocity is not conserved.
+</para>
+<para id="element-74">
+The particle would move along a straight line if there is no external force. However, the particle changes direction. It means that there is an external force on the particle. This force is called centripetal force. As there is an external force on the particle, linear momentum (m<term>v</term>) is not conserved. We can also simply conclude the same saying that since velocity is not conserved, the linear momentum of the particle (m<term>v</term>) is not conserved.
+</para>
+<para id="element-75">The particle has constant angular velocity (ω) and constant moment of inertia (I) about the axis of rotation. Hence, angular momentum (Iω) is conserved. We can look at the situation in yet another way. The only external force involved here is centripetal force, which is radial and passes through the axis of rotation of the particle. Thus, there is no external torque (<term> τ </term>) on the particle. As such, angular momentum of the particle is conserved. 
+</para>
+<para id="element-76">
+Hence, options (a) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<section id="section-1">
+<title> Conservation of angular momentum
+</title>
+
+<para id="element-3">An aggregate of objects may have combination of motions. Some of the subjects may be translating, others rotating and remaining may be undergoing a mix of motions. Conservation of angular momentum encompasses to analyze such complexities in motion. The generality of the conservation law is actually the reason why angular momentum has been defined about a point against an axis. This provides flexibility to combine all motion types. Had the angular quantities been defined only about an axis, then it would not have been possible to associate different types of motions with angular momentum. For example, it would have been difficult to apply law of conservation of angular momentum for randomly moving particles as shown in the figure below. </para>
+<para id="element-7">
+<figure id="fig-7">
+<title> System of particles </title>
+<media id="id1172258957612" alt=""><image src="../../media/ca1-d6c7.gif" mime-type="image/gif"/></media>
+<caption> Particles move randomly or may rotate about an axis.</caption>
+</figure>
+</para>
+<para id="element-4">Conservation of angular momentum, like conservation of linear momentum and energy, is fundamental to the nature and laws governing it. It is more fundamental than classical laws as it holds where Newton's law breaks down. It holds at sub-atomic level and also in the realm of motion, when it nears the speed of light.
+</para>
+<para id="element-5">We have studied that the time rate of change of angular momentum of a system of particles is equal to net external torque on the system. This is what is known as Newton's second law in angular form for a system of particles. It, then, follows that the angular momentum of the system will be conserved, if net external torque on the system is zero. Though, there is no external torque on the system, the particles inside the system may still be subjected to forces (torques) and,  therefore, may undergo multiple change in velocity (angular velocity). Evidently, we can analyze resulting motions of the system with the help of the conservation of angular momentum.
+</para>
+
+
+<para id="element-8">
+There are many ways or forms in which this law can be stated. Mathematically,
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">From these result, we can state conservation of angular momentum in following equivalent ways :
+</para>
+<para id="element-14">
+<definition id="definition-14">
+<term> Conservation of angular momentum  </term>
+<meaning id="id1172267675244"> If net external torque on a system is zero, then the angular momentum of the system can not change.
+</meaning>
+</definition>
+</para>
+<para id="element-15">
+<equation id="equation-15"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-16">
+<definition id="definition-16">
+<term> Conservation of angular momentum  </term>
+<meaning id="id1172260247738"> If net external torque on a system is zero, then the angular momentum of the system remains same.
+</meaning>
+</definition>
+</para>
+<para id="element-17">
+<equation id="equation-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para><para id="element-549">Application of conservation of angular momentum is required to be made under the circumstance of zero torque. This condition, however, does not imply that net force on the system is zero. The two conditions are different. There may be net external force on the system, but the torque on it may be zero. This is the case, when net external force acts through center of mass of the system of particles or the rigid body or their combination.  </para>
+
+</section>  
+
+<section id="section-2">
+<title> Conservation of angular momentum in component form
+</title>
+<para id="element-18">Application of the law of conservation of angular momentum is not as straight forward as it may appear. Theoretically, though, it is possible to conceive or define a system such that there is no external torque, but in real time situation it is not advisable to adjust the system to reduce net external torque to zero. If we also consider the fact that we have to consider angular momentums of all objects within the system about certain  points and/or axes, then we realize that it is not actually possible to apply this law in most of the real time situation - unless when we have some complex algorithm with a powerful computer at our disposal.</para>
+<para id="element-19">However, there is the fact that motions along mutually perpendicular axes are independent of each other. This is an experimental fact, which has been described in detail in the module titled  <link document="m13837" target-id="section-2">Projectile motion</link>. This independence is a characteristic feature of motion and comes to our rescue in analyzing motion of an isolated system in the context of conservation of angular momentum. 
+</para>
+<para id="element-20">
+The angular momentum is a vector quantity having direction as well. As such, we can express conservation of angular momentum along three mutually perpendicular axes of a rectangular coordinate system. 
+</para>
+<para id="element-21">
+<equation id="equation-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> xi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> xf </m:mi>
+</m:msub>
+<m:mi> , </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> when </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> yi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> yf </m:mi>
+</m:msub>
+<m:mi> , </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> when </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> zi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> zf </m:mi>
+</m:msub>
+<m:mi> , </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> when </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-22">Looking at the above formulations, we realize that application of conservation law in three mutually perpendicular directions is a powerful paradigm. Even if external torque is not zero on a system, it is likely and possible that net component of external torques in a particular direction is zero. The component form of the conservation law allows us to apply conservation in that particular direction, irrespective of consideration in other mutually perpendicular directions. This is a great improvisation as far as application of the conservation of angular momentum is concerned. We, therefore, can state the component form of the law :</para>
+<para id="element-23">
+<definition id="definition-23"><term> Conservation of angular momentum in component form </term>
+<meaning id="id1172260255386"> If the net component of external torques on a system along a certain direction is zero, then the component of angular momentum of the system in that direction can not change.
+</meaning>
+</definition>
+
+</para>
+</section>
+
+<section id="section-3">
+<title> Conservation of angular momentum for  isolated body system about a common axis
+</title>
+<para id="element-24">Isolated body system is a special case of general conservation law of angular momentum. It may occur to us that the rotational description can very well be analyzed in terms of Newton's second law. Why do we need to consider such eventuality for conservation of angular momentum? As pointed out early in this module, there are situations of rigid bodies, which are capable to change their mass distribution and it would be very difficult to analyze motion in terms Newton's second law of motion. Conservation law, on the other hand, can elegantly provide the solution.</para>
+<para id="element-25">Humans are one such body. We can change our body configuration by manipulating arms and legs. This is what dancers, skaters and spring board divers do. They change their body configuration, while in motion. This changes their moment of inertia about the axis of rotation. However as there is no external torque involved, there is corresponding change in their angular velocity to conserve angular momentum of the body system.
+</para>
+<para id="element-26">There is yet another situation, when conservation of angular momentum for body system can be helpful in analyzing motion. We can consider multiple parts of the body system which may selectively undergo rotation about a common axis of rotation. For example, motions of two discs along a common spindle can be analyzed by considering conservation of angular momentum of the isolated body system.</para>
+<para id="element-27">
+<figure id="fig-27"><title> System of two disks </title>
+<media id="id1172260249770" alt=""><image src="../../media/ca2a.gif" mime-type="image/gif"/></media>
+<caption> The disks rotate about a common axis.</caption>
+</figure></para>
+<para id="element-28">
+The statement of conservation of angular momentum for isolated body system can take advantage of the relation valid for the rigid body. Here,
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29a">
+<equation id="equation-29a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para><para id="element-459">We must, however, always keep in our mind that this form of conservation law is valid only for the rigid body for which angular momentum is measured about an axis. </para>
+</section>
+
+<section id="section-4">
+<title> Examples 
+</title>
+<para id="element-30">We have all along emphasized the general nature of angular momentum. But when we think about examples of real world, which can be analyzed with the help of this conservation law - we realize that most of them are actually the rotational cases. This, however, does no reduce the importance of generality. The physical examples for general motion require complex analysis tool beyond the scope of this course and hence are not considered.
+   
+
+</para>
+
+<para id="element-392">Here, some examples of rotational motion are given to illustrate conservation of angular momentum. </para><para id="element-31">
+<term>1:</term> The revolution of planets around Sun
+</para>
+<para id="element-32">The planets like Earth move around Sun along an elliptical orbit. The gravitational pull provides the necessary centripetal force for the curved elliptical path of motion. This gravitational force, however, passes through center of mass of the Earth and the Sun. As such, it does not constitute a torque. Thus, no external torque is applied to the  Earth - Sun system. We can, therefore, apply conservation of angular momentum to the system. 
+</para>
+<para id="element-33">
+<figure id="fig-33">
+<title> Earth revolving around Sun </title>
+<media id="id1172260232546" alt=""><image src="../../media/ca3-b5c1.gif" mime-type="image/gif"/></media>
+<caption> The Earth moves around Sun in an elliptical path.</caption>
+</figure>
+</para>
+<para id="element-34">When the Earth comes closer to the Sun, the moment of inertia of the Earth about an axis through the center of mass of the Sun decreases. In order to conserve its angular momentum, it begins to orbit the Sun faster. Similarly, the Earth rotates slower when it is away from the Sun. All through Earth's revolution, following condition is met :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-266">We should note here that we are considering rotation of the Earth about the Sun - not the rotation of Earth about its own axis of rotation. If we recall Kepler's law, we can see the convergence of results. This law states that the line joining Sun and Earth sweeps equal area in equal time and, thereby predicts greater tangential velocity (in turn, greater angular velocity), when closer to the Sun.  </para><para id="element-36">
+<term>2:</term>  A person sitting on a turn table
+</para>
+<para id="element-37">A person sitting on a turn table can manipulate angular speed by changing moment of inertia about the axis of rotation without any external aid. In order to accentuate the effect, we consider that person is holding some weights in his outstretched hands. Let us consider that the system of the turntable and the person holding weights in the outstretched hands, is rotating about vertical axis at certain angular velocity in the beginning.  The moment of inertia of the body and weights about the axis of rotation is : 
+</para>
+<para id="element-38">
+<figure id="fig-38" orient="horizontal">
+<title> A person sitting on a turn table </title>
+<subfigure id="fig-38a">
+<media id="id1172260237443" alt=""><image src="../../media/ca4-b20c.gif" mime-type="image/gif"/></media>
+<caption> The person with extended arms </caption>
+</subfigure>
+<subfigure id="fig-38b">
+<media id="id1172262327009" alt=""><image src="../../media/ca5-1e42.gif" mime-type="image/gif"/></media>
+<caption> The person with folded arms </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+When the person folds his hands slowly, the moment of inertia about the axis decreases as the distribution of mass is closer to the axis of rotation. In order to conserve angular momentum, the turn table and person starts rotating at greater angular velocity.
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+<term>3:</term>  Ice skater 
+</para>
+<para id="element-43">An ice skater rotates with outstretched hands on one leg. When he/she folds the hands and two legs closer to the axis of rotation, the moment of inertia of the body decreases. As a consequence, ice skater begins to spin at much greater angular velocity.
+</para>
+<para id="element-44">
+<term>4:</term>  Spring board jumper
+</para>
+<para id="element-45">
+The spring board jumper follows a parabolic path of a projectile. In this case, the motion is about an accelerated axis of rotation, which moves along the parabolic path. In the beginning, the jumper keeps hands and legs stretched. During the flight, he/she curls the body to decrease moment of inertia. This results in increased angular velocity i.e. more turns before the jumper hits the water.
+</para>
+<para id="element-46">
+<figure id="fig-46">
+<title> Spring board jumping </title>
+<media id="id1172268102731" alt=""><image src="../../media/ca6-2813.gif" mime-type="image/gif"/></media>
+<caption> The jumper follows a parabolic path under gravity.</caption>
+</figure>
+</para>
+<para id="element-47">When the spring board jumper nears the water surface, he/she stretches hands and legs so that he/she she has straight line posture ensuring minimum splash while hitting water surface.
+</para>
+</section>
+
+<section id="section-5">
+<title> Measurement of angular momentum </title>
+<para id="element-48">For applying conservation of angular momentum, we measure angular momentums in the context of some events like change in the distribution of mass, angular velocity etc. that arises from internal forces (torques). 
+</para>
+<para id="element-49">The fundamental aspect of measurement of angular momentum is that its measurement should be about the same reference before and after the event. This is the basic requirement for applying law of conservation of angular momentum. We know that measurements of angular momentums about different points are different. Hence, we should stick to same set of points for measuring angular momentum so that the single value property of this physical quantity could be maintained.
+</para>
+
+<para id="element-51">If the axis of rotation (for the case of rotation) changes direction, then we should consider conservation in terms of the components of angular momentum about mutually perpendicular axes of rotation. Since angular momentum is a vector quantity, we can always find its component in the reference direction. 
+</para>
+<para id="element-51a">
+<figure id="fig-51a"><title> Rotation about an axis changing orientation </title>
+<media id="id1172258764632" alt=""><image src="../../media/ca7-d821.gif" mime-type="image/gif"/></media>
+<caption> We measure the component of angular momentum about the same .</caption>
+</figure>
+</para>
+<para id="element-52">
+The measurement of angular momentum of a system, however, could involve complexity for the following two reasons :
+</para>
+<para id="element-53">
+<list id="list-2" list-type="enumerated">
+<item> The system may have constituents involving both rotation and translation.
+</item>
+<item> There may be more than one axes of rotations.
+</item>
+</list>
+</para>
+
+<para id="element-55">As far as rotation is concerned, we deal it about an axis of rotation. There is no ambiguity involved here. What about translation? The measurement of angular momentum for non-rotational motion is about a point in the plane of motion of the particle or the particle like body.  Usually, we would prefer (not required) that the point is on the axis of rotation, if the particle interacts with a rotating part of the system.
+</para>
+<para id="element-56">If a system consists of bodies rotating about different axes, then we should stick to the same axes for subsequent (after case) time for calculating angular momentum. As per the requirement of problem, we may, then, combine angular momentums, using vector addition to find the net or resultant angular momentum.
+</para>
+<para id="element-54">
+<figure id="fig-54"><title> System with more than one axes of rotation </title>
+<media id="id1172258765632" alt=""><image src="../../media/cs8-f235.gif" mime-type="image/gif"/></media>
+<caption> The combined system rotates about “z” axis, whereas smaller disk rotates about parallel “z’” axis.</caption>
+</figure>
+</para>
+<para id="element-57">All these aspects of measurement of angular momentum are illustrated with detailed explanation in the next module titled "<link document="m14360"> Conservation of angular momentum (application) </link>".
+</para>
+</section>
+
+<section id="section-6">
+<title> Summary </title> 
+<para id="element-58">
+<term> 1. </term> Law of conservation of angular momentum 
+</para>
+<para id="element-59">
+<term>Definition :</term> If there is no external torque on a system, then the angular momentum of the system can not change.
+</para>
+<para id="element-60">
+In general,
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+For rotation,
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+The rotational form of conservation law is suited for rotation of rigid body that changes its mass distribution due to internal forces or where constituent parts of the system change their angular velocities.
+</para>
+<para id="element-65">
+<term> 2. </term> Law of conservation of angular momentum in component form 
+</para>
+<para id="element-66">
+<term>Definition :</term> If the net component of external torques on a system along a certain direction is zero, then the component of angular momentum of the system in that direction can not change.
+</para>
+<para id="element-67">
+If “x”,”y” and “z” represent three mutually perpendicular axes, then :
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> xi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> xf </m:mi>
+</m:msub>
+<m:mi> , </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> when </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> yi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> yf </m:mi>
+</m:msub>
+<m:mi> , </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> when </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> zi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> zf </m:mi>
+</m:msub>
+<m:mi> , </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> when </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-69">
+By corollary, component form of conservation law means that consideration of angular momentum in a given direction is not affected by torques in directions perpendicular to that direction.
+</para>
+</section>
+
+
+
+  </content>
+  
+</document>

@@ -1,0 +1,587 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Significant  figures</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>0c7c07b8-8407-4be5-b362-eb4657f7fd1e</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">We have already discussed different types of errors and how to handle them. Surprisingly, however, we hardly ever mention about error while assigning values to different physical quantities. It is the general case. As a matter of fact, we should communicate error appropriately, as there is provision to link error with the values we write. 
+</para>
+<para id="element-2">We can convey existence of error with the last significant digit of the numerical values that we assign. Implicitly, we assume certain acceptable level of error with the last significant digit. If we need to express the actual range of error, based on individual set of observations, then we should write specific range of error explicitly as explained in earlier module.
+</para>
+<para id="element-3">We are not always aware that while writing values, we are conveying the precision of measurement as well. Remember that random error is linked with the precision of measurement; and, therefore, to be precise we should follow rules that retain the precision of measurement through the mathematical operations that we carry out with the values.
+</para>
+
+<section id="section-1">
+<title>Context of values</title>
+<para id="element-4">
+Before we go in details of the scheme, rules and such other aspects of writing values to quantities, we need to clarify the context of writing values. 
+</para>
+<para id="element-5">We write values of a quantity on the assumption that there is no systematic error involved. This assumption is, though not realized fully in practice, but is required; as otherwise how can we write value, if we are not sure of its accuracy. If we have doubt on this count, there is no alternative other than to improve measurement quality by eliminating reasons for systematic error. Once, we are satisfied with the measurement, we are only limited to reporting the extent of random error.
+</para>
+<para id="element-6">Another question that needs to be answered is that why to entertain “uncertain” data (error) at all. Why not we ignore doubtful digit altogether? We have seen that eliminating doubtful digit results in greater inaccuracy (refer module on “errors in measurement”).  Measuring value with suspect digit is more “accurate” even though it carries the notion of error.  This is the reason why we prefer to live with error rather than without it.
+</para>
+<para id="element-7">We should also realize that error is associated with the smallest division of the scale i.e. its least count. Error is about reading the smallest division – not about estimating value between two consecutive markings of smallest divisions.
+</para>
+</section>
+
+<section id="section-2">
+<title>Significant figures</title>
+<para id="element-8">Significant figures comprises of digits, which are known reliably and one last digit in the sequence, which is not known reliably. We take an example of the measurement of length by a vernier scale. The measurement of a piece of rod is reported as 5.37 cm. This value comprises of three digits,  “5”, “3” and “7”. All three digits are significant as the same are measured by the instrument. The value indicates, however, that last digit is “uncertain”. We know that least count of vernier scale is 
+<m:math>
+		<m:mrow>
+			<m:msup>
+				<m:mn>10</m:mn>
+				<m:mrow>
+					<m:mo>-</m:mo>
+					<m:mn>4</m:mn>
+				</m:mrow>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+ m i.e
+<m:math>
+		<m:mrow>
+			<m:msup>
+				<m:mn>10</m:mn>
+				<m:mrow>
+					<m:mo>-</m:mo>
+					<m:mn>2</m:mn>
+				</m:mrow>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+ cm i.e 0.01 cm.  There is a possibility of error, which is equal to half the least count i.e. 0.005 cm. The reported value may, therefore, lie between 5.365 cm and 5.375 cm.
+</para>
+<para id="element-9a">In the figure, elements of measurement of a vernier scale are shown. The reading on the main scale (upper scale in the figure) is taken for the zero of vernier scale. The same is shown with an arrow on the left. This reading is "5.3". We can see that zero is between "5.3" and "5.4". In order to read the value between this interval, we look for the division of vernier scale, which exactly matches with the division mark  on the main scale. Since 10 divisions of vernier scale is equal to 9 divisions on main scale, it ensures that one pair of marks will match. In this case, the seventh (7) reading on the vernier scale is the best match. Hence, the final reading is "5.37".
+</para>
+<para id="element-9b">
+<figure id="fig-9b"><title> Measurement by Vernier calipers </title>
+<media id="idm191440" alt=""><image src="../../media/sf1.gif" mime-type="image/gif"/></media>
+<caption> Ten (10) smaller divisions on vernier scale is equal to nine (9) smaller divisions on main scale.</caption>
+</figure>
+</para>
+
+<para id="element-816">In this example, the last measurement constitutes the suspect reading. On repeated attempts, we may measure different values like "5.35" or "5.38".</para><para id="element-9"><term>Rules to identify significant figures</term>
+</para>
+<para id="element-10">There are certain rules to identify significant figures in the reported value :
+</para>
+<para id="element-11"><term>Rule 1 : </term> In order to formulate this rule, we consider the value of measured length as "5.02 cm". Can we drop any of the non-zero digits? No. This will change the magnitude of length. The rule number 1 : All non-zero digits are significant figures.
+</para>
+<para id="element-12"><term>Rule 2 : </term>  Now, can we drop “0” lying in between non- zeros “5” and “2” in the value considered above? Dropping “0” will change the value as measured. Hence, we can not drop "0". Does the decimal matter? No. Here, “0” and “decimal" both fall between non-zeros. It does not change the fact that "0" is part of the reported magnitude of the quantity. The rule number 2 : All zeros between any two non-zeros are significant, irrespective of the placement of decimal point. 
+</para>
+<para id="element-14"><term>Rule 3 : </term> Let us, now, express the given value in micrometer. The value would be 0.000502 micrometer. Should expressing a value in different unit change significant figures. Changing significant figures will amount to changing precision and changing list count of the measuring instrument. We can not change least count of an instrument – a physical reality - by mathematical manipulation. Therefore, rule number 3 : if the value is less than 1, then zeros between decimal point and first non-zero digit are <term>not</term> significant.
+</para>
+<para id="element-15"><term>Rule 4 : </term> We shall change the example value again to illustrate other rule for identifying significant figures. Let the length measured be 12.3 m. It is equal to 123 decimeter or 1230 cm or 12300 millimeter. Look closely. We have introduced one zero, while expressing the value in centimeter and two zeros, while expressing the value in millimeter. If we consider the trailing zero as significant, then it will again amount to changing precision, which is not possible. The value of 1230 cm, therefore has only three significant figures as originally measured. Therefore, Rule number 4 : The trailing zeros in a non-decimal number are not treated as significant numbers. 
+</para>
+<para id="element-16"><term>Rule 5 : </term> We shall again change the example value to illustrate yet another characteristic of significant number. Let the measurement be exactly 50 cm. We need to distinguish this trailing “0”, which is the result of measurement -  from the “0” in earlier case, which was introduced as a result of unit conversion. We need to have a mechanism to distinguish between two types of trailing zeros. Therefore, this rule and the one earlier i.e. 4 are rather a convention - not rules. Trailing zeros appearing due to measurement are reported with decimal point and treated as significant numbers. The rule number 5 is : The trailing zeros in a decimal number are significant. 
+</para>
+<para id="element-17">The question, now, is how to write a measurement of 50 cm in accordance with rule 5, so that it has decimal point to indicate that zeros are significant. We make use of scientific notation, which expresses a value in the powers of 10. Hence, we write different experiment values as given here,
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>50</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5.0</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>1</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">This representation shows that the value has two significant figures. Similarly, consider measurements of 500 cm and 3240 cm as measured by an instrument. Our representation is required to reflect that these values have "3" and "4" significant figures respectively. We do this by representing them in scientific notation as : </para><para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>500</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5.00</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>3240</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.240</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">In this manner, we maintain the number of significant numbers, in case measurement value involves trailing zeros.
+</para>
+
+<section id="section-2a">
+<title>Features of significant figures</title>
+<para id="element-22">
+From the discussion above, we observe following important aspects of significant figures :
+</para>
+<para id="element-23">
+<list id="list-23" list-type="enumerated">
+<item> Changing units do not change significant figures. </item>
+<item> Representation of a value in scientific form, having power of 10, does not change significant figures of the value.  </item>
+<item> We should not append zeros unnecessarily as the same would destroy the meaning of the value with respect to error involved in the measurement. </item>
+</list>
+</para>
+</section>
+</section>
+
+<section id="section-3">
+<title>Mathematical operations and significant numbers</title>
+<para id="element-24">A physical quantity is generally dependent on other quantities. Evaluation of such derived physical quantity involves mathematical operations on measured quantities. Here, we shall investigate the implication of mathematical operations on the numbers of significant digits and hence on error estimate associated with last significant digit. 
+</para>
+<para id="element-25">For example, let us consider calculation of a current in a piece of electrical conductor of resistance 1.23 (as measured). The conductor is connected to a battery of 1.2 V (as measured). Now, The current is given by Ohm’s law as :
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1.2</m:mn>
+      <m:mn>1.23</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">The numerical division yields the value as rounded to third decimal place is :
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.976</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">How many significant numbers should there be in the value of current? The guiding principle, here, is that the accuracy of final or resulting value after mathematical operation can not be greater than that of the operand (measured value), having least numbers of significant digits. Following this dictum, the significant numbers in the value of current should be limited to “2”,  as it is the numbers of significant digits in the value of “V”. This is the minimum of significant numbers in the measured quantities. As such, we should write the calculated value of current, after rounding off, as:
+</para>
+<para id="element-30"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.98</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+
+
+
+<section id="section-3a">
+<title>Multiplication or division</title>
+<para id="element-31">We have already dealt the case of division. We take another example of multiplication. Let density of a uniform spherical ball is 3.201 
+<m:math>
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>cm</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ and its volume 5.2 
+<m:math>
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>c</m:mi>
+    <m:msup>
+      <m:mi>cm</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. We can calculate its mass as : 
+</para>
+<para id="element-32">The density is :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ρ</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.201</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>5.2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>16.6452</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>g</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">In accordance with the guiding principle as stated earlier, we apply the rule that the result of multiplication or division should have same numbers of significant numbers as that of the measured value with least significant numbers. 
+</para>
+<para id="element-35">The measured value of volume has the least “2” numbers of significant figures. In accordance with the rule, the result of multiplication is, therefore, limited to two significant digits. The value after rounding off is : 
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>17</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>g</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<title>Addition or subtraction</title>
+<para id="element-38">In the case of addition or subtraction also, a different version of guiding principle applies. Idea is to maintain least precision of the measured value in the result of mathematical operation. To understand this, let us work out the sum of three masses “23.123 gm”,  “120.1 gm” and “80.2 gm”. The arithmetic sum of masses is “223.423 gm”.  
+</para>
+<para id="element-39">Here, we shall first apply earlier rule in order to show that we need to have a different version of rule in this case. We see that third measured value of “80.4 gm” has the least “3” numbers of significant figures. In accordance with the rule for significant figures, the result of sum should be “223”. It can be seen that application of the rule results in loosing the least precision of 1 decimal point in the measured quantities. 
+</para>
+<para id="element-40">Clearly, we need to modify this rule. The correct rule for addition and subtraction, therefore, is that result of addition or subtraction should retain as many decimal places as are there is in the measured value, having least decimal places. 
+</para>
+<para id="element-41">Therefore, the result of addition in the example given above is “223.4 gm”.
+</para>
+
+</section>
+</section>
+
+<section id="section-4">
+<title>Rounding off</title>
+<para id="element-42">The result of mathematical operation can be any rational value with different decimal places. In addition, there can be multiple steps of mathematical operations. How would we maintain the significant numbers and precision as required in such situations. 
+</para>
+<para id="element-43">In the previous section, we learnt that result of multiplication/division operation should be limited to the significant figures to the numbers of least significant figures in the operands. Similarly, the result of addition/subtraction operation should be limited to the decimal places as in the operand, having least decimal places. On the other hand, we have seen that the arithmetic operation results in values with large numbers of decimal places. This requires that we drop digits, which are more than as required by these laws. 
+</para>
+<para id="element-44">We, therefore, follow certain rules to uniformly apply “rounding off” wherever it is required due to application of rules pertaining to mathematical operations :
+</para>
+<para id="element-45"><term>Rule 1 : </term>The preceding digit (uncertain digit of the significant figures) is raised by 1, if the digit following it is greater than 5.  For example, a value of 2.578 is rounded  as “2.58” to have three significant figures or to have two decimal places.
+</para>
+<para id="element-46"><term>Rule 2 : </term> The preceding digit (uncertain digit of the significant figures) is left unchanged, if the digit following it is less than 5.  For example, a value of 2.574 is rounded  as “2.57” to have three significant figures or to have two decimal places.
+</para>
+<para id="element-47"><term>Rule 3 : </term>The “odd” preceding digit (uncertain digit of the significant figures) is raised by 1, if the digit following it is 5.  For example, a value of 2.535 is rounded as “2.54” to have three significant figures or to have two decimal places.
+</para>
+<para id="element-48"><term>Rule 4 : </term> The “even” preceding digit (uncertain digit of the significant figures) is left unchanged, if the digit following it is 5.  For example, a value of 2.525 is rounded as “2.52” to have three significant figures or to have two decimal places.
+</para>
+<para id="element-49"><term>Rule 5 : </term> If mathematical operation involves intermediate steps, then we retain one digit more than as specified by the rules of mathematical operation. We do not carry out “rounding off” in the intermediate steps, but only to the final result.
+</para>
+<para id="element-50"><term>Rule 6 : </term> In the case of physical constants, like value of speed of light, gravitational constant etc. or in the case of mathematical constants like “π”, we take values with the precision of the operand having maximum precision i.e. maximum significant numbers or maximum decimal places. Hence, depending on the requirement in hand, the speed of light having value of “299792458 m/s” can be written as :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>8</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mtext>1 significant number</m:mtext>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.0</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>8</m:mn>
+    </m:msup>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mtext>2 significant number</m:mtext>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.00</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>8</m:mn>
+    </m:msup>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mtext>3 significant number</m:mtext>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.998</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>8</m:mn>
+    </m:msup>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mtext>4 significant number</m:mtext>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para><para id="element-442">Note that digit "9" appearing in the value is rounded off in the first three examples. In fourth, the digit "7" is rounded to "8".</para>
+</section>
+<section id="section-5">
+<title>Scientific notation</title>
+<para id="element-55">Scientific notation uses representation in terms of powers of 10. The representation follows the simple construct as given here :
+</para>
+<para id="element-582"><m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+    <m:mi>b</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para><para id="element-56">where “a” falls between “1” and “10” and “b” is positive or negative integer. The range of “a” as specified ensures that there is only one digit to the left of decimal. For example, the value of 1 standard atmospheric pressure is :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>a</m:mi>
+      <m:mi>t</m:mi>
+      <m:mi>m</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>1.013</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mrow>
+          <m:mtext>Pascal</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Similarly, mass of earth in scientific notation is :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5.98</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>24</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>K</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<section id="section-5a">
+<title>Order of magnitude</title>
+<para id="element-60">We come across values of quantities and constants, which ranges from very small to very large. It is not always possible to remember significant figures of so many quantities. At the same time we need to have a general appreciation of the values involved. For example, consider the statement that dimension of hydrogen atom has a magnitude of the order of “-10”. This means that diameter of hydrogen atom is approximately "10" raised to the power of "-10" i.e. 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+.
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mo>∼</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">Scientific notation helps to estimate order of magnitude in a consistent manner, if we follow certain rule. Using scientific notation, we have :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mi>b</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">We follow the rule as given here : If “a” is less than or equal to “5”, then we reduce the value of "a" to “1”. If “a” is  greater than “5” and less than “10”, then we increase the value of “a” to "10". </para>
+<para id="element-65">In order to understand the operation, let us compare the order of magnitude of the diameter of a hydrogen atom and Sun. The diameters of Sun is :
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>d</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>6.96</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>8</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">Following the rule, approximate size of the sun is :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mi>s</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>8</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>9</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">Thus, order of magnitude of Sun is “9”. On the other hand, the order of magnitude of hydrogen atom as given earlier is “-10”. The ratio of two sizes is about equal to the difference of two orders of magnitude. This ratio can be obtained by deducting smaller order from bigger order. For example, the relative order of magnitude of sun with respect to hydrogen atom, therefore, is 9 – (-10) = 19. 
+</para>
+<para id="element-70">This means that diameter of sun is about 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ greater than that of a hydrogen atom. In general, we should have some idea of the order of magnitudes of natural entities like particle, atom, planets and stars with respect to basic quantities like length, mass and time.
+</para>
+</section>
+</section>
+ 
+  </content>
+  
+</document>

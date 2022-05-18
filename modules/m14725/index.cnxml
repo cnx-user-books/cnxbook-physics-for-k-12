@@ -1,0 +1,1358 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Balanced force system (application)</title>
+  <metadata>
+  <md:content-id>m14725</md:content-id><md:title>Balanced force system (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>90b9154d-87e6-41ff-80a6-2b72e0b1210a</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m14046/latest/" strength="3">Balanced force system  </link>
+      <link url="http://cnx.org/content/m14057/latest/" strength="2">Unbalanced force system  </link>
+      <link url="http://cnx.org/content/m14083/latest/" strength="1">Unbalanced force system (application) </link>
+    </link-group>
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m14720/latest/" strength="3">Free body diagram (application)  </link>
+      <link url="http://cnx.org/content/m14720/latest/" strength="3">Free body diagram (application)  </link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-2">We discuss problems, which highlight certain aspects of the study leading to the balanced force system. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+
+<para id="element-3">
+<list id="list-3" list-type="bulleted">
+<item> String and block system
+</item>
+<item> Incline and block system
+</item>
+<item> Pulley, string and block system 
+</item>
+<item> Two blocks system 
+</item>
+<item> Pulley, string and multiple blocks system   
+</item>
+</list>
+</para>
+</section>
+
+
+
+<section id="section-3">
+<title> String and block system </title>
+<para id="element-22">
+<term> Problem 1 : </term> A block weighing 100 N is suspended with the help of three strings as shown in the figure. Find the tension in each of the strings.
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Balanced force system </title>
+<media id="id12789143" alt=""><image src="../../media/bfs3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-24">
+<term> Solution : </term> This example illustrates one important aspect of force diagram. We can even draw force diagram of a point on the system like “O”, where three strings meet. The point does not represent a body, but force diagram is valid so long we display the forces acting through the point, O. 
+</para>
+<para id="element-25">
+Let 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+, 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:math>
+ be the tensions in the string as shown in the figure here.
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> Balanced force system </title>
+<media id="id15831049" alt=""><image src="../../media/bfs4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-27">A preliminary assessment of forces suggests that analysis of forces on block will provide value for the unknown, 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>. Hence, we first analyze force on the block.
+</para>
+<para id="element-28">
+<m:math>
+<m:mtext> Free body diagram of block  </m:mtext>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+<figure id="fig-30"><title> Free body diagram </title>
+<media id="id15831187" alt=""><image src="../../media/bfs5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-31">
+<m:math>
+<m:mtext> Free body diagram of “O”  </m:mtext>
+</m:math>
+</para>
+<para id="element-32">
+The external forces at point “O” are (i) Tension, 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ (ii) Tension, 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ and (iii) Tension,  
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+and
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 200 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+Putting this in the equation for 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+, we have :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 200 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> √ </m:mi>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mi> √ </m:mi>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+We should note that direction of tension "
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" acts up with respect to the body, whereas "
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" acts down with respect to point "O". We need not be overly concerned and just try to figure out, what a taut string does to the body or point in consideration. The tension pulls down the point "O" and pulls up the body. For this reason, it has different directions with respect to them. 
+</para>
+</section>
+
+
+
+<section id="section-4">
+<title> Incline and block system </title>
+
+
+<para id="element-48">
+<term> Problem 3 : </term> Find the force, F, required to keep the block stationary on an incline of angle "θ" having friction-less surface as shown in the figure.
+</para>
+<para id="element-49">
+<figure id="fig-49">
+<title> Balanced force system </title>
+<media id="id15838310" alt=""><image src="../../media/bfs8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-50">
+<term> Solution : </term> We can either have (a) axes in horizontal and vertical directions or (b) parallel to incline and perpendicular to it. Which of the two is better suited here ? In this case, one force (mg) is along vertical direction, whereas other external force (F) is along horizontal direction. As such, it is advantageous to have a horizontal and vertical axes as two of three forces are along the coordinate axes. 
+</para>
+<para id="element-51">
+<m:math>
+<m:mtext> Free body diagram of the block </m:mtext>
+</m:math>
+</para>
+<para id="element-52">
+The external forces on the block are (i) Force, F (ii) Weight, mg and  (iii) Normal force, N.
+</para>
+<para id="element-53">
+<figure id="fig-53"><title> Free body diagram </title>
+<media id="id15838406" alt=""><image src="../../media/bfs9.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:mi> N </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+and
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> mg </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> mg </m:mi>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+Taking ratio, we have :
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mi> mg </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> mg </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-5">
+<title> Pulley, string and block system  </title>
+<para id="element-59">
+<term> Problem 4 : </term> A string going over a pulley “A” of mass “m” supports a mass “M” as shown in the figure. Find the magnitude of force exerted by the clamp “B” on pulley “A”.
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Balanced force system </title>
+<media id="id15799704" alt=""><image src="../../media/bfs10.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-61">
+<term> Solution : </term> Here, we consider pulley as the body system. Let us also consider that clamp “B” exerts a force “F” in an arbitrary direction, making an angle with the horizontal. We should note that pulley, unless otherwise specified, is considered to be of negligible mass and friction-less. In this case, however, pulley has finite mass “m” and its weight should be considered to be an external force on the pulley.
+</para>
+<para id="element-63">
+<m:math>
+<m:mtext> Free body diagram of pulley </m:mtext>
+</m:math>
+</para>
+<para id="element-64">
+The string is single piece and mass-less, whereas pulley is not mass-less. However, pulley is static. As such, there is no torque involved. Hence, tension in the string all through out is same. From the consideration of block, we see that tension in the string is equal to the weight of the block i.e. Mg. 
+</para>
+<para id="element-64a">
+Now, the external forces on pulley are (i) Horizontal tension "T" (ii) Weight, mg, of the pulley  (iii) Vertical Tension, T,  and (iv) force, F applied by clamp “B”.
+</para>
+<para id="element-65">
+<figure id="fig-65"><title> Free body diagram </title>
+<media id="id15799826" alt=""><image src="../../media/bfs11a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> Mg </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> Mg </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+and
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> mg </m:mi>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> mg </m:mi>
+<m:mo> - </m:mo>
+<m:mi> Mg </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> M </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+The force exerted by the clamp,F, is :
+</para>
+<para id="element-70"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt> 
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:msqrt> 
+<m:mo> { </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> Mg </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> M </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> g </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> } </m:mo>
+</m:msqrt> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:msqrt> 
+<m:mo> { </m:mo>
+<m:msup>
+<m:mi> M </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> M </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> } </m:mo>
+</m:msqrt> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-6">
+<title> Two blocks system  </title>
+
+<para id="element-71">
+<term> Problem 5 : </term> Two blocks "A" and "B", weighing 20 N and 10 N respectively are in contact with each other. If the blocks are at rest, then find the force "F" and the normal reactions between all contact surfaces.
+</para>
+<para id="element-72">
+<figure id="fig-72">
+<title> Balanced force system </title>
+<media id="id15852429" alt=""><image src="../../media/bfs12.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-73">
+<term> Solution : </term> The question demands that we draw free body diagram of each of the block separately as we are required to know normal reactions at all surfaces. Here, there are three contact surfaces between (i) A and horizontal surface (ii) B and horizontal surface and (iii) A and B.
+</para>
+
+<para id="element-74">
+A preliminary assessment of forces on the blocks suggests that analysis of forces on B will provide values of unknown force(s). It is so because the forces on B are mutually perpendicular (thus, they would not need to be resolved), if appropriate coordinate system is chosen. Hence, we first analyze force on block B.
+</para>
+
+<para id="element-76">
+<m:math>
+<m:mtext> Free body diagram of B </m:mtext>
+</m:math>
+</para>
+<para id="element-77">
+The external forces are (i) weight of B = 10 N (ii) Normal force applied by A i.e. 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+(say) (iii) Normal force applied by surface i.e. 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ and (iv) external force of 20 N
+</para>
+<para id="element-75">
+<figure id="fig-75"><title> Free body diagram </title>
+<media id="id15852567" alt=""><image src="../../media/bfs14.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">
+and
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+<m:math>
+<m:mtext> Free body diagram of B </m:mtext>
+</m:math>
+</para>
+<para id="element-82">
+The external forces are (i) weight of A, 20 N (ii) Normal force applied by B i.e. 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:math>
+(say)  = 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+= 20 N (iii) Normal force applied by surface i.e. 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 4 </m:mn>
+</m:msub>
+</m:math>
+ and (iv) force, F = ?
+</para>
+<para id="element-82a">
+<figure id="fig-82a"><title> Free body diagram </title>
+<media id="id15852890" alt=""><image src="../../media/bfs15.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 20 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> 20 </m:mi>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+</m:mrow>
+<m:mi> 2 </m:mi>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> 40 </m:mi>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+and
+</para>
+<para id="element-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 4 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 4 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> 40 </m:mi>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> X </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> 20 </m:mi>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> 1 </m:mi>
+<m:mo> + </m:mo>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-7">
+<title> Pulley, string and multiple blocks system  </title>
+
+<para id="element-86">
+<term> Problem 6 : </term> The blocks A and B weighing 10 N and 20 N are connected by a string. The block B, in turn, is connected to block C with another string passing over a pulley. Friction forces at all interfaces is negligible. If the block system is in equilibrium, find the weight of C and tensions in the two strings.
+</para>
+<para id="element-87">
+<figure id="fig-87"><title> Balanced force system </title>
+<media id="id15853505" alt=""><image src="../../media/bfs16.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-88">
+<term> Solution : </term> There are two strings. Hence, the tensions in the strings will be different. Let 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ be the tension in strings AB and BC respectively. 
+</para>
+
+<para id="element-89">
+Looking at the various body systems, we guess that the simplest force system is the one associated with block C. However, force analysis of block C will not yield anything as we do not know its weight or the tension 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+. 
+</para>
+<para id="element-90">
+Thus, we begin with block A.
+</para>
+
+<para id="element-91">
+<m:math>
+<m:mtext> Free body diagram of A </m:mtext>
+</m:math>
+</para>
+<para id="element-92">
+<figure id="fig-92"><title> Free body diagram </title>
+<media id="id15853649" alt=""><image src="../../media/bfs17.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-93">
+The external forces are (i) weight of A = 10 N (ii) Normal force applied by incline i.e. 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+(say)  (iii) tension in AB, 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+.
+</para>
+<para id="element-94">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 10 </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 10 </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> 5 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-95">
+We need not analyze forces in y – direction as we are not required to determine normal force 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and it is not expected to be used for analyzing force on block B. 
+</para>
+<para id="element-96">
+<m:math>
+<m:mtext> Free body diagram of B </m:mtext>
+</m:math>
+</para>
+<para id="element-97">
+The external forces are (i) weight of B, 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+= 20 N (ii) Normal force applied by incline i.e. 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+(say)  (iii) tension in AB, 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and (iv) tension in BC, 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+.
+</para>
+
+<para id="element-98">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 20 </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mi> 30 </m:mi>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 20 </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mi> 1 </m:mi>
+<m:mi> 2 </m:mi>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mi> 5 </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 15 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99">
+<m:math>
+<m:mtext> Free body diagram of C </m:mtext>
+</m:math>
+</para>
+<para id="element-100">
+<figure id="fig-100"><title> Free body diagram </title>
+<media id="id15854144" alt=""><image src="../../media/bfs18.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-101">
+The external forces are (i) weight of c = ? and (ii) tension in BC, 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+.
+</para>
+<para id="element-102">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 15 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-100">
+<title>Acknowledgment</title>
+<para id="element-1000">
+Author wishes to thank Scott Kravitz, Programming Assistant, Connexions for making suggestion to remove error in the module. 
+</para>
+</section>
+   
+  </content>
+  
+</document>

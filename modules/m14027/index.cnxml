@@ -1,0 +1,459 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Circular motion and rotational kinematics (application)</title>
+  <metadata>
+  <md:content-id>m14027</md:content-id><md:title>Circular motion and rotational kinematics (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>8c2073cb-bf6b-4447-85a6-409f12b8a8dd</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+
+<section id="section-2">
+<title> Representative problems and their solutions </title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to the circular motion and rotational kinematics. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Measurement of angular displacement
+</item>
+
+<item> Angular speeds
+</item>
+<item> Centripetal acceleration
+</item>
+</list>
+</para>
+</section> 
+
+
+<section id="section-3">
+<title> Measurement of angular displacement </title>
+
+<example id="example-46">
+<para id="element-46"><term>Problem : </term> 
+A particle in uniform circular motion about the center has angular velocity "ω
+". What is its angular velocity with respect to a point "P" on the circumference of the circle ?
+</para>
+<para id="element-47">
+<figure id="fig-47"><title> Uniform circular motion </title>
+<media id="id1167159822645" alt=""><image src="../../media/cmrkq2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-49"><term>Solution : </term> Angular velocity is a measure of angle in unit time. In the question, measurement of angular velocity about the center of circle is given. It is, therefore, imperative that we seek a relation of angles formed by the motion of the particle at two points of references. </para>
+<para id="element-49a">
+We consider a small arc AA' as shown in the figure, which is covered by the particle in time "dt". By geometry, if the arc subtends an angle "dθ" at "P", then the arc subtends an angle "2dθ" at the center. 
+</para>
+<para id="element-50">
+<figure id="fig-50"><title> Uniform circular motion </title>
+<media id="id1167160032386" alt=""><image src="../../media/cmrkq3a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-51">
+Let 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+</m:math>
+ be the angular velocity of the particle with respect to point "P", then
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">From the relation between angles as obtained earlier, the angular velocity of the particle with respect to center is :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+</section> 
+
+
+
+<section id="section-5">
+<title> Angular speeds </title>
+<example id="example-4a">
+<para id="element-4a"><term>Problem : </term> 
+Let
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> H </m:mi>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> E </m:mi>
+</m:msub>
+</m:math>
+ respectively be the angular speeds of the hour hand of a watch and that of the earth around its own axis. Compare the angular speeds of earth and hour hand of a watch.
+</para>
+<para id="element-6a"><term>Solution : </term>
+The time periods of hour hand and that of the earth are 12 hours and 24 hours respectively. Now,
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> H </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">
+and
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> E </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mn> 24 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> H </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> E </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<example id="example-18">
+<para id="element-18"><term>Problem : </term> 
+A particle is kept on a uniformly rotating turn table at a radial distance of 2 m from the axis of rotation. The speed of the particle is “v”. The particle is then shifted to a radial distance of 1 m from the axis of rotation. Find the speed of the particle at the new position. 
+</para>
+<para id="element-20"><term>Solution : </term>
+The angular speed of rotation is constant. Now, linear velocities of the particle at the two positions are :
+</para>
+<para id="element-21"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> ( given) </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>  
+
+<section id="section-6">
+<title> Centripetal acceleration </title>
+<example id="example-31b">
+<para id="element-31b"><term>Problem : </term> Find the centripetal acceleration (in 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> hr </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+) at a point on the equator of the earth (consider earth as a sphere of radius = 6400 km).
+</para>
+<para id="element-33"><term>Solution : </term>
+The centripetal acceleration in terms of angular speed is given by :
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+Now, angular speed, in terms of time period is :
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mi> T </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+Combining two equations, we have :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:msup>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 3.14 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> x </m:mo>
+<m:mn> 6400 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn> 24 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 439 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> hr </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>  
+
+  
+  </content>
+  
+</document>

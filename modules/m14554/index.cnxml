@@ -1,0 +1,2844 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Graphs of motion with constant acceleration</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b19889de-ead0-4124-8a3b-5941f732d1a7</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">
+Graphical analysis of motion with constant acceleration in one dimension is based on the equation defining position and displacement, which is a quadratic function. Nature of motion under constant acceleration and hence its graph is characterized by the relative orientation of initial velocity and acceleration. The relative orientation of these parameters controls the nature of motion under constant acceleration. If initial velocity and acceleration are in the same direction, then particle is accelerated such that speed of the particle keeps increasing with time. However, if velocity and acceleration are directed opposite to each other, then particle comes to rest momentarily. As a result, the motion is divided in two segments - one with deceleration in which particle moves with decreasing speed and second with acceleration in which particle moves with increasing speed. 
+</para>
+<para id="element-2">
+We study various scenarios of motion of constant acceleration by analyzing equation of position, which is quadratic expression in time. The position of particle is given by :
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4">
+Clearly, the equation for position of the particle is a quadratic expression in time, “t”. A diagram showing a generalized depiction of motion represented by quadratic expression is shown here :
+
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Motion under constant acceleration </title>
+<media id="idm2669360" alt=""><image src="../../media/f1-a291.gif" mime-type="image/gif"/></media>
+<caption> Motion under constant acceleration </caption>
+</figure>
+</para>
+<para id="element-6">
+In case initial position of the particle coincides with origin of reference, then initial position <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mn>0</m:mn>
+
+  </m:mrow>
+</m:math>
+and in that case x denotes position as well as displacement :
+
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+
+<section id="section-1">
+<title> Nature of graphs </title>
+
+<para id="element-8">
+
+The nature of quadratic polynomial is determined by two controlling factors (i) nature of coefficient of squared term, <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> and (ii) nature of discriminant of the quadratic equation, which is formed by equating quadratic expression to zero.
+</para>
+<section id="section-1a">
+<title> Nature of coefficient of squared term </title>
+<para id="element-9">
+
+The coefficient of squared term is “a/2”. Thus, its nature is completely described by the nature of “a” i.e. acceleration. If “a” is positive, then graph is a parabola opening up. On the other hand, if “a” is negative, then graph is a parabola opening down. These two possibilities are shown in the picture.
+
+
+
+</para>
+<para id="element-10">
+<figure id="fig-10">
+<title> Motion under constant acceleration </title>
+<media id="idm4683312" alt=""><image src="../../media/f2-4f3b.gif" mime-type="image/gif"/></media>
+<caption> Motion under constant acceleration </caption>
+</figure>
+
+</para>
+<para id="element-11">
+It may be interesting to know that sign of acceleration is actually a matter of choice. A positive acceleration, for example, is negative acceleration if we reverse the reference direction. Does it mean that mere selection of reference direction will change the nature of motion? As expected, it is not so. The parabola comprises two symmetric sections about a line passing through the minimum or maximum point (C as shown in the figure). One section represents a motion in which speed of the particle is decreasing as velocity and acceleration are in opposite directions and second section represents a motion in which speed of the particle is increasing as velocity and acceleration are in the same direction. In other words, one section represents deceleration, whereas other section represents acceleration. The two sections are simply exchanged in two graphs. As such, a particular motion of acceleration is described by different sections of two graphs when we change the sign of acceleration. That is all. The nature of motion remains same. Only the section describing motion is exchanged.
+
+</para>
+</section>
+<section id="section-1b">
+<title> Nature of discriminant </title>
+
+<para id="element-13">
+Comparing with general quadratic equation <m:math>
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>, we see that determinant of the corresponding quadratic equation is given by :
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>B</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>A</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-12">
+
+The important aspect of discriminant is that it comprises of three variable parameters. However, simplifying aspect of the discriminant is that all parameters are rendered constant by the “initial” setting of motion. Initial position, initial velocity and acceleration are all set up by the initial conditions of motion.
+
+</para>
+<para id="element-15">
+The points on the graph intersecting t-axis gives the time instants when particle is at the origin i.e. x=0. The curve of the graph intersects t-axis when corresponding quadratic equation (quadratic expression equated to zero) has real roots. For this, discriminant of the corresponding quadratic equation is non-negative (either zero or positive). It means :
+
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>≥</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>≤</m:mo>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-17abc">
+Note that squared term <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ is always positive irrespective of sign of initial velocity. Thus, this condition is always fulfilled if the signs of acceleration and initial position are opposite. However, if two parameters have same sign, then above inequality should be satisfied for the curve to intersect t-axis. In earlier graphs, we have seen that parabola intersects t-axis at two points corresponding two real roots of corresponding quadratic equation. However, if discriminant is negative, then parabola does not intersect t-axis. Such possibilities are shown in the figure :
+
+</para>
+<para id="element-17a">
+<figure id="fig-17a">
+<title> Motion under constant acceleration </title>
+<media id="idp2105264" alt=""><image src="../../media/f3-6b69.gif" mime-type="image/gif"/></media>
+<caption> Motion under constant acceleration </caption>
+</figure>
+</para>
+<para id="element-18">
+Clearly, motion of particle is limited by the minimum or maximum positions. It is given by :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>D</m:mi>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mo>X</m:mo>
+    <m:mfrac>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+    </m:mfrac>
+
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-20">
+It may be noted that motion of particle may be restricted to some other reference points as well. Depending on combination of initial velocity and acceleration, a particle may not reach a particular point.
+</para>
+</section>
+</section>
+<section id="section-2">
+<title> Reading of graph </title>
+<para id="element-21">
+
+Our consideration, here, considers only positive values of time. It means that we are discussing motion since the start of observation at t=0 and subsequently as the time passes by. Mathematically, the time parameter, “t” is a non-negative number. It can be either zero or positive, but not negative. In the following paragraphs, we describe critical segments or points of a typical position – time graph as shown in the figure above :
+
+</para>
+<para id="element-22">
+<figure id="fig-22">
+<title> Motion under constant acceleration </title>
+<media id="idp1965680" alt=""><image src="../../media/f4-b6ff.gif" mime-type="image/gif"/></media>
+<caption> Motion under constant acceleration </caption>
+</figure>
+</para>
+<para id="element-23">
+<term> Point A : </term>This is initial position at t = 0. The position corresponding to this time is denoted as <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+. This point is the beginning of graph, which lies on x-axis. The tangent to the curve at this point is the direction of initial velocity, “u”. Note that initial position  and origin of reference may be different. Further, this point is revisited by the particle as it reaches E. Thus, A and E denotes the same start position - though represented separately on the graph.
+
+</para>
+<para id="element-24">
+<term>Curve AC : </term>The tangent to the curve part AB has negative slope. Velocity is directed in negative x-direction. The slope to the curve keeps decreasing in magnitude as we move from A to C. It means that speed of the particle keeps decreasing in this segment. In other words, particle is decelerated during motion in this segment.  
+
+</para>
+<para id="element-25">
+<term>Points B, D : </term>The curve intersects t-axis. The particle is at the origin of the reference, O, chosen for the motion. The time corresponding to these points (B and D) are real roots of the quadratic equation, which is obtained by equating quadratic expression to zero. 
+
+</para>
+<para id="element-26">
+<term>Point C : </term>The slope of tangent to the curve at this point is zero. It means that the speed of the particle has reduced to zero. The particle at this point is at rest. The slopes of the tangent to curve about this point changes sign. It means that velocity is oppositely directed about this point. The point B, therefore, is a point, where reversal of direction of motion occurs. Note that particle can reverse its direction only once during its motion under constant acceleration.
+
+</para>
+<para id="element-27">
+<term>Point E : </term>The particle reaches start point E (i.e. A) again in its motion after reversal of motion at C. 
+
+</para>
+<para id="element-28">
+<term>Point F : </term>This is the end point of motion.
+
+</para>
+<para id="element-29">
+The graph of a motion under constant acceleration is bounded by set of parameters defining a motion. In a particular case, we may be considering only a segment of the curve starting from point A and ending at point F – not necessarily covering the whole of graph as shown in the figure. The point F may lie anywhere on the graph. Further, nature of curve will be determined by values and signs of various parameters like initial position, initial velocity and acceleration. Here, we have divided our study in two categories based on the sign of acceleration : (i) acceleration is positive and (ii) acceleration is negative. 
+</para>
+</section>
+<section id="section-3">
+<title> Acceleration is positive (in the reference direction) </title>
+<para id="element-30">
+
+The graph of quadratic equation is a parabola opening upwards as coefficient of squared term 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+is positive i.e. a &gt; 0. The minimum value of expression i.e. x is :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>min</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>D</m:mi>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mo>X</m:mo>
+    <m:mfrac>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+    </m:mfrac>
+
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+The various possibilities of initial positions of the particle with time are discussed here :
+
+</para>
+
+<section id="section-3a">
+<para id="element-33">
+<term>Case 1: </term>Initial position and origin of reference are different. Initial position is positive. Initial velocity is negative i.e. it is directed in negative reference direction. The velocity and acceleration are oppositely directed. 
+
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Motion under constant acceleration </title>
+<media id="idp1703952" alt=""><image src="../../media/f4-b6ff.gif" mime-type="image/gif"/></media>
+<caption> Motion under constant acceleration </caption>
+</figure>
+
+</para>
+<para id="element-35">
+Initially particle is decelerated as the speed of the particle keeps on decreasing till it becomes zero at point C. This is indicated by the diminishing slope (magnitude) of the tangents to the curve. Subsequently, particle is accelerated so long force causing acceleration is applied on the particle.
+
+</para>
+<para id="element-36">
+The segment DF with origin at D is typical graph of free fall of particle under gravity, considering DF as the height of fall and downward direction as positive direction. Only differing aspect is that particle has initial velocity. Nevertheless, the nature of curve of free fall is similar. Note that speed of the particle keeps increasing till it hits the ground.
+
+</para>
+
+<example id="example-36a">
+<para id="element-36a"><term>Problem : </term> Given <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-36b">Find the position when particle reverses its motion. 
+</para>
+<para id="element-36c"><term>Solution : </term> Acceleration is negative. The position-time graph is a parabola opening up. Therefore, the particle changes its direction of motion at its minimum position, which is given as :
+</para>
+<para id="element-36d">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>min</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36e">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>min</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mo>−</m:mo>
+              <m:mn>15</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>25</m:mn>
+      <m:mn>20</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>1.25</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-36f"><term>Alternatively, </term>
+</para>
+<para id="element-36g">At the point of reversal, velocity is zero. Using v=u+at, :
+</para>
+<para id="element-36h">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-36i">
+Position of particle in 1.5 s is :
+</para>
+<para id="element-36j">
+<figure id="fig-36j">
+<title> Motion diagram </title>
+<media id="idp8494896" alt=""><image src="../../media/f15.gif" mime-type="image/gif"/></media>
+<caption> Motion diagram </caption>
+</figure>
+
+</para>
+<para id="element-36k">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>15</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>X</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mn>.5</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2.25</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>22.5</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2.25</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>12.5</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>11.25</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>1.25</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-36l">
+</para>
+<para id="element-36m">
+</para>
+</example>
+
+<para id="element-37a">
+<exercise id="exercise-37a">
+<problem id="idm2613760">
+<para id="element-37">
+Given : <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-37abcd">
+Find the time instants when the particle is at origin of reference and initial position. Also find the time when velocity is zero. 
+</para>
+</problem>
+
+<solution id="idm1227104">
+<para id="element-38">
+The position of the particle with respect to origin of reference is given by :
+
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+In order to determine time instants when the particle is at origin of reference, we put x=0,
+
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-42">
+In order to determine time instant when particle is at initial position, we put x=10,
+
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-44">
+The particle is at the initial position twice, including start of motion. Now, at the point of reveral of direction, speed of the particle is zero. Putting v = 0 and using v=u+at, 
+
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45a">
+<figure id="fig-45a">
+<title> Motion diagram </title>
+<media id="idp1863552" alt=""><image src="../../media/f8-1819.gif" mime-type="image/gif"/></media>
+<caption> Motion diagram </caption>
+</figure>
+</para>
+</solution>
+</exercise>
+</para>
+</section>
+<section id="section-3b">
+
+
+<para id="element-46">
+<term>Case 2: </term>Initial position and origin of reference are different. Initial position is positive. Initial velocity is positive i.e. it is directed in reference direction. The velocity and acceleration are in same direction. 
+</para>
+<para id="element-47">
+<figure id="fig-47">
+<title> Motion under constant acceleration </title>
+<media id="idp4506080" alt=""><image src="../../media/f5-be30.gif" mime-type="image/gif"/></media>
+<caption> Motion under constant acceleration </caption>
+</figure>
+
+</para>
+<para id="element-48">The particle is accelerated so long force causing acceleration is applied on the particle. The segement AF with origin at D is typical graph of free fall of particle under gravity, considering AF as the height of fall and downward direction as positive direction. Only differing aspect is that particle has initial velocity. Neverthless, the nature of curve of free fall is similar. Note that speed of the particle keeps increasing till it hits the ground.
+
+</para>
+<para id="element-49a">
+<exercise id="exercise-49a">
+<problem id="idp7175824">
+<para id="element-49">
+Given <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-49ab">
+Find the time instants when the particle is at origin of reference and initial position. Also find the time when velocity is zero. 
+</para>
+</problem>
+
+<solution id="idm4282480">
+<para id="element-50">
+The position of the particle with respect to origin of reference is given by :
+
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+In order to determine time instants when the particle is at origin of reference, we put x=0,
+
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+We neglect both these negative values and deduce that the particle never reaches point of origin. In order to determine time instant when particle is at initial position, we put x=10,
+
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>5</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-56">
+We neglect negative value. The particle is at the initial position only at the start of motion. Now, at the point of reveral of direction, speed of the particle is zero. Putting v = 0 and using v=u+at, 
+
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-58">
+The particle never changes its direction.
+</para>
+<para id="element-58a">
+<figure id="fig-58a">
+<title> Motion diagram </title>
+<media id="idp6853888" alt=""><image src="../../media/f9.gif" mime-type="image/gif"/></media>
+<caption> Motion diagram </caption>
+</figure>
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>
+<section id="section-3c">
+
+<para id="element-59">
+<term>Case 3: </term>Initial position and origin of reference are same. Initial velocity is negative i.e. it is directed in negative reference direction. The velocity and acceleration are oppositely directed. 
+
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Motion under constant acceleration </title>
+<media id="idm3545520" alt=""><image src="../../media/f6-10ef.gif" mime-type="image/gif"/></media>
+<caption> Motion under constant acceleration </caption>
+</figure>
+
+</para>
+
+<para id="element-60a">
+Initially particle is decelerated as the speed of the particle keeps on decreasing till it becomes zero at point C. This is indicated by the diminishing slope (magnitude) of the tangents to the curve. Subsequently, particle is accelerated so long force causing accleration is applied on the particle.
+
+</para>
+<para id="element-61ab">
+<exercise id="exercise-61ab">
+<problem id="idm1076192">
+<para id="element-61">
+Given <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61abcdefg">Find the time instants when the particle is at origin of reference. Also find the time when velocity is zero. 
+</para>
+</problem>
+
+<solution id="idp312864">
+<para id="element-62">
+The position of the particle with respect to origin of reference is given by :
+
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-64">
+In order to determine time instants when the particle is at origin of reference, we put x=0,
+
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-66">
+The particle is at the origin of reference twice, including start of motion. Now, at the point of reversal of direction, speed of the particle is zero. Putting v = 0 and using v=u+at, 
+
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>15</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61a">
+<figure id="fig-61a">
+<title> Motion diagram </title>
+<media id="idp7990704" alt=""><image src="../../media/f10.gif" mime-type="image/gif"/></media>
+<caption> Motion diagram </caption>
+</figure>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+</section>
+<section id="section-3d">
+<para id="element-68">
+<term>Case 4: </term> Initial position and origin of reference are same. Initial velocity is positive i.e. it is directed in reference direction. The velocity and acceleration are in same direction. 
+
+</para>
+<para id="element-69">
+<figure id="fig-69">
+<title> Motion under constant acceleration </title>
+<media id="idp5573392" alt=""><image src="../../media/f7-3741.gif" mime-type="image/gif"/></media>
+<caption> Motion under constant acceleration </caption>
+</figure>
+
+</para>
+<para id="element-69a">
+The particle is accelerated so long force causing acceleration is applied on the particle.
+
+</para>
+<para id="element-70">
+The segement OF is typical graph of free fall of particle under gravity, considering OF as the height of fall and downward direction as positive direction. Only differing aspect is that particle has initial velocity. Neverthless, the nature of curve of free fall is similar. Note that speed of the particle keeps increasing till it hits the ground.
+
+</para>
+
+<para id="element-71a">
+<exercise id="exercise-71a">
+<problem id="idp7614544">
+<para id="element-71">
+Given <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+ 
+
+</para>
+<para id="element-71ab">Find the time instants when the particle is at origin of reference. Also find the time when velocity is zero.
+</para>
+</problem>
+
+<solution id="idp973808">
+<para id="element-72">
+The position of the particle with respect to origin of reference is given by :
+
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-74">
+In order to determine time instants when the particle is at origin of reference, we put x=0,
+
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-76">
+Neglecting negative value of time, 
+
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-78">
+The particle is at the origin of reference only at the start of motion. Now, at the point of reversal of direction, speed of the particle is zero. Putting v = 0 and using v=u+at, 
+
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-80">
+We neglect negative value and deduce that particle never ceases to move and as such there is no reversal of motion.
+</para>
+<para id="element-80a">
+<figure id="fig-80a">
+<title> Motion diagram </title>
+<media id="idm4141760" alt=""><image src="../../media/f11-4255.gif" mime-type="image/gif"/></media>
+<caption> Motion diagram </caption>
+</figure>
+</para>
+</solution>
+</exercise>
+</para>
+</section>
+</section>
+<section id="section-6">
+<title> Acceleration is negative (opposite to the reference direction)
+ </title>
+<para id="element-81">
+
+In this case, the graph of quadratic equation is a parabola opening downwards as coefficient of squared term 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>t</m:mi>
+        <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ is negative i.e. a &gt; 0. The maximum value of expression i.e. x is :
+
+
+</para>
+<para id="element-82a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>D</m:mi>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mo>X</m:mo>
+    <m:mfrac>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+    </m:mfrac>
+
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-83">
+The analysis for this case is similar to the first case. We shall, therefore, not describe this case here. 
+
+</para>
+
+<para id="element-84a">
+<exercise id="exercise-84a">
+<problem id="idp7683088">
+<para id="element-84">
+Given 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-84ab">Find the time instants when the particle is at origin of reference and initial position. Also find the time when velocity is zero. 
+</para>
+</problem>
+
+<solution id="idp5741872">
+<para id="element-85">
+The position of the particle with respect to origin of reference is given by :
+
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-87">
+In order to determine time instants when the particle is at origin of reference, we put x=0,
+
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+        <m:mo>±</m:mo>
+        <m:msqrt>
+          <m:mrow>
+            <m:mo>{</m:mo>
+            <m:mn>9</m:mn>
+            <m:mo>−</m:mo>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>4</m:mn>
+                <m:mi>X</m:mi>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+                <m:mi>X</m:mi>
+                <m:mn>2</m:mn>
+              </m:mrow>
+            </m:mfenced>
+            <m:mo>}</m:mo>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+        <m:mo>±</m:mo>
+        <m:mn>4.12</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+      <m:mn>0.56</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>or</m:mtext>
+    <m:mspace width="1em"/>
+    <m:mn>3.56</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">We neglect negative value of time. The particle reaches origin of reference only once at t = 2 s. In order to determine time instant when particle is at initial position, we put x=10,
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+      <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-93">
+The particle is at the initial position twice, including start point. Now, at the point of reversal of direction, speed of the particle is zero. Putting v = 0 and using v=u+at, 
+
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-95">
+We neglect negative value and deduce that particle never ceases to move and as such there is no reversal of motion.
+</para>
+<para id="element-95a">
+<figure id="fig-95a">
+<title> Motion diagram </title>
+<media id="idm2098752" alt=""><image src="../../media/f12.gif" mime-type="image/gif"/></media>
+<caption> Motion diagram </caption>
+</figure>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+</section>
+
+
+<section id="section-4">
+<title> Example
+ </title>
+
+<example id="example-155">
+<para id="element-155"><term>Problem : </term> A particle’s velocity in “m/s” is given by a function in time “t” as :
+</para>
+<para id="element-156">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-157">
+If the particle is at x = 0 at t = 0, find the time (s) when the particle is 60 m away from the initial position.
+</para>
+<para id="element-158"> <term>Solution : </term> The velocity is given as a function in time “t”. Thus, we can know its acceleration by differentiating with respect to time :
+</para>
+<para id="element-158a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-159">
+Alternatively, we can see that expression of velocity has the form v = u + at. Evidently, the motion has a constant acceleration of -10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Also, note that origin of reference and initial position are same. Applying equation of motion for position as :
+</para>
+<para id="element-161">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-162">
+According to question, we have to find the time when particle is 60 m away from the initial position. Since it is one dimensional motion, the particle can be 60 m away either in the positive direction of the reference or opposite to it. Considering that it is 60 m away in the positive reference direction, we have :
+</para>
+<para id="element-162a">
+<figure id="fig-162a">
+<title> Motion diagram </title>
+<media id="idp7720448" alt=""><image src="../../media/f13.gif" mime-type="image/gif"/></media>
+<caption> Motion diagram </caption>
+</figure>
+</para>
+<para id="element-163">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 60 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-164">
+Re-arranging, 
+</para>
+<para id="element-165">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 12 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> or </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 6 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-166">
+We observe here that the particle is ultimately moving in the direction opposite to reference direction. As such it will again be 60 away from the initial position in the negative reference direction. For considering that the particle is 60 m away in the negative reference direction, 
+</para>
+<para id="element-167">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> - </m:mo>
+<m:mn> 60 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-168">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> ± </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> { </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> } </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1.29 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+<m:mo> , </m:mo>
+<m:mn> 9.29 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-169">
+Neglecting negative value of time,
+</para>
+<para id="element-170">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 9.29 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-171">
+<term>Note : </term> We can also solve the quadratic equation for zero displacement to find the time for the particle to return to initial position. This time is found to be 8 seconds. We note here that particle takes 2 seconds to reach the linear distance of 60 m in the positive direction for the first time, whereas it takes only 9.29 – 8 = 1.29 second to reach 60 m from the initial position in the negative direction.
+</para>
+<para id="element-172">
+The particle is decelerated while moving in positive direction as velocity is positive, but acceleration is negative. On the other hand, both velocity and acceleration are negative while going away from the initial position in the negative direction and as such particle is accelerated. Therefore, the particle takes lesser time to travel same linear distance in the negative direction than in the positive direction from initial position..
+</para>
+<para id="element-173">
+Hence, the particle is 60 m away from the initial position at t = 2 s, 6 s and 9.29 s.
+</para>
+<para id="element-174">
+<code display="block" id="idm2206576">
+t (s)     0	 2	 4	 6	8        9.29
+x (m)     0	60	80	60	0       -60 
+v (m/s)  40	20	 0     -20    -40       -52.9  
+</code>
+</para>
+<para id="element-174a">
+<figure id="fig-174a">
+<title> Motion diagram </title>
+<media id="idp1781584" alt=""><image src="../../media/f14.gif" mime-type="image/gif"/></media>
+<caption> Motion diagram </caption>
+</figure>
+</para>
+</example>
+
+<example id="example-227">
+<para id="element-227"><term>Problem : </term> A particle moves along x-axis with a velocity 9 m/s and acceleration -2 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Find the distance covered in 
+<m:math>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+second.
+</para>
+<para id="element-228"><term>Solution : </term> The displacement in 
+<m:math>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ second is :
+</para>
+
+
+<para id="element-230"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 5 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-231">
+The displacement in the 
+<m:math>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ second is zero. A zero displacement, however, does not mean that distance covered is zero. We can see here that particle is decelerated at the rate of -2 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ and as such there is reversal of direction when v = 0.
+</para>
+<para id="element-232"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-233">
+This means that particle reverses its motion at t = 4.5 s i.e in the period when we are required to find distance. The particle, here, travels in the positive direction from t = 4 s to 4.5 s and then travels in the negative direction from t = 4.5 s to 5 s. In order to find the distance in 
+<m:math>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ second, we need to find displacement in each of these time intervals and then sum their magnitude to find the required distance.
+</para>
+<para id="element-234">
+<figure id="fig-234">
+<title> Motion along a straight line </title>
+<media id="idp6041952" alt=""><image src="odm1a.gif" mime-type="image/gif"/></media>
+<caption> The partilcle reverses its direction in 5th second .</caption>
+</figure>
+</para>
+<para id="element-235">
+The displacement for the period t = 0 s to 4 s is :
+</para>
+<para id="element-236">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 4 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 36 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 16 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-237">
+The displacement for the period t = 0 s to 4.5 s is :
+</para>
+<para id="element-238">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 4.5 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 4.5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 40.5 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 20.25 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0.25 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-239">
+The displacement for the period t = 4 s to 4.5 s is :
+</para>
+<para id="element-240">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 20.25 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0.25 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-241">Since particle is moving with constant acceleration in one dimension, it travels same distance on its return for the same period. It means that it travels 0.25 m in the period from t = 4.5 s to t = 5 s.
+</para>
+<para id="element-242">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0.25 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-243">
+Thus, total distance covered between t = 4 s to t = 5s i.e. in the 
+<m:math>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ second is :
+</para>
+<para id="element-244">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0.25 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 0.25 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+
+
+  </content>
+  
+</document>

@@ -1,0 +1,1075 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Induced motion on rough incline plane</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b84cc857-6f27-466f-af4d-ba073b1c6584</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The natural tendency of a block is to move along the incline in downward direction under the “pull” of gravity. Motion of the block, however, can be induced either up or down along the incline by applying additional force other than three forces (weight, normal force and friction), which always operate on the block.   
+</para>
+<para id="element-2">
+<figure id="fig-2">
+<title> Induced motion on an incline </title>
+<media id="idp5926288" alt=""><image src="../../media/iip1.gif" mime-type="image/gif"/></media>
+<caption> Motion of the block can be induced in either up and down direction.</caption>
+</figure>
+</para>
+<para id="element-3">We will study the effect of an additional external force on the motion of a block on the rough incline plane. An additional external force has multiple implications on the state of motion of the block. Some of the important implications are :
+</para>
+<para id="element-4">
+<list id="list-2" list-type="bulleted"><item> External force can change the normal force (N) and hence maximum static friction for a given pair of surfaces. As a consequence, the force requirement parallel to contact surface to initiate motion will also change.  
+ </item>
+<item> External force can change the direction of motion with respect to the incline plane. The block can move either up or down (or the tendency to move up or down) the incline, depending on the direction of component of net external force at the contact surface. 
+</item>
+<item> Friction is opposite to the direction of the motion (or tendency of motion) of the block with respect to incline. 
+ </item>
+</list>
+</para>
+<para id="element-5">Most importantly, external force can overcome normal limitations to motion, resulting from requirement to exceed friction. It is so because the limitations are there, because of the fact that force due to gravity (mg), which is responsible for motion, is a constant for a given mass of the block. Such is not the limitation with the applied external force (F). It can have any magnitude and direction.
+</para>
+
+
+
+<section id="section-1">
+<title> Direction of friction
+</title>
+
+<para id="element-8">The externally unaided force system of three forces (weight, normal force and friction) causes downward motion (or induces tendency for motion in downward direction). On the other hand, the force system that involves additional external force (F) may have component of external forces parallel to contact in either up or down direction. As such, we need to analyze the force system without friction to decide the direction of friction. The figure below highlights this aspect showing question mark against the direction of friction.</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Induced motion on an incline </title>
+<media id="idp2861616" alt=""><image src="../../media/iip2.gif" mime-type="image/gif"/></media>
+<caption> What is the direction of friction?</caption>
+</figure>
+</para>
+
+<para id="element-11">In short, there are two possibilities depending on the component of net external force (excluding friction) at the contact. Let (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> || </m:mi>
+</m:msub>
+</m:math>
+denotes the component of net external force (excluding friction) parallel to contact surface. Then :
+</para>
+<para id="element-12">
+<list id="list-12" list-type="enumerated"><item> If  
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> || </m:mi>
+</m:msub>
+
+</m:math>
+ &lt; 0, then the block will either have the tendency to move down or there will be downward motion. The friction will then act in the upward direction.
+ </item>
+<item> If  
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> || </m:mi>
+</m:msub>
+</m:math>
+ &gt; 0, then the block will either have the tendency to move up or there will be upward motion. The friction will then act in the downward direction.
+</item>
+</list>
+</para>
+<section id="section-1a">
+<title> Nature of external force and direction of friction
+</title>
+
+
+<para id="element-14">The external force can be distinctly different in one important aspect. The component of external force parallel to the contact surface can either be downward or upward. This distinction of the additional external force provides us with a direct method for determining the direction of friction. 
+</para>
+<para id="element-15">We know that block has a tendency to move down on an incline due to the component of weight parallel to incline in the downward direction. Hence, if the component of additional external force is downward, then the induced motion has downward tendency and friction in upward direction. See the two figures below and orientations of the external force in each case. In either case, component of external force parallel to incline is directed downward. As such, the block is induced to move down. 
+
+</para>
+<para id="element-16">
+<figure orient="horizontal" id="fig-16">
+<title> Nature of applied force </title>
+<subfigure id="fig-16a">
+<media id="idm722064" alt=""><image src="../../media/iip3.gif" mime-type="image/gif"/></media>
+</subfigure>
+<subfigure id="fig-16b">
+<media id="idp5520144" alt=""><image src=" iip4.gif" mime-type="image/gif"/></media>
+</subfigure>
+<caption> The external force has component along incline in the downward direction.  </caption>
+</figure>
+</para>
+
+<para id="element-18">Such clarity with respect to direction of friction and hence that of the direction of motion is not there, if the component of additional external force parallel to incline is in upward direction. In this case, the sum of the components parallel to incline may be less than or equal to or greater than the maximum static friction. In such situations as shown here in the figure, we need to analyze net force parallel to the contact surface to determine the direction of motion and then that of friction. 
+</para>
+<para id="element-19">
+<figure orient="horizontal" id="fig-19">
+<title> Nature of applied force </title>
+<subfigure id="fig-19a">
+<media id="idp1705712" alt=""><image src="../../media/iip11.gif" mime-type="image/gif"/></media>
+</subfigure>
+<subfigure id="fig-19b">
+<media id="idm777152" alt=""><image src=" iip12.gif" mime-type="image/gif"/></media>
+</subfigure>
+<caption> The external force has component along incline in the upward direction.  </caption>
+</figure>
+</para>
+
+</section>
+</section>
+
+<section id="section-2">
+<title> Analysis strategy 
+</title>
+
+
+
+<para id="element-20">
+Force analysis for induced motion on incline plane will comprise of following steps :
+</para>
+<para id="element-21">
+<list id="list-21" list-type="enumerated"><item> 
+Identify the characteristics of applied external force to know the direction of its component along the incline. 
+</item>
+<item> 
+If the component of external force is down the incline, then motion is induced in downward direction and friction in upward direction. 
+</item>
+<item>If the component of external force is up the incline, then analyze the external forces (excluding friction) to know the direction of component of net external forces parallel to the incline. Depending on the direction component of net external forces parallel to the incline, determine the direction of friction .
+</item>
+<item> 
+After fixing the direction of friction, evaluate the state of friction (static friction, maximum static friction or kinetic friction) from the given set of information.
+</item>
+<item> 
+Carry out force analysis along two mutually perpendicular directions, suited to the situation in hand.
+ </item>
+</list>
+</para>
+<para id="element-22">
+Thus, sequential order of the analysis for induced motion on incline plane is as follows :
+</para>
+<para id="element-23">Additional force characterization --&gt; Direction of motion --&gt; Direction of friction --&gt; Friction state --&gt; Force analysis
+</para>
+</section>
+
+<section id="section-3">
+<title> Force analysis 
+</title>
+
+
+<para id="element-24">In this section, we shall work with different states of friction (static friction, maximum static friction or kinetic friction) for applied additional external force on the block. 
+</para>
+
+<section id="section-3a">
+<title> Case 1 : Friction equal to kinetic friction
+</title>
+
+<para id="element-25">
+In this case, the block moves on the incline. Net force parallel to contact surface is greater than maximum static friction and friction is equal to kinetic friction. 
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<example id="example-27">
+<para id="element-27"><term>Problem 1 : </term> A block of 5 kg is pulled by a force 10 N making an angle 30° with the incline of angle 45°. If coefficients of static and kinetic frictions are 0.55 and 0.53, then determine friction between block and incline.
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Induced motion on an incline </title>
+<media id="idp5970672" alt=""><image src="../../media/iip7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-29"><term>Solution : </term> We observe here that component of additional external force has its component up the incline. We are, therefore, required to carry out force analysis without friction to ascertain the direction of motion. In the figure below, the free body diagram is superimposed on the block and incline system.
+</para> 
+
+<para id="element-31">
+<figure id="fig-31"><title> Induced motion on an incline </title>
+<media id="idm8154560" alt=""><image src="../../media/iip8a.gif" mime-type="image/gif"/></media>
+<caption> Force analysis in x-direction without friction </caption>
+</figure>
+</para>
+<para id="element-32">The components of forces parallel to contact surface (excluding friction) is :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> -26.7  </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+It means that the block has tendency to move in the downward direction. The friction, therefore, is in up direction. Now, this completes the force system on the block as shown here. </para>
+<para id="element-35">
+<figure id="fig-35"><title> Induced motion on an incline </title>
+<media id="idp2905200" alt=""><image src="../../media/iip9a.gif" mime-type="image/gif"/></media>
+<caption> Force diagram with friction </caption>
+</figure>
+</para>
+
+<para id="element-36">
+<note id="idm621120"> An additional external force with component parallel to contact up the incline, does not guarantee upward motion. The force of gravity can still be greater than the component of applied additional external force parallel to the contact surface.
+</note>
+</para>
+<para id="element-37">
+Now, our next task is to know the state of friction. To know the state of friction, we need to compare the net force component parallel to contact with maximum static friction. Now, maximum friction force is :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.55  </m:mn>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+In order to evaluate maximum static friction, we need to know normal force on the block. It is clear from the free body diagram that we can find normal force, "N" by analyzing force in y-direction. As there is no motion in vertical direction, the components in this direction form a balanced force system.
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> + </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30.36  </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> Newton </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+The maximum friction force is :
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.55  </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 30.36  </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 16.7  </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+Thus magnitude of net component parallel to contact surface (26.7) is greater than maximum static friction (16.7 N). Thus, body will slide down and friction will be equal to kinetic friction. Hence, 
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.53  </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 30.36  </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 16.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-3b">
+<title> Case 2 : Friction equal to maximum static friction
+</title>
+
+
+
+<para id="element-45">
+In this case, net force parallel to contact surface is equal to maximum static friction.
+</para>
+
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<example id="example-47">
+<para id="element-47"><term>Problem : </term> A block of 10 kg rests on a rough incline of angle 45°. The block is tied to a horizontal string as shown in the figure. Determine the coefficient of friction between the surfaces, if tension in the string is 50 N. Consider g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. 
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Induced motion on an incline </title>
+<media id="idp4141200" alt=""><image src="../../media/iip5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-51a"> <term>Solution : </term> Here, block is stationary. We need to know the motional tendency, had the string were not there. 
+</para> 
+<para id="element-49">
+It is given that the string is taught with a tension of 50 N. Clearly, the block would have moved down had it not been held by the string is taut. The direction of friction, therefore, is upwards. Further, the system is static with taut string. It means that friction has reached maximum static friction. Otherwise, how would have block moved down if not held by the string. Hence, the forces on the block form a balanced force system, including maximum static friction acting upward. 
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> Induced motion on an incline </title>
+<media id="idp5163728" alt=""><image src="../../media/iip6.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block </caption>
+</figure>
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:mn> 50 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+and
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mn> 50 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 150 </m:mn>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+
+
+</section>
+<section id="section-3c">
+<title> Case 3 : All friction states
+</title>
+
+<example id="example-55">
+<para id="element-55"><term>Problem : </term> A block attached with a spring (of spring constant “k”) is placed on a rough horizontal plate. The spring is in un-stretched condition, when plate is horizontal. The plate is, then, raised with one end gradually as shown in the figure. Analyze friction and extension of the spring as angle (θ) increases to 90°. 
+</para>
+<para id="element-56">
+<figure id="fig-56">
+<title> Induced motion on an incline </title>
+<media id="idp5846608" alt=""><image src="../../media/iip10.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-57"> <term>Solution : </term> In the initial stages, spring does not apply any force as block remains stationary because of friction. The friction acts in up direction as there is no applied external force due to spring. The magnitude of friction is equal to the component of weight along the incline. The friction and extension in the spring (x) for different ranges of angle “θ” are given here. Note that 
+<m:math>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:math>
+is equal to angle of repose. This is the angle of inclination of the plate with horizon, when block begins to move down.
+</para> 
+
+<para id="element-58">
+(i) For 
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> &lt; </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:math>
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mspace width="2pt"/>
+<m:mo> ; </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+(ii) For 
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:math>
+</para>
+<para id="element-61">
+Till the angle does not reach the value equal to angle of repose, there is no motion of the block.  
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mspace width="2pt"/>
+<m:mo> ; </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+(iii)	For 
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> &gt; </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:math>
+</para>
+<para id="element-64">
+The block starts sliding down. The direction of friction is up along the incline. As the spring stretches, it applies spring force to counteract the net downward force to again bring the block to rest. Before, the block is brought to a stop, the acceleration of the block (“a”) is :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+When the block is brought to a stop, the extension in the string 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+is obtained as under :
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mi> k </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+</section>
+
+</section>
+  
+  </content>
+  
+</document>

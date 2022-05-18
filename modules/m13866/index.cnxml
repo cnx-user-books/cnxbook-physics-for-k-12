@@ -1,0 +1,1196 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Projectile motion types (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c5446c4c-c39d-4406-b186-f1b02e5929b1</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+ 
+<section id="section-1a">
+<title>  Hints on solving problems </title>
+<para id="element-3a">
+<term>1: </term> Identify projectile motion types. The possible variants are :
+</para>
+<para id="element-3b">
+<list id="list-3b" list-type="bulleted">
+<item> Projectile is thrown in horizontal direction. In this case, initial vertical component of velocity is zero. Consider horizontal direction as positive x-direction and vertically downward direction as positive y-direction. </item>
+<item> Projectile is thrown above horizontal level. The projectile first goes up and then comes down below the level of projection </item>
+<item> Projectile is thrown below horizontal level. Consider horizontal direction as positive x-direction and vertically downward direction as positive y-direction. </item>
+</list>
+
+</para>
+<para id="element-3c"><term>2: </term> We can not use standard equations of time of flight, maximum height and horizontal range. We need to analyze the problem in vertical direction for time of flight and maximum height. Remember that determination of horizontal range will involve analysis in both vertical (for time of flight) and horizontal (for the horizontal range) directions.
+</para>
+<para id="element-3d">
+<term>3: </term> However, if problem has information about motion in horizontal direction, then it is always advantageous to analyze motion in horizontal direction. 
+</para>
+</section> 
+<section id="section-2">
+<title> Representative problems and their solutions </title>
+<para id="element-3">We discuss problems, which highlight certain aspects of the study leading to the projectile motion types. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> Time of flight 
+</item>
+<item> Range of flight
+</item>
+<item> Initial velocity
+</item>
+<item> Final velocity
+</item>
+</list>
+</para>
+</section> 
+
+
+
+
+
+<section id="section-5">
+<title> Time of flight  </title>
+
+<example id="example-40">
+<para id="element-40"><term>Problem : </term> A ball from a tower of height 30 m is projected down at an angle of 30° from the horizontal with a speed of 10 m/s. How long does ball take to reach the ground? (consider g = 10 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+)
+</para>
+<para id="element-41"><term>Solution : </term> Here, we consider a reference system whose origin coincides with the point of projection. Further, we consider that the downward direction is positive y - direction.
+</para>
+<para id="element-398"><figure id="fig-398"><title> Projectile motion </title>
+<media id="idp1526944" alt=""><image src="../../media/pmtq1ab.gif" mime-type="image/gif"/></media>
+</figure></para><para id="element-43">Motion in vertical direction :
+</para>
+<para id="element-44">
+Here, 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/> 
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mo> ; </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/> 
+<m:mi> m </m:mi>
+<m:mo> ; </m:mo>
+</m:math>
+. Using 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, we have :
+</para>
+<para id="element-45"><m:math display="block">
+<m:mtable columnalign="left">
+
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> 30 </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mn> 10 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> or </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Neglecting negative value of time, t = 2  s
+</para>
+</example>
+</section> 
+
+<section id="section-6">
+<title> Range of flight </title>
+
+<example id="example-50">
+<para id="element-50"><term>Problem : </term> A ball is thrown from a tower of height “h” in the horizontal direction at a speed “u”. Find the horizontal range of the projectile.
+</para>
+<para id="element-51"><term>Solution : </term> Here, we consider a reference system whose origin coincides with the point of projection. we consider that the downward direction is positive y - direction.
+
+</para>
+
+
+
+<para id="element-532"><figure id="fig-532"><title> Projectile motion </title>
+<media id="idp2638656" alt=""><image src="../../media/pmtq5a.gif" mime-type="image/gif"/></media>
+</figure></para><para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> T </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">Motion in the vertical direction :
+</para>
+<para id="element-55">
+Here, 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mspace width="2pt"/> 
+</m:math>
+and t  = T (total time of flight)
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+
+
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-56a">
+Putting expression of total time of flight in the expression for horizontal range, we have :
+</para>
+<para id="element-56b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+</example> 
+<example id="example-69">
+<para id="element-69"><term>Problem : </term> A projectile is projected up with a velocity  √(2ag) at an angle “θ” from an elevated position as shown in the figure. Find the maximum horizontal range that can be achieved.
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Projectile motion  </title>
+<media id="idp5830304" alt=""><image src="../../media/pmtq6a.gif" mime-type="image/gif"/></media>
+<caption> Projectile projected from an elevated point  .</caption>
+</figure>
+</para>
+<para id="element-71"><term>Solution : </term> In order to determine the maximum horizontal range, we need to find an expression involving horizontal range. We shall use the equation of projectile as we have the final coordinates of the motion as shown in the figure below :
+</para>
+<para id="element-73">
+<figure id="fig-73">
+<title> Projectile motion  </title>
+<media id="idm456864" alt=""><image src="../../media/pmtq7a.gif" mime-type="image/gif"/></media>
+<caption> Projectile projected from an elevated point  .</caption>
+</figure>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>cos</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">
+Substituting and changing trigonometric ratio with the objective to create a quadratic equation in “tan θ” :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>H</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>g</m:mi>
+          <m:msup>
+            <m:mi>R</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mo>{</m:mo>
+          <m:msqrt>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>a</m:mi>
+                <m:mi>g</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:msqrt>
+          <m:msup>
+            <m:mo>}</m:mo>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>tan</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+Rearranging, we have :
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>tan</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>a</m:mi>
+    <m:mi>R</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>H</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>R</m:mi>
+        <m:mo>±</m:mo>
+        <m:mrow>
+          <m:msqrt>
+            <m:mrow>
+              <m:mo>{</m:mo>
+              <m:msup>
+                <m:mfenced>
+                  <m:mrow>
+                    <m:mn>4</m:mn>
+                    <m:mi>a</m:mi>
+                    <m:mi>R</m:mi>
+                  </m:mrow>
+                </m:mfenced>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>R</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mo>−</m:mo>
+                  <m:mn>4</m:mn>
+                  <m:mi>a</m:mi>
+                  <m:mi>H</m:mi>
+                </m:mrow>
+              </m:mfenced>
+              <m:mo>}</m:mo>
+            </m:mrow>
+          </m:msqrt>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+For tan θ to be real, it is required that 
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>16</m:mn>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≥</m:mo>
+    <m:mn>4</m:mn>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>H</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>4</m:mn>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≥</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>H</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≤</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>H</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>≤</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>2</m:mn>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>H</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">
+Hence, maximum possible range is :
+</para>
+<para id="element-86"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>H</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+</section> 
+<section id="section-8">
+<title> Initial velocity </title>
+<example id="example-87">
+<para id="element-87"><term>Problem : </term> A ball is thrown horizontally from the top of the tower to hit the ground at an angle of  45° in 2 s. Find the speed of the ball with which it was projected.
+</para>
+<para id="element-88"><term>Solution : </term> The question provides the angle at which the ball hits the ground. A hit at 45° means that horizontal and vertical speeds are equal.
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>x</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">However, we know that horizontal component of velocity does not change with time. Hence, final velocity in horizontal direction is same as initial velocity in that direction.
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">We can now find the vertical component of velocity at the time projectile hits the ground by considering motion in vertical direction. Here, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="5pt"/>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>s</m:mi>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+
+<para id="element-95">Using equation of motion in vertical direction, assuming downward direction as positive : 
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">
+Hence, the speed with which the ball was projected in horizontal direction is :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+</section> 
+<section id="section-4">
+<title> Final velocity </title>
+<example id="example-30"><para id="element-30"><term>Problem : </term> A ball “A”  is thrown from the edge of building “h”, at an angle of 30° from the horizontal, in upward direction. Another ball ”B” is thrown at the same speed from the same position, making same angle with horizontal, in vertically downward direction. If "u" be the speed of projection, then find their speed at the time of striking the ground.
+</para>
+<para id="element-32"><term>Solution : </term>  The horizontal components of velocity for two projectiles are equal. Further, horizontal component of velocity remains unaltered during projectile motion. The speed of the projectile at the time of striking depends solely on vertical component of velocity. For the shake of convenience of analysis, we consider point of projection as the origin of coordinate system and vertically downward direction as positive y - direction. 
+</para>
+<para id="element-33">
+<figure id="fig-33"><title> Projectile motion </title>
+<media id="idp4496096" alt=""><image src="../../media/pmtq2a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-34">Motion in vertical direction :
+</para>
+<para id="element-35">For A, 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> yA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+
+</m:math>
+</para>
+<para id="element-36">For B, 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> yB </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:math>
+</para>
+<para id="element-37">Thus, velocities in vertical direction are equal in magnitude, but opposite in direction. The ball,"A", which is thrown upward, returns after reaching the maximum vertical height. For consideration in vertical direction, the ball returns to the point of projection with same speed it was projected. What it means that the vertical component of velocity of ball "A" on return at the point projection is "u/2". This further means that two balls "A" and "B", as a matter of fact, travel down with same downward vertical component of velocity. 
+</para>
+<para id="element-38">In other words, the ball "A" returns to its initial position acquiring same speed "u/2" as that of ball "B" before starting its downward journey. Thus, speeds of two balls are same i.e "u/2" for downward motion. Hence, two balls strike the ground with same speed. Let the final speed is "v".
+</para>
+<para id="element-38a">Now, we apply equation of motion to determine the final speed in the vertical direction.
+</para>
+<para id="element-38b"> 
+<m:math display="block">
+  <m:mrow>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38c"> 
+Putting values, we have :
+</para>
+<para id="element-38d"><m:math display="block">
+  <m:mrow>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>u</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>8</m:mn>
+            <m:mi>g</m:mi>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38e"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>u</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mn>8</m:mn>
+                <m:mi>g</m:mi>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38f"> 
+The horizontal component of velocity remains same during the journey. It is given as :
+</para>
+<para id="element-38g"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mi>u</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38h"> 
+The resultant of two mutually perpendicular components is obtained, using Pythagoras theorem :
+</para>
+<para id="element-38i"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>u</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>8</m:mn>
+            <m:mi>g</m:mi>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38j"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:msup>
+              <m:mi>u</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>u</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>8</m:mn>
+            <m:mi>g</m:mi>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+
+      <m:mrow>
+
+          <m:mrow>
+            <m:msup>
+              <m:mi>u</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:mi>g</m:mi>
+            <m:mi>h</m:mi>
+          </m:mrow>
+
+      </m:mrow>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38k"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+
+      <m:msqrt>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>u</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+              <m:mi>g</m:mi>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:msqrt>
+
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+</section> 
+
+
+
+  </content>
+  
+</document>

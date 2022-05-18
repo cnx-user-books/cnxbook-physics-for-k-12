@@ -1,0 +1,1365 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Pulleys(application-I)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ba10570d-6fb3-4a3d-9f97-9bb643748cf2</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-1">
+<title> Hints for solving problems
+</title>
+<para id="element-2">
+In some questions, we are required to find relation for the accelerations of different elements in the arrangement. We, therefore, need a framework or a plan to establish this relation. This relation is basically obtained by differentiating the relation of positions of the movable elements in the arrangement.
+</para>
+<para id="element-3">
+<list id="list-3" list-type="enumerated"><item> Draw reference, which is fixed. This reference can be the level of fixed pulley or the ground.
+</item>
+<item> Identify all movable elements like blocks and pulleys (excluding static ones).
+</item>
+<item> Assign variables for the positions of movable elements from the chosen reference.
+</item>
+<item> Write down constraint relations for the positions of the elements. Usually, total length of the string is the “constraint” that we need to make use for writing relation for the positions. 
+</item>
+<item> Differentiate the relation for positions once to get relation of velocities and twice to get relation of accelerations. 
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to the pulleys. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Static or fixed pulley
+</item>
+<item> Moving pulley 
+</item>
+<item> Combination or Multiple pulley system
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Static or fixed pulley
+</title>
+<section id="section-3a">
+<para id="element-6"><term> Problem 1 : </term> Pulley and strings are “mass-less” and there is no friction involved in the arrangement. Find acceleration of the block of mass 3 kg and tensions “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” as shown in the figure. 
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Static or fixed pulley </title>
+<media id="idm7224944" alt=""><image src="../../media/pq1-f0ca.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-8">
+<term> Solution 1 : </term> We observe here that two strings are taught. Therefore, acceleration of the all constituents of the system is same. This situation can be used to treat the system as composed of three blocks only (we neglect string as it has no mass). The whole system is pulled down by a net force as given by :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">
+Total mass of the system is :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+Applying law of motion, the acceleration of the system and hence acceleration of the block of mass 3 kg is :
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+In order to find tension “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, we consider FBD of mass of 1 kg. Here,
+</para>
+<para id="element-16">
+<figure id="fig-16">
+<title> Free body diagrams </title>
+<media id="idm1543680" alt=""><image src="../../media/pq2a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>50</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">
+In order to find tension “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, we consider FBD of mass of 3 kg. Here,
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<para id="element-22"><term> Problem 2 : </term> Pulley and string are “mass-less” and there is no friction involved in the arrangement. The blocks are released from rest. After 1 second from the start, the block of mass 4 kg is stopped momentarily. Find the time after which string becomes tight again. 
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Static or fixed pulley </title>
+<media id="idm1100448" alt=""><image src="../../media/pq3-7c7a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-24">
+<term> Solution 1 : </term> We need to understand the implication of stopping the block. As soon as block of 4 kg (say block “B”) is stopped, its velocity becomes zero. Tension in the string disappears. For the other block of 2 kg (say block “A”) also, the tension disappears. 
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Static or fixed pulley </title>
+<media id="idm8036912" alt=""><image src="../../media/pq4-8b21.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-26">The block “A”, however, has certain velocity with which it is moving up. It will keep moving up against the force of gravity. On the other hand, block “B” will resume its motion of a free fall under gravity.
+</para>
+<para id="element-27">
+The string will become taught again, when the displacements of two blocks equal after the moment the block “B” was stopped momentarily. Let “t” be that time, then :
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>v</m:mi>
+        <m:mi>A</m:mi>
+      </m:msub>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+Clearly, we need to know the velocity of the block “A”, when block “B” was stopped. It is given in the question that the system of blocks has been in motion for 1 s. Now, the acceleration of the system (hence that of constituent blocks) is :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>g</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+Applying equation of motion for block “A”, we have :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+Now putting values in the equation for time, we have :
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>v</m:mi>
+        <m:mi>A</m:mi>
+      </m:msub>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+    <m:mrow>
+      <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-4">
+<title> Moving pulley 
+</title>
+<para id="element-37">
+<term> Problem 3 : </term> Pulleys and string are “mass-less” and there is no friction involved in the arrangement. The two blocks have equal mass “m”. Find acceleration of the blocks and tension in the string. 
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Moving pulley  </title>
+<media id="idm10218432" alt=""><image src="../../media/pq5-3827.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-39">
+<term> Solution 1 : </term> In order to determine accelerations, we shall write constraint equation to find the relation for the accelerations of two blocks. Going by the hints given in the module, we see that pulley on the table is fixed and can be used as reference. However, one of the blocks is hanging and is not in the level of other movable block on the table. 
+</para>
+<para id="element-40">To facilitate writing of constraint relation, we imagine here that hanging block “D” is raised on the same level as block “A”.  Now, we assign variables to denote positions of two movable elements as shown in the figure.
+</para>
+<para id="element-40a">
+<figure id="fig-40a">
+<title> Moving pulley  </title>
+<media id="idm7643648" alt=""><image src="../../media/pq6-253b.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>D</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">
+Differentiating twice,
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>D</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>D</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+This means that the accelerations of two blocks are same. Since string is single piece, tension in the string is same. Considering free body diagrams, we have :
+</para>
+<para id="element-244"><figure id="fig-244">
+<title> Free body diagrams  </title>
+<media id="idm8002896" alt=""><image src="../../media/pq11.gif" mime-type="image/gif"/></media>
+<caption> Forces on blocks "A" and "D" </caption>
+</figure></para><para id="element-46">
+For A :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+For D :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+Combining, we have :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5">
+<title> Combination or Multiple pulley system
+</title>
+<section id="section-5a">
+<para id="element-54">
+<term> Problem 4 : </term> Pulleys and string are “mass-less” and there is no friction involved in the arrangement. If at a given time velocities of block “1” and “2” are 2 m/s upward. Find the velocity of block “3” at that instant.
+</para>
+<para id="element-55">
+<figure id="fig-55">
+<title> Combination or Multiple pulley system  </title>
+<media id="idm6153376" alt=""><image src="../../media/pq7-92ab.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-56"><term> Solution 1 : </term> We see here that velocities of block “1” and “2” are given and we have to find the velocity of remaining block “3”. It is apparent that if we have the relation of velocities of movable blocks, then we can get the result. We draw the reference as a horizontal line through the center of the static pulley and denote variables for all the movable elements of the system. Let "
+<m:math>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+" and "
+<m:math>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+" be the lengths of two strings, then :
+</para>
+<para id="element-57">
+<figure id="fig-57">
+<title> Combination or Multiple pulley system  </title>
+<media id="idm2072784" alt=""><image src="../../media/pq8-8ec3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">Differentiating once, we get the relations for velocities of the movable elements,
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">We need to eliminate "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" to get the required relation of velocities of the blocks. Rearranging second equation, we have :
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">
+Substituting for "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" from the first equation,
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+Now, considering upward direction as positive, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+. Putting these values in the relation for velocities,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>6</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+Negative sign means that velocity of the block “3” is vertically downward.
+</para>
+</section>
+<section id="section-5b">
+<para id="element-72">
+<term> Problem 5 : </term> Pulleys and string are “mass-less” and there is no friction involved in the arrangement. Find the relation for the accelerations between the hanging plank (marked “1”) and the block (marked “2”).
+</para>
+<para id="element-73">
+<figure id="fig-73">
+<title> Combination or Multiple pulley system  </title>
+<media id="idm2969520" alt=""><image src="../../media/pq9-b302.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-74">
+<term> Solution 1 : </term> In order to obtain the relation for the accelerations of given elements, we first need to develop constraint relations for the three string having fixed lengths. For this, we choose a horizontal reference through the center of topmost fixed pulley as shown in the figure.
+</para>
+<para id="element-75">
+<figure id="fig-75">
+<title> Combination or Multiple pulley system  </title>
+<media id="idm8854880" alt=""><image src="../../media/pq10-17b0.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-76">
+With reference to positions as shown in the figure, the constraint relations are :
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+Differentiating above relations twice with respect to time, we have three equations :
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">
+Rearranging second and third equation, 
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-462"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para><para id="element-86">Substituting for "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" from second equation.
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>4</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">Substituting for "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" from first equation, 
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>6</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>7</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>7</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">Thus, we need to pull the block a lot to raise the plank a bit. This is a mechanical arrangement that allows to pull a heavy plank with smaller force.
+</para>
+
+</section>
+</section>
+
+  
+  </content>
+  
+</document>

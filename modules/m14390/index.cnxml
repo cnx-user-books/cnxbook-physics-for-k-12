@@ -1,0 +1,1626 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Pulley in rolling</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b93609b0-87f0-4bd0-9dce-b27ed2c50376</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">In our earlier treatment on "pulley" in this course, we had limited our consideration to "mass-less" pulley. Here, we shall consider pulley, which has finite mass and is characterized by  rolling motion and presence of friction in certain cases.
+</para>
+<para id="element-2">We need to distinguish two situations (finite mass and mass-less cases) in order to analyze the motion correctly. Mass-less pulley is characterized by the fact that it does not affect the magnitude of tension in the string. It means that tensions in the string on either side of the pulley remains same. In general, a "mass-less" pulley changes the direction of force (tension) without any change in magnitude. </para>
+
+<section id="section-1">
+<title> Analysis of the motion of Pulley in rolling
+</title>
+
+
+<para id="element-106">A pulley of finite mass, on the other hand, may rotate, fulfilling the condition of rolling. In this case, the length of rope/string released from the pulley is equal to the distance covered by a point on the rim. If the rolling is accelerated, there is friction between the pulley surface and the string/ rope, passing over it, enabling the pulley to accelerate/decelerate in rotation. </para>
+<para id="element-4"> 
+<figure id="fig-4"><title> Pulley  </title>
+<media id="idp9879968" alt=""><image src="../../media/pr3a.gif" mime-type="image/gif"/></media>
+<caption> Pulley is rolling on the rope/ string in vertically downward direction.
+</caption>
+</figure>
+</para>
+
+<para id="element-3">Evidently, the acceleration of pulley of finite mass will be associated with a net force on the pulley. This, in turn, means that the tension in the strong are not same as in the case of "mass-less" pulley.  The pulley, in the figure above, translates and rotates with acceleration, as the string wrapped over it unwinds.</para>
+
+<para id="element-5">The length of rope unwound is equal to the vertical distance traveled by the pulley/ disk as in the case of rolling and as shown in the figure. Hence, 
+</para>
+
+<para id="element-5a"> 
+<figure id="fig-5a"><title> Pulley in rolling  </title>
+<media id="idp11881264" alt=""><image src="../../media/pr9.gif" mime-type="image/gif"/></media>
+<caption> The length of rope unwound is equal to the vertical distance traveled by the pulley. 
+</caption>
+</figure>
+</para>
+
+<para id="element-6"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> θ </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-7">The motion of pulley may not exactly look like rolling. But, we can see that string/rope plays the role of a surface in rolling. This analogy is not very obscure as string provides a tangential surface like horizontal surface for the pulley to roll. This is an analogous situation to the rolling of a disk. Differentiating the relation, as given above, with respect to time :
+</para>
+
+<para id="element-8"> 
+<equation id="equation-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-9"> 
+<equation id="equation-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-10">In certain situation, the pulley may be fixed to the ceiling as shown in the figure below and hence incapable of translation. We can not say here that pulley is actually not rolling. But, the rope translates as much as a point on the rim of the pulley and as such the rope translates at the same velocity and acceleration as that of the center of mass of the pulley, if it were free to translate. We can see that pulley is executing the rotational part of the rolling motion, whereas string, along with attached blocks, is executing the translational part of the rolling motion. Thus, motions of pulley and string together are equivalent to rolling motion. 
+</para>
+<para id="element-11"> 
+<figure id="fig-11"><title> Pulley  </title>
+<media id="idp9113232" alt=""><image src="../../media/pr2a.gif" mime-type="image/gif"/></media>
+<caption> Fixed pulley and string together executes rolling.
+</caption>
+</figure>
+</para>
+
+<para id="element-14">We analyze motion of pulley in same manner as that of a rolling body with the help of two Newton’s second laws – one for the linear motion and other for the angular motion. Such consideration of law of motion, however, is conditioned by the equation of rolling and equation of accelerated rolling.
+</para>
+</section>
+
+<section id="section-2">
+<title> Examples
+</title>
+
+<para id="element-15">In this section, we work out with few representative examples to illustrate the application of rolling motion in the case of pulley :
+</para>
+<para id="element-16"> 
+<list id="list-2" list-type="bulleted"><item> Pulley or disk of finite mass is translating 
+ </item>
+<item> Pulley or disk of finite mass is stationary
+ </item>
+<item> A mass-less pulley connects rolling motion of a disk to the translation of a block.
+ </item>
+</list>
+</para>
+<section id="section-2a">
+<title> Pulley or disk of finite mass is translating 
+</title>
+
+<para id="element-17"><term>Example 1 </term> </para>
+
+<para id="element-18"><term>Problem : </term> A  long rope of negligible mass is wrapped many times over a solid cylinder of mass "m" and radius "R". Other end of the rope is attached to a fixed ceiling and the cylinder is then let go at a given instant. Find the tension in the string and acceleration of the cylinder.
+</para>
+<para id="element-19">
+<figure id="fig-19"><title> Rolling down the rope </title>
+<media id="idp5898768" alt=""><image src="../../media/pr3a.gif" mime-type="image/gif"/></media>
+<caption>  The rolling of the cylinder is guided on the rope. </caption>
+</figure>
+</para>
+<para id="element-20"><term>Solution : </term> The rolling of the cylinder is guided on the rope. We select a coordinate system in which positive y-direction is along the downward motion as shown in the figure. 
+</para>
+<para id="element-21">
+<figure id="fig-21"><title> Rolling down the rope </title>
+<media id="idp9436896" alt=""><image src="../../media/pr4.gif" mime-type="image/gif"/></media>
+<caption>  Free body diagram. </caption>
+</figure>
+</para>
+<para id="element-722">As discussed earlier, we set out to write three equations and solve for the required quantity. Three equations for rolling motions are (i) Newton's second law for translation (ii) Newton's second law for rotation and (iii) Equation of accelerated rolling.</para><para id="element-22">
+From the application of Newton's second law for translation in y - direction :
+</para>
+<para id="element-23"><equation id="equation-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> mg </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-24">From the application of Newton's second law for rotation :
+</para>
+<para id="element-25"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> T </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-121"><equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para><para id="element-61">Note that force due to gravity passes through center of mass and does not constitute a torque to cause angular acceleration. Also, we do not consider sign for angular quantities as we shall be using only the magnitudes here . Now, from relation of linear and angular accelerations (equation of accelerated rolling), we have :
+</para>
+<para id="element-26"><equation id="equation-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-27">Putting the value of "α" from above in the equation - 4, we have :
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">The moment of inertia for solid cylinder about its axis is,</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-473">Hence,</para><para id="element-31"><equation id="equation-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-32">Substituting the expression of tension in the equation of force analysis in y-direction (equation - 3), we have :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> mg </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> g </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">Putting this value in the expression of "T" (equation - 6), we have :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-2b">
+<title> Pulley or disk of finite mass is stationary
+</title>
+<para id="element-36"><term>Example 2 </term> </para>
+<para id="element-37"><term>Problem : </term> In the “pulley – blocks” arrangement shown in the figure. The masses of the pulley and two blocks are “M”, “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+” and “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+" respectively. If there is no slipping between pulley and rope, then find (i) acceleration of the blocks and (ii) tensions in the string.
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Pulley – blocks system </title>
+<media id="idp12856688" alt=""><image src="../../media/pr5.gif" mime-type="image/gif"/></media>
+<caption> There is no slipping between pulley and rope. </caption>
+</figure>
+</para>
+<para id="element-39"><term>Solution : </term> The blocks have different masses (hence weights). The net force on the pulley due to difference in weight accelerates the pulley in rotation. Let the tensions in the string be “
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+“ and “
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+“. Since the rope is inextensible, the different points on the rope has same acceleration as that of the rolling i.e. 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+. Let 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+.  
+</para>
+
+<para id="element-40">
+<figure id="fig-40">
+<title> Pulley – blocks system </title>
+<media id="idp10578832" alt=""><image src="../../media/pr2a.gif" mime-type="image/gif"/></media>
+<caption> There is no slipping between pulley and rope. </caption>
+</figure>
+</para>
+<para id="element-41">
+The magnitude of torque on the pulley (we neglect the consideration of direction) is :
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> x </m:mo> 
+<m:mi>R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">The pulley is fixed to the ceiling. As such, it is constrained not to translate in response to the net vertical force on it. Instead, the net vertical force causes translational acceleration of the string and the masses attached to the string. The length of string released from the pulley is equal to the distance covered by a point on the rim of the pulley. It means that the linear acceleration of the string is related to angular acceleration of the pulley by the equation of accelerated rolling. Hence,
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">The directions of angular and linear accelerations are as shown in the figure. Now, considering pulley and blocks, we have three equations as :
+</para>
+<para id="element-46">
+<term> (i) </term> Rotation of pulley :
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> x </m:mo> 
+<m:mi>R </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+and
+</para>
+<para id="element-50"><equation id="equation-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-51a">
+<term> (ii) </term> Translation of 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ :
+</para>
+<para id="element-52"><equation id="equation-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<para id="element-53"><term>(iii)</term> Translation of m2 :
+</para>
+<para id="element-54"><equation id="equation-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-55">Putting values of "
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" and "
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+" from equations 7 and 8, in the expression of acceleration (equation - 6), we have :
+</para>
+<para id="element-56"><equation id="equation-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g  </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g  </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-57">
+Reaaranging,
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g  </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g  </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-61a">Putting values of "
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+" from equation - 9, we have :
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> +  </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> x  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g  </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+Rearranging, we have :
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> +  </m:mo> 
+<m:mn> 4 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+Similarly,
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> +  </m:mo> 
+<m:mn> 4 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1  </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-2c">
+<title> A mass-less pulley connects rolling motion of a disk to the translation of a block
+</title>
+<para id="element-66a"><term>Example 3 </term> </para>
+<para id="element-68"><term>Problem : </term> In the “pulley – blocks” arrangement, a string is wound over a circular cylinder of mass “M”. The string passes over a mass-less pulley as shown in the figure. The other end of the string is attached to a block of mass “m”. If the cylinder is rolling on the surface towards right, then find accelerations of the cylinder and block.
+</para>
+<para id="element-69">
+<figure id="fig-69">
+<title> Combination of motions via pulley </title>
+<media id="idp9448864" alt=""><image src="../../media/pr6.gif" mime-type="image/gif"/></media>
+<caption> Rolling of cylinder and translation of block </caption>
+</figure>
+</para>
+<para id="element-70"><term>Solution : </term> In this question, string passes over a mass-less pulley. It means that the tension in the string through out is same. Since string is attached to the top of the cylinder, the tension force acts tangentially to the cylinder in rolling. In this case, the friction is acting in forward direction (as the cylinder tends to slide backward). 
+</para>
+
+<para id="element-71">The linear acceleration of the top position and center of mass are different. As such, linear accelerations of the cylinder and blocks are different. Let the accelerations of cylinder and block be “
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+“and “
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+” respectively.
+</para>
+<para id="element-72">
+<figure id="fig-72">
+<title> Combination of motions via pulley </title>
+<media id="idp9274848" alt=""><image src="../../media/pr7.gif" mime-type="image/gif"/></media>
+<caption> Rolling of cylinder and translation of block </caption>
+</figure>
+</para>
+<para id="element-73"><term> (i) </term> Rolling of cylinder :
+</para>
+<para id="element-74">
+The magnitude acceleration of the rolling cylinder (i.e. its COM) is :
+</para>
+<para id="element-75"><equation id="equation-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-76">Now, we need to relate the acceleration of the cylinder to that of string (and hence that of block attached to it). For convenience, we consider only magnitudes here. Now, we know that the magnitude of the velocity of the top point of the cylinder is related to that of COM as :
+</para>
+<para id="element-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">Differentiating with respect to time, the magnitude of the acceleration of the string and the block, attached to it, is :
+</para>
+<para id="element-79"><equation id="equation-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-80">
+<term> (ii)</term> Translation of cylinder : 
+</para>
+<para id="element-891">Applying Newton’s second law for translation of the cylinder,</para><para id="element-81"><equation id="equation-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> +  </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-82">
+<term>(iii)</term> Rotation of cylinder :
+</para>
+<para id="element-83">
+Applying Newton’s second law for rotation,
+</para>
+<para id="element-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> (  </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> )  </m:mo> 
+<m:mo> x  </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x  </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi>  R  </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> (  </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> )  </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> T </m:mi>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">For rolling, we use relation of accelerations as given by equation - 11 :
+</para>
+<para id="element-89"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> T </m:mi>
+<m:mo> -  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">Putting values of 
+"
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:math>
+" from equation - 13,
+</para>
+<para id="element-91"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> T </m:mi>
+<m:mo> -  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> (  </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> )  </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92"><equation id="equation-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-93"><term> (iv) </term>Translation of block :
+</para>
+<para id="element-94">
+The free body diagram of the block is shown in the figure. Here,
+</para>
+<para id="element-95">
+<figure id="fig-95">
+<title> Free body diagram of block </title>
+<media id="idp10510896" alt=""><image src="../../media/pr8.gif" mime-type="image/gif"/></media>
+<caption> The block is accelerating down. </caption>
+</figure>
+</para>
+<para id="element-96">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> -  </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-97">Substituting value of "T" from equation – 14,
+</para>
+<para id="element-98">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-879">Substituting this value of  
+"
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" in terms of 
+"
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+"
+from equation – 11 and solving for
+"
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+"
+,</para><para id="element-99">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 8 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-100">As the magnitude of "
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" is given by :
+</para>
+<para id="element-101">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 8 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+</section>
+  
+  </content>
+  
+</document>

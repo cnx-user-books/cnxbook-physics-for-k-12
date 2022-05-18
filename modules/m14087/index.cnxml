@@ -1,0 +1,732 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Incline plane</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fac87c0b-8390-4617-bcc1-5237504def23</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Incline is a plane whose two ends are at different elevation with respect to a base line. This is a useful device to reduce the requirement of force in exchange of extended motion. When we push an object over an incline to raise the object at higher level, we need to apply lesser force (mg sinθ) in comparison to lifting the same vertically against its weight (mg). 
+</para>
+<para id="element-2">
+What we gain through reduction in force we have to work longer to cover a longer length. Moreover, no plane, however smooth, is friction-less. Such devices aiming to reduce the magnitude of effort are ultimately less energy efficient. 
+</para>
+
+<section id="section-1">
+<title> Incline </title>
+<section id="section-1a">
+<title> Shape 
+</title>
+<para id="element-3">
+An incline can have different shapes. Three general shapes, including single and double inclines, are shown here for illustration.  
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Different shapes of incline </title>
+<media id="idm10346112" alt=""><image src="../../media/ip1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+</section>
+<section id="section-1c">
+<title> Forces
+</title>
+<para id="element-19">The force analysis with respect to motion of the block on a rough incline plane involves various forces. A minimum of three forces operate on the block placed on the incline : (i) weight of the block, mg, (ii) normal force (N) and (iii) friction (
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+, 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+ or 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+). Any other external force is additional to these three named forces. On the other hand, named forces reduce to two (weight and normal force), if the friction between incline and block is negligible to be considered zero.
+</para>
+<para id="element-20">
+<figure id="fig-20"><title> Forces on the incline </title>
+<media id="idp6383344" alt=""><image src="../../media/ip8-c773.gif" mime-type="image/gif"/></media>
+<caption> There are three external forces on the block. </caption>
+</figure>
+</para>
+</section>
+
+<section id="section-1d">
+<title> Choice of planar coordinates
+</title>
+<para id="element-21">
+There are two useful coordinate orientations to analyze the forces and consequently the motion of the block. 
+</para>
+<para id="element-22">
+We can either keep x-axis along incline and y-axis perpendicular to incline. In this setup, the weight of the block lying on the incline surface is resolved into components along these directions. The angle between vertical and perpendicular to incline is equal to the angle of incline “θ” as shown in the figure. The normal force on the block due to incline surface is in y-direction, whereas friction is along x-direction. </para>
+<para id="element-23">
+
+<figure orient="horizontal" id="fig-23">
+<title> Choice of coordinate system </title>
+<subfigure id="fig-23a">
+<media id="idp8932112" alt=""><image src="../../media/ip9-9fb1.gif" mime-type="image/gif"/></media>
+</subfigure>
+<subfigure id="fig-23b">
+<media id="idp1222640" alt=""><image src="../../media/ip6-8554.gif" mime-type="image/gif"/></media>
+</subfigure>
+
+</figure>
+</para>
+<para id="element-24">
+In the nutshell, contact forces are along the chosen coordinates, but weight of the body makes an angle with the axis, which needs to be resolved along the axes of the coordinate system for the analysis.
+</para>
+<para id="element-25">Alternatively, we can align x and y – axes along horizontal and vertical directions. In that case, weight of the block is along y-axis and as such need not be resolved. However, the two contact forces (normal and friction) on the block are now at an angle with the axes and are required to be resolved for force analysis.
+</para>
+
+<para id="element-27">It is evident, therefore, that the first choice is relatively better in most of the cases as there is only one force to be resolved into components against resolution of two forces as required in the second case.
+</para>
+
+</section>
+<section id="section-1b">
+<title> Friction
+</title>
+<para id="element-5">
+The incline and block interface may be either termed as “smooth” or “rough”. The smooth surface indicates that we can neglect friction force. We should be aware that there are actually two contact interfaces as shown in the figure. 
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Friction at the interface between surfaces in contact </title>
+<media id="idp8338624" alt=""><image src="../../media/ip2.gif" mime-type="image/gif"/></media>
+<caption> There are two contact interfaces. </caption>
+</figure>
+</para>
+<para id="element-7">
+Generally, the incline is considered to be fixed to the ground. If it is not fixed, then it is important to know the nature of friction between the incline and horizontal surface on which the incline is placed. If their interface is smooth, then any force on incline will accelerate the incline itself. Even just placing a block on the incline will move the incline. The horizontal component of normal force (N sinθ) applied by the block will accelerate the incline to the right with acceleration, 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> I </m:mi>
+</m:msub>
+</m:math>
+. 
+</para>
+<para id="element-8">
+<figure orient="horizontal" id="fig-8"><title> Relative motion of block and incline </title>
+<subfigure id="fig-8a">
+<media id="idp1038816" alt=""><image src="../../media/ip4a.gif" mime-type="image/gif"/></media>
+</subfigure>
+<subfigure id="fig-8b">
+<media id="idp8768096" alt=""><image src="../../media/ip3.gif" mime-type="image/gif"/></media>
+</subfigure>
+<caption> Block moves down the incline, whereas incline moves horizontally. </caption>
+</figure>
+</para>
+<para id="element-9">
+In that situation, the motion of block is taking place in the accelerated frame of the incline – not in the inertial frame of the ground. The acceleration of the block with respect to incline (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> BI </m:mi>
+</m:msub>
+</m:math>
+) is along the incline.
+</para>
+
+<para id="element-11">
+The acceleration of the block with respect to ground (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+) is obtained from the relation for relative acceleration given as :
+</para>
+<para id="element-12">
+<figure id="fig-12"><title> Motion in the accelerated frame of incline </title>
+<media id="idp4962320" alt=""><image src="../../media/ip5a.gif" mime-type="image/gif"/></media>
+<caption> Acceleration of block with respect to ground. </caption>
+</figure>
+</para>
+<para id="element-14"><equation id="equation-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> BI </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> I </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> BI </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> I </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<para id="element-15">
+where  
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> I </m:mi>
+</m:msub>
+</m:math>
+is the acceleration of incline with respect to ground and 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> BI </m:mi>
+</m:msub>
+</m:math>
+is the acceleration of block with respect to incline. Now, evaluating the vector sum of the accelerations of the accelerations on the right hand side, the direction and magnitude of acceleration of the block with respect to ground is obtained.
+</para>
+<para id="element-16">
+However, if the contact between the incline and horizontal surface is rough, then the motion of incline will depend on whether force on the incline in horizontal direction (parallel to contact surface) is greater than the maximum static friction or not?
+</para>
+<para id="element-17">
+<figure id="fig-17"><title> Motion of incline </title>
+<media id="idp9657408" alt=""><image src="../../media/ip7-4d61.gif" mime-type="image/gif"/></media>
+<caption> Motion of incline is determined by force parallel to contact surface compared to friction. </caption>
+</figure>
+</para>
+<para id="element-18">We need to be careful while applying Newton’s force laws for the case, where incline itself is accelerated. We should evaluate the situation as required either using ground reference or the accelerated reference of the incline – whichever is suitable for the situation in hand. We shall discuss this aspect of incline motion in details after studying motion in accelerated reference. 
+</para>
+
+<para id="element-18a">In this module, we shall, therefore, restrict our discussion to motion of a body on an incline plane, which is (a) stationary with respect to ground and (b) offers negligible friction to the motion of the body. 
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title> Motion on a smooth fixed incline
+</title>
+
+<para id="element-28">
+There are only two external forces on the block moving on a smooth incline plane. They are (a) normal force and (b) weight of the block. 
+</para>
+<para id="element-29">
+There is no motion in the direction perpendicular to the incline. As such, forces in that direction form a balance force system. The normal force equals component of weight in opposite direction.
+</para>
+<para id="element-30"><equation id="equation-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-31">
+<figure id="fig-31">
+<title> Forces on a fixed incline </title>
+<media id="idm9761664" alt=""><image src="../../media/ip10.gif" mime-type="image/gif"/></media>
+<caption> Weight and normal force act on the block. </caption>
+</figure>
+</para>
+<para id="element-32">On the other hand, there is only component of weight along the incline in downward direction that accelerates the block in that direction. It must clearly be understood that the block will not be at rest on a smooth incline, unless some additional force stops the motion. The acceleration along the incline is obtained as :
+</para>
+<para id="element-33"><equation id="equation-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-34">
+In the following sections of the module, we shall consider three specific cases of motion of a block on smooth incline :
+</para>
+<para id="element-35">
+<list id="list-35" list-type="bulleted">
+<item> Motion on an incline
+ </item>
+<item> Motion of two blocks on an incline
+ </item>
+<item> Motion on double incline
+ </item>
+</list>
+</para>
+
+
+
+<section id="section-2a">
+<title> Motion on an incline
+</title>
+
+<para id="element-36"><term>Problem 1 : </term> With what speed a block be projected up an incline of length 10 m and angle 30° so that it just reaches the upper end (consider g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-37"> <term>Solution : </term> The motion of the block is a linear motion. The component of gravity acts in the opposite direction to the motion. Let initial velocity be “u”. Here,
+</para> 
+<para id="element-36a">
+u = ?, x = 10 m, a = - g sin30°, v = 0 (final velocity). Using equation of motion,
+</para>
+<para id="element-37a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> x </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38"><m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-2b">
+<title> Motion of two blocks on an incline
+</title>
+<para id="element-52"><term>Problem 1 : </term> Two blocks of mass “m1” and “m2” are placed together on a smooth incline of angle “θ” as shown in the figure. If they are released simultaneously, then find the normal force between blocks.
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> Motion of two blocks on a double incline </title>
+<media id="idp56240" alt=""><image src="../../media/ip14.gif" mime-type="image/gif"/></media>
+<caption> Two blocks placed on a smooth incline of angle “θ” are in contact initially. </caption>
+</figure>
+</para>
+<para id="element-54">The incline is smooth. Hence, there is no friction. The blocks, therefore, move down due to the component of gravitational force parallel to incline. In other words, acceleration of each of the block is “gsinθ”. As such, the blocks move with equal acceleration and hence there is no normal force between the surfaces of the two blocks. We can confirm the conclusion drawn by considering free body diagram of each of the blocks.
+</para>
+<para id="element-55">It is important to understand that this is a different situation than when two blocks are pushed together by an external force, “F”. The external force can produce different accelerations in the blocks individually and as such normal force appears between the surfaces when blocks move collectively with same acceleration. 
+</para>
+<para id="element-56">
+In this case, however, the gravitational force produces same acceleration in each of the blocks - independent of their masses; and as such, normal force does not appear between blocks. Since blocks are together initially, they move together with same velocity in downward direction. 
+</para>
+
+</section>
+
+
+
+<section id="section-2c">
+<title> Motion on double incline 
+</title>
+<para id="element-39"><term>Problem 3 : </term> Two blocks “A” and “B” connected by a string passing over a pulley are placed on a fixed double incline as shown in the figure and let free to move. Neglecting friction at all surfaces and mass of pulley, determine acceleration of blocks. Take g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Motion on double incline </title>
+<media id="idp7804032" alt=""><image src="../../media/ip11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-41"> <term>Solution : </term> Here, we assume a direction for acceleration. If we are correct, then we should get positive value for acceleration; otherwise a negative value will mean that direction of motion is opposite to the one assumed. We also observe here that each of the block is, now, acted by additional force of tension as applied by the string.
+</para> 
+<para id="element-42">
+Let us consider that block “A” moves down and block “B” moves up the plane. The figure shows the free body diagram as superimposed on the body system. 
+</para>
+<para id="element-43">
+<figure id="fig-43"><title> Motion on double incline </title>
+<media id="idp1296080" alt=""><image src="../../media/ip12a-4c11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-44">
+<m:math>
+<m:mtext> Free body diagram of “A”
+</m:mtext>
+</m:math>
+</para>
+<para id="element-45">The forces on the blocks are (i) weight of the block “A” (ii) Normal force applied by incline, "
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+", and (iii) Tension in the string, T. Analyzing force in x - direction :
+</para>
+<para id="element-46"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> T</m:mi>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mi> a</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> g </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:mi> T</m:mi>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+<m:math>
+<m:mtext> Free body diagram of “B”
+</m:mtext>
+</m:math>
+</para>
+<para id="element-547">The forces on the blocks are (i) weight of the block “B” (ii) Normal force applied by incline, "
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+", and (iii) Tension in the string, T. Analyzing force in x - direction :</para><para id="element-48"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T</m:mi>
+<m:mo> - </m:mo>
+<m:mn> 50 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mi> a</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T</m:mi>
+<m:mo> - </m:mo>
+<m:mn> 50 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> g </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+Adding two equations, we have :
+</para>
+<para id="element-50"><m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 150 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mn> 50 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mo> X </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 1.73 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 150 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0.45 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">Positive value indicates that the chosen direction of acceleration is correct. Thus, the block “A” moves down and the block “B” moves up as considered. 
+</para>
+
+
+
+</section>
+
+</section>
+ 
+  </content>
+  
+</document>

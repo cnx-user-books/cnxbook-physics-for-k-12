@@ -1,0 +1,1372 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Features of friction force</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>0b6f4237-478b-43b9-b768-3c43a1e85b26</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Friction force differs to other forces in many respects. Importantly, friction adjusts to the way external force is applied on the body. This characteristic provides opportunity to manage this force that minimizes our effort to produce acceleration in bodies. At the same time, friction prohibits some geometric restriction on the way we manage external force to produce acceleration. For example, we can not push an object unless external force is applied outside a region called "cone of friction".
+</para>
+<para id="element-538">Besides, there are certain misplaced notion about friction that it is a negative force, which can not produce acceleration or which can not do positive work. It is generally believed that friction only moderates the acceleration and work of other external forces negatively. As a matter of fact, we shall find that it is actually the friction, which is ultimately driving our car on the road. We shall, however, save for the details on this aspect till we take up the study of rolling motion. We shall, however, make the beginning in this module to answer this question at a basic level. </para><section id="section-1">
+<title> Can friction cause motion? 
+</title>
+<para id="element-2">
+To investigate this question, let us consider the combined motion of two blocks system, which is being pulled with an external force such that two blocks move together as shown in the figure. Let us also consider that the block system lies on a smooth horizontal surface, enabling us to neglect friction between block “A” and the underlying horizontal surface. 
+</para>
+<para id="element-3">
+<figure id="fig-3">
+<title> Two blocks on a smooth surface </title>
+<media id="idm1667600" alt=""><image src="../../media/ff1.gif" mime-type="image/gif"/></media>
+<caption> The blocks slide together on a smooth horizontal plane.</caption>
+</figure>
+</para>
+<para id="element-4">The external forces on the two blocks are shown in the force diagrams in the figure below as seen from the ground reference. The upper block “B” is moving along with lower block “A” due to the friction applied by it.
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Free body diagram </title>
+<media id="idm214800" alt=""><image src="../../media/ff2.gif" mime-type="image/gif"/></media>
+<caption> Upper block is accelerated by friction.</caption>
+</figure>
+</para>
+<para id="element-6">The friction forces at the interface, which act on two bodies, are action and reaction pair and are equal in magnitude and opposite in direction, in accordance with 	<link document="m14043">Newton’s third law of motion</link>. We note that friction on block “B” due to “A” is in the same direction as that of external force “F”. The only external force on block “B”, as seen from the ground, is the friction force, 
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+. 
+
+</para>
+
+<para id="element-8">The accelerations of the composite block system and individual blocks are same as considered in the beginning. From three corresponding force diagrams, including the one corresponding to composite block system, we have three expressions for the common acceleration :
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10">
+From the last equation, it is clear that static friction, as a matter of fact, caused the motion of block “B” with respect to ground by producing acceleration in the body. Here, measurement of motion (acceleration) is in a frame different to one in which the surface in contact lies. The block is accelerated with respect to ground – not with respect to the reference of block “A”, which applies friction force. 
+</para><para id="element-254">Thus, we see that friction is capable to produce acceleration in a body. It is expected also. This is the very nature of a force. Since friction is a force, it is capable to produce acceleration and do positive work. There is, however, a catch. Friction exists only due to other external forces. It does not exist, if there is no external force on the body. But as far as the question "can friction cause motion?. Answer is yes.  </para>
+
+
+
+</section>  
+
+<section id="section-2">
+<title> Direction of friction
+</title>
+<para id="element-15a">Direction of friction is opposite to the component of net external force parallel to the contact surface. It is the criteria to decide the direction of friction. There are, however, situations in which external force may not be obvious. In the illustration of the above section, there is no external force on the upper block "B". What would be the direction of friction on block "B"? As a matter of fact, it is the only force (we do not consider vertical normal force as it perpendicular to motion) on block acting parallel to contact surface. Clearly, we can not apply the criteria for determining direction in this case.  </para>
+<para id="element-161">We actually analyze the forces on the underneath block "A". The net external force parallel to interface is acting towards right. It, then, follows that the friction on "A" is towards left. Taking cue from this revelation and using <link document="m14043">Newton’s third law of motion</link>, we decide that the direction of friction on block "B" should be towards right as shown in the figure below. </para><para id="element-16">
+<figure id="fig-16">
+<title> Free body diagram </title>
+<media id="idm8663648" alt=""><image src="../../media/ff2.gif" mime-type="image/gif"/></media>
+<caption> Upper block is accelerated by friction.</caption>
+</figure>
+</para>
+
+<para id="element-18">Alternatively, we can consider relative motion between bodies in contact. In the illustration, we see that block “A” has relative velocity (or tendency to have one) towards right with respect to block “B”. It means that the block “B” has relative velocity (or tendency to have one) towards left with respect to block “A”. Hence, friction force on block “B” is towards right i.e. opposite to relative velocity of “B” with respect to block “A”.
+</para>
+<para id="element-19">
+We can formulate a directional rule about the direction of friction as :
+</para>
+<para id="element-20">
+“The direction of friction on a body is opposite to the relative velocity of the body (or the tendency to have one) with respect to the body, which is applying friction on it.” 
+</para>
+
+</section>  
+
+<section id="section-3">
+<title> Contact forces revisited
+</title>
+
+<para id="element-21">
+There are two types of contact forces that we encounter when two bodies interact. The contact forces are normal and friction forces. The normal force is a reaction of a body against any attempt (force) to deform it. The ability of a body to resist deformation also has electromagnetic origin operating at the surface as in the case of friction.  
+</para>
+<para id="element-22">
+The two contact forces, therefore, can be considered to be manifestation of same inter – atomic forces that apply at the contact interface. The resultant electromagnetic force acts in a direction inclined to the surface. Its component perpendicular to surface is the normal force and component parallel to the surface is friction.
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Contact force </title>
+<media id="idm2303552" alt=""><image src="../../media/ff3.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block </caption>
+</figure>
+</para>
+<para id="element-24">
+The resultant or net electromagnetic contact force is the vector sum of the two components and is given by :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+Where :
+</para>
+<para id="element-27">
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+: Resultant contact force
+</para>
+<para id="element-28"><m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:math>
+: Normal force, also represented simply as "N"
+</para>
+<para id="element-29">
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:math>
+: Friction force, which can be 
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+ (static friction) , 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+ (maximum static friction) or 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+ (kinetic friction)
+</para>
+
+<para id="element-30">
+For the maximum static friction (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+) and a given normal force (N), the magnitude of resultant contact force is :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+This expression represents the maximum contact force between a pair of surfaces. 
+</para>
+<section id="section-3a">
+<title> Angle of friction
+</title>
+
+<para id="element-33">The angle of friction for two surfaces in contact is defined as the angle that the maximum contact force makes with the direction of normal force as shown in the figure. From the figure, 
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Contact force </title>
+<media id="idm13152400" alt=""><image src="../../media/ff4.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block </caption>
+</figure>
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> N </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+The angle of friction, therefore, is :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> N </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">We must understand here that angle of friction is a function of the coefficient of friction between two surfaces. This means that it depends on the nature of surfaces and is unique for the two surfaces in contact. Specially, we should note that it does not depend on maximum static force or normal force. If we increase “N” (say by putting more weight on the block), then maximum static friction also increases as 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:math>
+and the ratio “
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> N </m:mi>
+</m:mfrac>
+</m:math>
+” remains constant.
+</para>
+
+</section>  
+
+</section>  
+
+
+<section id="section-4">
+<title> Minimum external force to initiate motion
+</title>
+
+<para id="element-39">External force is required to initiate motion against friction force. For every situation, there is a particular direction in which the requirement of external force to initiate motion is a minimum. Here we consider the case of a block placed on a horizontal surface, which is pulled up by an external force, F, as shown in the figure.  
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Force on a block </title>
+<media id="idm1839904" alt=""><image src="../../media/ff5.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block tries to move the block. </caption>
+</figure>
+</para>
+<para id="element-41">At first consideration, we may reason that force would be always least when it is applied exactly opposite to the friction. The force required in such case is given by :
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> || </m:mo> 
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">This consideration, however, is not correct. The external force, besides overcoming maximum static friction, also affects normal force. The component of force in the vertical direction decreases normal force. Since friction is proportional to normal force, an unique orientation will require minimum magnitude of external force. 
+</para>
+<para id="element-44">
+<figure id="fig-44">
+<title> Force on a block </title>
+<media id="idp3664" alt=""><image src="../../media/ff6.gif" mime-type="image/gif"/></media>
+<caption> Forces diagram </caption>
+</figure>
+</para>
+<para id="element-45">
+When angle “θ” increases (cosθ decreases), the force overcoming maximum static friction decreases :
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> || </m:mo> 
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+On the other hand, normal force, N, decreases with increasing angle (increasing sinθ),
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+Consequently, the maximum static friction decreases as :
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">Thus, there is a particular value of the angle “θ” for which magnitude of external force is minimum. We shall work out the particular orientation for this arrangement in the example given here.
+</para>
+<example id="example-52">
+<para id="element-52"><term>Problem : </term> An external force, "F", is applied on a block at an angle "θ" as shown in the figure. In order to initiate motion, what should be the angle at which magnitude of external force, F, is minimum?  Also find the magnitude of minimum force.
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> Force on a block </title>
+<media id="idm8626688" alt=""><image src="../../media/ff5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-54"> <term>Solution : </term> We should obtain an expression of external force as a function of “θ” and then evaluate the function for obtaining the condition for the minimum value. We draw the free body diagram superimposed on the body diagram for the condition of maximum static friction as shown in the figure.
+</para> 
+
+<para id="element-55">
+<figure id="fig-55">
+<title> Force on a block </title>
+<media id="idm2027216" alt=""><image src="../../media/ff6.gif" mime-type="image/gif"/></media>
+<caption> Forces diagram </caption>
+</figure>
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+and
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> + </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+Combining two equations, we have :
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+But, we know that 
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+ = tan α, where “α” is the angle of friction.         
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> α </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> α </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> α </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> α </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> α </m:mi>
+<m:mo> + </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> α </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> α </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> α </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+The denominator is maximum when cos (θ – α)  = 1. 
+</para>
+<para id="element-64"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+Corresponding minimum force is :
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> min </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-86">Since 
+<m:math>
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:mi>sec</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>tan</m:mi>
+            <m:msup>
+              <m:mi/>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>α</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>μ</m:mi>
+              <m:mrow>
+                <m:mi>s</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>;</m:mo>
+  </m:mrow>
+</m:math> Hence, 
+<m:math>
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>cos</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+    <m:mi>α</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:msub>
+        <m:mi>μ</m:mi>
+        <m:mi>s</m:mi>
+      </m:msub>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>μ</m:mi>
+              <m:mrow>
+                <m:mi>s</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>. Putting this value in the equation,</para><para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> min </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>  
+<section id="section-5">
+<title> Cone of friction
+</title>
+<para id="element-68">
+Generally a body is moved either by “pulling” or “pushing” corresponding to the very nature of force, which is defined as a “pull” or “push”. We find that existence of friction against relative motion between two bodies puts certain restriction to the ability of external force to move the body. 
+</para>
+<para id="element-69">
+<figure id="fig-69">
+<title> Force on a block </title>
+<media id="idm5159840" alt=""><image src="../../media/ff7.gif" mime-type="image/gif"/></media>
+<caption> Applied force tries to push the body. </caption>
+</figure>
+</para>
+<para id="element-70">This restriction is placed with respect to application of force to move a body over another surface. To illustrate the restriction, we consider a block lying on a rough horizontal surface. An external force, F, is applied on the body to initiate the motion. The figure here shows the free body diagram superimposed on the body diagram.
+</para>
+<para id="element-71">
+<figure id="fig-71">
+<title> Force on a block </title>
+<media id="idm6858816" alt=""><image src="../../media/ff8.gif" mime-type="image/gif"/></media>
+<caption> Force diagram </caption>
+</figure>
+</para>
+<para id="element-72">
+The x-direction component of the external force parallel to the contact surface tends to move the body. On the other hand, the y-direction component of the external force in the downward direction increases the normal force, which increases the maximum static friction force. Thus, we see that one of the components of applied force tries to move the body, whereas the other component tries to restrict body to initiate motion.
+</para>
+<para id="element-73">
+Friction is equal to maximum static friction to initiate motion,
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">We analyze for zero net force in both component directions to investigate the nature of external force, "F". 
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">
+and
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">
+Combining two equations, we have  :
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ( </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">The magnitude of external force is a positive quantity. It is, therefore, required that denominator of the ratio is a positive quantity for the body to move. 
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ≥ </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ≥ </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ≥ </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ≥ </m:mo>
+<m:mi> α </m:mi>
+<m:mspace width="2pt"/>
+<m:mtext> (angle of friction) </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+The body can be pushed for this condition (θ ≥ α). On the other hand, a force applied within the angle of friction, however great it is, will not be able to push the body ahead. A cone drawn with half vertex angle equal to the angle of friction constitutes a region in which an applied external force is unable to move the body.
+</para>
+<para id="element-84">
+<figure id="fig-84">
+<title> Cone of friction </title>
+<media id="idm38400" alt=""><image src="../../media/ff9.gif" mime-type="image/gif"/></media>
+<caption> Force applied within the angle of friction, however great it is, will not be able to push the body ahead. </caption>
+</figure>
+</para>
+</section>  
+
+  
+  </content>
+  
+</document>

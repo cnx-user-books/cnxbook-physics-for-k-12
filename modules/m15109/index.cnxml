@@ -1,0 +1,598 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravitational potential (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>01027a69-5574-4cdf-b6d5-bb541dc9fd56</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to gravitational field. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Potential 
+</item>
+<item> Gravitational field 
+</item>
+<item> Potential energy
+</item>
+<item> Conservation of mechanical energy
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Potential 
+</title>
+<section id="section-3a">
+<para id="element-6"><term>Problem 1 : </term> A particle of mass “m” is placed at the center of a uniform spherical shell of equal mass and radius “R”. Find the potential at a distance “R/4” from the center.
+</para>
+<para id="element-7"><term>Solution : </term> The potential at the point is algebraic sum of potential due to point mass at the center and spherical shell. Hence,
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>R</m:mi>
+          <m:mn>4</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<para id="element-10"><term>Problem 2 : </term>The gravitational field due to a mass distribution is given by the relation,
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>A</m:mi>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">Find gravitational potential at “x”.
+</para>
+<para id="element-14"><term>Solution : </term> Gravitational field is equal to negative of first differential with respect to displacement in a given direction. 
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">Substituting the given expression for “E”, we have :
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mi>A</m:mi>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mo>ⅆ</m:mo>
+      <m:mi>V</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">Integrating between initial and final values of infinity and “x”, 
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">We know that potential at infinity is zero gravitational potential reference. Hence, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> = 0. Let 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> = V, then:
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+<m:mspace width="2pt"/>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:mi>x</m:mi>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:munderover>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+<m:mspace width="2pt"/>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>A</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-4">
+<title> Gravitational field 
+</title>
+<para id="element-23"><term>Problem 3 : </term>A small hole is created on the surface of a spherical shell of mass, “M” and radius “R”. A particle of small mass “m” is released a bit inside at the mouth of the shell. Describe the motion of particle, considering that this set up is in a region free of any other gravitational force.
+</para>
+<para id="element-24">
+<figure id="fig-4">
+<title> Gravitational force </title>
+<media id="idp2628480" alt=""><image src="../../media/gpq1.gif" mime-type="image/gif"/></media>
+<caption> A particle of small mass “m” is released at the mouth of hole.</caption>
+</figure>
+</para>
+<para id="element-25"><term>Solution : </term> The gravitational potential of a shell at any point inside the shell or on the surface of shell is constant and it is given by :
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">The gravitational field,”E”, is :
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">As all quantities in the expression of potential is constant, its differentiation with displacement is zero. Hence, gravitational field is zero inside the shell :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">It means that there is no gravitational force on the particle. As such, it will stay where it was released.
+</para>
+</section>
+<section id="section-5">
+<title> Potential energy 
+</title>
+<para id="element-32"><term>Problem 4 : </term> A ring of mass “M” and radius “R” is formed with non-uniform mass distribution. Find the minimum work by an external force to bring a particle of mass “m” from infinity to the center of ring.
+</para>
+<para id="element-33"><term>Solution : </term> The work done in carrying a particle slowly from infinity to a point in gravitational field is equal to potential energy of the “ring-particle” system. Now, Potential energy of the system is :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">The potential due to ring at its center is independent of mass-distribution. Recall that gravitational potential being a scalar quantity are added algebraically for individual elemental mass. It is given by :
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">Hence, required work done,
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:msub>
+    <m:mi>W</m:mi>
+    <m:mi>F</m:mi>
+      </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">The negative work means that external force and displacement are opposite to each other. Actually, such is the case as the particle is attracted into gravitational field, external force is applied so that particle does not acquire kinetic energy.
+</para>
+</section>
+<section id="section-6">
+<title> Conservation of mechanical energy
+</title>
+<para id="element-40"><term>Problem 5 : </term> Imagine that a hole is drilled straight through the center of Earth of mass “M” and radius “R”. Find the speed of particle of mass dropped in the hole, when it reaches the center of Earth.
+</para>
+<para id="element-41"><term>Solution : </term> Here, we apply conservation of mechanical energy to find the required speed. The initial kinetic energy of the particle is zero. 
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">On the other hand, the potential energy of the particle at the surface is :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mi>i</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>V</m:mi>
+    <m:mi>i</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">Let “v” be the speed of the particle at the center of Earth. Its kinetic energy is :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">The potential energy of the particle at center of Earth is :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">Applying conservation of mechanical energy,
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+  </content>
+  
+</document>

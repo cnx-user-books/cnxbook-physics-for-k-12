@@ -1,0 +1,1191 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Vector product (application)</title>
+  <metadata>
+  <md:content-id>m14522</md:content-id><md:title>Vector product (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>95774661-7b4f-4a4b-8ee6-8d7d75de7091</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-1">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3">
+We discuss problems, which highlight certain aspects of the vector product. For this reason, questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-4">
+<list id="list-2" list-type="bulleted"><item> Condition of parallel vectors
+</item>
+<item> Unit vector of cross product
+</item>
+<item> Nature of vector product
+</item>
+<item> Evaluation of vector product 
+</item>
+<item> Area of parallelogram
+</item>
+</list>
+</para>
+<section id="section-1a">
+<title> Condition of parallel vectors
+</title>
+<example id="example-5">
+<para id="element-5"><term>Problem : </term> Determine whether vectors 2<term>i</term> – <term>j</term> + 2<term>k</term> and 3<term>i</term> – 3<term>j</term> + 6<term>k</term> are parallel to each other?
+</para>
+<para id="element-6"> <term>Solution : </term> If the two vectors are parallel, then ratios of corresponding components of vectors in three coordinate directions are equal. Here,
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> b </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> b </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> b </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">
+The ratios are, therefore, not equal. Hence, given vectors are not parallel to each other.
+</para>
+</example>
+</section>
+<section id="section-1b">
+<title> Unit vector of cross product
+</title>
+<example id="example-9">
+<para id="element-9"><term>Problem : </term> Find unit vector in the direction perpendicular to vectors <term>i</term> + <term>j</term> – 2<term>k</term> and 2<term>i</term> –<term>j</term> + 3<term>k</term>.
+</para>
+<para id="element-10"> <term>Solution : </term> We know that cross product of two vectors is perpendicular to each of vectors. Thus, unit vector in the direction of cross product is perpendicular to the given vectors. Now, unit vector of cross product is given by :
+</para>
+
+<para id="element-11">
+<figure id="fig-11"><title> Vector product </title>
+<media id="id21336247" alt=""><image src="../../media/vpq1.gif" mime-type="image/gif"/></media>
+<caption> Unit vector in the direction of vector product. </caption>
+</figure>
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">
+Here,
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+
+       <m:mrow> 
+        <m:mo> | </m:mo>
+      <m:mtable>
+        <m:mtr>
+          <m:mtd>
+            <m:mi mathvariant="bold">i</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">j</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">k</m:mi>
+          </m:mtd>
+        </m:mtr>
+        <m:mtr>
+          <m:mtd>
+
+  <m:mn> 1 </m:mn>
+
+          </m:mtd>
+          <m:mtd>
+  <m:mn> 1 </m:mn>
+          </m:mtd>
+          <m:mtd>
+  <m:mo> - </m:mo>
+  <m:mn> 2 </m:mn>
+          </m:mtd>
+        </m:mtr>
+
+        <m:mtr>
+          <m:mtd>
+
+  <m:mn> 2 </m:mn>
+
+          </m:mtd>
+          <m:mtd>
+  <m:mo> - </m:mo>
+  <m:mn> 1 </m:mn>
+          </m:mtd>
+          <m:mtd>
+  <m:mn> 3 </m:mn>
+          </m:mtd>
+        </m:mtr>
+
+      </m:mtable>
+        <m:mo> | </m:mo>
+      </m:mrow>
+</m:math> 
+</para>
+<para id="element-16"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mo> { </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 3 </m:mn>
+<m:mo> - </m:mo> 
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> } </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mo> { </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 3 </m:mn>
+<m:mo> } </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> { </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> } </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 7 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-17"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> { </m:mo>
+<m:msup>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 7 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-18"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 59 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 7 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+</example>
+</section>
+<section id="section-1c">
+<title> Nature of vector product
+</title>
+<example id="example-19">
+<para id="element-19"><term>Problem : </term> Verify vector equality <term>B</term> = <term>C</term>, if <term>AxB</term> = <term>AxC</term>.
+</para>
+<para id="element-20"> <term>Solution : </term> Let 
+<m:math> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math> 
+and 
+<m:math> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math> 
+ be the angles for first and second pairs of cross products. Then,
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> B </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> C </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> AB </m:mi>
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> AC </m:mi>
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> B </m:mi>
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> C </m:mi>
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-22">It is clear that <term>B</term>=<term>C</term> is true only when 
+<m:math> 
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math> 
+. It is always possible that the angles involved or the directions of cross products are different. Thus, we can conclude that <term>B</term> need not be equal to <term>C</term>.
+</para>
+</example>
+</section>
+
+<section id="section-1d">
+<title> Evaluation of vector product 
+</title>
+<example id="example-23">
+<para id="element-23"><term>Problem : </term> If <term>a.b</term> = |<term>axb</term>| for unit vectors <term>a</term> and <term>b</term>, then find the angle between unit vectors.
+</para>
+<para id="element-24"> <term>Solution : </term> According to question,
+</para>
+
+<para id="element-23a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ab </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ab </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> tan </m:mi>
+<m:mn> 45 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 45 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+</example>
+
+
+<example id="example-29">
+<para id="element-29"><term>Problem : </term> Prove that :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> cos </m:mi>
+<m:mi> 2θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-31"> <term>Solution : </term> Expanding LHS, we have :
+</para>
+<para id="element-32"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> ab </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> ab </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> cos </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> sin </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+</example>
+</section>
+<section id="section-1e">
+<title> Area of parallelogram
+</title>
+<example id="example-33">
+<para id="element-33"><term>Problem : </term> The diagonals of a parallelogram are represented by vectors 3<term>i</term>+<term>j</term>+<term>k</term> and <term>i</term>-<term>j</term>-<term>k</term>. Find the area of parallelogram.
+</para>
+<para id="element-34"><term>Solution : </term> The area of parallelogram whose sides are formed by vectors <term>a</term> and <term>b</term>, is given by :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Area </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-36">However, we are given in question vectors representing diagonals – not the sides. But, we know that the diagonals are sum and difference of vectors representing sides of a parallelogram. It means that :
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> Diagonals of a parallelogram </title>
+<media id="id22355544" alt=""><image src="../../media/vpq2.gif" mime-type="image/gif"/></media>
+<caption> The vectors along diagonals are sum and difference of two vectors representing the sides.</caption>
+</figure>
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-39">
+and 
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-41">Now the vector product of vectors representing diagonals is :
+</para>
+<para id="element-42"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> × </m:mo>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> × </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-43">
+Using anti-commutative property of vector product,
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> × </m:mo>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-45">
+Thus, 
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> × </m:mo>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> × </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+
+       <m:mrow> 
+        <m:mo> | </m:mo>
+      <m:mtable>
+        <m:mtr>
+          <m:mtd>
+            <m:mi mathvariant="bold">i</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">j</m:mi>
+          </m:mtd>
+          <m:mtd>
+            <m:mi mathvariant="bold">k</m:mi>
+          </m:mtd>
+        </m:mtr>
+        <m:mtr>
+          <m:mtd>
+
+<m:mn> 3 </m:mn>
+
+          </m:mtd>
+          <m:mtd>
+<m:mn> 1 </m:mn>
+          </m:mtd>
+          <m:mtd>
+<m:mn> 1 </m:mn>
+          </m:mtd>
+        </m:mtr>
+
+        <m:mtr>
+          <m:mtd>
+
+<m:mn> 1 </m:mn>
+
+          </m:mtd>
+          <m:mtd>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+          </m:mtd>
+          <m:mtd>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+          </m:mtd>
+        </m:mtr>
+
+      </m:mtable>
+        <m:mo> | </m:mo>
+      </m:mrow>
+</m:math> 
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> { </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-49">
+The volume of the parallelogram is :
+</para>
+<para id="element-50"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> × </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> { </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> } </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> units </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+</example>
+</section>
+
+</section>  
+  </content>
+  
+</document>

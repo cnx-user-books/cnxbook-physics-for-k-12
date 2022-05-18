@@ -1,0 +1,1871 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Circular motion with constant acceleration</title>
+  <metadata>
+  <md:content-id>m14022</md:content-id><md:title>Circular motion with constant acceleration</md:title>
+  <md:abstract>The circular motion with constant acceleration allows constructing an equivalent linear system with the help of angular quantities.</md:abstract>
+  <md:uuid>f273bd41-d606-45a8-a226-8ba1e42df105</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">
+The description of non-uniform circular motion of a particle is lot simplified, if the time rate of the change in angular velocity (angular acceleration) is constant. We have seen such simplification, while dealing with motion along a straight line. It is observed that the constant acceleration presents an additive frame work for motion along straight line. The velocity of the particle changes by a fixed value after every second (i.e. unit time). In translational motion along a straight line, we say, for example, that :
+</para>
+<para id="element-2">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-3">
+where “v”, “
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+” and “a” are attributes of motion along straight line with directional property. We can recall here that we are able to treat these vector quantities as signed scalars, because there are only two possible directions along a straight line. Now the moot question is : are these simplifications also possible with non-uniform circular motion, when angular acceleration is constant ? 
+</para>
+<para id="element-4">
+The answer is yes. Let us see how does it work in the case of circular motion :
+</para>
+<para id="element-5">
+
+</para>
+<para id="element-6">
+<term>1: </term>First, the multiplicity of directions associated with the velocity of the particle rotating about an axis is resolved to be equivalent to one directional angular velocity,"ω", acting along the axis of rotation. See the figure. If we stick to translational description of motion, then velocity vector is tangential to path. The direction of velocity vector changes as the particle moves along the circular path. On the other hand, angular velocity vector aligns in a single direction.  
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Angular velocity </title>
+<media id="id1167649736665" alt=""><image src="../../media/cmca1.gif" mime-type="image/gif"/></media>
+<caption> Angular velocity acts along axis of rotation.</caption>
+</figure>
+</para>
+<para id="element-8">
+<term>2: </term> Second, the acceleration resulting from the change in the speed of the particle is represented by angular acceleration,"α". Like angular velocity, it is also one directional. 
+</para>
+<para id="element-10">
+<term>3: </term> Third, there are only two possible directions as far as directional angular quantities are considered. The direction can be either clockwise (negative) or anti-clockwise (positive). This situation is similar to linear consideration where motion in the reference direction is considered positive and motion in opposite direction is considered negative.
+</para>
+<para id="element-9">
+<term>4: </term> Fourth, the change in either angular displacement or angular speed is basically translated to a change in the magnitude of one directional angular quantities. This allows us to treat the change in angular quantities as a consideration along straight line as in the case of motion along straight line. 
+</para>
+
+
+<para id="element-11">
+<figure id="fig-11" orient="horizontal">
+<title> The direction of angular quantities </title>
+<subfigure id="fig-11a">
+<media id="id1167649752777" alt=""><image src="../../media/cmca2.gif" mime-type="image/gif"/></media>
+</subfigure>
+<subfigure id="fig-11b">
+<media id="id1167649752790" alt=""><image src=" cmca3.gif" mime-type="image/gif"/></media>
+</subfigure>
+<caption> There are two possible directions with angular quantities. </caption>
+</figure>
+</para>
+<para id="element-12">Clearly, it is possible to covert a motion along a circular path into an equivalent system along straight line. As the angular quantities are represented along a straight line, it is then logical that relations available for linear motion for constant acceleration are also available for circular motion with appropriate substitution of linear quantities by angular quantities. 
+</para>
+<para id="element-14">For example, the equation "
+<m:math>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:math>
+" has its corresponding relation in the circular motion as :
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+As a matter of fact, there exists one to one correspondence between two types of equation sets. Importantly, we can treat angular vector quantities as signed scalars in the equations of motion, dispensing with the need to use vector notation. The similarity of situation suggests that we need not derive equations of motion again for the circular motion. We, therefore, proceed to simply write equation of angular motion with appropriate substitution.
+</para>
+<para id="element-18">
+<note id="id1167649752355">
+In this section of circular motion kinematics, our interest or domain of study is usually limited to the motion or acceleration in tangential direction. We may not refer to the requirement of motion in the radial direction in the form of centripetal acceleration, unless stated specifically. 
+</note>
+</para>
+
+<section id="section-1">
+<title> What corresponds to what ? </title>
+
+<para id="element-19">The correspondence goes like this : the angular position is “θ” for linear “x”; the angular displacement is “Δθ” for linear “Δx”; the angular velocity is “ω” for linear “v” and the angular acceleration is “α” for linear “a”. 
+</para>
+
+<section id="section-1a">
+<title> Angular quantities </title>
+<para id="element-20">
+The different angular quantities corresponding to their linear counterparts are listed here fore ready reference :
+</para>
+
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> Quantities </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mtext> Linear variables </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mtext> Angular variables </m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> Initial position </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> Final position </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mi> x </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> Displacement </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mtext> Initial velocity </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> Final velocity </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mi> v </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> Acceleration </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mi> a </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> Time interval </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mi> t </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-1b">
+<title> Basic equations </title>
+
+<para id="element-28">
+The corresponding equations for the two types of motion are :
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> S.N. </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mtext> Linear equation </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mtext> Angular equation </m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> 1: </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> 2: </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> 3: </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-1c">
+<title> Derived equations </title>
+
+
+<para id="element-23">
+The derived equations for the two types of motion are :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mtext> S.N. </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mtext> Linear equation </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mtext> Angular equation </m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> 1: </m:mtext>
+</m:mtd>
+<m:mtd>
+
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mtd>
+
+<m:mtd>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> α </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> 2: </m:mtext>
+</m:mtd>
+
+
+
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+
+
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mtext> 3: </m:mtext>
+</m:mtd>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+</section>
+
+<section id="section-2">
+<title> Sign of angular quantities  </title>
+
+<para id="element-25">
+The sign of angular quantities represents direction. A positive sign indicates anti-clockwise direction, whereas a negative sign indicates clockwise direction. 
+</para>
+<para id="element-26">
+In the measurement of angle, a typical problem arises from the fact that circular motion may continue to rotate passing through the reference point again and again. The question arises, whether we keep adding angle or reset the measurement from the reference point ? The answer is that angle measurement is not reset in rotational kinematics. This means that we can have measurements like 540° and 20 rad etc.
+</para>
+<para id="element-27">
+<figure id="fig-27">
+<title> Measurement of angle </title>
+<media id="id7635490" alt=""><image src="../../media/cmca6.gif" mime-type="image/gif"/></media>
+<caption> The measurement of angle is not reset.</caption>
+</figure>
+</para>
+<para id="element-29">
+This convention is not without reason. Equations of motion of circular motion with constant acceleration treats motion in an equivalent linear frame work, which considers only one reference position. If we reset the measurements, then equations of motion would not be valid.
+</para>
+
+<example id="example-30">
+<para id="element-30"><term>Problem : </term> The angular velocity – time plot of the circular motion is shown in the figure.  (i) Determine the nature of angular velocity and acceleration at positions marked A, B, C, D and E. (ii) In which of the  segments (AB, BC, CD and DE) of motion, the particle is decelerated and (iii) Is angular acceleration constant during the motion ?
+</para>
+<para id="element-31">
+<figure id="fig-31">
+<title> Angular velocity – time plot </title>
+<media id="id7635562" alt=""><image src="../../media/cmca4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-32"> <term>Solution : </term> 
+</para> <para id="element-33">(i) Angular velocity :
+</para>
+<para id="element-34">
+The angular velocities at A and E are positive (anti-clockwise). The angular velocities at B and D are each zero. The angular velocities at C is negative (clockwise). 
+</para>
+<para id="element-35">
+Angular acceleration :
+</para>
+<para id="element-36">
+The angular acceleration is equal to the first differential of angular velocity with respect to time. 
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> đ </m:mn>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> đ </m:mn>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+The sign of the angular acceleration is determined by the sign of the slope at different positions. The slopes at various points are as shown in the figure :
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Slopes at different points </title>
+<media id="id7635725" alt=""><image src="../../media/cmca5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-40">
+The angular accelerations at point A and B are negative (angular speed decreases with the passage of time). The angular accelerations at C is zero. The angular accelerations at point D and E are positive (angular speed increases with the passage of time). 
+</para>
+
+<para id="element-41">(ii) Deceleration :
+</para>
+<para id="element-42">
+In the segments AB and CD, the magnitude of angular velocity i.e. angular speed decreases with the passage of time. Thus, circular motions in these two segments are decelerated. This is also confirmed by the fact that angular velocity and angular acceleration are in opposite directions in these segments. 
+</para><para id="element-371">(iii) The slopes on angular velocity - time plot are different at different points. Thus, angular accelerations are different at these points. Hence, angular acceleration of the motion is not constant.</para>
+
+</example>
+
+</section>
+
+<section id="section-3">
+<title> Angular velocity  </title>
+
+
+<para id="element-61">The angular velocity increases by a constant value at the end of every unit time interval, when angular velocity and acceleration act in the same direction. On the other hand, angular velocity decreases, when angular velocity and acceleration act in the opposite direction. 
+</para>
+<para id="element-62">To appreciate this, we consider a circular motion of a particle whose initial angular velocity is 0.3 rad/s. The motion is subjected to an angular acceleration of magnitude 0.1 
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>rad</m:mi>
+      <m:msup>
+        <m:mi>s</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+ in the opposite direction to the initial velocity. In the table here, we calculate angular velocity of the particle, using relation,  
+<m:math>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:math>
+, at the end of every second and plot the data (for first 5 seconds) to understand the variation of angular velocity with time.
+</para>
+<para id="element-64">
+<code id="id7635889" display="block">
+-----------------------------------------------------
+Time	Angular acceleration  Angular velocity 
+(s)          (rad/s.s)           (rad/s)
+-----------------------------------------------------
+0	       -0.1		                0.3
+1	       -0.1            0.3 - 0.1 x 1 =  0.2
+2              -0.1            0.3 - 0.1 x 2 =  0.1
+3              -0.1            0.3 - 0.1 x 3 =  0.0
+4              -0.1            0.3 - 0.1 x 4 = -0.1
+5              -0.1            0.3 - 0.1 x 5 = -0.2
+-----------------------------------------------------
+</code>
+</para>
+<para id="element-65">
+Here, the particle stops at the end of 3 seconds. The particle then reverses its direction (clockwise from anti-clockwise) and continues to move around the axis. The angular velocity – time plot is as shown here :
+</para>
+<para id="element-66">
+<figure id="fig-66">
+<title> Angular velocity - time plot </title>
+<media id="id7635942" alt=""><image src="../../media/cmca7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-67">We observe following aspects of the illustrated motion with constant acceleration :
+</para>
+<para id="element-68">
+<list id="list-68" list-type="enumerated">
+<item> The angular velocity decreases at uniform rate and the angular velocity – time plot is straight line. Positive angular velocity becomes less positive and negative angular velocity becomes more negative. 
+ </item>
+<item> The slope of the plot is constant and negative. 
+ </item>
+</list>
+</para>
+
+<example id="example-45">
+<para id="element-45"><term>Problem : </term> A particle at the periphery of a disk at a radial distance 10 m from the axis of rotation, uniformly accelerates for a period of 5 seconds. The speed of the particle in the meantime increases from 5 m/s to 10 m/s. Find angular acceleration. 
+</para>
+<para id="element-45a"> <term>Solution : </term> The initial and final angular velocities are :
+</para> 
+
+<para id="element-45b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 10 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Using equation of motion, 
+<m:math>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:math>
+, we have :
+</para>
+<para id="element-47"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> α </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 5 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 0.5 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-4">
+<title> Angular displacement </title>
+
+
+<para id="element-69">
+The angular displacement is given as :
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-71">
+If we start observation of motion as t = 0 and θ° = 0, then displacement (θ) is :
+</para>
+<para id="element-71a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+The particle covers greater angular displacement for every successive time interval, when angular velocity and acceleration act in the same direction and the particle covers smaller angular displacement, when angular velocity and acceleration act in the opposite direction.
+</para>
+<para id="element-73">To appreciate this, we reconsider the earlier case of a circular motion of a particle whose initial angular velocity is 0.3 rad/s. The motion is subjected to an angular acceleration of magnitude 0.1
+<m:math>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+in the opposite direction to the initial velocity. In the table here, we calculate angular displacement of the particle, using relation,  
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, at the end of every second and plot the data (for first 7 seconds) to understand the variation of angular displacement with time.
+</para>
+<para id="element-75">
+<code id="id7636654" display="block">
+------------------------------------------------------------------------------------
+Time		wo t             Angular displacement (θ)
+(s)             (rad)                     (rad)
+------------------------------------------------------------------------------------
+0		0.0                                                      0.00
+1		0.3 x 1          0.3 – 0.5 x 0.1 x 1   = 0.3 – 0.05   =  0.25
+2		0.3 x 2          0.6 – 0.5 x 0.1 x 4   = 0.6 – 0.20   =  0.40
+3		0.3 x 3          0.9 – 0.5 x 0.1 x 9   = 0.9 – 0.45   =  0.45
+4		0.3 x 4          1.2 – 0.5 x 0.1 x 16  = 1.2 – 0.80   =  0.40
+5		0.3 x 5          1.5 – 0.5 x 0.1 x 25  = 1.5 – 1.25   =  0.25
+6		0.3 x 6          1.8 – 0.5 x 0.1 x 36  = 1.8 – 1.80   =  0.00
+7		0.3 x 7          2.1 – 0.5 x 0.1 x 49  = 2.1 – 2.50   = -0.40
+------------------------------------------------------------------------------------
+</code>
+</para>
+<para id="element-76">
+We see here that the particle moves in anti-clockwise direction for first 3 seconds as determined earlier and then turns back (clockwise) retracing the path till it reaches the initial position. Subsequently, the particle continues moving in the clockwise direction.
+</para>
+<para id="element-77">
+The angular displacement – time plot is as shown here :
+</para>
+<para id="element-78">
+<figure id="fig-78">
+<title> Angular displacement – time plot </title>
+<media id="id7636732" alt=""><image src="../../media/cmca8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+
+<example id="example-49">
+<para id="element-49"><term>Problem : </term> A particle at the periphery of a disk at a radial distance 10 m from the axis of rotation, uniformly accelerates for a period of 20 seconds. The speed of the particle in the meantime increases from 5 m/s to 20 m/s. Find the numbers of revolutions the particle completes around the axis.
+</para>
+<para id="element-50"> <term>Solution : </term> We need to find angular displacement to know the numbers of revolutions made. Here,
+</para> 
+
+<para id="element-51"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 20 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+To calculate angular displacement, we need to know angular acceleration. Here, we can calculate angular acceleration as in the earlier exercise as :
+</para>
+<para id="element-53"><m:math display="block">
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>ω</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2.0</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>0.5</m:mn>
+      </m:mrow>
+      <m:mn>20</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1.5</m:mn>
+      </m:mrow>
+      <m:mn>20</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.075</m:mn>
+<m:mspace width="2pt"/>
+    <m:mi>rad</m:mi>
+    <m:mo>∕</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math></para>
+<para id="element-54">
+Now, using equation of motion, 
+<m:math>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, we have :
+</para>
+<para id="element-55"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 20 </m:mn>
+
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 0.075 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 20 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 15 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 25 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+The number of revolutions (nearest integer), n,
+</para>
+<para id="element-57"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> n </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> π </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 25 </m:mn>
+<m:mn> 6.28 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 3.97 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mtext> (integer) </m:mtext>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-5">
+<title>Exercises</title>
+
+
+<para id="element-100">
+<exercise id="exercise-100">
+<problem id="id7637452">
+<para id="element-101">
+The angular velocity .vs. time plot of the motion of a rotating disk is shown in the figure. Then,
+</para>
+<para id="element-102">
+<figure id="fig-102">
+<title> Velocity .vs. time plot </title>
+<media id="id7637493" alt=""><image src="../../media/acq1.gif" mime-type="image/gif"/></media>
+<caption> Velocity .vs. time plot </caption>
+</figure>
+</para>
+<para id="element-104">
+angular acceleration is constant.
+</para>
+<para id="element-105">
+angular acceleration is negative.
+</para>
+<para id="element-106">
+disk comes to a stop at a particular instant.
+</para>
+<para id="element-107">
+disk reverses direction during the motion.
+</para>
+</problem>
+<solution id="id7637556">
+
+<para id="element-108">
+The slope of the straight line is a negative constant. Therefore, options (a) and (b) are correct. The line crosses time axis, when angular velocity is zero. Thus option (c) is correct. The angular velocities have opposite sign across time axis. It means that the disk reverses its direction.  Thus option (d) is correct.
+</para>
+<para id="element-109">
+Hence, options (a),(b),(c) and (d) are correct.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-110">
+<exercise id="exercise-110">
+<problem id="id7637606">
+<para id="element-111">
+A point on a rotating disk, starting from rest, achieves an angular velocity of 40 rad/s at constant rate in 5 seconds. If the point is at a distance 0.1 meters from the center of the disk, then the distance covered (in meters) during the motion is :
+
+</para>
+<para id="element-112">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> (a) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> (b) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> (c) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> (d) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 20 </m:mn>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</problem>
+<solution id="id7637710">
+<para id="element-113">
+We can find the distance covered, if we know the angular displacement. On the other hand, we can find angular displacement if we know the average angular speed as time is given.
+
+</para>
+<para id="element-114">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mtext> avg </m:mtext>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 40 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 0 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mtext> rad </m:mtext>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-115">
+We can consider this accelerated motion as uniform motion with average speed as calculated above. The angular displacement is :
+
+</para>
+<para id="element-116">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mtext> avg </m:mtext>
+</m:msub>
+<m:mo> X </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 05 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mtext> rad </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-117">
+The distance covered is :
+</para>
+<para id="element-118">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mi> θ</m:mi>
+<m:mo> X </m:mo>
+<m:mi> r</m:mi>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mtext> m </m:mtext>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-119">
+<exercise id="exercise-119">
+<problem id="id7638056">
+<para id="element-120"> A point on a rotating disk completes two revolutions starting from rest and achieves an angular velocity of 8 rad/s. If the angular velocity of the disk is increasing at a constant rate, the angular acceleration (
+<m:math>
+
+<m:mtext> rad </m:mtext>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+) is :
+</para>
+<para id="element-121">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> (a) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> (b) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 8π </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> (c) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> π </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> (d) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 16 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> π </m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</problem>
+<solution id="id7638204">
+<para id="element-122">
+We can use the equation of motion for constant acceleration. Here,
+
+
+</para>
+<para id="element-123">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mtext> revolution </m:mtext>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> X </m:mo>
+<m:mi> 2π </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 4π </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-124">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+
+<para id="element-125">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mtext> rad/s </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+
+<para id="element-126">
+Looking at the data, it is easy to find that the following equation will serve the purpose,
+
+
+</para>
+
+
+<para id="element-127">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> αθ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-128">
+Solving for "α" and putting values,
+
+</para>
+<para id="element-129">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:mn> 0 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> X </m:mo>
+<m:mi> 4π </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> π </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mtext> rad </m:mtext>
+<m:mo> / </m:mo>
+<m:msub>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-130">Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-131">
+<exercise id="exercise-131">
+<problem id="id7638703">
+<para id="element-132"> 
+A point on a rotating disk is accelerating at a constant rate 1 <m:math>
+<m:mtext> rad </m:mtext>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ till it achieves an angular velocity of 10 rad/s. What is the angular displacement (radian) in last 2 seconds of the motion?
+</para>
+<para id="element-133">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> (a) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 18 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> (b) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 24 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> (c) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 28 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> (d) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 32 </m:mn>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</problem>
+<solution id="id7638825">
+<para id="element-134">
+Here, final angular velocity, angular acceleration and time of motion are given. We can find the angular displacement using equation of motion for angular displacement that involves final angular velocity :
+</para>
+<para id="element-135">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-136">
+Putting values, we have :
+</para>
+
+<para id="element-137">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 2 </m:mn>
+
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 18 </m:mn>
+<m:mspace width="2pt"/>
+<m:mtext> rad </m:mtext>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-138">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>
+
+  </content>
+  
+</document>

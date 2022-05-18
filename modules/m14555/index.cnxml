@@ -1,0 +1,3117 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Accelerated motion in two dimensions</title>
+  <metadata>
+  <md:content-id>m14555</md:content-id><md:title>Accelerated motion in two dimensions</md:title>
+  <md:abstract>Motion in two dimensions with one dimensional acceleration (projectile) is analyzed with component motions in coordinate system, whereas motion in two dimensions with two dimensional acceleration (circular motion) is analyzed with the help of component accelerations - tangential and normal accelerations.</md:abstract>
+  <md:uuid>621a9e2d-79cd-4533-8741-f7458526f430</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m13871/latest/" strength="3">Uniform circular motion</link>
+      <link url="http://cnx.org/content/m14014/latest/" strength="2">Circular motion and rotational kinematics</link>
+      <link url="http://cnx.org/content/m14020/latest/" strength="2">Non-uniform circular motion</link>
+      <link url="http://cnx.org/content/m14022/latest/" strength="1">Circular motion with constant acceleration</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">We have already studied two dimensional motions such as projectile and uniform circular motion. These motions are the most celebrated examples of two dimensional motion, but it is easy to realize that they are specific instances with simplifying assumptions. The motions that we investigate in our surrounding mostly occur in two or three dimensions in a non-specific manner. The stage is, therefore, set to study two-dimensional motion in non-specific manner i.e. in a very general manner. This requires clear understanding of both linear and non-linear motion. As we have already studied circular motion - an instance of non-linear motion, we can develop an analysis model for a general case involving non-linear motion.  
+</para>
+<para id="element-2">The study of two dimensional motion without any simplifying assumptions, provides us with an insight into the actual relationship among the various motional attributes, which is generally concealed in the consideration of specific two dimensional motions like projectile or uniform circular motion. We need to develop an analysis frame work, which is not limited by any consideration. In two dimensional motion, the first and foremost consideration is that acceleration denotes a change in velocity that reflects a change in the velocity due to any of the following combinations :
+</para>
+<para id="element-3">
+<list id="list-2" list-type="bulleted">
+<item> change in the magnitude of velocity i.e. speed </item>
+<item> change in the direction of velocity
+ </item>
+<item> change in both magnitude and direction of velocity
+</item>
+</list>
+</para>
+<para id="element-4">In one dimensional motion, we mostly deal with change in magnitude and change in direction limited to reversal of motion. Such limitations do not exist in two or three dimensional motion. A vector like velocity can change by virtue of even direction only as in the case of uniform circular motion. Further, a circular motion may also involve variable speed i.e. a motion in which velocity changes in both direction and magnitude.
+</para>
+<para id="element-5">Most importantly, the generalized consideration here will resolve the subtle differences that arises in interpreting vector quantities like displacement, velocity etc. We have noted that there are certain subtle differences in interpreting terms such as Δr and |Δ<term>r</term> |; dr/dt and |d<term>r</term>/dt|; dv/dt and |d<term>v</term>/dt| etc. In words, we have seen that time rate of change in the magnitude of velocity (speed) is not equal to the magnitude of time rate of change in velocity. This is a subtle, but significant difference that we should account for. In this module, we shall find that time rate of change in the magnitude of velocity (speed), as a matter of fact, represents the magnitude of a component of acceleration known as "tangential acceleration".
+</para>
+
+<section id="section-1">
+<title> Characteristics of two dimensional motion
+</title>
+
+<para id="element-7"> Let us have a look at two dimensional motions that we have so far studied. We observe that projectile motion is characterized by a constant acceleration, “g”, i.e. acceleration due to gravity. What it means that though the motion itself is two dimensional, but acceleration is one dimensional. Therefore, this motion presents the most simplified two dimensional motion after rectilinear motion, which can be studied with the help of consideration of motion in two component directions.
+</para>
+<para id="element-314">Uniform circular motion, on the other hand, involves an acceleration, which is not one dimensional. It is constant in magnitude, but keeps changing direction along the line connecting the center of the circle and the particle. The main point is that acceleration in uniform circular motion is two dimensional unlike projectile motion in which acceleration (due to gravity) is one dimensional. As a more generalized case, we can think of circular motion in which both magnitude and direction of acceleration is changing. Such would be the case when particle moves with varying speed along the circular path. </para>
+<para id="element-8">In the nutshell, we can conclude that two dimensional motion types (circular motion, elliptical motion and other non-linear motion) involve varying acceleration in two dimensions. In order to facilitate study of general class of motion in two dimensions, we introduce the concept of components of acceleration in two specific directions. Notably, these directions are not same as the coordinate directions (“x” and “y”). One of the component acceleration is called “tangential acceleration”, which is directed along the tangent to the path of motion and the other is called “normal acceleration”, which is perpendicular to the tangent to the path of motion. Two accelerations are perpendicular to each other. The acceleration (sometimes also referred as total acceleration) is the vector sum of two mutually perpendicular component accelerations,
+</para>
+
+<para id="element-11">
+<figure id="fig-11">
+<title> Two dimensional acceleration </title>
+<media id="id1171462086835" alt=""><image src="../../media/mt1.gif" mime-type="image/gif"/></media>
+<caption> There are tangential and normal components of acceleration.</caption>
+</figure>
+</para>
+<para id="element-12">
+<equation id="equation-12"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-14">The normal acceleration is also known as radial or centripetal acceleration, <m:math>
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>, particularly in reference of circular motion. 
+</para>
+
+
+<section id="section-1a">
+<title> Tangential acceleration
+</title>
+
+<para id="element-17">Tangential acceleration is directed tangentially to the path of motion. Since velocity is also tangential to the path of motion, it is imperative that tangential acceleration is directed in the direction of velocity. This leads to an important meaning. We recall that it is only the component of force in the direction of velocity that changes the magnitude of velocity. This means that component of acceleration in the tangential direction represents the change in the magnitude of velocity (read speed). In non-uniform circular motion, the tangential acceleration accounts for the change in the speed (we shall study non-uniform circular motion in detail in a separate module). 
+</para>
+<para id="element-18">By logical extension, we can define that tangential acceleration is time rate of change of "speed". The speed is highlighted here to underscore the character of tangential acceleration. Mathematically, 
+</para>
+<para id="element-19">
+<equation id="equation-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para><para id="element-368">This insight into the motion should resolve the differences that we had highlighted earlier, emphasizing that rate of change in the magnitude of velocity (dv/dt) is not equal to the magnitude of rate of change of velocity (|d<term>v</term>/dt|). What we see now that rate of change in the magnitude of velocity (dv/dt) is actually just a component of total acceleration (d<term>v</term>/dt). </para>
+<para id="element-20">It is easy to realize that tangential acceleration comes into picture only when there is change in the magnitude of velocity. For example, uniform circular motion does not involve change in the magnitude of velocity (i.e. speed is constant). There is, therefore, no tangential acceleration involved in uniform circular motion.
+</para>
+</section>
+
+<section id="section-1b">
+<title> Normal acceleration
+</title>
+<para id="element-21">Normal (radial) acceleration acts in the direction perpendicular to tangential direction. We have seen that the normal acceleration, known as centripetal  acceleration in the case of uniform circular motion, is given by :
+</para>
+<para id="element-22">
+<equation id="equation-22"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para><para id="element-418">where “r” is the radius of the circular path. We can extend the expression of centripetal acceleration to all such trajectories of two dimensional motion, which involve radius of curvature. It is so because, radius of the circle is the radius of curvature of the circular path of motion.</para>
+<para id="element-609">In the case of tangential acceleration, we have argued that the motion should involve a change in the magnitude of velocity. Is there any such inference about normal (radial) acceleration? If motion is along a straight line without any change of direction, then there is no normal or radial acceleration involved. The radial acceleration comes into being only when motion involves a change in direction. We can, therefore, say that two components of accelerations are linked with two elements of velocity (magnitude and direction). A time rate of change in magnitude represents tangential acceleration, whereas a time rate of change of direction represents radial (normal) acceleration. </para>
+<para id="element-23">The above deduction has important implication for uniform circular motion. The uniform circular motion is characterized by constant speed, but continuously changing velocity. The velocity changes exclusively due to change in direction. Clearly, tangential acceleration is zero and radial acceleration is finite and acting towards the center of rotation.  
+
+</para>
+</section>
+<section id="section-1c">
+<title> Total acceleration
+</title>
+<para id="element-24">Total acceleration is defined in terms of velocity as :
+</para>
+<para id="element-25">
+<equation id="equation-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-26">
+In terms of component accelerations, we can write total accelerations in the following manner :
+</para>
+<para id="element-27"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+The magnitude of total acceleration is given as :
+</para>
+<para id="element-29"><equation id="equation-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-30">
+where
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">In the nutshell, we see that time rate of change in the speed represents a component of acceleration in tangential direction. On the other hand, magnitude of time rate of change in velocity represents the magnitude of total acceleration. Vector difference of total and tangential acceleration is equal to normal acceleration in general. In case of circular motion or motion with curvature, radial acceleration is normal acceleration.
+</para>
+</section>
+
+</section>
+<section id="section-2">
+<title> Tangential and normal accelerations in circular motion
+</title>
+<para id="element-33">
+We consider motion of a particle along a circular path. As pointed out in the section above, the acceleration is given as vector sum of two acceleration components as :
+</para>
+<para id="element-34">
+<figure id="fig-34"><title> Two dimensional circular motion </title>
+<media id="id1171470446905" alt=""><image src="../../media/mt2a.gif" mime-type="image/gif"/></media>
+<caption> There are tangential and normal components of acceleration.</caption>
+</figure>
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+<equation id="equation-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> t </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> n </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-37">where “<term>t</term>” and “<term>n</term>” are unit vectors in the tangential and radial directions. Note that normal direction is same as radial direction. For the motion shown in the figure, the unit vector in radial direction is :
+</para>
+<para id="element-38">
+<figure id="fig-38"><title> Unit vectors  </title>
+<media id="id1171468731740" alt=""><image src="../../media/mt3a.gif" mime-type="image/gif"/></media>
+<caption> Unit vectors in tangential and normal directions.</caption>
+</figure>
+</para>
+<para id="element-39">
+<equation id="equation-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-40">
+Similarly, the unit vector in tangential direction is :
+</para>
+<para id="element-41">
+<equation id="equation-41"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-42">
+<note id="id1171456408000">There is an easy way to find the sign of component, using graphical representation. Shift the vector at the origin, if the vector in question does not start from the origin. Simply imagine the component of a vector as projection on the coordinate. If the projection is on the positive side of the coordinate, then sign of component is positive; otherwise negative.
+</note>
+</para>
+<para id="element-43">
+The position vector of a particle in circular motion is given in terms of components as :
+</para>
+<para id="element-44">
+<figure id="fig-44"><title> Position vector  </title>
+<media id="id1171464971782" alt=""><image src="../../media/mt4a.gif" mime-type="image/gif"/></media>
+<caption> Position vector of a particle moving along a circular path.</caption>
+</figure>
+</para>
+<para id="element-45">
+<equation id="equation-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-46">
+<term>1: </term> Velocity
+</para>
+<para id="element-46a">The velocity of the particle, therefore, is obtained by differentiating with respect to time,:
+</para>
+<para id="element-47a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-533"><equation id="equation-553">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> ω </m:mi>
+<m:mi mathvariant="bold"> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para><para id="element-48">where ω = dθ/dt is  angular velocity. Also note that velocity is directed tangentially to path. For this reason, velocity vector is expressed with the help of unit vector in tangential direction.
+</para>
+<para id="element-49">
+<term>2: </term> Acceleration
+</para>
+<para id="element-50">The acceleration of the particle is obtained by differentiating the above expression of velocity with respect to time. However, as the radius of the circle is a constant, we take the same out of the differentiation,
+</para>
+<para id="element-51">
+<equation id="equation-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> { </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> ω </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> } </m:mo> 
+<m:mo> + </m:mo> 
+<m:mo> { </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> { </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo> 
+<m:mo> + </m:mo> 
+<m:mo> { </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> r </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> r </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-52">
+Thus, we see that :
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">The above expressions, therefore, give two components of total acceleration in two specific directions. Again, we should emphasize that these directions are not the same as coordinate directions. 
+</para>
+<para id="element-55">
+The derivation of acceleration components for two dimensional motion has, though, been carried out for circular motion, but the concepts of acceleration components as defined here can be applied - whenever there is curvature of path (non-linear path). In the case of rectilinear motion, normal acceleration reduces to zero as radius of curvature is infinite and as such total acceleration becomes equal to tangential acceleration.
+</para>
+
+</section>
+<section id="section-3">
+<title> Elliptical motion
+</title>
+
+
+<para id="element-58">
+In order to illustrate the features of two dimensional motion, we shall consider the case of elliptical motion of a particle in a plane. We shall use this motion to bring out the basic elements associated with the understanding of acceleration and its relation with other attributes of motion.
+</para>
+<para id="element-59">It is important that we work with the examples without any pre-notion such as “constant” acceleration etc. The treatment here is very general and intuitive of the various facets of accelerated motion in two dimensions. 
+</para>
+<section id="section-3a">
+<title> Path of motion
+</title>
+<example id="example-60a">
+<para id="element-60a"><term>Problem : </term> The coordinates of a particle moving in a plane are given by x = A cos(ωt) and y = B sin (ωt) where A, B (&lt; A) and ω are positive constants. Find the nature of path of motion. 
+</para>
+<para id="element-61"><term>Solution : </term> We shall use the general technique to find path of motion in two dimensional case. In order to find the path motion, we need to have an equation that connects “x” and “y” coordinates of the planar coordinate system. Note that there is no third coordinate.
+</para>
+<para id="element-62">
+<figure id="fig-62"><title> Elliptical motion  </title>
+<media id="id1171463330594" alt=""><image src="../../media/mt5.gif" mime-type="image/gif"/></media>
+<caption> Motion of a particle moving along an elliptical path path. </caption>
+</figure>
+</para>
+<para id="element-63">
+An inspection of the expressions of “x” and “y” suggests that we can use the trigonometric identity,
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> θ </m:mo> 
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> θ </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+Here, we have :
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> A </m:mi>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> A </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+Similarly, we have :
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> B </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> y </m:mi>
+<m:mi> B </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+Squaring and adding two equations,
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> B </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+This is an equation of ellipse. Hence, the particle follows an elliptical path.
+</para>
+
+</example>
+</section>
+<section id="section-3c">
+<title> Nature of velocity and acceleration
+</title>
+<example id="example-60">
+<para id="element-73"><term>Problem : </term> The coordinates of a particle moving in a plane are given by x = A cos(ωt) and y = B sin (ωt) where A, B (&lt; A) and ω are positive constants. Investigate the nature of velocity and acceleration for this motion. Also, discuss the case for A = B and when "ω" is constant.
+</para>
+<para id="element-74"> <term>Solution : </term> We can investigate the motion as required if we know expressions of velocity and acceleration. Therefore, we need to determine velocity and acceleration. Since components of position are given, we can find components of velocity and acceleration by differentiating the expression with respect to time.
+</para>
+<para id="element-75a">
+<term>1: </term> Velocity
+</para>
+<para id="element-75">
+The components of velocity in “x” and “y” directions are :
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> A </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> B </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">
+The velocity of the particle is given by :
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> { </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> A </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> B </m:mi>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">
+Evidently, magnitude and direction of the particle varies with time. 
+</para>
+<para id="element-80">
+<term>2: </term> Acceleration
+</para>
+<para id="element-81">
+We find the components of acceleration by differentiating again, as  :
+</para>
+<para id="element-82"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> A </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> B </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">Both “x” and “y” components of the acceleration are trigonometric functions. This means that acceleration varies in component direction. The net or resultant acceleration is :
+</para>
+<para id="element-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> { </m:mo> 
+<m:mi> A </m:mi>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> B </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85">
+<term>3:</term> When A = B and "ω" is constant
+</para>
+<para id="element-86">
+When A = B, the elliptical motion reduces to circular motion. Its path is given by the equation :
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> B </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-87a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-87b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+This is an equation of circle of radius “A”. The speed for this condition is given by  :
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> A </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">Thus, speed becomes a constant for circular motion, when ω = constant. 
+</para>
+<para id="element-91">
+The magnitude of acceleration is :
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> A </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-93">Thus, acceleration becomes a constant for circular motion, when ω = constant. 
+</para>
+
+</example>
+</section>
+
+</section>
+
+<section id="section-4">
+<title> Application </title>
+<para id="element-100">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-5">
+<title> Representative problems and their solutions
+</title>
+<para id="element-101">We discuss problems, which highlight certain aspects of the study leading to the accelerated motion in two dimensions. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-102">
+<list id="list-102" list-type="bulleted">
+<item> Path of motion
+</item>
+<item> Tangential and normal accelerations
+</item>
+<item> Nature of motion
+</item>
+<item> Displacement in two dimensions
+</item>
+</list>
+</para>
+</section> 
+
+
+<section id="section-6">
+<title> Path of motion
+</title>
+
+<example id="example-103">
+<para id="element-103"><term>Problem : </term> A balloon starts rising from the surface with a constant upward velocity, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. The balloon gains a horizontal drift due to the wind. The horizontal drift velocity is given by “ky”, where “k” is a constant and “y” is the vertical height of the balloon from the surface. Derive an expression of path of the motion.
+</para>
+<para id="element-104"><term>Solution : </term> An inspection of the equation of drift velocity (v = ky) suggests that balloon drifts more with the gain in height. A suggestive x-y plot of the motion is shown here.
+</para>
+
+<para id="element-105">
+<figure id="fig-105"><title> Motion of a balloon </title><media id="id1171463385172" alt=""><image src="../../media/amt11.gif" mime-type="image/gif"/></media><caption> The balloon moves with an acceleration in horizontal direction.</caption></figure>
+</para>
+<para id="element-106">
+Let vertical and horizontal direction corresponds to “y” and “x” axes of the coordinate system. Here,
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">
+We are required to know the relation between vertical and horizontal components of displacement from the expression of component velocities. It means that we need to know a lower order attribute from higher order attribute. Thus, we shall proceed with integration of differential equation, which defines velocity as :
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-111">
+Similarly,
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>đ</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>đ</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">
+Combining two equations by eliminating “dt”,
+</para>
+<para id="element-118">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>y</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-119">
+Now, integrating both sides, we have :
+</para>
+<para id="element-201">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:mi>y</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-211">
+Taking out constants out of the integral,
+</para>
+<para id="element-221">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>k</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mrow>
+      <m:mi>y</m:mi>
+      <m:mo>đ</m:mo>
+      <m:mi>y</m:mi>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-231">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-241">
+This is the required equation of motion, which is an equation of a parabola. Thus, the suggested plot given in the beginning, as a matter of fact, was correct.
+</para>
+</example>
+</section> 
+<section id="section-6a">
+<title> Tangential and normal accelerations
+</title>
+
+<example id="example-251">
+<para id="element-251"><term>Problem : </term> A balloon starts rising from the surface with a constant upward velocity, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. The balloon gains a horizontal drift due to the wind. The horizontal drift velocity is given by “ky”, where “k” is a constant and “y” is the vertical height of the balloon from the surface. Derive expressions for the tangential and normal accelerations of the balloon.
+</para>
+<para id="element-261"><term>Solution : </term> We can proceed to find the magnitude of total acceleration by first finding the expression of velocity. Here, velocity is given as :
+</para>
+
+
+
+<para id="element-271">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>y</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-281">
+Since acceleration is higher order attribute, we obtain its expression by differentiating the expression of velocity with respect to time :
+</para>
+<para id="element-291">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>a</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>i</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-301">
+It is obvious that acceleration is one dimensional. It is evident from the data given also. The balloon moving with constant vertical velocity has no acceleration in y-direction. The speed of the balloon in x-direction, however, keeps changing with height (time) and as such total acceleration of the balloon is in x-direction. The magnitude of total acceleration is :
+</para>
+<para id="element-311">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>a</m:mi>
+    </m:mstyle>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-321">
+<figure id="fig-321"><title> Motion of a balloon </title><media id="id1171463339877" alt=""><image src="../../media/amt21.gif" mime-type="image/gif"/></media><caption> The acceleration of the balloon has two components in mutually perpendicular directions.</caption></figure>
+</para>
+<para id="element-331">
+Thus, we see that total acceleration is not only one dimensional, but constant as well. However, this does not mean that component accelerations viz tangential and normal accelerations are also constant. We need to investigate their expressions. We can obtain tangential acceleration as time rate of change of the magnitude of velocity i.e. the time rate of change of speed. We, therefore, need to first know an expression of the speed. Now, speed is :
+</para>
+<para id="element-341">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:msqrt>
+        <m:mrow>
+          <m:msup>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>k</m:mi>
+                <m:mi>y</m:mi>
+              </m:mrow>
+            </m:mfenced>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mfenced>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>v</m:mi>
+                  <m:mn>0</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfenced>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:msqrt>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-351">
+Differentiating with respect to time, we have :
+</para>
+<para id="element-361">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>T</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>k</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msubsup>
+                  <m:mi>v</m:mi>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-371">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>T</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>k</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msubsup>
+                  <m:mi>v</m:mi>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-382">
+In order to find the normal acceleration, we use the fact that total acceleration is vector sum of two mutually perpendicular tangential and normal accelerations.
+</para>
+<para id="element-393">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msubsup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-401">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msubsup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>4</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>0</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>k</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mn>0</m:mn>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-412">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>{</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>−</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>k</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>k</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-423">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>{</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mi>k</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mn>0</m:mn>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>−</m:mo>
+          <m:msup>
+            <m:mi>k</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>k</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-434">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>0</m:mn>
+          </m:mrow>
+          <m:mn>4</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>k</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mn>0</m:mn>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-445">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>N</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>k</m:mi>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>0</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>k</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>y</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msubsup>
+                  <m:mi>v</m:mi>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:msubsup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+</section> 
+<section id="section-7">
+<title> Nature of motion 
+</title>
+
+<example id="example-457">
+<para id="element-457"><term>Problem : </term> The coordinates of a particle moving in a plane are given by x = A cos(ωt) and y = B sin (ωt) where A, B (&lt; A) and “ω” are positive constants of appropriate dimensions. Prove that the velocity and acceleration of the particle are normal to each other at t = π/2ω. 
+</para>
+<para id="element-468"><term>Solution : </term> By differentiation, the components of velocity and acceleration are as given under :
+</para>
+<para id="element-478">
+The components of velocity in “x” and “y” directions are :
+</para>
+<para id="element-489">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4911">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-501">
+The components of acceleration in “x” and “y” directions are :
+</para>
+<para id="element-512">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>đ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-521">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>đ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>B</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-532">At time,  
+<m:math>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+    <m:mi>π</m:mi>
+</m:mrow>
+<m:mrow>
+    <m:mn> 2 </m:mn>
+    <m:mi> ω </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+and 
+<m:math>
+    <m:mi> θ </m:mi>
+    <m:mo>=</m:mo>
+    <m:mi> ω </m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+    <m:mi>π</m:mi>
+</m:mrow>
+<m:mrow>
+    <m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:math>
+. Putting this value in the component expressions, we have :
+</para>
+<para id="element-543">
+<figure id="fig-543"><title> Motion along elliptical path </title><media id="id1171455657684" alt=""><image src="../../media/amt31.gif" mime-type="image/gif"/></media><caption> Velocity and acceleration are perpendicular at the given instant.</caption></figure>
+</para>
+<para id="element-554">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>ω</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-565">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-576">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>A</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-587">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>B</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>b</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>sin</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>B</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-598">The net velocity is in negative x-direction, whereas net acceleration is in negative y-direction. Hence at 
+<m:math>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+    <m:mi>π</m:mi>
+</m:mrow>
+<m:mrow>
+    <m:mn> 2 </m:mn>
+    <m:mi> ω </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+, velocity and acceleration of the particle are normal to each other.
+</para>
+
+</example>
+
+<example id="example-609">
+<para id="element-600"><term>Problem : </term> Position vector of a particle is :
+</para>
+<para id="element-611">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-621">
+Show that velocity vector is perpendicular to position vector.
+</para>
+<para id="element-631"><term>Solution : </term> We shall use a different technique to prove as required. We shall use the fact that scalar (dot) product of two perpendicular vectors is zero. We, therefore, need to find the expression of velocity. We can obtain the same by differentiating the expression of position vector with respect to time as :</para>
+
+
+<para id="element-651">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>v</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mstyle mathvariant="bold">
+          <m:mi>r</m:mi>
+        </m:mstyle>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-661">
+To check whether velocity is perpendicular to the position vector, we take the scalar product of r and <term>v</term> as :
+</para>
+<para id="element-671">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+    <m:mstyle mathvariant="bold">
+      <m:mo>.</m:mo>
+    </m:mstyle>
+    <m:mstyle mathvariant="bold">
+      <m:mi>v</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mstyle mathvariant="bold">
+          <m:mi>i</m:mi>
+        </m:mstyle>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mstyle mathvariant="bold">
+          <m:mi>j</m:mi>
+        </m:mstyle>
+      </m:mrow>
+    </m:mfenced>
+    <m:mstyle mathvariant="bold">
+      <m:mo>.</m:mo>
+    </m:mstyle>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>a</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mstyle mathvariant="bold">
+          <m:mi>i</m:mi>
+        </m:mstyle>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>ω</m:mi>
+        <m:mi>t</m:mi>
+        <m:mstyle mathvariant="bold">
+          <m:mi>j</m:mi>
+        </m:mstyle>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-681">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+    <m:mstyle mathvariant="bold">
+      <m:mo>.</m:mo>
+    </m:mstyle>
+    <m:mstyle mathvariant="bold">
+      <m:mi>v</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-691">
+This means that the angle between position vector and velocity are at right angle to each other. Hence, velocity is perpendicular to position vector.
+</para>
+</example>
+
+</section>
+
+<section id="section-8">
+<title> Displacement in two dimensions
+</title>
+
+<example id="example-701">
+<para id="element-701"><term>Problem : </term> The coordinates of a particle moving in a plane are given by x = A cos(ω t) and y = B sin (ω t) where A, B (&lt;A) and ω are positive constants of appropriate dimensions. Find the displacement of the particle in time interval t = 0 to t = π/2 ω. 
+</para>
+<para id="element-702"><term>Solution : </term> In order to find the displacement, we shall first know the positions of the particle at the start of motion and at the given time. Now, the position of the particle is given by coordinates  :
+</para>
+
+
+
+<para id="element-703">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-714">
+and
+</para>
+<para id="element-725">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-736">
+At t = 0, the position of the particle is given by  :
+</para>
+<para id="element-747">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>x</m:mi>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-758">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>x</m:mi>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-769">At 
+<m:math>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+<m:mfrac>
+<m:mrow>
+    <m:mi>π</m:mi>
+</m:mrow>
+<m:mrow>
+    <m:mn> 2 </m:mn>
+    <m:mi> ω </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+, the position of the particle is given by  :
+</para>
+<para id="element-771">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>x</m:mi>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-782">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>ω</m:mi>
+        <m:mi>x</m:mi>
+        <m:mi>π</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>π</m:mi>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-793">
+<figure id="fig-793"><title> Motion along an elliptical path </title><media id="id1171460248333" alt=""><image src="../../media/amt41.gif" mime-type="image/gif"/></media><caption> The linear distance equals displacement.</caption></figure>
+</para>
+<para id="element-804">
+Therefore , the displacement in the given time interval is :
+</para>
+<para id="element-815"><m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>A</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>B</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section> 
+
+</section>
+  </content>
+  
+</document>

@@ -1,0 +1,2040 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Non-uniform circular motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>8253ec2d-bbf8-4224-bcba-c853ece98e57</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+What do we mean by non-uniform circular motion? The answer lies in the definition of uniform circular motion, which defines it be a circular motion with constant speed. It follows then that non-uniform circular motion denotes a change in the speed of the particle moving along the circular path as shown in the figure. Note specially the change in the velocity vector sizes, denoting change in the magnitude of velocity.
+</para>
+<para id="element-2">
+<figure id="fig-2">
+<title> Circular motion </title>
+<media id="idp5446448" alt=""><image src="../../media/nuc1.gif" mime-type="image/gif"/></media>
+<caption> The speed of the particle changes with time in non-uniform circular motion.</caption>
+</figure>
+</para>
+<para id="element-3">
+A change in speed means that unequal length of arc (s) is covered in equal time intervals. It further means that the change in the velocity (<term>v</term>) of the particle is not limited to change in direction as in the case of uniform circular motion. In other words, the magnitude of the velocity (<term>v</term>) changes with time, in addition to continuous change in direction, which is inherent to the circular motion owing to the requirement of the particle to follow a non-linear circular path. 
+</para>
+<section id="section-1">
+<title> Radial (centripetal) acceleration </title>
+<para id="element-4">
+We have seen that change in direction is accounted by radial acceleration (centripetal acceleration), which is given by following relation, 
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-6">
+The change in speed have implications on radial (centripetal) acceleration. There are two possibilities : 
+</para>
+<para id="element-7">
+1:  The radius of circle is constant (like in the motion along a circular rail  or motor track)
+</para>
+<para id="element-8">
+A change in “v” shall change the magnitude of radial acceleration. This means that the centripetal acceleration is not constant as in the case of uniform circular motion. Greater the speed, greater is the radial acceleration. It can be easily visualized that a particle moving at higher speed will need a greater radial force to change direction and vice-versa, when radius of circular path is constant.
+</para>
+<para id="element-9">
+2: The radial (centripetal) force is constant (like a satellite rotating about the earth under the influence of constant force of gravity)
+</para>
+<para id="element-10">
+The circular motion adjusts its radius in response to change in speed. This means that the radius of the circular path is variable as against that in the case of uniform circular motion.
+</para>
+
+<para id="element-11">
+In any eventuality, the equation of centripetal acceleration in terms of “speed” and “radius” must be satisfied. The important thing to note here is that though change in speed of the particle affects radial acceleration, but the change in speed is not affected by radial or centripetal force. We need a tangential force to affect the change in the magnitude of a tangential velocity. The corresponding acceleration is called tangential acceleration. 
+</para>
+
+</section>
+
+<section id="section-2">
+<title> Angular velocity </title>
+
+<para id="element-14">
+The angular velocity in non-uniform circular motion is not constant as ω
+ = v/r and “v” is varying.
+</para>
+<para id="element-14a">
+We construct a data set here to have an understanding of what is actually happening to angular speed with the passage of time. Let us consider a non-uniform circular motion of a particle in a centrifuge, whose linear speed, starting with zero, is incremented by 1 m/s at the end of every second. Let the radius of the circle be 10 m. 
+</para>
+<para id="element-15">
+<code display="block" id="idm12953456">
+---------------------------
+ t         v           ω
+(s)      (m/s)      (rad/s)
+---------------------------
+ 0         0          0.0
+ 1         1          0.1
+ 2         2          0.2    
+ 3         3          0.3
+---------------------------
+</code>
+</para>
+<para id="element-16">
+The above data set describes just a simplified situation for the purpose of highlighting variation in angular speed. We can visualize this change in terms of angular velocity vector with increasing magnitudes as shown in the figure here :
+</para>
+<para id="element-18">
+<figure id="fig-18">
+<title> Angular velocity </title>
+<media id="idm6656640" alt=""><image src="../../media/nuc2.gif" mime-type="image/gif"/></media>
+<caption> Angular velocity changes with time in non-uniform circular motion.</caption>
+</figure>
+</para>
+<para id="element-19">Note that magnitude of angular velocity i.e. speed changes, but not its direction in the illustrated case. However, it has been pointed out earlier that there are actually two directional possibilities i.e. clockwise and anti-clockwise rotation. Thus, a circular motion may also involve change of direction besides a change in its magnitude. 
+</para>
+</section>
+
+<section id="section-3">
+<title> Tangential acceleration </title>
+
+<para id="element-20">The non-uniform circular motion involves a change in speed. This change is accounted by the tangential acceleration, which results due to a tangential force and which acts along the direction of velocity circumferentially as shown in the figure. It is easy to realize that tangential velocity and acceleration are tangential to the path of motion and keeps changing their direction as motion progresses.
+</para>
+
+<para id="element-21">
+<figure id="fig-21">
+<title> Tangential acceleration </title>
+<media id="idp6395936" alt=""><image src="../../media/nuc3.gif" mime-type="image/gif"/></media>
+<caption> Velocity, tangential acceleration and tangential force all act along the same direction.</caption>
+</figure>
+</para>
+<para id="element-22">
+We note that velocity, tangential acceleration and tangential force all act along the same direction. It must, however, be recognized that force (and hence acceleration) may also act in the opposite direction to the velocity. In that case, the speed of the particle will decrease with time. 
+</para>
+<para id="element-23">
+The magnitude of tangential acceleration is equal to the time rate of change in the speed of the particle.
+</para>
+<para id="element-24"><equation id="equation-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<example id="example-25">
+<para id="element-25"><term>Problem : </term> A particle, starting from the position (5 m,0 m), is moving along a circular path about the origin in xy – plane. The angular position of the particle is a function of time as given here,
+</para>
+<para id="element-25a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">Find (i) centripetal acceleration and (ii) tangential acceleration and (iii)direction of motion at t =0 .
+</para>
+<para id="element-27"><term>Solution : </term> From the data on initial position of the particle, it is clear that the radius of the circle is 5 m. 
+</para> <para id="element-28">
+(i) For determining centripetal acceleration, we need to know the linear speed or angular speed at a given time. Here, we differentiate angular position function to obtain angular speed as :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω</m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 0.2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+Angular speed is varying as it is a function of time. For t = 0,
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω</m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+Now, the centripetal acceleration is :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> ω</m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> x </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.04 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+(ii)  For determining tangential acceleration, we need to have expression of linear speed in time. 
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> x </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+We obtain tangential acceleration by differentiating the above function :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+Evidently, the tangential acceleration is constant and is independent of time. 
+</para>
+<para id="element-39">
+(iii) Since, the angular speed is evaluated to be positive at t = 0, it means that angular velocity is positive. This, in turn, means that the particle is rotating anti-clockwise at t = 0.
+</para>
+</example>
+</section>
+
+<section id="section-4">
+<title>  Angular acceleration  </title>
+
+<para id="element-40">
+The magnitude of angular acceleration is the ratio of angular speed and time interval. 
+</para>
+<para id="element-41"><equation id="equation-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-42">If the ratio is evaluated for finite time interval, then the ratio is called average angular acceleration and If the ratio is is evaluated for infinitesimally small period (Δ t →0), then the ratio is called instantaneous angular acceleration. Mathematically, the instantaneous angular acceleration is :
+</para>
+<para id="element-43"><equation id="equation-43"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mo> t </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-44">
+The angular acceleration is measured in “
+<m:math>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+”. It is important to emphasize here that this angular acceleration is associated with the change in angular speed (ω) i.e. change in the linear speed of the particle (v = ωr)  - not associated with the change in the direction of the linear velocity (<term>v</term>). In the case of uniform circular motion, ω = constant, hence angular acceleration is zero.
+</para>
+</section>
+
+
+<section id="section-5">
+<title>  Relationship between linear and angular acceleration  </title>
+<para id="element-47">
+We can relate angular acceleration (α) with tangential acceleration (
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:math>
+) in non – uniform circular motion as :
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> s </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mo> t </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mo> t </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mo> r </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> r </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> θ </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mo> t </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> α </m:mo>
+<m:mo> r </m:mo>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">We see here that angular acceleration and tangential acceleration are representation of the same aspect of motion, which is related to the change in angular speed or the equivalent linear speed. It is only the difference in the manner in which change of the magnitude of motion is described. 
+</para>
+<para id="element-50">The existence of angular or tangential acceleration indicates the presence of a tangential force on the particle. 
+</para>
+<para id="element-51">
+Note : All relations between angular quantities and their linear counterparts involve multiplication of angular quantity by the radius of circular path “r” to yield to corresponding linear equivalents. Let us revisit the relations so far arrived to appreciate this aspect of relationship : 
+</para>
+<para id="element-52"><equation id="equation-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mi> θ </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> α </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+
+<section id="section-6">
+<title>  Linear and angular acceleration relation in vector form  </title>
+
+<para id="element-53">
+We can represent the relation between angular acceleration and tangential acceleration in terms of vector cross product :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi mathvariant="bold"> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> α  </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> r  </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+<figure id="fig-55">
+<title> Tangential and angular acceleration </title>
+<media id="idm1536784" alt=""><image src="../../media/nuc4a.gif" mime-type="image/gif"/></media>
+<caption> Angular acceleration is an axial vector.</caption>
+</figure>
+</para>
+<para id="element-56">The order of quantities in vector product is important. A change in the order of cross product like (
+<m:math>
+<m:mi mathvariant="bold"> r  </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> α  </m:mi>
+</m:math>
+) represents the product vector in opposite direction. The directional relationship between thee vector quantities are shown in the figure. The vectors “
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi mathvariant="bold"> T </m:mi>
+</m:msub>
+</m:math>
+” and “<term>r</term>” are in “xz” plane i.e. in the plane of motion, whereas angular acceleration (<term>α</term>) is in y-direction i.e. perpendicular to the plane of motion. We can know about tangential acceleration completely by analyzing the right hand side of vector equation. The spatial relationship among the vectors is automatically conveyed by the vector relation. 
+</para>
+<para id="element-58">
+We can evaluate magnitude of tangential acceleration as :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi mathvariant="bold"> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> α  </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> r  </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi mathvariant="bold"> T </m:mi>
+</m:msub>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mi> α </m:mi>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+where θ is the angle between two vectors <term>α</term> and <term>r</term>. In the case of circular motion, θ = 90°, Hence,
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> α  </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> r  </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mi> α </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<section id="section-6a">
+<title>  Uniform circular motion </title>
+<para id="element-62">
+In the case of the uniform circular motion, the speed (v) of the particle in uniform circular motion is constant (by definition). This implies that tangential acceleration, 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:math>, is zero. Consequently, angular acceleration (
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:math>
+) is also zero. 
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+</section>
+
+<section id="section-7">
+<title>  Description of circular motion using vectors </title>
+
+<para id="element-64">
+In the light of new quantities and new relationships, we can attempt analysis of the general circular motion (including both uniform and non-uniform), using vector relations. We have seen that :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v  </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> ω  </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> r  </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+A close scrutiny of the quantities on the right hand of the expression of velocity indicate two possible changes :
+</para>
+<para id="element-67">
+<list id="list-67" list-type="bulleted">
+<item> change in angular velocity (<term> ω </term>) and 
+</item>
+<item> change in position vector (<term>r</term>)
+ </item>
+</list>
+</para>
+<para id="element-68">
+The angular velocity (<term> ω </term>) can change either in its direction (clockwise or anti-clockwise) or can change in its magnitude. There is no change in the direction of axis of rotation, however, which is fixed. As far as position vector (<term> r</term>) is concerned, there is no change in its magnitude i.e. |<term> r</term> | or r is constant, but its direction keeps changing with time. So there is only change of direction involved with vector “<term> r</term>”.
+</para>
+<para id="element-70">
+Now differentiating the vector equation, we have 
+</para>
+<para id="element-71"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> v  </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> ω  </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> r  </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> ω  </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> r  </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+We must understand the meaning of each of the acceleration defined by the differentials in the above equation :
+</para>
+<para id="element-73">
+<list id="list-73" list-type="bulleted"><item> The term "
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> v  </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+" represents total acceleration (<term> a </term>) i.e. the resultant of radial (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mi mathvariant="bold"> R  </m:mi>
+</m:msub>
+</m:math>
+) and tangential acceleration(
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mi mathvariant="bold"> T  </m:mi>
+</m:msub>
+</m:math>
+).
+</item>
+<item> The term 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> ω  </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+ represents angular acceleration  (<term>α</term>)
+ </item>
+
+<item>
+The term 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> r  </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+ represents velocity of the particle (<term>v</term>)
+
+</item></list>
+</para>
+
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> α  </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> r  </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> ω  </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> v  </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-76">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mi mathvariant="bold"> T  </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mi mathvariant="bold"> R  </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">where, 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mi mathvariant="bold"> T  </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> α  </m:mi>
+
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> r  </m:mi>
+</m:math>
+is tangential acceleration and is measure of the time rate change of the magnitude of the velocity of the particle in the tangential direction and  
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mi mathvariant="bold"> R  </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mi mathvariant="bold"> X  </m:mi>
+<m:mi mathvariant="bold"> v  </m:mi>
+</m:math>
+ is the radial acceleration also known as centripetal acceleration, which is measure of time rate change of the velocity of the particle in radial direction. 
+</para>
+<para id="element-78">
+Various vector quantities involved in the equation are shown graphically with respect to the plane of motion (xz plane) :
+</para>
+<para id="element-79">
+<figure id="fig-79">
+<title> Vector quantities </title>
+<media id="idp6767024" alt=""><image src="../../media/nuc5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-80">
+The magnitude of total acceleration in general circular motion is given by :
+</para>
+<para id="element-81">
+<figure id="fig-81">
+<title> Resultant acceleration </title>
+<media id="idp5968272" alt=""><image src="../../media/nuc6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mrow>
+<m:mo> ( </m:mo>
+
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<example id="example-83">
+<para id="element-83"><term>Problem : </term> At a particular instant, a particle is moving with a speed of 10 m/s on a circular path of radius 100 m. Its speed is increasing at the rate of 1 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. What is the acceleration of the particle ?
+</para>
+<para id="element-84"> <term>Solution : </term> The acceleration of the particle is the vector sum of mutually perpendicular radial and tangential accelerations. The magnitude of tangential acceleration is given here to be 1 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Now, the radial acceleration at the particular instant is :
+</para> 
+<para id="element-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 100 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-86">
+Hence, the magnitude of the acceleration of the particle is :
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a  </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mrow>
+<m:mo> ( </m:mo>
+
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mrow>
+<m:mo> ( </m:mo>
+
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</example>
+
+</section>
+
+<section id="section-8">
+<title> Exercises </title>
+<para id="element-203a">
+<exercise id="exercise-203a">
+<problem id="idp4925552">
+<para id="element-204">
+A particle is moving along a circle in yz - plane with varying linear speed. Then
+</para>
+<para id="element-205">
+(a) acceleration of the particle is in x – direction
+</para>
+<para id="element-206">
+(b) acceleration of the particle lies in xy – plane
+</para>
+<para id="element-207">
+(c) acceleration of the particle lies in xz – plane
+</para>
+<para id="element-208">
+(d) acceleration of the particle lies in yz – plane
+</para>
+</problem>
+<solution id="idm2228928">
+<para id="element-209">
+The figure here shows the acceleration of the particle as the resultant of radial and tangential accelerations. The resultant acceleration lies in the plane of motion i.e yz – plane. 
+</para>
+<para id="element-210">
+<figure id="fig-4"><title> Circular motion </title><media id="idp6030192" alt=""><image src="../../media/nucq1.gif" mime-type="image/gif"/></media></figure>
+</para>
+<para id="element-211">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para> 
+
+<para id="element-212abc">
+<exercise id="exercise-212abc">
+<problem id="idp2152768">
+<para id="element-214">
+A particle is moving along a circle of radius “r”. The linear and angular velocities at an instant during the motion are “v” and “ω” respectively. Then, the product vω represents :
+</para>
+<para id="element-215">
+(a) centripetal acceleration 
+</para>
+<para id="element-216">
+(b) tangential acceleration
+</para>
+<para id="element-217">
+(c) angular acceleration divided by radius 
+</para>
+<para id="element-218">
+(d) None of the above 
+</para>
+
+</problem>
+<solution id="idp8331792">
+<para id="element-219">
+The given product expands as :
+</para>
+<para id="element-220">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-221">
+This is the expression of centripetal acceleration.
+</para>
+<para id="element-222">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para> 
+
+<para id="element-212a">
+<exercise id="exercise-212a">
+<problem id="idm4866960">
+<para id="element-223">
+Which of the following expression represents the magnitude of centripetal acceleration :
+</para>
+<para id="element-224">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> | </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mo> t </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo>
+<m:mspace width="2pt"/>
+
+<m:mi> (b) </m:mi>
+<m:mspace width="2pt"/>
+
+<m:mo> | </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> t </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> r </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> θ </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> t </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="2pt"/>
+<m:mtext> None of these </m:mtext>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+
+</para>
+</problem>
+<solution id="idp6727648">
+<para id="element-225">
+The expression 
+<m:math>
+<m:mo> | </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> t </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo>
+</m:math>
+ represents the magnitude of total or resultant acceleration. The differential 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> θ </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> t </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:math>
+ represents the magnitude of angular velocity. The expression 
+<m:math>
+<m:mo> r </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> θ </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> t </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:math>
+represents the magnitude of tangential velocity. The expression 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mo> t </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:math>
+is second order differentiation of position vector (<term>r</term>). This is actually the expression of acceleration of a particle under motion. Hence, the expression 
+<m:math>
+<m:mo> | </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mo> t </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> | </m:mo>
+</m:math>
+represents the magnitude of total or resultant acceleration. 
+</para>
+<para id="element-227">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para> 
+
+<para id="element-228a">
+<exercise id="exercise-228a">
+<problem id="idp8338480">
+<para id="element-228">
+A particle is circling about origin in xy-plane with an angular speed of 0.2 rad/s. What is the linear speed (in m/s) of the particle at a point specified by the coordinate (3m,4m) ?
+</para>
+<para id="element-229">
+(a)1 (b) 2 (c) 3 (d) 4
+</para>
+</problem>
+<solution id="idp1962528">
+<para id="element-230">
+The linear speed “v” is given by :
+</para>
+<para id="element-231">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-232">
+Now radius of the circle is obtained from the position data. Here, x = 3 m and y = 4 m. Hence,
+</para>
+<para id="element-233">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-234">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para> 
+
+<para id="element-235a">
+<exercise id="exercise-235a">
+<problem id="idp3997280">
+<para id="element-236">
+A particle is executing circular motion. Man The velocity of the particle changes from zero to (0.3<term>i</term> + 0.4<term>j</term>) m/s in a period of 1 second.  The magnitude of average tangential acceleration is :
+</para>
+<para id="element-237">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+<m:mtd>
+<m:mi> (b) </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+<m:mtd>
+<m:mi> (c) </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mn> 0.3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+<m:mtd>
+<m:mi> (d) </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm1494928">
+<para id="element-238">
+The magnitude of average tangential acceleration is the ratio of the change in speed and time :
+</para>
+
+<para id="element-239">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-240">
+Now, 
+</para>
+
+
+<para id="element-241">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 0.3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 0.4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mn> 0.25 </m:mn>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-242">
+Hence, option (d) is correct.
+</para>
+
+</solution>
+</exercise>
+</para> 
+
+
+<para id="element-243a">
+<exercise id="exercise-243a">
+<problem id="idm5055648">
+<para id="element-244">
+ 
+The radial and tangential accelerations of a particle in motions are 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:math> 
+respectively. The motion can be circular if :
+
+</para>
+<para id="element-245">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="2pt"/>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> ≠ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> ≠ </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+<m:mtd>
+<m:mspace width="2pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="2pt"/>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+<m:mtd>
+<m:mspace width="2pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="2pt"/>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ≠ </m:mo>
+</m:mtd>
+
+
+<m:mtd>
+<m:mspace width="2pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="2pt"/>
+</m:mtd>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ≠ </m:mo>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+
+
+
+
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp5311008">
+<para id="element-246">Centripetal acceleration is a requirement for circular motion and as such it should be non-zero. On the other hand, 
+tangential acceleration is zero for uniform circular acceleration and non-zero for non-uniform circular motion. Clearly, the motion can be circular motion if centripetal acceleration is non-zero.
+</para>
+<para id="element-247">
+Hence, options (a) and (d) are correct.
+</para>
+
+</solution>
+</exercise>
+</para> 
+
+<para id="element-252">
+<exercise id="exercise-252">
+<problem id="idm1708304">
+<para id="element-253">
+Which of the following pair of vector quantities is/are parallel to each other in direction ?</para>
+<para id="element-254">
+(a) angular velocity and linear velocity
+</para>
+<para id="element-255">
+(b) angular acceleration and tangential acceleration
+</para>
+<para id="element-256">
+(c) centripetal acceleration and tangential acceleration
+</para>
+<para id="element-257">
+(d) angular velocity and angular acceleration
+</para>
+</problem>
+<solution id="idp6700480">
+
+<para id="element-258">
+The option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para> 
+
+<para id="element-270">
+<exercise id="exercise-270">
+<problem id="idp2936032">
+<para id="element-271"> A particle is moving along a circle in a plane with axis of rotation passing through the origin of circle. Which of the 
+following pairs of vector quantities are perpendicular to each other  :
+</para>
+<para id="element-272">
+(a) tangential acceleration and angular velocity
+</para>
+<para id="element-273">
+(b) centripetal acceleration and angular velocity
+</para>
+<para id="element-274">
+(c) position vector and angular velocity
+</para>
+<para id="element-275">
+(d) angular velocity and linear velocity
+</para>
+</problem>
+<solution id="idm1396144">
+<para id="element-276">
+Clearly, vector attributes in each given pairs are perpendicular to each other.
+</para>
+<para id="element-277">
+Hence, options (a), (b), (c) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para> 
+
+<para id="element-259">
+<exercise id="exercise-259">
+<problem id="idp1939728">
+<para id="element-260">
+A particle is executing circular motion along a circle of diameter 2 m, with a tangential speed given by v = 2t. 
+</para>
+<para id="element-261">
+(a) Tangential acceleration directly varies with time.
+</para>
+<para id="element-262">
+(b)   Tangential acceleration inversely varies with time.
+</para>
+<para id="element-263">
+(c) Centripetal acceleration directly varies with time.
+</para>
+<para id="element-264">
+(d) Centripetal acceleration directly varies with square of time.
+</para>
+</problem>
+<solution id="idm4862160">
+
+<para id="element-265">
+ 
+Tangential acceleration is found out by differentiating the expression of speed :
+
+</para>
+<para id="element-266">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> 2t </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-267">
+The tangential acceleration is a constant. Now, let us determine centripetal acceleration,
+
+</para>
+<para id="element-268">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+
+<m:mn> 4 </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-269">
+The option (d) is correct.
+</para>
+
+
+</solution>
+</exercise>
+</para> 
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  </content>
+  
+</document>

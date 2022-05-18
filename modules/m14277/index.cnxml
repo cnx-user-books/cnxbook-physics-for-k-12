@@ -1,0 +1,692 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rotation</title>
+  <metadata>
+  <md:content-id>m14277</md:content-id><md:title>Rotation</md:title>
+  <md:abstract>Each particle of a rigid body follows a circular path about a fixed axis in pure rotation.</md:abstract>
+  <md:uuid>5a04b086-8a09-4d37-9666-304e4535014c</md:uuid>
+</metadata>
+
+<content>
+
+<para id="element-3">The study of rotational motion is an important step towards the study of real time motion. Rotational motion is essentially a circular motion about a point or an axis (for three dimensional bodies). The rotation of a rigid body about an axis passing through the body itself is termed "spin motion" or simply "spin". On the other hand, rotation about an external axis is termed "orbital motion". We shall treat both these types of rotation in the same manner as treatment of either rotation types is same from the point of view of governing laws of motion.   
+</para>
+
+<para id="element-26a"> Rotation is one of two basic components of general motion of rigid body. The motion of a rigid body is either translation or rotation or combination of two. In translation, each of the particles constituting the rigid body has same linear velocity and acceleration. On the same footing, we say that each of the particles constituting the rigid body has same angular velocity and acceleration in rotation. A consequence of this analogy is that each particle constituting the rigid body moves in a circular motion such that their centers lie on a straight line called axis of rotation. 
+</para>
+<para id="element-26b"> Pure translation refers to a straight line motion. Similarly, pure rotation refers to rotation about a fixed axis. Importantly, pure translation excludes rotation whereas pure rotation excludes translation. 
+</para>
+<section id="section-2">
+<title> Torque in rotation </title>
+
+<para id="element-26">A rigid body in rotation about a fixed axis should continue to rotate with the given angular velocity indefinitely unless obstructed externally. The angular velocity of rotation is changed by external cause in the same manner as in translational motion. In the case of translation motion, the external cause is "force". We have to investigate what is the equivalent "cause" in the case of rotational motion?
+</para>
+<para id="element-27">Let us consider a rigid block placed over a smooth horizontal surface as shown in the figure, which is subjected to a force across one of its face. What is expected? The center of mass will move with linear acceleration following Newton's second law. However, the force is not passing through the center of mass. As such, the face of the block will also have turning tendency in the direction shown. 
+</para>
+<para id="element-28">
+<figure id="fig-28"><title> The motion of block </title>
+<media id="id16815275" alt=""><image src="../../media/r2-b8c8.gif" mime-type="image/gif"/></media>
+<caption> The block has turning tendency. 
+</caption>
+</figure>
+</para>
+<para id="element-29">Let us now imagine if the body is pierced through in the middle by a vertical bar with some clearance. The vertical bar will inhibit translation and the block will only rotate about the vertical bar. The question is what caused the block to turn around? Indeed it is the force that caused the angular motion. However,  it is not only the force that determined the outcome (magnitude and direction of angular velocity and acceleration). There are other considerations as well.
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Rotational motion  </title>
+<media id="id16815344" alt=""><image src="../../media/r3-962d.gif" mime-type="image/gif"/></media>
+<caption> The vertical bar inhibits translation and the block only rotates about the vertical bar. 
+.</caption>
+</figure>
+</para>
+
+<para id="element-31">We all have the experience of opening and closing a hinged door in our house. It takes lesser effort (force) to open the door, when force is applied farther from the hinge. We can further reduce the effort by applying force normal to the plane of the door. On the other hand, we would require greater effort (force), if we push or pull the door from a point closer to the hinge. If we apply force in the radial direction (in the plane of door) towards the hinge, then the door does not rotate a bit -  whatever be the magnitude of force. In the nutshell, rotation of the door depends on :
+</para>
+<para id="element-32">
+<list id="list-32" list-type="bulleted"><item> Magnitude of force  </item>
+<item> Point of application of force with respect to hinge (axis of rotation) </item>
+<item> Angle between force and perpendicular line from the axis of rotation  </item>
+</list>
+</para>
+<para id="element-33">These factors, which cause rotation, are captured by a quantity known as torque, which is defined as :
+</para>
+<para id="element-34">
+<equation id="equation-34"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-251">where "<term>r</term>" is the position vector. There is a slight difficulty in interpreting this vector equation as applicable to rotation. The position vector,"<term>r</term>", as we can recall, is measured from a point. Now, the question is what is that point in the case of rotation about a fixed axis? Here, we observe that there is a unique point of application of the force. By the nature of motion, this point rotates in a plane perpendicular to the axis of rotation. We can, therefore, uniquely define the position of the point of application of force by measuring it from the point on the axis in that plane of rotation. </para><para id="element-995"><figure id="fig-995"><title> Rotational motion  </title>
+<media id="id16811279" alt=""><image src="../../media/r10.gif" mime-type="image/gif"/></media>
+<caption> Rotation about z-axis. 
+.</caption>
+</figure></para><para id="element-600">The force may be directed in any possible direction. However, the body rotates about a fixed axis. It is not allowed to rotate or move about any other axes. What it means that we are limited only to the component of torque along the axis of rotation. It, then, means that we are only interested in components of force that lie in the plane of rotation, which is perpendicular to the axis of rotation. This we achieve  by ensuring to only consider the components of force which are perpendicular to the axis of rotation i.e. in the plane of rotation. In the figure below, we have tried to capture this aspect. We consider only the component of force in xy-plane while evaluating the vector torque equation given above. </para>
+<para id="element-602"><figure id="fig-602"><title> Rotational motion  </title>
+<media id="id16811358" alt=""><image src="../../media/r11.gif" mime-type="image/gif"/></media>
+<caption> Rotation about z-axis. 
+</caption>
+</figure></para><para id="element-247">In the nutshell, we interpret the vector product with two specific conditions : </para><para id="element-330"><list id="list-330" list-type="bulleted"><item> The position vector (<term>r</term>) is measured from a point on the axis, which is in the plane of rotation. </item>
+<item> The force vector (<term>F</term>) is component of force in the plane of rotation. </item>
+</list>
+  </para>
+<para id="element-247a">The rotation of the rigid body about an axis passing through the body itself is composition of very large numbers of circular motions by particles composing it. Each of the particles undergo circular motion about the axis in a plane which is perpendicular to it.
+</para>
+
+<section id="section-2a">
+<title> Magnitude of torque </title>
+<para id="element-149">With the understandings as deliberated above, let us determine the magnitude of torque. Here, let us consider that a force is applied at a point which is at a perpendicular distance "r" from the axis and in the plane of rotation. As far as application of force is concerned, it is a force applied at a point in the plane of rotation. In order to keep the context simplified, we have not drawn the rigid body assuming that the point of application rotates in a circle whose plane is perpendicular to the axis of rotation. Now, the magnitude of torque is given as : 
+</para>
+<para id="element-458"><figure id="fig-458"><title>Torque </title><media id="id16811517" alt=""><image src="../../media/r4a.gif" mime-type="image/gif"/></media>
+
+<caption>Torque depends on the enclosed angle. 
+</caption></figure>
+</para>
+<para id="element-37">
+<equation id="equation-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-102">where "r","F" and "θ" are quantities measured in the plane perpendicular to the axis of rotation. </para><para id="element-38">Equivalently, we can determine the magnitude of torque as :
+</para>
+<para id="element-39">
+<equation id="equation-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-40"> The magnitude of torque is equal to the product of the magnitude of position vector as drawn from the center of the circle and component of force perpendicular to the position vector.  This is an important interpretation as it highlights that it is the tangential or perpendicular component (perpendicular to radial direction) of force, which is capable to produce change in the rotation. The component of force in the radial direction (F cosθ) does not affect rotation. We can also rearrange the expression of magnitude as :
+</para>
+<para id="element-41">Also,
+</para>
+<para id="element-42">
+<equation id="equation-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-43">The magnitude is equal to the product of the perpendicular distance and magnitude of the force. Perpendicular distance is obtained by drawing a perpendicular on the extended line of application of force as shown in the figure below. We may note here that this line is perpendicular to both the axis of rotation and force. This perpendicular distance is also known as "moment arm" of the force and is denoted as "
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:math>
+".
+ </para>
+<para id="element-44">
+<figure id="fig-44"><title>Torque </title><media id="id16804920" alt=""><image src="../../media/r5a.gif" mime-type="image/gif"/></media>
+
+<caption>The magnitude is equal to the product of moment arm and magnitude of the force.
+</caption></figure>
+</para>
+
+
+</section>
+<section id="section-2b">
+<title> Direction of torque </title>
+<para id="element-45a">The nature of cross (or vector) product of two vectors, conveys a great deal about the direction of cross product i.e. torque where both position and force vectors are in the plane of rotation. It tells us that (i) torque vector is perpendicular to the plane formed by operand vectors i.e. "<term>r</term>" and "<term>F</term>" and (ii) torque vector is individually perpendicular to each of the operand vectors. Applying this explanation to the case in hand, we realize here that torque is perpendicular to the plane formed by radius and force vectors i.e z-axis. However, we do not know which side of the plane i.e +z or -z direction, the torque is directed.
+</para>
+<para id="element-45b">
+<figure id="fig-45b"><title>Direction of torque </title><media id="id16805048" alt=""><image src="../../media/r6a.gif" mime-type="image/gif"/></media>
+
+<caption>Direction of torque is perpendicular to the plane of rotation.
+</caption></figure>
+</para>
+
+<para id="element-45c">We apply right hand rule to determine the remaining piece of information, regarding direction of torque. We have two options here. Either we can shift radius vector such that tails of two vectors meet at the position of particle or we can shift the force vector (parallel shifting) so that tails of two vectors meet at the axis. Second approach has the advantage that direction of torque vector along the axis also gives the sense of rotation about that axis. Thus, following the second approach, we shift the force vector to the origin, while keeping the magnitude and direction same as shown here.
+</para>
+
+<para id="element-45d">
+<figure id="fig-45d"><title> Direction of torque </title>
+<media id="id16805118" alt=""><image src="../../media/r8a.gif" mime-type="image/gif"/></media>
+<caption> Force vector is shifted to origin in order to apply right hand rule.
+.</caption>
+</figure>
+</para>
+
+<para id="element-45e">Now, the direction of rotation is obtained by applying rule of vector cross product. We place right hand with closed fingers such that the curl of fingers point in the direction as we transverse from the direction of position vector (first vector) to the force vector (second vector). Then, the direction of extended thumb points in the direction of torque. Alternatively, we see that a counter clock-wise torque is positive, whereas clock-wise torque is negative. In this case, torque is counter-clockwise and is positive. Therefore, we conclude that torque is acting in +z-direction.</para>
+
+<para id="element-46">Pure rotation about a fixed axis gives us an incredible advantage in determining torque. We work with only two directions (positive and negative). In the case of torque about a point, however, we consider other directions of torque as well. It is also noteworthy to see that torque follows the superposition principle. Mathematically, we can add torque vectors algebraically as there are only two possible directions to obtain net or resultant torque. In words, it means that if a rigid body is subjected to more than one torque, then we can represent the torques by a single torque, which has the same effect on rotation.
+</para>
+<para id="element-47">
+Torque has the unit of Newton - meter. 
+</para>
+</section>  
+</section>
+
+<section id="section-6">
+<title> Rotational torque .vs. torque about a point</title>
+<para id="element-101"> We have seen that rotational torque is calculated with the component of force which lies in the plane of rotation. This is required as the rigid body is free to move only about the fixed axis perpendicular to the plane of rotation. Accordingly, we evaluate vector expression of torque by measuring position vector from center of circle and using component of force in the plane of rotation. However, if we evaluate the vector expression of torque <term>r</term> X <term>F</term> with respect to the origin of reference lying on the axis of rotation as is the general case of torque about a point, then we get torque which needs not be along the axial direction.   
+</para>
+<para id="element-102a"> Clearly, rotational torque is a subset of torque defined for a point on the axis of rotation. This fact gives an alternate technique to determine rotational torque. We can approach the problem of determining rotational torque as described in the module, wherein we first resolve the given force in the plane of rotation containing the point of application. Then, we find the moment arm or perpendicular force component and determine the rotational torque as already explained. Alternatively, we can determine the torque about a point on the axis using vector expression of torque and then consider only the component of torque in the direction of axis of rotation. </para>
+<para id="element-102b">In order to fully understand the two techniques, we shall work out an example here to illustrate the two approaches discussed here.
+
+</para>
+<para id="element-103">
+Let us consider a force <term>F</term> = (2<term>i</term> + 2<term>j</term> – 3<term>k</term>) Newton which acts on a rigid body at a point <term>r</term> = (<term>i</term> + <term>j</term> – <term>k</term>) meters as measured from the origin of reference. In order to determine the rotational torque say about x-axis as the axis of rotation, we first proceed by considering only the force in the plane of rotation. The figure below shows the components of force and their perpendicular distances from three axes.   
+</para>
+
+<para id="element-104"> We find the position of application of force by first identifying A (1,1) in xy-plane, then we find the position of the particle, B(1,1,-1) by moving “-1” in negative z-direction as in the figure below. 
+</para>
+<para id="element-105">
+<figure id="fig-105">
+<title> Torque on the particle </title>
+<media id="id18751978" alt=""><image src="../../media/tpq1.gif" mime-type="image/gif"/></media>
+<caption> The position of particle along with components of force  </caption>
+</figure>
+</para>
+<para id="element-106"> Since the rigid body rotates about x-axis, the plane of rotation is yz plane. We, therefore, do not consider the component of force in x-direction. The components of force relevant here are (i) the component of force in y-direction Fy = 2 N at a perpendicular distance z = 1 m from axis of rotation and (ii) the component of force in z-direction Fz = 3 N at a perpendicular distance y = 1 m. For determining torque about x-axis, we multiply perpendicular distance with force. We apply appropriate sign, depending on the sense of rotation about the axis. The torque about x-axis due to component of force in y - direction is anticlockwise and hence is positive :
+</para>
+<para id="element-107">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> 1 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> z </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-108"> The torque about x-axis due to the component of force in z - direction is clockwise and hence is negative :
+</para>
+<para id="element-109">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> 2 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-110">Since both torques are acting along same axis i.e. x-axis, we can obtain net torque about x-axis by algebraic sum :
+</para>
+<para id="element-111">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> 1 </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> 2 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-112">
+The net rotational torque is negative and hence clockwise in direction. The magnitude of net torque about x-axis is :
+</para>
+<para id="element-113">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-114">
+Now, we proceed to calculate torque about the origin of reference which lies on the axis of rotation. The torque about the origin of coordinate system is given by :
+</para>
+<para id="element-115">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-116">
+<code id="id6270946" display="block">
+<term>τ</term> =   | <term>i</term>	<term>j</term>	 <term>k</term> |
+      | 1	1	-1 |
+      | 2	2	-3 |
+</code>
+</para>
+<para id="element-117">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo>
+<m:mo> -  </m:mo>  
+<m:mn> 3 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> -  </m:mo>
+<m:mo> ( </m:mo>  
+<m:mn> 2 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> } </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> +  </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-118">The particle, here, moves about the axis of rotation in x-direction. In this case, the particle is restrained not to rotate about any other axis. Thus, torque in rotation about x-axis is equal to the x- component of torque about the origin. Now, the vector x-component of torque is :
+</para>
+<para id="element-119">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-120">
+The net rotational torque is negative and hence clockwise in direction. The magnitude of torque about x-axis for rotation is :
+</para>
+<para id="element-121">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+
+
+</section>
+
+
+
+
+<section id="section-5">
+<title> Nature of motion </title>
+<para id="element-1">Nature displays varieties of motion. Most of the time, we encounter motion, which is composed of different basic forms of motion. The most important challenge in the study of motion is to establish a clear understanding of the components (types) of motion that ultimately manifest in the world around us. Translational motion is the basic form. It represents the basic or inherent property of natural objects. A particle moving in straight line keeps moving unless acted upon by external force. However, what we see around is not what is fundamental to the matter (straight line motion), but something which is grossly modified by the presence of force. This is the reason planets move around the Sun; electrons orbit about nucleus and aero-planes circle the Earth on inter-continental flight. 
+</para>
+<para id="element-2">Variety of motion is one important aspect of the study of motion. Another important aspect is the restrictive paradigm of fundamental laws that needs to be expanded to real time bodies and motions. For example, Newton's laws of motion as postulated are restricted to particle or particle like bodies. It is required to be adapted to system of particles and rigid body systems with the help of concepts like center of mass. In real time, motions may be composed of even higher degree of complexities. We can think of motions which involve rotation while translating. Now, the big question is whether Newtonian dynamics is capable to describe such composite motions? The answer is yes. But, it needs further development that addresses issues like rotational dynamics of particles and rigid bodies. We shall consider this aspect of rotational motion in the next module titled <link document="m14278" version="" target-id="">Rotation of rigid body</link>.
+</para>
+</section>
+<section id="section-4">
+<title> Summary </title>
+<para id="element-81">
+<term>1.</term> The particles in a rigid body are locked and are placed at fixed linear distances from others.
+</para>
+<para id="element-82">
+<term>2.</term> Each particle constituting a rigid body executes circular motion about a fixed axis in pure rotation.
+</para>
+<para id="element-83">
+<term>3.</term> The cause of change in angular velocity in rotation is torque. It is defined as :
+</para>
+<para id="element-84"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-429">where position vector,"<term>r</term>", and the force vector," (<term>F</term>)" are in the plane of rotation of the point of application of force, which is perpendicular to the axis of rotation.</para><para id="element-85">
+<term>4.</term> The magnitude of torque 
+</para>
+<para id="element-86">
+The magnitude of torque is determined in three equivalent ways :
+</para>
+<para id="element-87">
+(i) In terms of angle between position vector (<term>r</term>) and force (<term>F</term>) 
+</para>
+<para id="element-88">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-89">
+(ii) In terms of tangential component of force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:math>
+ or 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:math>
+) 
+</para>
+<para id="element-90">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-91">
+(iii) In terms of moment arm (
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:math>
+) 
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-93">
+<term>4. </term>Direction of torque
+</para>
+<para id="element-94">
+The vector equation of torque reveals that torque is perpendicular to the plane formed by position and force vectors and is also perpendicular to each of them individually. In order to know the sign of torque, we apply right hand rule (positive for anticlockwise and negative for clockwise rotation).
+</para>
+
+</section>
+
+  </content>
+  
+</document>

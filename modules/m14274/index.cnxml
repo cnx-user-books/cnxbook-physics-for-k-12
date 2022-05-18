@@ -1,0 +1,1800 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Laws governing collision</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c5a1282b-552e-41ed-a6a9-5211d12955e6</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Collision, as we know, is an event of very short time interval. It is imperative that we look for some mechanism that enables us to predict the result subsequent to collision without knowing what happens during collision. Fortunately, there are simple underlying principles that govern collision process. In this module, we shall discuss governing laws for different situation pertaining to collision.
+</para>
+
+<section id="section-1">
+<title> Conservation of linear momentum </title>
+
+
+
+<para id="element-2">
+Foremost among the laws governing collision is the conservation of linear momentum as there is no external force involved or the external force is small enough with respect to collision force and can be neglected without affecting the result in any appreciable manner.
+</para>
+<para id="element-3">
+For the system of colliding bodies, linear momentum of the system is same before and after collision :
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-6">
+For two colliding bodies, the above conservation law can be written as :
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Conservation of linear momentum </title>
+<media id="idp1234304" alt=""><image src="../../media/lg1.gif" mime-type="image/gif"/></media>
+<caption> The bodies collide to galnce off in different direction.</caption>
+</figure>
+</para>
+<para id="element-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-9">Suffix "1" and "2" refer to the two colliding bodies, whereas suffix "i" and "f"  refer to the "initial" and "final" states (before and after) of the collision respectively. It is important to visualize that two bodies will collide when their trajectory is such that the physical dimension of the bodies overlap. Further, one of the bodies approaches second body with greater speed (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:math>
+) for collision to occur. In the figure above, two bodies are shown to have parallel trajectories so that body "A" does not strike "B" head on, but glances to move in different directions after collision.
+</para>
+<para id="element-10">Generally, the body with greater velocity that collides with another body is conventionally termed as "projectile" and the body which is hit is termed as "target".
+</para>
+<para id="element-11">
+We must understand that the law of conservation of linear momentum is valid for a closed system, wherein there is no exchange of mass between the system and its surrounding. Also, we must note that above mathematical construct is a vector equation. This can be expressed in component form as :
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1ix </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2ix </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1fx </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2fx </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1iy </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2iy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1fy </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2fy </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1iz </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2iz </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1fz </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2fz </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">
+When bodies collide head-on, they move along a straight line. Such collision in one dimension can be handled with any of the component equations. For convenience, we can drop the component suffix and write the conservation law without suffix :
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Collision in one dimension </title>
+<media id="idp4396512" alt=""><image src="../../media/lg2.gif" mime-type="image/gif"/></media>
+<caption> Head on collision results motion in one diemsion.</caption>
+</figure>
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+As a reminder, we need to emphasize here that consideration of conservation of linear momentum is independent of following important aspects of collision :
+</para>
+<para id="element-18">
+<list id="list-2" list-type="bulleted">
+<item> Collision force or time of collision </item>
+<item> Nature of collision : elastic or inelastic </item>
+<item> Dimension of collision : one, two or three </item>
+</list>
+</para>
+
+<section id="section-1a">
+<title> Conservation of linear momentum in completely inelastic collision  </title>
+<para id="element-19">
+Completely inelastic collision is a special case of inelastic collision. In this case, the  colliding body is completely embedded into target after collision. The two colliding bodies thereafter move with same velocity. Let the common speed be V such that :
+</para>
+<para id="element-20">
+<figure id="fig-20"><title>  Completely inelastic collision  </title>
+<media id="idm8219552" alt=""><image src="../../media/lg3.gif" mime-type="image/gif"/></media>
+<caption> The colliding move with same velocity.</caption>
+</figure>
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> V </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+Putting this in to the equation of linear momentum, we have :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi mathvariant="bold"> V </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi mathvariant="bold"> V </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> V </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+If the collision is one dimensional also, then we can drop vector notation :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> V </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> V </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mi> V </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<example id="example-26">
+<para id="element-26"><term>Problem : </term> A ballistic pendulum comprising of wooden block of 10 kg is hit by a bullet of 10 gm in horizontal direction. The bullet quickly comes to rest as it is embedded into the wooden block. If the wooden block and embedded bullet moves with a speed of 1.414 m/s after collision, then find the speed of bullet.
+</para>
+<para id="element-27">
+<figure id="fig-27"><title>  Ballistic pendulum  </title>
+<media id="idm8215008" alt=""><image src="../../media/lg4.gif" mime-type="image/gif"/></media>
+<caption> The bullet and block undergo completely inelastic collision.</caption>
+</figure>
+</para>
+<para id="element-51"> <term>Solution : </term> The collision lasts for short period. During collision, the combined mass of the block and bullet is subjected to gravitational and tension forces, which balance each other. As such, the system of colliding bodies is subjected to zero external force. The governing principle, in this case, is conservation of linear momentum. Now, as the bullet sticks to the wooden block, the collision is completely inelastic. 
+</para>
+
+<para id="element-28">
+Let  m and M be the masses of bullet and block respectively. Let us also consider that bullet strikes the block with a velocity "v" and the block and embedded bullet together move with the velocity "V" after the collision. We assume that bullet hits the block head on and the combined mass of block and bullet moves in the horizontal direction just after the collision. Hence, applying conservation of linear momentum in one dimension, we have :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> V </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mi> V </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.01 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 10 </m:mn>
+</m:mrow>
+<m:mn> 0.01 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 1.414 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1415 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+</section>
+</section>  
+
+<section id="section-2">
+<title> Center of mass and collision </title>
+<para id="element-30">The fact that there is no external force during collision has important bearing on the motion of center of mass. The motion of the center of mass can not change in the absence of external force; internal forces appearing during the collision can not change the velocity of center of mass. As such, motion of the center of mass remains unaffected after collision. In other words, acceleration of center of mass is zero. Mathematically :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> com </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> constant </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> com </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+We can combine this fact with the conservation law to obtain the expression of center of mass. The linear momentum of the system of two colliding bodies in terms of center of mass is :
+</para>
+
+
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> com </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> com </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+This vector equation can be equivalently written into three scalar component equations. For one dimensional case, however, we drop the vector notation altogether as in the case of linear momentum :
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> com </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">It must be understood that these relations are general relation like that of linear momentum. Again as a reminder, we need to emphasize here that consideration of center of mass for collision is independent of following important aspects of collision :
+</para>
+<para id="element-38">
+<list id="list-38" list-type="bulleted">
+<item> Collision force or time of collision </item>
+<item> Nature of collision : elastic or inelastic </item>
+<item> Dimension of collision : one, two or three </item>
+</list>
+</para>
+<section id="section-2a">
+<title> Center of mass and completely inelastic collision </title>
+<para id="element-39">
+As in the case of conservation of linear momentum in one dimension, the completely inelastic collision provides the unique condition when,
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+ 
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> com </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> V </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> V </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> V </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+This result is expected also as two bodies is converted into one. The center of mass, therefore, has the same velocity as that of the combined (or stuck) mass.
+</para>
+
+</section>
+</section>
+
+<section id="section-3">
+<title> Kinetic energy and collision </title>
+
+<para id="element-43">
+Unlike linear momentum, kinetic energy is not conserved in all collisions. This depends on the type of collision i.e. whether the collision is elastic or inelastic. Here, we shall discuss these cases. 
+</para>
+<para id="element-44">
+<note id="idm328272">
+Like kinetic energy, the potential energy of the system before and after collision is not considered for analyzing collision. It is so because, we concentrate on the velocities just before and after the collision, which occurs in very short period. There may not be any change in the elevation of colliding bodies before and after collision. For this reason, we analyze collision even along an incline with out considering potential energy of the colliding bodies as far as immediate states "before" and "after" are concerned. 
+</note>
+</para>
+<section id="section-3a">
+<title> Kinetic energy in elastic collision </title>
+
+<para id="element-45">
+In elastic collision, the colliding bodies get deformed to different degree depending on the nature of material composing them. The kinetic energy of the system is temporarily transferred into elastic potential energy, which is regained subsequently. The nature of bodies, however, determine the time for which colliding bodies are in contact. Harder the bodies, smaller is the time of contact and vice-versa. The collision between two hard bodies is likely to produce elastic collision. As kinetic energy is regained at the end of collision, kinetic energy is conserved in elastic collision. Thus,
+</para>
+
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+For two colliding bodies, the above conservation law can be written as : 
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">It is important to realize that this relation for elastic collision is an additional relation, which can be used in conjunction with the relation for conservation of linear momentum. We must also note that kinetic energy is a scalar quantity unlike linear momentum. This has one important implication. Irrespective of the dimension of motion, there is no component form of relation for kinetic energy. In all case, there is only one relation of kinetic energy as given above (compare this with three component equation for conservation of momentum). 
+</para>
+</section>
+<section id="section-3b">
+<title> Kinetic energy in inelastic collision </title>
+<para id="element-50">
+In inelastic collision, kinetic energy of the system is not conserved. Some of the kinetic energy is irrevocably transferred to the other forms of energy like sound or heat energy. As a result, 
+</para>
+<para id="element-51a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">For two colliding bodies, the relation for kinetic energy can be written as : 
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> &gt; </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-54">It is evident that this relationship of inequality does not help to evaluate motion of bodies after collision as the same can not be used in conjunction with momentum equation. 
+</para>
+<para id="element-281">The loss of energy in the collision is estimated taking the difference of kinetic energy before and after the collision.</para><para id="element-55"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+If loss of kinetic energy (ΔK) can be determined experimentally, then it is possible to render inequality into an equality as :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> K </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">For two colliding bodies, the conservation of kinetic energy can be written as :
+</para>
+<para id="element-59"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> K </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">Now, we can use this equation in conjunction with the equations of linear momentum to determine the unknown attributes of collision. 
+</para>
+<example id="example-61">
+<para id="element-61"><term>Problem : </term> A block of mass "m" moving at speed "v" collides with a stationary block of mass "2m" head-on. If the lighter block comes to a stop immediately after the collision, then determine (i) whether the collision is elastic or inelastic and (ii) loss of kinetic energy to the surrounding, if any.
+</para>
+<para id="element-61a"> <term>Solution : </term>  It is a one dimensional collision. Applying conservation of linear momentum in one dimension,
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+Here, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> 2m </m:mi>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:math>
+. Let the heavier block moves with a velocity "V" after the collision. Then,
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> 2m </m:mi>
+<m:mo> x </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> x </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mi> 2mV </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> V </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+Now, kinetic energy of the system of two colliding bodies before collision is :
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+and the kinetic energy of the system of two colliding bodies after collision is :
+</para>
+<para id="element-68">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> V </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 8 </m:mn>
+</m:mfrac> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+Thus, 
+<m:math>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>
+. Hence, collision is inelastic. The loss of kinetic energy to the surrounding is :
+</para>
+<para id="element-70"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 8 </m:mn>
+</m:mfrac> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 8 </m:mn>
+</m:mfrac> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+<section id="section-3ba">
+<title> Kinetic energy in completely inelastic collision  </title>
+<para id="element-71">The completely inelastic collision is a subset of inelastic collision. It provides the unique condition when final kinetic energy pertains to the combined mass. Let us consider that collision takes place in one dimension and the common velocity of the embedded body is V. Then,
+</para>
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> V </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-73">
+Kinetic energy inequality is written as :
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> &gt; </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:msup>
+<m:mi> V </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<example id="example-75">
+<para id="element-75"><term>Problem : </term> A ballistic pendulum comprising of wooden block of 10 kg is hit by a bullet of 10 gm in horizontal direction. The bullet quickly comes to rest as it is embedded into the wooden block. If the wooden block rises by a height 10 cm as it swings up, then find the speed of the bullet.
+</para>
+<para id="element-76">
+<figure id="fig-76">
+<title>  Ballistic pendulum  </title>
+<media id="idp2939024" alt=""><image src="../../media/lg4.gif" mime-type="image/gif"/></media>
+<caption> The bullet and block undergo completely inelastic collision.</caption>
+</figure>
+</para>
+<para id="element-77"> <term>Solution : </term> We find the relation of velocities using conservation of linear momentum as discussed in the first example of this module.
+</para>
+<para id="element-77a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> V </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> V </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">
+The combined mass of the bullet and block rises to a vertical height "h" due to swing. In this process, the kinetic energy of the block with embedded bullet is converted into the change in potential energy of the system. Hence,
+</para>
+<para id="element-79">
+<figure id="fig-79">
+<title>  Ballistic pendulum  </title>
+<media id="idp5047232" alt=""><image src="../../media/lg5.gif" mime-type="image/gif"/></media>
+<caption> Kinetic energy is converted into gravitational potential energy as the bullet and block system rises as .</caption>
+</figure>
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo>
+<m:msup>
+<m:mi> V </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msup>
+<m:mi> V </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+Substituting for "V" from the first equation, 
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+Putting values, we have :
+</para>
+<para id="element-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.01 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 10 </m:mn>
+</m:mrow>
+<m:mn> 0.01 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 1415 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+</section>
+</section>
+
+  </content>
+  
+</document>

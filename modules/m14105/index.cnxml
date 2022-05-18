@@ -1,0 +1,960 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Potential energy</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e1e7b141-2896-4758-9f96-8801c97bbfe4</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">
+Potential energy refers to the energy arising from the arrangement of a system of objects (particles), which interact with each other. Here, interaction means that objects apply force on each other. A change in the arrangement brings about a change in the forces interacting on the objects and the associated potential energy.
+</para>
+<para id="element-2">
+It is not very difficult to understand how energy can be associated with the arrangement of objects within a system. It is an unsaid rule, but it is a fact that objects (matter) always exist under the influence of different forces and as such objects interact with each other. One or combination of forces is actually the reason that we have a system of objects together. When the arrangement of the objects changes in the arrangement, there is change in the potential energy of the system . We facilitate the study of change in arrangement by an unique design. Generally, we isolate the object whose motion is to be studied from the rest of system that applies force on the object. 
+</para>
+<para id="element-3">This definition of potential energy as quoted above is not definitive in the sense that the same can not be used for quantitative measurement. We shall formulate explicit mathematical expression in this module for potential energy for the general case. There are various forms of potential energy : gravitational, elastic, electromagnetic and such others potential energies. The meaning and definition of potential energy in the specific context is built upon this general definition. </para>
+<para id="element-466">Unlike kinetic energy, we do not refer or measure absolute value of potential energy. We generally work with the difference in potential energies between two states. Which of the configuration of particles can be considered to possess zero potential energy? One theoretical zero energy reference is the distribution of given particles at infinity. It is expected that no force operates on them and hence their potential energy is considered zero there. However, we can consider any other configuration as zero reference for our convenience. We consider, for example, ground level as zero potential reference in the case of gravitation. The main point is that measurement of change in potential energy does not change with the choice of reference.       </para><para id="element-4">
+From the discussion so far, we underline two characterizing aspects of potential energy :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="enumerated"><item> Potential energy is associated with a system of objects - not with a single object.  </item>
+<item> Generally, potential energy of a particle at infinity is considered zero. In practice, we can refer measurement of potential energy with respect to certain datum. </item>
+</list>
+</para>
+<para id="element-6">
+Importantly, the above two features of potential energy is different to kinetic energy, which has an absolute value and is referred to a single object.
+</para> 
+
+<section id="section-1">
+<title> Change in potential energy </title>
+
+
+<para id="element-7">
+In order to derive a general expression for change in potential energy, we refer to the vertical motion of a ball, projected upward. As the ball moves up, initial kinetic energy of the ball decreases by the amount of negative work done by the gravity. In the meantime, however, separation between Earth and ball also increases. Consequently, the potential energy of "Earth - ball" system increases by the same amount. In effect, gravity transfers energy "from" the kinetic energy of the ball "to" the potential energy of the "Earth - ball" system. 
+</para>
+<para id="element-7a">
+<figure id="fig-7a"><title> Ball thrown vertically </title>
+<media id="idp3941776" alt=""><image src="../../media/pe5.gif" mime-type="image/gif"/></media>
+<caption> Gravity transfers energy between object and system.</caption>
+</figure>
+</para>
+<para id="element-8">
+In the reverse motion i.e. when ball starts moving downward, gravity transfers energy "from" potential energy of the "Earth - ball" system "to" the kinetic energy of the ball. The transfer of energy in "up" and "down" motion is same in quantity. This means that exchange of energy between "ball" and "Earth - ball" system is replicated in reverse motion. 
+</para>
+<para id="element-9">A positive work on the object means that energy is being transferred from the system to the object. Consequently, the potential energy of the system decrease. As such, final potential energy of the system is lesser than initial potential energy. On the other hand, a negative work on the object means that energy is being transferred from the object to the system. Consequently, the potential energy of the system increases. As such, final potential energy of the system is greater than initial potential energy. 
+
+</para>
+<para id="element-648">Between any two instants, the change in potential energy of the "Earth - ball" system is negative of the work done by the gravity on the "ball".</para><para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> W </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-882">The result so obtained for gravitational force can be extended to any conservative force. The change in potential energy of a system, therefore, is defined "as the negative of the work done by conservative force". Note the wordings here. We have defined potential energy of a system - not to an individual entity. In practice, however, we refer potential energy to a particle with an implicit understanding that we mean a system - not an individual entity. </para><para id="element-12">
+We must note following important aspects of potential energy as defined above :
+</para>
+<para id="element-14"><term>1:</term> We have derived this expression in the context of gravitational force, but is applicable to a class of forces (called conservative forces), which transfer energy in above manner. It is important to understand that there are non-conservative forces, which transfer energy to the system in other energy forms like heat etc. - not in the form of potential energy.
+</para>
+<para id="element-15"><term>2:</term> This is the expression for change in potential energy, which assumes different forms in different contexts (for different conservative forces).
+</para>
+<para id="element-16">
+<term>3:</term>  We should realize that we deal here with the "change" in potential energy - not with "unique" value of potential energy corresponding to a specific configuration. This can be handled with the help of a known reference potential energy. The measurement of potential energy with respect to a chosen reference value enables us to assign a unique value to potential energy corresponding to a specific system configuration. We shall further elaborate this aspect while discussing specific potential energies.
+</para>
+<para id="element-17"><term>4:</term> The change in potential energy differs to kinetic energy in one aspect that it can assume negative value as well. We must remember that kinetic energy is always positive. A positive change in potential energy means that final potential energy is greater than initial potential energy. On the other hand, a negative value of change in potential energy means that final potential energy is lesser than initial potential energy. 
+</para>
+
+
+<para id="element-306"><term>5:</term>  Potential energy is defined only in the context of conservative force. For the sake of clarity, we should also realize that the conservative force doing work is internal to the system, whose potential energy is determined. We can rewrite the defining relation of potential energy that work refers to work by conservative as :   </para><para id="element-611"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><section id="section-1a">
+<title> Change in potential energy for constant and variable forces </title>
+
+<para id="element-19">The relationship as given above forms the basic relation that is used to develop specific relations for different force systems. For constant conservative force, work is defined as :
+</para>
+<para id="element-20"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+Substituting in the equation, the change in potential energy involving constant force is :
+</para>
+<para id="element-22"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">For variable force having displacement in the same direction, the work is obtained as :
+</para>
+<para id="element-24"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-682">The change in potential energy is equal to the integral evaluated over two appropriate limits corresponding to displacement :</para><para id="element-25"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+In mechanical context, we deal with gravitational and elastic potential energies. Elastic potential energy involves any configuration, which can be deformed elastically like spring. In this module, we will drive specific expressions of potential energy for these two systems.
+</para>
+</section>  
+</section> 
+
+<section id="section-2">
+<title> Gravitational potential energy </title>
+<para id="element-27">We shall evaluate expression for potential energy for the vertical motion of a ball, which is thrown up with a certain speed. The gravity "-mg" works against the motion. Importantly, gravity is a constant force and as such we can use the corresponding form for the change in potential energy. For a displacement from a height 
+<m:math>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ to 
+<m:math>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+, the change in potential energy for the "Earth - object" system is :
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Ball thrown vertically </title>
+<media id="idm9604368" alt=""><image src="../../media/pe1.gif" mime-type="image/gif"/></media>
+<caption> Gravity transfers energy between object and system.</caption>
+</figure>
+</para>
+<para id="element-29">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 0 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+The change in potential energy is, thus, directly proportional to the vertical displacement. It is clear that potential energy of "Earth - ball" system increases with the separation between the elements of the system . Evaluation of change in gravitational potential energy requires evaluation of change in displacement. 
+</para>
+<para id="element-31">
+Motion of an object on Earth involves "Earth - object" as the system. Thus, we may drop reference to the system and may assign potential energy to the object itself as the one element of the system i.e. Earth is common to all systems that we deal with on Earth. This is how we say that an object (not system) placed on a table has potential energy of 10 J. We must, however, be aware of the actual context, when referring potential energy to an object.
+</para>
+<para id="element-32">We should also understand here that we have obtained this relation of potential energy for the case of vertical motion. What would be the potential energy if the motion is not vertical - like for motion on a smooth incline? The  basic form of expression for the potential energy is :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+Here, we realize that the right hand expression yields to zero for θ = 90°. Now, any linear displacement, which is not vertical, can be treated as having a vertical and horizontal component. The enclosed angle between gravity, which is always directed vertically downward, and the horizontal component of displacement is 90°. As such, the expression of change in potential energy evaluates to zero for horizontal component of displacement. In other words, gravitational potential energy is independent of horizontal component of displacement and only depends on vertical component of displacement. 
+</para>
+<para id="element-35">
+This is an important result as it renders the calculation of gravitational potential lot easier and independent of actual path of motion. The change in gravitational potential energy is directly proportional to the change in vertical altitude. As a matter of fact, this result follows from the fact that the work done by the gravitational force is directly proportional to the change in vertical displacement.
+</para>
+<section id="section-2a">
+<title> Reference potential energy </title>
+
+<para id="element-35a">
+In order to assign unique value of potential energy for a specific configuration, we require to identify reference gravitational potential energy, which has predefined value - preferably zero value. Let us consider the expression of change in potential energy again,
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-37">
+The important aspect of this relation is that change in displacement is not dependent on the coordinate system. Whatever be the reference, the difference in displacement <m:math>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:math>
+ remains same. Thus, we are at liberty as far as choosing a gravitational potential reference (and preferably assign zero value to it). Let us consider here the motion of ball which rises from 
+<m:math>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:math>
+ to 
+<m:math>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:math>
+with reference to ground. Here,
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Ball thrown vertically </title>
+<media id="idm9170112" alt=""><image src="../../media/pe2.gif" mime-type="image/gif"/></media>
+<caption> Change in potential energy is independent of choice of reference.</caption>
+</figure>
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 5</m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 2</m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-40">
+Let us, now consider if we measure displacement from a reference, which is 10 m above the ground. Then,
+</para>
+<para id="element-41"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 2</m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 5</m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+and
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> { </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 5</m:mn>
+<m:mo> - </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 8 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> } </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+If we choose ground as zero gravitational potential, then
+</para>
+<para id="element-45"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> U </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> h </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (say) </m:mi>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> U </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> U </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Gravitational potential energy of an object (i.e. "Earth - ball" system) at a vertical height "h" is :
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> U </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> U </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2</m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-48">
+We must be aware that choice of reference does not affect the change in potential energy, but changes the value of potential energy corresponding to a particular configuration. For example, potential energy of the object at ground in ground reference is :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> U </m:mi>
+<m:mi> g </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> x </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+The potential energy of the object at ground in reference 10 m above the ground is :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> U' </m:mi>
+<m:mi> g </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-52">
+Thus, we must be consistent with the choice of  reference potential, when analyzing a situation.
+</para>
+</section> 
+</section> 
+
+<section id="section-3">
+<title> Spring potential energy </title>
+<para id="element-53">
+Spring force transfers energy like gravitational force through the system of potential energy. In this sense, spring force is also a conservative force. When we stretch or compress a spring, the coils of the spring are accordingly extended or compressed, reflecting a change in the arrangement of the elements within the spring and the block attached to it. The spring and the block attached to the spring together form the system here as we consider that there is no friction involved between block and the surface. The relative change in the spatial arrangement of this system indicates a change in the potential energy of the system. 
+</para>
+<para id="element-54">
+<figure id="fig-54">
+<title> Spring block system </title>
+<media id="idp3044896" alt=""><image src="../../media/pe4.gif" mime-type="image/gif"/></media>
+<caption> Energy is exchanged between block and "spring - block" system </caption>
+</figure>
+</para>
+<para id="element-55">When we give a jerk to the block right ways, the spring is stretched. The coils of the spring tend to restore the un-stretched condition. In the process of this restoration effort on the part of the spring elements, spring force is applied on the block. This force tries to pull back the spring to the origin or the position corresponding to relaxed condition. The spring force is a variable force. Therefore, we use the corresponding expression of potential energy :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">Integrating between two positions from the origin of the spring,
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> Spring block system </title>
+<media id="idp3493376" alt=""><image src="../../media/pe3.gif" mime-type="image/gif"/></media>
+<caption> Energy is exchanged between block and "spring - block" system </caption>
+</figure>
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:msubsup>
+<m:mo> ∫ </m:mo> 
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:msubsup>
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> k </m:mi>
+<m:mo> [ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:msubsup>
+<m:mo> ] </m:mo> 
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+Considering zero potential reference at the origin, 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> U </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (say) </m:mi>
+<m:mo> , </m:mo>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> U </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> U </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (say) </m:mi>
+<m:mo> , </m:mo>
+</m:math>
+ we have :
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+The important aspect of this relation is that potential energy of the block (i.e. "spring - block" system) is positive for both extended and compressed position as it involves squared terms of "x". Also, note that this relation is similar like that of work except that negative sign is dropped.
+</para>
+</section> 
+
+  </content>
+  
+</document>

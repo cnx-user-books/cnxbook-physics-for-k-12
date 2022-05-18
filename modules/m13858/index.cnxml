@@ -1,0 +1,1022 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Projectile motion (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>48e14da0-ba46-4a5e-9769-5b9541bb1637</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions </title>
+<para id="element-3">We discuss problems, which highlight certain aspects of the study leading to the projectile motion. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> Direction of motion on return 
+</item>
+<item> Maximum height
+</item>
+<item> Equation of projectile motion
+</item>
+<item> Change in angles during motion
+</item>
+<item> Kinetic energy of a projectile
+</item>
+<item> Change in the direction of velocity vector
+</item>
+</list>
+</para>
+</section> 
+
+<section id="section-3">
+<title> Direction of motion on return  </title>
+<example id="example-69">
+<para id="element-69"><term>Problem : </term> A projectile is thrown with a speed of 15 m/s making an angle 60° with horizontal. Find the acute angle, "α", that it makes with the vertical at the time of its return on the ground (consider g = 10 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-71"><term>Solution : </term> The vertical component of velocity of the projectile at the return on the ground is equal in magnitude, but opposite in direction. On the other hand, horizontal component of velocity remains unaltered. The figure, here, shows the acute angle that the velocity vector makes with vertical. 
+</para>
+
+<para id="element-72">
+<figure id="fig-72">
+<title>  Projectile motion </title>
+<media id="idp6896144" alt=""><image src="../../media/pmq1.gif" mime-type="image/gif"/></media>
+</figure> </para>
+<para id="element-73">The trajectory is symmetric about the vertical line passing through point of maximum height. From the figure, the acute angle with vertical is :
+</para>
+<para id="element-74"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 90 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 90 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+</section> 
+
+
+<section id="section-4">
+<title> Maximum height </title>
+<example id="example-30">
+<para id="element-30"><term>Problem : </term> Motion of a projectile is described in a coordinate system, where horizontal and vertical directions of the projectile correspond to x and y axes. The velocity of the projectile is 12<term>i</term> + 20<term>j</term> m/s at an elevation of 15 m from the point of projection. Find the maximum height attained by the projectile (consider g = 10 
+<m:math>
+<m:mspace width="2pt"/> 
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-32"> <term>Solution : </term> Here, the vertical component of the velocity (20 m/s) is positive. It means that it is directed in positive y-direction and that the projectile is still ascending to reach the maximum height. The time to reach the maximum height is obtained using equation of motion in vertical direction :
+</para>
+<para id="element-32a"> 
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi>v</m:mi>
+        <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+        <m:mi>u</m:mi>
+        <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-32b"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+<m:mn> 0 </m:mn>
+    <m:mo>=</m:mo>
+<m:mn> 20 </m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>10</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+<m:mn> 2 </m:mn>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-33">
+Now, the particle shall rise to a vertical displacement given by :
+</para>
+<para id="element-34"><m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:msup>
+						<m:mi> y </m:mi>
+						<m:mi> ‘ </m:mi>
+					</m:msup>
+					<m:mo> = </m:mo>
+    <m:msub>
+        <m:mi>u</m:mi>
+        <m:mi>y</m:mi>
+    </m:msub>
+					<m:mi> t </m:mi>
+					<m:mo> - </m:mo>
+					<m:mfrac>
+						<m:mn> 1 </m:mn>
+						<m:mn> 2 </m:mn>
+					</m:mfrac>
+					<m:mi> g </m:mi>
+					<m:msup>
+						<m:mi> t </m:mi>
+						<m:mn> 2 </m:mn>
+					</m:msup>
+					<m:mo> = </m:mo>
+					<m:mn> 20 </m:mn>
+					<m:mo> x </m:mo>
+					<m:mn> 2 </m:mn>
+					<m:mo> - </m:mo>
+					<m:mn> 5 </m:mn>
+					<m:mo> x </m:mo>
+					<m:msup>
+						<m:mn> 2 </m:mn>
+						<m:mn> 2 </m:mn>
+					</m:msup>
+					<m:mo> = </m:mo>
+					<m:mn> 20 </m:mn>
+					<m:mspace width="2pt"/>
+					<m:mi> m </m:mi>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+<para id="element-35">The maximum height, as measured from the ground, is :
+</para>
+<para id="element-36"><m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:mi> H </m:mi>
+					<m:mo> = </m:mo>
+					<m:mn> 15 </m:mn>
+					<m:mo> + </m:mo>
+					<m:mn> 20 </m:mn>
+					<m:mo> = </m:mo>
+					<m:mo> 35 </m:mo>
+					<m:mspace width="2pt"/>
+					<m:mi> m </m:mi>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+</example>
+</section> 
+
+<section id="section-6">
+<title> Equation of projectile motion </title>
+<example id="example-86a">
+<para id="element-86a"><term>Problem : </term> The equation of a projectile is given as :
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+Then, find the speed of the projection.
+</para>
+<para id="element-89"><term>Solution : </term> The general equation of projectile is :
+</para>
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92">
+On the other hand, the given equation is :
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-94">
+Comparing two equations, we have :
+</para>
+<para id="element-95">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-96">
+Also,
+</para>
+<para id="element-97">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+    <m:mo>⇒</m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+    <m:mo>⇒</m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mn> 60 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> 4 </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+    <m:mo>⇒</m:mo>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example> 
+
+
+</section> 
+
+<section id="section-7">
+<title> Change in angles during motion  </title>
+<example id="example-39">
+<para id="element-39"><term>Problem : </term> A projectile is projected at an angle 60° from the horizontal with a speed of (
+<m:math>
+<m:msqrt><m:mn> 3 </m:mn></m:msqrt><m:mo> + </m:mo><m:mn> 1 </m:mn></m:math>
+) m/s.  The time (in seconds) after which the inclination of the projectile with horizontal becomes 45° is :
+</para>
+<para id="element-41"><term>Solution : </term> Let "u" and "v" be the speed at the two specified angles. The initial components of velocities in horizontal and vertical directions are :
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+<figure id="fig-43">
+<title> Projectile motion </title>
+<media id="idm2553296" alt=""><image src="../../media/pmq2.gif" mime-type="image/gif"/></media>
+</figure></para>
+<para id="element-44">
+Similarly, the components of velocities, when projectile makes an angle 45 with horizontal,  in horizontal and vertical directions are :
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+But, we know that horizontal component of velocity remains unaltered during motion. Hence,
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+Here, we know initial and final velocities in vertical direction. We can apply v = u +at in vertical direction to know the time as required :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49a">
+Substituting value of "v" in the equation, we have :
+</para>
+<para id="element-49b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> X </m:mo>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> { </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msqrt>
+<m:mn> 3 </m:mn>
+</m:msqrt>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 20 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example> 
+</section> 
+
+<section id="section-8">
+<title> Kinetic energy of a projectile  </title>
+<example id="example-52">
+<para id="element-52"><term>Problem : </term> A projectile is thrown with an angle θ from the horizontal with a kinetic energy of K Joule. Find the kinetic energy of the projectile (in Joule), when it reaches maximum height.
+</para>
+<para id="element-54"><term>Solution : </term> At the time of projection, the kinetic energy is given by :
+</para>
+<para id="element-55"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">At the maximum height, vertical component of the velocity is zero. On the other hand, horizontal component of the velocity of the particle does not change. Thus, the speed of the particle, at the maximum height, is equal to the magnitude of the horizontal component of velocity. Hence, speed of the projectile at maximum height is :
+</para>
+<para id="element-59"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">The kinetic energy at the maximum height, therefore, is :
+</para>
+<para id="element-61"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> K </m:mi>
+<m:mi> ‘ </m:mi>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61a">
+Substituting value of "u" from the expression of initial kinetic energy is :
+</para>
+<para id="element-61b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> K </m:mi>
+<m:mi> ‘ </m:mi>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mi> K </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>	
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> K </m:mi>
+<m:mi> ‘ </m:mi>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> K </m:mi>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>	
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example> 
+</section> 
+<section id="section-9">
+<title> Change in the direction of velocity vector </title>
+<example id="example-77">
+<para id="element-77"><term>Problem : </term> A projectile with a speed of “u” is thrown at an angle of “θ” with the horizontal. Find the speed (in m/s) of the projectile, when it is perpendicular to the direction of projection.
+</para>
+<para id="element-79"> <term>Solution : </term> We need to visualize the direction of the projectile, when its direction is perpendicular to the direction of projection. Further, we may look to determine the direction of velocity in that situation.
+</para>
+<para id="element-81">The figure, here, shows the direction of velocity for the condition, when the direction of projectile is perpendicular to the direction of projection. From ΔOAB, 
+</para>
+<para id="element-82">
+<figure id="fig-82"><title>  Projectile motion </title>
+<media id="idp5700960" alt=""><image src="../../media/pmq3.gif" mime-type="image/gif"/></media>
+</figure> </para>
+<para id="element-82a"><m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:mi> ∠OBA </m:mi>
+					<m:mo> = </m:mo>
+					<m:msup>
+						<m:mn> 180 </m:mn>
+						<m:mn> 0 </m:mn>
+					</m:msup>
+					<m:mo> - </m:mo>
+					<m:mo> ( </m:mo>
+					<m:msup>
+						<m:mn> 90 </m:mn>
+						<m:mn> 0 </m:mn>
+					</m:msup>
+					<m:mo> + </m:mo>
+					<m:mi> θ </m:mi>
+					<m:mo> ) </m:mo>
+					<m:mo> = </m:mo>
+					<m:msup>
+						<m:mn> 90 </m:mn>
+						<m:mn> 0 </m:mn>
+					</m:msup>
+					<m:mo> - </m:mo>
+					<m:mi> θ </m:mi>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+<para id="element-83">Thus, the acute angle between projectile and horizontal direction is 90- θ for the given condition. Now, in order to determine the speed, we use the fact that horizontal component of velocity does not change. 
+</para>
+<para id="element-84"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 90 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example> 
+</section>
+
+  </content>
+  
+</document>

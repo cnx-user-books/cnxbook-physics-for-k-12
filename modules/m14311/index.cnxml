@@ -1,0 +1,840 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rolling motion</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14311</md:content-id>
+  <md:title>Rolling motion</md:title>
+  <md:abstract>Rolling motion is a composite motion, in which the body rotates about a moving axis as it translates from one position to another.</md:abstract>
+  <md:uuid>59013677-b634-4413-a805-4d0e6a48ceff</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Rolling motion is a composite motion, in which a body undergoes both translational and rotational motion. The wheel of a car, for example, rotates about a moving axis and at the same time translates a net distance. Rolling motion being superposition of two types of motion, presents a different context of motion, which needs visualization from different perspectives.  Importantly, different parts of the wheel are moving with different velocities, depending on their relative positions with respect to the center of mass or the point of contact with the surface.
+</para>
+<para id="element-887">In this module, we shall examine rolling motion of a circular disc along a straight line. This study shall be valid for all other circular or spherical bodies capable of rolling such as sphere, cylinder, ring etc.</para><section id="section-1">
+<title>Characterizing features of rolling motion
+</title>
+<para id="element-3">In order to bring out characterizing aspects of rolling motion, we consider a disk, which is rolling without sliding (simply referred as rolling) smoothly on a horizontal surface such that its center of mass translates with a velocity "<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>" in x-direction. 
+</para>
+<section id="section-1a">
+<title>Rolling without sliding
+</title>
+<para id="element-4">“Rolling without sliding” means that the point on the rim in contact with the surface changes continuously as the disk rotates while translating ahead. If point "A" is in contact at a given time "t", then another neighboring point "B" takes up the position immediately after, say, at a time instant, t+dt. In case the disk slides while translating, the point of contact remains same at the two time instants. The two cases are illustrated in the figure here.
+</para>
+
+<para id="element-5">
+<figure id="fig-5">
+<title> Rolling without sliding </title>
+<media id="id1163875304587" alt=""><image src="../../media/rm1-cddf.gif" mime-type="image/gif"/></media>
+<caption> Comparison between "rolling without sliding" and "siliding without rolling".</caption>
+</figure>
+</para>
+<para id="element-4a">The terms “Rolling without sliding”, "pure rolling" or simply "rolling" refer to same composite motion along a straight line. 
+</para>
+</section>
+
+<section id="section-1c">
+<title> Description of rolling in moving frame
+</title>
+<para id="element-11">When rolling motion is seen from a frame of reference attached to the center of rolling disk i.e. a frame of reference which is moving with a velocity, "<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>", the particles constituting the disk undergo rotation with an angular velocity,ω, without translation. The axis of rotation is fixed in the moving frame of reference. As such, rolling is a pure rotation in the moving frame of reference attached to the center of disk. 
+</para>
+ 
+<para id="element-14">In this frame of reference (attached to the rolling disk), a particle on the rim of the disk rotates through the same distance in a given time as distance covered by the moving frame of reference in x-direction. If the particle in contact with the surface describes an angle 2π in rolling motion, then both the particle and axis of rotation (also center of mass) travels a distance 2πr. However, they describe different paths. The particle on the rim travels an arc as seen from the moving reference, whereas the center of mass or attached frame of reference travels along a straight line as seen from the ground. 
+</para>
+
+<para id="element-14a"> In general, if the moving frame of reference travels a distance "x" in time "t", then the particle at the contact point also rotates through the same distance along the arc of the perimeter of rolling object. This is true for a particle on any position on the rim of the disk. The figure here captures the two situations corresponding to start and end of the observations. From the geometry shown in the figure,
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Rolling motion </title>
+<media id="id1163875304044" alt=""><image src="../../media/rm4-88b0.gif" mime-type="image/gif"/></media>
+<caption> Rolling is a pure rotation in the moving frame of reference. </caption>
+</figure>
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> θ </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+where "θ" is the angle subtended by the arc and "R" is the radius of the disk. Now differentiating the above relation with respect to time, we have :
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">where "v" is the velocity of moving frame of reference (velocity of the observer) and "ω" is the angular velocity of the rotating disk. However, we have assumed that frame of reference is moving with a velocity equal to that of center of mass, "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+". Hence,
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20a">We note from the figure that the linear velocity is along x-axis and is positive. On the other hand, angular velocity is clock-wise and is  negative. In order to account for this, we introduce a negative sign in the relation as :
+</para> 
+<para id="element-20b">
+<equation id="equation-22"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<para id="element-20">This equation relates the linear velocity of center of mass,"<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>", and angular velocity of the disk,"ω". We can drop negative sign if speeds (not velocities) are considered. Importantly, we must note here that this relation connects velocities which are measured in different frames of reference. The linear velocity of center of mass is measured in the ground reference, whereas angular velocity is measured in the moving reference. 
+</para>
+<para id="element-21">We must also understand here that this relation does not relate linear velocities of the particles constituting the body to that of angular velocity. The linear velocities are, as a matter of fact, different for different particles. The velocities of the particles constituting the body depends on their relative position with respect to the center of mass or the point of contact. Thus, we should bear in mind that above relation specifically connects the linear velocity of center of mass (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+) to the angular velocity of the rotating disk ("ω"
+), which is same for all particles, constituting the disk.
+</para>
+
+<para id="element-21a">The relation “
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:math>
+” is the defining relation for pure rolling. The moment we refer a motion as pure rolling motion, then two velocities are related precisely as given by this equation. The caution is that it is not same as the similar relation available for pure rotational motion :
+</para>
+
+<para id="element-21b"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-21c">This relation is a relation for any particle constituting the body. It is not so for pure rolling. The linear velocity in the equation (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+) of pure rolling motion refers to the linear velocity of a specific point i.e. center of mass (not the velocity of any point,”v”) and equation involves radius of the disk, “R”, (not any “r” denoting the distance of any particle from the axis of rotation). These distinctions should always be kept in mind. In order to emphasize the distinction, we may write :
+</para>
+<para id="element-21d"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> ≠ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> ; if </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> r </m:mi>
+<m:mo> ≠ </m:mo> 
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-1b">
+<title> Description of rolling in ground frame
+</title>
+<para id="element-6">The description of rolling is different for different observers (also read frames of reference). We have observed that the motion of disk is pure rotation as seen in the moving reference attached to the rolling disk. The disk rotates about an axis, passing through the center of mass and perpendicular to its surface. When seen from the ground, however, the axis of rotation is not fixed as in pure rotation; rather it translates along x-direction with a velocity "<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>". It means that the rolling motion is not a pure rotation.
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Rolling motion </title>
+<media id="id1163875344754" alt=""><image src="../../media/rm2-eafd.gif" mime-type="image/gif"/></media>
+<caption> The axis of rotation is not fixed. </caption>
+</figure>
+</para>
+<para id="element-8">The different particles on the rim of the disk - what to talk of other particles constituting it - transverse (cover) different paths in the ground reference. The figure below captures the position of a particle at the contact point over a period, as the disk rolls on the horizontal surface. Evidently, the particle at the rim describes a curved path, whereas the center of mass describes a straight line path. This means that rolling motion is not a pure translation either. Remember that all particles in pure translation have same motion along a straight line. In the nutshell, we can conclude that rolling of the disk is neither a pure rotation nor a pure translation as seen in the frame of reference attached to the ground. 
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Rolling motion </title>
+<media id="id1163875355259" alt=""><image src="../../media/rm3-cb0e.gif" mime-type="image/gif"/></media>
+<caption> Path followed by a particle on the rim of the disk. </caption>
+</figure>
+</para>
+<para id="element-10">The path of the particle on the rim points to an interesting aspect of rolling motion. Since it has been assumed that the center of mass of the disk is moving with uniform velocity, we can infer from the nature of the path (as drawn in the figure above) that particle on the rim of the disk are actually moving with different velocities depending on its position with respect to the point of contact. The velocity of a particle near the point of contact is minimum as it covers smaller distance (length of the curve) and the velocity of the same particle near the top is greater as it covers the longer distance in a given time. This is also evident from the fact that curve is steeper near contact point and flatter near the top point. In simple words, we can conclude that the particles on the rim of the disk are having varying linear velocities - starting from zero at the contact to a maximum value at the top of the disk.
+</para>
+
+
+</section>
+
+</section>
+
+<section id="section-2">
+<title> Analysis of rolling motion
+</title>
+<para id="element-22">
+Analysis of rolling motion can be undertaken with two different perspectives :
+</para>
+<para id="element-23">
+<list id="list-23" list-type="enumerated"><item> Rolling motion is considered as a combination of pure rotation (i.e rotation about a fixed axis) and pure translation (i.e. translation along a straight line).
+ </item>
+<item> Rolling motion is considered as a pure rotation only (i.e rotation about a fixed axis) about an axis passing through the point of contact and perpendicular to the plane containing point of contact and center of mass. This is essentially an equivalent frame work of analysis, which lets us calculate velocities of particles, constituting disk, in a simplified and identical manner. We shall study this alternative approach in the next module titled "<link document="m14372"> Rolling as pure rotation </link>".
+ </item>
+</list>
+</para>
+</section>
+<section id="section-3">
+<title> Rolling motion as a combined motion
+</title>
+<para id="element-24">Rolling is considered as the combination of pure rotation and pure translation. 
+</para>
+<para id="element-25a">
+<term> 1: </term>  Pure rotation
+</para>
+<para id="element-25">For pure rotation, we consider that the rotating disk rotates about a fixed axis with angular velocity, "ω" such that :
+</para>
+<para id="element-26"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">Each particle of the rotating disk moves with same angular velocity. In the figure, we have shown the linear velocities of particles occupying four positions on the rim with appropriate vectors. The magnitude of velocity of these four particles on the rim, resulting from pure rotation, is given by :
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-29">
+<figure id="fig-29">
+<title> Pure rotation </title>
+<media id="id1163875355536" alt=""><image src="../../media/rm5-e90c.gif" mime-type="image/gif"/></media>
+<caption> The disk is rotating about a fixed axis. </caption>
+</figure>
+</para>
+<para id="element-30">However, if we consider a particle inside the disk at radial distance "r", then its linear velocity resulting from pure rotation is given by :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+<figure id="fig-32">
+<title> Pure rotation </title>
+<media id="id1163875355623" alt=""><image src="../../media/rm6-7458.gif" mime-type="image/gif"/></media>
+<caption> Linear velocity of a particle inside the disk due to pure rotation. </caption>
+</figure>
+</para>
+<para id="element-33">Substituting value of ω from earlier equation, we can obtain the velocity of a particle inside the rotating disk as :
+</para>
+<para id="element-34"><equation id="equation-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>	
+<m:mo> ) </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-967">where "r" is the linear distance of the position occupied by the particle from the axis of rotation. We must, however, clearly understand that angular velocities of all particles, constituting the rigid body, are same.</para><para id="element-35a">
+<term>2: </term> Pure translation
+</para>
+<para id="element-35">
+For pure translation, we consider that the rotating disk is not rotating at all. Each particle of the disk is translating with linear velocity that of center of mass, "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+". Unlike the case of pure rotation, each of the particle - whether situating on the rim or within the disk - is moving with same velocity. In the figure, we have shown the linear velocities of particles with appropriate vectors, occupying four positions on the rim. 
+</para>
+<para id="element-36">
+<figure id="fig-36">
+<title> Pure translation </title>
+<media id="id1163875355783" alt=""><image src="../../media/rm7-3658.gif" mime-type="image/gif"/></media>
+<caption> Linear velocities of all particles are equal to that of center of mass. </caption>
+</figure>
+</para>
+<para id="element-37">
+<term> 3: </term>  Resultant or combined motion of particles on the rim of the disk
+</para>
+<para id="element-38">We combine the two velocity vectors; one due to pure rotation and the other due to pure translation to find the velocities of particles.
+</para>
+<para id="element-39">
+<figure id="fig-39"><title> Rolling motion </title>
+<media id="id1163875355842" alt=""><image src="../../media/rm8-38f2.gif" mime-type="image/gif"/></media>
+<caption> Rolling motion as a combination of pure rotation and pure translation. </caption>
+</figure>
+</para>
+<para id="element-40">We note here that particle at the point of contact has zero linear velocity. This result demands explanation as to how particle at contact point would move if its velocity is zero. It is considered that the particle at contact has zero instantaneous velocity resulting from equal and opposite linear velocities due to pure rotation and pure translation. Nevertheless, it has finite angular velocity, "ω ", that changes its position with the increment in time. On the very moment, the particle occupying contact position changes its position, it acquires finite linear velocity as the particle is no more at the contact point and velocities resulting from two constituent motions are not equal. Thus, the explanation based on the percept that rolling is combination of pure rotation and translation is consistent with the physical phenomenon of rolling.
+</para>
+<para id="element-40a">The velocity of the particle on the rim increases as the position of the particle on the rim is away from the point of contact and it (velocity) reaches a maximum at the top of the disk, which is twice the velocity " 
+<m:math>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+" that of center of mass"
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+". It must be understood that linear velocity of a particle depends on its position on the rim. Farther the position from the point of contact, greater is the velocity. 
+</para>
+<para id="element-41">In vector notation, the combined velocity of a particle on the rim or anywhere inside the rotating body (as seen in the ground reference) is given by :
+</para>
+<para id="element-42"><equation id="equation-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> t </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-43">In the expression, the symbol "r" refers position vector from the center of the disk, which is equal in magnitude to the radius "R" for particles on the rim of the disk. 
+</para>
+
+<section id="section-3a">
+<title> Kinetic energy of rolling disk
+</title>
+<para id="element-48">
+We can determine kinetic energy of the rolling disk, considering it to be the combination of pure rotation and pure translation. Mathematically,
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50"><equation id="equation-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<example id="example-51">
+<para id="element-51"><term>Problem : </term> A uniform cylinder of mass 5 kg and radius 0.2 m rolls smoothly over a horizontal surface in a straight line with a velocity of 2 m/s. Find (i) the speed of the particle situated at the top of the cylinder and (ii) kinetic energy of the rolling cylinder. 
+</para>
+<para id="element-52"><term>Solution : </term> The speed of the particle at the top of the cylinder is :</para>
+<para id="element-57"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-59">
+The kinetic energy of the rolling solid cylinder is :
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-851">In order to evaluate this equation, we need to find angular velocity and moment of inertia of the rotating cylinder. Here, the angular velocity of the cylinder is :</para><para id="element-607"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 0.2 </m:mn>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-61">Now, we need to find the moment of inertia of the cylinder about its axis :
+</para>
+<para id="element-62"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 0.2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+Putting values, we have :
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 15 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+</section>
+<section id="section-4">
+<title> Summary
+</title>
+<para id="element-95">
+<term>1.</term> The terms “rolling”, “pure rolling” and “rolling without sliding” and “rolling without slipping” are used to convey same motion. If intended otherwise, the motion is described with qualification such as “rolling with sliding/ slipping”.
+</para>
+<para id="element-96"><term>2.</term> The particle at contact continuously changes with time in pure rolling.
+The distance covered by center of mass in pure translation is equal to the distance covered by a particle on the rim in pure rotation. 
+</para>
+<para id="element-97">
+<term>3.</term> Pure rolling motion is characterized by the relation :
+</para>
+<para id="element-98"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99">This equation is termed as “equation of rolling motion”. This equation relates the linear velocity of center of mass,” <m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+“, and angular velocity of the disk,”ω”, where "R" is the radius of the disk.
+</para>
+<para id="element-100"><term>4.</term> Rolling motion can be analyzed as a combination of (i) pure rotation and (ii) pure translation. Alternatively, rolling motion can be treated as pure rotation about a perpendicular axis through the point of contact (this equivalent description shall be discussed in the next module).
+</para>
+<para id="element-101">
+<term>5.</term> The resultant velocity of any particle of a rolling body is vector sum of velocity due to pure rotation (
+<m:math>
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:math>
+) and velocity due to translation (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+).
+</para>
+<para id="element-102">
+<term>6.</term> The reference to velocity, sometimes, results in confusion. For clarification, a general reference of velocity, in terms of rolling motion, is interpreted as :
+</para>
+<para id="element-103">
+(i) velocity : linear velocity of center of mass (vc); 
+</para>
+<para id="element-104">(ii) velocity of a particle : resultant linear velocity of a particle, which is equal to the vector sum of velocities due to translation and rotation.
+</para>
+
+</section>
+
+
+  </content>
+  
+</document>

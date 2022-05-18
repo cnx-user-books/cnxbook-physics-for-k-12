@@ -1,0 +1,652 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Position vector</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d297104a-1475-48e4-a1df-6492c6a53ef5</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">
+Position vector is a convenient mathematical construct to encapsulate the twin ideas of magnitude (how far?) and direction (in which direction?) of the position, occupied by an object. </para>
+
+
+
+
+<para id="element-3">
+<definition id="definition-3">
+<term> Position vector </term>
+<meaning id="idm7202288"> Position vector is a vector that extends from the reference point to the position of the particle. </meaning>
+</definition>
+</para>
+
+<para id="element-4">
+<figure id="fig4">
+ <title> Position vector</title>
+<media id="idm5478976" alt=""><image src="../../media/pv1.gif" mime-type="image/gif"/></media>
+<caption> Position vector is represented by a vector, joining origin to the position of point object </caption></figure>
+</para><para id="element-296">Generally, we take origin of the coordinate system as the reference point. </para>
+
+<para id="element-5">It is easy to realize that vector representation of position is appropriate, where directional properties of the motion are investigated. As a matter of fact, three important directional attributes of motion, namely displacement, velocity and acceleration are defined in terms of position vectors. 
+</para>
+
+<para id="element-5a">Consider the definitions : the “displacement” is equal to the change in position vector; the “velocity” is equal to the rate of change of position vector with respect to time; and “acceleration” is equal to the rate of change of velocity with respect to time, which, in turn, is the rate of change of position vector. Thus, all directional attributes of motion is based on the processing of position vectors.
+</para>
+
+
+
+<section id="section-1">
+<title> Position Vector in component form  </title>
+
+<para id="element-6a">One of the important characteristics of position vector is that it is rooted to the origin of the coordinate system. We shall find that most other vectors associated with physical quantities, having directional properties, are floating vectors and not rooted to a point of the coordinate system like position vector. 
+</para>
+
+<para id="element-7">Recall that scalar components are graphically obtained by dropping two perpendiculars from the ends of the vector to the axes. In the case of position vector, one of the end is the origin itself. As position vector is rooted to the origin, the scalar components of position vectors in three mutually perpendicular directions of the coordinate system are equal to the coordinates themselves. The scalar components of position vector, <term>r</term>, by definition in the designated directions of the rectangular axes are :
+</para>
+
+<para id="element-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+
+   <m:mtr>
+     <m:mtd>
+
+  <m:mi> x </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> α </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> y </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> β </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> z </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> γ </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-9">
+<figure id="fig9"><title> Scalar components of a vector</title>
+<media id="idm1151280" alt=""><image src="../../media/pv2.gif" mime-type="image/gif"/></media>
+<caption> Scalar components are equal to coordiantes of the position </caption>
+</figure>
+</para>
+
+<para id="element-10">
+and position vector in terms of components (coordinates) is :
+</para>
+
+
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+
+   <m:mtr>
+     <m:mtd>
+
+  <m:mi mathvariant="bold"> r </m:mi>
+  <m:mo> = </m:mo>  <m:mi> x </m:mi>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi> y </m:mi>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi> z </m:mi>
+  <m:mi mathvariant="bold"> k </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+
+</m:math>
+</para>
+
+<para id="element-12">
+where <m:math>
+   <m:mi mathvariant="bold"> i </m:mi>
+</m:math> ,
+<m:math>
+   <m:mi mathvariant="bold"> j </m:mi>
+</m:math> and
+<m:math>
+   <m:mi mathvariant="bold"> k </m:mi>
+</m:math> 
+are unit vectors in x, y and z directions.
+</para>
+<para id="element-14a">
+The magnitude of position vector is given by :
+</para>
+
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+
+   <m:mtr>
+     <m:mtd>
+
+<m:mi> r </m:mi>
+
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+  <m:msup>
+  <m:mi> x </m:mi>
+  <m:mo> 2 </m:mo>
+  </m:msup>
+
+  <m:mo> + </m:mo>
+
+  <m:msup>
+  <m:mi> y </m:mi>
+  <m:mo> 2 </m:mo>
+  </m:msup>
+  <m:mo> + </m:mo>
+
+  <m:msup>
+  <m:mi> z </m:mi>
+  <m:mo> 2 </m:mo>
+  </m:msup>
+
+<m:mo> ) </m:mo>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+
+</m:math>
+</para>
+
+
+<example id="example-16">
+<title>Position and distance</title>
+<para id="element-16"><term>Problem </term>: Position (in meters) of a moving particle as a function of time (in seconds) is given by :
+</para>
+
+<para id="element-17">
+
+<m:math display="block">
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:msup>
+  <m:mi> t </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+  <m:mo> - </m:mo>
+  <m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mo> - </m:mo>
+  <m:mn> 7 </m:mn>
+  <m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mo> - </m:mo>
+  <m:msup>
+  <m:mi> t </m:mi>
+  <m:mn> 3 </m:mn>
+  </m:msup>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+
+</m:math>
+</para>
+
+<para id="element-18">Find the coordinates of the positions of the particle at the start of the motion and at time t = 2 s. Also, determine the linear distances of the positions of the particle from the origin of the coordinate system at these time instants.
+</para>
+
+<para id="element-19"><term>Solution </term>: The coordinates of the position are projection of position vector on three mutually perpendicular axes. Whereas linear distance of the position of the particle from the origin of the coordinate system is equal to the magnitude of the position vector. Now,
+</para>
+
+<para id="element-20">
+When t = 0 (start of the motion)
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:mo> x </m:mo>
+  <m:mn> 0 </m:mn>
+  <m:mo> - </m:mo>
+  <m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mo> - </m:mo>
+  <m:mn> 7 </m:mn>
+  <m:mo> x </m:mo>
+  <m:mn> 0 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mo> - </m:mo>
+  <m:mn> 0 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+
+</m:math>
+</para>
+
+<para id="element-22">The coordinates are :
+</para>
+
+<para id="element-23"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi>  m </m:mi>
+
+<m:mi>  and </m:mi>
+
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi>  m </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-732">and the linear distance from the origin is :</para><para id="element-999"><m:math display="block">
+<m:mtable columnalign="left">
+
+   <m:mtr>
+     <m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup> 
+
+<m:mrow> 
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow> 
+
+<m:mn> 2 </m:mn>
+</m:msup> 
+<m:mo> + </m:mo>
+<m:msup> 
+<m:mn> 4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup> 
+
+<m:mo> ) </m:mo>
+<m:mo> ) </m:mo> 
+
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mi> 25 </m:mi>
+<m:mo> = </m:mo>
+
+<m:mn> 5 </m:mn>
+<m:mi>  m </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-24">
+When t = 2 s
+</para>
+
+<para id="element-25">
+<m:math display="block">
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:mo> x </m:mo>
+
+  <m:msup>
+  <m:mn> 2 </m:mn>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+
+  <m:mo> - </m:mo>
+  <m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mo> - </m:mo>
+  <m:mn> 7 </m:mn>
+  <m:mo> x </m:mo>
+  <m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mo> - </m:mo>
+<m:msup>
+  <m:mn> 2 </m:mn>
+  <m:mn> 3 </m:mn>
+</m:msup>
+  <m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 9 </m:mn>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> - </m:mo>
+  <m:mn> 10 </m:mn>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> - </m:mo>
+  <m:mn> 8 </m:mn>
+  <m:mi mathvariant="bold"> k </m:mi>
+
+
+</m:math>
+</para>
+
+<para id="element-26">The coordinates are :
+</para>
+
+<para id="element-27"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 9 </m:mn>
+<m:mi>  m,   </m:mi>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi>  m </m:mi>
+
+<m:mi>  and  </m:mi>
+
+<m:mi> z </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mi>  m. </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para><para id="element-201">and the linear distance from the origin is :</para><para id="element-826"><m:math display="block">
+<m:mtable columnalign="left">
+
+   <m:mtr>
+     <m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup> 
+
+<m:mn> 9 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup> 
+<m:mo> + </m:mo>
+<m:msup> 
+<m:mrow> 
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow> 
+<m:mn> 2 </m:mn>
+</m:msup> 
+
+<m:mo> + </m:mo>
+<m:msup> 
+<m:mrow> 
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow> 
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> ) </m:mo>
+
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+
+<m:mi> 245 </m:mi>
+
+<m:mo> = </m:mo>
+
+<m:mn> 15.65 </m:mn>
+<m:mi>  m </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+</section>
+
+<section id="section-2">
+<title>Motion types and position vector </title>
+
+<para id="element-28">Position is a three dimensional concept, requiring three coordinate values to specify it. Motion of a particle, however, can take place in one (linear) and two (planar) dimensions as well. 
+</para>
+<para id="element-28a">In two dimensional motion, two of the three coordinates change with time. The remaining third coordinate is constant. By appropriately choosing the coordinate system, we can eliminate the need of specifying the third coordinate.
+</para>
+
+<para id="element-29">
+In one dimensional motion, only one of the three coordinates is changing with time. Other two coordinates are constant through out the motion. As such, it would be suffice to describe positions of the particle with the values of changing coordinate and neglecting the remaining coordinates. 
+</para>
+
+
+
+<para id="element-31">A motion along x –axis or parallel to x – axis is, thus, described by x - component of the position vector i.e. x – coordinate of the position as shown in the figure. It is only the x-coordinate that changes with time; other two coordinates remain same.
+</para>
+
+<para id="element-32">
+<figure id="fig32">
+ <title> Motion in one dimesnion</title>
+<media id="idm1592224" alt=""><image src="../../media/pv3.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-33">The description of one dimensional motion is further simplified by shifting axis to the path of motion as shown below. In this case, other coordinates are individually equal to zero.
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mtext> x = x; y = 0; z = 0 </m:mtext>
+</m:math>
+</para>
+<para id="element-35">
+<figure id="fig35">
+ <title> Motion in one dimesnion</title>
+<media id="idp618368" alt=""><image src="../../media/pv4.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+
+<para id="element-36">In this case, position vector itself is along x – axis and, therefore, its magnitude is equal to x – coordinate. 
+</para>
+
+
+</section>
+
+<section id="section-3">
+<title>Examples </title>
+<example id="example-5aa">
+<para id="element-5aa"><term>Problem : </term> A particle is executing motion along a circle of radius “a” with a constant angular speed “ω” as shown in the figure. If the particle is at “O” at t = 0, then determine the position vector of the particle at an instant in xy - plane with "O" as the origin of the coordinate system. 
+</para>
+<para id="element-6aa">
+<figure id="fig-6aa">
+<title> A particle in circular motion </title>
+<media id="idm778880" alt=""><image src="../../media/vq1.gif" mime-type="image/gif"/></media>
+<caption> The particle moves with a constant angular velocity. </caption>
+</figure>
+</para>
+<para id="element-7aa"> <term>Solution : </term> Let the particle be at position “P” at a given time “t”. Then the position vector of the particle is :
+</para>
+<para id="element-8aa">
+<figure id="fig-8a"><title> A particle in circular motion </title>
+<media id="idm3465536" alt=""><image src="../../media/vq2-5ec2.gif" mime-type="image/gif"/></media>
+<caption> The particle moves with a constant angular velocity starting from “O” at t = 0. </caption>
+</figure>
+</para>
+<para id="element-2aa"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-800a">Note that "x" and "y" components of position vector is measured from the origin "O". From the figure,</para>
+<para id="element-4aa"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5ba">It is important to check that as particle moves in clockwise direction, y-coordinate increase in first quarter starting from origin, decreases in second quarter and so on. Similarly, x-coordinate is given by the expression : 
+</para>
+<para id="element-6ba"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> - </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-7ba">Thus, position vector of the particle in circular motion is :
+</para>
+<para id="element-8ba"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> - </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+ 
+  </content>
+  
+</document>

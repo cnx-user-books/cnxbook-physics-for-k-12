@@ -1,0 +1,864 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Induced motion on rough incline (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fa8909ff-620d-49bf-b546-bc50dfc3eca6</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to induced motion on rough incline. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Nature of friction
+</item>
+<item> Incline as mechanical device
+</item>
+<item> Equilibrium
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Nature of friction  
+</title>
+<para id="element-6"><term>Problem 1 : </term>A force of 30 N is applied on a block of 10 kg, which is placed on an incline of angle, 
+<m:math>
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mo>/</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+. If the coefficient of friction between block and incline is 0.75, then find the friction.
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> Block on a rough incline </title>
+<media id="idm314704" alt=""><image src="../../media/imq1.gif" mime-type="image/gif"/></media>
+<caption> External force of 30 N acts up parallel to incline.</caption>  
+</figure>
+</para>
+<para id="element-8"><term>Solution : </term>In order to find friction, we first need to know its direction. Here, the component of gravitational force along the incline is :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>sin</m:mi>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>5</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>60</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">
+The limiting friction is :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.75</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">In order to find the cosine, we use the triangle as shown. Here,
+</para>
+<para id="element-14">
+<figure id="fig-14"><title> Trigonometric ratio </title>
+<media id="idm2903280" alt=""><image src="../../media/imq2.gif" mime-type="image/gif"/></media>
+<caption> Cosine is ratio of base and hypotenuse.</caption>  
+</figure>
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mn>5</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>−</m:mo>
+                <m:msup>
+                  <m:mn>3</m:mn>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">Hence,
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0.75</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>4</m:mn>
+    <m:mo>/</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>60</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">Now, net component of external forces (without friction) along the incline is :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>60</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>30</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">It means that block has the tendency to move down. Therefore, friction acts up. However, friction is not equal to limiting friction. The net component of external forces is 30 N and is less than limiting friction. Therefore, the static friction simply matches the net external force parallel to incline, which is 30 N. 
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title> Incline as mechanical device
+</title>
+<para id="element-22"><term>Problem 2 : </term>A block can either be lifted vertically or pulled up along a rough incline of 30°. What should be coefficient of friction between block and incline so that pulling along the incline requires less force parallel to the incline.
+</para>
+<para id="element-23"><term>Solution : </term>In order to pull the block of mass “m” vertically, the force, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, required is equal to the weight of the block,
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">
+On the other hand, the net external force parallel to the incline should be greater than the limiting friction to move the block up the incline. The required force is :
+</para>
+<para id="element-26">
+<figure id="fig-26"><title> Block on a rough incline </title>
+<media id="idm1031040" alt=""><image src="../../media/imq3.gif" mime-type="image/gif"/></media>
+<caption> Force required to pull up the block along an incline.</caption>  
+</figure>
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">For 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+,
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>sin</m:mi>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">Putting value of the angle and evaluating, we have :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>sin</m:mi>
+            <m:msup>
+              <m:mn>30</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+            <m:mo>/</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+<note id="idm1165856"> This example clearly demonstrate that (when friction is always present) the pulling along incline may not always involve lesser force as otherwise may be believed. </note> 
+</para>
+</section>
+<section id="section-5">
+<title> Equilibrium  
+</title>
+<section id="section-5a">
+<para id="element-39"><term>Problem 3 : </term>A block of mass 10 kg is placed on a rough incline plane of inclination 30° with an external force “F” applied as shown in the figure. The coefficient of friction between block and incline is 0.5. Find the minimum force “F” so that block does not slide on the incline.
+</para>
+<para id="element-40">
+<figure id="fig-40"><title> Block in equilibrium </title>
+<media id="idm1875040" alt=""><image src="../../media/imq4.gif" mime-type="image/gif"/></media>
+<caption> Force required to pull up the block along an incline.</caption>  
+</figure>
+</para>
+<para id="element-41"><term>Solution : </term>We first need to determine the direction of friction so that we could determine the minimum force required for block to remain stationary. Here, the gravitational force down the incline is :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>50</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">The external force “F” has no component along the incline. As such, the component of weight along the incline is the net force parallel to incline. Friction, therefore, acts upward. If external force “F” is not applied, the limiting friction is given by :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>25</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">As the downward gravitational force is greater than limiting friction, the block will slide down. 
+</para>
+<para id="element-46">In order to restrict motion of block, the external force “F” should increase normal force, which in turn increases friction. Let the minimum force be “F” such that block does not side. In this limiting situation, the components of forces, parallel and perpendicular to incline, form balanced force systems. Free body diagram with external forces is shown in the figure. Considering "x" and "y" axes in parallel and perpendicular directions, we have :
+</para>
+<para id="element-47">
+<figure id="fig-47"><title> Block in equilibrium </title>
+<media id="idp3247536" alt=""><image src="../../media/imq5.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block.</caption>  
+</figure>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">Substituting for “N” in the first equation, we have :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>μ</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mi>μ</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>50</m:mn>
+        <m:mo>-</m:mo>
+        <m:mrow>
+          <m:mn>25</m:mn>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mrow>
+      <m:mn>0.5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>13.4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5b">
+<para id="element-54"><term>Problem 4 : </term>A block of mass “m” is placed on a rough incline of angle “θ”.  The downward motion of the block is prevented by applying an upward force, “F”, parallel to incline. If a force of “2F” is required to initiate motion of the block in upward direction, then determine the coefficient of friction between block and the incline.
+</para>
+<para id="element-55"><term>Solution : </term>It is given that block has downward motion without any additional force. It means that net component of forces parallel to incline is in downward direction. The downward motion can be prevented if the additional force, parallel to the incline, is equal to the net downward component. 
+</para>
+<para id="element-56">
+The additional force is equal to net downward component :
+</para>
+<para id="element-57">
+<figure id="fig-57"><title> Block in equilibrium </title>
+<media id="idm9491536" alt=""><image src="../../media/imq6.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block.</caption>  
+</figure>
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">In order to initiate motion in the upward direction, the additional external force should be equal to the net downward component of forces. As the block tends to move up, the friction, now, acts in the downward direction. Hence,
+</para>
+<para id="element-60">
+<figure id="fig-60"><title> Block on an incline </title>
+<media id="idp3913568" alt=""><image src="../../media/imq7.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block.</caption>  
+</figure>
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">Subtracting first equation from the second, we have :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">Putting this expression of “F” in the first equation and solving for “μ”,
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>μ</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+
+  </content>
+  
+</document>

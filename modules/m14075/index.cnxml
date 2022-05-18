@@ -1,0 +1,1015 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Motion on rough incline plane</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7883a729-8642-4204-9f2c-51bccec7da4a</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">
+Motion of a block on a rough incline plane is the interplay of different force types and the characterizing features of the incline surface. An incline is a plane surface, whose one end is raised. The raised surface forms an angle “θ” with the horizontal. The block or a body placed on the surface is acted upon by gravity and contact forces (normal and friction forces), besides other forces. In this module, we shall restrict our consideration to force due to gravity and contact forces and shall consider other external force in subsequent module.
+</para>
+<para id="element-2">Study of motion of a block on an incline is important from the point of view of the measurement of the coefficients of friction. 
+</para>
+
+
+<section id="section-2">
+<title> Static friction and incline
+</title>
+
+<para id="element-27"> In this section, we consider the motion of a block placed on a stationary incline i.e. incline itself does not move on the horizontal surface. At present, we do not consider any additional force. The forces on the block are (i) weight of the block, mg, (ii) Normal force, N, and (iii) friction, 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:math>
+ (
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+, 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+ or 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+).
+</para>
+
+<para id="element-29">
+For the sake of illustration, we treat the incline as a plane surface, which can be lifted at one end with certain mechanical arrangement so that the incline angle “θ” with horizontal direction can be varied. This set up enables us to change the gravitational pull on the block in the direction of incline surface and work with incline of different angles for the study of motion on the incline.
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Adjustable incline </title>
+<media id="idm10360864" alt=""><image src="../../media/ip8-1684.gif" mime-type="image/gif"/></media>
+<caption> The incline angle is changed with string and plley arrangement. </caption>
+</figure>
+</para>
+<para id="element-31">
+The forces, in the direction normal to the incline plane, are balanced as there is no motion in that direction. On the other hand, the component of weight parallel to contact surface, mg sinθ, tends to initiate motion of the block along the incline plane. For small value of "θ", the component of force parallel to contact surface is small and is counteracted by friction, acting in the opposite direction such that :
+</para>
+<para id="element-32">
+<figure id="fig-32"><title> Motion of block </title>
+<media id="idm822592" alt=""><image src="../../media/ip9-72db.gif" mime-type="image/gif"/></media>
+<caption> The force parallel to the contact is equal to static friction. </caption>
+</figure>
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<section id="section-2a">
+<title> Angle of repose
+</title>
+<para id="element-34">
+As we increase the angle, θ, the downward force along the incline increases. The friction, in response, also increases till it reaches the maximum value corresponding to limiting (maximum) static friction, 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+. In that situation,
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> φ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+where “φ” is the angle at which the block just starts to slide down. This angle is known as “angle of repose”. 
+</para>
+
+
+</section>
+
+</section>
+
+<section id="section-3">
+<title> Measurement of coefficient of friction
+</title>
+<para id="element-37">
+We can measure coefficient of friction between two surfaces by measuring angle of repose. The free body diagram of the block as superimposed over the block-incline system corresponding to the maximum static friction is shown in the figure.
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Measurement of coefficient of static friction </title>
+<media id="idp1094224" alt=""><image src="../../media/ip10a.gif" mime-type="image/gif"/></media>
+<caption> The block is about to slide sown. </caption>
+</figure>
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> φ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> φ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+and
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> φ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> φ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+Combining two equations, we have :
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> φ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> N </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+However, we know that coefficient of static friction is given by :
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> N </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Hence,
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> φ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+This is an important result as measurement of the angle of repose allows us to determine coefficient of friction between any two given surfaces. It is also evident from the relation above that angle of repose is equal to angle of friction as defined in the earlier module.
+</para>
+<para id="element-49">This method can also be employed to measure coefficient of kinetic friction as well. For that, we push the block gently over the incline surface and adjust the inclination of the incline or surface such that the block continues to move with uniform velocity. In that situation, the block moves under the balanced force system and kinetic friction is equal to the component of weight along the incline. 
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> Measurement of coefficient of kinetic friction </title>
+<media id="idm8926192" alt=""><image src="../../media/ip11a.gif" mime-type="image/gif"/></media>
+<caption> The block slide sown the plane with uniform velocity. </caption>
+</figure>
+</para>
+<para id="element-51">
+As such, 
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+
+<section id="section-4">
+<title> Motion on an incline plane under gravity
+</title>
+
+<para id="element-53">
+A body placed on an incline is subjected to downward pull due to gravity. The downward motion along the incline is, therefore, natural tendency of the body, which is opposed by friction acting in the opposite direction against the component of gravity along the incline. Depending on the relative strengths of two opposite forces, the body remains at rest or starts moving along the incline.
+</para>
+<para id="element-54">The translational motion of a body on an incline is along its surface. There is no motion in the direction perpendicular to the incline surface. The force components in the direction perpendicular to the incline form a balanced force system. 
+</para>
+<para id="element-55">
+Let us examine the free body diagram as superimposed on the body systems and shown in the figure. In the direction of incline i.e. x – axis, we have :
+</para>
+<para id="element-56">
+<figure id="fig-56"><title> Motion on incline plane </title>
+<media id="idp7606224" alt=""><image src="../../media/ip19.gif" mime-type="image/gif"/></media>
+<caption> Motion of the block is opposed by static friction. </caption>
+</figure>
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+where 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:math>
+ is the force of friction, which can be static friction, maximum static friction or kinetic friction. In the y-direction,
+</para>
+<para id="element-59"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">Based on the angle of incline” θ”, there are following possibilities :
+</para>
+<para id="element-61">
+<term>Case 1 </term>: The friction is less than the maximum static friction and body is yet to start motion. Here, 
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> &lt; </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:math>
+. In this case, friction is simply equal to component of gravity, parallel to the contact surface. Thus,
+</para>
+<para id="element-62">
+<figure id="fig-62">
+<title> Motion on incline plane </title>
+<media id="idm236480" alt=""><image src="../../media/ip14a.gif" mime-type="image/gif"/></media>
+<caption> Motion of the block is opposed by static friction. </caption>
+</figure>
+</para>
+<para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">The net component of external forces in x-direction (including friction), therefore, is zero. As such, the block remains stationary.
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66"><term>Case 2</term> :  The friction is equal to the maximum static friction and body is yet to start motion. Here,  
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> =  </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:math>
+. In this case also, the component of net external force in x-direction (inclusive of friction) is zero and the block is stationary. Here,
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> φ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-69">
+<term>Case 3</term> :  The friction is equal to the kinetic friction and body is in motion. Initially, 
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> &gt;  </m:mo>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:math>
+. In this case, friction is given by :
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">
+We must understand here that friction can be equal to kinetic friction only when body has started moving. This is possible when component of gravity, parallel to contact surface is greater than the maximum static friction. However, once this condition is fulfilled, the friction between the surfaces reduces slightly to become equal to kinetic friction. Subsequently, the motion of the body can be either without acceleration (uniform velocity) or with acceleration.
+</para>
+<para id="element-72">
+<term>3a</term>: Motion with uniform velocity 
+</para>
+<para id="element-73">This is a case of balanced force system in x-direction. The component of net force in x-direction is zero and the block is moving with constant velocity. Here,
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+<term>3b</term>: Accelerated motion 
+</para>
+<para id="element-76">
+This is a case of unbalanced force system in x-direction. 
+</para>
+<para id="element-77">
+<figure id="fig-77">
+<title> Motion on incline plane </title>
+<media id="idp3337152" alt=""><image src="../../media/ip15a.gif" mime-type="image/gif"/></media>
+<caption> Motion of the block is opposed by kinetic friction. </caption>
+</figure>
+</para>
+<para id="element-78">
+In x – direction,
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">
+Putting value of normal force, N, we have :
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+For the given value of “θ” and “
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+”, acceleration is constant and the block, therefore, moves down with uniform acceleration.
+</para>
+<example id="example-82a">
+<para id="element-82a"><term>Problem : </term> A block of mass “m” slides down an incline, which makes an angle of 30° with the horizontal. If the acceleration of the block is g/3, then find the coefficient of kinetic friction. Consider g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-82b"> <term>Solution : </term> The coefficient of kinetic friction is given by :
+</para> 
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> N </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">In order to evaluate this ratio, we need to find normal and friction forces. The free body diagram of the block as superimposed on the system is shown in the figure. 
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Motion on incline plane </title>
+<media id="idp1273024" alt=""><image src="../../media/ip16a.gif" mime-type="image/gif"/></media>
+<caption> Motion of the block is opposed by kinetic friction. </caption>
+</figure>
+</para>
+<para id="element-86">
+In the x-direction,
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mi> g </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mi> g </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mi> g </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> mg </m:mi>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+In the y-direction, there is no acceleration,
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">Putting values in the expression of coefficient of friction, we have :
+</para>
+<para id="element-91"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mrow>
+<m:mn> 6 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0.192 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+
+  
+  </content>
+  
+</document>

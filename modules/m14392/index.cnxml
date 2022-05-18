@@ -1,0 +1,1107 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rolling along an incline (check your understanding)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6fbaed5b-ef09-4ea9-803b-73a94152e55c</md:uuid>
+</metadata>
+  <content>
+<para id="element-1"> 
+The questions have been selected to enhance understanding of the topics covered in the module titled "<link document="m14312"> Rolling along an incline </link>". All questions are multiple choice questions with one or more correct answers. There are two sets of the questions. The “understanding level” questions seek to unravel the fundamental concepts involved, whereas “application level” are relatively difficult, which may interlink concepts from other topics.
+</para>
+<para id="element-2">
+Each of the questions is provided with solution. However, it is recommended that solutions may be seen only when your answers do not match with the ones given at the end of this module.  
+</para>
+<section id="section-1">
+<title> Understanding level (Rolling along an incline) </title>
+
+<para id="element-3">
+<exercise id="exercise-3">
+<problem id="idm1533168">
+
+<para id="element-4">A solid sphere of mass “m” and radius “r” rolls down an incline of angle “θ” without sliding. What is its acceleration down the incline?
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> A solid sphere rolls down an incline </title>
+<media id="idm7126704" alt=""><image src="../../media/riq1.gif" mime-type="image/gif"/></media>
+<caption> The sphere has mass “m” and radius “r”. </caption>
+</figure>
+</para>
+<para id="element-6">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp3327136">
+
+<para id="element-7">
+For the analysis of rolling motion, we have three equations :
+</para>
+<para id="element-8">
+<figure id="fig-8">
+<title> A solid sphere rolls down an incline </title>
+<media id="idm489680" alt=""><image src="../../media/riq2.gif" mime-type="image/gif"/></media>
+<caption> The sphere has mass “m” and radius “r”. </caption>
+</figure>
+</para>
+<para id="element-9">
+<term>(i)</term> Newton’s second law for translation 
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+<term>(ii)</term> Newton’s second law for rotation 
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> α </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> α </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">
+<term>(iii)</term> Equation of accelerated rolling 
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> α </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+Substituting value of “α” in the equation of rotation,
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+Putting this value in the equation of translation,
+</para>
+
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-24">
+<exercise id="exercise-24">
+<problem id="idp5052128">
+<para id="element-25">A solid sphere of mass “m” and radius “r” is rolled up on an incline as shown in the figure. Then, 
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> A solid sphere rolls up an incline </title>
+<media id="idm543696" alt=""><image src="../../media/riq3.gif" mime-type="image/gif"/></media>
+<caption> The sphere has mass “m” and radius “r”. </caption>
+</figure>
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> Friction acts upwards  </m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> Friction acts downwards   </m:mtext>
+<m:mspace width="4pt"/>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> Friction accelerates translation </m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> Friction accelerates rotation. </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm11723344">
+<para id="element-28">
+The solid sphere rotates clockwise to move up along the incline. The component of gravity along the incline acting downward decelerates translation. The friction, therefore, should appear in such a fashion that (i) there is linear acceleration to counter the deceleration due to gravity and (ii) there is angular deceleration so that equation of accelerated rolling is held.
+</para>
+<para id="element-29">
+<figure id="fig-29">
+<title> A solid sphere rolls up an incline </title>
+<media id="idp71984" alt=""><image src="../../media/riq4.gif" mime-type="image/gif"/></media>
+<caption> The sphere has mass “m” and radius “r”. </caption>
+</figure>
+</para>
+<para id="element-30">
+This means that friction acts upward. It accelerates translation in the direction of motion.
+</para>
+<para id="element-31">
+Hence, options (a) and (c) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-32">
+<exercise id="exercise-32">
+<problem id="idp6584480">
+<para id="element-33">
+A block of mass “m” slides down a smooth incline and a sphere of the same mass rolls down another identical incline. If both start their motion simultaneously from the same height on the incline, then
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> A block and a solid sphere along identical inclines </title>
+<media id="idm6674848" alt=""><image src="../../media/riq5.gif" mime-type="image/gif"/></media>
+<caption> The block and solid sphere move down the incline. </caption>
+</figure>
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd> 
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> block reaches the bottom first
+</m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> sphere reaches the bottom first
+</m:mtext>
+<m:mspace width="4pt"/>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> both reaches at the same time
+</m:mtext>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> either of them can reach first, depending on the friction between sphere and incline
+</m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp6013136">
+
+<para id="element-36">The time taken to reach bottom depends on the translational velocity. In turn, velocity depends on the acceleration of the bodies during motion.  
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> A block and a solid sphere along identical inclines </title>
+<media id="idp2724944" alt=""><image src="../../media/riq6.gif" mime-type="image/gif"/></media>
+<caption> The block slides and solid sphere rolls down the incline. </caption>
+</figure>
+</para>
+<para id="element-38">
+In the first case, the block slides on the smooth plane. Hence, there is no friction between surfaces.  The force along the incline is component of force due to gravity in the direction of motion. The translational acceleration of the block is :
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+In the second case, static friction less than maximum static friction operates at the contact point. The net force on the sphere, rolling down the incline, is :
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+The corresponding translational acceleration of the sphere is :
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+Evidently,
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Therefore, the block reaches the bottom first.
+</para>
+<para id="element-47">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>  
+
+<section id="section-2">
+<title> Application level (Rolling along an incline) </title>
+
+<para id="element-48">
+<exercise id="exercise-48">
+<problem id="idp3227488">
+<para id="element-49">
+A solid sphere of mass “m” and radius “r”, rolls down an incline of angle “θ” without sliding. What should be the minimum coefficient of friction (μ) so that the solid sphere rolls down without sliding?
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> A solid sphere along an incline </title>
+<media id="idp2502128" alt=""><image src="../../media/riq1.gif" mime-type="image/gif"/></media>
+<caption> The solid sphere rolls down the incline. </caption>
+</figure>
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> μ </m:mi>
+<m:mo> &gt; </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> μ </m:mi>
+<m:mo> &lt; </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> μ </m:mi>
+<m:mo> &lt; </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> μ </m:mi>
+<m:mo> &gt; </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm868496">
+
+<para id="element-52">
+Rolling requires a minimum threshold value of friction. If the friction is less than this threshold value, then the solid sphere will slide down instead of rolling down. Now, for the analysis of rolling motion, we have three equations :
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> A solid sphere along an incline </title>
+<media id="idp1334816" alt=""><image src="../../media/riq2.gif" mime-type="image/gif"/></media>
+<caption> The solid sphere rolls down the incline. </caption>
+</figure>
+</para>
+<para id="element-54">
+<term>(i) </term> Newton’s second law for translation 
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+<term>(ii) </term> Newton’s second law for rotation
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> α </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> α </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+<term>(iii) </term> Equation of accelerated rolling
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> α </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Substituting value of “α” in the equation of rotation,
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+Putting this value in the equation of translation,
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+Thus,
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+The limiting friction corresponding to a given coefficient of friction is :
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> μ </m:mi>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> μ </m:mi>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+For rolling to take place, the coefficient of friction be such that limiting friction corresponding to it is greater than the static friction required to maintain rolling,
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> μ </m:mi>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> &gt; </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> μ </m:mi>
+<m:mo> &gt; </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-72">
+<exercise id="exercise-72">
+<problem id="idp6617248">
+<para id="element-73">
+A solid sphere of mass “M” and radius “R” is set to roll down a smooth incline as shown in the figure. If the smooth incline plane is accelerated to the right with acceleration “a”, then what should be the horizontal acceleration of incline such that solid sphere rolls without sliding?
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> A solid sphere along an incline </title>
+<media id="idp6723104" alt=""><image src="../../media/riq7.gif" mime-type="image/gif"/></media>
+<caption> The solid sphere rolls down the incline, which itself is accelerated toward right. </caption>
+</figure>
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> g </m:mi>
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm498512">
+<para id="element-76">There is no friction between smooth incline and the solid sphere. The rolling sphere will roll on smooth plane at constant velocity. Acceleration will tend to slide the solid sphere on a smooth plane, where there is no friction. Hence,  net force on the sphere along the incline should be zero so that the sphere keeps rolling with constant velocity. 
+</para>
+<para id="element-78">Now, the incline itself is an accelerated frame of reference. For force analysis, we consider a pseudo force to covert the accelerated reference system to an equivalent inertia reference system. The pseudo force acts through the center of mass and its magnitude is :
+</para>
+<para id="element-77">
+<figure id="fig-77">
+<title> A solid sphere along an incline </title>
+<media id="idp6518832" alt=""><image src="../../media/riq8.gif" mime-type="image/gif"/></media>
+<caption> Pseudo force renders accelerated frame into an inertial frame. </caption>
+</figure>
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> Pseudo </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">Analyzing force for translation along the incline, we have :
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>  
+
+<section id="section-3">
+<title> Answers </title>
+<para id="element-262">
+<code display="block" id="idm381024">
+1. (d)   2. (a) and (c)    3. (a)    
+4. (a)   5. (c) 
+</code>
+</para>
+</section>
+
+  </content>
+  
+</document>

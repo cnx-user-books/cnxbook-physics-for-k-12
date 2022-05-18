@@ -1,0 +1,1218 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Resolution of forces (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>771d3e49-c3de-447f-b2f6-9e5b219a7d8f</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-1">
+<title> Hints for solving problems
+</title>
+<para id="element-2">
+We resolve a force along the axes of a coordinate system (see <link document="m14519"> Components of a vector </link>) in following manner :
+</para>
+<para id="element-3">
+<term>1 : </term> Select coordinate system such that maximum numbers of forces are along the axes of chosen coordinate system.
+</para>
+<para id="element-4">
+<term>2 : </term> Determine “x” and “y” components of force by considering acute angle between the direction of axis and force. 
+</para>
+<para id="element-5">
+<term>3 : </term> Use cosine of the acute angle for the component of axis with which angle is measured. Use sine of the angle for the axis perpendicular to the other axis. If “θ” be the angle that the force vector makes with x – axis, then components along “x” and “y” axes are :
+</para>
+<para id="element-6"><m:math display="block">
+  <m:mrow>
+
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7"><m:math display="block">
+  <m:mrow>
+
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">
+<term>4 : </term>  If the component i.e. projection of force is in the opposite direction of the reference axis, then we prefix the component with a negative sign.
+</para>
+</section>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-9">We discuss problems, which highlight certain aspects of the study leading to the analysis framework for law of motion. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-10">
+<list id="list-10" list-type="bulleted">
+<item> Balanced forces 
+</item>
+<item> Unbalanced forces 
+</item>
+<item> Acceleration due to gravity
+</item>
+<item> Forces on an incline
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Balanced forces 
+</title>
+
+<para id="element-11"><term> Problem 1 : </term> Two small spherical objects of mass “m” and “M” are attached with strings as shown in the figure. Find the angle “θ” such that the given system is in equilibrium.
+</para>
+<para id="element-12">
+<figure id="fig-4">
+<title> Balanced forces </title>
+<media id="idm16365184" alt=""><image src="../../media/rfq1.gif" mime-type="image/gif"/></media>
+<caption> Two blocks are hanging with the help of three strings.</caption>
+</figure>
+</para>
+<para id="element-14"><term> Solution : </term> Every point of the system is under action of balanced force system. We shall work through the points "A" and "B", where masses are attached. 
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Forces on the objects </title>
+<media id="idm7249088" alt=""><image src="../../media/rfq2a.gif" mime-type="image/gif"/></media>
+<caption> Forces on the spherical objects are weights and tensions as shown.</caption>
+</figure>
+</para>
+<para id="element-16">Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”  be the tensions  in the two strings, meeting at point "A". The forces at "A" are shown in the figure above. Considering balancing of forces in "x" and "y" directions :
+</para>
+<para id="element-17"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo> = </m:mo> 
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo> = </m:mo> 
+      <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18"><m:math display="block">
+  <m:mrow>
+<m:mo> ⇒ </m:mo> 
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>T</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>say</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo> = </m:mo> 
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19a"><m:math display="block">
+  <m:mrow>
+<m:mo> ⇒ </m:mo> 
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20"><m:math display="block">
+  <m:mrow>
+<m:mo> ⇒ </m:mo> 
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>T</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the tension in the upper section. The forces on the mass “M” is shown in the figure above. Considering balancing of forces in "x" and "y" directions :
+</para>
+<para id="element-23"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo> = </m:mo> 
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo> = </m:mo> 
+      <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">
+Substituting for “T” and evaluating, we have :
+</para>
+<para id="element-25"><m:math display="block">
+  <m:mrow>
+   <m:mo> ⇒ </m:mo> 
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26a">
+Substituting for "T", 
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>mg</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">Taking ratio of the resulting equations in the analysis of forces on "M",
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>M</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>m</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>m</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6">
+<title> Unbalanced forces
+</title>
+<para id="element-59"><term>Problem 2 : </term>A force “F” produces an acceleration “a” when applied to a body of mass “m”. Three coplanar forces of the same magnitudes are applied on the same body simultaneously as shown in the figure. Find the acceleration of the body.
+</para>
+<para id="element-60"><figure id="fig-60"><title> Forces on a body </title>
+<media id="idm6642432" alt=""><image src="../../media/rfq10.gif" mime-type="image/gif"/></media>
+<caption> Three forces act on a body as shown. </caption>
+</figure>
+</para>
+<para id="element-61"><term>Solution : </term>
+We select two axes of coordinate system so that they align with two mutually perpendicular forces as shown in the figure. We keep in mind that three forces are coplanar.
+</para>
+<para id="element-62">
+<figure id="fig-62">
+<title> Coordinate system </title>
+<media id="idm6392944" alt=""><image src="../../media/rfq9.gif" mime-type="image/gif"/></media>
+<caption> Coordinate system is selected to align with force. </caption>
+</figure>
+</para>
+<para id="element-63">
+Taking components of forces in “x” and “y” directions,
+</para>
+<para id="element-64"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mo>−</m:mo>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+The net force is given by :
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>F</m:mi>
+              <m:mrow>
+                <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>F</m:mi>
+              <m:mrow>
+                <m:mi>y</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mo>−</m:mo>
+              <m:msqrt>
+                <m:mn>3</m:mn>
+              </m:msqrt>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>+</m:mo>
+          <m:mn>4</m:mn>
+          <m:mo>+</m:mo>
+          <m:mn>3</m:mn>
+          <m:mo>−</m:mo>
+          <m:mn>4</m:mn>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>net</m:mi>
+
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>8</m:mn>
+          <m:mo>−</m:mo>
+          <m:mn>4</m:mn>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>net</m:mi>
+
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mo>−</m:mo>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+But, it is given that F = ma. Substituting for "F" in the equation, we have :
+</para>
+<para id="element-72"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>net</m:mi>
+
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mo>−</m:mo>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">Let acceleration of the body under three coplanar forces be a’. Then,
+</para>
+<para id="element-74"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mo>−</m:mo>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mo>−</m:mo>
+          <m:msqrt>
+            <m:mn>3</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title> Acceleration due to gravity
+</title>
+
+<para id="element-33"><term> Problem 3 : </term> A small cylindrical object slides down the smooth groove of 10 m on the surface of an incline plane as shown in the figure. If the object is released from the top end of the groove, then find the time taken to travel down the length.
+</para>
+
+<para id="element-34">
+<figure id="fig-34">
+<title> Motion along a groove </title>
+<media id="idm7600624" alt=""><image src="../../media/rfq3a.gif" mime-type="image/gif"/></media>
+<caption> The cylindrical object slides down the smooth groove.</caption>
+</figure>
+</para>
+<para id="element-35"><term> Solution : </term>In order to find the time taken to travel down the incline, we need to know acceleration along the groove. The object travels under the influence of gravity. The component of acceleration due to gravity along the incline (GE), as shown in the figure below, is :
+</para>
+<para id="element-602"><m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para><para id="element-36">
+<figure id="fig-36">
+<title> Component of acceleration due to gravity </title>
+<media id="idm6992576" alt=""><image src="../../media/rfq4a.gif" mime-type="image/gif"/></media>
+<caption> Acceleration due to gravity is resolved along the groove in two stages.</caption>
+</figure>
+</para>
+<para id="element-38">This component of acceleration makes an angle 60° with the groove. Hence, component of acceleration along the groove (CA) is given as :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>′</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">Combining two equations, the acceleration along the groove, "a", is :
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">
+The acceleration along the groove is constant. As such, we can apply equation of motion for constant acceleration :
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+    <m:mo>(</m:mo>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>80</m:mn>
+          <m:mi>g</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    <m:mo>)</m:mo>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>8</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5">
+<title> Forces on an incline
+</title>
+<para id="element-46"><term> Problem 4 : </term>Four forces act on a block of mass “m”, placed on an incline as shown in the figure. Then :
+</para>
+<para id="element-47">
+<figure id="fig-47">
+<title> A block on an incline </title>
+<media id="idp417312" alt=""><image src="../../media/rfq5.gif" mime-type="image/gif"/></media>
+<caption> A force "F" acts as shown.</caption>
+</figure>
+</para>
+<para id="element-48">
+<list id="list-48" list-type="enumerated">
+<item> Resolve forces along parallel and perpendicular to incline and find net component forces in two directions. 
+</item>
+<item> Resolve forces along horizontal and vertical directions and find net component forces in two directions. 
+</item>
+</list>
+</para>
+<para id="element-49"><term> Solution : </term>The free body diagram with four forces with coordinates are as shown in the figure below.
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> A block on an incline </title>
+<media id="idm1028144" alt=""><image src="../../media/rfq6.gif" mime-type="image/gif"/></media>
+<caption> Forces are resolved in directions parallel and perpendicular to incline.</caption>
+</figure>
+</para>
+<para id="element-51">
+The net component of forces along two axes are :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+Now, we select “x” and “y” axes along horizontal and vertical directions as shown. Note the angles that different forces make with the axes.
+</para>
+<para id="element-55">
+<figure id="fig-5f">
+<title> A block on an incline </title>
+<media id="idm5146384" alt=""><image src="../../media/rfq7.gif" mime-type="image/gif"/></media>
+<caption> Forces are resolved in horizontal and vertical directions.</caption>
+</figure>
+</para>
+<para id="element-56">
+The net component of forces along two axes are :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+
+
+
+  </content>
+  
+</document>

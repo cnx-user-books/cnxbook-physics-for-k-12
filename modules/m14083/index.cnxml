@@ -1,0 +1,789 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Unbalanced force system (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>d5b28465-d928-4159-b035-c80c0f20f1dd</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-2">We discuss problems, which highlight certain aspects of the study leading to unbalanced force system. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-3">
+<list id="list-3" list-type="bulleted"><item> Nature of force
+</item>
+<item> Motion under gravity
+</item>
+<item> Combined motion
+</item>
+<item> Constrained motion
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-5">
+<title> Nature of force
+</title>
+<para id="element-48a"><term>Problem 1 : </term>
+A pendulum bob oscillates between extreme positions in a vertical plane. The string connected to the bob is cut, when it is at one of the extreme points. What would be the  trajectory of the bob after getting disconnected?
+</para>
+<para id="element-50"><term>Solution : </term>
+This question emphasizes two important aspects of force. First, force has no past or future. It means that when force is removed, its effect is over. Second, if the body is at rest, then motion (velocity) of the body is in the direction of applied force.  
+</para>
+<para id="element-51">
+<figure id="fig-51">
+<title> Pendulum </title>
+<media id="idp12645808" alt=""><image src="../../media/ufq5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-52">When the string is cut, pendulum bob is at the extreme position and its velocity is zero. The tension in the string immediately disappears as the string is cut. At that instant, the only force on the pendulum bob is force due to gravity i.e. "mg", which acts in vertically downward direction.  Thus, pendulum bob has straight trajectory in the downward direction.
+</para>
+</section>
+
+<section id="section-3">
+<title> Motion under gravity
+</title>
+<section id="section-3a">
+<para id="element-102"><term>Problem 2 : </term>
+With what minimum acceleration a person should slide down a hanging rope, whose breaking strength is 
+<m:math>
+<m:msup>
+<m:mi> 2/3 </m:mi>
+<m:mi> rd </m:mi>
+</m:msup>
+</m:math>
+ of his weight?
+</para>
+<para id="element-103"><term>Solution : </term> The breaking strength of rope is less than the weight of the person. As such, the rope will break, if the person simply hangs on the rope. It is, therefore, required that the person should climb down with acceleration greater than a minimum value so that tension in the rope is less than its breaking strength. 
+</para>
+<para id="element-104">
+Let the person is sliding down with an acceleration, "a". The forces on the person are (i) tension in upward direction and (ii) weight of the person in downward direction. The free body diagram of the person sliding down the rope is shown here.
+</para>
+<para id="element-104a">
+<figure id="fig-104a">
+<title> Free body diagram </title>
+<media id="idm10288" alt=""><image src="../../media/ufq16.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-105">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> -</m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> -</m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-106">
+According to question, the limiting value of tension in the rope is :
+</para>
+<para id="element-107">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-107a">
+Putting the value of limiting tension in the equation of analysis, we have :  
+</para>
+<para id="element-108">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> -</m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mo> -</m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> g </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-3b">
+<para id="element-34"><term>Problem 3 : </term>
+Two small spheres of same dimensions “A” and “B” of mass “M” and “m” (M &gt; m) respectively are in free fall from the same height against air resistance “F”. Then, which of the spheres has greater acceleration?
+</para>
+<para id="element-39"><term>Solution : </term>
+The free body diagrams of the two bodies are shown in the figure. Let 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ be the accelerations of “A” and “B” blocks respectively. The force analysis in y-direction is as given here :
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Free body diagram </title>
+<media id="idp3836000" alt=""><image src="../../media/ufq4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-41">
+<m:math>
+<m:mtext> For “A”
+</m:mtext>
+</m:math>
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+Similarly,
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mi> m </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">
+As M &gt; m,
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-4">
+<title> Motion in horizontal direction
+</title>
+<section id="section-4a">
+<para id="element-24"><term>Problem 4 : </term>
+Three blocks “A”, “B” and “C” of identical mass “m” are in contact with each other. The blocks are pushed with a horizontal force "F". If 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and  
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+be the normal forces in horizontal direction at the contact surface between the pairs of blocks “A and B" and "B and C" respectively, then find (i) the net force on each of the blocks and (ii) normal forces, 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and  
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>.
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Three identical blocks being pushed by external force </title>
+<media id="idp1948736" alt=""><image src="../../media/ufq11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-27"><term>Solution : </term>
+Net force means resultant force on individual block. Here, the three blocks in contact under the given situation have same acceleration as block on left pushes the block ahead. As such, we can treat the motion of three blocks as that of a single composite block of mass “3m”. Let the common acceleration of the composite mass be “a”. Then,
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Force on composite mass </title>
+<media id="idm7283024" alt=""><image src="../../media/ufq3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29"> Note that we consider only horizontal forces as net force in vertical direction is zero. Since acceleration of each block of identical mass,"m", is same, the net force on each block must also be same. This is given by :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">In order to analyze forces for normal forces at the interface in horizontal direction, we need to carry out force analysis of the blocks appropriately. We start force analysis with the third block (C), as there is only one external force on the block in the horizontal direction. 
+</para>
+<para id="element-94">
+<figure id="fig-94">
+<title> Free body diagram </title>
+<media id="idp4134944" alt=""><image src="../../media/ufq12a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-95">
+<m:math>
+<m:mtext> Free body diagram of block “C”
+</m:mtext>
+</m:math>
+</para>
+<para id="element-96">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-97">
+We can now consider block “B” and “C” as the composite block of mass “2m”. Considering Free body diagram of block “B” and “C” together, we have :
+</para>
+<para id="element-99">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> F </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+
+
+<section id="section-4b">
+<para id="element-87"><term>Problem 5 : </term>
+Three blocks of mass 5 kg, 3 kg and 2 kg are placed side by side on a smooth horizontal surface as shown in the figure. An external force of 30 N acts on the block of 5 kg. Find the net external force on the block of mass 3 kg.
+</para>
+<para id="element-88">
+<figure id="fig-88">
+<title> Three blocks pushed by external force </title>
+<media id="idp5718256" alt=""><image src="../../media/ufq6a.gif" mime-type="image/gif"/></media>
+<caption> The blocks move together with a common acceleration </caption>
+</figure>
+</para>
+<para id="element-100"><term>Solution : </term>
+Here, we know that there is no motion in vertical direction. It means that forces in vertical directions are balanced force system and consideration in vertical direction can be conveniently excluded from the analysis. We can find net external force on the middle block by determining normal forces due to blocks on each of its sides. Evidently, the net external force will be the difference of normal forces in horizontal direction. This approach, however, will require us to analyze force on each of the blocks on the sides. 
+</para>
+<para id="element-100b">
+<figure id="fig-100b">
+<title> Net force on the block </title>
+<media id="idp4530672" alt=""><image src="../../media/ufq7a.gif" mime-type="image/gif"/></media>
+<caption> Net force is equal to the resultant of normal forces due to blocks on the side. </caption>
+</figure>
+</para>
+<para id="element-100c">Alternatively, we find common acceleration, “a”, of three blocks as :
+</para>
+<para id="element-100d">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>30</m:mn>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>30</m:mn>
+      <m:mn>10</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100e">According to second law of motion, the net force on the block is equal to the product of its mass and acceleration. Let the net force on the block be “F”. Then, 
+</para>
+<para id="element-100f">
+<figure id="fig-100f">
+<title> Net force on the block </title>
+<media id="idp225200" alt=""><image src="../../media/ufq8a.gif" mime-type="image/gif"/></media>
+<caption> Net force is equal to the product of mass and acceleration. </caption>
+</figure>
+</para>
+<para id="element-100g">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>3</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>9</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+</section>
+
+<section id="section-6">
+<title> Constrained motion
+</title>
+<para id="element-120"><term>Problem 6 : </term>
+At a given instant, two beads, “A” and “B” of equal mass “m” are connected by a string. They are held on a circular grove of radius “r” as shown in the figure. Find the accelerations of beads and the tension in the string, just after they are released from their positions.
+</para>
+<para id="element-121">
+<figure id="fig-121">
+<title> Beads on a circular groove </title>
+<media id="idp10133088" alt=""><image src="../../media/ufq9a.gif" mime-type="image/gif"/></media>
+<caption> The beads are released from the positions shown. </caption>
+</figure>
+</para>
+<para id="element-122"><term>Solution : </term>  Since motion is initiated, velocity of the beads are zero. No centripetal acceleration is associated at this instant. At this instant, the beads “A” and “B” have tangential accelerations in horizontal and vertical direction respectively. As the beads are connected with a string, magnitude of accelerations of the beads are equal in magnitude. As such, magnitude of tangential accelerations are equal when beads are released.
+</para>
+<para id="element-123">We can find acceleration and tension by considering free body diagram of each of the beads. The initial positions of the beads are at the end of a quarter of circle. It means that triangle OAB is an isosceles triangle and the string makes an angle 45° with the radius at these positions. Let 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and  
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ be the normal force at these positions on the beads. Let also consider that the magnitude of acceleration of either bead is “a”.
+</para>
+<para id="element-124">The free body diagrams of two beads are shown in the figure. 
+</para>
+<para id="element-125">
+<figure id="fig-125">
+<title> Free body diagrams </title>
+<media id="idp7134720" alt=""><image src="../../media/ufq10a.gif" mime-type="image/gif"/></media>
+<caption> The FBD of beads are shown. </caption>
+</figure>
+</para>
+<para id="element-126">Considering FBD of “A” and forces in horizontal direction, we have :
+</para>
+<para id="element-127">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-128">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-129">Considering FBD of “B” and considering forces in vertical, we have :
+</para>
+<para id="element-130">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-131">
+Substituting for “T”, 
+</para>
+<para id="element-132">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-133">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-134">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-135">
+We find tension in the string by putting value of acceleration in its expression as :
+</para>
+<para id="element-136">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:msqrt>
+        <m:mn>2</m:mn>
+      </m:msqrt>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+   
+  </content>
+  
+</document>

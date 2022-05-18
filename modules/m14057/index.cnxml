@@ -1,0 +1,752 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Unbalanced force system</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1cc87291-b54c-48a3-ab6f-2a6ffcda3ddb</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">We are now appropriately equipped to study motion under a system of forces, which is not a balanced force system. The resulting motion, in this situation, is an accelerated motion. The approach and methodology for studying motion with unbalanced force system are same as employed for the study of balanced force system.
+</para>
+<para id="element-2">There are large numbers of natural motions that fall under this category. One such motion involves motional mechanism that allows animals to move around – surprisingly using internal muscular force. We shall find out that this is not an exception to the laws of motion, rather an intelligent endeavor on the part of living beings that distinguish them from non-living counterparts. 
+</para>
+<para id="element-3">There are many more such real time examples. A large numbers of real time examples of accelerated motion belong to the category of circular motion. We shall, however, save these circular motion cases for the study at a later stage.  
+</para>
+<section id="section-1">
+<title> Basic framework </title>
+
+<para id="element-4">
+The laws of motion are again the basic frame work for the study of body system under unbalanced force system. The treatment of the laws differs in only one respect to the one used for balanced force system. The net force, now, does not equate to zero, but to the product of mass and acceleration. 
+</para>
+<para id="element-5">
+∑<term>F</term> = m<term>a</term>
+</para>
+<para id="element-6">
+In component form,
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> ; </m:mo>
+<m:mspace width="4pt"/>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> ; </m:mo>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<example id="example-8">
+<para id="element-8"><term>Problem : </term> A block of mass “m” is pulled by a string on a smooth horizontal surface with acceleration “a”. The string maintains an angle “θ” with horizontal. Find (i) tension in the string (ii) force applied by the surface on the block and (iii) force applied by the block on the surface.
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Unbalanced force system </title>
+<media id="idp3921520" alt=""><image src="../../media/ufs1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-10"> <term>Solution : </term> Here, we consider block as the body system. 
+</para> 
+
+<para id="element-12">
+<m:math>
+<m:mtext> Free body diagram of the block </m:mtext>
+</m:math>
+</para>
+
+<para id="element-11">
+The external forces on the block are (i) Tension in the string,T,  (ii) weight of the block, mg, and (ii) Normal force applied by the surface,N.
+</para>
+
+<para id="element-14">
+<figure id="fig-14">
+<title> Free body diagram </title>
+<media id="idp13728" alt=""><image src="../../media/ufs2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-15">
+The block moves in x-direction with acceleration “a’. On the other hand, there is no motion involved in vertical i.e. y-direction as implied by the question. The forces in y-direction, therefore, constitute a balanced force system. Now,
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+and
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> + </m:mo>
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+Putting values of tension, T, in the above equation,
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+According to Newton’s third law, the surface is acted upon by the same magnitude of force that the surface applies on the block. Thus, force on surface is also N, acting downward. 
+</para>
+</example>
+<para id="element-22">Note in the example above that vertical component of tension has reduced the normal force from its magnitude, when external force (T) is not applied. This highlights the important aspect of contact forces that they need not be equal to the weight of the body in contact. Equality of contact forces, however, is always maintained in accordance with Newton’s third law. This means that surface is also acted by a reduced normal force.
+</para>
+
+</section>  
+
+<section id="section-2">
+<title> Composite mass system </title>
+<para id="element-23">A composite body system can be selected with elements having same acceleration. We must understand here that when we consider a composite body system then all internal forces should be neglected from our consideration. The external force causes a common acceleration to the composite body system. Clearly, this technique of combining bodies into a single composite body system is possible only when accelerations of the constituents are same. 
+</para>
+<para id="element-24">
+Let us work out a problem here to illustrate this point about the composite mass system.
+</para>
+<example id="example-25">
+<para id="element-25"><term>Problem : </term> Two blocks A and B of masses 10 kg and 20 kg respectively, connected by a string, are placed on a smooth surface. The blocks are pulled by a horizontal force of 300 N as shown in the figure. Find (i) acceleration of the blocks (ii) tension in the string and determine (iii) whether magnitudes of acceleration and tension change when force is applied on other mass? Consider, 
+<m:math>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> Unbalanced force system </title>
+<media id="idm6120784" alt=""><image src="../../media/ufs3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-28"><term>Solution : </term> Let us first investigate acceleration and tension for the given configuration in the figure above. Here, we see that two masses have same acceleration. We can use this opportunity to apply the concept of composite body system (comprising of both blocks). We neglect tension in the string as it constitutes internal force for the whole composite body system.
+</para>
+
+<para id="element-30">
+Let “a” be the acceleration in the direction of force. The mass of the composite body system,
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> c </m:mi>
+</m:msub>
+</m:math>
+, is :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> c </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-29">
+<figure id="fig-29">
+<title> Composite body system </title>
+<media id="idp3511232" alt=""><image src="../../media/ufs4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+
+<para id="element-32">
+<m:math>
+<m:mtext> Free body diagram of the composite body system </m:mtext>
+</m:math>
+</para>
+<para id="element-33">
+<figure id="fig-33">
+<title> Free body diagram </title>
+<media id="idm13389008" alt=""><image src="../../media/ufs5a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 300 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">Note that this force equation does not depend on whether we apply force on A or B. In either case, the force equation remains same – only direction of acceleration changes with the change in the direction of applied force. It means that magnitude of acceleration of the two body system will remain same in either case.
+</para>
+<para id="element-36">In order to find the tension in the string, however, we need to consider individual block. Here, we consider block "A" for the simple reason that it is acted upon by a single force (T) in x-direction and analysis of force on block "A" will be simpler than that of block "B", which is acted by two forces (T and 300 N force).
+</para>
+<para id="element-37">
+<m:math>
+<m:mtext> Free body diagram of the body A </m:mtext>
+</m:math>
+</para>
+<para id="element-38">
+<figure id="fig-38"><title> Free body diagram </title>
+<media id="idp3324880" alt=""><image src="../../media/ufs6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+Now, we answer the third part of the question : whether magnitudes of acceleration and tension change when force is applied on other mass? Let us consider the case when force is applied on body “A” as shown in the figure. 
+</para>
+
+<para id="element-40a">
+<figure id="fig-40a">
+<title> Free body diagram </title>
+<media id="idm1252048" alt=""><image src="../../media/ufs12.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-40b">Now, we consider force and acceleration of block "B" as it is now acted by only one force i.e. tension in the string in x-direction.
+</para>
+<para id="element-41">
+<m:math>
+<m:mtext> Free body diagram of the body B </m:mtext>
+</m:math>
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> Free body diagram </title>
+<media id="idp5711600" alt=""><image src="../../media/ufs7a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 200 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">Thus, we see that acceleration (a) is independent, but tension (T) in the string is dependent on the point of application of the external force.
+</para>
+</example>
+</section>  
+
+
+<section id="section-3">
+<title> Time dependent force </title>
+
+
+<para id="element-45">
+The force as applied to a body may change with time. The change may occur in any combination of magnitude and direction of the force. The resulting acceleration will accordingly vary with time as given by force equation. In turn, the rate of change of velocity will change.
+</para>
+<para id="element-46">In a simplified scheme of thing, the velocity profile of a motion due to a particular variable force may look like the one shown here.
+</para>
+<para id="element-47">
+<figure id="fig-47">
+<title> Velocity – time plot </title>
+<media id="idm2284944" alt=""><image src="../../media/ufs8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-48">The velocity in first two seconds is increasing at constant rate, meaning that the body is under constant acceleration. The body is, thus, acted upon by a constant net force during this period. Subsequently, velocity is constant for time between 2s and 4s. Acceleration and hence force on the body , therefore, is zero in this interval. Finally, body is brought to rest with a constant force acting in opposite direction to that of velocity.
+</para>
+<para id="element-49">
+As a matter of fact, this velocity profile is typical of any vehicle, which is first accelerated, then run with minimum acceleration or even zero acceleration and finally brought to rest with constant deceleration.
+</para>
+<para id="element-50">
+We work out an example for studying motion under variable force, which is similar to the earlier example except that force is now dependent on time.
+</para>
+<example id="example-51">
+<para id="element-51"><term>Problem : </term> A block of mass “m” is pulled by a string on a smooth horizontal surface with force F = kt, where “k” is a constant. The string maintains an angle “θ” with horizontal. Find the time when block breaks off from the surface. 
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Unbalanced force system </title>
+<media id="idm4240384" alt=""><image src="../../media/ufs9.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-51a"><term>Solution : </term> Here, important thing is to know the meaning of "breaking off". It means that physical contact between two surfaces is broken off. In that condition, the normal force should disappear as there is no contact between block and surface. 
+</para> <para id="element-52a">Since normal force is directed vertically up, we need to analyze forces in y-direction only so that we could apply the condition corresponding to "breaking off".
+</para>
+<para id="element-53">
+<m:math>
+<m:mtext> Free body diagram of the block </m:mtext>
+</m:math>
+</para>
+<para id="element-54">
+<figure id="fig-54">
+<title> Free body diagram </title>
+<media id="idm403744" alt=""><image src="../../media/ufs10.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> + </m:mo>
+<m:mi> k </m:mi>
+<m:mi> t </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> k </m:mi>
+<m:mi> t </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">Now, let 
+<m:math>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> B</m:mi>
+</m:msub>
+</m:math>
+(break off time) when N = 0 (breaking off condition)
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> k </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>  
+
+<section id="section-5">
+<title> Motional mechanism of animals </title>
+
+<para id="element-60">
+According to laws of motion, motion of a body is not possible by the application of  internal force. On the other hand, animals move around using internal muscular force. This is not a contradiction, but an intelligent maneuvering on the part of animals, which use internal muscular force to generate external force on them. 
+</para>
+<para id="element-61">
+Let us take the case of our own movement. So long we stand upright, applying weight on the ground in vertical direction; there is no motion. 
+</para>
+
+<para id="element-62">
+<figure id="fig-62">
+<title> Motion of a human being </title>
+<media id="idp3008448" alt=""><image src="../../media/ufs11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-62a">
+To move forward (say), we need to press back the surface at an angle. The ground applies an equal and opposite force (say, reaction of the ground). The reaction of the surface is an external force for our body. The horizontal component of the reaction force moves our body forward, whereas the vertical force balances our weight.
+</para>
+
+</section>  
+
+<section id="section-4">
+<title> Elements of body system </title>
+
+<para id="element-58">
+The underlying frame work of the analysis of force systems in inertial frame of reference is now almost complete. There is nothing new as far as application of laws of motion is concerned. But, there is a big “but” with respect to details of various elements of body systems that we consider during study of motion. These elements typically are block, string, incline, pulleys and spring. 
+</para>
+<para id="element-59"> 
+The whole gamut of analysis in dynamics requires systemic approach to answer following questions :
+</para>
+<para id="element-59a"> 
+<list id="list-2" list-type="enumerated">
+
+<item> what are the forces ? 
+ </item>
+<item> which of them are external forces ?
+ </item>
+<item> does friction is part of the external force system ?
+ </item>
+<item> whether forces are collinear, coplanar or three-dimensional ?
+ </item>
+<item> are forces balanced or unbalanced ?
+ </item>
+<item> are the forces time dependent ?
+ </item>
+<item> is the motion taking place in inertial frame or accelerated frame ?
+ </item>
+<item> what would be the appropriate coordinate system for analysis ?
+ </item>
+<item> what are the characteristics of system elements ?
+ </item>
+</list>
+</para>
+<para id="element-59b"> 
+It is not very difficult to realize that our job is half done if we are able to classify the system in hand based on the answers to above questions. Though, we have listed the system elements at the end of the list, we shall soon realize that a great deal of our effort in getting answers to questions 1, 2, 4 and 8 are largely determined by the elements involved, while the rest are situation specific. 
+</para>
+<para id="element-59c"> 
+We have briefly described system elements like block, string, pulley etc. In subsequent modules, we shall emphasize details of these and other elements. 
+</para>
+
+</section>  
+
+
+
+
+  
+  </content>
+  
+</document>

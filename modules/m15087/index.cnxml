@@ -1,0 +1,1579 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravity</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5b77bb42-b048-4974-af7e-a8acea7362fe</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The term “gravity” is used for the gravitation between two bodies, one of which is Earth. 
+</para>
+<para id="element-2">Earth is composed of layers, having different densities and as such is not uniform. Its density varies from 2 
+<m:math>
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ for crust to nearly 14 
+<m:math>
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ for the inner core. However, inner differentiation with respect to mass is radial and not directional. This means that there is no preferential direction in which mass is aggregated more than other regions. Applying Newton’s shell theorem, we can see that Earth, if considered as a solid sphere, should behave as a point mass for any point on its surface or above it.
+</para>
+<para id="element-3">
+In the nutshell, we can conclude that density difference is not relevant for a point on the surface or above it so long Earth can be considered spherical and density variation is radial and not directional. As this is approximately the case, we can treat Earth, equivalently as a sphere of uniform mass distribution, having an equivalent uniform (constant) density. Thus, force of gravitation on a particle on the surface of Earth is given by :
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5">where “M” and “m” represents masses of Earth and particle respectively. For any consideration on Earth’s surface, the linear distance between Earth and particle is constant and is equal to the radius of Earth (R).
+</para>
+<section id="section-1">
+<title>Gravitational acceleration (acceleration due to gravity)</title>
+<para id="element-6">
+In accordance with Newton’s second law of motion, gravity produces acceleration in the particle, which is situated on the surface. The acceleration of a particle mass “m’, on the surface of Earth is obtained as :
+</para>
+<para id="element-7"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">The value corresponding to above expression constitutes the reference gravitational acceleration. However, the calculation of gravitational acceleration based on this formula would be idealized. The measured value of gravitational acceleration on the surface is different. The measured value of acceleration incorporates the effects of factors that we have overlooked in this theoretical derivation of gravitational acceleration on Earth.
+</para>
+<para id="element-9">We generally distinguish gravitational acceleration as calculated by above formula as “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” to differentiate it from the one, which is actually measured(g) on the surface of Earth. Hence,
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para><para id="element-661">This is a very significant and quite remarkable relationship. The gravitational acceleration does not dependent on the mass of the body on which force is acting! This is a special characteristic of gravitational force. For all other forces, acceleration depends on the mass of the body on which force is acting. We can easily see the reason. The mass of the body appears in both Newton's law of motion and Newton's law of gravitation. Hence, they cancel out, when two equations are equated. </para>
+</section>
+<section id="section-2">
+<title>Factors affecting Gravitational acceleration </title>
+<para id="element-11">
+The formulation for gravitational acceleration considers Earth as (i) uniform (ii) spherical and (iii) stationary body. None of these assumptions is true. As such, measured value of acceleration (g) is different to gravitational acceleration, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, on these counts : 
+</para>
+<para id="element-12">
+<list id="list-12" list-type="enumerated">
+<item> Constitution of the Earth
+ </item>
+<item> Shape of the Earth
+ </item>
+<item> Rotation of the Earth </item>
+</list>
+</para>
+<para id="element-14">In addition to these inherent factors resulting from the consequence of “real” Earth, the measured value of acceleration also depends on the point of measurement in vertical direction with respect to mean surface level or any reference for which gravitational acceleration is averaged. Hence, we add one more additional factor responsible for variation in the gravitational acceleration. The fourth additional factor is relative vertical position of measurement with respect to Earth’s surface.
+</para>
+<section id="section-2a">
+<title>Constitution of the Earth </title>
+<para id="element-15a">Earth is not uniform. Its density varies as we move from its center to the surface. In general, Earth can be approximated to be composed of concentric shells of different densities. For all practical purpose, we consider that the density gradation is radial and is approximated to have an equivalent uniform density within these concentric shells in all directions. 
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Constitution of the Earth </title>
+<media id="idp809120" alt=""><image src="../../media/gr1.gif" mime-type="image/gif"/></media>
+<caption> Density of Earth varies radially.</caption>
+</figure>
+</para>
+<para id="element-16">
+The main reason for this directional uniformity is that bulk of the material constituting Earth is fluid due to high temperature. The material, therefore, has a tendency to maintain uniform density in a given shell so conceived.
+</para>
+<para id="element-17">We have discussed that the radial density variation has no effect on a point on the surface or above it. This variation of density, however, impacts gravitational acceleration, when the point in the question is at a point below Earth’s surface. 
+</para>
+<para id="element-18">In order to understand the effect, let us have a look at the expression of gravitational expression :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">The impact of moving down below the surface of Earth, therefore, depends on two factors 
+</para>
+<para id="element-21">
+<list id="list-21" list-type="enumerated">
+<item> Mass (M) and  </item>
+<item> Distance from the center of Earth (r) </item>
+</list>
+</para>
+<para id="element-22">A point inside a deep mine shaft, for example, will result in a change in the value of gravitational acceleration due to above two factors. 
+</para>
+<para id="element-23">We shall know subsequently that gravitational force inside a spherical shell is zero. Therefore, mass of the spherical shell above the given point does not contribute to gravitational force and hence acceleration at that point. Thus, the value of “M” in the expression of gravitational acceleration decreases as we go down from the Earth’s surface. This, in turn, decreases gravitational acceleration at a point below Earth’s surface. At the same time, the distance to the center of Earth decreases. This factor, in turn, increases gravitational acceleration. 
+</para>
+<para id="element-24">If we assume uniform density, then the impact of “decrease in mass” is greater than that of impact of “decrease in distance”. We shall prove this subsequently when we consider the effect of vertical position. As such, acceleration is expected to decrease as we go down from Earth’s surface. 
+</para>
+<para id="element-25">In reality the density is not uniform. Crust being relatively light and thin, the impact of first factor i.e. “decrease in mass” is less significant initially and consequently  gravitational acceleration actually increases initially for some distance as we go down till it reaches a maximum value at certain point below Earth’s surface. For most of depth beyond, however, gravitational acceleration decreases with depth. 
+</para>
+</section>
+<section id="section-2b">
+<title>Shape of the Earth </title>
+<para id="element-26">
+Earth is not a sphere. It is an ellipsoid. Its equatorial radius is greater than polar radius by 21 km. A point at pole is closer to the center of Earth. Consequently, gravitational acceleration is greater there than at the equator.
+</para>
+<para id="element-27">Besides, some part of Earth is protruded and some part is depressed below average level. Once again, factors of mass and distance come into picture. Again, it is the relative impact of two factors that determine the net effect. Consider a point right at the top of Mt. Everest, which is about 8.8 km from the mean sea level. Imagine incrementing radius of Earth’s sphere by 8.8 km. Most of the volume so created is not filled. The proportionate increase in mass (mass of Everest mountain range) is less than that in the squared distance from the center of Earth. As such, gravitational acceleration is less than its average value on the surface. It is actually 9.80 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ as against the average of 9.81 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+, which is considered to be the accepted value for the Earth’s surface.
+</para>
+</section>
+<section id="section-2c">
+<title>Rotation of Earth </title>
+<para id="element-28">Earth rotates once about its axis of rotation in 1 day and moves around Sun in 365 days. Since Earth and a particle on Earth both move together with a constant speed around Sun, there is no effect in the measured acceleration due to gravity on the account of Earth’s translational motion. The curved path around Sun can be approximated to be linear for distances under consideration. Hence, Earth can serve as inertial frame of reference for the application of Newton’s law of motion, irrespective of its translational motion.
+</para>
+<para id="element-29">
+However, consideration of rotation of Earth about its axis changes the nature of Earth’s reference. It is no more an inertial frame. A particle at a point, “P”, is rotating about the axis of rotation. Clearly, a provision for the centripetal force should exist to meet the requirement of circular motion. We should emphasize here that centripetal force is not an additional force by itself, but is a requirement of circular motion, which should be met with by the forces operating on the particle. Here, gravitational force meets this requirement and, therefore, gets modified to that extent. 
+</para>
+<para id="element-678">Here, we shall restrict our consideration specifically to the effect of rotation. We will ignore other factors that affect gravitational acceleration. This means that we consider Earth is a  solid uniform sphere. If it is so then, measured value of acceleration is equal to reference gravitational acceleration (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+) as modified by rotation.</para><para id="element-30">As we have studied earlier, we can apply Newton’s law in a non-inertial reference by providing for pseudo force. We should recall that pseudo force is applied in the direction opposite to the direction of acceleration of the frame of reference, which is centripetal acceleration in this case. The magnitude of pseudo force is equal to the product of mass of the particle and centripetal acceleration. Thus, 
+</para>
+<para id="element-31"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>P</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>r</m:mi>
+  </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">After considering pseudo force, we can enumerate forces on the particle at “P” at an latitude “φ” as shown in the figure :
+</para>
+<para id="element-33">
+<list id="list-33" list-type="enumerated">
+<item> Pseudo force (
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+)  </item>
+<item> Normal force (N) </item>
+<item> gravitational force (
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+)</item>
+</list>
+</para>
+<para id="element-33a">
+<figure id="fig-33a">
+<title> Forces on the particle on the surface of Earth </title>
+<media id="idp9841184" alt=""><image src="../../media/gr2.gif" mime-type="image/gif"/></media>
+<caption> The particle is at rest under action of three forces.</caption>
+</figure>
+</para>
+<para id="element-34">The particle is subjected to normal force against the net force on the particle or the weight as measured. Two forces are equal in magnitude, but opposite in direction. 
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">It is worthwhile to note here that gravitational force and normal force are different quantities. The measured weight of the particle is equal to the product of mass and the measured acceleration. It is given by the expression “mg”. On the other hand, Gravitational force is given by the Newton’s equation, which considers Earth at rest. It is equal to “
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. 
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">Since particle is stationary on the surface of Earth, three forces as enumerated above constitute a balanced force system. Equivalently, we can say that the resultant of pseudo and gravitational forces is equal in magnitude, but opposite in direction to the normal force. 
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>N</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>F</m:mi>
+      </m:mstyle>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>F</m:mi>
+      </m:mstyle>
+      <m:mi>P</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">In other words, resultant of gravitational and pseudo forces is equal to the magnitude of measured weight of the particle. Applying parallelogram theorem for vector addition of gravitational and pseudo forces, the resultant of the two forces is :
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Forces on the particle on the surface of Earth </title>
+<media id="idp4822848" alt=""><image src="../../media/gr3.gif" mime-type="image/gif"/></media>
+<caption> The particle is at rest under action of three forces.</caption>
+</figure>
+</para>
+<para id="element-41a">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>m</m:mi>
+          <m:msub>
+            <m:mi>g</m:mi>
+            <m:mn>0</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>m</m:mi>
+          <m:msup>
+            <m:mi>ω</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>R</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>180</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">Putting N = mg and rearranging, we have:
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>g</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>g</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">Angular velocity of Earth is quite a small value. It may be interesting to know the value of the term having higher power of angular velocity. Since Earth completes one revolution in a day i.e an angle of  “2π” in 24 hrs, the angular speed of Earth is :
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>24</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>60</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>60</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>7.28</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>rad</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">The fourth power of angular speed is almost a zero value :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2.8</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>17</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">We can, therefore, safely neglect the term “
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+”. The expression for the measured weight of the particle, therefore, reduces to :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>g</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>g</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:msup>
+                <m:mi>ω</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>R</m:mi>
+              <m:mi>cos</m:mi>
+              <m:mi>φ</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>g</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+Neglecting higher powers of angular velocity and considering only the first term of the binomial expansion,
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mi>X</m:mi>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>ω</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>R</m:mi>
+            <m:mi>cos</m:mi>
+            <m:mi>φ</m:mi>
+          </m:mrow>
+          <m:msub>
+            <m:mi>g</m:mi>
+            <m:mn>0</m:mn>
+          </m:msub>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">This is the final expression that shows the effect of rotation on gravitational acceleration (
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+). The important point here is that it is not only the magnitude that is affected by rotation, but its direction is also affected as it is no more directed towards the center of Earth.
+</para>
+<para id="element-55">There is no effect of rotation at pole. Being a point, there is no circular motion involved and hence, there is no reduction in the value of gravitational acceleration. It is also substantiated from the expression as latitude angle is φ = 90° for the pole and corresponding cosine value is zero. Hence,
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>90</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">The reduction in gravitational acceleration is most (maximum) at the equator, where latitude angle is φ = 0° and corresponding cosine value is maximum (=1). 
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">We can check approximate reduction at the equator, considering R = 6400 km = 6400000 m = 
+<m:math>
+  <m:mrow>
+    <m:mn>6.4</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ m. 
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>7.28</m:mn>
+          <m:mi>X</m:mi>
+          <m:msup>
+            <m:mn>10</m:mn>
+            <m:mrow>
+              <m:mo>-</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>6.4</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>6</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>3.39</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0.0339</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">This is the maximum reduction possible due to rotation. Indeed, we can neglect this variation for all practical purposes except where very high accuracy is required.
+</para>
+</section>
+<section id="section-2d">
+<title>Vertical position </title>
+<para id="element-62">
+In this section, we shall discuss the effect of the vertical position of the point of measurement. For this, we shall consider Earth as a perfect sphere of radius “R” and uniform density, “ρ”. Further, we shall first consider a point at a vertical height “h” from the surface and then a point at a vertical depth “d” from the surface.
+</para>
+<section id="section-2d1">
+<title>Gravitational acceleration at a height</title>
+<para id="element-63">Gravitational acceleration due to Earth on its surface is equal to gravitational force per unit mass and is given by :
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para> 
+<para id="element-65">
+<figure id="fig-65">
+<title> Gravity at an altitude </title>
+<media id="idp11177504" alt=""><image src="../../media/gr4.gif" mime-type="image/gif"/></media>
+<caption> Distance between center of Earth and particle changes at an altitude.</caption>
+</figure>
+</para>
+<para id="element-66">where “M” and “R” are the mass and radius of Earth. It is clear that gravitational acceleration will decrease if measured at a height “h” from the Earth’s surface. The mass of Earth remains constant, but the linear distance between particle and the center of Earth increases. The net result is that gravitational acceleration decreases to a value “g’” as given by the equation,
+</para>
+
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">We can simplify this equation as,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:mi>R</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+Substituting for the gravitational acceleration at the surface, we have :
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>g</m:mi>
+        <m:mn>0</m:mn>
+      </m:msub>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:mi>R</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">This relation represents the effect of height on gravitational acceleration. We can approximate the expression for situation where h&lt;&lt; R. 
+</para>
+<para id="element-73"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+      <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>g</m:mi>
+        <m:mn>0</m:mn>
+      </m:msub>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:mi>R</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>+</m:mo>
+          <m:mfrac>
+            <m:mi>h</m:mi>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">As h&lt;&lt;R, we can neglect higher powers of “h/R” in the binomial expansion of the power term, 
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">
+We should always keep in mind that this simplified expression holds for the condition, h &lt;&lt; R. For small vertical altitude, gravitational acceleration decreases linearly with a slope of “-2/R”. If the altitude is large as in the case of a communication satellite, then we should resort to the original expression,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>h</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">If we plot gravitational acceleration .vs. altitude, the plot will be about linear for some distance. 
+</para><para id="element-539"><figure id="fig-539"><title> Acceleration .vs. linear distance </title>
+<media id="idp1936272" alt=""><image src="../../media/gr5.gif" mime-type="image/gif"/></media>
+<caption> The plot shows variations in gravitational acceleration as we move vertically upwards from center of Earth.</caption>
+</figure></para>
+</section>
+<section id="section-2d2">
+<title>Gravitational acceleration at a depth</title>
+<para id="element-79">In order to calculate gravitational acceleration at a depth “d”, we consider a concentric sphere of radius “R-d” as shown in the figure. Here, we shall make use of the fact that gravitational force inside a spherical shell is zero. It means that gravitational force due to the spherical shell above the point is zero. On the other hand, gravitational force due to smaller sphere can be calculated by treating it as point mass.  As such, net gravitational acceleration at point “P” is :
+</para>
+<para id="element-80">
+<figure id="fig-80"><title> Gravity at a depth </title>
+<media id="idp7335984" alt=""><image src="../../media/gr6.gif" mime-type="image/gif"/></media>
+<caption> Distance between center of Earth and particle changes at an altitude.</caption>
+</figure>
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>-</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">where “M’” is the mass of the smaller sphere. If we consider Earth as a sphere of uniform density, then  :
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>V</m:mi>
+    <m:mi>ρ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ρ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>4</m:mn>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">
+Hence, mass of smaller sphere is equal to the product :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>ρ</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>4</m:mn>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>4</m:mn>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">Substituting in the expression of gravitational acceleration, we have :
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+Inserting gravitational acceleration at the surface (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mi>G</m:mi>
+      <m:mi>M</m:mi>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+), we have :
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>R</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>d</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>R</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>d</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>d</m:mi>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">This is also a linear equation. We should note that this expression, unlike earlier case of a point above the surface, makes no approximation . The gravitational acceleration decreases linearly with distance as we go down towards the center of Earth. Conversely, the gravitational acceleration increases linearly with distance as we move from the center of Earth towards the surface. 
+</para>
+<para id="element-95"><figure id="fig-95"><title> Acceleration .vs. linear distance </title>
+<media id="idp8668624" alt=""><image src="../../media/gr7.gif" mime-type="image/gif"/></media>
+<caption> The plot shows variations in gravitational acceleration as we move away from center of Earth.</caption>
+</figure>
+</para>
+<para id="element-96">The plot above combines the effect of altitude and the effect of depth along a straight line, starting from the center of Earth.
+</para>
+</section>
+</section>
+</section>
+<section id="section-3">
+<title>Gravitational acceleration .vs. measured acceleration</title>
+<para id="element-97">We have made distinction between these two quantities. Here, we shall discuss the differences once again as their references and uses in problem situations can be confusing. 
+</para>
+<para id="element-98"><term>1: </term> For all theoretical discussion and formulations, the idealized gravitational acceleration (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+) is considered as a good approximation of actual gravitational acceleration on the surface of Earth, unless otherwise told.  The effect of rotation is indeed a small value and hence can be neglected for all practical purposes, unless we deal with situation, requiring higher accuracy.
+</para>
+
+
+<para id="element-101"><term>2: </term> We should emphasize that both these quantities (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and g) are referred to the surface of Earth. For points above or below, we use symbol (g’) for effective gravitational acceleration.
+</para>
+<para id="element-102"><term>3: </term> If context requires, we should distinguish between “g0” and “g”. The symbol “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” denotes idealized gravitational acceleration on the surface, considering Earth (i) uniform (ii) spherical and (iii) stationary. On the other hand, “g” denotes actual measurement. We should, however, be careful to note that measured value is also not the actual measurement of gravitational acceleration. This will be clear from the point below.
+</para>
+<para id="element-103"><term>4: </term> The nature of impact of “rotation” on gravitational acceleration is different than due to other factors. We observed in our discussion in this module that “constitution of Earth” impacts the value of gravitational acceleration for a point below Earth’s surface. Similarly, shape and vertical positions of measurements affect gravitational acceleration in different ways. However, these factors only account for the “actual” change in gravitational acceleration. Particularly, they do not modify the gravitational acceleration itself. For example, shape of Earth accounts for actual change in the gravitational acceleration as polar radius is actually smaller than equatorial radius. 
+</para>
+<para id="element-104">Now, think about the change due to rotation. What does it do? It conceals a part of actual gravitational acceleration itself. A part of gravitational force is used to provide for the centripetal acceleration. We measure a different gravitational acceleration than the actual one at that point. We should keep this difference in mind while interpreting acceleration. In the nutshell, rotation alone affects measurement of actual gravitational acceleration, whereas other factors reflect actual change in gravitational acceleration.</para>
+<para id="element-105"><term>5: </term> What is actual gravitational acceleration anyway? From the discussion as above, it is clear that actual gravitational acceleration on the surface of Earth needs to account for the part of the gravitational force, which provides centripetal force. Hence, actual gravitational acceleration is  :
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mrow>
+        <m:mi>actual</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107">Note that we have made correction for centripetal force in the measured value (g) – not in the idealized value (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+). It is so because measured value accounts actual impacts due to all factors. Hence, if we correct for rotation – which alone affects measurement of actual gravitational acceleration, then we get the actual gravitational acceleration at a point on the surface of the Earth.</para>
+</section> 
+  </content>
+  
+</document>

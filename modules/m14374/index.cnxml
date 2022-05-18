@@ -1,0 +1,1499 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rolling as pure rotation (Exercise)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14374</md:content-id>
+  <md:title>Rolling as pure rotation (Exercise)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>b5a60e9b-d459-4a15-87d4-89a7a21d96bd</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the theoretical treatment of the topic. The idea is to provide a verbose explanation of the solution, detailing the application of theory. Solution presented here, therefore, is treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation.
+</para>
+
+<section id="section-1">
+<title> Representative problems and their solutions </title>
+
+<para id="element-2">We discuss problems, whose analysis is suited to the technique of treating rolling motion as pure rotation. For this reason, questions are categorized in terms of the characterizing features pertaining to the questions :
+</para>
+<para id="element-3">
+<list id="list-19" list-type="bulleted">
+<item> Positions on the rolling body with a specified velocity
+ </item>
+<item> Velocity of a particle situated at a specified position
+ </item>
+<item> Distance covered by a particle in rolling
+ </item>
+<item> Kinetic energy of rolling
+ </item>
+</list>
+</para>
+<section id="section-1a">
+<title> Position on the rolling body with specified velocity
+</title>
+<para id="element-4"><term>Example 1 </term> </para>
+<para id="element-5"><term>Problem : </term> At an instant, the contact point of a rolling disk of radius “R” coincides with the origin of the coordinate system. If the disk rolls with constant angular velocity, “ω”, along a straight line, then find the position of a particle on the vertical diameter, whose velocity is 1/ 2 of the velocity with which the disk rolls. 
+</para>
+<para id="element-6"> <term>Solution : </term> Here, the particle on the vertical diameter moves with a velocity, which is 1/ 2 of that of the velocity of the center of mass. Now, velocity of center of mass is :
+</para>
+
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">
+Let the particle be at a distance “y” from the point of contact on the vertical diameter. Then, velocity of the particle is :
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Velocity of a particle </title>
+<media id="id1168800404989" alt=""><image src="../../media/rrq1a.gif" mime-type="image/gif"/></media>
+<caption> Velocity of a particle on the vertical diameter </caption>
+</figure></para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+According to question, 
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">
+Putting values,
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+<note id="id1168803467445"> This result is expected from the nature of relation “
+<m:math>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:math>
+”. It is a linear relation for vertical distance. The velocity varies linearly with the vertical distance. </note>
+</para>
+
+<para id="element-18"><term>Example 2 </term> </para>
+<para id="element-19"><term>Problem : </term> At an instant, the contact point of a rolling disk of radius “R” coincides with the origin of the coordinate system. If the disk rolls with constant angular velocity, “ω”, along a straight line, then find the position of a particle on the rim of the disk, whose speed is same as the speed with which the disk rolls. 
+</para>
+<para id="element-20"> <term>Solution : </term> Here, the particle on the rim of the disk moves with the same velocity as that of the velocity of the center of mass. Now, velocity of center of mass is :
+</para>
+
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+Let the particle be at P(x,y) as shown in the figure. Then, velocity of the particle is :
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Velocity of a particle </title>
+<media id="id1168794523333" alt=""><image src="../../media/rrq2.gif" mime-type="image/gif"/></media>
+<caption> Velocity of a particle on the rim of the disk </caption>
+</figure>
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+According to question, 
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+Putting values,
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> 2 </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> 30 </m:mi>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> 30 </m:mi>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 60 </m:mi>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> 60 </m:mi>
+<m:mo> ° </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mi> 2 </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> R </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> 60 </m:mi>
+<m:mo> ° </m:mo>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mi> 2 </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+Since there are two such points on the rim on either side of the vertical line, the coordinates of the positions of the particles, having same speed as that of center of mass are :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mi> 2 </m:mi>
+</m:mfrac>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mi> 2 </m:mi>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mi> 3 </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mi> 2 </m:mi>
+</m:mfrac>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mi> 2 </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-1b">
+<title> Velocity of a particle situated at a specified position 
+</title>
+
+<para id="element-34"><term>Example 3 </term> </para>
+<para id="element-35"><term>Problem : </term> A circular disk of radius “R” rolls with constant angular velocity, “ω”, along a straight line. At an instant, the contact point of a rolling disk coincides with the origin of the coordinate system. Find the velocity of a particle, situated at a point (0,3R/2), as seen by (i) an observer on the ground (ii) an observer who is translating in the direction of rolling with a velocity  “ωR/2” and (iii) an observer who is translating in the direction of rolling with a velocity  equal to that of center of mass. 
+</para>
+<para id="element-36">
+<figure id="fig-36"><title> Velocity of a particle </title>
+<media id="id1168795603863" alt=""><image src="../../media/rrq3a.gif" mime-type="image/gif"/></media>
+<caption> Velocity of a particle on the vertical diameter </caption>
+</figure>
+</para>
+<para id="element-37"> <term>Solution : </term>  (i) The linear distance of the particle from the contact point is 3R/2. Since, particle is situated on the vertical diameter, the tangent to the circular path is horizontal. This means that particle is moving in horizontal direction (x – direction) with this speed. Hence, velocity of the particle as seen from the ground is :
+</para>
+
+<para id="element-35a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36a">
+(ii) The observer is moving with velocity “ωR/2” in the direction of rolling. Thus, relative velocity of the particle with respect to observer is :
+</para>
+<para id="element-37a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> PO </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> PO </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+(iii) The observer is moving with velocity of center of mass “ωR” in the direction of rolling. Thus, relative velocity of the particle with respect to observer is :
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> PO </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> PO </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+Note that the observer moving with the velocity of center of mass views rolling as pure rotation. The motion of the particle will be seen by the observer as the pure rotation of the particle about the perpendicular axis, which passes through center of mass. Now, particle is at a distance "3R/2 - R = R/2" from the central axis. Hence, linear velocity due to pure rotation only is :
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> PO </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41a">
+Thus, the result is same as obtained when we consider rolling as pure rotation about instantaneous axis of rotation at contact point.
+</para>
+
+<para id="element-42"><term>Example 4 </term> </para>
+<para id="element-43"><term>Problem : </term> A circular disk of radius “R” rolls with constant angular velocity, “ω”, along a straight line. At an instant, the contact point of a rolling disk coincides with the origin of the coordinate system. Find the velocity of a particle, situated at a point (R/2,3R/2), as seen by (i) an observer on the ground and (ii) an observer, who is translating in the direction of rolling with a velocity  equal to that of center of mass. 
+</para>
+<para id="element-44">
+<figure id="fig-44">
+<title> Velocity of a particle </title>
+<media id="id1168808812445" alt=""><image src="../../media/rrq4a.gif" mime-type="image/gif"/></media>
+<caption> Velocity of a particle at a specified position </caption>
+</figure>
+</para>
+<para id="element-45"> <term>Solution : </term>  (i) In this case, velocity of the particle can be easily found out applying vector form of the relation,
+</para>
+
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+Here, angular velocity is into the plane of disk and is, therefore, negative :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo mathvariant="bold"> k </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+The position vector of the particle at the given instant is :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51a">
+Hence, velocity of the particle is :
+</para>
+<para id="element-51b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-52">
+It is significant to note that signs of the components involved in the result is consistent with the physical interpretation as shown in the figure.
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> Velocity of a particle </title>
+<media id="id1168794385926" alt=""><image src="../../media/rrq8.gif" mime-type="image/gif"/></media>
+<caption> Velocity of a particle at a specified position </caption>
+</figure>
+</para>
+<para id="element-54">
+(ii) The observer moving with the velocity of center of mass in the x-direction. Its velocity is :
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mo mathvariant="bold"> i </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+Thus, relative velocity of the particle with respect to observer is :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> PO </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> PO </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> PO </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-1c">
+<title> Distance covered by a particle in rolling
+</title>
+
+<para id="element-58"><term>Example 5 </term> </para>
+<para id="element-59"><term>Problem : </term> Find the distance covered in one complete revolution by a particle on the rim of a circular disk, which is rolling with constant velocity along a straight line on a horizontal plane.
+</para>
+<para id="element-60"> <term>Solution : </term> The question, here, seeks to find the distance covered. We know that each particle on the rim of the disk moves along a cycloid curve as shown in the figure.
+</para>
+
+<para id="element-58a">
+<figure id="fig-58a">
+<title> Path of a particle in rolling motion </title>
+<media id="id1168793845406" alt=""><image src="../../media/rrq5.gif" mime-type="image/gif"/></media>
+<caption> Path of a particle in rolling motion is a cycloid. </caption>
+</figure>
+</para>
+<para id="element-59a">
+The speed of the particle along the curve is not constant, but varies as :
+</para>
+<para id="element-60a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> 2 </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+where “θ” is the angle that the particle makes with vertical at the center. During one rotation, the angle varies from 0° to 360°. For this range of values, sin θ/2 varies between 0 to 1 in the first half and then 1 to 0 in the second half of the motion. The plot of speed – time approximates as shown here.
+</para>
+<para id="element-62">
+<figure id="fig-62">
+<title> Speed – time plot </title>
+<media id="id1168793216149" alt=""><image src="../../media/rrq6.gif" mime-type="image/gif"/></media>
+<caption> Speed of the particle first increases for first half, then decreases in the other half. </caption>
+</figure>
+</para>
+<para id="element-63">
+The differential distance covered is given as :
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+We know that the the area under speed – time curve gives the distance covered by the particle. Hence, distance is :
+</para>
+<para id="element-66">
+<figure id="fig-66">
+<title> Speed – time plot </title>
+<media id="id1168794445942" alt=""><image src="../../media/rrq7.gif" mime-type="image/gif"/></media>
+<caption> Area under plot gives the distance covered. </caption>
+</figure>
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> 2 </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+In order to have only one variable in the integration, we use the relation,
+</para>
+<para id="element-69">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">
+Substituting in the integration,
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> 2 </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">Putting the appropriate limits of time for one revolution and taking out the constants from the integration,
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> s </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> 2 </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mi> 2 </m:mi>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mi> ω </m:mi>
+</m:mfrac>
+</m:mrow>
+</m:msubsup>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> s </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> 4 </m:mi>
+<m:mi> R </m:mi>
+<m:mo> [ </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> cos </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mi> 2 </m:mi>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mi> ω </m:mi>
+</m:mfrac>
+</m:mrow>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> s </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> 4 </m:mi>
+<m:mi> R </m:mi>
+<m:mo> [ </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> π </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> 0 </m:mi>
+<m:mo> ° </m:mo> 
+<m:mo> ] </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> s </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> 8 </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-1d">
+<title> Kinetic energy of rolling
+</title>
+
+<para id="element-77"><term>Example 6 </term> </para>
+<para id="element-78"><term>Problem : </term> A hollow sphere of mass “M” and radius “R” is rolling with a constant velocity “v”. What is ratio of translational kinetic energy and total kinetic energy.
+</para>
+<para id="element-79"> <term>Solution : </term> The kinetic energy of the rolling sphere is given by :
+</para>
+
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+Here,
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+and
+</para>
+<para id="element-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85">
+For hollow sphere,
+</para>
+<para id="element-86">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-87">
+Putting these values in the equation of kinetic energy, we have :
+</para>
+<para id="element-88">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+The translational kinetic energy of the rigid body is given by :
+</para>
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92">
+Hence, the required ratio is :
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mi> K </m:mi>
+<m:mrow>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</section>
+
+</section>
+  </content>
+  
+</document>

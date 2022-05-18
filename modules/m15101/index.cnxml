@@ -1,0 +1,683 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conservation of energy in mechanical process</title>
+  <metadata>
+  <md:content-id>m15101</md:content-id><md:title>Conservation of energy in mechanical process</md:title>
+  <md:abstract>Conservation of energy in mechanical process is a subset of the law of conservation of energy.</md:abstract>
+  <md:uuid>1921dc93-a6d0-4564-9c0e-0f157539520c</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">We have discussed formulation of conservation of energy in general. In this module, we shall discuss conservation law as applied to mechanical process. Typically, a mechanical process involves three different kinds of energy - kinetic, potential and heat. We shall, however, restrict treatment of heat as an equivalent to work by friction. 
+</para>
+<para id="element-2">On the other hand, the process generally involves gravitational, elastic and friction forces. These forces transfer energy involving different energy forms by doing work on the objects of the system.
+</para>
+<para id="element-3">Depending on the context of situation, we use either closed or isolated system. Further, mechanical process is generally limited to exchange of energy within or outside the system via “work”. In short, we can describe a mechanical process in terms of following elements :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> System : closed or isolated </item>
+<item> Energy :  kinetic, potential and heat (work by friction) </item>
+<item> Forces : gravitational, elastic and friction </item>
+<item> Transfer of energy : work by forces across and within the system </item>
+</list>
+</para>
+<para id="element-5">In order to facilitate systematic study of mechanical process, we shall study three different situations in progressive simplicity of the process : 
+</para>
+<para id="element-6">
+<list id="list-6" list-type="enumerated">
+<item> A mechanical process with external force on the system. </item>
+<item> A mechanical process without external force on the system.  </item>
+<item> A mechanical process without external force on the system and without non-conservative internal force (absence of friction).  </item>
+</list>
+</para>
+<para id="element-7">In this module, we shall discuss the first two processes. Third process represents the ideal mechanical process. The corresponding conservation law is known as “conservation of mechanical energy”. This law is being dealt in a separate module.
+</para>
+
+<section id="section-1">
+<title>Mechanical process with external force on the system</title>
+<para id="element-9">One implication of external force on the system is that we are dealing with special “closed” system, which permits exchange of energy with surrounding via “work by external force” only. The form of conservation law for the mechanical process is :
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>thermal</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">However, we pointed out that we shall limit change in thermal energy to “heat energy”, which is equal to the negative of work by friction only. Hence, we can rewrite the equation as :
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">In words, we can put the conservation of energy for mechanical process as :
+</para>
+<para id="element-17">
+“Work by external force on the system and work by friction within the system is equal to the change in potential and kinetic energy of the system.”
+</para>
+<section id="section-1a">
+<title>Example</title>
+<para id="element-18"><term>Problem 1: </term>Two blocks of 1 kg and 2 kg are connected by a spring as shown in the figure. If spring constant is 500 N/m and coefficient of static and kinetic friction between surfaces are each 0.5, then what minimum constant horizontal force, F, (in Newton) is required to just initiate block on the left ? (Consider g = 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-19">
+<figure id="fig-19">
+<title> Block spring system </title>
+<media id="id16223282" alt=""><image src="../../media/mp1.gif" mime-type="image/gif"/></media>
+<caption> An external force is applied to initiate block on left. </caption>
+</figure>
+</para>
+<para id="element-20"><term>Solution : </term> The system consists of two blocks and one spring. The system is subjected to an external force. Thus, system is “closed” system, which allows energy exchange with system via work by external force. As friction is also involved, the corresponding energy statement is :
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">We are required to find minimum force. We need to understand the implication of this phrase. It is clear that we can apply external force in such a manner that block of “2 kg” acquires kinetic energy by the time block of “1 kg” is initiated in motion. Alternatively as a base case, we can apply external force gradually and slowly in increasing magnitude till the block of “1 kg” is initiated in motion. In this case, the block of “2 kg” does not acquire kinetic energy. This mode of application of external force represents the situation when minimum external force will be required to initiate block of “1 kg”. Hence, 
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">Motion of block is constrained in horizontal direction. There is no change of vertical elevation. Hence, there is no change in gravitational potential energy. However, spring is stretched from its neutral state. As a consequence, there is change in elastic potential energy of the spring. Let “x” be the extension in the spring by the time block of “1 kg” is initiated in motion. Then, the total change in potential energy is :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">The work by friction is done only on the right block of “2 kg” :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">On the other hand, the work by external force is :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">Putting all these values in the equation of conservation of energy  :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">Clearly, we can not solve this equation as there are two unknowns, “F” and “x”. We, therefore, make use of the fact that spring force on the block of mass “1 kg” is equal to maximum static friction, 
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Forces on the block </title>
+<media id="id11138810" alt=""><image src="../../media/mp2.gif" mime-type="image/gif"/></media>
+<caption> The spring force is equal to maximum static friction. </caption>
+</figure>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">Combining two equations, we have :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mn>2</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39"><note id="id16495504">It is interesting to note that force required to initiate left block is independent of spring constant. 
+</note>
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title>Mechanical process without external force on the system </title>
+<para id="element-40">
+Since no external force operates on the system, there is no work by external force. The system under consideration is, therefore, an isolated system. The form of conservation law for general mechanical process is further reduced as :
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">In words, we can put the conservation of energy for mechanical process under given condition as :
+</para>
+<para id="element-43">
+“Work by friction within an isolated system is equal to the change in potential and kinetic energy of the system.”
+</para>
+<section id="section-2a">
+<title>Example </title>
+<para id="element-44"><term>Problem 2:</term> In the arrangement shown, the block of mass 10 kg descends through a height of 1 m after being released. The coefficient of friction between block and the horizontal table is 0.3, whereas pulley is friction-less. Considering string and pulley to be “mass-less”, find the speed of the blocks.
+</para>
+<para id="element-45">
+<figure id="fig-45">
+<title> Block pulley system </title>
+<media id="id14211192" alt=""><image src="../../media/mp3.gif" mime-type="image/gif"/></media>
+<caption> Blocks move by 1 m. </caption>
+</figure>
+</para>
+<para id="element-46"><term>Solution :</term> Here, friction is present as internal force to the system. Hence, we use the form of conservation law as :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+Let us denote 6 kg and 10 kg blocks with subscript “1” and “2”. There is no change of height for the block on the table. Only change in gravitational potential energy is due to change in the height of the block hanging on the other end of the string. Thus, change in potential energy is :
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>x</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>x</m:mi>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>100</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">Two blocks are constrained by a taut string. It means that both blocks move with same speed.  Let the speed of the blocks after traveling “1 m” be "v". Now, initial kinetic energy of the system is zero. Therefore, the change in kinetic energy is given by :
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-56">Friction works only on the block lying on the table. Here, work by friction is given as :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>0.3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>6</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>18</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Putting in the equation of conservation of energy,
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>18</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>100</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>82</m:mn>
+      <m:mn>8</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+  
+  </content>
+  
+</document>

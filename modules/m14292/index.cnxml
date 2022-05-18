@@ -1,0 +1,2575 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Moments of inertia of rigid bodies</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14292</md:content-id>
+  <md:title>Moments of inertia of rigid bodies</md:title>
+  <md:abstract>Moment of inertia of rigid body depends on the distribution of mass about the axis of rotation.</md:abstract>
+  <md:uuid>b968f269-fa7e-439f-8489-ef40f80e7c3f</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1a">In the module titled <link document="m14278"> Rotation of rigid body </link>, we derived expressions of moments of inertia (MI) for different object forms as :
+</para>
+<para id="element-3">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mi> 1. For a particle : </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> 2. For a system of particles : </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-7"><m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:mi> 3. For a rigid body : </m:mi>
+</m:mtd>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para> 
+<para id="element-7a">In this module, we shall evalaute MI of different regularly shaped rigid bodies. 
+</para> 
+<section id="section-1">
+<title> Evaluation strategy </title>
+
+
+
+<para id="element-8">We evaluate right hand integral of the expression of moment of inertia for regularly shaped geometric bodies. The evaluation is basically an integration process, well suited to an axis of rotation for which mass distribution is symmetric. In other words, evaluation of the integral is easy in cases where mass of the body is evenly distributed about the axis. This axis of symmetry passes through "center of mass" of the regular body. Calculation of moment of inertia with respect to other axes is also possible, but then integration process becomes tedious. 
+</para>
+<para id="element-9">There are two very useful theorems that enable us to calculate moment of inertia about certain other relevant axes as well. These theorems pertaining to calculation of moment of inertia with respect to other relevant axes are basically "short cuts" to avoid lengthy integration. We must, however, be aware that these theorems are valid for certain relevant axes only. If we are required to calculate moment of inertia about an axis which can not be addressed by these theorems, then we are left with no choice other than evaluating the integral or determining the same experimentally. As such, we limit ourselves in using integral method to cases, where moment of inertia is required to be calculated about the axis of symmetry. 
+</para>
+<para id="element-10">In this module, we will discuss calculation of moment of inertia using basic integral method only, involving bodies having (i) regular geometric shape (ii) uniform mass distribution i.e uniform density and (iii) axis of rotation passing through center of mass (COM). Application of the theorems shall be discussed in a separate module titled "<link document="m14294"> Theorems on moment of inertia </link>". 
+</para>
+<para id="element-652">As far as integration method is concerned, it is always useful to have a well planned methodology to complete the evaluation. In general, we complete the integration in following steps :</para><para id="element-11">
+<list id="list-11" list-type="enumerated"><item> Identify an infinitesimally small element of the body.  </item>
+<item> Identify applicable density type (linear, surface or volumetric). Calculate elemental mass "dm" in terms of appropriate density.  </item>
+<item>  Write down the expression of moment of inertia (đI) for elemental mass. </item>
+<item> Evaluate the integral of moment of inertia for an appropriate pair of limits and determine moment of inertia of the rigid body. </item>
+
+</list>
+</para>
+<para id="element-12">Identification of small element is crucial in the evaluation of the integral. We consider linear element in evaluating integral for a linear mass distribution as for a rod or a plate. On the other hand, we consider thin concentric ring as the element for a circular plate, because we can think circular plate being composed of infinite numbers of thin concentric rings. Similarly, we consider a spherical body, being composed of closely packed thin spherical shells. 
+</para>
+<para id="element-14">Calculation of elemental mass "đm" makes use of appropriate density on the basis of the nature of mass distribution in the rigid body :
+
+</para>
+<para id="element-15"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> mass </m:mi>
+<m:mo> = </m:mo>
+<m:mspace width="2pt"/> 
+<m:mi> appropriate density  </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="4pt"/>
+<m:mi> geometric dimension  </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">The choice of density depends on the nature of body under consideration. In case where element is considered along length like in the case of a rod, rectangular plate or ring, linear density (λ) is the appropriate choice. In cases, where surface area is involved like in the case of circular plate, hollow cylinder and hollow sphere, areal density (σ) is the appropriate choice. Finally, volumetric density (ρ) is suitable for solid three dimensional bodies like cylinder and sphere. The elemental mass for different cases are :  
+
+</para>
+<para id="element-17"><equation id="equation-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> λ </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> σ </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> A </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ρ </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> V </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-18">
+<figure id="fig-18" orient="horizontal"><title> Elemental mass </title>
+<subfigure id="fig-18a">
+<media id="id1168030922659" alt=""><image src=" mi1b.gif" mime-type="image/gif"/></media>
+<caption> Elemental mass of a rod for MI about perpendicular bisector </caption>
+</subfigure>
+<subfigure id="fig-18b">
+<media id="id1168023400900" alt=""><image src="../../media/mi2a.gif" mime-type="image/gif"/></media>
+<caption> Elemental mass of a circular disc for MI about perpendicular axis through the center  </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-19">
+<figure id="fig-19"><title>Elemental mass </title><media id="id1168025175261" alt=""><image src="../../media/mi3a.gif" mime-type="image/gif"/></media>
+
+<caption>Elemental mass of a sphere for MI about a diameter  </caption></figure>
+</para>
+<para id="element-20">The MI integral is then expressed by suitably replacing "dm" term by density term in the integral expression. This approach to integration using elemental mass assumes that mass distribution is uniform. </para>
+</section>
+
+<section id="section-2">
+<title> Evaluation of moment of inertia </title>
+
+<para id="element-21">In this section, we shall determine MI of known geometric bodies about the axis of its symmetry. </para>
+
+<section id="section-2a">
+<title> MI of a uniform rod about its perpendicular bisector </title>
+
+<para id="element-22">
+The figure here shows the small element with repect to the axis of rotation. Here, the steps for calculation are :  
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Moment of inertia </title>
+<media id="id1168023153109" alt=""><image src="../../media/mi4.gif" mime-type="image/gif"/></media>
+<caption> MI of a rod about perpendicular bisector </caption>
+</figure></para>
+<para id="element-24">
+<term>(i)</term> Infinetesimally small element of the body :
+</para>
+<para id="element-25">
+Let us consider an small element "dx" along the length, which is situated at a linear distance "x" from the axis.
+</para>
+<para id="element-26">
+<term>(ii)</term> Elemental mass :
+</para>
+<para id="element-27">Linear density, λ, is the appropriate density type in this case.
+</para>
+<para id="element-28"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> λ </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+where "M" and "L" are the mass and length of the rod respectively. Elemental mass (đm) is, thus, given as :
+</para>
+<para id="element-30"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> λ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-31">
+<term>(iii)</term> Moment of inertia for elemental mass :
+
+</para>
+<para id="element-32">
+Moment of inertia of elemental mass is :
+</para>
+<para id="element-33">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+<term>(iv)</term> Moment of inertia of rigid body :
+</para>
+<para id="element-35"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">While setting limits we should cover the total length of the rod. The appropriate limits of integral in this case are  -L/2 and L/2. Hence,
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msubsup>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+Taking the constants out of the integral sign, we have :
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msubsup>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40"><equation id="equation-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+
+<section id="section-2b">
+<title> MI of a rectangular plate about a line parallel to one of the sides and passing through the center
+</title>
+<para id="element-41">The figure here shows the small element with repect to the axis of rotation i.e. y-axis, which is parallel to the breadth of the rectangle. Note that axis of rotation is in the place of plate. Here, the steps for calculation are :  
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> Moment of inertia </title>
+<media id="id1168023406683" alt=""><image src="../../media/mi5.gif" mime-type="image/gif"/></media>
+<caption> MI of rectangular plate about a line parallel to its length and passing through the center </caption>
+</figure>
+</para>
+<para id="element-43">
+<term>(i)</term> Infinetesimally small element of the body :
+</para>
+<para id="element-44">
+Let us consider an small element "dx" along the length, which is situated at a linear distance "x" from the axis.
+</para>
+<para id="element-45">
+<term>(ii)</term> Elemental mass : </para>
+<para id="element-46">Linear density, λ, is the appropriate density type in this case.
+</para>
+<para id="element-47"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> λ </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> a </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">where "M" and "a" are the mass and length of the rectangular plate respectively. Elemental mass (dm) is, thus, given as :
+</para>
+<para id="element-49"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> λ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> a </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+<term>(iii)</term> Moment of inertia for elemental mass :
+</para>
+<para id="element-51">
+Moment of inertia of elemental mass is :
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> a </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+<term>(iv)</term>  Moment of inertia of rigid body  :
+</para>
+<para id="element-54">
+Proceeding in the same manner as for the case of an uniform rod, the MI of the plate about the axis is given by :
+</para>
+<para id="element-55"><equation id="equation-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-56">Similarly, we can also calculate MI of the rectangular plate about a line parallel to its length and through the center, 
+</para>
+<para id="element-57"><equation id="equation-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+
+<section id="section-2c">
+<title> MI of a  circular ring about a perpendicular line passing through the center
+</title>
+
+<para id="element-58">The figure here shows the small element with respect to the axis of rotation. Here, we can avoid the steps for calculation as all elemental masses are at a fixed (constant) distance "R" from the axis. This enables us to take "R" directly out of the basic integral :
+</para>
+<para id="element-59">
+<figure id="fig-59"><title> Moment of inertia </title>
+<media id="id1168038854784" alt=""><image src="../../media/mi6a.gif" mime-type="image/gif"/></media>
+<caption> MI of a  circular ring about a perpendicular line passing through the center
+</caption>
+</figure>
+</para>
+<para id="element-60"><equation id="equation-60"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ∫ </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-61">We must note here that it was not possible so in the case of a rod or a rectangular plate as elemental mass is at a variable distance from the axis of rotation. We must realize that simplification of evaluation in this case results from the fact that masses are at the same distance from the axis of rotation. This means that the expression of MI will be valid only when thickness of the ring is relatively very small in comparison with its radius.
+</para>
+</section>
+
+
+<section id="section-2e">
+<title> MI of a thin circular plate about a perpendicular line passing through the center
+</title>
+<para id="element-63">
+The figure here shows the small ring element with repect to the axis of rotation. Here, the steps for calculation are :  
+</para>
+<para id="element-62">
+<figure id="fig-62">
+<title> Moment of inertia </title>
+<media id="id1168025153749" alt=""><image src="../../media/mi7.gif" mime-type="image/gif"/></media>
+<caption> MI of a thin circular plate about a perpendicular line passing through the center </caption>
+</figure>
+</para>
+<para id="element-64">
+<term>(i)</term> Infinetesimally small element of the body :
+</para>
+<para id="element-65">
+Let us consider an small circular ring element  of width "dr", which is situated at a linear distance "r" from the axis.
+</para>
+<para id="element-66">
+<term>(ii)</term> Elemental mass : 
+</para>
+<para id="element-67">
+Areal density, σ, is the appropriate density type in this case.
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> σ </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> A </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-69">where "M" and "A" are the mass and area of the plate respectively. Here, ring of infinitesimal thickness itself is considered as elemental mass (dm)  :
+</para>
+<para id="element-70"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> σ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> A </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">
+<term>(iii)</term> Moment of inertia for elemental mass
+</para>
+
+<para id="element-925">MI of the ring, which is treated as elemental mass, is given by : </para><para id="element-73"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+<term>(iv)</term> Moment of inertia of rigid body 
+</para>
+<para id="element-75"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> M </m:mi>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-76">
+Taking the constants out of the integral sign, we have :
+</para>
+<para id="element-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">
+The appropriate limits of integral in this case are 0 and R. Hence,
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> R </m:mi>
+</m:msubsup>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mo>đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80"><equation id="equation-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> R </m:mi>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+
+
+<section id="section-2f">
+<title> Moment of inertia of a hollow cylinder about its axis
+</title>
+
+
+
+<para id="element-81">
+The figure here shows the small element with repect to the axis of rotation. Here, we can avoid the steps for calculation as all elemental masses composing the cylinder are at a fixed (constant) distance "R" from the axis. This enables us to take "R" out of the integral :
+</para>
+<para id="element-82">
+<figure id="fig-82"><title> Moment of inertia </title>
+<media id="id1168023325818" alt=""><image src="../../media/mi8a.gif" mime-type="image/gif"/></media>
+<caption> Moment of inertia of a hollow cylinder about its axis
+</caption>
+</figure>
+
+</para>
+<para id="element-83"><equation id="equation-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ∫ </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation> </para>
+
+
+<para id="element-86">
+We note here that MI of hollow cyliner about its longitudinal axis is same as that of a ring. Another important aspect of MI, here, is that it is independent of the length of hollow cylinder. 
+</para>
+
+</section>
+
+<section id="section-2g">
+<title> Moment of inertia of a uniform solid cylinder about its longitudinal axis
+</title>
+<para id="element-87">
+The figure here shows the small element as hollow cylinder with repect to the axis of rotation. We must note here that we consider hollow cylinder itself as small element for which the MI expression is known. Here, the steps for calculation are :  
+</para>
+<para id="element-88">
+<figure id="fig-88">
+<title> Moment of inertia </title>
+<media id="id1168023357018" alt=""><image src="../../media/mi9.gif" mime-type="image/gif"/></media>
+<caption> Moment of inertia of a uniform solid cylinder about its longitudinal axis </caption>
+</figure>
+</para>
+<para id="element-89">
+<term>(i)</term> Infinetesimally small element of the body :
+</para>
+<para id="element-90">
+Let us consider the small mass of volume "dV" of the hollow cylinder of small thickness "dr" in radial direction, which is situated at a linear distance "r" from the axis.
+</para>
+<para id="element-91">
+<term>(ii)</term> Elemental mass : 
+</para>
+<para id="element-92">
+Volume density, ρ, is the appropriate density type in this case.
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ρ </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> V </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-94">where "M" and "V" are the mass and volume of the solid cylinder respectively. Here, cylinder of infinitesimal thickness itself is considered as elemental mass (dm)  :
+</para>
+<para id="element-95"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ρ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> V </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> V </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> V </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> L </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+<m:mi> L </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+ 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-96">
+<term>(iii)</term> Moment of inertia for elemental mass
+</para>
+<para id="element-97">MI of the hollow cylinder, which is treated as elemental mass, is given by : 
+</para>
+<para id="element-98"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99">
+<term>(iv)</term> Moment of inertia of rigid body 
+</para>
+<para id="element-100"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> M </m:mi>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-101">
+Taking out the constants from the integral sign, we have :
+</para>
+<para id="element-102">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-103">
+The appropriate limita of integral in this case are  0 and R. Hence,
+</para>
+<para id="element-104">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> R </m:mi>
+</m:msubsup>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-105"><equation id="equation-105">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> R </m:mi>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-106">
+We note here that MI of solid cyliner about its longitudinal axis is same as that of a plate. Another important aspect of MI, here, is that it is independent of the length of solid cylinder.
+</para>
+</section>
+
+
+<section id="section-2h">
+<title> Moment of inertia of a hollow sphere about a diameter
+</title>
+<para id="element-108">The figure here shows that hollow sphere can be considered to be composed of infinite numbers of rings of variable radius. Let us consider one such ring as the small element, which is situated at a linear distance "R" from the center of the sphere. The ring is positioned at an angle "θ" with respect to axis of rotation i.e. y-axis as shown in the figure.
+</para>
+<para id="element-107">
+<figure id="fig-107"><title> Moment of inertia </title>
+<media id="id1168038355181" alt=""><image src="../../media/mi10b.gif" mime-type="image/gif"/></media>
+<caption> Moment of inertia of a hollow sphere about a diameter</caption>
+</figure>
+</para>
+<para id="element-109">
+<term>(i)</term> Infinetesimally small element of the body :
+</para>
+<para id="element-110">Let us consider the small mass of area "dA" of the ring of small thickness "Rdθ", which is situated at a linear distance "R" from the center of the sphere.
+</para>
+<para id="element-111">
+<term>(ii)</term> Elemental mass : 
+</para>
+<para id="element-112">
+Area density, σ, is the appropriate density type in this case.
+</para>
+<para id="element-114">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> σ </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> A </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-115">where "M" and "A" are the mass and surface area of the hollow sphere respectively. Here, ring of infinitesimal thickness itself is considered as elemental mass (dm)  :
+</para>
+<para id="element-116">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> σ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> A </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi> R </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-117">
+<term>(iii)</term> Moment of inertia for elemental mass
+</para>
+<para id="element-118">
+Here, radius of elemental ring about the axis is R sinθ. Moment of inertia of elemental mass is :
+</para>
+<para id="element-119"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-120">
+<term>(iv)</term> Moment of inertia of rigid body 
+</para>
+<para id="element-121"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-122">
+Taking out the constants from the integral sign, we have :
+</para>
+<para id="element-123"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-124">The appropriate limits of integral in this case are  0 and π. Hence,
+</para>
+<para id="element-125"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> π </m:mi>
+</m:msubsup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-126"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> π </m:mi>
+</m:msubsup>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:mi> cos </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-127"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> π </m:mi>
+</m:msubsup>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:mi> cos </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-128"><equation id="equation-128"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> [ </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mi> cos </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> π </m:mi>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+ </section>
+
+<section id="section-2i">
+<title> Moment of inertia of a uniform solid sphere about a diameter
+</title>
+<para id="element-130">A solid sphere can be considered to be composed of concentric spherical shell (hollow spheres) of infinitesimally small thickness "dr". We consider one hollow sphere of thickness "dr"  as the small element, which is situated at a linear distance "r" from the center of the sphere. 
+</para>
+<para id="element-131">
+<figure id="fig-131">
+<title> Moment of inertia </title>
+<media id="id1168023544832" alt=""><image src="../../media/mi11.gif" mime-type="image/gif"/></media>
+<caption> MI of a uniform solid sphere about a diameter </caption>
+</figure>
+</para>
+<para id="element-132">
+<term>(i)</term> Infinetesimally small element of the body :
+</para>
+<para id="element-133">Let us consider the small mass of volume "dV" of the sphere of thickness "dr", which is situated at a linear distance "r" from the center of the sphere.
+</para>
+<para id="element-134">
+<term>(ii)</term> Elemental mass : 
+</para>
+<para id="element-135">
+Volumetric density, ρ, is the appropriate density type in this case.
+</para>
+<para id="element-136">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ρ </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> V </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-137">where "M" and "V" are the mass and volume of the uniform solid sphere respectively. Here, hollow sphere of infinitesimal thickness itself is considered as elemental mass (dm)  :
+</para>
+<para id="element-138">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ρ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> V </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mrow>
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-139">
+<term>(iii)</term> Moment of inertia for elemental mass
+</para>
+<para id="element-140">
+Moment of inertia of elemental mass is obtained by using expresion of MI of hollow sphere  :
+</para>
+<para id="element-536"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-141"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-142">
+<term>(iv)</term> Moment of inertia of rigid body 
+</para>
+<para id="element-143">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-144">
+Taking out the constants from the integral sign, we have :
+</para>
+<para id="element-145"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-146">
+The appropriate limits of integral in this case are  0 and R. Hence,
+</para>
+<para id="element-147"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> R </m:mi>
+</m:msubsup>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-148"><equation id="equation-148">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> R </m:mi>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+
+</section>
+
+<section id="section-3">
+<title> Radius of gyration (K)
+</title>
+<para id="element-150">
+An inspection of the expressions of MIs of different bodies reveals that it is directly proportional to mass of the body. It means that a heavier body will require greater torque to initiate rotation or to change angular velocity of rotating body. For this reason, the wheel of the railway car is made heavy so that it is easier to maintain speed on the track. 
+</para>
+<para id="element-151">
+Further, MI is directly proportional to the square of the radius of circular object (objects having radius). This indicates that geometric dimensions of the body have profound effect on MI and thereby on rotational inertia of the body to external torque. Engineers can take advantage of this fact as they can design rotating part of a given mass to have different MIs by appropriately distributing mass either closer to the axis or away from it.
+</para>
+<para id="element-154">The MIs of ring, disk, hollow cylinder, solid cylinder, hollow sphere and solid sphere about their central axes are 
+<m:math>
+		<m:mi> M </m:mi>
+		<m:msup>
+			<m:mi> R </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+		<m:mo> , </m:mo>
+		<m:mspace width="2pt"/>
+		<m:mfrac>
+			<m:mrow>
+				<m:mi> M </m:mi>
+				<m:msup>
+					<m:mi> R </m:mi>
+					<m:mn> 2 </m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:mn> 2 </m:mn>
+		</m:mfrac>
+		<m:mo> , </m:mo>
+		<m:mspace width="2pt"/>
+		<m:mi> M </m:mi>
+		<m:msup>
+			<m:mi> R </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+		<m:mo> , </m:mo>
+		<m:mspace width="2pt"/>
+		<m:mfrac>
+			<m:mrow>
+				<m:mn> 2 </m:mn>
+				<m:mi> M </m:mi>
+				<m:msup>
+					<m:mi> R </m:mi>
+					<m:mn> 2 </m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:mn> 3 </m:mn>
+		</m:mfrac>
+	</m:math>
+and 
+<m:math>
+		<m:mfrac>
+			<m:mrow>
+				<m:mn> 2 </m:mn>
+				<m:mi> M </m:mi>
+				<m:msup>
+					<m:mi> R </m:mi>
+					<m:mn> 2 </m:mn>
+				</m:msup>
+			</m:mrow>
+			<m:mn> 5 </m:mn>
+		</m:mfrac>
+	</m:math>
+ respectively. Among these, the MIs of a ring and hollow cylinder are 
+<m:math>
+		<m:mi> M </m:mi>
+		<m:msup>
+			<m:mi> R </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+	</m:math>
+as all mass elements are distributed at equal distance from the central axis. For other geometric bodies that we have considered, we find thaheir MIs expressions involve some fraction of 
+<m:math>
+		<m:mi> M </m:mi>
+		<m:msup>
+			<m:mi> R </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+	</m:math>
+ as mass distribution is not equidistant from the central axis. 
+</para>
+ <para id="element-155">
+We can, however, assume each of other geometric bodies (not necessarily involving radius) equivalent to a ring (i.e a hoop) of same mass and a radius known as "radius of gyration". In that case, MI of a rigid body can be written in terms of an equivalent ring as :
+</para>
+<para id="element-156">
+<equation id="equation-156">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> K </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-157">
+Formally, we can define radius of gyration as the radius of an equivalent ring of same moment of inertia. In the case of solid sphere, the MI about one of the diameters is :
+</para>
+<para id="element-158">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-158a">
+By comparison, the radius of gyration of solid sphere about its diameter is :
+</para>
+<para id="element-160">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> x </m:mo> 
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-161">Evidently, radius of gyration of a rigid body is specific to a given axis of rotation. For example, MI of solid sphere about an axis parallel to its diameter and touching its surface (we shall determine MI about parallel axis in the next module) is :
+</para>
+<para id="element-162">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 7 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-164a">
+Thus, radius of gyration of solid sphere about this parallel axis is :
+</para>
+<para id="element-164">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mn> 7 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> x </m:mo> 
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-165">
+The radius of gyration is a general concept for rotational motion of a rigid body like moment of inertia and is not limited to circularly shaped bodies, involving radius. For example, radius of gyration of a rectangular plate about a perpendicular axis passing through its COM and parallel to one of its breadth (length “a” and breadth “b”) is :
+</para>
+<para id="element-166"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-167">
+and the radius of gyration about the axis is :
+</para>
+<para id="element-163">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 12 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+
+<section id="section-4">
+<title> Summary 
+</title>
+<para id="element-152">
+<term>1. </term>The results of some of the known geometric bodies about their central axes, as derived in this module, are given in the figures below :
+</para>
+<para id="element-153">
+<figure id="fig-153" orient="horizontal"><title> Moment of inertia of known geometric bodies </title>
+<subfigure id="fig-153a">
+<media id="id1168033500200" alt=""><image src="../../media/mi12.gif" mime-type="image/gif"/></media>
+<caption> Moment of inertia of rod, plate, ring and hollow cylinders </caption>
+</subfigure>
+<subfigure id="fig-153b">
+<media id="id1168033473414" alt=""><image src="../../media/mi14a.gif" mime-type="image/gif"/></media>
+<caption> Moment of inertia of circular disk, solid cylinder, hollow sphere and solid sphere </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-159"><term>2. </term> The radius of gyration (K) is defined as the radius of an equivalent ring of same moment of inertia. The radius of gyration is defined for a given axis of rotation and has the unit that of length. The moment of inertia of a rigid body about axis of rotation, in terms of radius of gyration, is expressed as :
+</para>
+<para id="element-159a">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> K </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-170">
+<term>3. </term> Some other MIs of interesting bodies are given here. These results can be derived as well in the same fashion with suitably applying the limits of integration.
+</para>
+<para id="element-171">
+(i)The MI of a thick walled cylinder (
+<m:math>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ are the inner and outer radii)
+</para>
+<para id="element-172"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mo> ( </m:mo>
+<m:msubsup>
+<m:mi> R </m:mi>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo>
+<m:msubsup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-173">
+(ii) The MI of a thick walled hollow sphere (
+
+<m:math>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ are the inner and outer radii 
+)
+</para>
+<para id="element-174">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msubsup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+<m:mn> 5 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo>
+<m:msubsup>
+<m:mi> R </m:mi>
+<m:mn> 1 </m:mn>
+<m:mn> 5 </m:mn>
+</m:msubsup>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msubsup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo>
+<m:msubsup>
+<m:mi> R </m:mi>
+<m:mn> 1 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msubsup>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+
+
+</section>
+
+  </content>
+  
+</document>

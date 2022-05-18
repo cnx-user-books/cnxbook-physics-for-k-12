@@ -1,0 +1,1596 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Relative velocity in two dimensions</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>24c11521-38bc-4fd8-87ca-7718dd993cd2</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The concept of relative motion in two or three dimensions is exactly same as discussed for the case of one dimension. The motion of an object is observed in two reference systems as before – the earth and a reference system, which moves with constant velocity with respect to earth. The only difference here is that the motion of the reference system and the object ,being observed, can take place in two dimensions. The condition that observations be carried out in inertial frames is still a requirement to the scope of our study of relative motion in two dimensions. 
+</para>
+
+<para id="element-3">As a matter of fact, theoretical development of the equation of relative velocity is so much alike with one dimensional case that the treatment in this module may appear repetition of the text of earlier module. However, application of relative velocity concept in two dimensions is different in content and details, requiring a separate module to study the topic.  
+</para>
+<section id="section-1">
+<title> Relative motion in two dimensions </title>
+<para id="element-5">The important aspect of relative motion in two dimensions is that we can not denote vector attributes of motion like position, velocity and acceleration as signed scalars as in the case of one dimension. These attributes can now have any direction in two dimensional plane (say “xy” plane) and as such they should be denoted with either vector notations or component scalars with unit vectors. 
+</para>
+<section id="section-1a">
+<title> Position of the point object  </title>
+<para id="element-6">We consider two observers A and B. The observer “A” is at rest with respect to earth, whereas observer “B” moves with a constant velocity with respect to the observer on earth i.e. “A”. The two observers watch the motion of the point like object “C”. The motions of “B” and “C” are as shown along dotted curves in the figure below.
+Note that the path of observer "B" is a straight line as it is moving with constant velocity. However, there is no such restriction on the motion of object C, which can be accelerated as well.</para>
+<para id="element-6a">The position of the object “C” as measured by the two observers “A” and “B” are 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+. The observers are represented by their respective frame of reference in the figure. 
+</para>
+
+<para id="element-7">
+<figure id="fig-7"><title> Positions </title>
+<media id="idm4117920" alt=""><image src="../../media/rmt1-ab47.gif" mime-type="image/gif"/></media>
+<caption> The observers are represented by their respective frame of reference.
+</caption>
+</figure>
+</para>
+<para id="element-8">
+Here,
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-1b">
+<title> Velocity of the point object  </title>
+
+<para id="element-12">
+We can obtain velocity of the object by differentiating its position with respect to time. As the measurements of position in two references are different, it is expected that velocities in two references are different,
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+and
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-16a">The velocities of the moving object “C” (
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> C </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+  and 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> C </m:mi>
+				<m:mi> B </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+) as measured in two reference systems are shown in the figure. Since the figure is drawn from the perspective of “A” i.e. the observer on the ground, the velocity 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> C </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+of the object "C" with respect to "A" is tangent to the curved path. 
+</para>
+<para id="element-16b">
+<figure id="fig-16b"><title> Velocity </title>
+<media id="idp4716992" alt=""><image src="../../media/rmt2.gif" mime-type="image/gif"/></media>
+<caption> The observers measure different velocities.
+</caption>
+</figure>
+</para>
+
+<para id="element-17">Now, we can obtain relation between these two velocities, using the relation 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> r </m:mi>
+			<m:mrow>
+				<m:mi> C </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+		<m:mo> = </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> r </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+		<m:mo> + </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> r </m:mi>
+			<m:mrow>
+				<m:mi> C </m:mi>
+				<m:mi> B </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+ and differentiating the terms of the equation with respect to time as :
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-21">
+The meaning of the subscripted velocities are :
+</para>
+<para id="element-22">
+<list id="list-22" list-type="bulleted"><item> 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: velocity of object "C" with respect to "A"
+ </item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: velocity of object "C" with respect to "B"
+ </item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: velocity of object "B" with respect to "A"
+ </item>
+</list>
+</para>
+
+<example id="example-23">
+<para id="element-23"><term>Problem : </term> A boy is riding a cycle with a speed of 5√3 m/s towards east along a straight line. It starts raining with a speed of 15 m/s in the vertical direction. What is the direction of rainfall as seen by the boy.
+</para>
+<para id="element-24"><term>Solution : </term> Let us denote Earth, boy and rain with symbols A, B and C respectively. The question here provides the velocity of B and C with respect to A (Earth).
+</para> 
+
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 15 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+We need to determine the direction of rain (C) with respect to boy (B) i.e. 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+. 
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">We now draw the vector diagram to evaluate the terms on the right side of the equation. Here, we need to evaluate “
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> C </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+		<m:mo> - </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+”, which is equivalent to “
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> C </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+		<m:mo> + </m:mo>
+		<m:mo> ( </m:mo>
+		<m:mo> - </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+		<m:mo> ) </m:mo>
+	</m:math>
+”. We apply parallelogram theorem to obtain vctor sum as reprsesented in the figure. 
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Relative velocity </title>
+<media id="idp965136" alt=""><image src="../../media/rmt3-24dc.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-31">
+For the boy (B), the rain appears to fall, making an angle “θ” with the vertical (-y direction).
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 15 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+<section id="section-1c">
+<title> Acceleration of the point object   </title>
+<para id="element-34">If the object being observed is accelerated, then its acceleration is obtained by the time derivative of velocity. Differentiating equation of relative velocity, we have :
+</para>
+
+
+<para id="element-36"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-37"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+The meaning of the subscripted accelerations are :
+</para>
+<para id="element-39">
+<list id="list-39" list-type="bulleted"><item> 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: acceleration of object "C" with respect to "A"
+ </item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: acceleration of object "C" with respect to "B"
+ </item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: acceleration of object "B" with respect to "A"
+ </item>
+</list>
+</para>
+<para id="element-40">But we have restricted ourselves to reference systems which are moving at constant velocity. This means that relative velocity of "B" with respect to "A" is a constant. In other words, the acceleration of "B" with respect to "A" is zero i.e. 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:math>
+. Hence,
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">The observers moving at constant velocities, therefore, measure same acceleration of the object (C). 
+</para>
+</section>
+
+</section>
+
+<section id="section-2">
+<title> Interpretation of the equation of relative velocity </title>
+<para id="element-43">
+The interpretation of the equation of relative motion in two dimensional motion is slightly tricky. The trick is entirely about the ability to analyze vector quantities as against scalar quantities. There are few alternatives at our disposal about the way we handle the vector equation.
+</para>
+<para id="element-43a">In broad terms, we can either use graphical techniques or vector algebraic techniques. In graphical method, we can analyze the equation with graphical representation along with analytical tools like Pythagoras or Parallelogram theorem of vector addition as the case may be.  Alternatively, we can use vector algebra based on components of vectors. 
+</para>
+
+<para id="element-43b">
+Our approach shall largely be determined by the nature of inputs available for interpreting the equation.
+</para>
+
+<section id="section-2a">
+<title> Equation with reference to earth</title>
+
+<para id="element-44">
+The equation of relative velocities refers velocities in relation to different reference system.  
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">We note that two of the velocities are referred to A. In case, “A” denotes Earth’s reference, then we can conveniently drop the reference. A velocity without reference to any frame shall then mean Earth’s frame of reference.
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48"> This is an important relation. As a matter of fact, we shall require this form of equation most of the time, while working with problems in relative motion. This equation can be used effectively to determine relative velocity of two moving objects with uniform velocity (C and B), when their velocities in Earth’s reference are known. 
+</para>
+<para id="element-48a"><term>Note : </term> As in the case of one dimensional case, we can have a working methodology to find the relative velocity in two dimensions. In brief, we drop the reference to ground all together. We simply draw two velocities as given
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+ , 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+. Then, we reverse the direction of reference velocity 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+and find the resultant relative velocity, 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> A </m:mi>
+				<m:mi> B </m:mi>
+			</m:mrow>
+		</m:msub>
+		<m:mo> = </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+		<m:mo> - </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+, applying parallelogram theorem or using algebraic method involving unit vectors.
+</para>
+
+<para id="element-48b">
+In general, for any two objects “A” and “B”, moving with constant velocities, 
+</para>
+<para id="element-48c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<example id="example-49"> 
+<para id="element-49"><term>Problem : </term> A person is driving a car towards east at a speed of 80 km/hr. A train appears to move towards north with a velocity of  80√3 km/hr to the person driving the car. Find the speed of the train as measured with respect to earth.
+</para>
+<para id="element-50"><term>Solution : </term> Let us first identify the car and train as “A” and “B”. Here, we are provided with the speed of car (“A”) with respect to Earth i.e. " 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mi> A </m:mi>
+		</m:msub>
+	</m:math>
+" and speed of train (“B”) with respect to “A” i.e 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mi> BA </m:mi>
+		</m:msub>
+	</m:math>
+. 
+</para> 
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 80 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 80 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Relative velocity </title>
+<media id="idp3478352" alt=""><image src="../../media/rmt4-788c.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-53">We are required to find the speed of train (“B”) with respect to Earth i.e. <m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+ , 
+. From equation of relative motion, we have :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+To evaluate the right hand side of the equation, we draw vectors “
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+” and “
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+” and use parallelogram law to find the actual speed of the train.
+</para>
+<para id="element-56">
+<figure id="fig-56">
+<title> Relative velocity </title>
+<media id="idp7519968" alt=""><image src="../../media/rmt5-9068.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+
+<m:mo> √ </m:mo>
+<m:mo> {</m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> (</m:mo>
+<m:mn> 80 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> )</m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 80 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> }</m:mo>
+<m:mo> = </m:mo>
+<m:mn> 160 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-2b">
+<title> Evaluation of equation using analytical technique </title>
+
+<para id="element-58">We have already used analytical method to evaluate vector equation of relative velocity. Analytical method makes use of Pythagoras or Parallelogram theorem to determine velocities.
+</para>
+<para id="element-59">
+Analytical method, however, is not limited to making use of  Pythagoras or Parallelogram theorem. Depending on situation, we may use simple trigonometric relation as well to evaluate equation of relative motion in two dimensions. Let us work out an exercise to emphasize application of such geometric (trigonometric) analytical technique. 
+</para>
+<example id="example-60">
+<para id="element-60"><term>Problem : </term> A person, standing on the road, holds his umbrella to his back at an angle 30° with the vertical to protect himself from rain. He starts running at a speed of 10 m/s along a straight line. He finds that he now has to hold his umbrella vertically to protect himself from the rain. Find the speed of raindrops as measured with respect to (i) ground and (ii) the moving person.
+</para>
+<para id="element-61"><term>Solution : </term> Let us first examine the inputs available in this problem. To do this let us first identify different entities with symbols. Let A and B denote the person and the rain respectively. The initial condition of the person gives the information about the direction of rain with respect to ground - notably not the speed with which rain falls. It means that we know the direction of velocity 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mi> B </m:mi>
+		</m:msub>
+	</m:math>. The subsequent condition, when person starts moving, tells us the velocity of the person “A” with respect to ground i.e 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mi> A </m:mi>
+		</m:msub>
+	</m:math>
+. Also, it is given that the direction of relative velocity of rain “B” with respect to the moving person “A” is vertical i.e. we know the direction of relative velocity 
+<m:math>
+		<m:msub>
+			<m:mi mathvariant="bold"> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+. 
+</para>
+<para id="element-63">We draw three vectors involved in the problem as shown in the figure. OP represents 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+;  OQ represents 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+;  OR represents 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+. 
+</para>
+<para id="element-64">
+<figure id="fig-64">
+<title> Relative velocity </title>
+<media id="idp5474000" alt=""><image src="../../media/rmt6a-a54c.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-65">
+In ΔOCB,
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> OR </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> QR </m:mi>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 10 </m:mn>
+<m:mrow>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+and
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> OQ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> QR </m:mi>
+<m:mrow>
+<m:mi> tan </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 10 </m:mn>
+<m:mrow>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</example>
+
+</section>
+
+<section id="section-2c">
+<title> Equation in component form </title>
+<para id="element-69">So far we have used analytical method to evaluate vector equation of relative velocity. It is evident that vector equation also renders to component form – particularly when inputs are given in component form along with unit vectors. 
+</para>
+<para id="element-70">Here, we shall highlight one very important aspect of component analysis, which helps us to analyze complex problems. The underlying concept is that consideration of motion in mutually perpendicular direction is independent of each other. This aspect of independence is emphasized in analyzing projectile motion, where motions in vertical and horizontal directions are found to be independent of each other (it is an experimental fact).
+</para>
+<para id="element-71">We work out the exercise to illustrate the application of the technique, involving component analysis.
+</para>
+
+<example id="example-72">
+<para id="element-72"><term>Problem : </term> Three particles A,B and C situated at the vertices of an equilateral triangle starts moving simultaneously at a constant speed “v” in the direction of adjacent particle, which falls ahead in the anti-clockwise direction. If “a” be the side of the triangle, then find the time when they meet.
+</para>
+<para id="element-73"><term>Solution : </term> Here, particle “A” follows “B”, “B” follows “C” and “C” follows “A”. The direction of motion of each particle keeps changing as motion of each particle is always directed towards other particle. The situation after a time “t” is shown in the figure with a possible outline of path followed by the particles before they meet.
+</para> 
+<para id="element-74">
+<figure id="fig-74">
+<title> Relative velocity </title>
+<media id="idm2547184" alt=""><image src="../../media/rmt7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-75">This problem appears to be complex as the path of motion is difficult to be defined. But, it has a simple solution in component analysis. Let us consider the pair “A” and “B”. The initial component of velocities in the direction of line joining the initial position of the two particles is “v” and “vcosθ” as shown in the figure here :
+</para>
+<para id="element-76">
+<figure id="fig-76">
+<title> Relative velocity </title>
+<media id="idm690384" alt=""><image src="../../media/rmt8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-77">The component velocities are directed towards eachother. Now, considering the linear (one dimensional) motion in the direction of AB, the relative velocity of “A” with respect to “B” is :
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">
+In equilateral triangle, θ = 60°, 
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+The time taken to cover the displacement “a” i..e. the side of the triangle,
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+</section>
+</section>
+
+<section id="section-10">
+<title> Check your understanding </title>
+<para id="element-262">Check the module titled <link document="m14037"> Relative velocity in two dimensions (application)</link> to test your understanding of the topics covered in this module.
+</para>
+</section>
+
+ 
+  </content>
+  
+</document>

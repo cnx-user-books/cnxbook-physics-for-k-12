@@ -1,0 +1,803 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conservation of energy</title>
+  <metadata>
+  <md:content-id>m14106</md:content-id><md:title>Conservation of energy</md:title>
+  <md:abstract>When only conservative forces interact, the mechanical energy of  an isolated system can not change.</md:abstract>
+  <md:uuid>011eb65d-1f4d-4227-a354-a0bef62255b9</md:uuid>
+</metadata>
+
+<content>
+
+<para id="element-2">Work - kinetic energy theorem is used to analyze motion of a particle. This theorem, as pointed out, is a consideration of energy for describing motion of a particle in general, which may involve both conservative and non-conservative force. However, “work-kinetic energy” theorem is limited in certain important aspects. First, it is difficult to apply this theorem to many particle systems and second it is limited in application to mechanical process – involving motion. 
+</para>
+<para id="element-3">Law of conservation of energy is an extension of this theorem that changes the context of analysis in two important ways. First, it changes the context of energy from a single particle situation to a system of particles. Second, law of energy conservation is extremely general that can be applied to situation or processes other than that of motion. It can be applied to thermal, chemical, electrical and all possible processes that we can think about. Motion is just one of the processes.
+</para>
+<para id="element-4">Clearly, we are embarking on a new analysis system. The changes in analysis framework require us to understand certain key concepts, which have not been used before. In this module, we shall develop these concepts and subsequently conservation law itself in general and, then, see how this law can be applied in mechanical context to analyze motion and processes, which are otherwise difficult to deal with. Along the way, we shall highlight advantages and disadvantages of the energy analysis with the various other analysis techniques, which have so far been used.
+</para>
+<para id="element-5">In this module, the “detailed” treatment of energy consideration will be restricted to process related to motion only (mechanical process). 
+</para>
+<section id="section-1">
+<title> Mechanical energy </title>
+
+<para id="element-6">
+Mechanical energy of a system comprises of kinetic and potential energies. Significantly, it excludes thermal energy. Idea of mechanical energy is that it represents a base line (ideal) case, in which a required task is completed with minimum energy. Consider the case of a ball, which is thrown upward with certain initial kinetic energy. We analyze motion assuming that there is no air resistance i.e. drag on the ball. For a given height, this assumption represents the baseline case, where requirement of initial kinetic energy for the given height is least. Mechanical energy is expressed mathematically as : 
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">We can remind ourselves that potential energy arises due to “position” of the particle/ system, whereas kinetic energy arises due to “movement” of the particle/ system.
+</para>
+<section id="section-1a">
+<title> Other forms of energy </title>
+<para id="element-9">
+Different forms of energy are subject of individual detailed studies. They are topics of great deliberation in themselves. Here, we shall only briefly describe characteristics of other forms of energy. One important aspect of other forms of energy is that they are simply a macroscopic reflection of the same mechanical energy that we talk about in mechanics. 
+</para>
+<para id="element-10">On a microscopic level or still smaller level, other forms of energy like thermal, chemical, electrical and nuclear energies are actually the same potential and kinetic energy. It is seen that scale of dimension involved with energy changes the ultimate or microscopic nature of mechanical energy as different forms of energy. 
+</para>
+<para id="element-11">Hence, “thermal” energy is actually a macroscopic reflection of kinetic energy of the atoms and molecules. On the other hand, “internal” energy is potential and kinetic energy of the particles constituting the system. Similarly, various forms of electromagnetic energy (electrical and magnetic energy) are actually potential and kinetic energy. Besides, field energy like radiation energy does not involve even matter.
+</para>
+<para id="element-12">Nevertheless, analysis of energy at macroscopic level requires that we treat these forms of energy as a different energy with respect to mechanical energy, which we associate with the motion of the system 
+</para>
+</section>
+</section>
+<section id="section-2">
+<title> Process </title>
+<para id="element-14">In mechanics, we are concerned with motion – a change in position. On the other hand, energy is a very general concept that extends beyond change in position i.e. motion. It may involve thermal, chemical, electric and such other changes called processes. For example, a body may not involve motion as a whole, but atoms/molecules constituting the body may be undergoing motion all the time. For example, work for gas compression does not involve locomotion of the gas mass. It brings about change in internal and heat energy of the system. 
+</para>
+<para id="element-15">Clearly, we need to change our terminology to suit the context of energy. 
+</para>
+<para id="element-16">From the energy point of view, a motion, besides involving a change in position, also involves heat due to friction. For example, heat is produced, when a block slides down a rough incline. Thus, we see that even a process involving motion (mechanical process) can involve energy other than mechanical energy (potential and kinetic energy). The important point to underline is that though “mechanical energy” excludes thermal energy, but “mechanical process” does not.
+</para>
+</section>
+<section id="section-3">
+<title> System </title>
+<para id="element-17">
+A system comprises of many particles, which are interacted by different kinds of force. It is characterized by a boundary. We are at liberty to define our system to suit analysis of a motion or process. Everything else other than system is “surrounding”. 
+</para>
+<para id="element-18">The boundary of the system, in turn, is characterized either to be “open”, “closed” or “isolated”. Accordingly, a system is open, closed or isolated. We shall define each of these systems.
+</para>
+<para id="element-19">In an “open” system, the exchange of both “matter” and “energy” are permitted between the system and its surrounding. In other words, nothing is barred from or to the system. 
+</para>
+<para id="element-20">A “closed” system, however, permits exchange of energy, but no exchange of matter. The exchange of energy can take place in two ways. It depends on the type of process. The energy can be exchanged in the form of “energy” itself. Such may be the case in thermal process in which heat energy may flow “in” or “out” of the system. Alternatively, energy can be transferred by “work” on the system or by the system. In the nutshell, transfer of energy can take place either as “energy” or as “work”.
+</para>
+<para id="element-21">An “isolated” system neither permits exchange of energy nor that of matter.  In other words, everything is barred “to” and “from” the system. 
+</para>
+<para id="element-22">Interestingly, there is no exchange of mass in both “closed” and “isolated” system. Barring system involving nuclear reaction, the conservation of mass in these systems means that total numbers of atoms remain a constant.
+</para>
+<section id="section-3a">
+<title> Mechanical system  </title>
+<para id="element-23">
+System types are defined with respect to “energy” and “matter”. However, we are required to know about the role of external force on a system in mechanics. Remember internal forces within a system sum up to zero. Does external force anyway change the system type? 
+</para>
+<para id="element-24">In order to answer this question, we seek to know what does an external force do? For one, it tries to change the motion of the system and hence does the work. So if we apply the force on an isolated system, work will change energy of the system – even if system is isolated! Actually, there is nothing wrong in the definition of an isolated system. It says that energy and matter both are not exchanged. We know that work is just a form of “energy” is transit. Hence, work on the system is also barred by the definition. 
+</para>
+<para id="element-25">We have actually brought this context with certain purpose. Our mechanical system is more akin to the description as given above. We need to know the role of force. Now, the question is what would we call such a system – a closed system or an isolated system.
+</para>
+<para id="element-26">Here, we consider an example of mechanics to bring out this point. Let us consider a block, which slides down a rough incline. Here, “Earth-incline-block” system is an isolated system as shown in the figure with an enclosed area.
+</para>
+<para id="element-27">
+<figure id="fig-27">
+<title> “Earth-incline-block” system </title>
+<media id="id6418568" alt=""><image src="../../media/c1.gif" mime-type="image/gif"/></media>
+<caption> “Earth-incline-block” system plus an external force </caption>
+</figure>
+</para>
+<para id="element-28">Let us, now, consider an external force, which pushes the block up as shown in the figure. The work by force increases potential energy of the system, may increase kinetic energy of the block (if brought up with an acceleration) and produces heat in the isolated system.
+</para>
+<para id="element-29">In the nutshell, an external force on an isolated system is equivalent to “closed system”, which allows exchange of energy with surrounding only via work by an external force. So it is a special case of “closed” system. Remember that energy exchange in “closed” system takes place either as “energy” or “work”. In our mechanical context, the “closed” system allows exchange of energy as “work” only.
+</para>
+</section>
+<section id="section-3b">
+<title> Interpretation of system type</title>
+<para id="element-30">
+The definitions of three system types are straight forward, but its physical visualization is not so easy. In the following paragraphs, we bring out important points about a system type.
+</para>
+<para id="element-31"><term>1: </term> Any system on Earth is linked with it – whether we say so or not. We have seen that “potential energy” of a particle as a matter of fact belongs to the system of “Earth – particle” system – not only to the particle. Since Earth is comparatively very large so that its mechanical energy does not change due to motion of a particle,  we drop the Earth reference. It means if we draw a boundary for a system constituting particles only – we implicitly mean the reference to Earth and that Earth is part of the system boundary.
+</para>
+<para id="element-32"><term>2: </term> We should emphasize that system is not bounded by a physical boundary. We can understand this point by considering a “particle”, which is projected vertically up from the surface of Earth. What would be the type of this “Earth-particle” system? It is an “open” system, if we think that particle is dragged by air. Drag is a non-conservative force. It takes out kinetic energy and transfers the same as heat or sound energy. The system, therefore, allows exchange of energy with the air, which physically lies in between “particle” and “Earth” of the system. However, if we assert that there is negligible air resistance, then we are considering the system as an isolated system. Clearly, it all depends what attributes we assign to the boundary in accordance with physical process. 
+</para>
+<para id="element-33"><term>3: </term> We need to quickly visualize system type in accordance with our requirement. To understand this, let us get back to the example of “Earth-incline-block” system. We can interpret boundary and hence system in accordance with the situation and objective of analysis.
+</para>
+<para id="element-34">In an all inclusive scenario, we can consider “Earth-incline-block” system plus the “agent applying external force” as part of an “isolated” system.
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Isolated system </title>
+<media id="id2318104" alt=""><image src="../../media/c2.gif" mime-type="image/gif"/></media>
+<caption> “Earth-incline-block” system plus an external force </caption>
+</figure>
+</para>
+<para id="element-36">We can relax the boundary condition a bit and define a closed system, which allows transfer of energy via work only. In that case, “Earth-incline-block” system is “closed” system, which allows transfer of energy via “work” – not via any other form of energy. In this case, we exclude the agent applying external force from the system definition.
+</para>
+<para id="element-37"> 
+<figure id="fig-37">
+<title> Work on isolated system </title>
+<media id="id6033077" alt=""><image src="../../media/c1.gif" mime-type="image/gif"/></media>
+<caption> “Earth-incline-block” system plus an external force </caption>
+</figure>
+</para>
+<para id="element-38">In the next step, we can define a proper “closed” system, which allows exchange of energy via both “work” and “energy”. In that case, “Earth – block” system constitutes the closed system. External force transfers energy by doing work, whereas friction, between block and incline, produces heat, which is distributed between the defined system of “Earth-block” and the “incline”, which is ,now, part of the surrounding. This system is shown below :
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Closed system </title>
+<media id="id2078320" alt=""><image src="../../media/c3.gif" mime-type="image/gif"/></media>
+<caption> “Earth-block” system </caption>
+</figure>
+</para>
+<para id="element-40"><term>4: </term> We see that energy is transferred between system and surrounding, if the system is either open or closed. Isolated system does not allow energy transfer. Clearly, system definition regulates transfer of energy between system and surrounding – not the transfer that takes place within the system from one form of energy to another. Energy transfers from one form to another can take place within the system irrespective of system types.
+</para>
+</section>
+</section>
+<section id="section-4">
+<title> Work – kinetic energy theorem for a system </title>
+<para id="element-41">
+The mathematical statement of work – kinetic energy theorem for a particle is concise and straight forward :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">The forces on the particle are external forces as we are dealing with a single particle. There can not be anything internal to a particle. For calculation of work, we consider all external forces acting on the particle. The forces include both conservative (subscripted with C) and non-conservative (subscripted with NC) forces. The change in the kinetic energy of the particle is written explicitly to be equal to work by external force (subscripted with E) :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">When the context changes from single particle to many particles system, we need to redefine the context of the theorem. The forces on the particle are both internal (subscripted with I)and external (subscripted with E) forces. In this case, we need to calculate work and kinetic energy for each of the particles. The theorem takes the following form :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>∑</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">We may be tempted here to say that internal forces sum to zero. Hence, net work by internal forces is zero. But work is not force. Work also involves displacement. The displacement of particles within the system may be different. As such, we need to keep the work by internal forces as well. Now, internal work can be divided into two groups : (i) work by conservative force (example : gravity) and work by non-conservative force (example : friction). We, therefore, expand “work-kinetic energy” theorem as :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>∑</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">Generally, we drop the summation sign with the understanding that we mean “summation”. We simply say that both work and kinetic energy refers to the system – not to a particle :
+</para>
+<para id="element-50"><m:math display="block">
+		<m:mrow>
+			<m:mo>⇒</m:mo>
+			<m:msub>
+				<m:mi>W</m:mi>
+				<m:mi>E</m:mi>
+			</m:msub>
+			<m:mo>+</m:mo>
+			<m:msub>
+				<m:mi>W</m:mi>
+				<m:mi>C</m:mi>
+			</m:msub>
+			<m:mo>+</m:mo>
+			<m:msub>
+				<m:mi>W</m:mi>
+			<m:mrow>
+				<m:mi>N</m:mi>
+		        	<m:mi>C</m:mi>
+			</m:mrow>
+			</m:msub>
+
+			<m:mo>=</m:mo>
+			<m:mi>Δ</m:mi>
+			<m:mi>K</m:mi>
+		</m:mrow>
+	</m:math>
+</para>
+<para id="element-51">However, work by conservative force is equal to negative of change in potential energy of the system.
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Substituting in the equation above,
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-5a">
+<title> Work by non-conservative force </title>
+<para id="element-56">
+One of the familiar non-conservative force is friction. Work by friction is not path independent. One important consequence is that it does not transfer kinetic energy as potential energy as is the case of conservative force. Further, it only transfers kinetic energy of the particle into heat energy, but not in the opposite direction. What it means that friction is incapable to transfer heat energy into kinetic energy.
+</para>
+<para id="element-57">Nonetheless, friction converts kinetic energy of the particle into heat energy. A very sophisticated and precise set up measures this energy equal to the work done by the friction. We have seen that gravitational potential energy remains in the system. What about heat energy? Where does it go? If we consider a “Earth-incline-block” system, in which the block is released from the top, then we can visualize that heat so produced is distributed between “block” and “incline” (consider that there is no radiation loss). Next thing that we need to answer is “what does this heat energy do to the system?” We can infer that heat so produced raises the thermal energy of the system.
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mrow>
+        <m:mi>N</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>thermal</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">Note that work by friction is negative. Hence, we should put a negative sign to a positive change in thermal energy in order to equate it to work by friction.
+</para>
+<para id="element-60">Putting this in the equation of “Work-kinetic energy” expression, we have :
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>thermal</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>thermal</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-6">
+<title> Law of conservation of energy </title>
+<para id="element-62">
+We now turn to something which we have not studied so far, but we shall employ those concepts to complete the picture of conservation of energy in the most general case. 
+</para>
+<para id="element-63">Without going into detail, we shall refer to a consideration of thermodynamics. Work on the system, besides bringing change in the kinetic energy, also brings about change in the “internal” energy of the system. Similarly, combination of internal and external forces can bring about change in other forms of energy as well. Hence, we can rewrite “Work-kinetic energy” expression as :
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>thermal</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>others</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">This equation brings us close to the formulation of “conservation of energy” in general. We need to interpret this equation in the suitable context of system type. We can easily see here that we have developed this equation for a system, which allows energy transfers through work by external force. Hence, context here is that of special “closed” system, which allows transfer of energy only through work by external force. What if we choose a system boundary such that there is no external force. In that case, closed system becomes isolated system and 
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">Putting this in “work – kinetic energy” expression, we have :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>thermal</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>others</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">If we denote “E” to represent all types of energy, then :
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>constant</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">Above two equations are the mathematical expressions of conservation of energy in the most general case. We read this law in words in two ways corresponding to above two equations.
+</para>
+<para id="element-73">Definition 1: 
+The change in the total energy of an isolated system is zero.
+</para>
+<para id="element-74">Definition 2: The total energy of an isolated system can not change.
+
+</para>
+
+<para id="element-76">From above two interpretations, it emerges that “energy can neither be created nor destroyed”.
+</para>
+<section id="section-6a">
+<title> Relativity and conservation of energy </title>
+<para id="element-77">
+Einstien’s special theory of relativity establishes equivalence of mass and energy. This equivalence is stated in following mathematical form.
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>c</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">Where “c” is the speed of light in the vacuum. An amount of mass, “m” can be converted into energy “E” and vice – versa. In a process known as mass annihilation of a positron and electron, an amount of energy is released as,
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mo>+</m:mo>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mo>-</m:mo>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>h</m:mi>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">The energy released as a result is given by :
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mn>9.11</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>31</m:mn>
+      </m:mrow>
+    </m:msup>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mn>3</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>8</m:mn>
+            </m:msup>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>163.98</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>15</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1.64</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>13</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">Similarly, in a process known as “pair production”, energy is converted into a pair of positron and electron as :
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>h</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mo>+</m:mo>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mo>-</m:mo>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">This revelation of equivalence of “mass” and “energy” needs to be appropriately interpreted in the context of conservation of energy. The mass – energy equivalence appears to contradict the statement that “energy can neither be created nor destroyed”. 
+</para>
+<para id="element-86">There is, however, another perspective. We may consider “mass” and “energy” completely exchangeable with each other in accordance with the relation given by Einstein. When we say that  “energy can neither be created nor destroyed”, we mean to include “mass” also as “energy”. However, if we want to be completely explicit, then we can avoid the statement. Additionally, we need to modify the statements of conservation law as : 
+</para>
+<para id="element-87">Definition 1: 
+The change in the total equivalent mass - energy of an isolated system is zero.
+</para>
+<para id="element-88">
+Definition 2: 
+The total equivalent mass - energy of an isolated system can not change.
+</para>
+<para id="element-89">Alternatively, we have yet another option to exclude nuclear reaction or any other process involving mass-energy conversion within the system. In that case, we can retain the earlier statements of conservation law with the qualification that process excludes “mass-energy” conversion. 
+</para>
+<para id="element-90">In order to maintain semblance to pre-relativistic revelation, we generally retain the form of conservation law, which is stated in terms of “energy” with an implicit understanding that we mean to include “mass” as just another form of “energy”.
+</para>
+</section>
+<section id="section-6b">
+<title> Nature of motion and conservation law </title>
+<para id="element-91">
+So far we have studied motion in translation. We need to clarify the context of conservation of energy with respect to other motion type i.e. rotational motion. In subsequent modules, we shall learn that there is a corresponding “work-energy theorem”, “potential energy concept” and actually a parallel system for analysis for rotational motion. It is, therefore, logical to think that constituents of the isolated system that we have considered for development of conservation of energy can possess rotational kinetic and potential energy as well. Thus, conservation law is all inclusive of motion types and associated energy. When we consider potential energy of the system, we mean to incorporate both translational and rotational potential energy. Similar is the case with other forms of energy – wherever applicable. 
+</para>
+<para id="element-92">However, if we a have a system involving translational energy only, then it allows us to consider rigid body as point mass equivalent to particle of the system. This is a significant simplification as we are not required to consider angular aspect of motion and hence energy associated with angular motion. 
+</para>
+</section>
+<section id="section-6c">
+<title> System types and conservation law </title>
+<para id="element-93">
+It may appear that conservation law is subject to system definition. Certainly it is not. We state conservation law in the context of an isolated system for our convenience. We can as well state the law for “open” and “closed” system. Not only that we can have a statement of conservation law considering “universe” as the only system. 
+</para>
+<para id="element-94">Actually, the statement of conservation law as  “energy can neither be created nor destroyed”, applies to all systems including universe. For system like “open” or “closed” systems, which allow exchange of energy, we can think in terms of “transfer” of energy. A statement may be phrased like “change in the energy of the system is equal to the energy transferred “to” or “from” the system”.
+</para>
+<para id="element-95">We can be quite flexible in the application of conservation law with the help of “accounting” concept. We can consider “energy” as “money” in our account. Our account is credited or debited by the amount we deposit or withdraw money. Similarly, the energy of the system increases by the amount of energy supplied to the system and decreases by the amount of energy withdrawn form the system.
+</para>
+
+</section>
+<section id="section-6d">
+<title> Example </title>
+<para id="element-96a"><term>Problem 1: </term>An ice cube of 10 cm floats in a partially filled water tank. What is the change in gravitational potential energy (in Joule) when ice completely melts (sp density of ice is 0.9) ? 
+</para>
+<para id="element-96">
+<figure id="fig-96">
+<title> Ice cube in a tank </title>
+<media id="id2275562" alt=""><image src="../../media/c4.gif" mime-type="image/gif"/></media>
+<caption> The ice cube is 90% submerged in the tank.  </caption>
+</figure>
+</para>
+<para id="element-97"><term>Solution : </term>
+</para>
+<para id="element-98">This question has been included with certain purpose. Though we have not studied “phase change” in the course up to this point,  but we can apply our understanding broadly to understand this question. Along the way, we shall point out relevance of this question for the conservation of energy.
+</para>
+<para id="element-99">Now, gravitational potential energy will change if there is change in the water level or the level of center of mass of ice mass. 
+</para>
+<para id="element-101">The ice cube is 90 % submerged in the water body as its specific density is 0.9. When it melts, the volume of water is 90 % of the volume of ice. Clearly, the melted ice occupies volume equal to the volume of submerged ice. It means that level of water in the tank does not change. Hence, there is no change in potential energy, as far as the water body is concerned. 
+</para>
+<para id="element-102">However, the level of ice body changes after being converted into water. Its center of mass was 4.0 cm below the water level in the beginning, as shown in the figure. 
+</para>
+<para id="element-103">
+<figure id="fig-103">
+<title> Ice cube in a tank </title>
+<media id="id6080860" alt=""><image src="../../media/c5.gif" mime-type="image/gif"/></media>
+<caption> The center of mass of the ice cube is 4 cm below water level.  </caption>
+</figure>
+</para>
+<para id="element-104">When ice converts in to water, the center of the converted water body is 4.5 cm below the same water level. Thus, there is a change of level by 0.5 cm. The potential energy of the ice, therefore, decreases  :
+</para>
+<para id="element-105">
+<figure id="fig-105">
+<title> Ice cube in a tank </title>
+<media id="id5956254" alt=""><image src="../../media/c6.gif" mime-type="image/gif"/></media>
+<caption> The center of mass of the ice cube is 4.5 cm below water level.  </caption>
+</figure>
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>Δ</m:mi>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>V</m:mi>
+    <m:mi>ρ</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>Δ</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+  <m:msup>
+    <m:mn>0.1</m:mn>
+    <m:mn>3</m:mn>
+  </m:msup>
+    <m:mi>x</m:mi>
+    <m:mn>0.9</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mn>10</m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mn>0.5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>0.045</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">We need to account for this energy change. The gravitational energy of the system of “water-ice” can not decrease on its own. We shall come to know that phase change is accompanied by exchange of heat energy. The ice cube absorbs this heat mostly from the water body and a little from surrounding atmosphere. If we neglect energy withdrawn from the atmosphere (only 10 % is exposed), then we can say that energy is transferred from potential energy of “ice-water” system to the internal energy of the system. As such, there is a corresponding increase in the internal energy of the system. This transfer of energy forms take place as “heat” to the ice body. Hence, this is merely a transfer of energy of the system from one form to another.
+</para>
+<para id="element-109">Here, we do not intend to prove the exactness of change in potential energy with the change in the internal energy in the system. But, the point about accounting of energy, in general, is illustrated by this example.
+</para>
+<para id="element-100"><note id="id5816125">We shall not work additional problems involving other forms of energy at this juncture. We shall, however, work with the application of conservation of energy in the mechanical context in a separate module. Also, we should know that first law of thermodynamics is a statement of law of conservation energy that includes heat as well. Therefore, study of first law of thermodynamics provides adequate opportunity to work with situations in non-mechanical context.   
+</note>
+</para>
+</section>
+</section>
+  </content>
+  
+</document>

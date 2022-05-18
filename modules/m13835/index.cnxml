@@ -1,0 +1,553 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Acceleration and deceleration</title>
+  <metadata>
+  <md:content-id>m13835</md:content-id><md:title>Acceleration and deceleration</md:title>
+  <md:abstract>Negative vector is a relative term - not an independent concept. We completely loose the significance of a negative vector when we consider it in isolation. A negative vector assumes meaning only in relation with another vector or some reference direction.</md:abstract>
+  <md:uuid>0af45533-4264-4f83-bdc5-13176b8c07fa</md:uuid>
+</metadata>
+
+<content>
+
+<para id="element-1a"> Acceleration and deceleration are terms which are generally considered to have opposite meaning. However, there is difference between literal and scientific meanings of these terms. In literal sense, acceleration is considered to describe an increase or positive change of speed or velocity. On the other hand, deceleration is considered to describe a decrease or negative change of speed or velocity. Both these descriptions are incorrect in physics. We need to form accurate and exact meaning of these two terms. In this module, we shall explore these terms in the context of general properties of vector and scalar quantities. 
+</para>
+
+<para id="element-1"> 
+A total of six (6) attributes viz time, distance, displacement, speed, velocity and acceleration are used to describe motion. Three of these namely time, distance and speed are scalar quantities, whereas the remaining three attributes namely displacement, velocity and acceleration are vectors. Interpretations of these two groups are different with respect to (ii) negative and positive sign and (i) sense of increase and decrease. Further these interpretations are also affected by whether we consider these terms in one or two/three dimensional motion.
+</para>
+
+<para id="element-2"> 
+The meaning of scalar quantities is more and less clear. The scalar attributes have only magnitude and no sense of direction. The attributes “distance” and “speed” are positive quantities. There is no possibility of negative values for these two quantities. In general, time is also positive. However, it can be assigned negative value to represent a time instant that occurs before the start of observation. For this reason, it is entirely possible that we may get negative time as solution of kinematics consideration. 
+</para>
+
+
+<section id="section-2">
+<title> Negative vector quantities </title>
+<para id="element-11">A vector like acceleration may be directed in any direction in three dimensional space, which is defined by the reference coordinate system. Now, why should we call vector (as shown in the figure below) represented by line (i) positive and that by line (ii) negative? What is the qualification for a vector being positive or negative? There is none. Hence, in pure mathematical sense, a negative vector can not be identified by itself. 
+</para><para id="element-12">
+<figure id="fig-12">
+<title> Vector representation in three dimensional reference </title>
+<media id="id1171283497533" alt=""><image src="../../media/nvd1.gif" mime-type="image/gif"/></media>
+<caption> Vectors in isolation have no sense of being negative. </caption>
+</figure>
+</para>
+
+<para id="element-14">
+In terms of component vectors, let us represent two accelerations 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+  as :
+</para>
+<para id="element-15">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo>+</m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo>-</m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr> 
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo>+-</m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo>+</m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para><para id="element-302">Why should we call one of the above vectors as positive and other as negative acceleration?  Which sign should be considered to identify a positive or negative vector? Further, the negative of 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ expressed in component form is another vector given by 
+<m:math>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+:
+</para>
+<para id="element-16"><m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd>
+<m:mo>-</m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo>=</m:mo>
+<m:mo>-</m:mo>
+<m:mo>(</m:mo>
+<m:mo>-</m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo>+</m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo>-</m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo>)</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mo>=</m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo>-</m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo>+</m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+<para id="element-17">So, what is the actual position? The concept of negative vector is essentially a relative concept. If we represent a vector <term>A</term> as shown in the figure below, then negative to this vector –<term>A</term> is just another vector, which is directed in the opposite direction to that of vector <term>A</term> and has equal magnitude as that of <term>A</term>. </para>
+
+<para id="element-19">In addition, if  we denote “-<term>A</term>” as “<term>B</term>”, then “<term>A</term>” is “-<term>B</term>”. We, thus, completely loose the significance of a negative vector when we consider it in isolation. We can call the same vector either “<term>A</term>” or “-<term>A</term>”. We conclude, therefore, that a negative vector assumes meaning only in relation with another vector. 
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> Vector representation in three dimensional reference </title>
+<media id="id1171292936306" alt=""><image src="../../media/nvd2.gif" mime-type="image/gif"/></media>
+<caption> Vectors in isolation have no sense of being negative. </caption>
+</figure>
+</para>
+<para id="element-21">In one dimensional motion, however, it is possible to assign distinct negative values. In this case, there are only two directions; one of which is in the direction of reference axis (positive) and the other is in the opposite direction (negative). The significance of negative vector in one dimensional motion is limited to relative orientation with respect to reference direction. In the nutshell, sign of vector quantity in one dimensional motion represents the directional property of vector. It has only this meaning. We can not attach any other meaning for negating a vector quantity. </para>
+<para id="element-22">It is important to note that the sequence in “-5<term>i</term>" is misleading in the sense that a vector quantity can not have negative magnitude. The negative sign, as a matter of fact, is meant for unit vector “<term>i</term>”. The correct reading sequence would be “5 x -“<term>i</term>”, meaning that it has a magnitude of “5” and is directed in “-“<term>i</term>” direction i.e. opposite to reference direction. Also, since we are free to choose our reference, the previously assigned “-5 <term>i</term>” can always be changed to “5 <term>i</term>” and vice-versa. </para>
+
+
+<para id="element-25">We summarize the discussion so far as :
+</para>
+<para id="element-26">
+<list id="list-26" list-type="bulleted"><item> There is no independent meaning of a negative vector attribute.</item>
+	<item> In general, a negative vector attribute is defined with respect to another vector attribute having equal magnitude, but opposite direction.
+</item>
+	<item> In the case of one dimensional motion, the sign represents direction with respect to reference direction. 
+</item>
+</list>
+</para>
+
+</section>
+
+<section id="section-3">
+<title> “Increase” and “decrease” of vectors quantities </title>
+<para id="element-6"> The vector consist of both magnitude and direction. There can be infinite directions of a vector. On the other hand, increase and decrease are bi-directional and opposite concepts. Can we attach meaning to a phrase “increase in direction” or “decrease in direction”? There is no sense in saying that direction of the moving particle has increased or decreased. In the nutshell, we can associate the concepts of increase and decrease with quantities which are scalar – not quantities which are vector. Clearly, we can attach the sense of increase or decrease with the magnitudes of velocity or acceleration, but not with velocity and acceleration. 
+</para>
+
+<para id="element-7">For this reason, we may recall that velocity is defined as the time rate of “change” – not “increase or decrease” in displacement. Similarly, acceleration is defined as time rate of change of velocity – not “increase or decrease” in velocity. It is so because the term “change” conveys the meaning of “change” in direction as well that of “change” as increase or decrease in the magnitude of a vector. 
+</para>
+
+<para id="element-7a">However, we see that phrases like “increase or decrease in velocity” or “increase or decrease in acceleration” are used frequently. We should be aware that these references are correct only in very specific context of motion. If motion is unidirectional, then the vector quantities associated with motion is treated as either positive or negative scalar according as it is measured in the reference direction or opposite to it. Even in this situation, we can not associate concepts of increase and decrease to vector quantities. For example, how would we interpret two particles moving in negative x-direction with negative accelerations 
+<m:math> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mo>-</m:mo>
+              <m:mn>10</m:mn>
+               <m:mi>m</m:mi>
+              <m:mo>/</m:mo>
+                <m:msup>
+                <m:mi>s</m:mi>
+                <m:mi>2</m:mi>
+                </m:msup>
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math> and 
+<m:math> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mo>-</m:mo>
+              <m:mn>20</m:mn>
+               <m:mi>m</m:mi>
+              <m:mo>/</m:mo>
+                <m:msup>
+                <m:mi>s</m:mi>
+                <m:mi>2</m:mi>
+                </m:msup>
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math> respectively ? Which of the two accelerations is greater acceleration ?  Algebraically, “-10” is greater than “-20”. But, we know that second particle is moving with higher rate of change in velocity. The second particle is accelerating at a higher rate than first particle. Negative sign only indicates that particle is moving in a direction opposite to a reference direction. </para>
+
+<para id="element-7b">Clearly, the phrases like “increase or decrease in velocity” or “increase or decrease in acceleration” are correct only when motion is "unidirectional" and in "positive" reference direction. Only in this restricted context, we can say that acceleration and velocity are increasing or decreasing. In order to be consistent with algebraic meaning, however, we may prefer to associate relative measure (increase or decrease) with magnitude of the quantity and not with the vector quantity itself.
+
+</para>
+
+</section>
+
+<section id="section-4">
+<title> Deceleration </title> 
+<para id="element-27"> Acceleration is defined strictly as the time rate of change of velocity vector. Deceleration, on the other hand, is acceleration that causes reduction in "speed". Deceleration is not opposite of acceleration. It is certainly not negative time rate of change of velocity.  It is a very restricted term as explained below. 
+</para>
+
+<para id="element-27a"> We have seen that speed of a particle in motion decreases when component of acceleration is opposite to the direction of velocity. In this situation, we can say that particle is being decelerated. Even in this situation, we can not say that deceleration is opposite to acceleration. Here, only a component of acceleration is opposite to velocity – not the entire acceleration. However, if acceleration itself (not a component of it) is opposite to velocity, then deceleration is indeed opposite to acceleration.  
+</para>
+
+<para id="element-29">If we consider motion in one dimension, then the deceleration occurs when signs of velocity and acceleration are opposite. A negative velocity and a positive acceleration mean deceleration;  a positive velocity and a negative acceleration mean deceleration; a positive velocity and a positive acceleration mean acceleration; a negative velocity and a negative acceleration mean acceleration.
+
+ </para>
+
+<para id="element-30">Take the case of projectile motion of a ball. We study this motion as two equivalent linear motions; one along x-direction and another along y-direction. 
+</para>
+<para id="element-31">
+<figure id="fig-31"><title> Parabolic motion </title>
+<media id="id8919359" alt=""><image src="../../media/nvd3.gif" mime-type="image/gif"/></media>
+<caption> The projected ball undergoes deceleration in y-direction. </caption>
+</figure>
+</para>
+<para id="element-32">For the upward flight, velocity is positive and acceleration is negative. As such the projectile is decelerated and the speed of the ball in + y direction decreases (deceleration). For downward flight from the maximum height, velocity and acceleration both are negative. As such the projectile is accelerated and the speed of the ball in - y direction increases (acceleration).  
+</para>
+
+<para id="element-33">
+In the nutshell, we summarize the discussion as :
+</para>
+<para id="element-34">
+<list id="list-34" list-type="bulleted"><item> Deceleration results in decrease in speed i.e magnitude of velocity. </item>
+<item> In one dimensional motion, the “deceleration” is defined as the acceleration which is opposite to the velocity.
+</item>
+</list>
+</para>
+
+
+<example id="example-1">
+<title> Acceleration and deceleration </title>
+<para id="element-35"><term>Problem : </term> The velocity of a particle along a straight line is plotted with respect to time as shown in the figure. Find acceleration of the particle between OA and CD. What is acceleration at t = 0.5 second and 1.5 second. What is the nature of accelerations in different segments of motion? Also investigate acceleration at A. 
+</para>
+<para id="element-36">
+<figure id="fig-36">
+<title> Velocity – time plot </title>
+<media id="id1171280764906" alt=""><image src="../../media/nvd4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-37">
+<term>Solution : </term> Average acceleration between O and A is given by the slope of straight line OA :
+</para>
+
+<para id="element-38"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+                <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>OA</m:mi>
+                </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msub> 
+              <m:mi> v </m:mi>
+              <m:mn> 2 </m:mn>
+                </m:msub>
+              <m:mo>-</m:mo>
+                <m:msub> 
+              <m:mi> v </m:mi>
+              <m:mn> 1 </m:mn>
+                </m:msub>
+                </m:mrow> 
+                <m:mrow> 
+              <m:mi> t </m:mi>
+                </m:mrow> 
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+              <m:mn>0.1</m:mn>
+              <m:mo>-</m:mo>
+              <m:mn>0</m:mn>
+                </m:mrow> 
+                <m:mrow> 
+              <m:mn>1</m:mn>
+                </m:mrow> 
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mn>0.1</m:mn>
+               <m:mi>m</m:mi>
+              <m:mo>/</m:mo>
+                <m:msup>
+                <m:mi>s</m:mi>
+                <m:mi>2</m:mi>
+                </m:msup>
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+	
+<para id="element-39">
+Average acceleration between C and D is given by the slope of straight line CD :
+</para>
+
+<para id="element-40"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+                <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>CD</m:mi>
+                </m:msub>
+              <m:mo>=</m:mo>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msub> 
+              <m:mi> v </m:mi>
+              <m:mn> 2 </m:mn>
+                </m:msub>
+              <m:mo>-</m:mo>
+                <m:msub> 
+              <m:mi> v </m:mi>
+              <m:mn> 1 </m:mn>
+                </m:msub>
+                </m:mrow> 
+                <m:mrow> 
+              <m:mi> t </m:mi>
+                </m:mrow> 
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+              <m:mn>0</m:mn>
+              <m:mo>-</m:mo>
+              <m:mo>(</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>0.1</m:mn>
+              <m:mo>)</m:mo>
+                </m:mrow> 
+                <m:mrow> 
+              <m:mn>1</m:mn>
+                </m:mrow> 
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mn>0.1</m:mn>
+               <m:mi>m</m:mi>
+              <m:mo>/</m:mo>
+                <m:msup>
+                <m:mi>s</m:mi>
+                <m:mi>2</m:mi>
+                </m:msup>
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+
+
+<para id="element-41">
+Accelerations at t = 0.5 second and 1.5 second are obtained by determining slopes of the curve at these time instants. In the example, the slopes at these times are equal to the slope of the lines OA and AB.
+</para>
+<para id="element-42">
+Instantaneous acceleration at t = 0.5 s : 
+</para>
+<para id="element-43"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+                <m:msub>
+                <m:mi>a</m:mi>
+              <m:mn>0.5</m:mn>
+                </m:msub>
+              <m:mo>=</m:mo>
+                <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>OA</m:mi>
+                </m:msub>
+              <m:mo>=</m:mo>
+              <m:mn>0.1</m:mn>
+               <m:mi>m</m:mi>
+              <m:mo>/</m:mo>
+                <m:msup>
+                <m:mi>s</m:mi>
+                <m:mi>2</m:mi>
+                </m:msup>
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-44">
+Instantaneous acceleration at t = 1.5 s : 
+</para>
+
+
+<para id="element-45"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+                <m:msub>
+                <m:mi>a</m:mi>
+              <m:mn>1.5</m:mn>
+                </m:msub>
+              <m:mo>=</m:mo>
+                <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>AB</m:mi>
+                </m:msub>
+              <m:mo>=</m:mo>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msub> 
+              <m:mi> v </m:mi>
+              <m:mn> 2 </m:mn>
+                </m:msub>
+              <m:mo>-</m:mo>
+                <m:msub> 
+              <m:mi> v </m:mi>
+              <m:mn> 1 </m:mn>
+                </m:msub>
+                </m:mrow> 
+                <m:mrow> 
+              <m:mi> t </m:mi>
+                </m:mrow> 
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+              <m:mn>0</m:mn>
+              <m:mo>-</m:mo>
+              <m:mn>0.1</m:mn>
+                </m:mrow> 
+                <m:mrow> 
+              <m:mn>1</m:mn>
+                </m:mrow> 
+              </m:mfrac>
+              <m:mo>=</m:mo>
+              <m:mo>-</m:mo>
+              <m:mn>0.1</m:mn>
+               <m:mi>m</m:mi>
+              <m:mo>/</m:mo>
+                <m:msup>
+                <m:mi>s</m:mi>
+                <m:mi>2</m:mi>
+                </m:msup>
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-46">We check the direction of velocity and acceleration in different segments of the motion in order to determine deceleration. To enable comparision, we determine directions with respect to the assumed positive direction of velocity. In OA segment, both acceleration and velocity are positive (hence particle is accelerated). In AB segment, acceleration is negative, but velocity is positive (hence particle is decelerated). In BC segment, both acceleration and velocity are negative (hence particle is accelerated). In CD segment,  acceleration is positive but velocity is negative (hence particle is decelerated).
+</para>
+<para id="element-47">Alternatively, the speed increases in segment OA and BC (hence acceleration); decreases in segments AB and CD (hence deceleration). </para>
+<para id="element-48">
+We note that it is not possible to draw an unique tangent at point A. We may draw infinite numbers of tangent at this point. In other words, limit of average acceleration can not be evaluated at A. Acceleration at A, therefore, is indeterminate.
+</para>
+</example>
+
+</section>
+
+<section id="section-5">
+<title> Graphical interpretation of negative vector quantities describing motion </title>
+
+<section id="section-5a">
+<title> Position vector </title>
+<para id="element-50">
+We may recall that position vector is drawn from the origin of reference to the position occupied by the body on a scale taken for drawing coordinate axes. This implies that the position vector is rooted to the origin of reference system and the position of the particle. Thus, we find that position vector is tied at both ends of its graphical representation. 
+</para>  
+<para id="element-51">Also if position vector ‘<term>r</term>’ denotes a particular position (A), then “-<term>r</term>” denotes another position (A’), which is lying on the opposite side of the reference point (origin). 
+</para>  
+<para id="element-52">
+<figure id="fig-52">
+ <title> Position vector </title>
+<media id="id1171288009130" alt=""><image src="../../media/nvd5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>  
+</section>
+<section id="section-5b">
+<title> Velocity vector </title>
+<para id="element-53">
+The velocity vector, on the other hand, is drawn on a scale from a particular position of the object with its tail and takes the direction of the tangent to the position curve at that point. Also, if velocity vector ‘<term>v</term>’ denotes the velocity of a particle at a particular position, then “-<term>v</term>” denotes another velocity vector, which is reversed in direction with respect to the velocity vector, <term>v</term>.
+</para>  
+<para id="element-54">
+<figure id="fig-54">
+ <title> Velocity vector </title>
+<media id="id1171293630943" alt=""><image src="../../media/nvd6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>  
+<para id="element-55">In either case (positive or negative), the velocity vectors originate from the position of the particle and are drawn along the tangent to the motion curve at that point. It must be noted that velocity vector, <term>v</term>, is not rooted to the origin of the coordinate system like position vector.
+</para>  
+
+</section>
+<section id="section-5c">
+<title> Acceleration vector </title>
+<para id="element-56">Acceleration vector is drawn from the position of the object with its tail. It is independent of the origin (unlike position vector) and the direction of the tangent to the curve (unlike velocity vector). Its direction is along the direction of the force or alternatively along the direction of the vector representing change in velocities.
+</para>  
+<para id="element-57">
+<figure id="fig-57">
+ <title> Acceleration vector </title>
+<media id="id8238820" alt=""><image src="../../media/nvd7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>  
+<para id="element-58">
+Further, if acceleration vector ‘<term>a</term>’ denotes the acceleration of a particle at a particular position, then “-<term>a</term>” denotes another acceleration vector, which is reversed in direction with respect to the acceleration vector, <term>a</term>. 
+</para>  
+</section>
+<para id="element-59">
+Summarizing the discussion held so far :
+</para>  
+<para id="element-60">
+1: Position vector is rooted to a pair of points i.e. the origin of the coordinate system and the position of the particle.
+</para>  
+<para id="element-61">
+2: Velocity vector originates at the position of the particle and acts along the tangent to the curve,  showing path of the motion.
+</para>  
+<para id="element-62">
+3: Acceleration vector originates at the position of the particle and acts along the direction of force or equivalently along the direction of the change in velocity.
+</para>  
+<para id="element-64">4: In all cases, negative vector is another vector of the same magnitude but reversed in direction with respect to another vector. The negative vector essentially indicates a change in direction and not the change in magnitude and hence, there may not be any sense of relative measurement (smaller or bigger) as in the case of scalar quantities associated with negative quantities. For example, -4° C is a smaller temperature than +4° C. Such is not the case with vector quantities. A 4 Newton force is as big as -4 Newton. Negative sign simply indicates the direction.
+</para>  
+<para id="element-65">
+We must also emphasize here that we can shift these vectors laterally without changing direction and magnitude for vector operations like vector addition and multiplication. This independence is characteristic of vector operation and is not influenced by the fact that they are actually tied to certain positions in the coordinate system or not. Once vector operation is completed, then we can shift the resulting vector to the appropriate positions like the position of the particle (for velocity and acceleration vectors) or the origin of the coordinate system (for position vector). 
+</para>  
+</section>
+
+  </content>
+  
+</document>

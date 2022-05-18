@@ -1,0 +1,833 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Absolute potential energy</title>
+  <metadata>
+  <md:content-id>m15089</md:content-id><md:title>Absolute potential energy</md:title>
+  <md:abstract>Absolute potential energy is defined with reference to infinity.</md:abstract>
+  <md:uuid>7480208c-0f50-481a-ae2c-e748e90c28c3</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">There is a disconcerting aspect of potential energy. In the earlier module titled “Potential energy”, we defined “change in potential energy” – not the potential energy itself! 
+
+
+</para>
+<para id="element-2">We assigned zero gravitational potential reference for Earth’s gravitation to the ground level and zero elastic potential energy to the neutral position of the spring. The consideration of zero reference potential energy enabled us to define and assign potential energy for a unique position – not to the difference of positions. This was certainly an improvement towards giving meaning to absolute value of potential energy of a system. In this module, we shall broaden the reference and aim to define absolute potential energy for a particular configuration of a system in general.
+</para>
+<section id="section-1">
+<title>Reference at Infinity</title>
+<para id="element-3">
+The references to ground for gravitation or a neutral position for a spring are essentially local context. For example, gravitation is not confined to Earth system only. What if we want to refer potential energy value to an object on the surface of our moon? Would we refer its potential energy in reference to Earth’s ground? 
+</para>
+<para id="element-4">We may argue that we can have moon’s ground as reference for the object on its surface. But this will also not serve purpose as there might be occasions (as always is in the study of the motions of celestial bodies) where we would need to compare potential energies of systems belonging to Earth and moon simultaneously. The point is that the general concept of potential energy can not be bounded to a local reference. We need to expand the meaning of reference, which is valid everywhere.
+</para>
+<para id="element-5">Now, we have seen that change in potential energy is equal to negative of work by conservative force. So existence of potential energy is related to existence of conservative force. Can we think a situation in which this conservative force is guaranteed to be zero. There is no such physical reference, but there is a theoretical possibility of such eventuality. Let us have a look at the Newton’s law of gravitation (this law will be discussed subsequently). The force of gravitation between two particles, “
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+” is given by :
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">As <m:math>
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>→</m:mo>
+    <m:mi>∞</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>F</m:mi>
+    <m:mo>→</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+. As there is no force on the particle, there is no work involved. Hence, we can conclude that a system of two particles at a large (infinite) distance has zero potential. As infinity is undefined, we can think of system of particles at infinity, which are separated by infinite distances and thus have zero potential energy. 
+</para>
+<para id="element-8">Theoretically, it is also considered that kinetic energy of the particle at infinity is zero. Hence, mechanical energy of the system of particles, being equal to the sum of potential and kinetic energy, is also zero at infinity.
+</para>
+<para id="element-9">Infinity appears to serve as universal zero reference. The measurement of potential energy of any system with respect to this zero reference is a unique value for a specific configuration of the system. Importantly, this is valid for all conservative force system and not confined to a particular force type like gravitation.
+</para>
+
+</section>
+
+<section id="section-2">
+<title>Definition of potential energy</title>
+<para id="element-11">
+Having decided the universal zero reference, we are now in position to define potential energy, using the expression obtained for the change in potential energy :
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">If we set initial position at infinity, then 
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>U</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+          <m:mo>=</m:mo>
+          <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+. Let us denote potential energy of a system to be “U” for a given configuration. Then,
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16"><m:math display="block">
+		<m:mrow>
+			<m:mo>⇒</m:mo>
+			<m:mi>U</m:mi>
+			<m:mo>=</m:mo>
+			<m:mo>−</m:mo>
+			<m:msub>
+				<m:mi>W</m:mi>
+				<m:mi>C</m:mi>
+			</m:msub>
+			<m:mo>=</m:mo>
+			<m:mo>−</m:mo>
+			<m:munderover>
+				<m:mo>∫</m:mo>
+				<m:mrow>
+					<m:mi>∞</m:mi>
+				</m:mrow>
+				<m:mn>0</m:mn>
+			</m:munderover>
+			<m:msub>
+				<m:mi>F</m:mi>
+				<m:mi>C</m:mi>
+			</m:msub>
+			<m:mo>ⅆ</m:mo>
+			<m:mi>r</m:mi>
+		</m:mrow>
+	</m:math>
+</para>
+<para id="element-411">Hence, we can now define potential energy as given here :
+</para><para id="element-17"><definition id="definition-17">
+<term> Potential energy </term>
+<meaning id="id5489055"> The potential energy of a system of particles is equal to “negative” of the work by the conservative force as a particle is brought from infinity to its position in the presence of other particles of the system.</meaning>
+</definition>
+
+
+</para>
+<para id="element-18">We should understand that the work by conservative force is independent of path and hence no reference is made about path in the definition. This work has a unique value. Hence, it gives a unique value of potential  to the system of particles. 
+</para>
+
+</section>
+<section id="section-3">
+<title>Distribution of potential energy</title>
+<para id="element-19">
+There is a peculiar aspect of the definition of potential energy, presented above. It defines potential energy of the system of particles in terms of work on a “single” particle. This peculiarity can be explained as it defines work in the presence of other particles and as such accounts for the forces operating on the particle due to their presence. 
+</para>
+<para id="element-20">This definition, however, is not clear about how potential energy is distributed among the particles in the system. The value of potential energy does not throw any light on this aspect. As a matter of fact, it is not possible to segregate potential energy for the individual constituents of the system. Potential energy, therefore, belongs to all of them – not to any one of them. 
+</para>
+</section>
+<section id="section-4">
+<title>Potential energy and external force</title>
+<para id="element-21">
+The potential energy is defined in terms of work by conservative force and zero reference potential at infinity. It is equal to the “negative” of work by conservative force :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mn>0</m:mn>
+    </m:munderover>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">Can we think to express this definition of potential energy in terms of external force? In earlier module, we have analyzed the motion of a body, which is raised by hand slowly to a certain vertical height. The significant point of this illustration was the manner in which body was raised. It was, if we can recall, raised slowly without imparting kinetic energy to the body being raised. It was described so with a purpose. The idea was to ensure that work by the external force (in this case, external force is equal to the normal force applied by the hand) is equal to the work by gravity. 
+</para>
+<para id="element-24">Since speed of the body is zero at the end points, “work-kinetic energy” theorem reduces to :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">This means that work by “net” force is zero. It follows, then, that works by gravity (conservative force) and external force are equal in magnitude, but opposite in sign.
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">Under this condition, the work by external force is equal to negative of work by conservative force :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mo>∫</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">where “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is conservative force. It means that if we work on the particle slowly without imparting it kinetic energy, then work by the external force is equal to negative of the work by conservative force. In other words, work by external force without a change in kinetic energy of the particle is equal to change in potential energy only. Equipped with this knowledge, we can define potential energy in terms of external force as :
+</para>
+<para id="element-33"><definition id="definition-33">
+<term> Potential energy </term>
+<meaning id="id5515093"> The potential energy of a system of particles is equal to the work by the external force as a particle is brought from infinity slowly to its position in the presence of other particles of the system.</meaning>
+</definition>
+</para>
+<para id="element-34">The context of work in defining potential energy is always confusing. There is, however, few distinguishing aspects that we should keep in mind to be correct. If we define potential energy in terms of conservative force, then potential energy is equal to “negative” of work by conservative force. If we define potential energy in terms of external force, then potential energy is simply equal to work by external force, which does not impart kinetic energy to the particle. 
+</para>
+</section>
+<section id="section-5">
+<title>Potential energy and conservative force</title>
+<para id="element-35">
+Potential energy is unique in yet another important respect. Unlike other forms of energy, potential energy is directly related to conservative force. We shall establish this relation here. We know that a change in potential energy is equal to the negative of work by gravity,
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mi>Δ</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">For infinitesimal change, we can write the equation as,
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>c</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">Thus, if we know potential energy function, we can find corresponding conservative force at a given position. Further, we can see here that force – a vector – is related to potential energy (scalar) and position in scalar form. We need to resolve this so that evaluation of the differentiation on the right yields the desired vector force.
+</para>
+<para id="element-41">As a matter of fact, we handle this situation in a very unique way. Here, the differentiation in itself yields a vector. In three dimensions, we define an operator called “grad” as : 
+</para>
+<para id="element-42"><m:math display="block">
+  <m:mrow>
+    <m:mi>grad</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>i</m:mi>
+        </m:mstyle>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>j</m:mi>
+        </m:mstyle>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>z</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>k</m:mi>
+        </m:mstyle>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">where "
+<m:math display="block">
+		<m:mrow>
+			<m:mfrac>
+				<m:mo>∂</m:mo>
+				<m:mrow>
+					<m:mo>∂</m:mo>
+					<m:mi>x</m:mi>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+"
+ is partial differentiation operator. This is same like normal differentiation except that it considers other dimensions (y,z) constant. In terms of “grad”,
+</para>
+<para id="element-44"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mrow>
+      <m:mi>grad</m:mi>
+    </m:mrow>
+<m:mspace width="2pt"/>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+The example given here illustrates the operation of “grad”.
+</para>
+<section id="section-5a">
+<title>Example</title>
+<para id="element-46"><term>Problem 1: </term> Gravitational potential energy in a region is given by :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>y</m:mi>
+        <m:mo>,</m:mo>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+        <m:msup>
+          <m:mi>z</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">Find gravitational force function.
+</para>
+<para id="element-49"><term>Solution : </term>We can obtain gravitational force in each of three mutually perpendicular directions of a rectangular coordinate system by differentiating given potential function with respect to coordinate in that direction. While differentiating with respect to a given coordinate, we consider other coordinates as constant. This type of differentiation is known as partial differentiation. 
+</para>
+<para id="element-50">Thus,
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+        <m:msup>
+          <m:mi>z</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+        <m:msup>
+          <m:mi>z</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mo>∂</m:mo>
+      <m:mrow>
+        <m:mo>∂</m:mo>
+        <m:mi>z</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>y</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>y</m:mi>
+        <m:msup>
+          <m:mi>z</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>y</m:mi>
+    <m:mi>z</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">Hence, required gravitational force is given as :
+</para>
+<para id="element-55"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mrow>
+      <m:mi>grad</m:mi>
+    </m:mrow>
+<m:mspace width="2pt"/>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>i</m:mi>
+        </m:mstyle>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>j</m:mi>
+        </m:mstyle>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>z</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>k</m:mi>
+        </m:mstyle>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mi>y</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>y</m:mi>
+    <m:mi>z</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>k</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">This example illustrates how a scalar quantity (potential energy) is related to a vector quantity (force). In order to implement partial differentiation by a single operator, we define a differential vector operator “grad” a short name for “gradient” as above. For this reason, we say that conservative force is equal to gradient of potential energy.
+</para>
+</section>
+</section>
+<section id="section-6">
+<title>Potential energy values</title>
+<para id="element-59">
+Evaluation of the integral of potential energy is positive or negative, depending on the nature of work by conservative force.
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mn>0</m:mn>
+    </m:munderover>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">The nature of work by the conservative force, on the other hand, depends on whether force is attractive or repulsive. The work by attractive force like gravitation and electrostatic force between negative and positive charges do “positive” work. In these cases, component of force and displacement are in the same direction as the particle is brought from infinity. However, as a negative sign precedes the right hand expression, potential energy of the system operated by attractive force is ultimately negative.
+</para>
+<para id="element-62">
+It means that potential energy for these conservative forces would be always a negative value. The important thing is to realize that maximum potential energy of such system is “zero” ay infinity.
+</para>
+<para id="element-63">On the other hand, potential energy of a system interacted by repulsive force is positive. Its minimum value is “zero” at infinity.
+</para>
+<para id="element-64">
+<note id="id5218726">We shall not work with numerical examples or illustrate working of different contexts presented in this module. The discussion, here, is limited to general theoretical development of the concept of potential energy for any conservative force. We shall work with appropriate examples in the specific contexts (gravitation, electrostatic force etc.) in separate modules.
+</note>
+</para>
+</section>
+  </content>
+  
+</document>

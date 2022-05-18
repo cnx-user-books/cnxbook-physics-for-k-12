@@ -1,0 +1,1247 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Second law of motion in angular form</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ce21ee59-dabd-423a-9a71-8b4ae538ec5e</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+The heading of this module (law of motion in angular form - not law of motion in rotational form) points to the subtle difference about angular quantities as applicable to general motion vis-a-vis rotation. The title also indicates that law of motion in angular form is just yet another form of Newton's law - not specific to any particular type of motion. What it means that we can use angular concepts and angular law (including the one being developed here) to even pure translational motion along a straight line.
+</para>
+<para id="element-2">In earlier module titled <link document="m14278"> Rotation of rigid body </link>, we wrote Newton's second law for rotation as :
+</para>
+<para id="element-3"><equation id="equation-3">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-4">This relation is evidently valid for rotation, which involves circular motion of particles constituting the rigid body or that of a particle in a plane perpendicular to a fixed axis of rotation. This is so because, moment of inertia is defined with rotational motion only. It is evident that we can not use this form of Newton's second law for any other motion.
+</para>
+
+
+
+<para id="element-8">In this module, we shall develop the form of Newton's law, which is based on the concept of angular momentum of a particle about a fixed point in the coordinate reference. The law so derived, ofcourse, will then be shown to yield the version of Newton's second law for rotation, which is a special case.  
+</para>  
+
+<section id="section-1">
+<title> Newton's second law for a particle in general motion
+</title>
+<para id="element-9">
+It was stated in the previous module that angular momentum is defined such that its first time derivative gives torque on the particle. This condition was specified keeping in mind about Newton's second law for translation. Following the logic, let us consider angular momentum of a moving particle moving with respect to a point and find whether first derivative actually yields torque as expected or not?
+</para>
+<para id="element-10">
+Angular momentum of the particle about the origin of the coordinate system is :
+</para>
+<para id="element-11"><equation id="equation-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-12">The "<term>r</term>" and "<term>v</term>" vectors represent position and velocity vectors respectively as shown in the figure. Taking differentiation of the terms with respect to time, we have :
+</para>
+<para id="element-14">
+<figure id="fig-14">
+<title> Angular momentum of particle in motion </title>
+<media id="idp7373648" alt=""><image src="../../media/na2.gif" mime-type="image/gif"/></media>
+<caption> The particle is moving with a velocity in 3-D reference system.</caption>
+</figure></para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> { </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+For constant mass,
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+By definition, the first time derivative of velocity is the acceleration and first time derivative of position vector is the velocity of the particle. Putting the appropriate terms for these quantities,
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+ <m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mo mathvariant="bold"> a </m:mo> 
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mo mathvariant="bold"> v </m:mo> 
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">But, the vector product of a vector with itself is equal to zero as sinθ = sin0° = 0. Hence,
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+ <m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mo mathvariant="bold"> a </m:mo> 
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">
+Rearranging, we have :
+</para>
+<para id="element-23a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+ <m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi> m </m:mi>
+<m:mo mathvariant="bold"> a </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mo mathvariant="bold"> F </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+Indeed the first derivative of angular momentum equals the toque on the particle as expected. Since force on the particle is external force, we can qualify the above relation that first time derivative of angular momentum equals external torque applied on the particle. Next, we should think about a situation when more than one force acts on the particle. According to Newton's second law in translation, we have :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mo mathvariant="bold"> F </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo mathvariant="bold"> a </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-26">
+Substituting the same in the equation above, we have :
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi> m </m:mi>
+<m:mo mathvariant="bold"> a </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:msub>
+<m:mo mathvariant="bold"> F </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mo mathvariant="bold"> F </m:mo> 
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-28">
+We note here that all forces are acting at the same point (occupied by the particle). As such, position vectors for all forces are same. Thus, we can enclose the vector product inside the summation sign,
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:msub>
+<m:mo mathvariant="bold"> F </m:mo> 
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30"><equation id="equation-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-31">
+In words, Newton's second law of motion for a particle in angular form is read as :
+</para>
+<para id="element-32">
+<definition id="definition-32">
+<term> Newton's second law of motion in angular form </term>
+<meaning id="idp1430160"> The net torque on a particle is equal to the time rate of change of its angular momentum.</meaning>
+</definition>
+</para>
+
+<example id="example-33">
+<para id="element-33"><term>Problem : </term> Consider projectile motion of a particle of mass "m" and show that time derivative of angular moment about point of projection is equal to torque on the particle about that point.
+</para>
+<para id="element-34"><term>Solution : </term> For this question, we express various vector quantities in terms of unit vectors, because two directions involved in projectile motion i.e. horizontal and vertical are mutually perpendicular. This makes it easy to represent vectors in the unit vector form.  
+
+</para>
+<para id="element-34a">For the problem in hand, we consider horizontal and vertical directions as "x" and "y" reference directions respectively. Now, the torque, τ, on the particle about the point of projection "O" is :
+</para>
+<para id="element-36">
+<figure id="fig-36">
+<title> Projectile motion </title>
+<media id="idp5833808" alt=""><image src="../../media/na3.gif" mime-type="image/gif"/></media>
+<caption> Angular moment about point of projection.</caption>
+</figure>
+</para>
+<para id="element-37"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo mathvariant="bold"> τ </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+The position vector of the position of the projectile at a given time "t"  is :
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> x </m:mi>
+<m:mo mathvariant="bold"> i </m:mo> 
+<m:mo> + </m:mo> 
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">We note here that the external force on the projectile is force due to gravity. Hence, 
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> mg </m:mi>
+<m:mo mathvariant="bold"> j </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+Putting in the equation of the torque, we have :
+</para>
+<para id="element-43"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:mo mathvariant="bold"> i </m:mo> 
+<m:mo> + </m:mo> 
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> mg </m:mi>
+<m:mo mathvariant="bold"> j </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> x </m:mi>
+<m:mi> mg </m:mi>
+<m:mo mathvariant="bold"> k </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">Negative sign shows that torque is clockwise i.e. into the plane of the projection "xy" plane. Next, we evaluate torque about "O" in terms of angular momentum. Here, angular momentum is given as :
+</para>
+<para id="element-46"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> { </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:mo mathvariant="bold"> i </m:mo> 
+<m:mo> + </m:mo> 
+<m:mi> y </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+Differentiating with respect to time "t", we have :
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> { </m:mo> 
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo mathvariant="bold"> i </m:mo> 
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">But 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+ is equal to acceleration. In the case of projectile, acceleration due to gravity is the acceleration of the projectile,
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> g </m:mi>
+<m:mo mathvariant="bold"> j </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">
+Putting this value in the equation,
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> { </m:mo> 
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo mathvariant="bold"> i </m:mo> 
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> g </m:mi>
+<m:mo mathvariant="bold"> j </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> x </m:mi>
+<m:mi> mg </m:mi>
+<m:mo mathvariant="bold"> k </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<para id="element-55">The quantities torque and angular momentum are both measured or calculated about a common point "O". If it is not so, then the relationship is not valid. This aspect should always be kept in mind while applying the law.
+</para>
+<para id="element-56">We have emphasized that the angular form of Newton's second law is defined about a point - not an axis and as such not limited to rotational motion. Hence, we can employ this law even in situation where motion is strictly along a straight line. We shall, as a matter of fact, work out an example to illustrate this.
+</para>
+
+<example id="example-57">
+<para id="element-57"><term>Problem : </term> A bunjee jumper of mass 60 kg jumps from the middle of a bridge 200 m in length. Find the torque as time derivative of angular momentum about a point "O" as shown in the figure, before the rope attached to the jumper becomes taught. 
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Bunjee jumping </title>
+<media id="idp1233472" alt=""><image src="../../media/na4.gif" mime-type="image/gif"/></media>
+<caption> The bubjee jumper jumps from the middle of bridge.</caption>
+</figure>
+</para>
+<para id="element-61"><term>Solution : </term> Initially, the jumper is at a horizontal distance of 100 m from the end of the bridge. We must observe here that the jumper is not tied to the bridge. The rope is loose during the fall. He or she falls through a vertical straight path. It is a linear motion for which we are required to calculate torque. It is also evident that we can treat the jumper as point mass as all body parts are moving with same motion. 
+</para>
+
+
+
+<para id="element-62">
+Now, angular momentum of the jumper with respect to the point, O, is :
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+Here, r sinθ = L/2, where "L" is the length of the brifge.
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+However, we do not know the speed of the jumper. We note here that the force on the jumper is force due to gravity. He/she falls with a constant acceleration. Thus, applying equation of motion, speed of the jumper after time "t" is :
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+Substituting in the equation above :
+</para>
+<para id="element-69">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">Differentiating with respect to time, 
+</para>
+<para id="element-71"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 60 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mn> 200 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 60000 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+
+<para id="element-75">In a similar situation in the earlier module titled  <link document="m14405" target-id="example-15"> Angular momentum </link>, we had found that a particle moving in a straight line parallel to one of the axes of coordinate system has constant angular momentum and zero torque. The difference has arisen as velocity was constant in that case, whereas velocity is not constant in this case. We need force (hence torque) to cause acceleration or deceleration. The result, therefore, is consistent with the basic percept of Newton's law.
+</para>
+<para id="element-76">Further, we can also calculate torque using relation  
+<m:math>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:math>
+,  where F = mg. This relation should also give same result.
+</para>
+
+</example>
+</section>
+
+
+<section id="section-3">
+<title> Newton's second law for a particle in rotation 
+</title>
+<para id="element-108">Newton's law for a particle in rotation is established by taking first derivative of the angular momentum of a particle about an axis of rotation. As derived in previous module titled <link document="m14405" target-id="equation-61"> Angular momentum </link>. it is given by :
+</para>
+<para id="element-109"><equation id="equation-109">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-110">
+Differentiating with respect to time,
+</para>
+<para id="element-111">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mo> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> Iω </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-112">
+Since particle moves around a circular path of a constant radius, 
+<m:math>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:math>
+ is a constant and the same can be taken out of differentiation,
+</para>
+<para id="element-113"><equation id="equation-113">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mo> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> Iω </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> Iω </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-114">
+This derivation underlines that the above relation is specific to rotation about an axis - not for general motion. On the other hand, the definition of torque as the time rate of angular momentum about a point is a general form of Newton's second law. 
+</para>
+</section>
+<section id="section-4">
+<title> Summary
+</title>
+
+<para id="element-115">
+Since discussion for angular momentum and corresponding Newton's second law are considered for different situations, it would be of great help to summarize the main results and special points for each of the cases so far covered. For clarity, we summarize as follows :
+</para>
+
+<section id="section-4a">
+<title> General motion of a particle
+</title>
+<para id="element-116">
+<term>1: </term>The reference for measurement of various angular quantities is a fixed point in the coordinate system. All angular quantities are measured about the same point.
+</para>
+<para id="element-117">
+<term>2: </term> Angular momentum of a particle in motion is given as :
+</para>
+<para id="element-118">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-119"><term>3: </term>  Newton's second law of motion in angular form for a particle is expressed mathematically as :
+</para>
+<para id="element-120">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mo mathvariant="bold"> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-121">
+In particular we must note that the form of Newton's second expressed in terms of moment of inertia and angular acceleration is not valid for general motion. It is so because, moment of inertia is defined about an axis - not about a point. For this reason, we shall not use the following form for general motion,
+</para>
+<para id="element-122">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mo> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+<section id="section-4b">
+<title> Rotational motion of a particle
+</title>
+
+<para id="element-123">
+<term>1: </term> For rotational motion, the reference for measurement of various angular quantities is a fixed axis of rotation.  All angular quantities are measured about the same axis of rotation.
+</para>
+<para id="element-124">
+<term>2: </term> Angular momentum of a particle in motion is given as :
+</para>
+<para id="element-125"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mo> x </m:mo> 
+<m:mi> ω </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-126">
+where "I" and "ω" denote moment of inertia and angular velocity respectively. Here, "
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:math>
+" is  moment arm  about the axis of rotation. </para>
+<para id="element-127">Since there are only two directions invoved (one in the direction of axis and other opposite to it), it is possible to represent the directional features of angular quantities in rotation with a preceding "plus" or "minus" sign for anti-clockwise and clockwise rotational motions respectively. This is also the reason why do we write equations of rotation in scalar form.
+</para>
+<para id="element-128">
+<term>3: </term>  Newton's second law of motion is expressed mathematically as :
+</para>
+<para id="element-129">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mo> t </m:mo> 
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> ℓ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+</section>
+  </content>
+  
+</document>

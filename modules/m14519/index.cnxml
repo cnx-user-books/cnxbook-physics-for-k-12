@@ -1,0 +1,2559 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Components of a vector</title>
+  <metadata>
+  <md:content-id>m14519</md:content-id><md:title>Components of a vector</md:title>
+  <md:abstract/>
+  <md:uuid>5ad161c6-945f-42f2-b30a-1f244df2487c</md:uuid>
+</metadata>
+
+<content>
+<para id="element-46a">The concept of component of a vector is tied to the concept of vector sum. We have seen that the sum of two vectors represented by two sides of a triangle is given by a vector represented by the closing side (third) of the triangle in opposite direction. Importantly, we can analyze this process of summation of two vectors inversely. We can say that a single vector (represented by third side of the triangle) is equivalent to two vectors in two directions (represented by the remaining two sides). 
+
+
+</para>
+<para id="element-46b">
+We can generalize this inverse interpretation of summation process. We can say that a vector can always be considered equivalent to a pair of vectors. The law of triangle, therefore, provides a general frame work of resolution of a vector in two components in as many ways as we can draw triangle with one side represented by the vector in question. However, this general framework is not very useful. Resolution of vectors turns out to be meaningful, when we think resolution in terms of vectors at right angles. In that case, associated triangle is a right angle. The vector being resolved into components is represented by the hypotenuse and components are represented by two sides of the right angle triangle. 
+ 
+
+</para>
+<para id="element-46c">Resolution of a vector into components is an important concept for two reasons : (i) there are physical situations where we need to consider the effect of a physical vector quantity in specified direction. For example, we consider only the component of weight along an incline to analyze the motion of the block over it and (ii) the concept of components in the directions of rectangular axes, enable us to develop algebraic methods for vectors.
+ 
+</para>
+<para id="element-46d">
+Resolution of a vector in two perpendicular components is an extremely useful technique having extraordinary implication. Mathematically, any vector can be represented by a pair of co-planar vectors in two perpendicular directions. It has, though,  a deeper meaning with respect to physical phenomena and hence physical laws. Consider projectile motion for example. The motion of projectile in two dimensional plane is equivalent to two motions – one along the vertical and one along horizontal direction. We can accurately describe motion in any of these two directions independent of motion in the other direction! To some extent, this independence of two component vector quantities from each other is a statement of physical law – which is currently considered as property of vector quantities and not a law by itself. But indeed, it is a law of great importance which we employ to study more complex physical phenomena and process. 
+
+
+</para>
+<para id="element-46e">Second important implication of resolution of a vector in two perpendicular directions is that we can represent a vector as two vectors acting along two axes of a rectangular coordinate system. This has far reaching consequence. It is the basis on which algebraic methods for vectors are developed – otherwise vector analysis is tied, by definition, to geometric construct and analysis. The representation of vectors along rectangular axes has the advantage that addition of vector is reduced to simple algebraic addition and subtraction as consideration along an axis becomes one dimensional. It is not difficult to realize the importance of the concept of vector components in two perpendicular directions. Resolution of vector quantities is the way we transform two and three dimensional phenomena into one dimensional phenomena along the axes. 
+</para>
+
+<section id="section-1">
+<title>  Components of a vector </title>
+<para id="element-46">
+A scalar component, also known as projection, of a vector <term>AB</term> in the positive direction of a straight line C’C is defined as :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mi> AC </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> | </m:mo>
+  <m:mi mathvariant="bold"> AB </m:mi>
+  <m:mo> | </m:mo>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> AB </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+</m:math>
+</para>
+<para id="element-48">
+Where θ is the angle that vector AB makes with the specified direction C’C as shown in the figure. 
+</para>
+<para id="element-48a">
+<figure id="fig48a"><title> Analytical method </title>
+<media id="id1163788654802" alt=""><image src="../../media/va7.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-49">
+It should be understood that the component so determined is not rooted to the common point “A” or any specific straight line like C’C in a given direction. Matter of fact, component of vector AB drawn on any straight lines like D’D parallel to CC’ are same. Note that the component i.e. projection of the vector is graphically obtained by drawing two perpendicular lines from the ends of the vector on the straight line in the specified direction. 
+</para>
+
+<para id="element-50"><equation id="equation-50">
+<m:math display="block">
+  <m:mi> ED </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> AC </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> AB </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+</m:math>
+</equation></para>
+
+<para id="element-50a">It is clear that scalar component can either be positive or negative depending on the value of angle that the vector makes with the referred direction. The angle lies between the range given by 0 ≤ θ ≤ 180°. This interval means that we should consider the smaller angle between two vectors.
+</para>
+<para id="element-51">In accordance with the above definition, we resolve a given vector in three components in three mutually perpendicular directions of rectangular coordinate system. Note here that we measure angle with respect to parallel lines to the axes. By convention, we denote components by using the non-bold type face of the vector symbol with a suffix representing direction (x or y or z).
+</para>
+<para id="element-51a">
+<figure id="fig51a"><title> Components of a vector </title>
+<media id="id1163786555813" alt=""><image src="../../media/va8.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> A </m:mi>
+  <m:msub>
+  <m:mi> B </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mo> = </m:mo>
+  <m:mi> AB </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> α </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> A </m:mi>
+  <m:msub>
+  <m:mi> B </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mo> = </m:mo>
+  <m:mi> AB </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> β </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> A </m:mi>
+  <m:msub>
+  <m:mi> B </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mo> = </m:mo>
+  <m:mi> AB </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> γ </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+Where α, β and γ are the angles that vector AB makes with the positive directions of x, y and z directions respectively.
+</para>
+<para id="element-54">As a vector can be resolved in a set of components, the reverse processing of components in a vector is also expected. A vector is composed from vector components in three directions along the axes of rectangular coordinate system by combining three component vectors. The vector component is the vector counterpart of the scalar component, which is obtained by multiplying the scalar component with the unit vector in axial direction. The vector components of a vector ,<term>a</term>, are 
+<m:math>
+   <m:msub>
+    <m:mi> a </m:mi>
+    <m:mn> x </m:mn>
+   </m:msub>
+   <m:mi mathvariant="bold"> i </m:mi>
+</m:math>
+, 
+<m:math>
+   <m:msub>
+    <m:mi> a </m:mi>
+    <m:mn> y </m:mn>
+   </m:msub>
+   <m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+ and 
+<m:math>
+   <m:msub>
+    <m:mi> a </m:mi>
+    <m:mn> z </m:mn>
+   </m:msub>
+   <m:mi mathvariant="bold"> k </m:mi>
+</m:math>
+
+.  
+</para>
+<para id="element-55">
+A vector,<term>a</term>, is equal to the vector sum of component vectors in three mutually perpendicular directions of rectangular coordinate system. 
+</para>
+
+<para id="element-56"><equation id="equation-56"><m:math display="block">
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+  <m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+  <m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+</m:math>
+</equation></para>
+
+<para id="element-57">
+where <m:math>
+   <m:mi mathvariant="bold"> i </m:mi>
+</m:math> ,
+<m:math>
+   <m:mi mathvariant="bold"> j </m:mi>
+</m:math> and
+<m:math>
+   <m:mi mathvariant="bold"> k </m:mi>
+</m:math> 
+are unit vectors in the respective directions. 
+</para>
+<para id="element-510"><equation id="equation-510">
+<m:math display="block">
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> α </m:mi>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+  <m:mo> + </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> β </m:mi>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+  <m:mo> + </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> γ </m:mi>
+  <m:mi mathvariant="bold"> k </m:mi>
+</m:math>
+</equation></para><para id="element-58">Magnitude of the sum of two vectors (
+<m:math>
+ <m:msub>
+  <m:mi mathvariant="normal"> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi mathvariant="normal"> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+) in x and y direction, which are perpendicular to each other, is :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi> a’ </m:mi>
+     <m:mo> = </m:mo>
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+     <m:mrow>
+     <m:msup>
+        <m:mrow>
+        <m:msub>
+        <m:mi> a </m:mi>
+        <m:mi> x </m:mi>
+        </m:msub>
+        </m:mrow>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> + </m:mo>
+     <m:msup>
+        <m:mrow>
+        <m:msub>
+        <m:mi> a </m:mi>
+        <m:mi> y </m:mi>
+        </m:msub>
+        </m:mrow>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     </m:mrow>
+     <m:mo> ) </m:mo>
+
+     <m:mo> = </m:mo>
+     <m:msup>
+     <m:mrow>
+       <m:mo> ( </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> x </m:mi>
+         </m:msub>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> + </m:mo>
+       <m:msup>
+        <m:mrow>
+        <m:msub>
+        <m:mi> a </m:mi>
+        <m:mi> y </m:mi>
+        </m:msub>
+        </m:mrow>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> ) </m:mo>
+     </m:mrow>
+     <m:mrow>
+        <m:mfrac>
+        <m:mn> 1 </m:mn>
+        <m:mn> 2 </m:mn>
+        </m:mfrac>
+     </m:mrow>
+     </m:msup>
+
+
+   </m:mtd>
+ </m:mtr>
+
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para>
+<para id="element-60">We observe here that resultant vector lies in the plane formed by the two component vectors being added. The resultant vector is, therefore, perpendicular to third component vector. Thus, the magnitude of the sum of vector (
+<m:math>
+ <m:msub>
+  <m:mi mathvariant="normal"> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi mathvariant="normal"> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+) and third vector , 
+<m:math>
+  <m:msub>
+  <m:mi mathvariant="normal"> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+</m:math>
+, which are perpendicular to each other, is :
+</para>
+<para id="element-61"><equation id="equation-61">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mo> ⇒ </m:mo>
+     <m:mi> a </m:mi>
+     <m:mo> = </m:mo>
+
+     <m:mo> √ </m:mo>
+     <m:mo> [ </m:mo>
+     <m:msup>
+     <m:mrow>
+     <m:mo> { </m:mo>
+     <m:msup>
+     <m:mrow>
+       <m:mo> ( </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> x </m:mi>
+         </m:msub>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> + </m:mo>
+       <m:msup>
+        <m:mrow>
+        <m:msub>
+        <m:mi> a </m:mi>
+        <m:mi> y </m:mi>
+        </m:msub>
+        </m:mrow>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> ) </m:mo>
+     </m:mrow>
+     <m:mrow>
+        <m:mfrac>
+        <m:mn> 1 </m:mn>
+        <m:mn> 2 </m:mn>
+        </m:mfrac>
+     </m:mrow>
+     </m:msup>
+     <m:mo> } </m:mo>
+     </m:mrow>
+     <m:mn> 2 </m:mn>
+     </m:msup>
+
+
+    <m:mo> + </m:mo>
+    
+    <m:msup>
+        <m:mrow>
+        <m:msub>
+        <m:mi> a </m:mi>
+        <m:mi> z </m:mi>
+        </m:msub>
+        </m:mrow>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> ] </m:mo>
+
+   </m:mtd>
+ </m:mtr>
+     <m:mo> ⇒ </m:mo>
+     <m:mi> a </m:mi>
+     <m:mo> = </m:mo>
+
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> x </m:mi>
+         </m:msub>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> y </m:mi>
+         </m:msub>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+
+       <m:mo> + </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> z </m:mi>
+         </m:msub>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> ) </m:mo>
+
+
+   <m:mtr>
+     <m:mtd>
+
+
+   </m:mtd>
+ </m:mtr>
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</equation>
+</para>
+
+<example id="example-819a">
+<para id="element-819"><term>Problem : </term> Find the angle that vector 2<term>i</term> + <term>j</term> – <term>k</term> makes with y-axis. 
+</para>
+<para id="element-820"> <term>Solution : </term> We can answer this question with the help of expression for the cosine of angle that a vector makes with a given axis. We know that component along y-axis is :
+</para>
+
+<para id="element-821">
+<figure id="fig-821">
+<title> Angle </title>
+<media id="id1163788836213" alt=""><image src="../../media/vq3.gif" mime-type="image/gif"/></media>
+<caption> Vector makes an angle with y-axis. </caption>
+</figure>
+</para>
+<para id="element-822">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> β </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> cos </m:mi>
+<m:mi> β </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-823">
+Here, 
+</para>
+<para id="element-824">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-824a">
+and 
+</para>
+<para id="element-825">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-826">
+Hence,
+</para>
+<para id="element-827">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> cos </m:mi>
+<m:mi> β </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 6 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> β </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mi> cos </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 6 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-2a">
+<title> Planar components of a vector </title>
+<para id="element-73a">
+The planar components of a vector lies in the plane of vector. Since there are two perpendicular axes involved with a plane, a vector is resolved in two components which lie in the same plane as that of vector. Clearly, a vector is composed of components in only two directions :
+</para>
+<para id="element-74b">
+<m:math display="block">
+<m:mtable columnalign="left">
+  <m:mtr>
+  <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> α </m:mi>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> β </m:mi>
+  <m:mi mathvariant="bold"> j </m:mi>
+  </m:mtd>
+  </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75a">
+From the figure depicting a planar coordinate, it is clear that angle “β” is compliment of angle “α”. If α = θ, then 
+</para>
+<para id="element-76a">
+<figure id="fig-76a">
+<title> Planar vector </title>
+<media id="id1163789353145" alt=""><image src="../../media/va11.gif" mime-type="image/gif"/></media>
+<caption> The direction of a planar vector with respect to rectangular axes can be described by a single angle.</caption>
+</figure>
+
+</para>
+<para id="element-77a">
+<m:math display="block">
+<m:mtable columnalign="left">
+  <m:mtr>
+  <m:mtd>
+  <m:mi> α </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> θ </m:mi>
+  <m:mspace width="4pt"/>
+  <m:mi> and </m:mi>
+  <m:mspace width="4pt"/>
+  <m:mi> β </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 90 </m:mn>
+  <m:mo> ° </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi> θ </m:mi>
+  </m:mtd>
+  </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">
+Putting in the expression for the vector,
+</para>
+<para id="element-79">
+<equation id="equation-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+  <m:mtr>
+  <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  </m:mtd>
+  </m:mtr>
+  <m:mtr>
+  <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mo> ( </m:mo>
+  <m:mn> 90 </m:mn>
+  <m:mo> ° </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi> θ </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  </m:mtd>
+  </m:mtr>
+  <m:mtr>
+  <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mi mathvariant="bold"> j </m:mi>
+  </m:mtd>
+  </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-80">
+From graphical representation, the tangent of the angle that vector makes with x-axis is :
+</para>
+<para id="element-81">
+<equation id="equation-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+  <m:mtr>
+  <m:mtd>
+  <m:mi> tan </m:mi>
+  <m:mi> α </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> tan </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+  <m:mi> a </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+  <m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+</m:mrow>
+<m:mrow>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+</m:mrow>
+</m:mfrac>
+  </m:mtd>
+  </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-82">
+</para>
+<para id="element-83">
+Similarly, the tangent of the angle that vector makes with y-axis is :
+</para>
+<para id="element-84">
+<equation id="equation-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+  <m:mtr>
+  <m:mtd>
+  <m:mi> tan </m:mi>
+  <m:mi> β </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> tan </m:mi>
+  <m:mo> ( </m:mo>
+  <m:mn> 90 </m:mn>
+  <m:mo> ° </m:mo>
+  <m:mo> - </m:mo>
+  <m:mi> θ </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi> cot </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+  <m:mi> a </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+  <m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+</m:mrow>
+<m:mrow>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+</m:mrow>
+</m:mfrac>
+  </m:mtd>
+  </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<example id="example-712a">
+<para id="element-712"><term>Problem : </term> Find the unit vector in the direction of a bisector of the angle between a pair of coordinate axes.
+</para>
+<para id="element-714"> <term>Solution : </term> The unit vector along the direction of a bisector lies in the plane formed by two coordinates. The bisector makes an angle of 45° with either of the axes. Hence, required unit vector is :
+</para>
+<para id="element-715">
+<figure id="fig-715">
+<title> Unit vector </title>
+<media id="id1163790057014" alt=""><image src="../../media/vq2-64a5.gif" mime-type="image/gif"/></media>
+<caption> Unit vector along the bisector. </caption>
+</figure>
+</para>
+<para id="element-716">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> = </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> = </m:mo>
+<m:mi> cos </m:mi>
+<m:mn> 45 </m:mn>
+<m:mo> ° </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> sin </m:mi>
+<m:mn> 45 </m:mn>
+<m:mo> ° </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-717">
+<term>Note : </term> We may check that the magnitude of the unit vector is indeed 1.
+</para>
+<para id="element-718">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mi> n </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> { </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> } </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+
+
+
+</section>
+
+<section id="section-4">
+<title>  Representation of a vector in component form </title>
+
+<para id="element-601">The angle involved in determination of components plays important role. There is a bit of ambiguity about angle being used. Actually, there are two ways to write a vector in component form. We shall illustrate these two methods with an illustration. Let us consider an example. Here, we consider a vector <term>OA</term> having magnitude of 10 units. The vector makes 150° and 30° angle with x and y axes as shown in the figure.
+</para>
+<para id="element-602">
+<figure id="fig-602">
+<title> Component of a vector</title>
+<media id="id1163788964997" alt=""><image src="../../media/cv1.gif" mime-type="image/gif"/></media>
+<caption> Component of a vector </caption>
+</figure>
+</para>
+<para id="element-603">Using definition of components, the vector <term>OA</term> is represented as :
+</para>
+<para id="element-604">
+<m:math display="block">
+  <m:mrow>
+
+   <m:mi mathvariant="bold"> OA </m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>150</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+   <m:mi mathvariant="bold"> OA </m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+   <m:mi mathvariant="bold"> OA </m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-605">Note that we use angles that vector makes with the axes to determine scalar components. We obtain corresponding component vectors by multiplying scalar components with respective unit vectors of the axes involved. We can, however, use another method in which we only consider acute angle – irrespective of directions of axes involved. Here, vector <term>OA</term> makes acute angle of 60° with x-axis. While representing vector, we put a negative sign if the component is opposite to the positive directions of axes. We can easily determine this by observing projection of vector on the axes. Following this :
+</para>
+<para id="element-606">
+<m:math display="block">
+  <m:mrow>
+
+   <m:mi mathvariant="bold"> OA </m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+   <m:mi mathvariant="bold"> OA </m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-607">Note that we put a negative sign before component along x-direction as projection of vector on x-axis is in opposite direction with respect to positive direction of x-axis. The y - projection, however, is in the positive direction of y-axis. As such, we do not need to put a negative sign before the component. Generally, people prefer second method as trigonometric functions are positive in first quadrant. We are not worried about the sign of trigonometric function at all.
+</para>
+
+
+<para id="element-608a">
+<exercise id="exercise-608a">
+<problem id="id1163789006083">
+<para id="element-608">Write force <term>OA</term> in component form.
+</para>
+<para id="element-609">
+<figure id="fig-609">
+<title> Component of a vector</title>
+<media id="id1163788513771" alt=""><image src="../../media/cv2.gif" mime-type="image/gif"/></media>
+<caption> Component of a vector.</caption>
+</figure>
+</para>
+</problem>
+
+<solution id="id1163787793028">
+<para id="element-610">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+
+   <m:mi mathvariant="bold"> F </m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-611a">
+<exercise id="exercise-611a">
+<problem id="id1163789430172">
+<para id="element-611">
+Write force <term>OA</term> in component form.
+</para>
+<para id="element-612">
+<figure id="fig-612"><title> Component of a vector</title><media id="id1163789356202" alt=""><image src="../../media/cv2a.gif" mime-type="image/gif"/></media><caption> Component of a vector.</caption></figure>
+</para>
+</problem>
+<solution id="id1163787634592">
+<para id="element-614">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+
+   <m:mi mathvariant="bold"> F </m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+
+   <m:mi mathvariant="bold"> i </m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+
+   <m:mi mathvariant="bold"> j </m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+</section>
+
+<section id="section-5">
+<title>  Vector addition : Algebraic method </title>
+
+<para id="element-45">Graphical method is meticulous and tedious as it involves drawing of vectors on a scale and measurement of angles. More importantly, it does not allow algebraic operations that otherwise would give a simple solution. We can, however, extend algebraic techniques to vectors,<emphasis> provided vectors are represented on a rectangular coordinate system</emphasis>. The representation of a vector on coordinate system uses the concept of unit vector and component.
+</para>
+
+<para id="element-62"> Now, the stage is set to design a frame work, which allows vector addition with algebraic methods. The frame work for vector addition draws on two important concepts. The first concept is that a vector can be equivalently expressed in terms of three component vectors : 
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi mathvariant="bold"> a </m:mi>
+     <m:mo> = </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mi> x </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> i </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mi> y </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> j </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mi> z </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> k </m:mi>
+
+   </m:mtd>
+ </m:mtr>
+     <m:mi mathvariant="bold"> b </m:mi>
+     <m:mo> = </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mi> x </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> i </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mi> y </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> j </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mi> z </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> k </m:mi>
+
+   <m:mtr>
+     <m:mtd>
+
+
+   </m:mtd>
+ </m:mtr>
+</m:mtable>
+</m:mstyle> </m:math>
+</para>
+
+<para id="element-64">
+The component vector form has important significance. It ensures that component vectors to be added are restricted to three known directions only. This paradigm eliminates the possibility of unknown direction. The second concept is that vectors along a direction can be treated algebraically. If two vectors are along the same line, then resultant is given as :
+</para>
+<para id="element-65">
+When θ = 0°, cosθ = cos 0° = 1 and,
+</para>
+
+<para id="element-66">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi> ⇒ </m:mi>
+     <m:mi> R </m:mi>
+     <m:mo> = </m:mo>
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+       <m:msup>
+       <m:mi> P </m:mi>
+       <m:mn> 2 </m:mn>
+       </m:msup>
+       <m:mo> + </m:mo>
+       <m:mn> 2 </m:mn>
+       <m:mi> P </m:mi>
+       <m:mi> Q </m:mi>
+       <m:mo> + </m:mo>
+       <m:msup>
+       <m:mi> Q </m:mi>
+       <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> ) </m:mo>
+
+     <m:mo> = </m:mo>
+
+     <m:mo> √ </m:mo>
+     <m:mo> { </m:mo>
+       <m:msup>
+       <m:mrow>
+       <m:mo> ( </m:mo>
+       <m:mi> P </m:mi>
+       <m:mo> + </m:mo>
+       <m:mi> Q </m:mi>
+       <m:mo> ) </m:mo>
+       </m:mrow>
+       <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> } </m:mo>
+     <m:mo> = </m:mo>
+
+       <m:mi> P </m:mi>
+       <m:mo> + </m:mo>
+       <m:mi> Q </m:mi>
+
+   </m:mtd>
+ </m:mtr>
+
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para>
+
+<para id="element-67">
+When θ = 180°, cosθ = cos 180° = -1 and,
+</para>
+<para id="element-319"><m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi> ⇒ </m:mi>
+     <m:mi> R </m:mi>
+     <m:mo> = </m:mo>
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+       <m:msup>
+       <m:mi> P </m:mi>
+       <m:mn> 2 </m:mn>
+       </m:msup>
+       <m:mo> - </m:mo>
+       <m:mn> 2 </m:mn>
+       <m:mi> P </m:mi>
+       <m:mi> Q </m:mi>
+       <m:mo> + </m:mo>
+       <m:msup>
+       <m:mi> Q </m:mi>
+       <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> ) </m:mo>
+
+     <m:mo> = </m:mo>
+
+     <m:mo> √ </m:mo>
+     <m:mo> { </m:mo>
+       <m:msup>
+       <m:mrow>
+       <m:mo> ( </m:mo>
+       <m:mi> P </m:mi>
+       <m:mo> - </m:mo>
+       <m:mi> Q </m:mi>
+       <m:mo> ) </m:mo>
+       </m:mrow>
+       <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> } </m:mo>
+     <m:mo> = </m:mo>
+
+       <m:mi> P </m:mi>
+       <m:mo> - </m:mo>
+       <m:mi> Q </m:mi>
+
+   </m:mtd>
+ </m:mtr>
+
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para><para id="element-68">Thus, we see that the magnitude of the resultant is equal to algebraic sum of the magnitudes of the two vectors.
+</para>
+<para id="element-69">
+Using these two concepts, the addition of vectors is affected as outlined here :
+</para>
+
+<para id="element-70">1: Represent the vectors (<term>a</term> and <term>b</term>) to be added in terms of components :
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi mathvariant="bold"> a </m:mi>
+     <m:mo> = </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mi> x </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> i </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mi> y </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> j </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mi> z </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> k </m:mi>
+
+   </m:mtd>
+ </m:mtr>
+     <m:mi mathvariant="bold"> b </m:mi>
+     <m:mo> = </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mi> x </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> i </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mi> y </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> j </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mi> z </m:mi>
+       </m:msub>
+       <m:mi mathvariant="bold"> k </m:mi>
+
+   <m:mtr>
+     <m:mtd>
+
+
+   </m:mtd>
+ </m:mtr>
+</m:mtable>
+</m:mstyle> </m:math>
+</para>
+
+<para id="element-72">2: Group components in a given direction :</para>
+<para id="element-73">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi mathvariant="bold"> a </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> b </m:mi>
+     <m:mo> = </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mn> x </m:mn>
+       </m:msub>
+       <m:mi mathvariant="bold"> i </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mn> y </m:mn>
+       </m:msub>
+       <m:mi mathvariant="bold"> j </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mn> z </m:mn>
+       </m:msub>
+       <m:mi mathvariant="bold"> k </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mn> x </m:mn>
+       </m:msub>
+       <m:mi mathvariant="bold"> i </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mn> y </m:mn>
+       </m:msub>
+       <m:mi mathvariant="bold"> j </m:mi>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mn> z </m:mn>
+       </m:msub>
+       <m:mi mathvariant="bold"> k </m:mi>
+
+   </m:mtd>
+ </m:mtr>
+   <m:mtr>
+     <m:mtd>
+
+     <m:mo> ⇒ </m:mo>
+     <m:mi mathvariant="bold"> a </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> b </m:mi>
+     <m:mo> = </m:mo>
+       <m:mo> ( </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mn> x </m:mn>
+       </m:msub>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mn> x </m:mn>
+       </m:msub>
+       <m:mo> ) </m:mo>
+       <m:mi mathvariant="bold"> i </m:mi>
+       <m:mo> + </m:mo>
+       <m:mo> ( </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mn> y </m:mn>
+       </m:msub>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mn> y </m:mn>
+       </m:msub>
+       <m:mo> ) </m:mo>
+       <m:mi mathvariant="bold"> j </m:mi>
+       <m:mo> + </m:mo>
+       <m:mo> ( </m:mo>
+       <m:msub>
+       <m:mi> a </m:mi>
+       <m:mn> z </m:mn>
+       </m:msub>
+       <m:mo> + </m:mo>
+       <m:msub>
+       <m:mi> b </m:mi>
+       <m:mn> z </m:mn>
+       </m:msub>
+       <m:mo> ) </m:mo>
+       <m:mi mathvariant="bold"> k </m:mi>
+
+   </m:mtd>
+ </m:mtr>
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para>
+
+<para id="element-74">
+3: Find the magnitude and direction of the sum, using analytical method 
+</para>
+<para id="element-74a"><equation id="equation-74a">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+
+     <m:mo> ⇒ </m:mo>
+     <m:mi> a </m:mi>
+     <m:mo> = </m:mo>
+
+     <m:mo> √ </m:mo>
+     <m:mo> { </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:mo> ( </m:mo>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> x </m:mi>
+         </m:msub>
+         <m:mo> + </m:mo>
+         <m:msub>
+         <m:mi> b </m:mi>
+         <m:mi> x </m:mi>
+         </m:msub>
+         <m:mo> ) </m:mo>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:mo> ( </m:mo>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> y </m:mi>
+         </m:msub>
+         <m:mo> + </m:mo>
+         <m:msub>
+         <m:mi> b </m:mi>
+         <m:mi> y </m:mi>
+         </m:msub>
+         <m:mo> ) </m:mo>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:mo> ( </m:mo>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> z </m:mi>
+         </m:msub>
+         <m:mo> + </m:mo>
+         <m:msub>
+         <m:mi> b </m:mi>
+         <m:mi> z </m:mi>
+         </m:msub>
+         <m:mo> ) </m:mo>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> ) </m:mo>
+   </m:mtd>
+ </m:mtr>
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</equation></para>
+
+</section>
+
+
+
+<section id="section-6">
+<title>  Exercises </title>
+
+<para id="element-928a">
+<exercise id="exercise-928a">
+<problem id="id1163787695896">
+<para id="element-928">Find the angle that vector √3<term>i</term> - <term>j</term> makes with y-axis.
+</para>
+</problem>
+
+<solution id="id1163789124268">
+<para id="element-929"> From graphical representation, the angle that vector makes with y-axis has following trigonometric function :
+</para>
+
+<para id="element-930">
+<figure id="fig-930">
+<title> Angle </title>
+<media id="id1163788558279" alt=""><image src="../../media/vq4.gif" mime-type="image/gif"/></media>
+<caption> Vector makes an angle with y-axis. </caption>
+</figure>
+</para>
+<para id="element-931">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-932">Now, we apply the formulae to find the angle, say θ, with y-axis,
+</para>
+<para id="element-933">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:mn> 120 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-934">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 120 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-935">
+In case, we are only interested to know the magnitude of angle between vector and y-axis, then we can neglect the negative sign,
+</para>
+<para id="element-936">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ’ </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:mn> 60 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-937">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ’ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-948a">
+<exercise id="exercise-948a">
+<problem id="id1163787668359">
+<para id="element-948"> If a vector makes angles α,β and γ with x,y and z axes of a rectangular coordinate system, then prove that :
+</para>
+<para id="element-949">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> α </m:mi>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> β </m:mi>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> cos </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> γ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+
+<solution id="id1163788852095">
+<para id="element-950">  The vector can be expressed in terms of its component as :
+</para>
+
+<para id="element-951">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-952">
+where 
+<m:math>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> α </m:mi>
+  <m:mo> ; </m:mo>
+<m:mspace width="4pt"/>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> β </m:mi>
+  <m:mo> ; </m:mo>
+<m:mspace width="4pt"/>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> γ </m:mi>
+</m:math>
+.
+</para>
+<para id="element-953">
+<figure id="fig-953">
+<title> Angles </title>
+<media id="id1163786319384" alt=""><image src="../../media/vq6-e603.gif" mime-type="image/gif"/></media>
+<caption> Vector makes different angles with axes.. </caption>
+</figure>
+</para>
+<para id="element-954">
+The magnitude of the vector is given by :
+</para>
+<para id="element-955">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+     <m:mi> a </m:mi>
+     <m:mo> = </m:mo>
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> x </m:mi>
+         </m:msub>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> y </m:mi>
+         </m:msub>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+       <m:mo> + </m:mo>
+       <m:msup>
+         <m:mrow>
+         <m:msub>
+         <m:mi> a </m:mi>
+         <m:mi> z </m:mi>
+         </m:msub>
+         </m:mrow>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+     <m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-956">
+Putting expressions of components in the equation,
+</para>
+<para id="element-957">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+ <m:mo> ⇒ </m:mo> 
+    <m:mi> a </m:mi>
+     <m:mo> = </m:mo>
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+       <m:msup>
+         <m:mi> a </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> α </m:mi>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mi> a </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> β </m:mi>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mi> a </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> γ </m:mi>
+     <m:mo> ) </m:mo>
+   </m:mtd>
+ </m:mtr>
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para>
+<para id="element-958">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+<m:mtr>
+   <m:mtd>
+ <m:mo> ⇒ </m:mo> 
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> α </m:mi>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> β </m:mi>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> γ </m:mi>
+     <m:mo> ) </m:mo>
+     <m:mo> = </m:mo>
+         <m:mn> 1 </m:mn>
+   </m:mtd>
+ </m:mtr>
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para>
+<para id="element-959">
+Squaring both sides,
+</para>
+<para id="element-960">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+<m:mtr>
+   <m:mtd>
+ <m:mo> ⇒ </m:mo> 
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> α </m:mi>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> β </m:mi>
+     <m:mo> + </m:mo>
+       <m:msup>
+         <m:mi> cos </m:mi>
+         <m:mn> 2 </m:mn>
+       </m:msup>
+         <m:mi> γ </m:mi>
+     <m:mo> = </m:mo>
+         <m:mn> 1 </m:mn>
+   </m:mtd>
+ </m:mtr>
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-1102a">
+<exercise id="exercise-1102a">
+<problem id="id1163789452014">
+<para id="element-1102">  Find the components of weight of a block along the incline and perpendicular to the incline. </para>
+</problem>
+
+<solution id="id1163789364436">
+<para id="element-1103">  The component of the weight along the incline is :
+</para>
+<para id="element-1104">
+<figure id="fig-1104"><title> Weight on an incline </title>
+<media id="id1163789142816" alt=""><image src="../../media/vq15.gif" mime-type="image/gif"/></media>
+<caption> Components of weight along the incline and perpendicualt to the incline.</caption>
+</figure>
+</para>
+<para id="element-1105"><m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> mg </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> sin </m:mi>
+<m:mn> 30 </m:mn>
+<m:mo> ° </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1106">
+and the component of weight perpendicular to incline is :
+</para>
+<para id="element-1107"><m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> mg </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> cos </m:mi>
+<m:mn> 30 </m:mn>
+<m:mo> ° </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-1108a">
+<exercise id="exercise-1108">
+<problem id="id1163786562103">
+<para id="element-1108"> The sum of magnitudes of two forces acting at a point is 16 N. If the resultant of the two forces is 8 N and it is normal to the smaller of the two forces, then find the forces.
+</para>
+</problem>
+
+<solution id="id1163789356761">
+<para id="element-1109">  We depict the situation as shown in the figure. The resultant force R is shown normal to small force 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+. In order that the sum of the forces is equal to R, the component of larger force along the x-direction should be equal to smaller force :
+</para>
+<para id="element-1110">
+<figure id="fig-1110"><title> Two forces acting on a point </title>
+<media id="id1163787396240" alt=""><image src="../../media/vq16.gif" mime-type="image/gif"/></media>
+<caption> The resultant force is perpendicular to smaller of the two forces.</caption>
+</figure>
+</para>
+<para id="element-1111">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1112">
+Also, the component of the larger force along y-direction should be equal to the magnitude of resultant,
+</para>
+<para id="element-1114">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 8 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1115">
+Squaring and adding two equations, we have :
+</para>
+<para id="element-1116">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msubsup>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo>
+<m:msubsup>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo>
+<m:mn> 64 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1117">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msubsup>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo>
+<m:msubsup>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo>
+<m:mn> 64 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1118">
+However, according to the question,
+</para>
+<para id="element-1119">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 16 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1120">
+Substituting, we have :
+</para>
+<para id="element-1121">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 64 </m:mn>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1122">
+Solving,
+</para>
+<para id="element-1123">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 6 </m:mn>
+
+
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</solution>
+</exercise>
+</para>
+
+</section>
+<para id="element-1122a"> More illustrations on the subject are available in the module titled <link document="m14785"> Resolution of forces </link>
+</para>
+
+  </content>
+  
+</document>

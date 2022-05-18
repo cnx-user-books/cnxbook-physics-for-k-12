@@ -1,0 +1,2666 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Collision of projectiles</title>
+  <metadata>
+  <md:content-id>m14613</md:content-id><md:title>Collision of projectiles</md:title>
+  <md:abstract/>
+  <md:uuid>f9ae87c3-b650-4a6b-812e-d836051ebd2c</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m13837/latest/" strength="3">Projectile motion</link>
+      <link url="http://cnx.org/content/m13847/latest/" strength="2">Features of projectile motion</link>
+      <link url="http://cnx.org/content/m13856/latest/" strength="2">Projectile motion types</link>
+      <link url="http://cnx.org/content/m14614/latest/" strength="1">Projectile motion on an incline</link>
+      <link url="http://cnx.org/content/m14601/latest/" strength="1">Relative motion of projectiles</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+<para id="element-1">
+Collision between two projectiles is a rare eventuality. The precise requirement of collision is that the two projectiles are at the same position (having same x and y coordinates) at a given time instant. This is the condition for two point objects to collide or for a collision to occur. This is possible only rarely. Consider projections of two projectiles as shown in the figure. 
+
+
+</para>
+<para id="element-2">
+<figure id="fig-2"><title> Collision of projectiles </title><media id="id20073934" alt=""><image src="../../media/rmp4c.gif" mime-type="image/gif"/></media><caption> The position of plane with respect to the earth keeps changing with time.</caption></figure>
+
+</para>
+<para id="element-3">
+We see that paths of two projectiles cross twice. Thus, there are two positions (or corresponding time instants) when it is possible that projectiles occupy same position and thus may collide with each other. But, there are infinite possibilities that they would not. Projectile “A” may rise to the required height but “B” may be at lower or higher position. Similarly, even if two projectiles are at same height they may be horizontally separated. To top these, the projectiles may have time difference at the start of their motion. However, if two projectiles collide then we can make lot many simplifying assumptions resulting from the requirement of collision that two projectiles are at the same position at the same time. In this module, we shall examine these simplifying aspects of projectile motion under collision.  
+
+</para>
+<section id="section-1">
+<title> Analysis of motion
+</title>
+
+
+<para id="element-4">
+
+Two projectiles need to approach towards each other for collision to take place. If we look at this requirement in component form, then projectiles should approach towards each other both vertically and horizontally. It is possible that projectiles have different projection times. We can, however, extend the analysis even when projectiles are projected at different times by accounting motion for the additional time available to one of projectiles. For the sake of simplicity however, we consider that two projectiles are initiated at the same time instant. 
+</para>
+
+<para id="element-4a">
+The most important aspect of analysis of projectile motion involving collision is that we can interpret condition of collision in terms of relative velocity. We actually use the fact that components of relative velocity in either x or y direction is uniform motion - not accelerated one. This simplifies the analysis a great deal.  
+</para>
+
+
+
+<section id="section-1a">
+<title> Relative motion in x-direction
+</title>
+<para id="element-5">
+
+ If “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is the initial separation between projectiles, then for collision they should cover this separation with x-component of relative velocity. Since two projectiles are initiated at the same time instant, the time when collision occurs is given by :
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-7">
+where <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is the relative speed of approach of A with respect B. Note that time expression evaluates to same value whether we compute it with <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ or <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+. On the other hand, if there is no initial separation in x – direction, the projectiles should cover same horizontal distance for all time intervals. It is so because projectiles have to reach same horizontal i..e x-position at the point of collision in two dimensional space. This means that relative velocity of projectiles in x-direction is zero for the condition of collision. Mathematically,
+ 
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<title> Relative motion in y-direction
+</title>
+
+<para id="element-9">
+
+If “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>y</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is the initial separation between projectiles, then for collision they should cover this separation with y-component of relative velocity. Since two projectiles are initiated at the same time instant, the time when collision occurs is given by :
+
+
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-11">
+where <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math> is the relative speed of approach of A with respect B. Note that time expression evaluates to same value whether we compute it with <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math> or <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>. On the other hand, if there is no initial separation in y – direction, the projectiles should cover same vertical distance for all time intervals. It is so because projectiles have to reach same vertical i..e y-position at the point of collision in two dimensional space. This means that relative velocity of projectiles in y-direction is zero for the condition of collision. Mathematically,
+
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-2">
+<title> Collision of projectiles initiated without vertical separation
+</title>
+
+<para id="element-13">
+
+In this case, there is no initial vertical separation. Such is the case, when projectiles are projected from same horizontal level. Both projectiles should rise to same height for all time. Clearly, relative velocity in vertical i.e y-direction is zero :
+
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-15">
+On the other hand, time of collision is obtained by considering relative motion in x-direction :
+
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-17">
+There are different cases for projection from the same horizontal level. Some important cases are : (i) one projectile is projected at certain angle to the horizontal while the other projectile is projected vertically and (ii) Both projectiles are projected at certain angles to the horizontal. Here, we shall work out examples for each of these cases.
+</para>
+
+<example id="example-12a">
+<para id="element-12a"><term>Problem : </term> Two projectiles “A” and “B” are projected simultaneously as shown in the figure. If they collide after 0.5 s, then determine (i) angle of projection “θ” and (ii) the distance “s”.
+</para>
+<para id="element-14a">
+<figure id="fig-14a"><title> Relative motion </title><media id="id19906238" alt=""><image src="../../media/rmp1-8519.gif" mime-type="image/gif"/></media><caption> The projectiles collide after 0.5 s.</caption></figure>
+</para>
+<para id="element-15a"> <term>Solution : </term> We see here that projectile “A” is approaching towards projectile “B” in horizontal direction. Their movement in two component directions should be synchronized so that they are at the same position at a particular given time. There is no separation in vertical direction at the start of motion. As such, relative velocity in y-direction should be zero for collision to occur.
+</para>
+<para id="element-16aa">
+<figure id="fig-16aa"><title> Relative motion </title><media id="id19906295" alt=""><image src="../../media/rmp2-b801.gif" mime-type="image/gif"/></media><caption> The projectiles collide after 0.5 s.</caption></figure>
+</para>
+<para id="element-17a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>20</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msqrt>
+        <m:mn>2</m:mn>
+      </m:msqrt>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21a">
+In the x-direction, the relative velocity is : 
+</para>
+<para id="element-22a"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>-</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23a">
+The distance “s” covered with the relative velocity in 0.5 second is :
+</para>
+<para id="element-24a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>s</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>0.5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+
+<example id="example-86">
+<para id="element-86"><term>Problem : </term> Two projectiles “A” and “B” are thrown simultaneously in opposite directions as shown in the figure. If they happen to collide in the mid air, then find the time when collision takes place.
+</para>
+<para id="element-87">
+<figure id="fig-86"><title> Two projectiles </title><media id="id19918201" alt=""><image src="../../media/rmp7c.gif" mime-type="image/gif"/></media><caption> Two projectiles are thrown towards each other. </caption></figure>
+</para>
+<para id="element-88"> <term>Solution : </term> There is no separation in vertical direction at the start of motion. As such, relative velocity in y-direction should be zero for collision to occur.
+</para>
+<para id="element-88a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">
+Putting values,
+</para>
+<para id="element-89a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+  <m:mfrac>
+      <m:mn>60</m:mn>
+      <m:mn>50</m:mn>
+  </m:mfrac>
+    <m:mo>X</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92"> The projectiles move towards each other with the relative velocity in horizontal direction. The relative velocity in x-direction is :
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>60</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>50</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">In order to find relative velocity in x-direction, we need to know “
+<m:math>
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. Using trigonometric relation, we have :
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>sin</m:mi>
+            <m:msup>
+              <m:mi/>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msub>
+              <m:mi>θ</m:mi>
+              <m:mi>B</m:mi>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mfrac>
+                <m:mn>3</m:mn>
+                <m:mn>5</m:mn>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+              <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>5</m:mn>
+              </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">
+Hence,
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>60</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>50</m:mn>
+    <m:mo>X</m:mo>
+              <m:mfrac>
+    <m:mn>4</m:mn>
+    <m:mn>5</m:mn>
+              </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>+</m:mo>
+    <m:mn>40</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>91.98</m:mn>
+    <m:mo>≈</m:mo>
+    <m:mn>92</m:mn>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">We should now understand that projectiles move towards each other with a relative velocity of 92 m/s. We can interpret this as if projectile “B” is stationary and projectile “A” moves towards it with a velocity 92 m/s, covering the initial separation between two particles for  collision to take place. The time of collision, therefore, is :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>92</m:mn>
+    <m:mo>/</m:mo>
+    <m:mn>92</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+</section>
+<section id="section-3">
+<title> Collision of projectiles initiated without horizontal separation
+</title>
+
+<para id="element-18">
+
+In this case, there is no initial horizontal separation. Projectiles are thrown from different levels. Both projectiles travel same horizontal distnace for all time. Clearly, relative velocity in horizontal i.e x-direction is zero :
+
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-20">
+On the other hand, time of collision is obtained by considering relative motion in y-direction :
+
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+
+
+<example id="example-104a">
+<para id="element-104a"><term>Problem : </term> A fighter plane is flying horizontally at a speed of 360 km/hr and is exactly above an aircraft gun at a given moment. At that instant, the aircraft gun is fired to hit the plane, which is at a vertical height of 1 km. If the speed of the shell is 720 km/hr, then at what angle should the gun be aimed to hit the plane (Neglect resistance due to air)?
+</para>
+<para id="element-105a"><term>Solution : </term> This is a case of collision between fighter plane and shell fired from the gun. Since plane is overhead, it is required that horizontal component of velocity of the shell be equal to that of the plane as it is flying in horizontal direction. This will ensure that shell will hit the plane whenever it rises to the height of the plane.
+</para>
+<para id="element-104">
+<figure id="fig-104"><title> Two projectiles </title><media id="id20647279" alt=""><image src="../../media/rmp9.gif" mime-type="image/gif"/></media><caption> The shell fired aircraft gun hits the fighter plane. </caption></figure>
+</para>
+<para id="element-105">
+Now the horizontal and vertical components of shell velocity are :
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>720</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>720</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">
+For collision,
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>720</m:mn>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>360</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">However, we need to check that shell is capable to rise to the height of the plane. Here,
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>720</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>h</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>720</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>18</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>200</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-154">
+The maximum height achieved by the shell is obtained as here :
+</para>
+
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>H</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mi/>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:msup>
+            <m:mn>200</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:msup>
+            <m:mfenced>
+              <m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mfenced>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>X</m:mi>
+          <m:mn>10</m:mn>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>1500</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115">The shell indeed rises to the height of the plane (1000 m) and hence will hit it. 
+</para>
+</example>
+
+
+<example id="example-26a">
+<para id="element-26a"><term>Problem : </term> Two projectiles are projected simultaneously from a point on the ground “O” and an elevated position “A” respectively as shown in the figure. If collision occurs at the point of return of two projectiles on the horizontal surface, then find the height of “A” above the ground and the angle at which the projectile "O" at the ground should be projected.
+</para>
+<para id="element-27a">
+<figure id="fig-27a">
+<title> Relative motion </title>
+<media id="id20647898" alt=""><image src="../../media/rmp3a.gif" mime-type="image/gif"/></media>
+<caption> The projectiles collide in the mid air.</caption>
+</figure>
+</para>
+<para id="element-28a"> <term>Solution : </term> There is no initial separation between two projectiles in x-direction. For collision to occur, the relative motion in x-direction should be zero. In other words, the component velocities in x-direction should be equal so that two projectiles cover equal horizontal distance at any given time. Hence,
+</para>
+
+
+<para id="element-29a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>u</m:mi>
+        <m:mi>A</m:mi>
+      </m:msub>
+      <m:msub>
+        <m:mi>u</m:mi>
+        <m:mi>O</m:mi>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>10</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33a">
+<figure id="fig-33a"><title> Relative motion </title><media id="id20648213" alt=""><image src="../../media/rmp3a.gif" mime-type="image/gif"/></media><caption> The projectiles collide in the mid air.</caption></figure>
+</para>
+<para id="element-34a">We should ensure that collision does occur at the point of return. It means that by the time projectiles travel horizontal distances required, they should also cover vertical distances so that both projectiles are at “C” at the same time. In the nutshell, their times of flight should be equal. For projectile from "O", 
+</para>
+<para id="element-35abc">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>u</m:mi>
+            <m:mi>O</m:mi>
+          </m:msub>
+          <m:mi>sin</m:mi>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+        <m:mi>g</m:mi>
+      </m:mfrac>
+    </m:mrow>
+
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35abcd">
+For projectile from "A", 
+</para>
+<para id="element-35a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>H</m:mi>
+            </m:mrow>
+            <m:mi>g</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35abcde">
+For projectile from "A", 
+</para>
+<para id="element-35abcdef">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>u</m:mi>
+            <m:mi>O</m:mi>
+          </m:msub>
+          <m:mi>sin</m:mi>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+        <m:mi>g</m:mi>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>H</m:mi>
+            </m:mrow>
+            <m:mi>g</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36a">
+Squaring both sides and putting values,
+</para>
+<para id="element-37a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>H</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msubsup>
+          <m:mi>u</m:mi>
+          <m:mrow>
+            <m:mi>O</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msup>
+          <m:mi>sin</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>H</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>sin</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mn>60</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>H</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:msqrt>
+                <m:mn>3</m:mn>
+              </m:msqrt>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40a">We have deliberately worked out this problem taking advantage of the fact that projectiles are colliding at the end of their flights and hence their times of flight should be equal. We can, however, proceed to analyze in typical manner, using concept of relative velocity. The initial separation between two projectiles in the vertical direction is “H”. This separation is covered with the component of relative velocity in vertical direction.
+</para>
+<para id="element-41a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42a">
+Now, time of flight of projectile from ground is :
+</para>
+<para id="element-43a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mi>O</m:mi>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>x</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>x</m:mi>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>60</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>10</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44a">Hence, the vertical displacement of projectile from "A" before collision is :
+</para>
+<para id="element-45a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>H</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mi>x</m:mi>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+
+</section>
+<section id="section-4">
+<title> Collision of projectiles initiated from different horizontal and vertical levels
+</title>
+
+<para id="element-22">
+
+In this case, there are finite initial horizontal and vertical separations. For collision to occur, projectiles need to cover these separations simultaneously. Clearly, component relative velocity in x and y directions are finitie. We can obtain time of collision by consideration of relative motion in either direction,
+
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-24">
+or
+
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>y</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+
+
+<example id="example-46">
+<para id="element-46"><term>Problem : </term> Two projectiles are projected simultaneously from two towers as shown in the figure. If the projectiles collide in the air, then find the distance “s” between the towers.    
+</para>
+<para id="element-47">
+<figure id="fig-47"><title> Relative motion </title><media id="id20649375" alt=""><image src="../../media/rmp5-0715.gif" mime-type="image/gif"/></media><caption> The projectiles collide in the mid air.</caption></figure>
+</para>
+<para id="element-48"> <term>Solution : </term> We see here that projectiles are approaching both horizontally and vertically. Their movement in two component directions should be synchronized so that they are at the same position at a particular given time. For collision, the necessary requirement is that relative velocity and displacement should be in the same direction. 
+</para>
+<para id="element-48a">
+It is given that collision does occur. It means that two projectiles should cover the displacement with relative velocity in each of the component directions.
+</para>
+<para id="element-48b">
+<figure id="fig-48b"><title> Relative motion </title><media id="id20649458" alt=""><image src="../../media/rmp6.gif" mime-type="image/gif"/></media><caption> The projectiles collide in the mid air.</caption></figure>
+</para>
+<para id="element-48c">
+In x-direction,
+</para>
+<para id="element-48d">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>x</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+If “t” is time after which collision occurs, then
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+Clearly, we need to know “t” to find “s”. The component of relative velocity in y-direction is :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">The initial vertical distance between points of projection is 30-10 = 20 m. This vertical distance is covered with component of relative velocity in vertical direction. Hence, time taken to collide, “t”, is :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mn>10</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+Putting this value in the earlier equation for “s”, we have :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>x</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>40</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+</section>
+<section id="section-5">
+<title> Exercises
+</title>
+
+
+<para id="element-168ab">
+<exercise id="exercise-168ab">
+<problem id="id20650129">
+<para id="element-168a">
+Two projectiles are projected simultaneously from two towers as shown in the figure. 
+If collision takes place in the air, then what should be the ratio "x/y" :
+
+</para>
+<para id="element-168b">
+<figure id="fig-168b"><title> Relative motion of projectiles </title><media id="id20650176" alt=""><image src="../../media/rp5.gif" mime-type="image/gif"/></media><caption> Relative motion of projectiles </caption></figure>
+
+</para>
+<para id="element-168c">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id20650290">
+<para id="element-169">
+According to question, collision occurs in the mid air. The necessary condition for collision is that direction of relative velocity and initial displacement between projectiles should be same.
+</para>
+
+
+
+
+<para id="element-170">
+In x-direction,
+
+
+</para>
+<para id="element-171">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-172">
+In y-direction,
+
+</para>
+<para id="element-173">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-174">
+The angle that relative velocity makes with horizontal is :
+
+</para>
+<para id="element-175">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>20</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-176">
+This is also the slope of displacement AB,
+</para>
+<para id="element-177">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>y</m:mi>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-178">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>y</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-179">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-161a">
+<exercise id="exercise-161a">
+<problem id="id20650944">
+<para id="element-161">
+
+Two balls are projected simultaneously with speeds "<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+” and “"<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” from two points "O" and "A" respectively as shown in the figure. If the balls collide, then find the ratio "<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+” (consider g = 10 <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+) :
+
+
+
+</para>
+<para id="element-162">
+<figure id="fig-162"><title> Relative motion of projectiles </title><media id="id20651084" alt=""><image src="../../media/rp4.gif" mime-type="image/gif"/></media><caption> Relative motion of projectiles </caption></figure>
+
+</para>
+<para id="element-163">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+    <m:mrow>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mrow>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</problem>
+
+<solution id="id20651232">
+<para id="element-164">
+It is given that the projectiles collide. Now the initial separation in vertical direction is zero. It follows then that component of relative velocity between two projectiles in vertical direction should be zero for collision to take place. This is possible if the vertical component of velocity of projectile form "O" is equal to the speed of projectile form "A" (Remember that acceleration due to gravity applies to both projectiles and relative acceleration in vertical direction is zero).
+
+</para>
+<para id="element-165">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-166">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>60</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-167">
+Hence, option (a) is correct.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-58aa">
+<exercise id="exercise-58aa">
+<problem id="id20651447">
+<para id="element-58"> Two projectiles “A” and “B” are projected simultaneously towards each other as shown in the figure. Determine if they collide.
+</para>
+<para id="element-59">
+<figure id="fig-59"><title> Relative motion </title><media id="id20651494" alt=""><image src="../../media/rmp7e.gif" mime-type="image/gif"/></media><caption> The projectiles collide in the mid air.</caption></figure>
+</para></problem>
+
+<solution id="id20651514">
+<para id="element-60">  There is no separation in vertical direction at the start of motion. As such, relative velocity in y-direction should be zero for collision to occur.
+</para>
+<para id="element-60a"> 
+<figure id="fig-60a">
+<title> Relative motion </title>
+<media id="id20651562" alt=""><image src="../../media/rmp8.gif" mime-type="image/gif"/></media>
+<caption> The projectiles collide in the mid air.</caption>
+</figure>
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70"><m:math display="block">
+  <m:mrow>
+    <m:mn>10</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+In the x-direction, the initial separation is 15 m and the relative velocity is : 
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mfrac>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+The time after which collision may occur is :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1.464</m:mn>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+We should, however, check whether projectiles stay that long in the air in the first place? Now, we have seen that the projectiles should have same vertical component of velocity for collision to occur. As time of flight is a function of vertical component of velocity, the time of the flight of the projectiles are equal. For projectile “A” :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>u</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+
+      <m:mfrac>
+        <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>X</m:mi>
+      <m:mn>10</m:mn>
+      <m:mi>X</m:mi>
+      <m:mn>1</m:mn>
+        </m:mrow>
+        <m:mrow>
+
+      <m:mn>10</m:mn>
+      <m:mi>X</m:mi>
+      <m:mn>2</m:mn>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+This means that projectiles would not stay that long in the air even though  the necessary conditions (but not sufficient conditions) for the collision are fulfilled. Clearly, collision does not occur in this case. We should clearly understand that "analysis of motion with respect to collision" and "requirements of collision" are not same. In this module, we have studied the "consequence of collision" - not the "conditions for collision".  
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+
+</section>
+
+
+
+ 
+  </content>
+  
+</document>

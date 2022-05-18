@@ -1,0 +1,1163 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Elastic and plastic collisions (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>4e1d5450-845d-4962-882b-5418c624e9e2</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to elastic collision. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Collision in one dimension
+</item>
+<item> Collision in two dimensions
+</item>
+<item> Elastic potential energy in collision
+</item>
+<item> Oblique collision
+</item>
+<item> Loss in kinetic energy
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Collision in one dimension
+</title>
+<section id="section-3a">
+<para id="element-6"><term>Problem 1 : </term> Two particles of mass “m” and “2m” coming from opposite sides collide “head-on” elastically. If velocity of particle of mass “2m” is twice that of the particle of mass “m”, then find their velocities after collision.
+</para>
+<para id="element-7"><term>Solution : </term>  We see here that collision and motions are in one dimension. Let us denote particles of mass “m” and “2m” as “1” and “2” respectively. Let us consider that particle “1” moves in the positive x-direction and particle “2” moves in opposite direction to the reference. 
+</para> 
+<para id="element-8">
+Let the velocities of particle of mass “m” and “2m” after collision are “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” respectively. Hence,
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Elastic collision </title>
+<media id="idp1308656" alt=""><image src="../../media/ecq1.gif" mime-type="image/gif"/></media>
+<caption> Velocities before and after collision </caption>  
+</figure>
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+and
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">Applying equation of conservation of linear momentum,
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+Putting values,
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">For elastic collision, velocity of approach equals velocity of separation. Hence,
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+Putting values,
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">Adding two resulting equations,
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">Putting this value in the equation of conservation of linear momentum,
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">It means that heavier particle of mass “2m” comes to rest, but the lighter particle of mass “m” moves with thrice its original speed in opposite direction. The situation after the collision is shown in the figure below :
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Elastic collision </title>
+<media id="idp4222704" alt=""><image src="../../media/ecq2.gif" mime-type="image/gif"/></media>
+<caption> Velocities before and after collision </caption>  
+</figure>
+</para>
+</section>
+
+<section id="section-3b">
+<title> Collision in one dimension
+</title>
+<para id="element-35a"><term>Problem 2 : </term>A particle of mass “m”, moving with velocity “v” in a horizontal circular tube of radius “r”, hits another particle of mass “2m” at rest. If the inside surface of the circular tube is smooth and collision is perfectly elastic, find the time interval after first collision, when they collide again.
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Elastic collision </title>
+<media id="idp7379024" alt=""><image src="../../media/ecq8.gif" mime-type="image/gif"/></media>
+<caption> The particles collide in the circular tube.  </caption>  
+</figure>
+</para>
+<para id="element-36"><term>Solution : </term>The collision along circular path can be dealt in the same fashion as that of collision in one dimension, because particle is constrained to move along a fixed path. The particles will collide after covering a distance equal to perimeter of the circular path at a relative speed with which they separate after the collision.
+</para>
+<para id="element-37">For elastic collision, we know that relative speed of separation is equal to relative speed of approach. 
+</para>
+<para id="element-38">Here,
+</para>
+<para id="element-39">Relative speed of approach = v = relative speed of separation.
+</para>
+<para id="element-40">Hence, time taken to collide again, “t”, is :
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-4">
+<title> Collision in two dimensions
+</title>
+<para id="element-42"><term>Problem 3 : </term>Two identical particles moving with the same speed along two different straight lines collide at the point where their trajectories meet. The particles, after a perfectly inelastic collision, move with half the initial speed. Find the angle between the paths of two particles before collision.
+</para>
+<para id="element-43">
+<figure id="fig-43">
+<title> Elastic collision </title>
+<media id="idp7230304" alt=""><image src="../../media/ecq3.gif" mime-type="image/gif"/></media>
+<caption> Motion in two dimensions </caption>  
+</figure>
+</para>
+<para id="element-44"><term>Solution : </term>This is a question involving motion in two dimensions. However, we can not proceed, using component conservation equations. It is because we do not know the direction of final common velocity. If we proceed with component equations, we shall have more unknowns than equations.
+</para>
+<para id="element-45">We, therefore, make use of vector equation for conservation of linear momentum. We can find resultant linear momentum of the particles before collision. According to conservation of linear momentum, the magnitude of resultant linear momentum should be equal to the magnitude of final linear momentum.
+</para>
+<para id="element-46">Let "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+"
+ and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" be the linear momentums of two particles, making an angle “θ” with each other. Let each has mass “m” and speed “v”. Then, applying theorem of parallelogram for vector addition, the magnitude of resultant of linear momentums (P) is related as :
+</para>
+<para id="element-47">
+<figure id="fig-47">
+<title> Elastic collision </title>
+<media id="idp7231280" alt=""><image src="../../media/ecq4.gif" mime-type="image/gif"/></media>
+<caption> Vector sum of momentums </caption>  
+</figure>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>P</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>P</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msubsup>
+      <m:mi>P</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>P</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>P</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">The common velocity of the combined mass after collision for perfectly inelastic collision between identical bodies is half the initial velocity i.e. "v/2". On the other hand, magnitude of linear momentum after collision is :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>P</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>{</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+    <m:msup>
+      <m:mi/>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Combining two equations, we have :
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>120</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>120</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-5">
+<title> Elastic potential energy in collision
+</title>
+<para id="element-57"><term>Problem 4 : </term>A particle with kinetic energy collides head on with an identical particle at rest. If the collision is elastic, then find the maximum elastic energy possessed by the system during collision.
+</para>
+<para id="element-58"><term>Solution : </term>
+Recall our discussion on drawing parallel of collision process with that of motions of two block, one of which has a spring tail. We had discussed that when projectile block hits the spring with greater velocity than that of the target block, the spring compresses till velocities of two blocks equal. This situation represents the maximum elastic potential energy of the colliding system.
+</para>
+<para id="element-59">
+Let the projectile block has velocity “v”, whereas the target block is stationary in the beginning as given in the question. Let “V” be the common velocity of colliding particles during the collision, corresponding to situation when system has maximum elastic potential energy.
+</para>
+<para id="element-60">Applying conservation of linear momentum to the system,
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+Putting values,
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">Kinetic energy before collision is equal to total mechanical energy of the system.
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+The kinetic energy when two particles move with common velocity is given as :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>V</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mi>m</m:mi>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>K</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-6">
+<title> Oblique collision
+</title>
+<para id="element-69"><term>Problem 5 : </term>A ball of mass “m” collides elastically with an identical ball at rest obliquely. Find the angle between velocities after collision.
+</para>
+<para id="element-69a"><term>Solution : </term>We can answer this question using equations available for collision in two dimensions. However, there is an elegant solution to this problem that we can attempt using the nature of collision. We know that collision normal force is perpendicular to the tangent drawn at the contact point. There is no component of collision force in the tangential direction.
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Oblique elastic collision </title>
+<media id="idp12382256" alt=""><image src="../../media/ecq5.gif" mime-type="image/gif"/></media>
+<caption> The projectile makes an angle with normal collision force. </caption>  
+</figure>
+</para>
+<para id="element-71">Thus, if we stick to the analysis in these two perpendicular directions, then we can get the answer quickly. Let the velocity of projectile ball (“1”) makes an angle “θ” with the direction of normal force as shown in the figure. 
+</para>
+<para id="element-72">Analyzing motion in y – direction, we see that the projectile hits the target (“2”) “head – on” with a component of velocity “v cos θ”. For this situation involving head on collision between identical balls, velocities are simply exchanged after collision. It means that projectile’s velocity becomes zero in this direction, whereas target gains a velocity “v cos θ” in this direction. 
+</para>
+<para id="element-73">
+<figure id="fig-73">
+<title> Oblique elastic collision </title>
+<media id="idp2117040" alt=""><image src="../../media/ecq6.gif" mime-type="image/gif"/></media>
+<caption> Analysis in mutually perpendicular directions. </caption>  
+</figure>
+</para>
+<para id="element-74">Analyzing motion in x-direction, we see that there is no component of collision normal force in this direction. This means that component of velocity in this direction remains constant. As such, projectile has velocity “v sin θ” in this direction, whereas target has no component of velocity in this direction.
+</para>
+<para id="element-75a">In the nutshell, projectile moves with resultant velocity “v sin θ” in x-direction, whereas target moves resultant velocity “v cos θ” in y-direction.
+</para>
+<para id="element-75">
+<figure id="fig-75">
+<title> Oblique elastic collision </title>
+<media id="idp6960912" alt=""><image src="../../media/ecq7a.gif" mime-type="image/gif"/></media>
+<caption> Velocities are mutually perpendicular to each other after collision. </caption>  
+</figure>
+</para>
+<para id="element-76">Hence, two identical balls, after collision, move in directions, which are at right angle with each other. This is a very important result as it says that resulting motion in elastic collision of two identical bodies are at right angle to each other irrespective of the angle at which they collide!
+</para>
+</section>
+
+<section id="section-7">
+<title> Loss in kinetic energy
+</title>
+<para id="element-77"><term>Problem 6 : </term>A particle of mass 1 kg with velocity “v” collides “head on” with another identical particle at rest. If kinetic energy of the system of particles after collision is 2 J, then find minimum and maximum values of initial  velocity “v” of the projectile.  
+</para>
+<para id="element-78"><term>Solution : </term>There is no (minimum) loss of kinetic energy in perfectly elastic collision. On the other hand, there is maximum loss in kinetic energy in perfectly inelastic collision. 
+</para>
+<para id="element-77a">The velocity of projectile particle is minimum for perfectly elastic collision for a given kinetic energy after collision.
+</para>
+<para id="element-78a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">The velocity of projectile particle is maximum for perfectly inelastic collision for a given kinetic energy after collision, which is 2 J. Let v’ be the velocity of the combined mass after plastic collision. 
+</para>
+<para id="element-83">Then, applying conservation of linear momentum, 
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>v</m:mi>
+          <m:mo>′</m:mo>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+
+  </content>
+  
+</document>

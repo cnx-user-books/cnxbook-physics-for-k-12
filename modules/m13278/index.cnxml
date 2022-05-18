@@ -1,0 +1,167 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+<title>Distance</title>
+<metadata>
+  <md:content-id>m13278</md:content-id><md:title>Distance</md:title>
+  <md:abstract>Motion involves two types of measurements : one, which depends on the end points (displacement) and the other, which depends on all points (distance) of motion.</md:abstract>
+  <md:uuid>77b3c388-53fe-442b-855d-2d2da489161c</md:uuid>
+</metadata>
+
+<content>
+
+
+<para id="element-1">Distance represents the magnitude of motion in terms of the "length" of the path,  covered by an object during its motion. The terms "distance" and "distance covered" are interchangeably used to represent  the same length along the path of motion and are considered equivalent terms. Initial and final positions of the object are mere start and end points of measurement and are not sufficient to determine distance. It must be understood that the distance is measured by the length covered, which may not necessarily be along the straight line joining initial and final positions. The path of the motion between two positions is an important consideration for determining distance. One of the paths between two points is the shortest path, which may or may not be followed during the motion.
+</para>
+
+<para id="element-2">
+<definition id="definition-2">
+<term> Distance </term>
+<meaning id="id20383582"> Distance is the length of path followed during a motion.</meaning>
+</definition>
+</para>
+
+<para id="element-3">
+<figure id="fig1">
+          <title> Distance</title>
+	    <media id="id20383605" alt=""><image src="../../media/distance1.gif" mime-type="image/gif"/></media>
+	    <caption> Distance depends on the choice of path between two points
+            </caption>
+</figure>
+</para>
+
+<para id="element-4">
+In the diagram shown above, 
+
+<m:math>
+   <m:msub>
+    <m:mi> s </m:mi>
+    <m:mn> 1 </m:mn>
+   </m:msub>
+</m:math>
+, represents the shortest distance between points A and B. Evidently,
+</para>
+<para id="element-4a">
+<m:math display="block">
+   <m:msub>
+    <m:mi> s </m:mi>
+    <m:mn> 2 </m:mn>
+   </m:msub>
+    <m:mo> ≥ </m:mo>
+   <m:msub>
+    <m:mi> s </m:mi>
+    <m:mn> 1 </m:mn>
+   </m:msub>
+</m:math>
+</para>
+<para id="element-4b">The concept of distance is associated with the magnitude of movement of an object during the motion. It does not matter if the object goes further away or suddenly moves in a different direction or reverses its path. The magnitude of movement keeps adding up so long the object moves. This notion of distance implies that distance is not linked with any directional attribute. The distance is, thus, a scalar quantity of motion, which is cumulative in nature.  
+</para>
+
+<para id="element-4c">An object may even return to its original position over a period of time without any “net” change in position; the distance, however, will not be zero. To understand this aspect of distance, let us consider a point object that follows a circular path starting from point A and returns to the initial position as shown in the figure above. Though, there is no change in the position over the period of motion; but the object, in the meantime, covers a circular path, whose length is equal to its perimeter i.e. 2πr. 
+</para>
+
+
+<para id="element-7">Generally, we choose the symbol 's' to denote distance. A distance is also represented in the form of “∆s” as the distance covered in a given time interval ∆t. The symbol “∆” pronounced as “del” signifies the change in the quantity before which it appears. </para>
+
+<para id="element-8">Distance is a scalar quantity but with a special feature. It does not take negative value unlike some other scalar quantities like “charge”, which can assume both positive and negative values. The very fact that the distance keeps increasing regardless of the direction, implies that distance for a body in motion is always positive. Mathematically :
+
+<m:math display="block">
+    <m:mi> s </m:mi>
+    <m:mo> &gt; </m:mo>
+    <m:mn> 0 </m:mn>
+</m:math>
+</para>
+
+
+<para id="element-8a">Since distance is the measurement of length, its dimensional formula is [L] and its SI measurement unit is “meter”.
+</para>
+
+
+
+<section id="section-1">
+<title> Distance – time plot</title>
+
+<para id="element-9">Distance – time plot is a simple plot of two scalar quantities along two axes. However, the nature of distance imposes certain restrictions, which characterize "distance - time" plot. 
+</para>
+
+<para id="element-9b">The nature of "distance – time" plot, with reference to its characteristics, is summarized here : 
+</para>
+
+<para id="element-9c">
+<list id="list-1" list-type="enumerated"><item> Distance is a positive scalar quantity. As such, "the distance – time" plot is a curve in the first quadrant of the two dimensional plot. </item>
+	<item> As distance keeps increasing during a motion, the slope of the curve is always positive. </item>
+	<item> When the object undergoing motion stops, then the plot becomes straight line parallel to time axis so that distance is constant as shown in the figure here. 
+</item>
+</list>
+</para>
+<para id="element-9d">
+<figure id="fig9d">
+          <title> Distance - time plot </title>
+	    <media id="id20381736" alt=""><image src="../../media/distance5.gif" mime-type="image/gif"/></media>
+	    
+</figure>
+</para>
+<para id="element-9e">One important implication of the positive slope of the "distance - time" plot is that the curve never drops below a level at any moment of time. Besides, it must be noted that "distance - time" plot is handy in determining "instantaneous speed", but we choose to conclude the discussion of "distance - time" plot as these aspects are separately covered in subsequent module.
+</para>
+<example id="example-1">
+<title>Distance – time plot</title>
+<para id="element-10">
+<term>Question</term> : A ball falling from an height ‘h’ strikes the ground. The distance covered during the fall at the end of each second is shown in the figure for the first 5 seconds. Draw distance – time plot for the motion during this period. Also, discuss the nature of the curve.
+
+<figure id="fig2">
+	    <title> Motion of a falling ball </title>
+	    <media id="id20485275" alt=""><image src="../../media/distance2.gif" mime-type="image/gif"/></media>
+	    
+</figure>
+</para>
+<para id="element-11"><term>Solution</term> : We have experienced that a free falling object falls with increasing speed under the influence of gravity. The distance covered in successive time intervals increases with time. The magnitudes of distance covered in successive seconds given in the plot illustrate this point. In the plot between distance and time as shown, the origin of the reference (coordinate system) is chosen to coincide with initial point of the motion.
+
+<figure id="fig3">
+	    <title> Distance – time plot </title>
+	    <media id="id20485324" alt=""><image src="../../media/distance3.gif" mime-type="image/gif"/></media>
+	    
+</figure>
+</para>
+<para id="element-12">From the plot, it is clear that the ball covers more distance as it nears the ground. The "distance- time" curve during fall is, thus, flatter near start point and steeper near earth surface.  Can you guess the nature of plot when a ball is thrown up against gravity?
+</para>
+</example>
+
+
+<para id="element-13">
+<exercise id="exercise-1">
+<problem id="id20485377">
+
+<para id="element-14">A ball falling from an height ‘h’ strikes a hard horizontal surface with increasing speed. On each rebound, the height reached by the ball is half of the height it fell from. Draw "distance – time" plot for the motion covering two consecutive strikes, emphasizing the nature of curve (ignore actual calculation). Also determine the total distance covered during the motion.
+</para>
+</problem>
+<solution id="id20485406">
+<para id="element-15">
+Here we first estimate the manner in which distance is covered under gravity as the ball falls or rises. 
+</para>
+
+<para id="element-16">The distance- time curve during fall is flatter near start point and steeper near earth surface. On the other hand, we can estimate that the distance- time curve, during rise, is steeper near the earth surface (covers more distance due to greater speed) and flatter as it reaches the maximum height, when speed of the ball becomes zero.
+</para>
+
+<para id="element-17">The "distance – time" plot of the motion of the ball, showing the nature of curve during motion, is  :
+<figure id="fig4">
+		<title> Distance – time plot </title>
+		<media id="id20485474" alt=""><image src="../../media/distance4.gif" mime-type="image/gif"/></media>
+		
+	</figure>
+</para>
+
+<para id="element-18">The origin of plot (O) coincides with the initial position of the ball (t = 0). Before striking the surface for the first time (A), it travels a distance of ‘h’. On rebound, it rises to a height of ‘h/2’ (B on plot). Total distance is ‘h + h/2 = 3h/2’. Again falling from a height of ‘h/2’, it strikes the surface, covering a distance of ‘h/2’. The total distance from the start to the second strike (C on plot) is ‘3h/2 + h/2 = 2h’. 
+</para>
+
+</solution>
+</exercise>
+</para>
+
+</section>
+
+
+
+
+
+
+
+</content>
+</document>

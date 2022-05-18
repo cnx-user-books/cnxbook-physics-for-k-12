@@ -1,0 +1,1596 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravitational potential energy</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9c33dd23-73b8-4325-9388-c597545b8463</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The concept of potential energy is linked to a system – not to a single particle or body. So is the case with gravitational potential energy. True nature of this form of energy is often concealed in practical consideration and reference to Earth. Gravitational energy is not limited to Earth, but is applicable to any two masses of any size and at any location. Clearly, we need to expand our understanding of various physical concepts related with gravitational potential energy. 
+</para>
+<para id="element-2">Here, we shall recapitulate earlier discussions on potential energy and apply the same in the context of gravitational force.
+</para>
+<section id="section-1">
+<title> Change in gravitational potential energy </title>
+
+<para id="element-4">The change in the gravitational potential energy of a system is related to work done by the gravitational force. In this section, we shall derive an expression to determine change in potential energy for a system of two particles. For this, we consider an elementary set up, which consists of a stationary particle of mass, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" and another particle of mass, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+", which moves from one position to another. </para>
+<para id="element-681">Now, we know that change in potential energy of the system is equal to negative of the work by gravitational force for the displacement of second particle :  
+</para><para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-6">On the other hand, work by gravitational force is given as :
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mi>d</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">Combining two equations, the mathematical expression for determining change in potential energy of the system is obtained as :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:munderover>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mi>d</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">In order to evaluate this integral, we need to set up the differential equation first. For this, we assume that stationary particle is situated at the origin of reference. Further, we consider an intermediate position of the particle of mass "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" between two positions through which it is moved along a straight line. The change in potential energy of the system as the particle moves from position “r” to “r+dr” is :
+  
+</para>
+
+<para id="element-963"><m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mi>d</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para><para id="element-12">
+<figure id="fig-12">
+<title> Change in gravitational potential energy </title>
+<media id="idp6186896" alt=""><image src="../../media/gpe1.gif" mime-type="image/gif"/></media>
+<caption> The particle is moved from one position to another.</caption>
+</figure>
+</para>
+<para id="element-312">We get the expression for the change in gravitational potential energy by integrating between initial and final positions of the second particle as :</para><para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:munderover>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mi>d</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-15a">We substitute gravitational force with its expression as given by Newton's law of gravitation, 
+</para>
+<para id="element-791"><m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para><para id="element-17">Note that the expression for gravitational force is preceded by a negative sign as force is directed opposite to displacement. Now, putting this value in the integral expression, we have :
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>d</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">Taking out constants from the integral and integrating between the limits, we have :
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">This is the expression of gravitational potential energy change, when a particle of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” moves from its position from “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” to “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” in the presence of particle of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”.  It is important to realize here that “
+<m:math>
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>∕</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is greater than “
+<m:math>
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>∕</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. It means that the change in gravitational potential energy is positive in this case. In other words, it means that final value is greater than initial value. Hence, gravitational potential energy of the two particles system is greater for greater linear distance between particles.
+</para>
+
+</section>
+
+
+<section id="section-2">
+<title> Absolute gravitational potential energy </title>
+<para id="element-24">An arrangement of the system is referred to possess zero potential energy with respect to a particular reference. For this we visualize that particles are placed at very large distance. Theoretically, the conservative force like gravitation will not affect bodies which are at infinity. For this reason, zero gravitational reference potential of a system is referred to infinity. The measurement of gravitational potential energy of a system with respect to this theoretical reference is called absolute gravitational potential energy of the system. 
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:munderover>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mi>d</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">As a matter of fact, this integral can be used to define gravitational potential energy of a system:
+</para>
+<para id="element-27"><definition id="definition-27">
+<term> Gravitational potential energy </term>
+<meaning id="idp3036864"> The gravitational potential energy of a system of particles is equal to “negative” of the work by the gravitational force as a particle is brought from infinity to its position in the presence of other particles of the system.
+</meaning>
+</definition></para>
+<para id="element-28">For practical consideration, we can choose real specific reference (other than infinity) as zero potential reference. Important point is that selection of zero reference is not a limitation as we almost always deal with change in potential energy – not the absolute potential energy. So long we are consistent with zero potential reference (for example, Earth’s surface is considered zero gravitational potential reference), we will get the same value for the difference in potential energy, irrespective of the reference chosen.
+</para>
+<para id="element-29">
+We can also define gravitation potential energy in terms of external force as :
+</para>
+<para id="element-30"><definition id="definition-30">
+<term> Gravitational potential energy </term>
+<meaning id="idp4547376"> The gravitational potential energy of a system of particles is equal to the work by the external force as a particle is brought from infinity slowly to its position in the presence of other particles of the system.
+</meaning>
+</definition>
+
+</para>
+</section>
+<section id="section-3">
+<title> Earth systems </title>
+<para id="element-31">
+We have already formulated expressions for gravitational potential energy for “Earth – body” system in the module on potential energy. 
+</para>
+<para id="element-32">The potential energy of a body raised to a height “h” has been obtained as :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33a">Generally, we refer gravitational potential energy of "Earth- particle system" to a particle – not to a system. This is justified on the basis of the fact that one member of the system is relatively very large in size. 
+</para>
+<para id="element-34">All terrestrial bodies are very small with respect to massive Earth. A change in potential energy of the system is balanced by a corresponding change in kinetic energy in accordance with conservation of mechanical energy. Do we expect a change in the speed of Earth due to a change in the position of ,say, a tennis ball? All the changes due to change in the position of a tennis ball is reflected as the change in the speed of the ball itself – not in the speed of the Earth. So dropping reference to the Earth is not inconsistent to physical reality. 
+</para>
+</section>
+<section id="section-4">
+<title> Gravitational potential energy of two particles system </title>
+<para id="element-35">We can determine potential energy of two particles separated by a distance “r”, using the concept of zero potential energy at infinity. According to definition, the integral of potential energy of the particle is evaluated for initial position at infinity to a final position, which is at a distance “r” from the first particle at the origin of reference.
+</para>
+<para id="element-36">Here,
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mspace width="2pt"/>
+        <m:mi>say</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>say</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">Putting values in the expression of the change of potential energy, we have :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>∞</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">By definition, this potential energy is equal to the negative of work by gravitational force and equal to the work by an external force, which does not produce kinetic energy while the particle of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is brought from infinity to a position at a distance “r” from other particle of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”.
+</para>
+<para id="element-45">We see here that gravitational potential energy is a negative quantity. As the particles are farther apart, "1/r" becomes a smaller fraction. Potential energy, being a negative quantity, increases. But, the magnitude of potential energy becomes smaller. The maximum value of potential energy is zero for r = ∞  i.e. when particles are at very large distance from each other
+</para>
+<para id="element-46">On the other hand, the fraction "1/r" is a bigger fraction when the particles are closer. Gravitational potential energy, being a negative quantity, decreases. The magnitude of potential energy is larger. This is consistent with the fact that particles are attracted by greater force when they are closer. Hence, if a particles are closer, then it is more likely to be moved by the gravitational force. A particle away from the first particle has greater potential energy, but smaller magnitude. It is attracted by smaller gravitational force and is unlikely to be moved by gravitational force as other forces on the particle may prevail.
+</para>
+</section>
+
+<section id="section-5">
+<title> Gravitational potential energy of a system of particles </title>
+<para id="element-47">We have formulated expression for the gravitational potential energy of two particles system. In this section, we shall find gravitational potential energy of a system of particles, starting from the beginning. We know that zero gravitational potential energy is referred to infinity. There will no force to work with at an infinite distance. Since no force exists, no work is required for a particle to bring the first particle from infinity to a point in a gravitation free region. So the work by external force in bringing first particle in the region of zero gravitation is "zero".
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Gravitational potential energy </title>
+<media id="idp3270192" alt=""><image src="../../media/gpe2.gif" mime-type="image/gif"/></media>
+<caption> First particle is brought in a region of zero gravitation.</caption>
+</figure>
+</para>
+<para id="element-49">What about bringing the second particle (2) in the vicinity of the first particle (1)? The second particle is brought in the presence of first particle, which has certain mass. It will exert gravitational attraction on the second particle. The potential energy of two particles system will be given by the negative of work by gravitational force due to particle (1)as the second particle is brought from infinity :
+</para>
+<para id="element-50"> 
+<figure id="fig-50">
+<title> Gravitational potential energy </title>
+<media id="idp1650144" alt=""><image src="../../media/gpe3.gif" mime-type="image/gif"/></media>
+<caption> Second particle is brought in the gravitation of first particle.</caption> 
+</figure>
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mn>12</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mrow>
+          <m:mn>12</m:mn>
+        </m:mrow>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">We have subscripted linear distance between first and second particle as “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. Also note that work by gravitational force is independent of the path i.e. how force and displacement are oriented along the way second particle is brought near first particle.
+</para>
+<para id="element-53">Now, what about bringing the third particle of mass, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mrow>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, in the vicinity of the first two particles? The third particle is brought in the presence of first two particles, which have certain mass. They will exert gravitational forces on the third particle. The potential energy due to first particle is equal to the negative of work by gravitational force due to it :
+</para>
+<para id="element-54"><figure id="fig-54">
+<title> Gravitational potential energy </title>
+<media id="idp3958192" alt=""><image src="../../media/gpe4.gif" mime-type="image/gif"/></media>
+<caption> Third particle is brought in the gravitation of first and second particles.</caption> 
+</figure>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mn>13</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mrow>
+          <m:mn>13</m:mn>
+        </m:mrow>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">Similarly, the potential energy due to second particle is equal to the negative of work by gravitational force due to it : 
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mn>23</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mrow>
+          <m:mn>23</m:mn>
+        </m:mrow>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Thus, potential energy of three particles at given positions is algebraic sum of negative of gravitational work in (i) bringing first particle (ii) bringing second particle in the presence of first particle and (iii) bringing third particle in the presence of first two particles :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>G</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>12</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>13</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>23</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">Induction of forth particle in the system will involve work by gravitation in assembling three particles as given by the above expression plus works by the individual gravitation of three already assembled particles when fourth particle is brought from the infinity. 
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>G</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>12</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>13</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>23</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>4</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>14</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>4</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>24</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>4</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>r</m:mi>
+            <m:mrow>
+              <m:mn>34</m:mn>
+            </m:mrow>
+          </m:msub>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">Proceeding in this fashion, we can calculate potential energy of a system of particles. We see here that this process resembles the manner in which a system of particles like a rigid body is constituted bit by bit. As such, this potential energy of the system represents the “energy of constitution” and is called “self energy” of the rigid body or system of particles. We shall develop alternative technique (easier) to measure potential energy and hence “self energy” of regular geometric shapes with the concept of gravitational potential in a separate module.
+</para>
+
+<section id="section-5a">
+<title> Examples </title>
+<para id="element-63"><term>Problem 1: </term> Find the work done in bringing three particles, each having a mass of 0.1 kg from large distance to the vertices of an equilateral triangle of 10 cm in a gravity free region. Assume that no change of kinetic energy is involved in bringing particles.
+</para>
+<para id="element-64"><term>Solution : </term> We note here that all three particles have same mass. Hence, product of mass in the expression of gravitational potential energy reduces to square of mass. The gravitational potential energy of three particles at the vertices of the equilateral triangle is :
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-353">where “a” is the side of the equilateral triangle. </para><para id="element-767">Putting values,</para><para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>6.67</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>11</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>0.12</m:mn>
+      </m:mrow>
+      <m:mn>0.1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>6.67</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>0.01</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-70">Hence, work done by external force in bringing three particles from large distance is :
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+
+</section>
+</section>
+
+<section id="section-6">
+<title> Work and energy </title>
+<para id="element-73">
+An external force working on a system brings about changes in the energy of system. If change in energy is limited to mechanical energy, then work by external force will be related to change in mechanical energy as :  
+</para>
+<para id="element-75"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74"> A change in gravitational potential energy may or may not be accompanied with change in kinetic energy. It depends on the manner external force works on the system. If we work on the system in such a manner that we do not impart kinetic energy to the particles of the system, then there is no change in kinetic energy. In that case, the work by external force is equal to the change in gravitational potential energy alone. 
+</para>
+<para id="element-76">There can be three different situations :
+</para>
+<para id="element-77">Case 1 : If there is change in kinetic energy, then work by external force is equal to the change in potential and kinetic energy:
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">Case 2 : If there is no change in kinetic energy, then work by external force is equal to the change in potential energy alone :
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">Putting in the expression of work,
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">Case 3 : If there is no external force, then work by external force is zero. The change in one form of mechanical energy is compensated by a corresponding negative change in the other form. This means that mechanical energy of the system is conserved. Here,
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">Putting in the expression of work,
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-87">We shall, now, work with two illustrations corresponding to following situations :
+</para>
+<para id="element-88">
+<list id="list-2" list-type="bulleted">
+<item> Change in potential energy without change in kinetic energy </item>
+<item> Change in potential energy without external force </item>
+</list>
+</para>
+<section id="section-6a">
+<title> Change in potential energy without change in kinetic energy </title>
+<para id="element-89"><term>Problem 2: </term>Three particles, each having a mass of 0.1 kg are placed at the vertices of an equilateral triangle of 10 cm. Find the work done to change the positions of particles such that side of the triangle is 20 cm. Assume that no change of kinetic energy is involved in changing positions.
+</para>
+<para id="element-90"><term>Solution : </term> The work done to bring the particles together by external force in gravitational field is equal to potential energy of the system of particles. This means that work done in changing the positions of the particles is equal to change in potential energy due to change in the positions of particles. For work by external force,
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">Here, ΔK = 0
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">Now, we have seen that :
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">Hence, change in gravitational potential energy is :
+</para>
+<para id="element-97"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msub>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mi>G</m:mi>
+            <m:msup>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:msub>
+            <m:mi>a</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>  
+</para>
+<para id="element-98"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>G</m:mi>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msub>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msub>
+        <m:mi>a</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>              
+</para>
+<para id="element-99">Putting values, we have :
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>6.67</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>0.1</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>[</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>0.2</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>0.1</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>6.67</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>0.12</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-103"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.00</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6b">
+<title> Change in potential energy without external force </title>
+<para id="element-104"><term>Problem 3: </term>Three identical solid spheres each of mass “m” and radius “R” are released from positions as shown in the figure (assume no external gravitation). What would be the speed of any of three spheres just before they collide. 
+</para>
+<para id="element-565"><figure id="fig-565">
+<title> Three particles system </title>
+<media id="idp13329632" alt=""><image src="../../media/gpe5.gif" mime-type="image/gif"/></media>
+<caption> Positions before being released.</caption> 
+</figure></para><para id="element-105"><term>Solution : </term>Since no external force is involved, the mechanical energy of the system at the time of release should be equal to mechanical energy just before the collision. In other words, the mechanical energy of the system is conserved. The initial potential energy of system is given by,
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107">Let “v” be the speed of any sphere before collision. The configuration just before the collision is shown in the figure. We can see that linear distance between any two centers of two identical spheres is “2R”. Hence, potential energy of the configuration before collision is,
+</para>
+<para id="element-784"><figure id="fig-784">
+<title> Three particles system </title>
+<media id="idp11276320" alt=""><image src="../../media/gpe6a.gif" mime-type="image/gif"/></media>
+<caption> Positions just before collision.</caption> 
+</figure></para><para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">Applying conservation of mechanical energy,
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mi>G</m:mi>
+        <m:mi>m</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mn>2</m:mn>
+              <m:mi>a</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+  
+  </content>
+  
+</document>

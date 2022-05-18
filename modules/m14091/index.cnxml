@@ -1,0 +1,1150 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Motion along curved path</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>3a7c853a-a440-42f6-838e-4edfb9aa4eca</md:uuid>
+</metadata>
+  <content>
+
+
+<para id="element-1">We all experience motion along a curved path in our daily life. The motion is not exactly a circular motion. However, we can think of curved path as a sequence of circular motions of different radii. As such, motion of vehicles like that of car, truck etc, on a curved road can be analyzed in terms of the dynamics of circular motion. Clearly, analysis is done for the circular segment with the smallest radius as it represents the maximum curvature. It must be noted that "curvature" and "radius of curvature" are inverse to each other. 
+</para>
+
+<para id="element-2">
+<figure id="fig-2"><title> Motion along a curved path </title>
+<media id="idp6834416" alt=""><image src="../../media/mcp1.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-3">One common experience, in this respect, is the experience of a car drive, which is negotiating a sharp turn. If a person is sitting in the middle of the back seat, she/he holds on the fixed prop to keep the posture steady and move along with the motion of the car. If the person is close to the farther side (from the center of motion) of the car, then she/he leans to the side of the car to become part of the motion of the car. 
+</para>
+<para id="element-4">In either of the two situations, the requirement of centripetal force for circular motion is fulfilled. The bottom of the body is in contact with the car and moves with it, whereas the upper part of the body is not. When she/he leans on the side of the car away from the center of motion, the side of the car applies normal force, which meets the  requirement of centripetal force. Finally, once the requirement of centripetal force is met, the complete body is in motion with the car.
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Motion along a curved path </title>
+<media id="idp547184" alt=""><image src="../../media/mcp2.gif" mime-type="image/gif"/></media>
+<caption> The person presses by side of the car.</caption>
+</figure>
+</para>
+
+<para id="element-6">
+The direction in which the body responds to curved motion is easy to find by just thinking what would be the natural direction of motion of the free part of the body. In the example discussed above, the body seeks to move straight, but the lower part in contact with car moves along curved path having side way component of motion (towards center). The result is that the upper part is away from the center of curvature of the curved path. In order to keep the body upright an external force in the radial direction is required to be applied on the body.
+</para>
+
+
+<section id="section-1">
+<title> Negotiating a level curve  </title>
+  
+
+<para id="element-7">Let us concentrate on what is done to turn a car to negotiate a sharp turn. We realize that the driver of a car simply guides the steering of the car to move it along the turn. Intuitively, we think that the car engine must be responsible for meeting the requirement of centripetal force. This is right. However, engine does not directly apply force to meet the requirement of centripetal force. It is actually the friction, resulting from the motion caused by engine, which acts towards the center of circular path and meets the requirement of centripetal force. 
+</para>
+<para id="element-8">The body of the car tends to move straight in accordance with its natural tendency?  Now, as wheel is made to move side way (by the change in direction), the wheel has the tendency to have relative motion with respect to the road in the direction away from the center of path. In turn, road applies friction, which is directed towards the center. </para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Negotiating a level curve  </title>
+<media id="idp13604896" alt=""><image src="../../media/mcp3.gif" mime-type="image/gif"/></media>
+<caption> The friction meets the requirement of centripetal force.</caption>
+</figure>
+</para>
+<para id="element-10">Important to note here is that we are not considering friction in the forward or actual direction of motion, but perpendicular to actual direction (side way). There is no motion in the side way direction, if there is no side way skidding of the car. In that case, the friction is static friction (
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+
+</m:math>
+) and has not exceeded maximum or limiting friction (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+
+</m:math>
+). Thus,</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ≤ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+ 
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub> 
+<m:mo> ≤ </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">
+There is no motion in vertical direction. Hence, 
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+Combining two equations, we have :
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ≤ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+where “m” is the combined mass of the car and the passengers. 
+</para>
+<para id="element-18">In the limiting situation, when the car is about to skid away, the friction force is equal to the maximum static friction, meeting the requirement of centripetal force required for circular motion,
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">
+We note following points about the condition as put on the speed of the car :</para>
+<para id="element-21">
+<list id="list-36" list-type="bulleted"><item> There is a limiting or maximum speed of car to ensure that the car moves along curved path without skidding.
+</item>
+<item> If the limiting condition with regard to velocity is not met (
+<m:math>
+<m:mi> v </m:mi>
+<m:mo> ≤ </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ) </m:mo>
+</m:math>), then the car will skid away. 
+</item>
+<item> The limiting condition is independent of the mass of the car.
+</item>
+<item> If friction between tires and the road is more, then we can negotiate a curved path with higher speed and vice-versa. This explains why we drive slow on slippery road.
+</item>
+<item> Smaller the radius of curvature, smaller is the limiting speed. This explains why sharper turn (smaller radius of curvature) is negotiated with smaller speed.
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-2">
+<title> Banking of roads </title>
+<para id="element-22">There are three additional aspects of negotiating a curve. First, what if, we want to negotiate curve at a higher speed. Second, how to make driving safer without attracting limiting conditions as tires may have been flattened (whose grooves have flattened), or friction may decrease due to any other reasons like rain or mud. Third, we want to avoid sideway friction to prolong life of the tires. The answer to these lie in banking of the curved road.
+</para>
+<para id="element-23">For banking, one side of the road is elevated from horizontal like an incline or wedge. In this case, the component of normal force in horizontal direction provides the centripetal force as required for the motion along the curved path. On the other hand, component of normal force in vertical direction balances the weight of the vehicle. It is clear that magnitude of normal reaction between road and vehicle is greater than the weight of the vehicle. 
+</para>
+<para id="element-24">
+<figure id="fig-24">
+<title> Banking of roads   </title>
+<media id="idp13587120" alt=""><image src="../../media/mcp4.gif" mime-type="image/gif"/></media>
+<caption> The horizontal component of normal force meets the requirement of centripetal force.</caption>
+</figure>
+</para>
+<para id="element-25">Here, we compute the relation between the angle of banking (which is equal to the angle of incline) for a given speed and radius of curvature as :
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+and
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+Taking ratio,
+</para>
+<para id="element-30"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-30a">This expression represents the speed at which the vehicle does not skid (up or down) along the banked road for the given angle of inclination (θ). It means that centripetal force is equal to the resultant of the system of forces acting on the vehicle. Importantly, there is no friction involved in this consideration for the circular motion of the vehicle. 
+
+</para>
+<example id="example-46">
+<para id="element-46a"><term>Problem : </term>  An aircraft hovers over a city awaiting clearnace to land. The aricraft circles with its wings banked at an angle 
+<m:math>
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> ) </m:mo>
+</m:math>
+ at a speed of 200 m/s. Find the radius of the loop.
+</para>
+<para id="element-47a"><term>Solution : </term> The aircraft is banked at an angle with horizontal. Since aircraft is executing uniform circular motion, a net force on the aircraft should act normal to its body. The component of this normal force in the radial direction meets the requirement of centripetal force, whereas vertical component balances the weight of aircraft. Thus, this situation is analogous to the banking of road. 
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn> 200 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0.2 </m:mn>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mn> 20000 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-3">
+<title> Role of friction in banking </title>
+
+<para id="element-31">The moot question is whether banking of road achieves the objectives of banking? Can we negotiate the curve with higher speed than when the road is not banked? In fact, the expression of speed as derived in earlier section gives the angle of banking for a particular speed. It is the speed for which the component of normal towards the center of circle matches the requirement of centripetal force. </para>
+<para id="element-31a">If speed is less than that specified by the expression, then vehicle will skid "down" (slip or slide) across the incline as there is net force along the incline of the bank. This reduces the radius of curvature i.e. "r" is reduced - such that the relation of banking is held true : 
+</para>
+<para id="element-31b"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-798"><figure id="fig-798"><title> Banking of road   </title>
+<media id="idp13264032" alt=""><image src="../../media/mcp7.gif" mime-type="image/gif"/></media>
+<caption> The vehicle has tendency to skid down. </caption>
+</figure></para><para id="element-32"> In reality, however, the interacting surfaces are not smooth. We can see that if friction, acting "up" across the bank, is sufficient to hold the vehicle from sliding down, then vehicle will move along the circular path without skidding "down". 
+</para>
+<para id="element-32a">What would happen if the vehicle exceeds the specified  speed for a given angle of banking? Clearly, the requirement of centripetal force exceeds the component of normal force in the radial direction. As such the vehicle will have tendency to skid "up" across the bank.
+</para>
+
+<para id="element-33"> Again friction prevents skidding "up" of the vehicle across the bank. This time, however, the friction acts downward across the bank as shown in the figure. 
+</para>
+<para id="element-34">
+<figure id="fig-34"><title> Banking of road   </title>
+<media id="idp10091936" alt=""><image src="../../media/mcp8.gif" mime-type="image/gif"/></media>
+<caption> The vehicle has tendency to skid up. </caption>
+</figure>
+</para>
+<para id="element-34a"> In the nutshell, we see that banking helps to prevent skidding "up" across the bank due to the requirement of centripetal force. The banking enables component of normal force in the horizontal direction to provide for the requirement of centripetal force up to a certain limiting (maximum) speed. Simultaneously, the banking induces a tendency for the vehicle to skid "down" across the bank. 
+</para>
+<para id="element-34aa">On the other hand, friction prevents skidding "down" as well as skidding "up" across the bank. This is possible as friction changes direction opposite to the tendency of skidding either "up" or "down" across the bank. The state of friction is summarized here : 
+</para>
+<para id="element-34b">
+<term>1: </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mtext>acting up across the bank</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34c">
+<term>2: </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34d">
+<term>3: </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mtext>acting up across the bank</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34e">
+<term>4: </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mtext>acting down across the bank</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34f">Friction, therefore, changes its direction depending upon whether the vehicle has tendency to skid "down" or "up" across the bank. Starting from zero speed, we can characterize friction in following segments (i) friction is equal to the component of weight along the bank,"
+<m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+", when vehicle is stationary (ii)  friction decreases as the speed increases (iii) friction becomes zero as speed equals "
+<m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+" (iv) friction changes direction as speed becomes greater than "
+<m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+" (v) friction increases till the friction is equal to limiting friction as speed further increases and (vi) friction becomes equal to kinetic friction when skidding takes place. 
+</para>
+<section id="section-3a">
+<title> Skidding down the bank </title>
+<para id="element-35">In this case, the velocity of the vehicle is less than threshold speed "
+<m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>tan</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+". Friction acts "up" across the bank. There are three forces acting on the vehicle (i) its weight "mg" (ii) normal force (N) due to the bank surface and (iii) static friction "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+", acting up the bank. The free body diagram is as shown here.
+</para>
+
+<para id="element-89"><figure id="fig-89"><title> Banking of road   </title>
+<media id="idp8142144" alt=""><image src="../../media/mcp10.gif" mime-type="image/gif"/></media>
+<caption> The speed is less than the threshold speed. </caption>
+</figure></para><para id="element-35a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<title> Skidding up the bank </title>
+<para id="element-36a">In this case, the velocity of the vehicle is greater than threshold speed. Friction acts "down" across the bank. There are three forces acting on the vehicle (i) its weight "mg" (ii) normal force (N) due to the bank surface and (iii) static friction "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+", acting down the bank. The free body diagram is as shown here.
+</para><para id="element-774"><figure id="fig-774"><title> Banking of road   </title>
+<media id="idp10086224" alt=""><image src="../../media/mcp9.gif" mime-type="image/gif"/></media>
+<caption> The speed is greater than the threshold speed. </caption>
+</figure></para>
+<para id="element-36b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36c">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+</section>
+<section id="section-4">
+<title> Maximum speed along the banked road </title>
+<para id="element-36aa">
+In previous section, we discussed various aspects of banking. In this section, we seek to find the maximum speed with which a banked curve can be negotiated. We have seen that banking, while preventing upward skidding, creates situation in which the vehicle can skid downward at lower speed. 
+</para>
+<para id="element-36bb">The design of bank, therefore, needs to consider both these aspects. Actually, roads are banked with a small angle of inclination only. It is important as greater angle will induce tendency for the vehicle to overturn. For small inclination of the bank, the tendency of the vehicle to slide down is ruled out as friction between tyres and road is usually much greater to prevent downward skidding across the road.  
+</para>
+<para id="element-36cc">In practice, it is the skidding "up" across the road that is the prime concern as threshold speed limit can be breached easily. The banking supplements the provision of centripetal force, which is otherwise provided by the friction on a flat road. As  such, banking can be seen as a mechanism either (i) to increase the threshold speed limit or (ii) as a safety mechanism to cover the risk involved due to any eventuality like flattening of tyres or wet roads etc. In fact, it is the latter concern that prevails. 
+</para>
+<para id="element-36d">In the following paragraph, we set out to determine the maximum speed with which a banked road can be negotiated. It is obvious that maximum speed corresponds to limiting friction that acts in the downward direction as shown in the figure. 
+</para>
+
+
+<para id="element-424"><figure id="fig-424">
+<title> Banking of roads   </title>
+<media id="idp8816976" alt=""><image src="../../media/mcp5.gif" mime-type="image/gif"/></media>
+<caption> The horizontal component of normal force and friction together meet the requirement of centripetal force.</caption>
+</figure></para>
+<para id="element-36e">
+Force analysis in the vertical direction :
+</para>
+
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> N </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+Force analysis in the horizontal direction :
+</para>
+<para id="element-38">
+ <m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> N </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr></m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+Taking ratio of two equations, we have :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> { </m:mo>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>	
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-5">
+<title> Bending by a cyclist</title>
+<para id="element-42">We have seen that a cyclist bends towards the center in order to move along a circular path. Like in the case of car, he could have depended on the friction between tires and the road. But then he would be limited by the speed. Further, friction may not be sufficient as contact surface is small. We can also see "bending" of cyclist at greater speed as an alternative to banking used for four wheeled vehicles, which can not be bent. 
+</para>
+<para id="element-42a">The cyclist increases speed without skidding by leaning towards the center of circular path. The sole objective of bending here is to change the direction and magnitude of normal force such that horizontal component of the normal force provides for the centripetal force, whereas vertical component balances the "cycle and cyclist" body system. 
+</para>
+<para id="element-43">
+<figure id="fig-43">
+<title> Banking of roads   </title>
+<media id="idp16793520" alt=""><image src="../../media/mcp6.gif" mime-type="image/gif"/></media>
+<caption> The horizontal component of normal force meets the requirement of centripetal force.</caption>
+</figure>
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Taking ratio,
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+  </content>
+  
+</document>

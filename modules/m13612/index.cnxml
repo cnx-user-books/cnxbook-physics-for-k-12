@@ -1,0 +1,1243 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rectilinear motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c33acfab-41d1-4caf-8567-26a930fe7f70</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">A motion along straight line is called rectilinear motion. In general, it need not be one – dimensional; it can take place in a two dimensional plane or in three dimensional space. But, it is always possible that rectilinear motion be treated as one dimensional motion, by suitably orienting axes of the coordinate system. This fact is illustrated here for motion along an inclined plane. The figure below depicts a rectilinear motion of the block as it slides down the incline. In this particular case, the description of motion in the coordinate system, as shown, involves two coordinates (x and y).
+</para>
+<para id="element-2">
+<figure id="fig-2">
+<title> Motion along inclined plane</title>
+<media id="idm11356448" alt=""><image src="../../media/rm1-c1f6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-3">The reorientation of the coordinate system renders two dimensional description (requiring x and y values) of the motion to one dimensional (requiring only x value). A proper selection, most of the time, results in simplification of measurement associated with motion. In the case of the motion of the block, we may choose the orientation such that the progress of motion is along the positive x – direction as shown in the figure. A proper orientation of the coordinates results in positive values of quantities like displacement and velocity. It must be emphasized here that we have complete freedom in choosing the orientation of the coordinate system. The description of the rectilinear motion in independent of the orientation of axes.
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Motion along inclined plane</title>
+<media id="idp1636496" alt=""><image src="../../media/rm2-b1f8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-5">In rectilinear motion, we are confined to the measurement of movement of body in only one direction. This simplifies expressions of   quantities used to describe motion. In the following section, we discuss (also recollect from earlier discussion) the simplification resulting from motion in one dimension (say in x –direction). 
+</para>
+
+<section id="section-1">
+<title> Position vector in rectilinear motion </title>
+<para id="element-10">Position still requires three coordinates for specification. But, only one of them changes during the motion; remaining two coordinates remain constant. In practice, we choose one dimensional reference line to coincide with the path of the motion. It follows then that position of the particle under motion is equal to the value of x – coordinate (others being zero).
+</para>
+<para id="element-11">
+Corresponding position vector also remains a three dimensional quantity. However, if the path of motion coincides with the reference direction and origin of the reference coincides with origin, then position vector is simply equal to component vector in x – direction i.e</para>
+<para id="element-12">
+<equation id="equation-12"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi mathvariant="bold">r</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mi>x</m:mi>
+              <m:mi mathvariant="bold">i</m:mi>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+</m:math>
+</equation>
+</para>
+<para id="element-14">
+The position vectors corresponding to points A, B and C as shown in the figure are 2 <term>i</term>, 4 <term>i</term> and 6 <term>i</term>. units respectively.
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Position vectors </title>
+<media id="idm673888" alt=""><image src="../../media/rm3-a28d.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-16">As displacement is equal to change in position vector, the displacement for the indicated positions are given as :
+</para>
+<para id="element-17">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi mathvariant="bold">AB</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>(</m:mo> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mn> 2 </m:mn>
+              </m:msub>
+              <m:mo>-</m:mo> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mn> 1 </m:mn>
+              </m:msub>
+              <m:mo>)</m:mo> 
+
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>Δ</m:mo> 
+              <m:mi> x </m:mi>
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>(</m:mo> 
+              <m:mn> 4 </m:mn>
+              <m:mo>-</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:mo>)</m:mo> 
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:mi mathvariant="bold">i</m:mi>
+
+          </m:mtd>
+          </m:mtr>
+
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi mathvariant="bold">BC</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>(</m:mo> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mn> 2 </m:mn>
+              </m:msub>
+              <m:mo>-</m:mo> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mn> 1 </m:mn>
+              </m:msub>
+              <m:mo>)</m:mo> 
+
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>Δ</m:mo> 
+              <m:mi> x </m:mi>
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>(</m:mo> 
+              <m:mn> 6 </m:mn>
+              <m:mo>-</m:mo> 
+              <m:mn> 4 </m:mn>
+              <m:mo>)</m:mo> 
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:mi mathvariant="bold">i</m:mi>
+
+          </m:mtd>
+          </m:mtr>
+
+
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi mathvariant="bold">AC</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>(</m:mo> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mn> 2 </m:mn>
+              </m:msub>
+              <m:mo>-</m:mo> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mn> 1 </m:mn>
+              </m:msub>
+              <m:mo>)</m:mo> 
+
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>Δ</m:mo> 
+              <m:mi> x </m:mi>
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mo>(</m:mo> 
+              <m:mn> 6 </m:mn>
+              <m:mo>-</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:mo>)</m:mo> 
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mn> 4 </m:mn>
+              <m:mi mathvariant="bold">i</m:mi>
+
+          </m:mtd>
+          </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+</para>
+</section>
+
+
+<section id="section-2">
+<title> Vector interpretation and equivalent system of scalars  </title>
+
+<para id="element-18">Rectilinear motion involves motion along straight line and thus is described usually in one dimension. Further, rectilinear motion involves only one way of changing direction i.e. the particle under motion can only reverse motion. The particle can move either in positive x-direction or in negative x-direction. There is no other possible direction valid in rectilinear motion.  
+</para>
+<para id="element-19">This attribute of rectilinear motion allows us to do away with the need to use vector notation and vector algebra for quantities with directional attributes like position vector, displacement and velocity. Instead, the vectors are treated simply as scalars with one qualification that vectors in the direction of chosen reference is considered positive and  vectors in the opposite direction to  the chosen reference is considered negative.   
+</para>
+<para id="element-20">The most important aspect of the sign convention is that a vector like velocity can be expressed by a scalar value say, 5 m/s. Though stated without any aid for specifying direction like using unit vector, the direction of the velocity is indicated, which is in the positive x-direction. If the velocity of motion is -5 m/s, then the velocity is in the direction opposite to the direction of reference. 
+</para>
+<para id="element-21">
+To illustrate the construct, let us consider a motion of a ball which transverses from O to A to B to C to O along x-axis as shown in the figure. 
+</para>
+<para id="element-22">
+<figure id="fig-22">
+<title> Motion along straight line  </title><media id="idp2707296" alt=""><image src="../../media/rm4-38c0.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-23">The velocities at various points of motion in m/s (vector form) are :
+</para>
+<para id="element-24"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:msub>
+               <m:mi mathvariant="bold"> v </m:mi>
+               <m:mi mathvariant="bold"> O </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi mathvariant="bold"> v </m:mi>
+               <m:mi mathvariant="bold"> A </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 3 </m:mn>
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi mathvariant="bold"> v </m:mi>
+               <m:mi mathvariant="bold"> B </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mo>-</m:mo> 
+              <m:mn> 4 </m:mn>
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi mathvariant="bold"> v </m:mi>
+               <m:mi mathvariant="bold"> C </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 3 </m:mn>
+              <m:mi mathvariant="bold">i</m:mi>
+          </m:mtd>
+          </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-23a">Going by the scalar construct, we can altogether drop use of unit vector like "<term>i</term>" in describing all vector quantities used to describe motion in one dimension. The velocities at various points of motion in m/s (in equivalent scalar form) can be simply stated in scalar values for rectilinear motion as :
+</para>
+
+<para id="element-24a"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:msub>
+               <m:mi> v </m:mi>
+               <m:mi> O </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi> v </m:mi>
+               <m:mi> A </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 3 </m:mn>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi> v </m:mi>
+               <m:mi> B </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mo>-</m:mo> 
+              <m:mn> 4 </m:mn>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi> v </m:mi>
+               <m:mi> C </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 3 </m:mn>
+          </m:mtd>
+          </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-572">Similarly, we can represent position vector simply by the component in one direction, say x, in meters, as :
+</para>
+
+<para id="element-24b"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mi> O </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 0 </m:mn>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mi> A </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 5 </m:mn>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mi> B </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mn> 10 </m:mn>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:msub>
+               <m:mi> x </m:mi>
+               <m:mi> C </m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mo>-</m:mo> 
+              <m:mn> 5 </m:mn>
+          </m:mtd>
+          </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-24c">Also, the displacement vector (in meters) is represented with scalar symbol and value as :
+</para>
+
+<para id="element-24d"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi> OA </m:mi>
+              <m:mo>=</m:mo> 
+              <m:mn> 5 </m:mn>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/> 
+              <m:mi> OB </m:mi>
+              <m:mo>=</m:mo> 
+              <m:mn> 10 </m:mn>
+              <m:mo>;</m:mo>
+              <m:mspace width="4pt"/>  
+              <m:mi> OC </m:mi>
+              <m:mo>=</m:mo> 
+              <m:mn> 5 </m:mn>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-6">Following the same convention, we can proceed to write defining equations of speed and velocity in rectilinear motion as :
+</para>
+<para id="element-7">
+<equation id="equation-7">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mo>|</m:mo> 
+              <m:mi> v </m:mi>
+              <m:mo>|</m:mo> 
+              <m:mo>=</m:mo> 
+              <m:mo>|</m:mo> 
+              <m:mfrac> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi>x</m:mi>
+                </m:mrow>
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+              <m:mo>|</m:mo> 
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation>
+</para>
+<para id="element-8">
+and
+</para>
+<para id="element-9">
+<equation id="equation-9">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi>v</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mfrac> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi>x</m:mi>
+                </m:mrow>
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation>
+</para>
+</section>
+
+<example id="example-25">
+<title> Rectilinear motion </title>
+<para id="element-25"><term>Problem :</term> If the position of a particle along x – axis varies in time as :
+</para>
+<para id="element-26"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi> x </m:mi>
+              <m:mo>=</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:msup>
+               <m:mi> t </m:mi>
+               <m:mn> 2 </m:mn>
+              </m:msup>
+              <m:mo>- </m:mo> 
+              <m:mn> 3 </m:mn>
+              <m:mi> t </m:mi>
+              <m:mo>+ </m:mo> 
+               <m:mn> 1 </m:mn>
+          </m:mtd>
+          </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-27">
+Then :
+<list id="list-27" list-type="enumerated"><item> What is the velocity at t = 0  ? </item>
+<item> When does velocity become zero? </item>
+<item> What is the velocity at the origin ? </item>
+<item> Plot position – time plot. Discuss the plot to support the results obtained for the questions above. </item>
+</list>
+</para>
+<para id="element-25a"><term>Solution :</term> We first need to find out an expression for velocity by differentiating the given function of position with respect to time as :
+</para>
+<para id="element-26a"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi> v </m:mi>
+              <m:mo>=</m:mo> 
+              <m:mfrac> 
+               <m:mi> đ </m:mi>
+               <m:mrow>
+               <m:mi> đ </m:mi>
+               <m:mi> t </m:mi>
+               </m:mrow>
+              </m:mfrac> 
+              <m:mo>(</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:msup>
+              <m:mi> t </m:mi>
+              <m:mn> 2 </m:mn>
+              </m:msup>
+              <m:mo> - </m:mo> 
+              <m:mn> 3 </m:mn>
+              <m:mi> t </m:mi>
+              <m:mo> + </m:mo> 
+              <m:mn> 1 </m:mn>
+              <m:mo>)</m:mo> 
+              <m:mo>=</m:mo> 
+              <m:mn> 4 </m:mn>
+              <m:mi> t </m:mi>
+              <m:mo> - </m:mo> 
+              <m:mn> 3 </m:mn>
+          </m:mtd>
+          </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-27a">
+(i) The velocity at t = 0,
+</para>
+<para id="element-28">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd> 
+<m:mi> v </m:mi>
+<m:mo>=</m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi> m/s </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable> 
+</m:math>
+</para>
+<para id="element-29">
+(ii) When velocity becomes zero :
+</para>
+<para id="element-30">
+For v = 0,
+</para>
+<para id="element-31">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd> 
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr> 
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> 0.75 s. </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable> 
+</m:math>
+</para>
+
+
+<para id="element-32">
+(iii) The velocity at the origin :
+</para>
+<para id="element-33">
+At origin, x = 0,
+</para>
+<para id="element-34">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi> x </m:mi>
+              <m:mo>=</m:mo> 
+              <m:mn> 2 </m:mn>
+              <m:msup>
+               <m:mi mathvariant="bold"> t </m:mi>
+               <m:mn> 2 </m:mn>
+              </m:msup>
+              <m:mo>- </m:mo> 
+              <m:mn> 3 </m:mn>
+              <m:mi> t </m:mi>
+              <m:mo>+ </m:mo> 
+              <m:mn> 1 </m:mn>
+              <m:mo> = </m:mo>
+              <m:mn> 0 </m:mn>
+          </m:mtd>
+          </m:mtr>
+
+<m:mtr> 
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi mathvariant="bold"> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr> 
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> 0 </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr> 
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 0.5 s, 1 s. </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+
+<para id="element-35">
+This means that particle is twice at the origin at t = 0.5 s and t = 1 s. Now,
+</para>
+<para id="element-36">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+
+<m:mtr> 
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 0.5 s</m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+<m:mn> - </m:mn>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> -1 m/s.</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+<para id="element-37">
+Negative sign indicates that velocity is directed in the negative x – direction.
+</para>
+
+<para id="element-38">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+
+<m:mtr> 
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mi> 1 s</m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+<m:mn> - </m:mn>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 1 m/s.</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Position – time plot </title>
+<media id="idp5825008" alt=""><image src="../../media/rm5-900c.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-40">We observe that slope of the curve from t = 0 s to t &lt; 0.75 s is negative, zero for t = 0.75 and positive for t &gt; 0.75 s. The velocity at t = 0, thus, is negative. We can realize here that the slope of the tangent to the curve at t = 0.75 is zero. Hence, velocity is zero at t = 0.75 s. 
+</para>
+<para id="element-41">
+The particle arrives at x = 0 for t = 0.5 s and t = 1 s. The velocity at first arrival is negative as the position falls on the part of the curve having negative slope, whereas the velocity at second arrival is positive as the position falls on the part of the curve having positive slope.   
+</para>
+</example>
+
+
+<section id="section-2aa">
+<title> Position - time plot  </title>
+<para id="element-42a">
+We use different plots to describe rectilinear motion. Position-time plot is one of them. Position of the point object in motion is drawn against time. Evidently, it is a two dimensional plot. The position is plotted with appropriate sign as described earlier.
+</para>
+<section id="section-2a">
+<title> Nature of slope  </title>
+<para id="element-42">One of the important tool used to understand nature of such plots (as drawn above) is the slope of the tangent drawn on the plot.In particular, we need to qualitatively ascertain whether the slope is  positive or negative. In this section, we seek to find out the ways to determine the nature of slope. Mathematically, the slope of a straight line is numerically equal to trigonometric tangent of the angle that the line makes with x – axis. It follows, therefore, that the slope of the straight line may be positive or negative depending on the angle. It is seen as shown in the figure below, the tangent of the angle in first and third quarters is positive, whereas it is negative in the remaining second and fourth quarter. This assessment of the slope of the position - time plot helps us to identify whether velocity is positive or negative?
+
+
+</para>
+<para id="element-926"><figure id="fig-926"><title> Sign of the tangent of the angle </title>
+<media id="idp4347152" alt=""><image src="../../media/rm15-87c1.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para><para id="element-43">We may, however, use yet another simpler and effective technique to judge the nature of the slope. This employs physical interpretation of the plot.  We know that the tangent of the angle is equal to the ratio of x (position) and t (time). In order to judge the nature of slope, we progress with the time and determine whether “x” increases or decreases. The increase in “x” corresponds to positive slope and a decrease, on the other hand, corresponds to negative slope. This assessment helps us to quickly identify whether velocity is positive or negative?
+</para><para id="element-737"><figure id="fig-737">
+<title> Slope of the curve </title>
+<media id="idp8536400" alt=""><image src="../../media/rm14.gif" mime-type="image/gif"/></media>
+</figure>
+
+</para>
+
+</section>
+<section id="section-2b">
+<title> Direction of motion </title>
+<para id="element-44">
+The visual representation of the curve might suggest that the tangent to the position – time plot gives the direction of velocity. It is not true. It is contradictory to the assumption of the one dimensional motion. Motion is either in positive or negative x – direction and not in any other direction as would be suggested by the direction of tangent at various points. As a matter of fact, the curve of the position – time plot is not the representation of the path of motion. The path of the motion is simply a straight line. This distinction should always be kept in mind.
+</para>
+<para id="element-45">In reality, the nature of slope indicates the sense of direction, which can assume either of the two possible directions. A positive slope of the curve denotes motion along the positive direction of the referred axis, whereas negative slope indicates reversal of the direction of motion. 
+</para>
+<para id="element-46">In the position – time plot as shown in the example at the beginning of the module <link target-id="fig-39"> (See Figure) </link>, the slope of the curve from t = 0 s  to t = 0.75 s is negative, whereas slope becomes positive for t &gt; 0.75 s. Clearly, an inversion of slope indicates reversal of direction. The particle, in the instant case, changes direction once at t = 0.75 s during the motion.
+ </para>
+</section>
+<section id="section-2c">
+<title> Variation in the velocity </title>
+<para id="element-47">In addtion to the sense of direction, the position - time plot allows us to determine the magnitude of velocity i.e. speed, which is equal to the magnitude of the slope. Here we shall see that the position – time plot is not only helpful in determining magnitude and direction of the velocity, but also in determining whether speed is increasing or decreasing or a constant. 
+</para>
+
+<para id="element-49">
+Let us consider the plot generated in the example at the beginning of this module. The data set of the plot is as given here :
+</para>
+<para id="element-50">
+<code display="block" id="idp8968192">
+
+t(s)	x(m)	Δx(m)
+---------------------
+0.0	 1.0	
+0.1      0.72	-0.28
+0.2	 0.48	-0.24
+0.3	 0.28	-0.20
+0.4	 0.12	-0.16
+0.5	 0.00	-0.12
+0.6	-0.08	-0.08    
+0.7	-0.12	-0.12
+0.8	-0.12	 0.00
+0.9	-0.08	 0.04
+1.0	 0.00	 0.08
+1.1	 0.12	 0.12
+1.2	 0.28	 0.16
+---------------------
+
+</code>
+</para>
+<para id="element-51">In the beginning of the motion starting from t  = 0, we see that particle covers distance in decreasing magnitude in the negative x - direction. The magnitude of difference, Δx, in equal time interval decreases with the progress of time. Accordingly, the curve becomes flatter. This is reflected by the fact that the slope of the tangent becomes gentler till it becomes horizontal at t = 0.75 s. Beyond t = 0.75 s, the velocity is directed in the positive x – direction. We can see that particle covers more and more distances as the time progresses. It means that the velocity of the particle increases with time and the curve gets steeper with the passage of time. 
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Position – time plot </title>
+<media id="idm1736848" alt=""><image src="../../media/rm5-900c.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-52">
+In general, we can conclude that a gentle slope indicates smaller velocity and a steeper slope indicates a larger velocity.
+</para>
+
+</section>
+</section>
+
+<section id="section-3">
+<title> Velocity - time plot </title>
+
+<para id="element-53">In general, the velocity is a three dimensional vector quantity. A velocity – time would, therefore, require additional dimension. Hence, it is not possible to draw velocity – time plot on a three dimensional coordinate system. Two dimensional velocity - time plot is possible, but its drawing is complex. 
+</para>
+<para id="element-54">One dimensional motion, having only two directions – along positive or negative direction of axis, allows plotting velocity – time graph. The velocity is treated simply as scalar speed with one qualification that velocity in the direction of chosen reference is considered positive and velocity in the opposite direction to chosen reference is considered negative. 
+</para>
+<para id="element-55">
+<note id="idp4421424">In "speed- time" and "velocity – time" plots use the symbol “v” to represent both speed and velocity. This is likely to create some confusion as these quantities are essentially different. We use the scalar symbol “v” to represent velocity as a special case for rectilinear motion, because scalar value of velocity with appropriate sign gives the direction of motion as well. Therefore, the scalar representation of velocity is consistent with the requirement of representing both magnitude and direction. Though current writings on the subject allows duplication of symbol, we must, however, be aware of the difference between two types of plot. The speed (v) is always positive in speed – time plot and drawn in the first quadrant of the coordinate system. On the other hand, velocity (v) may be positive or negative in velocity – time plot and drawn in first and fourth quadrants of the two dimensional coordinate system. 
+</note>
+</para>
+<section id="section-3a">
+<title> The nature of velocity – time plot </title>
+<para id="element-56a">Velocity – time plot for rectilinear motion is a curve (Figure i). The nature of the curve is determined by the nature of motion. If the particle moves with constant velocity, then the plot is a straight line parallel to the time axis (Figure ii). On the other hand, if the velocity changes with respect to time at uniform rate, then the plot is a straight line (Figure iii). 
+</para>
+<para id="element-56">
+<figure id="fig-56">
+<title> Velocity – time plot </title>
+<media id="idp6348592" alt=""><image src="../../media/rm6-e164.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-57">The representation of the variation of velocity with time, however, needs to be consistent with physical interpretation of motion. For example, we can not think of velocity - time plot, which is a vertical line parallel to the axis of velocity (Figure ii). Such plot is inconsistent as this would mean infinite numbers of values, against the reality of one velocity at a given instant. Similarly, the velocity-time plot should not be intersected by a vertical line twice as it would mean that the particle has more than one velocity at a given time (Figure i).
+</para>
+<para id="element-58">
+<figure id="fig-58">
+<title> Velocity – time plot </title>
+<media id="idp4369216" alt=""><image src="../../media/rm7-649e.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+</section>
+
+<section id="section-3b">
+<title> Area under velocity – time plot </title>
+
+<para id="element-59">
+The area under the velocity – time plot is equal to displacement.  The displacement in the small time period “dt” is given by :
+</para>
+<para id="element-60">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+
+<m:mtr> 
+<m:mtd>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+<para id="element-61">
+Integrating on both sides between time intervals
+<m:math>
+   <m:msub>
+    <m:mi> t </m:mi>
+    <m:mn> 1 </m:mn>
+   </m:msub>
+<m:mspace width="5pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="5pt"/>
+   <m:msub>
+    <m:mi> t </m:mi>
+    <m:mn> 2 </m:mn>
+   </m:msub>
+<m:mi> , </m:mi>
+</m:math>
+
+</para>
+<para id="element-62">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:msubsup>
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+
+<para id="element-63">The right hand side integral graphically represents an area on a plot drawn between two variables : velocity (v) and time (t). The area is bounded by (i) v-t curve (ii) two time ordinates 
+<m:math>
+   <m:msub>
+    <m:mi> t </m:mi>
+    <m:mn> 1 </m:mn>
+   </m:msub>
+</m:math>
+
+
+
+and 
+
+<m:math>
+   <m:msub>
+    <m:mi> t </m:mi>
+    <m:mn> 2 </m:mn>
+   </m:msub>
+</m:math>
+ and (iii) time (t) axis as shown by the shaded region on the plot. Thus, the area under v-t plot bounded by the ordinates give the magnitude of displacement (Δx) in the given time interval.
+
+</para>
+<para id="element-64">
+<figure id="fig-64">
+<title> Area under velocity – time plot
+</title>
+<media id="idp7228064" alt=""><image src="../../media/rm12.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-65">When v-t curve consists of negative values of velocity, then the curve extends into fourth quadrant i.e. below time axis. In such cases, it is sometimes easier to evaluate area above and below time axis separately. The area above time axis represents positive displacement, whereas area under time axis represents negative displacement. Finally, areas are added with proper sign to obtain the net displacement during the motion. 
+</para>
+<para id="element-66">
+To illustrate the working of the process for determining displacement, let us consider the rectilinear motion of a particle represented by the plot shown.
+</para>
+<para id="element-67">
+<figure id="fig-67">
+<title> Velocity – time plot</title>
+<media id="idp5829776" alt=""><image src="../../media/rm8-5fcb.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-68">
+Here, 
+</para>
+<para id="element-69"><m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd>
+<m:mi> Area of triangle OAB =  </m:mi>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 8 m </m:mi>
+</m:mtd>
+</m:mtr>
+
+
+<m:mtr> 
+<m:mtd>
+<m:mi> Area of trapezium BCDE =  </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> -6 m </m:mi>
+</m:mtd>
+</m:mtr>
+
+
+
+<m:mtr> 
+<m:mtd>
+<m:mi> Area of triangle EFG =  </m:mi>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 1 m </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr> 
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> Net area = </m:mi>
+<m:mn> 8 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 3 m </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable> 
+</m:math>
+</para>
+<para id="element-70">A switch from positive to negative value of velocity and vice-versa is associated with change of direction of motion. It means that every intersection of the v – t curve with time axis represents a reversal of direction. Note that it is not the change of slope (from postive to negative and and vive versa) like on the position time that indicates a change in the direction of motion; but the intersection of time axis, which indicates change of direction of velocity.  In the motion described in figure above, particle undergoes reversal of direction at two occasions at B and E.
+</para>
+<para id="element-71">
+It is also clear from the above example that displacement is given by the net area (considering appropriate positive and negative sign), while distance covered during the motion in the time interval is given by the cumulative area without considering the sign. In the above example, distance covered is :
+</para>
+
+<para id="element-71a">
+s =  Area of triangle OAB + Area of trapezium BCDE + Area of triangle EFG
+</para>
+<para id="element-72">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd>
+<m:mo>⇒ </m:mo>
+<m:mi> s =  </m:mi>
+<m:mn> 8 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 15 m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+
+
+
+
+<para id="element-73">
+<exercise id="exercise-73">
+<problem id="idp5812016">
+<para id="element-74">
+A person walks with a velocity given by |t – 2| along a straight line. Find the distance and displacement for the motion in the first 4 seconds. What is the average velocity in this period?
+</para>
+
+</problem>
+
+<solution id="idp10220160">
+<para id="element-75">Here, the velocity is equal to the modulus of a function in time. It means that velocity is always positive. An inspection of the function reveals that velocity linearly decreases for the first 2 second from 2 m/s to zero. It, then, increases from zero to 2 m/s in the next 2 seconds. In order to obtain distance and displacement, we draw the Velocity – time plot plot as shown.
+
+</para>
+<para id="element-76">
+</para>
+<para id="element-77">The area under the plot gives displacement. In this case, however, there is no negative displacement involved. As such, distance and displacement are equal.
+</para>
+<para id="element-77a">
+<figure id="fig-77a">
+<title> Velocity – time plot</title>
+<media id="idp8953248" alt=""><image src="../../media/rm9.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-78">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd>
+<m:mtext> Displacement = ΔOAB + ΔBCD  </m:mtext>
+</m:mtd>
+</m:mtr>
+
+<m:mtr> 
+<m:mtd>
+<m:mi> Displacement = </m:mi>
+
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mi> OB  </m:mi>
+<m:mo> x </m:mo>
+<m:mi> OA  </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mi> BD  </m:mi>
+<m:mo> x </m:mo>
+<m:mi> CD  </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr> 
+<m:mtd>
+<m:mi> Displacement = </m:mi>
+
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 4 m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+<para id="element-79">and the average velocity is given by :
+</para>
+<para id="element-80">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+
+<m:mtr> 
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mi> Displacement </m:mi>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> 1 m/s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+</section>
+</section>
+
+<section id="section-4">
+<title> Uniform motion </title>
+
+<para id="element-81">Uniform motion is a subset of rectilinear motion. It is the most simplified class of motion. In this case, the body under motion moves with constant velocity.  It means that the body moves along a straight line without any change of magnitude and direction as velocity is constant. Also, a constant velocity implies that velocity is constant all through out the motion. The velocity at every instant during motion is, therefore, same. 
+</para>
+<para id="element-82">
+It follows then that instantaneous and averages values of speed and velocity are all equal to a constant value for uniform motion :
+</para>
+<para id="element-83">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+
+<m:mtr> 
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> a </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:mo> | </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:msub>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mi> Constant </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+<para id="element-84">The motion of uniform linear motion has special significance, as this motion exactly echoes the principle enshrined in the first law of motion. The law states that all bodies in the absence of external force maintain their speed and direction. It follows, therefore, that the study of uniform motion is actually the description of motion, when no external force is in play. 
+</para>
+<para id="element-85">The absence of external force is hypothetical in our experience as bodies are always subject to external force(s). The force of gravitation is short of omnipresent force that can not be overlooked - atleast on earth. Nevertheless, the concept of uniform motion has great theoretical significance as it gives us the reference for the accelerated or the non-uniform real motion. 
+</para>
+<para id="element-86">On the earth, a horizontal motion of a block on a smooth plane approximates uniform motion as shown in the figure. The force of gravity acts and normal reaction force at the contact between surfaces act in vertically, but opposite directions. The two forces  balances each other. As a result, there is no net force in the vertical direction. As the surface is smooth, we can also neglect horizontal force due to friction, which could have opposed the motion in horizontal direction. This situation is just an approxmiation for we can not think of a flawless smooth surface in the first place; and also there would be intermolecular attraction between the block and surface at the contact. In brief, we can not achieve zero friction - eventhough the surfaces in contact are perfectly smooth. However, the approximation like this is helpful for it provides us a situation, which is equivalent to  the motion of an object without any external force(s).   </para>
+<para id="element-87">
+<figure id="fig-87">
+<title> Uniform motion </title>
+<media id="idp8522816" alt=""><image src="../../media/rm10-78fc.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-88">We can also imagine a volumetric space, where massive bodies like planets and stars are not nearby. The motion of an object in that space, therefore, would be free from any external force and the motion would be in accordance with the laws of motion. The study of astronauts walking in the space and doing repairs to the spaceship approximates the situation of the absence of external force. The astronaut in the absence of the force of gravitation and friction (as there is no atmosphere) moves along with the velocity of the spaceship.
+</para>
+</section>
+<section id="section-5">
+<title> Motion of separated bodies </title>
+
+<para id="element-89">The fact that the astronauts moves with the velocity of spaceship is an important statement about the state of motion of the separated bodies. A separated body acquires the velocity of the containing body. A pebble released from a moving train or  dropped from a rising balloon is an example of the motion of separated body. The pebble acquires the velocity of the train or the balloon as the case may be.
+</para>
+<para id="element-90">
+<figure id="fig-90">
+<title> Motion of separated bodies </title>
+<media id="idp5169504" alt=""><image src="../../media/rm11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+
+<para id="element-597">It means that we must assign a velocity to the released body, which is equal in magnitude and direction to that of the body from which  the released body has separated. The phenomena of imparting velocity to the separated body is a peculiarity with regard to velocity. We shall learn that acceleration (an attribute of non-uniform motion) does not behave in the same fashion. For example, if the train is accelerating at the time, the pebble is dropped, then the pebble would not acquire the acceleration of the containing body.   </para><para id="element-384">The reason that pebble does not acquire the acceleration of the train is very simple. We know that acceleration results from application of external force. In this case, the train is accelerated as the engine of the train pulls the compartment (i.e. applies force on the compartment. The pebble, being part of the compartment), is also accelerated till it is held in the hand of the passenger. However, as the pebble is dropped, the connection of the pebble with the rest of the system or with the engine is broken. No force is applied on the pebble in the horizontal direction. As such, pebble after being dropped has no acceleration in the horizontal direction.</para><para id="element-540">In short, we can conclude that a separated body acquires velocity, but not the acceleration.</para>
+</section>
+
+
+
+ 
+  </content>
+  
+</document>

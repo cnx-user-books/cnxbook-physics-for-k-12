@@ -1,0 +1,300 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Position</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>013af1ba-8cfd-4387-8fbe-644748434d69</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-176">Coordinate system enables us to specify a point in its defined volumetric space. We must recognize that a point is a concept without dimensions; whereas the objects or bodies under motion themselves are not points. The real bodies, however, approximates a point in translational motion, when paths followed by the particles, composing the body are parallel to each other (See Figure). As we are concerned with the geometry of the path of motion in kinematics, it is, therefore, reasonable to treat real bodies as “point like” mass for description of translational motion.
+</para>
+<para id="element-176a">
+<figure id="fig176a"><title> Translational motion </title>
+	<media id="idp7686992" alt=""><image src="../../media/p1.gif" mime-type="image/gif"/></media>
+     <caption> Particles follow parallel paths </caption>
+</figure>
+</para>
+
+<para id="element-48">We conceptualize a particle in order to facilitate the geometric description of motion. A particle is considered to be dimensionless, but having a mass. This hypothetical construct provides the basis for the logical correspondence of point with the position occupied by a particle. </para><para id="element-1">Without any loss of purpose, we can designate motion to begin at A or A’ or A’’ corresponding to final positions B or B’ or B’’ respectively as shown in the figure above.
+</para>
+
+<para id="element-399">For the reasons as outlined above, we shall freely use the terms “body” or “object” or “particle” in one and the same way as far as description of translational motion is concerned. Here, pure translation conveys the meaning that the object is under motion without rotation, like sliding of a block on a smooth inclined plane. 
+</para>
+
+
+
+<section id="section-1a">
+<title> Position </title>
+
+
+<para id="element-400">
+<definition id="definition-400">
+<term> Position </term>
+<meaning id="idp10953424"> The position of a particle is a point in the defined volumetric space of the coordinate system.</meaning>
+</definition>
+</para>
+
+<para id="element-3">
+<figure id="fig3a"><title> Position of a point object</title>
+	<media id="idp9538448" alt=""><image src="../../media/p11.gif" mime-type="image/gif"/></media>
+	<caption> Position of a point is specified by three coordinate values
+	</caption>
+</figure>
+</para>
+
+<para id="element-4">
+The position of a point like object, in three dimensional coordinate space, is defined by three values of coordinates i.e. x, y and z in Cartesian coordinate system as shown in the figure above. 
+</para>
+
+<para id="element-4a">It is evident that the relative position of a point with respect to a fixed point such as the origin of the system “O” has directional property. The position of the object, for example, can lie either to the left or to the right of the origin or at a certain angle from the positive x - direction. As such the position of an object is associated with directional attribute with respect to a frame of reference (coordinate system).
+</para>
+
+<example id="example-5">
+<title> Coordinates </title>
+<para id="element-5">
+
+<term>Problem </term>: The length of the second’s hand of a round wall clock is ‘r’ meters. Specify the coordinates of the tip of the second’s hand corresponding to the markings 3,6,9 and 12 (Consider the center of the clock as the origin of the coordinate system.).
+</para>
+<para id="element-6">
+<figure id="fig6"><title> Coordinates of the tip of the second’s hand
+</title>
+	<media id="idp1909392" alt=""><image src="../../media/p3.gif" mime-type="image/gif"/></media>
+	<caption> The origin coincides with the center</caption>
+</figure>
+</para>
+
+<para id="element-7">
+<term>Solution </term>: The coordinates of the tip of the second’s hand is given by the coordinates :
+</para>
+<para id="element-8">
+<code display="block" id="idp7347024">
+
+3  :   r,  0,  0
+6  :   0, -r,  0
+9  :  -r,  0,  0
+12 :   0,  r,  0
+
+
+</code>
+</para>
+</example>
+
+<para id="element-8a">
+<exercise id="exercise-8">
+<problem id="idp12913824">
+<para id="element-9">
+What would be the coordinates of the markings 3,6,9 and 12 in the earlier example, if the origin coincides with the marking 6 on the clock ? 
+</para>
+<para id="element-9a">
+<figure id="fig9"><title> Coordinates of the tip of the second’s hand
+</title>
+	<media id="idp8644688" alt=""><image src="../../media/p2-ec0a.gif" mime-type="image/gif"/></media>
+	<caption> Origin coincides with the marking 6 O’ clock </caption>
+</figure>
+</para>
+
+</problem>
+
+<solution id="idp14611440">
+<para id="element-10">
+The coordinates of the tip of the second’s hand is given by the coordinates :
+</para>
+<para id="element-11">
+<code display="block" id="idp1817664">
+
+3  :   r,  r,  0
+6  :   0,  0,  0
+9  :  -r,  r,  0
+12 :   0, 2r,  0
+
+</code>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-12">The above exercises point to an interesting feature of the frame of reference: that the specification of position of the object (values of coordinates) depends on the choice of origin of the given frame of reference. We have already seen that description of motion depends on the state of observer i.e. the attached system of reference. This additional dependence on the choice of origin of the reference would have further complicated the issue, but for the linear distance between any two points in a given system of reference, is found to be independent of the choice of the origin. For example, the linear distance between the markings 6 and 12 is ‘2r’, irrespective of the choice of the origin. 
+</para>
+</section>
+
+<section id="section-1">
+<title> Plotting motion </title>
+
+
+<para id="element-13">Position of a point in the volumetric space is a three dimensional description. A plot showing positions of an object during a motion is an actual description of the motion in so far as the curve shows the path of the motion and its length gives the distance covered. A typical three dimensional motion is depicted as in the figure below :
+</para>
+
+<para id="element-14">
+<figure id="fig14"><title> Motion in three dimension</title>
+	<media id="idp1616576" alt=""><image src="../../media/p4.gif" mime-type="image/gif"/></media>
+	<caption> The plot is the path followed by the object during motion.
+	</caption>
+</figure>
+</para>
+
+
+<para id="element-15">In the figure, the point like object is deliberately shown not as a point, but with finite dimensions. This has been done in order to emphasize that an object of finite dimensions can be treated as point when the motion is purely translational. 
+</para>
+
+<para id="element-16">The three dimensional description of positions of an object during motion is reduced to be two or one dimensional description for the planar and linear motions respectively. In two or one dimensional motion,  the remaining coordinates are constant. In all cases, however, the plot of the positions is meaningful in following two respects : 
+</para>
+
+<para id="element-17">
+<list id="list-17" list-type="bulleted">
+<item> The length of the curve (i.e. plot) is equal to the distance.</item>
+<item> A tangent in forward direction at a point on the curve gives the direction of motion at that point </item>
+</list>
+</para>
+
+</section>
+
+<section id="section-2a">
+<title> Description of motion  </title>
+
+<para id="element-30">
+Position is the basic element used to describe motion. Scalar properties of motion like distance and speed are expressed in terms of position as a function of time. As the time passes, the positions of the motion follow a path, known as the trajectory of the motion. It must be emphasized here that the path of motion (trajectory) is unique to a frame of reference and so is the description of the motion. 
+</para>
+
+<para id="element-31">To illustrate the point, let us consider that a person is traveling on a train, which is moving with the velocity <term>v</term> along a straight track. At a particular moment, the person releases a small pebble. The pebble drops to the ground along the vertical direction as seen by the person. 
+</para>
+
+
+<para id="element-32">
+<figure id="fig31"><title> Trajectory as seen by the passenger </title>
+	<media id="idp14391456" alt=""><image src="../../media/p9.gif" mime-type="image/gif"/></media>
+	<caption> Trajectory is a straight line. </caption>
+</figure>
+</para>
+
+<para id="element-33">The same incident, however, is seen by an observer on the ground as if the pebble followed a parabolic path (See Figure blow). It emerges then that the path or the trajectory of the motion is also a relative attribute, like other attributes of the motion (speed and velocity). The coordinate system of the passenger in the train is moving with the velocity of train (<term>v</term>) with respect to the earth and the path of the pebble is a straight line. For the person on the ground, however, the coordinate system is stationary with respect to earth. In this frame, the pebble has a horizontal velocity, which results in a parabolic trajectory. 
+</para>
+<para id="element-34">
+<figure id="fig34"><title> Trajectory as seen by the person on ground </title>
+	<media id="idp14307888" alt=""><image src="../../media/p10.gif" mime-type="image/gif"/></media>
+	<caption> Trajectory is a parabolic curve. </caption>
+</figure>
+</para>
+<para id="element-35">Without overemphasizing, we must acknowledge that the concept of path or trajectory is essentially specific to the frame of reference or the coordinate system attached to it. Interestingly, we must be aware that this particular observation happens to be the starting point for the development of special theory of relativity by Einstein (see his original transcript on the subject of relativity). </para>
+
+
+</section>
+
+
+<section id="section-2">
+<title> Position – time plot</title>
+
+<para id="element-18a">The position in three dimensional motion involves specification in terms of three coordinates. This requirement poses a serious problem, when we want to investigate positions of the object with respect to time. In order to draw such a graph, we would need three axes for describing position and one axis for plotting time. This means that a position – time plot for a three dimensional motion would need four (4) axes !
+</para>
+
+<para id="element-19">A two dimensional position – time plot, however, is a possibility, but its drawing is highly complicated for representation on a two dimensional paper or screen. A simple example consisting of a linear motion in the x-y plane is plotted against time on z – axis (See Figure). 
+</para>
+
+<para id="element-20">
+<figure id="fig20"><title> Two dimensional position – time plot </title>
+<media id="idp10137088" alt=""><image src="../../media/p5.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+
+<para id="element-21">As a matter of fact, it is only the one dimensional motion, whose position – time plot can be plotted conveniently on a plane. In one dimensional motion, the point object can either be to the left or to the right of the origin in the direction of reference line. Thus, drawing position against time is a straight forward exercise as it involves plotting positions with appropriate sign. 
+
+</para>
+
+<example id="example-22">
+<title> Coordinates </title>
+<para id="element-22"><term>Problem </term>: A ball moves along a straight line from O to A to B to C to O along x-axis as shown in the figure. The ball covers each of the distance of 5 m in one second. Plot the position – time graph.
+</para>
+<para id="element-23">
+<figure id="fig23"><title> Motion along a straight line </title>
+	<media id="idp9440640" alt=""><image src="../../media/p6.gif" mime-type="image/gif"/></media>
+	
+</figure>
+</para>
+
+<para id="element-24">
+<term>Solution </term>: The coordinates of the ball are 0,5,10, -5 and 0 at points O, A, B, C and O (on return) respectively. The position – time plot of the motion is as given below :
+</para>
+<para id="element-25">
+<figure id="fig25"><title> Position – time plot in one dimension </title>
+	<media id="idp10029280" alt=""><image src="../../media/p16.gif" mime-type="image/gif"/></media>
+	
+</figure>
+</para>
+</example>
+
+<para id="element-26">
+<exercise id="exercise-26">
+<problem id="idp20929552">
+<para id="element-27">A ball falling from a height ‘h’ strikes a hard horizontal surface with increasing speed. On each rebound, the height reached by the ball is half of the height it fell from. Draw position – time plot for the motion covering two consecutive strikes, emphasizing the nature of curve (ignore actual calculation).
+</para>
+
+</problem>
+
+<solution id="idp10758320">
+<para id="element-28">Now, as the ball falls towards the surface, it covers path at a quicker pace. As such, the position changes more rapidly as the ball approaches the surface. The curve (i.e. plot) is, therefore, steeper towards the surface. On the return upward journey, the ball covers lesser distance as it reaches the maximum height. Hence, the position – time curve (i.e. plot) is flatter towards the point of maximum height.
+</para>
+<para id="element-29">
+<figure id="fig29"><title> Position – time plot in one dimension </title>
+	<media id="idp14677312" alt=""><image src="../../media/p8.gif" mime-type="image/gif"/></media>
+	
+</figure>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-36">
+<exercise id="exercise-36">
+<problem id="idp9653488">
+<para id="element-37">The figure below shows three position – time plots of a motion of a particle along x-axis. Giving reasons, identify the valid plot(s) among them. For the valid plot(s), determine following :
+</para>
+
+<para id="element-38">
+<figure id="fig38"><title> Position – time plots in one dimension </title>
+	<media id="idp11125424" alt=""><image src="../../media/p12.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-39">
+<list id="list-39" list-type="enumerated">
+<item> How many times the particle has come to rest? </item>
+<item> Does the particle reverse its direction during motion?  </item>
+</list>
+</para>
+
+</problem>
+
+<solution id="idp10691536">
+<para id="element-40">Validity of plots : In the portion of plot I, we can draw a vertical line that intersects the curve at three points. It means that the particle is present at three positions simultaneously, which is not possible. Plot II is also not valid for the same reason. Besides, it consists of a vertical portion, which would mean presence of the particle at infinite numbers of positions at the same instant. Plot III, on the other hand, is free from these anomalies and is the only valid curve representing motion of a particle along x – axis (See Figure). 
+</para>
+
+<para id="element-41">
+<figure id="fig41"><title> Valid position – time plot in one dimension </title>
+	<media id="idp1498752" alt=""><image src="../../media/p14.gif" mime-type="image/gif"/></media>
+	<caption> A particle can not be present at more than one position at a given instant.
+	</caption>
+</figure>
+</para>
+<para id="element-42">When the particle comes to rest, there is no change in the value of “x”. This, in turn, means that tangent to the curve at points of rest is parallel to x-axis. By inspection, we find that tangent to the curve is parallel to x-axis at four points (B,C,D and E) on the curve shown in the figure below. Hence, the particle comes to rest four times during the motion.
+</para>
+<para id="element-43">
+<figure id="fig43"><title> Positions of rest </title>
+	<media id="idp8347504" alt=""><image src="../../media/p15.gif" mime-type="image/gif"/></media>
+	<caption> At rest, the tangent to the path is parallel to time axis. 
+	</caption>
+</figure>
+</para>
+
+
+
+</solution>
+</exercise>
+</para>
+
+
+</section>
+
+
+
+
+  </content>
+  
+</document>

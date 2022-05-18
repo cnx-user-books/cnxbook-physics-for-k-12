@@ -1,0 +1,2333 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Inelastic collision (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1627c6c6-1074-4b7e-80ef-0b313fb4bd64</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to inelastic collision. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Coefficient of restitution
+</item>
+<item> Successive collisions
+</item>
+<item> Kinetic energy and coefficient of restitution
+</item>
+<item> Motion subsequent to collision
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Coefficient of restitution
+</title>
+<section id="section-3a">
+<para id="element-6"><term>Problem 1 : </term> A block of mass 1 kg, moving at a speed “v”, collides with another block of mass 10 kg at rest. The lighter block comes to rest after the collision. Find the coefficient of restitution.
+</para>
+<para id="element-7"><term>Solution : </term>  Let us consider that lighter block is moving along x-axis. The initial velocities are :
+</para>
+<para id="element-8">
+<figure id="fig-8"><title> Inelastic collision </title>
+<media id="idp6393872" alt=""><image src="../../media/icq1.gif" mime-type="image/gif"/></media>
+<caption> Velocities before and after collision </caption>  
+</figure>
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">
+The final velocities are :
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+From conservation of linear momentum,
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mn>10</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+The coefficient of restitution is :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mtext>velocity of separation</m:mtext>
+      </m:mrow>
+      <m:mrow>
+        <m:mtext>velocity of appraoch</m:mtext>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>f</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mi>f</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mi>i</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>i</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>−</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>v</m:mi>
+          <m:mn>10</m:mn>
+        </m:mfrac>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>10</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-3b">
+<para id="element-21"><term>Problem 2 : </term> A spherical ball hits “head – on” another identical ball, which is stationary. The velocity of second ball, immediately after the collision, is twice that of first ball. Find coefficient of restitution. 
+</para>
+<para id="element-22"><term>Solution : </term>We solve this problem using equation of conservation of linear momentum and equation of restitution. Let velocity of first ball before collision be “v”, velocity of first ball after collision be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and velocity of second ball after collision be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”.
+</para>
+<para id="element-23">
+<figure id="fig-23"><title> Inelastic collision </title>
+<media id="idp2357184" alt=""><image src="../../media/icq2.gif" mime-type="image/gif"/></media>
+<caption> Velocities before and after collision </caption>  
+</figure>
+</para>
+<para id="element-24">Applying equation of conservation of linear momentum, we have :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">
+Putting values, we have :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">It is given that :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">Substituting in the equation,
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+Putting this value of “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” in the equation of conservation of linear momentum, we get “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” as :
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+Now, applying equation of restitution, we have :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>f</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mi>f</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mi>i</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>i</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>v</m:mi>
+          </m:mrow>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>v</m:mi>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-3c">
+<para id="element-40"><term>Problem 3 : </term> In a “head – on” inelastic collision between two identical particles, the linear momentum of the projectile is “P”, whereas the target particle is stationary. If the target applies an impulse of magnitude “J” on the projectile, find coefficient of restitution.
+</para>
+<para id="element-41"><term>Solution : </term>In order to solve this problem, we need to evaluate the defining expression of coefficient of restitution. This means that we need to know final velocities. 
+</para>
+<para id="element-42">We note here that we need to consider motion and collision in one dimension as the collision is “head – on”.
+</para>
+<para id="element-43">Let the mass of each particle is “m”. Let velocity of first ball before collision be “v”, velocity of first ball after collision be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and velocity of second ball after collision be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”.
+</para>
+<para id="element-44">
+<figure id="fig-44"><title> Inelastic collision </title>
+<media id="idp7177920" alt=""><image src="../../media/icq3.gif" mime-type="image/gif"/></media>
+<caption> Velocities after collision </caption>  
+</figure>
+</para>
+<para id="element-45">
+According to question,
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>P</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">Now, we know that impulse is equal to change in linear momentum :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>J</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>P</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>P</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mi>f</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mi>i</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+However, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>&gt;</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+. It means that impulse acts in opposite direction to that of reference direction of motion. Hence,
+</para>
+<para id="element-50">
+<figure id="fig-50"><title> Inelastic collision </title>
+<media id="idp6900976" alt=""><image src="../../media/icq4.gif" mime-type="image/gif"/></media>
+<caption> Direction of impulse </caption>  
+</figure>
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>J</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>J</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>   
+</para>
+<para id="element-53">Putting value of “v”,
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>J</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mi>P</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">Now, applying conservation of linear momentum,
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">Substituting for “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, we have :
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>J</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>J</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">The coefficient of restitution is :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>J</m:mi>
+          <m:mi>m</m:mi>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>J</m:mi>
+          <m:mi>m</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>P</m:mi>
+          <m:mi>m</m:mi>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>P</m:mi>
+        <m:mo>/</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>J</m:mi>
+      </m:mrow>
+      <m:mi>P</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-4">
+<title> Successive collisions
+</title>
+<para id="element-64"><term>Problem 4 : </term> Three identical balls designated “1”, “2” and “3” are placed 16 meters apart on a smooth horizontal surface. The ball “1” is given an initial velocity 10 m/s towards “2”. The collision between “1” and “2” is inelastic with coefficient of restitution 0.6, whereas collision between “2” and “3” is perfectly inelastic. Find the time elapsed between two consecutive collisions between “1” and “2”.
+</para>
+<para id="element-66">
+<figure id="fig-66"><title> Successive collisions </title>
+<media id="idp1652320" alt=""><image src="../../media/icq5.gif" mime-type="image/gif"/></media>
+<caption> Three identical balls are placed on a smooth horizontal surface. </caption>  
+</figure>
+</para>
+<para id="element-65"><term>Solution : </term>To answer this question, we need to understand the collision sequence. The ball “1” moving with velocity 10 m/s strikes second ball in - elastically. As a consequence, depending on coefficient of restitution two balls move with different velocities. This collision constitutes the first collision. 
+</para>
+<para id="element-67">
+<figure id="fig-67"><title> First collision </title>
+<media id="idp7110512" alt=""><image src="../../media/icq6.gif" mime-type="image/gif"/></media>
+<caption> First collision is inelastic. </caption>  
+</figure>
+</para>
+<para id="element-68">Let the mass of each particle is “m”. Let velocity of first ball before collision be “v”, velocity of first ball after collision be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and velocity of second ball after collision be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. Applying conservation of linear momentum,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">Applying equation of restitution, 
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>e</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-75">Adding two resulting equations,
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>16</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">Substituting this value in the equation of conservation of linear momentum,
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>8</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">Clearly, second ball covers the horizontal distance of 16 m, subsequent to collision at 8 m/s and strikes the third ball. 
+</para>
+<para id="element-81">The second ball strikes third stationary identical ball elastically. As a result, the balls exchange their velocities. It means second ball becomes stationary and third ball moves off towards right with velocity at 8 m/s. First ball, however, keeps moving towards right at 2 m/s and covers the distance of 16 m to strike the second ball again, which has come to a standstill. The time taken by the first ball to hit the second ball again is :
+</para>
+<para id="element-82">
+<figure id="fig-82"><title> Second collision </title>
+<media id="idp12458080" alt=""><image src="../../media/icq7a.gif" mime-type="image/gif"/></media>
+<caption> Second collision is  perfectly elastic. </caption>  
+</figure>
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>16</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">This is the time interval between required two consecutive collisions.
+</para>
+</section>
+
+<section id="section-5">
+<title> Kinetic energy and coefficient of restitution
+</title>
+<para id="element-85"><term>Problem 5 : </term> A spherical ball of mass “m” moving at a speed “v” makes a head on collision with an identical ball at rest. The kinetic energy of the balls after collision is 3/4 th of the value before collision. Find coefficient of restitution.
+</para>
+<para id="element-86"><term>Solution : </term>The spherical balls have equal mass and initial velocity of “target” ball is zero. 
+</para>
+<para id="element-87">Let the mass of each particle is “m”. Let velocity of first ball before collision be “v”, velocity of first ball after collision be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and velocity of second ball after collision be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”.
+</para>
+<para id="element-88">
+<figure id="fig-86"><title> Inelastic collision </title>
+<media id="idp10524832" alt=""><image src="../../media/icq2.gif" mime-type="image/gif"/></media>
+<caption> Velocities before and after collision </caption>  
+</figure>
+</para>
+<para id="element-89">For identical mass and stationary target, we have : 
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">and
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93"><note id="idp9179264"> Instead of remembering these relations, we can alternatively solve simultaneous equations of conservation of linear momentum and restitution to obtain these relations. </note>
+</para>
+<para id="element-94">According to question,
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mo>+</m:mo>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">Substituting for final velocities, we have :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>-</m:mo>
+              <m:mi>e</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>e</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-101">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mi>e</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>+</m:mo>
+          <m:mi>e</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>e</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-6">
+<title> Motion subsequent to collision
+</title>
+<para id="element-106"><term>Problem 6 : </term> The ram of a pile driver has a mass m and is released from rest at a height h above the top of the pile which has the mass 3m. To what height does the ram rebound if the coefficient of restitution between the ram and the pile is e and e&gt;(1/3)? If the pile meets a constant resistance F from the material in which it is lodged, calculate how far into the material it penetrates before coming to rest.
+</para>
+<para id="element-107">
+<figure id="fig-107">
+<title> Inelastic collision </title>
+<media id="idp1197504" alt=""><image src="../../media/icq8.gif" mime-type="image/gif"/></media>
+<caption> The ram of a pile driver is released from rest at a height "h". </caption>  
+</figure>
+</para>
+<para id="element-107a"> <note id="idp11186768"> This question is as submitted by Baline Patrick through e-mail. </note>
+</para>
+<para id="element-108"><term>Solution : </term>We need to know the velocities of ram and pile immediately after the inelastic collision. Let the velocity of the ram just before strike be "v", velocity of the ram after the strike be "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" velocity of the pile after strike be "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+". 
+</para>
+<para id="element-110">Let the downward vertical y-direction be positive. We can determine velocity of the ram just before it hits the pile. Applying equation of motion for constant acceleration, 
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">In order to determine velocities immediately after collision, we shall apply conservation of linear momentum in vertical direction (downward direction as positive) 
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>i</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>f</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">Putting values, we have :
+</para>
+<para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-117">
+Now, applying equation of restitution, we have :
+</para>
+<para id="element-118">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>f</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mi>f</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mi>i</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>i</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>e</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120">Thus, we have two unknowns “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. Also we have two equations. Adding two equations,
+</para>
+<para id="element-121">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>e</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-123">The velocity of pile, therefore, is :
+</para>
+<para id="element-124">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-125">Putting this value in the first equation, we get the velocity of the ram after collision,
+</para>
+<para id="element-126">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>3</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-127">Putting expression of “v”, as obtained earlier, in above two expressions, we have :
+</para>
+<para id="element-128">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-129">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>g</m:mi>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-130">and
+</para>
+<para id="element-131">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>−</m:mo>
+              <m:mn>3</m:mn>
+              <m:mi>e</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:msqrt>
+            <m:mrow>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>g</m:mi>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:mfenced>
+            </m:mrow>
+          </m:msqrt>
+        </m:mrow>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-132">
+Note that 1 - 3e &lt; 0 as e &gt; 1/3. It means that the velocity of ram is opposite to the assumed positive reference direction. This further means that it rebounds after the strike in upward direction. 
+</para>  
+<para id="element-133">
+<figure id="fig-133">
+<title> Inelastic collision </title>
+<media id="idp9071712" alt=""><image src="../../media/icq9.gif" mime-type="image/gif"/></media>
+<caption> Velocities of colliding bodies. </caption>  
+</figure>
+</para>  
+<para id="element-134">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>e</m:mi>
+              <m:mo>−</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:msqrt>
+            <m:mrow>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mi>g</m:mi>
+                  <m:mi>h</m:mi>
+                </m:mrow>
+              </m:mfenced>
+            </m:mrow>
+          </m:msqrt>
+        </m:mrow>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>  
+<para id="element-135">Let h' be the height attained by the ram after the strike. For the upward motion of ram,
+</para>  
+<para id="element-136">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+</para>  
+<para id="element-137">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>'</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:mi>e</m:mi>
+              <m:mo>-</m:mo>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>16</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:msup>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mi>e</m:mi>
+                <m:mo>-</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+            </m:mfenced>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>X</m:mi>
+          <m:mi>h</m:mi>
+        </m:mrow>
+      </m:mrow>
+      <m:mn>16</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>  
+<para id="element-139">Now, we consider the motion of pile into the material. There are two forces acting on the pile (i) constant resistance “F” and (ii) force due to gravity “3mg". As given, the net force acts up to decelerate the pile. The deceleration is :
+</para>  
+<para id="element-140">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>  
+<para id="element-141">Let "y" be the vertical distance moved by the pile. Applying equation of motion,
+</para>  
+<para id="element-142">
+<figure id="fig-142">
+<title> Motion of pile </title>
+<media id="idp7266960" alt=""><image src="../../media/icq10.gif" mime-type="image/gif"/></media>
+<caption> The pile is decelerated due to resistance offered by the material. </caption>  
+</figure>
+</para>  
+<para id="element-143">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>F</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+</para>  
+<para id="element-144">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mi>X</m:mi>
+        <m:mn>3</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>F</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para> 
+<para id="element-145">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>e</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>6</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>F</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>X</m:mi>
+        <m:mn>16</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mi>e</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>3</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>F</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>  
+</section>
+  </content>
+  
+</document>

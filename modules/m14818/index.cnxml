@@ -1,0 +1,955 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Motion on rough incline plane (application)</title>
+  <metadata>
+  <md:content-id>m14818</md:content-id><md:title>Motion on rough incline plane (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>37ad7277-7f3a-40f2-9ab7-2574d2f336ea</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to motion on rough incline plane. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Friction
+</item>
+<item> Incline with different coefficients of friction
+</item>
+<item> Combined motion of two blocks
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Friction  
+</title>
+<para id="element-6"><term>Problem 1 : </term>A block of mass 3 kg is placed on a fixed incline of angle 30°. The coefficients of static and kinetic friction between the block and incline surface are 0.7 and 0.68 respectively. Find the friction acting on the block.
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> Block on an incline </title>
+<media id="id1165913589046" alt=""><image src="../../media/mr1.gif" mime-type="image/gif"/></media>
+<caption> Gravity and friction are the external forces on the block.</caption>  
+</figure>
+</para>
+<para id="element-8"><term>Solution : </term>In order to know friction – its magnitude and direction, we need to compare component of external force parallel to incline with the limiting friction. Here, only gravity acts (other than friction) on the block. The component of gravity parallel to incline is :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">As gravity is the only force pulling the block down, friction acts up as shown in the figure.
+</para>
+<para id="element-11">
+<figure id="fig-11"><title> Block on an incline </title>
+<media id="id1165921177712" alt=""><image src="../../media/mr2.gif" mime-type="image/gif"/></media>
+<caption> Friction on the block acts up the incline.</caption>  
+</figure>
+</para>
+<para id="element-12">The limiting friction is :
+</para>
+<para id="element-14"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0.7</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>18.19</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">It means that pulling force due to gravity is less than limiting friction. Hence, friction is equal to static friction, which is equal to pulling force. The friction, therefore, is :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title> Incline with different coefficients of friction
+</title>
+<para id="element-17"><term>Problem 2 : </term>An incline has upper first half of its surface perfectly smooth and lower second half of its surface rough. A block beginning from the top of the incline exactly stops at the bottom of the incline. Find the coefficient of friction between block and lower half of the incline.
+</para>
+<para id="element-18"><term>Solution : </term>It is clear from the question that the block accelerates at constant rate in the first half and decelerates at constant rate in the second half of its journey over incline. Further, the journey is divided in two equal halves. The block comes to rest at the bottom of the incline. It means that block decelerates in the second half at the same rate at which it is accelerated in the first half. 
+</para>
+<para id="element-19">Let “a” be acceleration in the first half. As there is no friction in the first half, acceleration is equal to the component of acceleration due to gravity along the incline.
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+In the second half, friction comes into picture. As relative motion between surfaces is involved, we conclude that friction is kinetic friction. The free body diagram of the block for the motion in second half is shown in the figure.
+</para>
+<para id="element-22">
+<figure id="fig-22"><title> Block on an incline </title>
+<media id="id1165915551419" alt=""><image src="../../media/mr3.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block in the lower half of the incline.</caption>  
+</figure>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">Note that friction has to be greater than the component of gravity along the incline as net component should be directed up to produce deceleration of the block. It means that had the block started motion on the plane in this section, it would not have moved down without external aid. Substituting for acceleration from consideration in upper half, we have :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-5">
+<title> Combined motion of two blocks  
+</title>
+<section id="section-5a">
+<para id="element-29"><term>Problem 3 : </term>	Two blocks “A” and “B” of mass 4 kg and 8 kg respectively are placed side by side on a rough incline of angle 30°. The blocks are released to slide down the incline at the same instant. The coefficients of friction for block “A” and “B” with the incline are 0.2 and 0.3 respectively. Find the accelerations of the blocks.
+</para>
+<para id="element-30">
+<figure id="fig-30"><title> Two blocks on an incline </title>
+<media id="id1165912482719" alt=""><image src="../../media/mr4.gif" mime-type="image/gif"/></media>
+<caption> The blocks are released simultaneously. </caption>  
+</figure>
+</para>
+<para id="element-31"><term>Solution : </term>The incline surface is rough. We need to check relative accelerations of the two blocks to know whether they travel together or separately. The blocks are under the same component of acceleration due to gravity along the incline. 
+</para>
+<para id="element-32">
+The deceleration due to friction for two blocks are :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mi>N</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mi>N</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.3</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+Clearly, the deceleration due to friction for block “A” is less than that for block “B”. This means that block “A” will always press against block “B”.
+</para>
+<para id="element-36">
+<figure id="fig-36"><title> Two blocks on an incline </title>
+<media id="id1165921169101" alt=""><image src="../../media/mr5.gif" mime-type="image/gif"/></media>
+<caption> Forces on the combined body. </caption>  
+</figure>
+</para>
+<para id="element-37">Thus, two blocks will move together. Let “a” be the common acceleration. We can analyze the motion treating two blocks as one, having mass of 12 kg. The free body diagram of the combined block is superimposed on the figure. Note that we have combined weight, but not the friction as it is different as coefficients of friction are different for two blocks.
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>30</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0.2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mfrac>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mn>0.3</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>8</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+ <m:mfrac>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40"><m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mn>60</m:mn>
+        <m:mo>−</m:mo>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>4</m:mn>
+
+            <m:mo>+</m:mo>
+            <m:mn>12</m:mn>
+
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>}</m:mo>
+      </m:mrow>
+      <m:mn>12</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2.69</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5b">
+
+<para id="element-41"><term>Problem 4 : </term>	Two blocks “A” and “B” have mass 2 kg and 4 kg respectively slide down an incline of angle 45°. They are connected through a “mass-less” rod as shown in the figure. The coefficients of friction between surface and blocks “A” and “B” are 0.75 and 0.25 respectively. Find the tension in the connecting rod.
+</para>
+<para id="element-42">
+<figure id="fig-42"><title> Two blocks on an incline </title>
+<media id="id1165916745218" alt=""><image src="../../media/mr6.gif" mime-type="image/gif"/></media>
+<caption> The blocks are connected by a "mass-less" rod. </caption>  
+</figure>
+</para>
+<para id="element-43"><term>Solution : </term>According to question, the blocks along with connecting rod slides down the incline. Since connecting rod is inflexible, the motion of two blocks is constrained. They move together with a common acceleration. Let the common acceleration be “a”. In the figure below, we have drawn forces considering combined mass in direction parallel to incline. Note that we have not drawn forces perpendicular to incline to keep the diagram simple. From the analysis of force along the incline, we have :
+</para>
+<para id="element-44">
+<figure id="fig-44"><title> Two blocks on an incline </title>
+<media id="id1165918057492" alt=""><image src="../../media/mr7.gif" mime-type="image/gif"/></media>
+<caption> Forces on the combined body in direction parallel to incline. </caption>  
+</figure>
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>45</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mi>g</m:mi>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>45</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0.75</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>2</m:mn>
+            </m:msqrt>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mn>0.25</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>2</m:mn>
+            </m:msqrt>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mn>42.42</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>10.6</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>7.07</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>}</m:mo>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>42.42</m:mn>
+            <m:mo>−</m:mo>
+            <m:mn>17.67</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>4.125</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+In order to find tension in the rod, we consider the free body diagram of block “A”.
+</para>
+<para id="element-50">
+<figure id="fig-50"><title> Free body diagram </title>
+<media id="id1165913550771" alt=""><image src="../../media/mr8.gif" mime-type="image/gif"/></media>
+<caption> Free body diagram of block, "A". </caption>  
+</figure>
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>4.125</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>0.75</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>8.25</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mn>.6</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>14.14</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4.71</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+Since value of “T” is positive, the assumed direction of tension in the free body diagram is correct.
+</para>
+
+</section>
+</section>
+<section id="section-100">
+<title> Acknowledgement </title>
+<para id="element-1000"> Author wishes to acknowledge Mr Lim Swee Sien for pointing out a mistake in the module. 
+</para>
+
+</section>
+
+</content>
+  
+</document>

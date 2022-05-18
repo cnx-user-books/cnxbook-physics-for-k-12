@@ -1,0 +1,774 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Work by spring force</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>adfec046-8a7c-462a-9f0a-e771ee654e5d</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Spring is an arrangement, which is capable to apply force on a body. As we will see, spring force is similar to gravity in many important ways. At the same time, it is different to gravity in one important way that it applies a variable force unlike gravity. 
+</para>
+<para id="element-2">In this module, we shall first outline the characterizing aspects of spring and then develop an expression for work. Subsequently, we shall analyze situations first with spring force alone and then along with other external force(s) on similar line as in the case of work by gravity.
+</para>
+
+<section id="section-1">
+<title> Spring force </title>
+
+<para id="element-4">
+Spring force is given by the expression :
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Spring </title>
+<media id="idm4794704" alt=""><image src="../../media/ws1.gif" mime-type="image/gif"/></media>
+<caption> Spring force </caption>
+</figure>
+</para>
+<para id="element-7">
+where k is spring constant, measured experimentally for a particular spring. The value of k (=-F/x) measures the stiffness of the spring. A high value indicates that we would require to apply greater force to change length of the spring. 
+</para>
+<para id="element-8">
+This relationship, defining spring force, is also known as “Hooke’s law”, which is valid under two specific conditions :
+</para>
+<para id="element-9">
+<list id="list-9" list-type="enumerated">
+
+<item> The mass of spring is negligible (and can be neglected). </item>
+<item> There is no dissipative force (like friction) involved with spring.
+ </item>
+</list>
+</para>
+<para id="element-10">The attribute “x” is measured from the position of “neutral length” or “relaxed length” - the length of spring corresponding to situation when spring is neither stretched nor compressed. We shall identify this position as origin of coordinate reference.
+</para>
+<para id="element-11">The negative sign in the expression indicates an important aspect of the nature of spring force that it is always opposite to the direction of the displacement. It means that it is always directed towards the position at neutral length i.e. origin. See the figure to visualize how spring force is always directed towards origin.
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Spring </title>
+<media id="idm3875168" alt=""><image src="../../media/ws2.gif" mime-type="image/gif"/></media>
+<caption> Spring force is always directed towards origin</caption>
+</figure>
+</para>
+
+<section id="section-1a">
+<title> Context of spring force </title>
+<para id="element-14">The forces on the body (block) attached to a horizontal spring may include friction, if the surfaces between block and the surface is rough. For the sake of simplicity, however, we shall consider the surface to be smooth. The force due to gravity and normal force are normal to the motion and do not influence force analysis here. As such, we will not consider either friction or gravity, while calculating work for the motion on smooth horizontal surface.
+</para>
+<para id="element-15">
+Just like the case of gravity, there are two situations with respect to application of force on a body by the spring. 
+</para>
+<para id="element-16"><term>1: </term>In one case, the body is given a jerk, say towards right and the body is let go. In this case, the only force on the block is spring force. This situation is similar to vertical projection of an object with an initial speed. This case of spring force, therefore, is specified by an initial speed, preferably at the origin as shown in the figure.
+</para>
+<para id="element-17">
+<figure id="fig-17"><title> Spring </title>
+<media id="idm13287984" alt=""><image src="../../media/ws3.gif" mime-type="image/gif"/></media>
+<caption> Only force on the block is spring force. </caption>
+</figure>
+</para>
+<para id="element-18"><term>2: </term>In other case, there is  external force(s) in addition to spring force. The horizontal force is continuously applied on the block as it moves along the surface. This situation is similar to the case of pulling a lift vertically by string and pulley arrangement. In this case, we may be required to analyze external force with the help of “free body diagram”.
+</para>
+<para id="element-19">
+<figure id="fig-19">
+<title> Spring </title>
+<media id="idm6820768" alt=""><image src="../../media/ws4.gif" mime-type="image/gif"/></media>
+<caption> There is other force (tension, T) besides spring force. </caption>
+</figure>
+</para>
+
+</section> 
+</section>    
+
+<section id="section-2">
+<title> Work by spring force </title>
+
+<para id="element-20">Now, we are set to obtain an expression for the work done by the spring. We give the block a jerk to the right as discussed earlier. Let the extension of the spring be “x”. Then,
+</para>
+
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+As the force is variable, we can not use the expression “Frcosθ” to determine work. It is valid for constant force only. We need to apply expression, involving integration to determine work :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+Let 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math> be the initial and final positions of the block with respect to origin, then
+</para>
+<para id="element-25"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msubsup>
+<m:mo> ∫ </m:mo> 
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:msubsup>
+<m:mo> - </m:mo> 
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+<m:mo> ⅆ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> k </m:mi>
+<m:mo> [ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+
+<m:msubsup>
+<m:mo> ] </m:mo> 
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-26">If block is at origin, then 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> x </m:mi>
+</m:math>
+ (say), then
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">When block is subjected to the single force due to spring, the work is given by above expressions. During motion towards right, the spring force on the block acts opposite to the direction of motion. Its magnitude increases with increasing displacement. Thus, spring force does negative work transferring energy "from" the block. As a consequence, kinetic energy of the block (speed) decreases.
+</para>
+<para id="element-29">This process continues till the velocity and kinetic energy of the block are zero. Spring force, then, pulls the block towards the mean position i.e. origin in the negative x - direction. The spring force, now, is in the direction of motion. It does the positive work on the block transferring energy to the block. 
+</para>
+<para id="element-30">The process continues till the particle returns to the initial position, when its velocity is same as that in the beginning. As there is no dissipative force like friction, kinetic energy of the block on return, at mean position i.e. origin, is equal to that in the beginning.
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">For this round trip, net work by spring force is zero. Net transfer of energy “to” or “from” the particle is zero. Initial kinetic energy of the particle is retained at the end of round trip. Thus, we can see that the motion under spring is lot similar as that of motion under gravity.
+</para>
+<para id="element-131">Can we guess here - what will happen to block hereafter? The block has velocity towards left. As such, it will move past the origin. However, spring force will come into picture immediately with compression in the spring and pull the block in the opposite direction i.e towards origin. In doing so, the spring force draws kinetic energy "from" the system. The process continues till the block stops towards an extreme position on the left. </para><para id="element-928">Thereafter, the spring force accelerates the block in the opposite direction i.e. towards origin. If there is no dissipation of energy involved (an ideal condition), this process continues and the block oscillates about the origin.</para><example id="example-33">
+<para id="element-33"><term>Problem : </term> A block of 1 kg is attached to the spring and is placed horizontally with one end fixed. If spring constant is 500 N/m, find  the work done by the horizontal force to pull the spring slowly through an extension of 10 cm.
+</para>
+<para id="element-34"><term>Solution : </term> Though, it is not explicitly stated, but it can be inferred from the word "slowly" that the block is pulled without any kinetic energy. This is a situation, when initial and final speeds are zero. This means that initial and final kinetic energies are zero (equal). Hence, work done by the two forces (external applied force and spring force) is zero. In this condition, work done by the horizontal force is equal to the work done by the spring force, but opposite in sign. Now work done by the spring force is :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mo> x </m:mo> 
+<m:mn> 500 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 0.1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+Thus, work done by the horizontal force is :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para><para id="element-589">We must note that this situation is exactly similar to that of gravity. In order to find the work by any other external force, we calculate work by spring force. In the nutshell, we measure work by other external force indirectly using a known work by spring force. </para>
+
+</example>
+</section> 
+
+<section id="section-3">
+<title> Motion with spring and other force(s)</title>
+<para id="element-38">
+We must understand that work by spring force, for a given displacement, is independent of the presence of other forces. The work done by spring remains same. 
+</para>
+<para id="element-39">
+For this situation, “work-kinetic energy” theorem has following form :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+where 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:math> are the work done by the spring force and other applied force(s) respectively.
+</para>
+<para id="element-42">
+Here, work done by other external force(s) may be analyzed with respect to following different conditions :
+</para>
+<para id="element-43">
+<list id="list-43" list-type="enumerated">
+
+<item> Initial and final speeds are zero. </item>
+<item> Initial and final speeds are same. </item>
+<item> Initial and final speeds are different. </item>
+</list>
+
+</para>
+<para id="element-44">
+In the first two cases, initial and final kinetic energy are same. Hence,
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-46">This is an important result. This means that we can simply compute the work done by spring force and assign the same preceded by a negative sign as the work done by other force(s). Such situation can arise when external force displaces the block and extends the spring such that end velocities are either zero or same. 
+</para>
+<para id="element-47">
+In third case, kinetic energies at end points are not same. However, work done by spring force remains same as before. Thus, the difference in kinetic energy during a motion is attributed to the net work as done by spring and other forces.
+</para>
+<example id="example-47a">
+<para id="element-47a"><term>Problem : </term> A block of 1 kg with a speed 1 m/s hits a spring placed horizontally as shown in the figure. If spring constant is 1000 N/m, find the compression in the spring.
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Spring and block </title>
+<media id="idp153584" alt=""><image src="../../media/ws5.gif" mime-type="image/gif"/></media>
+<caption> Spring is compressed by the striking block. </caption>
+</figure>
+</para>
+<para id="element-49"> <term>Solution : </term> When block hits the spring, it is compressed till the block stops. Here, we see that kinetic energies at the beginning and at the point when block stops are not same. Note that the only force acting on the block is due to spring. Hence,
+</para>
+
+<para id="element-50">
+<figure id="fig-50">
+<title> Spring and block </title>
+<media id="idm678624" alt=""><image src="../../media/ws6.gif" mime-type="image/gif"/></media>
+<caption> At the end block comes to a stop momentarily. </caption>
+</figure>
+</para>
+
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 0.5 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-53">
+Now, work by spring is :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 0.5 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 1000 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 500 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-55">
+Combining two values, we have :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+
+<m:mo> - </m:mo> 
+<m:mn> 250 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 0.5 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 0.5 </m:mn>
+<m:mn> 500 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.001 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0.032 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+
+</para>
+</example>
+</section> 
+  </content>
+  
+</document>

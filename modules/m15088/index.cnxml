@@ -1,0 +1,1862 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravity (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>61466ebb-196f-4415-bc22-68b8a6465e57</md:uuid>
+</metadata>
+  <content>
+    <para id="delete_me">
+       <!-- Insert module text here -->
+    </para>  
+
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to gravity. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Acceleration at a Height
+</item>
+<item> Acceleration at a Depth
+</item>
+<item> Comparison of acceleration due to gravity 
+</item>
+<item> Rotation of Earth
+</item>
+<item> Comparison of gravitational acceleration
+</item>
+<item> Rate of change of gravity
+</item>
+</list>
+</para>
+</section>
+<section id="section-3">
+<title> Acceleration at a Height
+</title>
+<para id="element-6"><term>Problem 1 : </term> At what height from the surface of Earth will the acceleration due to gravity is reduced by 36 % from the value at the surface. Take, R = 6400 km.
+</para>
+<para id="element-7"><term>Solution : </term>  The acceleration due to gravity decreases as we go vertically up from the surface. The reduction of acceleration by 36 % means that the height involved is significant. As such, we can not use the approximated expression of the effective accelerations for h&lt;&lt; R as given by :
+</para>  
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">Instead, we should use the relation,
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:mi>R</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10a">
+Note that we have considered reference gravitational acceleration equal to acceleration on the surface. Now, it is given that :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0.64</m:mn>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12"> Hence,
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0.64</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:mi>R</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>+</m:mo>
+          <m:mfrac>
+            <m:mi>h</m:mi>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>0.64</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>h</m:mi>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>8</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mi>h</m:mi>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>R</m:mi>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>6400</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1600</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20"><term>Note : </term> If we calculate, considering h &lt;&lt; R, then
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0.64</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0.64</m:mn>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mn>0.64</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.18</m:mn>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.18</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>6400</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1152</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title> Acceleration at a Depth
+</title>
+<para id="element-24"><term>Problem 2 : </term>Assuming Earth to be uniform sphere, how much a weight of 200 N would weigh half way from the center of Earth.
+</para>
+<para id="element-25"><term>Solution : </term>Assuming, 
+<m:math>
+  <m:mrow>
+      <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+, the accelerations at the surface (g) and at a depth   (g') are related as :
+</para>
+<para id="element-26"><m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>d</m:mi>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">In this case,
+</para>
+<para id="element-28"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>d</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">Putting in the equation of effective acceleration, we have :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>R</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>R</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">The weight on the surface corresponds to “mg” and its weight corresponds to “mg’”. Hence,
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>200</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>100</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5">
+<title> Comparison of acceleration due to gravity 
+</title>
+<para id="element-33"><term>Problem 3 : </term>Find the ratio of acceleration due to gravity at a depth “h” and at a height “h” from Earth’s surface. Consider h &gt;&gt; R, where “R” is the radius of Earth.
+</para>
+<para id="element-34"><term>Solution : </term> The acceleration due to gravity at appoint “h” below Earth’s surface is given as :           
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">The acceleration due to gravity at a point “h” above Earth’s surface is given as :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>g</m:mi>
+        <m:mn>0</m:mn>
+      </m:msub>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:mi>R</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">Note that we have not incorporated approximation for h&gt;&gt;R. We shall affect the same after getting the expression for the ratio . 
+</para>
+<para id="element-39">The required ratio without approximation is :
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mi>h</m:mi>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>+</m:mo>
+              <m:mfrac>
+                <m:mi>h</m:mi>
+                <m:mi>R</m:mi>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msub>
+        <m:mi>g</m:mi>
+        <m:mn>0</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:mi>h</m:mi>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mfrac>
+              <m:mi>h</m:mi>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+  </m:mrow>
+</m:math>          
+</para>
+
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:mi>h</m:mi>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>+</m:mo>
+          <m:mfrac>
+            <m:msup>
+              <m:mi>h</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mfrac>
+          <m:mo>+</m:mo>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>h</m:mi>
+            </m:mrow>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>        
+</para>
+
+<para id="element-389">For h &gt;&gt; R, we can neglect terms of higher power than 1,</para><para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:mi>h</m:mi>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>+</m:mo>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>h</m:mi>
+            </m:mrow>
+            <m:mi>R</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mi>h</m:mi>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>h</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:msup>
+            <m:mi>R</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-455">Again, neglecting term with higher power,</para><para id="element-45b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>h</m:mi>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6">
+<title> Rotation of Earth
+</title>
+<section id="section-6a">
+<para id="element-46"><term>Problem 4 : </term>If “ρ” be the uniform density of a spherical planet, then find the shortest possible period of rotation of the planet about its axis of rotation.
+</para>
+<para id="element-47"><term>Solution : </term> A planet needs to hold material it is composed. We have seen that centripetal force required for a particle on the surface is maximum at the equator. Therefore, gravitational pull of the planet should be as least sufficient enough to hold the particle at the equator. Corresponding maximum angular speed corresponding to this condition is obtained as :
+</para>
+<para id="element-48"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-571">Time period is related to angular speed as :</para><para id="element-49"><m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mfrac>
+  <m:mrow>
+    <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+  </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-575">Substituting for angular speed in force equation, we get the expression involving shortest time period :
+</para><para id="element-50"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msup>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math></para>
+<para id="element-51">The mass of the spherical planet of uniform density is :
+</para>
+<para id="element-52"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>ρ</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Putting in the equation of time period,
+</para>
+<para id="element-54"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>x</m:mi>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>x</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>ρ</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mi>π</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>ρ</m:mi>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6b">
+<para id="element-56"><term>Problem 5 : </term>Considering Earth to be a sphere of uniform density, what should be the time period of its rotation about its own axis so that acceleration due to gravity at the equator becomes zero. Take g = 10 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ and R = 6400 km.
+</para>
+<para id="element-57"><term>Solution : </term> We know that the measurement of gravitational acceleration due to gravity is affected by rotation of Earth. Let g’ be the effective acceleration and 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+. Then,
+</para>
+<para id="element-58"><m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>R</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>cos</m:mi>
+    <m:mi>Φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">where Φ is latitude angle.
+</para>
+<para id="element-60"><m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mi>Here</m:mi>
+
+      <m:mo>,</m:mo>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:mi>Φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0,</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>cos</m:mi>
+    <m:mi>Φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>0</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1,</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61"><m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>R</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">Now, angular velocity is connected to time period as :
+</para>
+<para id="element-63"><m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">Combining two equations, we have :
+</para>
+<para id="element-65"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:msup>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>T</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>4</m:mn>
+    <m:msup>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>g</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>4</m:mn>
+            <m:msup>
+              <m:mi>π</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>R</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:mo>−</m:mo>
+                <m:mi>g</m:mi>
+                <m:mo>′</m:mo>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">According to question, effective acceleration is zero,
+</para>
+<para id="element-69"><m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">Hence,
+</para>
+<para id="element-71"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>6400</m:mn>
+            <m:mi>X</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:mn>10</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>1600</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-74"><m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>h</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-7">
+<title> Comparison of gravitational acceleration
+</title>
+<para id="element-75"><term>Problem 6 : </term>A planet has 8 times the mass and average density that of Earth. Find acceleration on the surface of planet, considering both bodies spherical in shape. Take acceleration on the surface of Earth as 10 <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>.
+</para>
+<para id="element-76"><term>Solution : </term> Let subscript “1” and “2” denote Earth and planet respectively. Then, ratio of accelerations is :
+</para>
+<para id="element-77"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:msub>
+              <m:mi>M</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>R</m:mi>
+              <m:mrow>
+                <m:mn>2</m:mn>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:msub>
+              <m:mi>M</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>R</m:mi>
+              <m:mrow>
+                <m:mn>1</m:mn>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>M</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>R</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>M</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>R</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">Here, 
+</para>
+<para id="element-79"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>M</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:msub>
+      <m:mi>M</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>g</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msub>
+          <m:mi>M</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>R</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>M</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>R</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msubsup>
+          <m:mi>R</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>R</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">We need to relate radii in order to evaluate the ratio as above. For this, we shall use given  information about density. Here,
+</para>
+<para id="element-82"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:msub>
+        <m:mi>ρ</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mrow>
+      <m:msub>
+        <m:mi>ρ</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>M</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+      <m:msub>
+        <m:mi>V</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msub>
+          <m:mi>M</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>V</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84"><m:math display="block">
+  <m:mrow>
+    <m:mrow>
+      <m:mi>But</m:mi>
+    </m:mrow>
+    <m:mo>,</m:mo>
+    <m:msub>
+      <m:mi>M</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:msub>
+      <m:mi>M</m:mi>
+      <m:mn>1,</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msub>
+          <m:mi>M</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>V</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msub>
+          <m:mi>M</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>V</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-87"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">Now, evaluating the ratio of accelerations, we have :
+</para>
+<para id="element-89"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>80</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+
+
+
+
+</section>
+
+<section id="section-8">
+<title> Rate of change of gravity
+</title>
+<section id="section-8a">
+<para id="element-95"><term>Problem 7 : </term>Find the rate of change of weight with respect height “h” near Earth’s surface.
+</para>
+<para id="element-96"><term>Solution : </term>According to question, we are required to find the rate of change of the weight near Earth’s surface. Hence, we shall use the expression for h&lt;&lt;R/ Also let  
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>. Then,
+</para>
+<para id="element-97"><m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+      <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">Weight at height, “h”, is given by :
+</para>
+<para id="element-99"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+      <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+      <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+      <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">The rate of change of acceleration due to gravity at a height “h” is given as :
+</para>
+<para id="element-101"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>W</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>m</m:mi>
+      <m:mi>g</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>m</m:mi>
+      <m:mi>g</m:mi>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-102"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>W</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+      <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math></para>
+
+
+</section>
+<section id="section-8b">
+<para id="element-105"><term>Problem 8 : </term>What is fractional change in gravitational acceleration at a height “h” near the surface of Earth.
+</para>
+<para id="element-106"><term>Solution : </term>The fractional change of a quantity “x” is defined as “Δx/x”. Hence, fractional change in gravitational acceleration is “Δ g/g”. Let  
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>. Now, effective acceleration at a height “h” near Earth’s surface is given by :
+</para>
+<para id="element-107"><m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+      <m:mi>g</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>h</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>−</m:mo>
+      <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>h</m:mi>
+      <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>−</m:mo>
+      <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>h</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mtext>Δ</m:mtext>
+      <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>h</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+</section>
+
+ </content>
+  
+</document>

@@ -1,0 +1,1065 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Work - kinetic energy theorem for rotational motion</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14307</md:content-id>
+  <md:title>Work - kinetic energy theorem for rotational motion</md:title>
+  <md:abstract>Rotation of a particle or rigid body about a fixed axis has unique motional attributes like angular position, displacement, velocity and acceleration.</md:abstract>
+  <md:uuid>983188f1-9164-4ff6-9c30-d243c8bb9e50</md:uuid>
+</metadata>
+  <content>
+ <para id="element-1">There is one to one correspondence between quantities in pure translation and pure rotation. We can actually write rotational relations for work and kinetic energy by just inspecting corresponding relation of pure translational motion. 
+</para>
+<para id="element-2">Beside similarity of relations, there are other similarity governing description of pure motions in translation and rotation. We must, first of all, realize that both pure motions are one-dimensional motions in description. It might sound a bit bizarre for rotational motion but if we look closely at the properties of vector attributes that describe pure rotational motion, then we would realize that these quantities are indeed one - dimensional. 
+</para>
+<para id="element-3">Rotational quantities like angular displacement (θ), speed (ω) and accelerations (α) are one - dimensional quantities for rotation about a fixed axis. These vector attributes are either anticlockwise (positive) or clockwise (negative). If it is anticlockwise, then the corresponding rotational vector quantity is in the direction of axis; otherwise in the opposite direction. 
+</para>
+<para id="element-4">
+<figure id="fig-4"><title> Rotation  </title>
+<media id="id1164241375043" alt=""><image src="../../media/wk1a.gif" mime-type="image/gif"/></media>
+<caption> Rotational quantities like angular displacement (θ), speed (ω) and accelerations (α) are one - dimensional quantities for rotation about fixed axis.</caption>
+</figure>
+</para>
+<para id="element-5">We observe yet another similarity between two pure motions. We have seen that the pure translation of a particle or a rigid body has unique (single value) motional attributes like position, displacement, velocity and acceleration. In the case of rotation, on the other hand, even if individual particles constituting the rigid body have different linear velocities or accelerations, but corresponding rotational attributes of the rotating body, like angular velocity and acceleration, have unique values for all particles.
+</para>
+<para id="element-6">
+<figure id="fig-6"><title> Rotation  </title>
+<media id="id1164241352365" alt=""><image src="../../media/wk2a.gif" mime-type="image/gif"/></media>
+<caption> Individual particles constituting the rigid body have different linear velocities/ acceleration, but they have unique angular velocity/ acceleration.</caption>
+</figure>
+</para>
+<para id="element-7">There are, as a matter of fact, more such similarities. We shall discuss them in the appropriate context as we further develop dynamics of pure rotational motion.
+</para>  
+
+<section id="section-1">
+<title>Expressions of work and energy
+</title>
+
+
+<para id="element-8">The expressions of work in pure translation in x- direction (one dimensional linear motion) is given by :
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-10">
+The corresponding expressions of work in pure rotation (one dimensional rotational motion) is given by :
+</para>
+<para id="element-11"><equation id="equation-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-12">
+Obviously, torque replaces component of force in the direction of displacement (Fx) and angular displacement (θ) replaces linear displacement (x). Similarly, the expression of kinetic energy as derived earlier in the course is :
+</para>
+<para id="element-14"><equation id="equation-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-15">Here, moment of inertia (I) replaces linear inertia (m) and angular speed (ω) replaces linear speed (v). We, however, do not generally define gravitational potential energy for rotation as there is no overall change in the position (elevation) of the COM of the body in pure rotation. This is particularly the case when axis of rotation passes through COM. </para>
+<para id="element-329">This understanding of correspondence of expressions helps us to remember expressions of rotational motion, but it does not provide the insight into the angular quantities used to describe pure rotation. For example, we can not understand how torque accomplishes work on a rigid body, which does not have any linear displacement ! For this reason, we shall develop expressions of work by considering rotation of a particle or particle like object in the next section.</para><para id="element-16">We need to emphasize here another important underlying concept. The description of motion in pure translation for a single particle and a rigid body differ in one very important aspect. Recall that the motion of a rigid body, in translation, is described by assigning motional quantities to the "center of mass(COM)". If we look at the expression of center of mass in x-direction, then we realize that the concept of COM is actually designed to incorporate distribution of mass in the body.
+</para>
+<para id="element-17"><equation id="equation-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-18">We must note here that such distinction arising due to distribution of mass between a particle and rigid body does not exist for pure rotation. It is so because the effect of the distribution of mass is incorporated in the definition of moment of inertia itself :
+</para>
+<para id="element-19"><equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-20">For this reason, there is no corresponding "center of rotational inertia" or "center of moment of inertia" for rigid body in rotation. This is one aspect in which there is no correspondence between two motion types. It follows, then, that the expressions of various quantities of a particle or a rigid body in rotation about a fixed axis should be same. Same expressions would, therefore, determine work and kinetic energy of a particle or a rigid body. The difference in two cases will solely arise from the differences in the values of moments of inertia. </para>
+</section>
+
+<section id="section-2">
+<title>Work done in rotation
+</title>
+
+<para id="element-21">We consider a particle like object, attached to a "mass-less" rod, to simulate rotation of a particle. The particle like object rotates in a plane perpendicular to the plane of screen or paper as shown in the figure. Here, we shall evaluate work by a force, "F", in xy-plane, which is perpendicular to the axis of rotation. </para>
+<para id="element-826">We know that it is only the tangential component of force that accelerates the particle and does the work. The component of force perpendicular to displacement does not perform work. For small linear displacement "ds", we have :
+</para><para id="element-22">
+<figure id="fig-22"><title> Rotation  </title>
+<media id="id1164239746760" alt=""><image src="../../media/wk3a.gif" mime-type="image/gif"/></media>
+<caption> A particle like object in rotation.</caption>
+</figure></para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> t </m:mi>
+</m:msub>
+<m:mo> đ </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-24">
+By geometry,
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+Combining two equations, we have :
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> t </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+Work done by a torque in rotating the particle like body by an angular displacement, we have :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+If work is done by a constant torque, then we can take torque out of the integral sign and :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> ∫ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> Δ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">As discussed earlier, this same expressions is valid for work done on a rigid body in pure rotation.
+</para>
+<section id="section-2a">
+<title> Power in rotation
+</title>
+
+<para id="element-33">Power measures the rate at which external torque does work on a particle like object or a rigid body. It is equal to the first time differential of work done,
+</para>
+<para id="element-34"><equation id="equation-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> P </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> W </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> τ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-35">We must note the correspondence of this expression with its linear counterpart, where :
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> P </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> F </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-959">Clearly, torque (τ) replaces force (F) and angular speed (ω) replaces linear speed (v) in the expression of power.</para><example id="example-37">
+<para id="element-37"><term>Problem : </term> A uniform disk of mass 5 kg and radius 0.2 m is mounted on a horizontal axle to rotate freely. One end of a rope, attached to the disk, is wrapped around the rim of the disk. If a force of 10 N is applied vertically as shown, then find the work done by the force in rotating the disk for 2 s, starting from rest at t = 0 s. 
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Rotation  </title>
+<media id="id1164243426007" alt=""><image src="../../media/wk4.gif" mime-type="image/gif"/></media>
+<caption> A uniform disk is mounted on a horizontal axle.</caption>
+</figure>
+</para>
+<para id="element-39"><term>Solution : </term> Here, torque due to vertical force is constant. Thus, in order to determine the work on the disk in rotation, we need to use the expression of work done by a constant torque as :
+</para>
+
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> Δ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-41">
+It means that we need to calculate torque and angular displacement. Here, torque (positive as rotation is anti-clockwise)  is given by :
+</para>
+<para id="element-42"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> t </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0.2 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N-m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">This is a rotational motion with constant acceleration (due to constant torque). Thus, we can use the equation of motion for constant angular acceleration to find the displacement :
+</para>
+<para id="element-44"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-45">Here, disk is at rest in the beginning, θi = 0. Hence,
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> α </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">But, we do not know the angular acceleration. We can, however, use corresponding Newton's second law for rotation. Since, disk rotates freely, we can assume that there is no other torque involved  :
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> τ </m:mi>
+<m:mi> I </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">On the other hand, the moment of inertia for the disk about an axis passing through the center of mass and perpendicular to its surface is given by :
+</para>
+<para id="element-50"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 0.2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-109">Putting this value of moment of inertia, we get the value of angular acceleration :</para><para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> τ </m:mi>
+<m:mi> I </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 0.1 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> rad </m:mi>
+<m:mrow>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-52">Now final angular position is :
+</para>
+<para id="element-53"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+Hence, work done is :
+</para>
+<para id="element-55"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 40 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 80 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+</section>
+
+<section id="section-3">
+<title>Work - kinetic energy theorem for rotational motion
+</title>
+<para id="element-56">We have seen earlier that net work on a body is equal to change in its kinetic energy.</para>
+<para id="element-56a">
+In translation, we have :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">A corresponding work - kinetic energy theorem for pure rotation, therefore,  is :
+</para>
+<para id="element-59"><equation id="equation-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-823">where "W" represents the net work on the rigid body in rotation. </para><example id="example-60">
+<para id="element-60"><term>Problem : </term> A uniform disk of mass 5 kg and radius 0.2 m is mounted on a horizontal axle to rotate freely. One end of a rope, attached to the disk, is wrapped around the rim of the disk. If a force of 10 N is applied vertically as shown, then find the work done by the force in rotating the disk for 2 s, starting from rest at t = 0 s. 
+Use work - kinetic energy theorem to find the result.</para>
+<para id="element-61">
+<figure id="fig-61">
+<title> Rotation  </title>
+<media id="id1164254105028" alt=""><image src="../../media/wk4.gif" mime-type="image/gif"/></media>
+<caption> A uniform disk is mounted on a horizontal axle.</caption>
+</figure>
+</para>
+<para id="element-62"><term>Solution : </term> This is the same question as the previous one except that we are required to solve the question, using work-kinetic energy theorem : </para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+From the previous example, we have :
+</para>
+<para id="element-65"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 0.2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-719">and</para><para id="element-66"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> τ </m:mi>
+<m:mi> I </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> rad </m:mi>
+<m:mrow>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">Now, as the disk starts from rest, 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:math>
+. In order to find the final angular speed, we use equation of motion for constant angular acceleration :
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-846">Thus,</para><para id="element-69"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mn> 40 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 80 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-177">As expected, the result is same as calculated in earlier example. </para>
+</example>
+</section>
+
+<section id="section-4">
+<title> Summary
+</title>
+<para id="element-70">
+<term>1: </term> Rotational quantities describing the motion are linear (one-dimensional) vectors.
+</para>
+<para id="element-71">
+<term>2: </term> Work done by a torque is given by :
+</para>
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-73">
+<term>3: </term> Work done by a constant torque is given by :
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> Δ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-75">
+<term>4: </term> We generally do not consider change in gravitational potential energy in the case of rotation about an axis that passes through its center of mass. Since there is no change in the position of center of mass, there is no corresponding change in its potential energy.
+</para>
+
+</section>
+
+  </content>
+  
+</document>

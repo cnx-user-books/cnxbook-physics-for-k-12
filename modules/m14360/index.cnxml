@@ -1,0 +1,2085 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conservation of angular momentum (application)</title>
+  <metadata>
+  <md:content-id>m14360</md:content-id><md:title>Conservation of angular momentum (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>1fa0619a-9a28-49b9-8490-449f60f726e5</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the theoretical treatment of the topic. The idea is to provide a verbose explanation of the solution, detailing the application of theory. Solution presented here, therefore, is treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-1">
+<title> Hints on solving problems 
+</title>
+
+
+<para id="element-3">
+<list id="list-3" list-type="bulleted"><item> The first thing in attempting questions, based on conservation of angular momentum, is to know the torques operating on the system. If there is no torque on the system, then we can apply law of conservation of angular momentum in any convenient direction as we choose in accordance with the inputs given in the problem.
+ </item>
+<item> In most of the situations, we find that there is external torque in certain direction. In general, however, we can apply law of conservation of momentum in a particular direction, if net torque on the system has no component in that direction.  In the case of rotation, we can apply law of conservation, if the torque is perpendicular to the axis of rotation. 
+ </item>
+<item> Application of law of conservation of angular momentum in component form can be used in scalar form as there are only two directions, which can be represented by appropriate sign convention.
+ </item>
+<item> We need to specify direction (assign sign) of angular quantities like angular velocity, momentum and torque with the help of right hand rule vector product rule.
+ </item>
+<item> When the system involves both rotation and translation, then we should assign angular momentum with respect to an axis for rotation and a point for non-rotational motion of particles.
+ </item>
+<item> The force at the axis of rotation is external force on the system. However, this force does not have moment arm and, therefore, does not constitute a torque on the system.
+ </item>
+</list>
+</para>
+
+</section>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">
+We discuss problems, which highlight certain aspects of the conservation of angular momentum. For this reason, questions are categorized in terms of the characterizing features pertaining to the questions :
+
+<list id="list-4" list-type="bulleted">
+<item> Change in the distribution of mass about the axis of rotation </item>
+<item> Conservation of angular momentum about two parallel axes </item>
+<item> System consisting of both rotational and translational motion </item>
+</list>
+</para>
+
+<section id="section-2a">
+<title> Change in the distribution of mass about the axis of rotation
+</title>
+
+<para id="element-27a"><term>Example 1 </term> </para>
+<para id="element-27"><term>Problem : </term> A person sitting on a turn-table is free to rotate about a vertical axis. Initially, he rotates with angular velocity, “ω”, holding two weights in his outstretched hands. The person, then, folds his hand horizontally to move weights towards axis of rotation. In the process, MI of the system of "turn-table, person and weights" is reduced from "I" to "I/2". Find (i) the final angular velocity and (ii) work done by the hands in moving the weights (neglect friction and air resistance).
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Rotation of the system </title>
+<media id="id6573394" alt=""><image src="../../media/cs3.gif" mime-type="image/gif"/></media>
+<caption> A person sitting on a turn-table rotates about a vertical axis. </caption>
+</figure>
+</para>
+<para id="element-29"><term>Solution : </term> The system in question is composed of rigid bodies. However, internally the system can change its MI by virtue of changing positions of hands and weights held in them. The hand maneuvering, however, is internal to the system and does not affect angular momentum of the system.
+</para>
+<para id="element-30">Now, let us determine if there is external force and thereby external torque on the system. Force, resulting from rotation at the axis, does not constitute torque. On the other hand, we can consider the whole system as one, the weight of which acts through the center of mass. Thus, we can say that the weight of the system do not constitute torque.
+</para>
+<para id="element-31">We may argue that the weights of outstretched hands and weights kept in them constitute torque about the center of mass of the system. Even if we look at the system parts in this fashion, two torques acts in opposite directions due to each of the weights. They act in horizontal plane (apply right hand rule of vector product) and balance each other. We, therefore, can safely conclude that there is no external torque on the system and apply law of conservation of momentum in component form in the vertical direction.
+</para>
+<para id="element-32">
+<figure id="fig-32">
+<title> Rotation of the system </title>
+<media id="id1171333478787" alt=""><image src="../../media/cs4-2c66.gif" mime-type="image/gif"/></media>
+<caption> A person folds his hands drawing weights towards the axis. </caption>
+</figure>
+</para>
+<para id="element-708">If subscripts "i" and "f" correspond to initial and final values of the system, then :</para><para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+From the question, 
+<m:math>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mspace width="2pt"/>
+</m:math>
+ and 
+<m:math>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+</m:math>
+,
+</para>
+<para id="element-235">Putting these values, we have :</para><para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+Negative sign indicates that angular velocity is clockwise.
+</para>
+<para id="element-38">
+In order to answer the second part of the question, we need to understand the process of folding hands. We see that folding of hands has resulted in the increase of angular kinetic energy of the system as angular speed has doubled. The change in angular kinetic energy of the system is given by :
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Δ </m:mi>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+Putting values,
+</para>
+<para id="element-41"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> Δ </m:mi>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> ω </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+Note that expression of kinetic energy involves magnitude of angular velocity. Hence, sign is not considered.
+</para>
+<para id="element-43">Now, the basic question is “where from this kinetic energy has come?” We see here that the person is applying force on the weights on his hands. This results in doing work on a part of the system i.e. weights. Work, as we know, transfers energy from one system to another. Work, here, draws muscular energy of the hands (internal energy of the person) and transfers the same to the whole system as angular kinetic energy. As no friction is involved in the process – there is no dissipation of energy either. Further, there is no vertical elevation of the weights involved as weights are moved horizontally. As such, there is no change in gravitational potential energy of the weights. Therefore, we can conclude that the kinetic energy change due to moving weights is equal to the work done on them by muscular force in accordance with Work – angular kinetic energy theorem (in order to conserve energy of the system) :
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> Δ </m:mi>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> I </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-100"><term>Example 2 </term> </para>
+<para id="element-101"><term>Problem : </term> A uniform circular platform of mass 100 kg and radius 3 m is mounted on a frictionless vertical axle and is initially stationary. A girl, weighing 60 kg, stands on the rim of the platform. She begins to walk along the rim at a speed of 1 m/s relative to the ground in clockwise direction. Is the angular momentum of the system of girl and disk-axle conserved? What is the resulting angular velocity of the platform.  
+</para>
+<para id="element-102">
+<figure id="fig-102">
+<title> Relative motion of a girl along the rim of a disk </title>
+<media id="id1171306983739" alt=""><image src="../../media/cs8-64e9.gif" mime-type="image/gif"/></media>
+<caption> The girl begins to walk along the rim at a speed of 1 m/s relative to the ground in clockwise direction. </caption>
+</figure>
+</para>
+<para id="element-103"><term>Solution : </term> Here, mass is not distributed symmetrically about the axle. The weight of girl constitutes a torque perpendicular to the axis of rotation about the point at which axle is fixed on the ground. However, torque on axle by the ground prevents rotation due to the torque resulting from girl’s weight in vertical plane. Thus, there is no external torque on the system and, therefore, angular momentum of the system of "girl and disk-axle" is conserved. 
+</para>
+<para id="element-102a">
+<figure id="fig-102a">
+<title> Torque due to the weight of girl  </title>
+<media id="id1171308744810" alt=""><image src="../../media/cs9.gif" mime-type="image/gif"/></media>
+<caption> The orque due to the weight of girl is balanced by restoring force of ground on the axle. </caption>
+</figure>
+</para>
+
+<para id="element-104">
+Applying law of conservation of angular momentum in vertical direction (axis of rotation), we have :
+</para>
+<para id="element-105">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-106">
+Both platform and the girl are initially stationary with respect to ground. As such, initial angular momentum of the system is zero. From conservation law, it follows that the final angular momentum of the system is also zero. 
+</para>
+<para id="element-107">
+But final angular momentum has two constituents : (i) final angular momentum of the platform and (ii) final angular momentum of the girl. Sum of the two angular momentums should, therefore, be zero. Let “P” and “G” subscripts denote platform and girl respectively, then :
+</para>
+<para id="element-108">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Pf </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Gf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-109">
+Now, MI of the circular platform about the axis of rotation is :
+</para>
+<para id="element-110">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> 100 </m:mi>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mi> 3 </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> 450 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-111">
+The mass of the particles constituting the girl are at equal perpendicular distances from the axis of rotation. Its MI about the axis of rotation is :
+</para>
+<para id="element-112">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> 60 </m:mi>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mi> 3 </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> 540 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-114">
+From the question, it is given that final speed of the girl around the rim of the platform is 1 m/s in clockwise direction. It means that girl has linear tangential velocity of 1 m/s with respect to ground. Her angular velocity, therefore, is :
+</para>
+<para id="element-115">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> Gf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> 1 </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-116">
+Negative sign indicates that the girl is rotating clockwise. Now, putting these values, we have :
+</para>
+<para id="element-117">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Pf </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Gf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> Pf </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> Gf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-118"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> Pf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mi> 1 </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> 540 </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> 3 </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> 450 </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> 0.4 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-119">
+The positive value of final angular velocity of platform means that the platform rotates in anti-clockwise direction.
+</para>
+<para id="element-120">
+<term> Note :</term>
+Alternatively, we can find angular momentum of the girl, using the defining equation for angular momentum of a point (considering girl to be a particle like mass) as :
+</para>
+<para id="element-121">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Gf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> ⊥ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> 60 </m:mi>
+<m:mo> x </m:mo> 
+<m:mi> 1 </m:mi>
+<m:mo> x </m:mo> 
+<m:mi> 3 </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> 180 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> m </m:mi>
+<m:mrow>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-5a"><term>Example 3</term> 
+</para>
+<para id="element-5"><term>Problem : </term> A thin rod is placed coaxially within a thin hollow tube, which lies on a smooth horizontal table. The rod, having same mass “M” and length “L” as that of tube, is free to move within the tube. The system of "tube and rod" is given an initial angular velocity, "ω", about a vertical axis at one of its end. Considering negligible friction between surfaces, find the angular velocity of the rod, when it just slips out of the tube.
+</para>
+<para id="element-6">
+<figure id="fig-6"><title> Rotation of coaxial tube and rod </title>
+<media id="id1171320456439" alt=""><image src="../../media/cs1-b466.gif" mime-type="image/gif"/></media>
+<caption> The rod is free to move within the tube.</caption>
+</figure>
+</para>
+<para id="element-7"><term>Solution : </term> The first question that we need to answer is “why does rod slip out of the tube?”. To understand the process, let us concentrate on the motion of the rod only. Each particle of the rod, say at the far end, tends to move straight tangentially (natural tendency). However, there is no radial force available that could bend its path toward the axis of rotation. Hence, the particle tends to keep its path in tangential direction. As such, the particles have the tendency to keep themselves away from the axis of rotation. Eventually, the rod slips away from the axis of rotation. 
+</para>
+
+<para id="element-7a">
+<figure id="fig-7a"><title> Rotation of coaxial tube and rod </title>
+<media id="id1171337071237" alt=""><image src="../../media/cs2-3d92.gif" mime-type="image/gif"/></media>
+<caption> The rod slips away from the axis of rotation.</caption>
+</figure>
+</para>
+<para id="element-8">We may question why the same does not happen with a particle of rigid body in rotation. We know that rigid body does not allow relative displacement of particles. The particles are in place due to intermolecular forces operating on them. The tendency of the particle to move away from the axis of rotation is counteracted by the net inter-molecular force on the particle that acts towards the center of rotation. In this case, the inter-molecular force meets the requirement of centripetal force for circular motion of the particle about the axis of rotation. 
+</para>
+<para id="element-9">Now, we must check about external torque on the system. The system lies on the smooth horizontal plane. It means that there is no net vertical force (weights of the bodies are balanced by normal forces). The force at the axis does not constitute torque as its moment arm is zero. We, therefore, conclude that there is no external torque on the system and that the problem can be analyzed in terms of conservation of angular momentum.
+</para>
+<para id="element-10">In the beginning, when the system is given initial angular velocity, the system has certain angular momentum, “
+<m:math>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+”. During the motion, however, rod begins to slip away from the axis. As such, mass distribution of the system changes. In other words,  MI of the system changes. But, the angular momentum of the system ("
+<m:math>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>
+") remains unchanged as there is no external torque on the system. 
+</para>
+<para id="element-11">
+Now, applying conservation of angular momentum in vertical direction :
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-14">Here, 
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+</m:math>
+. According to theorem of parallel axes, the initial MI of the system, “
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+”, is :
+</para>
+<para id="element-15"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mspace width="2pt"/>
+<m:mtext> MI of the system about perpendicular at mid-point </m:mtext>
+<m:mspace width="4pt"/>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mo> + </m:mo>
+<m:mspace width="4pt"/>
+<m:mtext> mass of the system  x  square of perpendicular distance between the axes
+</m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> { </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">Note that we have used "2M" to account for both tube and rod. Now, we again employ theorem of parallel axes in order to obtain MI of the system for the final position, when the rod just slips out of the tube. Final MI of the system, “
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>
+”, is :
+</para>
+<para id="element-7b">
+<figure id="fig-7b"><title> Rotation of coaxial tube and rod </title>
+<media id="id1171336186787" alt=""><image src="../../media/cs2-3d92.gif" mime-type="image/gif"/></media>
+<caption> The rod slips away from the axis of rotation.</caption>
+</figure>
+</para>
+<para id="element-19"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> { </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 9 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 27 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">Putting values in the equation of conservation of angular momentum, we have :
+</para>
+<para id="element-23"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> ω </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25"><term>QBA (Question based on above) : </term> A thin rod is placed coaxially within a thin hollow tube, which lies on a smooth horizontal table. The rod and tube are of same mass “M” and length “L”.  The rod is free to move within the tube. The system of tube and rod is given an initial angular velocity, “ω”, about a vertical axis passing through the center of the system. Considering negligible friction between surfaces, find the angular velocity of the rod, when it just slips out of the tube.
+</para>
+<para id="element-26">
+<term>Hint : </term>The question differs in one respect to earlier question. The axis of rotation here is vertical axis through the center of the system instead of the axis at the end of the system. This changes the calculation of MIs before and after. Answer is “ω/7”.
+</para>
+
+
+
+</section>
+<section id="section-2b">
+<title> Conservation of angular momentum about two parallel axes
+</title>
+
+<para id="element-45"><term>Example 4 </term> </para>
+<para id="element-46"><term>Problem : </term> Two uniform disks of masses “4M” and “M” and radius “2R” and “R” respectively are connected with a mass-less rod as shown in the figure. Initially, the smaller disk is rotating clockwise with angular velocity “ω” with the help of an electric motor mounted on it, whereas the larger disk is stationary. At an instant, the smaller disk reverses the direction of rotation, keeping its angular speed same. Find the angular velocity of the larger disk.
+</para>
+<para id="element-47">
+<figure id="fig-47">
+<title> Rotations about two parallel axes </title>
+<media id="id1171315401004" alt=""><image src="../../media/cs5-3bbc.gif" mime-type="image/gif"/></media>
+<caption> The question involves two axes of rotation : one for larger plus smaller disks (z-axis) and other for smaller disk (z’-axis). </caption>
+</figure>
+</para>
+<para id="element-48"><term>Solution : </term> This question involves two axes of rotation : one for "larger plus smaller disks" (z-axis) and other for smaller disk (z’-axis). The treatment of angular momentum, in this case, differs from other cases in one important aspect. The constituents of the system are defined with respect to axis of rotation – not with respect to objects. 
+</para>
+<para id="element-49">The body about the z - axis is a composite body comprising of larger and smaller disks. The smaller disk is also part of this composite body. The smaller disk (part of the composite body) rotates about its own axis (z’) parallel to z-axis. In the nutshell, the system comprises of two rotating bodies :
+</para>
+<para id="element-50">
+<list id="list-50" list-type="enumerated">
+<item> Composite body comprising of larger and smaller disk rotating about z-axis
+ </item>
+<item> Smaller disk rotating about z’-axis
+ </item>
+</list>
+</para>
+<para id="element-51">We should note that the MI of the composite body is constant and is independent of the motion of smaller disk, because mass distribution about z-axis does not change by the rotation of smaller disk. It is so, because disks are uniform and circular in shape. </para>
+<para id="element-52">Now, let us check external torques on the system. The weight of smaller disk constitutes a torque, but it is perpendicular to the axis of rotation. Further, the torque due to smaller disk is balanced by an equal an opposite torque applied on the axle by the ground. This is confirmed, as there is no rotation of smaller disk in vertical plane. As such, we can conclude that there is no torque on the system in vertical direction and, therefore, we can apply law of conservation of momentum about z and z’ axes. Since two axes point in the same direction, the net angular momentums "before" and "after" are simply the arithmetic sum of angular momentums about the two axes. Let “C” and “S” subscripts denote the composite body and smaller disk respectively, then : 
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Ci </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Si </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Cf </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Sf </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+The moment of inertia of the smaller disk about z’-axis is :
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+Now, the moment of inertia, “
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+”, of the composite body is given by the theorem of parallel axes as :
+</para>
+<para id="element-57"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> M </m:mi>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> R </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> R </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 12.5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+Let  “
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>
+” be the final angular velocity of the composite body. Substituting in the equation of conservation of angular momentum,
+</para>
+<para id="element-59"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-545">Negative sign indicates that smaller disk rotates in clockwise direction.</para><para id="element-704"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para><para id="element-60"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 12.5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> ω </m:mi>
+<m:mn> 12.5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+<section id="section-2c">
+<title> System consisting of rotational and translational motion
+</title>
+
+<para id="element-83"><term>Example 5 </term> </para>
+<para id="element-84"><term>Problem : </term> A solid sphere of mass 1 kg and radius 10 cm lies on a horizontal surface. A particle of mass 0.01 kg moving with velocity 10 m/s parallel to horizontal surface hits the sphere at a vertical height 6 cm above the center of the sphere and sticks to it. Find (i) the angular velocity of the sphere just after the collision and (ii) the translation velocity of the sphere, if its motion is pure rolling after collision.
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Collision with stationary solid sphere </title>
+<media id="id1171312709816" alt=""><image src="../../media/cs7-77ba.gif" mime-type="image/gif"/></media>
+<caption> A particle, moving parallel to horizontal surface, strikes the sphere at a vertical elevation “h” with respect to center. </caption>
+</figure>
+</para>
+<para id="element-86"><term>Solution : </term> First, we need to check for external torque to ensure that there is no external torque on the system. Here, the disk and particle are acted by gravity. The force of gravity on the disk passes through its COM and does not constitute torque. The force of gravity on the particle, however, constitutes torque about the axis of rotation, but question neglects this torque as particle in moving horizontally. As such, we can proceed to apply conservation of angular momentum in the direction of axis of rotation, using scalar component form. Let “P”,  “S” and “C” denote particle, sphere and combined mass respectively, then :
+ </para>
+
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Pi </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Si </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Cf </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">Let us consider that "m" and "M" be the masses of particle and sphere respectively and "R" be the radius of the sphere. Let us also consider that the vertical elevation of the point above center is "h". Now, the initial angular momentum of the particle is :
+</para>
+<para id="element-89"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Pi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">Negative sign shows that the angular momentum of the particle is perpendicular and into the plane of the disk (clockwise). The initial angular momentum of the sphere (
+<m:math>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Si </m:mi>
+</m:msub>
+</m:math>
+) is zero. 
+</para>
+<para id="element-165">Subsequent to collision, the moment of inertia of the combined mass (disk and particle) after collision is :</para><para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92">
+We should note that though particle sticks at a vertical height “h” above COM, but its distance from COM is “R”. For this reason, its MI about COM involves “R” –  not “h”.
+</para>
+<para id="element-93">Let the angular velocity of the composite system of sphere and the particle be “ω”. Now, putting values in the equation of conservation of angular momentum, we have :
+</para>
+<para id="element-94"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> h </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-95"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>  
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-96">
+Putting numerical values,
+</para>
+<para id="element-97"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.01 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0.06  </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 0.1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mn> 0.01 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 0.1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1.463 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-98">The negative sign of angular velocity shows that sphere along with stuck particle rotates in clockwise direction. According to the second part of the question, the motion of the combined mass is pure rolling. Hence, translational velocity after collision is :
+</para>
+<para id="element-99"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 1.463 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0.1 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0.1463 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-61"><term>Example 6 </term> </para>
+<para id="element-62"><term>Problem : </term> A rod of mass "M" and length, "a", is pivoted at middle point "O" such that it can rotate in horizontal plane. A mud ball of mass "M/12", moving in horizontal plane strikes the rod at the point "P" with a speed "v" as shown in the figure. If the mud ball sticks to the rod after collision, find the magnitude of the angular velocity of the rod immediately after the ball strikes the rod.
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> Collision with rotating rod </title>
+<media id="id7356586" alt=""><image src="../../media/cs6-9429.gif" mime-type="image/gif"/></media>
+<caption> A mud ball, moving in horizontal plane strikes the rod at the point "P" with a speed "v". </caption>
+</figure>
+</para>
+<para id="element-64"><term>Solution : </term> We first need to determine whether there is any external torque on the system of rod and mud ball. The forces during collision constitute internal torques. On the other hand, the force at the pivot passes through the axis of rotation. It has no moment arm about it and as such, it does not constitute a torque. The gravitation pull on the mud ball is in vertical direction. This force constitute a torque in "-x"-direction (apply right hand rule to assess the direction). We can, therefore, conclude that there is no component of external torque in z -direction on the system before, during and after the collision. 
+ </para>
+
+<para id="element-65">We observe here that the rod is capable to rotate in the horizontal plane. Also, the motion of the mud ball is in the horizontal plane. The directions of angular momentums for both rod and the mud ball are along vertical direction (z-direction). We can, therefore, apply conservation of angular momentums along the direction of axis of rotation i.e. perpendicular to the planes of motion. This enables us to use the component form of conservation law in z-direction as scalar expression with only two directions. Let “R” and “B” subscripts denote rod and the mud ball respectively, then :
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Ri </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Bi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Rf </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Bf </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+Here, the initial angular momentum of the rod is zero as it is stationary. Initial angular momentum of the mud ball just before it strikes the rod is given by,
+</para>
+<para id="element-68"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Bi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">Note in the above equation that mass of the mud ball is M/12 and its moment arm is "a/4". Negative sign to show that initial angular momentum of the mud ball is clockwise.
+</para>
+<para id="element-70">Since the mud ball sticks to the rod, two entities become one and move with a common angular velocity. Let us now consider their common angular velocity is "ω". The final angular momentum of the rod is given by :
+</para>
+<para id="element-71"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Rf </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">The angular momentum of the mud ball as part of the rotating rod is given by :
+</para>
+<para id="element-73"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> Bf </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+Putting these values in equation of conservation of angular momentum, we have : 
+</para>
+<para id="element-75">
+</para>
+<para id="element-76"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+<m:mo> } </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mn> 17 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 16 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 16 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 48 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 17 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 17 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">
+Thus, magnitude of angular velocity of the mud ball just after the collision is :
+</para>
+<para id="element-79"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 17 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+
+</section>
+
+</section>
+ 
+  </content>
+  
+</document>

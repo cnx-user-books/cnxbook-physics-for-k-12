@@ -1,0 +1,1903 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Working with errors</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>df47a26c-b215-41a0-9219-93fd5445230f</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">In this module, we shall introduce some statistical analysis techniques to improve our understanding about error and enable reporting of error in the measurement of a quantity. There are basically three related approaches, which involves measurement of :
+</para>
+<para id="element-2">
+<list id="list-2" list-type="bulleted">
+<item> Absolute error </item>
+<item> Relative error  </item>
+<item> Percentage error </item>
+</list>
+</para>
+<section id="section-1">
+<title>Absolute error</title>
+<para id="element-3">The absolute error is the magnitude of error as determined from the difference of measured value from the mean value of the quantity. The important thing to note here is that absolute error is concerned with the magnitude of error – not the direction of error. For a particular 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>n</m:mi>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ measurement, 
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msub>
+    <m:mo>|</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-952">where "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+        <m:mi>m</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" is the mean or average value of measurements and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+        <m:mi>n</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" is the 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>n</m:mi>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math> instant of measurement.</para><para id="element-5">In order to calculate few absolute values, we consider a set of measured data for the length of a given rod. Note that we are reporting measurements in centimeter. 
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>47.7</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1pt"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>47.5</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1pt"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>47.8</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1pt"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>47.4</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>,</m:mo>
+    <m:mspace width="1pt"/>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>5</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>47.7</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">
+The means value of length is :
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>47.7</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>47.5</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>47.8</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>47.4</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>47.7</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>238.1</m:mn>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>47.62</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">It is evident from the individual values that the least count of the scale (smallest division) is 0.001 m = 0.1 cm. For this reason, we limit mean value to the first decimal place. Hence, we round off the last but one digit as :
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>47.6</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">This is the mean or true value of the length of the rod. Now, absolute error of each of the five measurements are :
+</para>
+<para id="element-12a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mn>47.6</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>47.7</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mn>47.6</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>47.5</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12c">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mn>47.6</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>47.8</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0.2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12d">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mn>47.6</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>47.4</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0.2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12e">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>5</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>5</m:mn>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mn>47.6</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>47.7</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-1a">
+<title>Mean absolute error</title>
+<para id="element-14">Earlier, it was stated that a quantity is measured with a range of error specified by half the least count. This is a generally accepted range of error.  Here, we shall work to calculate the range of the error, based on the actual measurements and not go by any predefined range of error as that of generally accepted range of error. This means that we want to determine the range of error, which is based on the deviations in the reading from the mean value.
+</para>
+<para id="element-15">Absolute error associated with each measurement tells us how far the measurement can be off the mean value. The absolute errors so calculated, however, may be different. Now the question is : which of the absolute error be taken for our consideration? We take the average of the absolute error :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mo>…</m:mo>
+        <m:mo>…</m:mo>
+        <m:mo>…</m:mo>
+        <m:mo>.</m:mo>
+        <m:mo>+</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>n</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>n</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>Σ</m:mi>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>n</m:mi>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>x</m:mi>
+        <m:mi>i</m:mi>
+      </m:mrow>
+      <m:mi>n</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">The value of measurement, now, will be reported with the range of error as :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">Extending this concept of defining range to the earlier example, we have :
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>m</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>0.1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>0.1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>0.2</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>0.2</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>0.1</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>0.7</m:mn>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.14</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">We should note here that we have rounded the result to reflect that the error value has same precision as that of measured value. The value of measurement with the range of error, then, is :
+</para>
+
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>47.6</m:mn>
+    <m:mo>±</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">What we convey by writing in terms of the range of possible error. A plain reading of above expression is “the length of rod lies in between 47.5 cm and 47.7 cm”. For all practical purpose, we shall use the value of x = 47.6 cm with the caution in mind that this quantity involves an error of the magnitude of “0.1 cm” in either direction.
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title>Relative error </title>
+<para id="element-26">We can report range of error as the ratio of the mean absolute error to the mean value of the quantity. This ratio is known as relative error. Mathematically,
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>m</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>x</m:mi>
+        <m:mi>m</m:mi>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">As we use a ratio, this expression of error is also known as “fractional error”.  Applying this concept to earlier example, we have :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>m</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>x</m:mi>
+        <m:mi>m</m:mi>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>0.1</m:mn>
+      <m:mn>47.6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.0021</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">This is the amount of error which is possible for every “centimeter of length measured”. This is what is the meaning of a ratio. Hence, if there are 47.6 cm of total length, then the amount of error possible is 47.6 X 0.0021 = 0.1 cm. Two error range in the absolute form and relative form, therefore, are equivalent and specify the same range of errors involved with the measurement of a quantity.
+</para>
+</section>
+<section id="section-3">
+<title>Percentage error </title>
+<para id="element-31">
+Percentage error is equal to relative error expressed in percentage. It is given as :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mi>m</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>x</m:mi>
+        <m:mi>m</m:mi>
+      </m:msub>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>100</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mn>100</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">Applying this concept to earlier example, we have :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mn>100</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.0021</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>100</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.21</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-4">
+<title>Combination of errors  </title>
+<para id="element-35">Measurement of a quantity is used in a formula in various combinations to calculate other physical quantities.  The mathematical operations in the working of a formula involve arithmetic operations like addition, subtraction, multiplication and division. We need to evaluate the implication of such operations on the error estimates and what is the resulting error in the quantities derived from mathematical operations. For example, let us consider  simple example of density. This involves measurement of basic quantities like mass and volume.
+</para>
+<para id="element-37">Clearly, we need to estimate error in density which is based on the measurements of mass and volume with certain errors themselves. Similarly, there are more complex cases, which may involve different mathematical operations. We shall consider following basic mathematical operations in this section :
+</para>
+
+<para id="element-38">
+<list id="list-38" list-type="bulleted">
+<item> sum or difference </item>
+<item> product or division </item>
+<item> quantity raised to a power </item>
+</list>
+</para>
+<section id="section-4a">
+<title>Errors in a sum or difference </title>
+<para id="element-39">We consider two quantities whose values are measured with certain range of errors as :
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">Sum of the two quantities is :
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>±</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">Two absolute errors can combine in four possible ways. The corresponding possible errors in “a+b” are  (Δa + Δb), -(Δa + Δb), (Δa - Δb) and (-Δa + Δb).  The maximum absolute  error in “a-b”, therefore, is “Δa+ Δb”. 
+</para>
+<para id="element-45">
+Difference of the two quantities is :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>±</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>+</m:mo>
+    <m:mo>{</m:mo>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>±</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">Two absolute errors can combine in four possible ways. The corresponding possible errors in “a+b” are  again (Δa + Δb), -(Δa + Δb), (Δa - Δb) and (-Δa + Δb).  The maximum absolute error in “a-b”, therefore, is “Δa+ Δb”. 
+</para>
+<para id="element-48">Let “Δc “ be the absolute error of the arithmetic operation of addition or subtraction. Then, in either case, the maximum value of absolute error in the sum or difference is : 
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">We see here that the absolute error in the sum or difference of two quantities is equal to the sum of the absolute values of errors in the individual quantities. We can write the resulting value as :
+</para>
+<para id="element-51">
+For addition as :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>±</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">For subtraction as :
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>±</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-4a1">
+<title>Example </title>
+<para id="element-55"><term>Problem 1: </term> The values of two capacitors are measured as :
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>C</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1.2</m:mn>
+    <m:mo>±</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>μ</m:mi>
+    <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>C</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2.3</m:mn>
+    <m:mo>±</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>μ</m:mi>
+    <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Two capacitors are connected in parallel. What is the equivalent capacity of two given capacitors? Indicate error in percentage.
+</para>
+<para id="element-59"><term>Solution : </term> The equivalent capacitance of two capacitors in parallel is given by the sum of the capacitance of individual capacitors :
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>C</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>C</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1.2</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>2.3</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>3.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>μ</m:mi>
+    <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">For addition of two quantities, the absolute error in the equivalent capacitance is given by :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>C</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>C</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>μ</m:mi>
+    <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">Percentage error in the equivalent capacitance is given by :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>C</m:mi>
+    <m:mi>p</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mi>Δ</m:mi>
+          <m:mi>C</m:mi>
+        </m:mrow>
+      </m:mrow>
+      <m:mi>C</m:mi>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>100</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>C</m:mi>
+    <m:mi>p</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mn>0.3 </m:mn>
+        </m:mrow>
+      </m:mrow>
+          <m:mn>3.5 </m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>100</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>8.6</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">Hence, equivalent capacitance, “C”, with percentage error is :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.5</m:mn>
+    <m:mi>μ</m:mi>
+    <m:mi>F</m:mi>
+    <m:mo>±</m:mo>
+    <m:mn>8.6</m:mn>
+    <m:mo>%</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-4b">
+<title>Errors in product or division </title>
+<para id="element-69">
+Error in the product and division of two measured quantities can be similarly worked. For brevity, we shall work out the implication of error for the operation of product only. We shall simply extend the result obtained for the product to division. Let the two measured quantities be :
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>±</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">Let “Δc” be the absolute error in the product. Then, product of the two quantities is :
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>c</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>±</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mi>c</m:mi>
+          </m:mrow>
+          <m:mi>c</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>b</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>±</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mi>a</m:mi>
+          </m:mrow>
+          <m:mi>a</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>±</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mi>b</m:mi>
+          </m:mrow>
+          <m:mi>b</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">
+But, c = ab. Hence, expanding terms, we have :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>c</m:mi>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>c</m:mi>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">The terms “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+” is negligibly small and as such can be discarded :
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>c</m:mi>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mi>a</m:mi>
+          </m:mrow>
+          <m:mi>a</m:mi>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mi>b</m:mi>
+          </m:mrow>
+          <m:mi>b</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79a">
+We see here that the relative error in the product of two quantities is equal to the sum of the relative errors in the individual quantities. This manifestation of individual errors in product is also true for division. Hence, we can broaden our observation that the relative error in the product or division of two quantities is equal to the sum of the relative errors in the individual quantities. 
+</para>
+<section id="section-4b1">
+<title>Example </title>
+<para id="element-80"><term>Problem 2: </term>  The mass and the volume of a uniform body is given as :
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>9.5</m:mn>
+    <m:mo>±</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.1</m:mn>
+    <m:mo>±</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mspace width="1em"/>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">Determine density of the body with error limits.
+</para>
+<para id="element-84"><term>Solution : </term>   Let us first calculate the value of the density, maintaining the decimal place in the result. It is given by :
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ρ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>m</m:mi>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>9.5</m:mn>
+      <m:mn>3.1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>3.1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">We have rounded the result for precision of density is limited to the minimum of precision of the quantities involved. The relative error in the division of mass by volume is :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+      <m:mi>ρ</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mi>m</m:mi>
+          </m:mrow>
+          <m:mi>m</m:mi>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mi>V</m:mi>
+          </m:mrow>
+          <m:mi>V</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+      <m:mi>ρ</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>0.1</m:mn>
+          <m:mn>9.5</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mn>0.2</m:mn>
+          <m:mn>3.1</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+      <m:mi>ρ</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.01</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>0.06</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.07</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">The absolute error in the density is :
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>ρ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.07</m:mn>
+    <m:mi>ρ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.07</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>3.1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">Hence, density is given as :
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ρ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.1</m:mn>
+    <m:mo>±</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-4c">
+<title>Errors in raising a quantity to a power  </title>
+<para id="element-94"> 
+In order to estimate error involving raising of a quantity to some power, we consider two measured quantities. Let us consider that they are related as :
+</para>
+<para id="element-95"><m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>a</m:mi>
+        <m:mi>n</m:mi>
+      </m:msup>
+      <m:msup>
+        <m:mi>b</m:mi>
+        <m:mi>m</m:mi>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">Taking logarithm on either side of the equation, we have :
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ln</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>ln</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>ln</m:mi>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">Differentiating on both sides, we have :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">We can exchange each of the differential term with corresponding relative error terms. 
+</para>
+<para id="element-101">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>±</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mi>n</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>±</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>Δ</m:mi>
+            <m:mi>b</m:mi>
+          </m:mrow>
+          <m:mi>b</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-102">Again there are four possible combinations of values for the relative error. The maximum being,
+</para>
+<para id="element-103">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>c</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>b</m:mi>
+      </m:mrow>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-104">Thus, relative error in the result is :
+</para>
+<para id="element-105">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mi>m</m:mi>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>b</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-106">We see here that error in the result is equal to power times the relative error, irrespective of whether the power is positive or negative. It leads to an important deduction that quantities with greater powers in an expression should be measured with highest accuracy to minimize error in the "derived" quantity.
+</para>
+<section id="section-4c1">
+<title>Example  </title>
+<para id="element-107"><term>Problem 3: </term>  The torque required to produce a twist in solid bar is given by :
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>τ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Π</m:mi>
+        <m:mi>η</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>4</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">If percentage error in the measurement of η, r and L are 1%, 4% and 1% respectively. Find the percentage error in the value of torque.
+</para>
+<para id="element-110"><term>Solution : </term>  We know that relative error in the resultant quantity i.e torque is :
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>η</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">where 
+<m:math>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+, 
+<m:math>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+</m:math>
+ and 
+<m:math>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+</m:math>
+ are the powers of three quantities η, r and L respectively. The constants of the equations are not considered as they are not measured. Now percentage is obtained by just multiplying relative error by 100, we can write,
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>t</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>η</m:mi>
+          <m:mi>p</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mi>p</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>n</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mi>Δ</m:mi>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mi>p</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">Here, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1,</m:mn>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mi>and</m:mi>
+    </m:mrow>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>. Note that position of a quantity either in numerator or denominator does not make difference in error combination. Putting values,
+</para>
+<para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>t</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>p</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>18</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-116">This means that the maximum error estimate in torque would be 18%. This is quite a large amount of uncertainty. Note the role played by the error in “r”. Most of error (16 %) is due to 4% error in this quantity as it is raised to a power of 4. This result substantiates the observation that quantity with highest power should be measured with most accuracy.
+</para>
+</section>
+</section>
+</section> 
+  </content>
+  
+</document>

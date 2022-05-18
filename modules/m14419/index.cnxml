@@ -1,0 +1,2165 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Law of motion in angular form for a system of particles (check your understanding)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>716c217a-34cd-4bea-8c99-836f7dfe7752</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The questions have been selected to enhance understanding of the topics covered in the module titled "<link document="m13871">  Law for system in angular form for a system of particles
+</link>". All questions are multiple choice questions with one or more correct answers. There are two sets of the questions. The “understanding level” questions seek to unravel the fundamental concepts involved, whereas “application level” are relatively difficult, which may interlink concepts from other topics.
+</para>
+<para id="element-2">
+Each of the questions is provided with solution. However, it is recommended that solutions may be seen only when your answers do not match with the ones given at the end of this module.  
+</para>
+<section id="section-1">
+<title> Understanding level (Law for motion in angular form for a system of particles
+) </title>
+
+<para id="element-3">
+<exercise id="exercise-3">
+<problem id="idm296544">
+<para id="element-4">A uniform circular disc of mass “M” and radius “R” rotates about one of its diameters at an angular speed “ω”. What is the angular momentum of the disc about the axis of rotation?
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Circular disk </title>
+<media id="idp1220688" alt=""><image src="../../media/lmq1.gif" mime-type="image/gif"/></media>
+<caption> The circular disk rotates about one of its diameters.</caption>
+</figure>
+</para>
+<para id="element-6">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp2866688">
+<para id="element-7">
+The angular momentum of a rigid body is given by the equation,
+</para>
+<para id="element-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-9">In order to find MI about diameter, we first calculate moment of inertia, "
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+", of the disk about a perpendicular axis passing through the center as :
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+Applying theorem of perpendicular axes, the moment of  inertia about the axis of rotation (i.e. about one of the diameters) is :
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">
+Therefore, the angular momentum of the disk about one of its diameter is :
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-17">
+<exercise id="exercise-17">
+<problem id="idp2127296">
+<para id="element-18">
+A thin uniform rod of mass "M" and length "x" rotates in a horizontal plane about a vertical axis. If the free end of the rod has a constant tangential velocity "v", then angular momentum of the rod about the axis of rotation is :
+</para>
+<para id="element-19">
+<figure id="fig-19"><title> A rotating rod  </title>
+<media id="idp4678432" alt=""><image src="../../media/lmq2a.gif" mime-type="image/gif"/></media>
+<caption> The rod rotates about a perpendicular axis at one end.</caption>
+</figure>
+</para>
+<para id="element-20a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 6 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp4269920">
+<para id="element-20b">
+The angular momentum of a rigid body is given by the equation,
+</para>
+<para id="element-20c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> l </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20d">Here, the rod rotates about a perpendicular axis at its end. Thus, we need to find MI of the rod, "I", about this axis. Using theorem of parallel axes, the MI about the axis of rotation is :"
+</para>
+<para id="element-20e">
+<figure id="fig-20e"><title> A rotating rod  </title>
+<media id="idm8340992" alt=""><image src="../../media/lmq3a.gif" mime-type="image/gif"/></media>
+<caption> The rod rotates about a perpendicular axis at one end.</caption>
+</figure>
+</para>
+<para id="element-20f"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> C </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-23">
+Putting in the expression of angular momentum :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+The angular velocity is expressed in terms of tangential velocity as :
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω  </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22a">
+Substituting this value in the expression of angular momentum, we have 
+</para>
+<para id="element-24a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-26">
+<exercise id="exercise-26">
+<problem id="idp630240">
+<para id="element-27">
+A thin uniform rod of mass "M" and length "3x" rotates in a horizontal plane with an angular velocity “ω” about a perpendicular vertical axis as shown in the figure. Then, the angular momentum of the rod about the axis of rotation is :
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> A rotating rod  </title>
+<media id="idm9110688" alt=""><image src="../../media/lmq4.gif" mime-type="image/gif"/></media>
+<caption> The rod rotates about a perpendicular axis.</caption>
+</figure>
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp3861760">
+
+<para id="element-30">
+We know that angular momentum of a rigid body is given by :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> l </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">We need to calculate the MI of the rod about the axis of rotation. Now, the MI of the rod about central axis is given by :
+</para>
+<para id="element-33">
+<figure id="fig-33">
+<title> A rotating rod  </title>
+<media id="idm1339776" alt=""><image src="../../media/lmq5.gif" mime-type="image/gif"/></media>
+<caption> The rod rotates about a perpendicular axis.</caption>
+</figure>
+</para>
+<para id="element-30a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31a">
+Applying theorem of parallel axis, the MI about the axis of rotation passing through point “O” is :
+</para>
+<para id="element-32a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33a">
+Here, 
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> d </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+Therefore, angular momentum about the axis of rotation is :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+Hence, option (a) is correct.
+</para>
+<para id="element-39"><term>Note 1 : </term> Alternatively, we can also calculate the angular momentum of the rod in terms of angular momentum of the parts on either side of the axis of rotation. Since each part rotates about the same axis of rotation, the net angular momentum of the rod about the axis of rotation is algebraic sum of the angular momentum of the parts.
+</para>
+<para id="element-40">The MI of the left rod, about a perpendicular axis at one of the ends, is :
+</para>
+<para id="element-41">
+<figure id="fig-41"><title> A rotating rod  </title>
+<media id="idp4980464" alt=""><image src="../../media/lmq11.gif" mime-type="image/gif"/></media>
+<caption> The MI of the left rod about a perpendicular axis at one end.</caption>
+</figure>
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> OL </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> OL </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+Similarly, the MI of the right rod is :
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> OR </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> OR </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> OL </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> OR </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48"><term>Note 2 : </term> It must be understood here that we can not treat the rod as a particle at its center of mass and then find the angular momentum. For example, in this case, the center of mass is at distance of "3x/2" from either end of the rod and at a distance of "x/2" from the point "O" through which axis of rotation passes. The MI of this particle equivalent rod about the axis of rotation is :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+and
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">Obviously, this approach is conceptually wrong. The concept of center of mass by definition is valid for translation - not rotation. 
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-53">
+<exercise id="exercise-53">
+<problem id="idm9207536">
+<para id="element-54">
+A circular ring of mass “M” and radius “R” rolls on a horizontal surface without sliding at a velocity “v”. What is the magnitude of angular momentum of the ring about point of contact?
+</para>
+<para id="element-55">
+<figure id="fig-55"><title> Rolling of a circular ring  </title>
+<media id="idp362544" alt=""><image src="../../media/lmq10.gif" mime-type="image/gif"/></media>
+<caption> The circular ring of mass “M” and radius “R” rolls on a horizontal plane.</caption>
+</figure>
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm133728">
+<para id="element-57">
+Here, the point of contact and center of mass are in the plane of motion. Hence,
+</para>
+<para id="element-58"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> + </m:mo> 
+<m:mi> I </m:mi>
+<m:mi mathvariant="bold"> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+Now, the magnitude of angular momentum of the body, considering it as a particle at center of mass, with respect to point of contact is :
+</para>
+<para id="element-60"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+This angular momentum is clockwise and into the page. 
+</para>
+<para id="element-62">
+The magnitude of angular momentum about center of mass is same as that about its central axis i.e. perpendicular axis passing through center of mass :
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">For rolling motion,
+<m:math>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:math>
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+This angular momentum is also clockwise and into the page. Therefore, the magnitude of net angular momentum is :
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-69">
+<exercise id="exercise-69">
+<problem id="idp1811072">
+<para id="element-70">
+Q A solid sphere of mass “M” and radius “R” rolls on a horizontal surface without sliding at a velocity “v”. What is the magnitude of angular momentum of the ring about point of contact?
+</para>
+<para id="element-71">
+<figure id="fig-71"><title> Rolling of a solid sphere  </title>
+<media id="idm196896" alt=""><image src="../../media/lmq7.gif" mime-type="image/gif"/></media>
+<caption> The solid sphere of mass “M” and radius “R” rolls on a horizontal plane. </caption>
+</figure>
+</para>
+<para id="element-71a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 7 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp3601408">
+<para id="element-71b">This question is similar to the previous one - with one exception that sphere is a three dimensional body as against the disk, which is two dimensional. However, the situation is same as far as the point about angular momentum is calculated and the center of mass. The point of contact and center of mass are in the same middle section of the sphere, along which motion takes place. Thus, the point of contact and center of mass of the solid sphere are in the plane of motion. Hence,
+</para>
+<para id="element-71c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> + </m:mo> 
+<m:mi> I </m:mi>
+<m:mi mathvariant="bold"> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71d">
+Now, the magnitude of angular momentum of the body as particle at center of mass with respect to point of contact is :
+</para>
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> M </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-73">
+This angular momentum is clockwise and into the page. 
+</para>
+<para id="element-74">
+The magnitude of angular momentum about center of mass is same as that about its central axis i.e. perpendicular axis passing through center of mass :
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-76">For rolling motion,
+<m:math>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">
+This angular momentum is also clockwise and into the page. The magnitude of net angular momentum, therefore, is :
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 7 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>  
+
+<section id="section-2">
+<title> Application level (Law of motion in angular form for a system of particle) </title>
+
+<para id="element-81">
+<exercise id="exercise-81">
+<problem id="idp4194688">
+<para id="element-82">
+Two blocks of masses “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+” and “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+” (
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+&gt;
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+), connected by a mass-less pulley of radius “r”, are released from rest. What is the angular momentum of the system about the axis of rotation of the pulley, if the block travels a vertical distance of “y”.
+</para>
+<para id="element-83">
+<figure id="fig-83">
+<title> Pulley – blocks system  </title>
+<media id="idp1842720" alt=""><image src="../../media/lmq9.gif" mime-type="image/gif"/></media>
+<caption> Blocks are connected with a string passing over a pulley. </caption>
+</figure>
+</para>
+<para id="element-84"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> √ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> √ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> √ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> √</m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> x </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp5212432">
+
+<para id="element-85">The pulley and string are both considered “mass-less”. Therefore, these elements do not contribute to the angular momentum of the system. Further, we also observe that we are required to find angular momentum about an axis - not about a point. We need to know the linear velocity of the blocks in order to calculate their angular momentum about the axis of rotation of the pulley. This, in turn, requires us to find the acceleration of the blocks in vertical direction. 
+</para>
+<para id="element-86">
+Here, pulley is “mass-less”. Thus, tension in the string on either side of the pulley is same. From force analysis of each block :
+</para>
+<para id="element-87">
+<figure id="fig-87">
+<title> Pulley – blocks system  </title>
+<media id="idm2060960" alt=""><image src="../../media/lmq10.gif" mime-type="image/gif"/></media>
+<caption> Force diagram. </caption>
+</figure>
+</para>
+<para id="element-88">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">For vertical motion of block "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+", we have :
+</para>
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> g </m:mi>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-93">
+Now, angular momentums of the blocks are both clockwise. Hence, we can get magnitude of net angular momentum as arithmetic sum :
+</para>
+<para id="element-94">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-95">
+Substituting the value of the speed,
+</para>
+<para id="element-96">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> x </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> x </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> g </m:mi>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-97"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-98">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+</section>  
+
+<section id="section-3">
+<title> Answers </title>
+<para id="element-262">
+<code display="block" id="idp50592">
+1. (d)   2. (b)    3. (a)    4. (b)    5. (d) 
+6. (a)           
+</code>
+</para>
+</section>
+ 
+  </content>
+  
+</document>

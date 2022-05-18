@@ -1,0 +1,1984 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Angular mometum (check your understanding)</title>
+  <metadata>
+  <md:content-id>m14413</md:content-id><md:title>Angular mometum (check your understanding)</md:title>
+  <md:abstract>Objective questions, contained in this module with hidden solutions, help improve understanding of the topics covered under the module "Angular momentum".</md:abstract>
+  <md:uuid>a7f4da36-01f2-4b8f-bc4c-acabf17d1baf</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">The questions have been selected to enhance understanding of the topics covered in the module titled "<link document="m14405"> Angular momentum </link>". All questions are multiple choice questions with one or more correct answers. There are two sets of the questions. The “understanding level” questions seek to unravel the fundamental concepts involved, whereas “application level” are relatively difficult, which may interlink concepts from other topics.
+</para>
+<para id="element-2">
+Each of the questions is provided with solution. However, it is recommended that solutions may be seen only when your answers do not match with the ones given at the end of this module.  
+</para>
+<section id="section-1">
+<title> Understanding level (Angular momentum) </title>
+
+<para id="element-46">
+<exercise id="exercise-46">
+<problem id="id1164491242073">
+<para id="element-4">
+Two particles of same mass, move with same speed along two parallel lines in opposite directions as shown in the figure. Then, magnitude of net angular moment of two particles about the origin of coordinate system :
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Two moving particles </title>
+<media id="id1164491451958" alt=""><image src="../../media/amq1.gif" mime-type="image/gif"/></media>
+<caption> Two particles of same mass, move with same speed  </caption>
+</figure>
+</para>
+<para id="element-6">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> is directly proportional to the perpendicular distance between the parallel lines 
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> is inversely  proportional to the perpendicular distance between the parallel lines 
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> is constant for a given pair of parallel paths
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> is zero
+</m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1164491161800">
+
+<para id="element-7">Here, moment arms of the particles are 
+<m:math>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn> 
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn> 
+</m:msub>
+</m:math>. Let the mass of each particle be “m” and speed of each particle is “v”. Then, the angular momentum of the individual particles about the origin of coordinate system are :
+</para>
+<para id="element-8"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mn> 1 </m:mn> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn> 
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn> 
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn> 
+</m:msub>
+<m:mi> v </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msub>
+<m:mi> v </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-9">Since angular momentum are along the same direction, we can find the net angular momentum by arithmetic sum as :
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mn> 1 </m:mn> 
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn> 
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">We see that the magnitude of net angular momentum is directly proportional to the perpendicular distance between the parallel lines. Further, the perpendicular distance is fixed for a given pair of parallel paths. Hence, net angular momentum is constant for a given pair.
+</para>
+<para id="element-12">
+Hence, options (a) and (c) are correct.
+</para>
+<para id="element-14">
+<note id="id1164491453853">Since we can always orient coordinates similar to the situation here, we can conclude that angular momentum about any point is constant for a given pair of parallel paths under similar conditions of mass and speed. Will the angular momentum be constant at a point between parallel paths? The answer is yes.
+</note>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-15">
+<exercise id="exercise-15">
+<problem id="id1164491258653">
+<para id="element-16">
+A particle of mass “m” is moving with linear velocity <term>v</term> = (2<term>i</term> – <term>j</term> + <term>k</term>) m/s. At an instant, the particle is situated at a position (in meters) given by the coordinates 0,1,1.  What is the angular momentum of the particle about the origin of coordinate system at that instant?   
+</para>
+
+<para id="element-6a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1164491246861">
+
+<para id="element-15a">
+This question can be evaluated using cross product in component form as :
+</para>
+<para id="element-16a">
+<code id="id1164491139230" display="block">
+<term>ℓ</term> =   | <term>i</term>	<term>j</term>	 <term>k</term> |
+      | 0	1	 1 |
+      | 2	-1	 1 |
+</code>
+</para>
+<para id="element-17a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> -  </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> -  </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mo> -  </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-19">
+<exercise id="exercise-19">
+<problem id="id1164491304036">
+<para id="element-20">
+A projectile of mass “m”  is projected with a velocity “v”, making and angle “θ” with the horizontal. The angular momentum of the projectile about the point of projection, when it reaches the highest point is  :
+</para>
+<para id="element-21">
+<figure id="fig-21">
+<title> Projectile </title>
+<media id="id1164491454030" alt=""><image src="../../media/amq2.gif" mime-type="image/gif"/></media>
+<caption> A projectile of mass “m”  is projected with a velocity “v”, making and angle “θ” with the horizontal.  </caption>
+</figure>
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1164491234926">
+<para id="element-23">The velocity of the projectile at the highest point is equal to the horizontal component of velocity as vertical component of velocity is zero. Further, there is no acceleration in the horizontal direction. Therefore, horizontal component of velocity is same as the horizontal component of the velocity at projection. It means that velocity of projection at the highest point is :
+</para>
+<para id="element-24">
+<figure id="fig-24">
+<title> Projectile motion </title>
+<media id="id1164491218418" alt=""><image src="../../media/amq3.gif" mime-type="image/gif"/></media>
+<caption> The projectile is at maximum vertical displacement.  </caption>
+</figure>
+</para>
+<para id="element-21a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22a">
+Here, the moment arm i.e. the perpendicular drawn from the point of projection on the extended line of velocity is equal to the height attained by the projectile. Thus,
+</para>
+<para id="element-23a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> ⊥ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> H </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24a">
+The  angular momentum as required is :
+</para>
+<para id="element-25a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mi> ⊥ </m:mi>
+</m:msub>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+Hence, option (a) is correct.
+</para>
+
+</solution>
+</exercise>
+</para>
+<para id="element-27">
+<exercise id="exercise-27">
+<problem id="id1164488698050">
+<para id="element-28">
+If “m”,”p” and “ℓ” denote the mass, linear momentum and angular momentum of the particle executing uniform circular motion along a circle of radius “r”, then kinetic energy of the particle is :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> p </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> p </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1164490969922">
+
+<para id="element-27a">
+From the alternatives given, it is evident that we need to find kinetic energy in terms of linear and angular momentum. Now, the kinetic energy of the particle is expressed as :
+</para>
+<para id="element-28a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29a">
+The magnitude of linear momentum is given by :
+</para>
+<para id="element-30a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+Squaring both sides, we have :
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> p </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">
+Rearranging,
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> p </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+Combining equations,
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> p </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">Now, the magnitude of angular momentum is given by :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+Squaring both sides, we have :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+Combining equations,
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+Hence, options (a) and (c) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-45">
+<exercise id="exercise-45">
+<problem id="id1164494642252">
+<para id="element-46a">
+Dimensional formula of angular momentum is :
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mrow>
+<m:mn> - </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mrow>
+<m:mn> - </m:mn>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mrow>
+<m:mn> - </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mrow>
+<m:mn> - </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1164491289937">
+<para id="element-48">
+In order to find dimensional formula, we use the expression of angular momentum :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+The dimension of angular momentum is :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> [ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mrow>
+<m:mn> - </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ] </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mrow>
+<m:mn> - </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ] </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-53">
+<exercise id="exercise-53">
+<problem id="id1164491387214">
+<para id="element-54">Two point masses “m” and “2m” are attached to a mass-less rod of length “d”, pivoted at point “O” as shown in the figure. The rod is free to move in vertical direction. If “ω” be the angular velocity, then the angular momentum of two particles about the axis of rotation is : 
+</para>
+<para id="element-54a">
+<figure id="fig-54a">
+<title> Angular momentum of particle  </title>
+<media id="id1164491256957" alt=""><image src="../../media/amq4.gif" mime-type="image/gif"/></media>
+<caption> The rod is free to move in vertical plane.  </caption>
+</figure>
+</para>
+
+
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1164488679646">
+
+<para id="element-56">
+This is a case of rotation. We can solve this problem using either the general expression or specific expression involving moment of inertia. When we use general expression, we should measure moment arm from the axis of rotation.
+</para>
+<para id="element-57">
+Since rod is rotating in anticlockwise direction, angular momentum of each particle is positive.
+</para>
+<para id="element-58">
+The angular momentum of first particle of mass “m” is :
+</para>
+<para id="element-59"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> d </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> d </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+The angular momentum of second particle of mass “2m”  is :
+</para>
+<para id="element-61"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> d </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> d </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 9 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> ω </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>  
+
+
+<section id="section-2">
+<title> Application level (Angular momentum) </title>
+<para id="element-64">
+<exercise id="exercise-64">
+<problem id="id1164491432571">
+<para id="element-65">A particle of mass 100 gram is moving with a constant speed at √2 m/s along a straight line y = x + 2 in "xy" – plane. Then, the magnitude of the angular momentum (in 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> s </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+) about the origin of the coordinate system, if “x” and “y” are in meters, is :
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0.3 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0.4 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1164491381332">
+
+<para id="element-67">
+The angular momentum of a particle about a point is defined as :
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+The magnitude of angular momentum can be evaluated using any of the three methods discussed in the module on the subject. In this case, evaluation of angular momentum involving moment arm is most appropriate. Thus,
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">
+We, now, analyze the situation by drawing the figure. The path of the motion is shown. The moment arm i.e. the perpendicular distance of velocity vector from the origin is :
+</para>
+<para id="element-72">
+<figure id="fig-72">
+<title> Angular momentum of a particle  </title>
+<media id="id1164494275450" alt=""><image src="../../media/amq5.gif" mime-type="image/gif"/></media>
+<caption> The path of the moving particle.  </caption>
+</figure>
+</para>
+<para id="element-73"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> OB </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> sin </m:mi>
+<m:mn> 45 </m:mn>
+<m:mo> ° </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+Hence,
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mo> x </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> s </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-76">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-77">
+<exercise id="exercise-77">
+<problem id="id1164491387941">
+<para id="element-78">
+A projectile of mass “m” is projected with a velocity “u”, making and angle “θ” with the horizontal. The angular momentum of the projectile about the point of projection at a given instant “t” during its flight is : 
+</para>
+<para id="element-79">
+<figure id="fig-79">
+<title> Projectile motion  </title>
+<media id="id1164491239339" alt=""><image src="../../media/amq6.gif" mime-type="image/gif"/></media>
+<caption> Angular momentum of a projectile at a given time.  </caption>
+</figure>
+</para>
+<para id="element-80"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id1164488670478">
+<para id="element-81">
+We need to find a general equation for angular momentum for a given time “t”. We observe here that projectile motion is a two dimensional motion for which we can have information in component form. It is, therefore, required to obtain component information for position and the velocity.
+</para>
+<para id="element-82">
+<figure id="fig-82">
+<title> Projectile motion  </title>
+<media id="id1164494556808" alt=""><image src="../../media/amq7.gif" mime-type="image/gif"/></media>
+<caption> Angular momentum of a projectile at a given time.  </caption>
+</figure>
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+Now, the angular momentum is :
+</para>
+<para id="element-85">
+<code id="id1164491402448" display="block"><term>ℓ</term> = | <term>i</term>	                   <term>j</term>	               <term>k</term> |
+    | utcosθ	   utsinθ – 1/2g t*2	       0 |
+    | u cosθ       usinθ – gt	               0 |
+</code>
+</para>
+<para id="element-86"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> { </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mo> } </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-87"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> u </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> u </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> t </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> t </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-89"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>  
+
+<section id="section-3">
+<title> Answers </title>
+<para id="element-262">
+<code id="id1164491310687" display="block">1. (a) and (c)   2. (b)    3. (a)    4. (a) and (c)   5.  (c)   6. (b)  
+7. (b)           8. (d)
+</code>
+</para>
+</section>
+ 
+  </content>
+  
+</document>

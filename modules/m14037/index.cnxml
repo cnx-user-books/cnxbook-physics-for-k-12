@@ -1,0 +1,1792 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Relative velocity in two dimensions (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>b6f9f92a-5109-47f8-afdf-347221e5e4d6</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-1">
+<title>  Hints on solving problems </title>
+<para id="element-2">
+<list id="list-2" list-type="enumerated">
+<item> Solution of problems involving relative motion in two dimensions involves evaluation of vector equation. The evaluation or analysis of vector equation is not limited to the use of pythogoras theorem, but significantly makes use of goemtric consideration like evaluating trigonometirc ratios. 
+</item>
+<item> Generally, we attempt graphical solution. This is so because graphical solution is intuitive and indicative of actual physical phenomenon. However, most of the problem can equally be handled with the help of algebraic vector analysis, involving unit vectors.
+</item>
+</list>
+</para>
+</section> 
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3">We discuss problems, which highlight certain aspects of the study leading to the relative velocity in two dimensions. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> Velocity of an individual object
+</item>
+<item> Relative velocity 
+</item>
+<item> Closest approach 
+</item>
+</list>
+</para>
+</section> 
+
+<section id="section-3">
+<title> Velocity of an individual object
+</title>
+
+<example id="example-5">
+<para id="element-5"><term>Problem : </term> A man, moving at 3 km/hr along a straight line, finds that the rain drops are falling at 4 km/hr in vertical direction. Find the angle with which rain drop hits the ground.
+</para>
+<para id="element-6"><term>Solution : </term> Let the man be moving in x-direction. Let us also denote man with “A” and rain drop with “B”. Here, we need to know the direction of rain drop with respect to ground i.e. the direction of 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+.
+</para>
+<para id="element-19">
+Here,
+</para>
+<para id="element-20"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+<m:mo> : </m:mo>
+<m:mspace width="4pt"/>
+<m:mtext> in the vertical direction </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+Using equation,
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+, 
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">
+In order to evaluate the right hand side of the equation, we construct the vector diagram as shown in the figure.
+</para>
+<para id="element-24">
+<figure id="fig-24">
+<title> Relative motion in two dimensions </title>
+<media id="idm6062944" alt=""><image src="../../media/rvtq1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-25">
+From inspection of given data and using appropriate trigonometric function in ΔOBR, we have :
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:msup>
+<m:mn> 37 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 37 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+<example id="example-29">
+<para id="element-29"><term>Problem : </term> A person, moving at a speed of 1 m/s, finds rain drops falling (from back) at 2 m/s at an angle 30° with the vertical. Find the speed of raindrop (m/s) with which it hits the ground.
+</para>
+<para id="element-30"><term>Solution : </term> Let the person be moving in x-direction. Let us also denote man with “A” and rain drop with “B”. Here we need to know the speed of the rain drops with respect to ground i.e. 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+. 
+</para>
+
+<para id="element-32">
+Here,
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+Using equation,
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+, 
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+In order to evaluate the right hand side of the equation, we construct the vector diagram as shown in the figure.
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> Relative motion in two dimensions </title>
+<media id="idm4397952" alt=""><image src="../../media/rvtq2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-38">
+From parallelogram theorem, 
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 7 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+
+<example id="example-42">
+<para id="element-42"><term>Problem : </term> A boy moves with a velocity 0.5 <term>i</term> – <term>j</term> in m/s. He receives rains at a velocity 0.5 <term>i</term> – 2<term>j</term> in m/s. Find the speed at which rain drops meet the ground.
+</para>
+<para id="element-43"><term>Solution : </term> Let the person be moving along OA. Let us also denote man with “A” and rain drop with “B”. Here we need to know the speed at which rain drops fall on the ground  (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+).
+</para>
+<para id="element-45">
+Here,
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+Using equation,
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+, 
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+<figure id="fig-49">
+<title> Relative motion in two dimensions </title>
+<media id="idm15254848" alt=""><image src="../../media/rvtq3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 9 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section> 
+<section id="section-4">
+<title> Relative velocity 
+</title>
+<example id="example-80">
+<para id="element-80"><term>Problem : </term> Rain drop appears to fall in vertical direction to a person, who is walking at a velocity 3 m/s in a given direction. When the person doubles his velocity in the same direction, the rain drop appears to come to make an angle 45° from the vertical. Find the speed of the rain drop.
+</para>
+<para id="element-81"><term>Solution : </term> This is a slightly tricky question. Readers may like to visualize the problem and solve on their own before going through the solution given here. 
+</para>
+
+
+<para id="element-82">
+Let us draw the situations under two cases. Here, only the directions of relative velocities in two conditions are given. The figure on left represents initial situation. Here, the vector OP represents velocity of the person (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+); OR represents relative velocity of rain drop with respect to person (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">v</m:mi>
+      <m:mi>BA</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+); OS represents velocity of rain drop. 
+</para>
+<para id="element-83">
+The figure on right represents situation when person starts moving with double velocity. Here, the vector OT represents velocity of the person (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">v</m:mi>
+      <m:mi>A1</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+); OW represents relative velocity of rain drop with respect to person (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">v</m:mi>
+      <m:mi>BA1</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+). We should note that velocity of rain (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+) drop remains same and as such, it is represented by OS represents as before. 
+</para>
+<para id="element-84">
+<figure orient="horizontal" id="fig-84">
+<title> Relative velocity </title>
+<subfigure id="fig-84a">
+<media id="idm4475584" alt=""><image src="../../media/rmt5-db96.gif" mime-type="image/gif"/></media>
+<caption> Raindrop appears to fall vertically. </caption>
+</subfigure>
+<subfigure id="fig-84b">
+<media id="idp1581584" alt=""><image src="rmt6.gif" mime-type="image/gif"/></media>
+<caption> Raindrop appears to fall at angle of 45°. </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-85">
+According to question, we are required to know the speed of raindrop. It means that we need to know the angle “θ” and the side OS, which is the magnitude of velocity of raindrop. It is intuitive from the situation that it would help if consider the vector diagram and carry out geometric analysis to find these quantities. For this, we substitute the vector notations with known magnitudes as shown here.
+</para>
+<para id="element-86">
+<figure id="fig-86"><title> Relative velocity </title>
+<media id="idp2967680" alt=""><image src="../../media/rmt7a.gif" mime-type="image/gif"/></media>
+<caption> Values of different segments are shown.</caption>
+</figure>
+</para>
+<para id="element-87">
+We note here that 
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>W</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>U</m:mi>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>∕</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+Clearly, triangles ORS and ORW are congruent triangles as two sides and one enclosed angle are equal.
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>W</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>S</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>O</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∠</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>R</m:mi>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∠</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>R</m:mi>
+    <m:mi>S</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>90</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+Hence,
+</para>
+
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∠</m:mo>
+    <m:mi>W</m:mi>
+    <m:mi>O</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∠</m:mo>
+    <m:mi>S</m:mi>
+    <m:mi>O</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-96">
+In triangle ORS,
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mi>S</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>S</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>S</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mi>S</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>45</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+<example id="example-99">
+<para id="element-99"><term>Problem : </term> Rain drop appears to fall in vertical direction to a person, who is wlaking at a velocity 3 m/s in a given direction. When the person doubles his velocity in the same direction, the rain drop appears to come to make an angle 45° from the vertical. Find the speed of the rain drop, using unit vectors.
+</para>
+<para id="element-100"><term>Solution : </term> It is the same question as earlier one, but is required to be solved using unit vectors. The solution of the problem in terms of unit vectors gives us an insight into the working of algebraic analysis and also let us appreciate the power and elegance of using unit vectors to find solution of the problem, which otherwise appears to be difficult.
+</para>
+
+<para id="element-101">
+Let the velocity of raindrop be :
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-108">
+where “a” and “b” are constants. Note here that we have considered vertically downward direction as positive.
+</para>
+<para id="element-109">
+<figure orient="horizontal" id="fig-103"><title> Relative velocity </title>
+<subfigure id="fig-103a">
+<media id="idp1586576" alt=""><image src="../../media/rmt8a.gif" mime-type="image/gif"/></media>
+<caption> Raindrop appears to fall vertically. </caption>
+</subfigure>
+<subfigure id="fig-103b">
+<media id="idm4693472" alt=""><image src="../../media/rmt6a-83ae.gif" mime-type="image/gif"/></media>
+<caption> Raindrop appears to fall at angle of 45°. </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-110">
+According to question,
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">
+The relative velocity of raindrop with respect to person is :
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115">
+However, it is given that the raindrop appears to fall in vertical direction. It means that relative velocity has no component in x-direction. Hence,
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-118">
+and
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120">
+In the second case,
+</para>
+<para id="element-121">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-122">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:msub>
+          <m:mi>A</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>−</m:mo>
+    <m:mn>8</m:mn>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-123">
+It is given that the raindrop appears to fall in the direction, making an angle 45° with the vertical. 
+</para>
+<para id="element-124">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>135</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-125">
+Note that tangent of the angle is measured from positive x – direction (90° + 45° = 135°) of the coordinate system.
+</para>
+<para id="element-126">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>b</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-127">
+Thus, velocity of the raindrop is :
+</para>
+<para id="element-128">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>b</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-129">
+The speed of raindrop is :
+</para>
+<para id="element-130">
+<m:math display="block">
+   <m:mo>⇒ </m:mo>
+
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mn>4</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mn>4</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section> 
+
+<section id="section-5">
+<title> Closest approach 
+</title>
+
+
+<example id="example-51">
+<para id="element-51"><term>Problem : </term> The car “B” is ahead of car “A” by 10 km on a straight road at a given time. At this instant, car “B” turns left on a road, which makes right angle to the original direction. If both cars are moving at a speed of 40 km/hr, then find the closest approach between the cars and the time taken to reach closest approach.
+</para>
+<para id="element-52"> 
+<figure id="fig-52">
+<title> Motion of two cars </title>
+<media id="idp3116672" alt=""><image src="../../media/rmt1-acff.gif" mime-type="image/gif"/></media>
+<caption> Motion of two cars in perpendicular directions </caption>
+</figure>
+</para>
+<para id="element-53"><term>Solution : </term> Closest approach means that the linear distance between the cars is mimimum. There are two ways to handle this question. We can proceed in the conventional manner, considering individual velocity as observed from ground reference. We use calculus to find the closest approach. Alternatively, we can use the concept of relative velocity and determine the closest approach. Here, we shall first use the relative velocity technique. By solving in two ways, we shall reinforce the conceptual meaning of relative velocity and see that its interpretation in terms of a stationary reference is a valid conception.
+</para>
+
+<para id="element-54">
+The car “A” moves with certain relative velocity with respect to “B”, which is given by :
+</para>
+<para id="element-55">
+<m:math display="block" id="ok">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">Since they are moving with same speed and at right angle to each other, relative velocity is as shown in the figure. Using pythagoras theorem, the magnitude of relative velocity is :
+</para>
+<para id="element-57">
+<figure id="fig-57"><title> Relative velocity </title>
+	<media id="idm3499392" alt=""><image src="../../media/rmt2a.gif" mime-type="image/gif"/></media>
+	<caption> Relative velocity is obtained as sum of vectors. </caption>
+</figure>
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>v</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mn>40</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mn>40</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>40</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">
+Its direction with respect to original direction is :
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mn>40</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-62">
+As we have discussed, relative velocity can be conceptually interpreted as if car “B” is stationary and car “A” is moving with a velocity 
+<m:math>
+  <m:mrow>
+    <m:mn>40</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+ making an angle 45°. Since perpendicular drawn from the position of “B” (which is stationary) to the path of motion of “A” is the shortest linear distance and hence the closest approach. Therefore, closets approach by trigonometry of Δ ABC, 
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> Relative velocity </title>
+<media id="idm4525552" alt=""><image src="../../media/rmt3-a493.gif" mime-type="image/gif"/></media>
+<caption> Closest approach </caption>
+</figure>
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mi>min</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>x</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msqrt>
+        <m:mn>2</m:mn>
+      </m:msqrt>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">
+We should understand here that car “A” is moving in the direction as shown from the perspective of car “B”. 
+</para>
+<para id="element-66">
+The time taken by car “A” to travel 
+<m:math>
+  <m:mrow>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+km with a velocity of 
+<m:math>
+  <m:mrow>
+    <m:mn>40</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+ m/s along the direction is :
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>40</m:mn>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>8</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>h</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>7.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>min</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+Now, let us now attempt to analyze motion from the ground’s perpective. The figure here shows the positions of the car and linear distance between them at a displacement of 1 km. The linear distance first decreases and then increases. At a given time, the linear distance between the cars is :
+</para>
+<para id="element-69">
+<figure id="fig-69">
+<title> Motion of two cars </title>
+<media id="idp2444528" alt=""><image src="../../media/rmt4-6a68.gif" mime-type="image/gif"/></media>
+<caption> Closest approach </caption>
+</figure>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>10</m:mn>
+              <m:mo>-</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+For minimum distance, first time derivative is equal to zero. Hence,
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mo>−</m:mo>
+          <m:mn>2</m:mn>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>10</m:mn>
+              <m:mo>−</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>d</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mi>d</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+        <m:mi>y</m:mi>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>d</m:mi>
+            <m:mi>y</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mi>d</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mrow>
+          <m:msqrt>
+            <m:mrow>
+              <m:mo>{</m:mo>
+              <m:msup>
+                <m:mfenced>
+                  <m:mrow>
+                    <m:mn>10</m:mn>
+                    <m:mo>-</m:mo>
+                    <m:mi>x</m:mi>
+                  </m:mrow>
+                </m:mfenced>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>}</m:mo>
+            </m:mrow>
+          </m:msqrt>
+        </m:mrow>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>10</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>d</m:mi>
+          <m:mi>x</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>d</m:mi>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfrac>
+      <m:mo>+</m:mo>
+      <m:mn>2</m:mn>
+      <m:mi>y</m:mi>
+      <m:mfrac>
+        <m:mrow>
+          <m:mi>d</m:mi>
+          <m:mi>y</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>d</m:mi>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">
+Since cars are moving with same speed, x = y. Hence,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">
+The closest approach, therefore, is :
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mi>min</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>10</m:mn>
+              <m:mo>-</m:mo>
+              <m:mi>x</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>10</m:mn>
+              <m:mo>-</m:mo>
+              <m:mn>5</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mn>5</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+
+</section>  
+
+ 
+  </content>
+  
+</document>

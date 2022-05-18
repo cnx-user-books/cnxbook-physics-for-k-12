@@ -1,0 +1,1885 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Analyzing collision</title>
+  <metadata>
+  <md:content-id>m14276</md:content-id><md:title>Analyzing collision</md:title>
+  <md:abstract>Analyzing collision situation involves application of basic conservation principles in a closed system.</md:abstract>
+  <md:uuid>f791bf9c-dc74-4cb8-9e02-1da4b4df5d8b</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">We have discussed different physical laws pertaining to collision. In this module, we shall combine these concepts to analyze different types of collision. The basic classification of collision is based on the nature of collision i.e. elastic and inelastic collisions. Further, we shall derive expressions for attributes like final velocities of the colliding bodies in both one and two dimensions. 
+</para>
+
+<section id="section-1">
+<title> Elastic collision in one dimension </title>
+
+<para id="element-2">Elastic collision in one dimension involves collision of two bodies, which move along the same straight line. In order that collision is one dimensional, it should be "head - on" collision so that bodies after collision follow the same straight line. This restriction is implied for one dimensional collision. 
+</para>
+<para id="element-3">In this case, there are two governing equations with respect to conservation of linear momentum and kinetic energy. Since collision is in one dimension, we can use scalar form of linear momentum equation with a sign convention. The velocity in the reference direction of associated coordinate system is considered positive. 
+</para>
+<para id="element-4">
+To write the governing equations, let us consider that 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ be the masses of the projectile body and target body respectively. Let us also consider that they move with velocity 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:math>
+ before collision; and 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:math>
+ after collision. For the collision, it is imperative that velocity of the projectile (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+</m:math>
+) is greater than that of target (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:math>
+). Now the momentum equations is :
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Elastic collision in one dimension </title>
+<media id="id7073012" alt=""><image src="../../media/ac1.gif" mime-type="image/gif"/></media>
+<caption> Projectile body collides "head - on" with the target. </caption>
+</figure>
+</para>
+<para id="element-6">
+<equation id="equation-6">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-7">
+We can rearrange this equation by clubbing attributes of projectile and target on either side of the equation as :
+</para>
+<para id="element-8">
+<equation id="equation-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>  
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-9">
+From kinetic energy consideration, we have :
+</para>
+<para id="element-10">
+<equation id="equation-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-11">
+Again rearranging attributes of bodies on either side of equation :
+</para>
+<para id="element-12">
+<equation id="equation-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo> 
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo> 
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<para id="element-14">
+Dividing equation - 4 by equation - 2, we have :
+</para>
+<para id="element-15">
+<equation id="equation-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-16">This is an important equation. This equation can be interpreted in terms of relative velocity with which projectile and target move with respect to each other. The left hand side of the expression gives the velocity of approach i.e. the relative velocity with which projectile moves towards the target for the collision to occur. On the other hand, right hand side of the equation gives the velocity of separation with which target is separated from the projectile.
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Velocity of approach </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> Velocity of separation </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+We can summarize the discussion so far about elastic collision in one dimensions with following characterizing aspects : 
+</para>
+<para id="element-19">
+<list id="list-19" list-type="bulleted"><item> The bodies move along same straight line before and after collision. </item>
+<item> The collision is "head - on". </item>
+<item> There is no loss of kinetic energy of the system during collision. </item>
+<item> Velocity of approach (of projectile) is equal to velocity of separation (of target). </item>
+</list>
+</para>
+
+<section id="section-1a">
+<title> Velocities after collision </title>
+<para id="element-20">
+We can use following two equations to find expression for final velocities of two bodies after collision :
+</para>
+<para id="element-21">
+<equation id="equation-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-22">
+<equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-23">To find final velocity of projectile, 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+</m:math>
+, we multiply equation - 5 by 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ :</para>
+<para id="element-24">
+<equation id="equation-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-25">
+Subtracting equation - 6 from equation - 1, we have :
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+<equation id="equation-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-29">Similarly, we can find the final velocity of the target by multiplying equation - 5 by 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and solving the resulting equations,
+</para>
+<para id="element-30">
+<equation id="equation-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<section id="section-1aa">
+<title> Special cases </title>
+<para id="element-31">
+Here, we discuss some special cases of elastic collision in one dimension :
+</para>
+<para id="element-32">
+<term>1: Collision between equal masses :</term>
+</para>
+<para id="element-33">In this case, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+</m:math>
+(say). Putting this value in the equations of final velocities (equation 7 and 8), we have :
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+and
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">This is an interesting result. When bodies of two equal masses collide elastically and "head - on", the velocities of projectile and target are exchanged. The projectile acquires the initial velocity of target and the target acquires the initial velocity of the projectile. If the target is initially at rest, then projectile is rendered to come to a dead stop as it acquires the initial velocity of the target. We can probably experience such thing if we are able to hit an identical billiard ball or  coin "head - on" with identical billiard ball or  coin. If the hit is "head - on", then the striking ball or coin should come to a stop.   
+</para>
+<para id="element-38">
+<term> 2: Collision between light projectile and heavy target : </term>
+</para>
+<para id="element-39">From our daily experience, we can visualize such collision. What happens when a hard ball (light projectile) hits a wall or hard surface (heavy target). We know that wall remains where it stands, whereas the ball reverses its trajectory without any change in the magnitude of velocity. Let us see whether this common experience is supported by the analysis. Here, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> &gt;&gt; </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+. As such, we can neglect 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ in comparison to 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ in the expressions of final velocities. Various expressions as contained in the equations of final velocities can be approximated as :
+</para>
+<para id="element-40"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">Putting these approximate values in the equations of final velocities (equations 7 and 8), we have :
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">
+and
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+The second result reveals that the heavier target maintains its initial velocity. If the target is initially at rest , then it remains at rest.
+</para>
+<para id="element-48">
+On the other hand, velocity of the lighter projectile varies and depends on the combination of initial velocities of both projectile and target. If the target is initially at rest, then 
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+This means that the projectile reverses its motion. 
+</para>
+<para id="element-51">
+<term> 3: Collision between heavy projectile and light target : </term>
+</para>
+<para id="element-52">
+Could we think of such collision and the consequent result? It is likely that the motion of heavy projectile is not affected at all, whereas it is likely that the lighter target flies off with a higher velocity. It is what our common sense indicates. Let us test our common sense.
+</para>
+<para id="element-53">
+Here, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &gt;&gt; </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+. As such, we can neglect 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ in comparison to 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ in the expressions of final velocities. Various expressions as contained in the equations can be approximated as :
+</para>
+<para id="element-54"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+and
+</para>
+<para id="element-57"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> ≈ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">Putting these approximate values in the equations of final velocities (equations 7 and 8), we have :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+and
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">The first result reveals that the heavier projectile indeed maintains its initial velocity. 
+</para>
+<para id="element-63">On the other hand, velocity of the lighter target varies and depends on the combination of initial velocities of both projectile and target. If the target is initially at rest, then 
+</para>
+<para id="element-64"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">This means that the light target flies off with double the initial velocity of the projectile. 
+</para>
+<para id="element-66">
+We can summarize these results for elastic collision in one dimension as :
+</para>
+<para id="element-67">
+<list id="list-67" list-type="bulleted"><item> Velocities are exchanged when bodies have equal masses. </item>
+<item> If the heavier target is at rest, then the motion of target remains same, whereas projectile reverses its direction without any change in magnitude. </item>
+<item> If the projectile is heavier and target at rest, the motion of projectile remains same, whereas target acquires double the initial velocity of the projectile. </item>
+</list>
+</para>
+<para id="element-68">We can generally conclude from above results that velocity of the heavier (projectile or target) is unaltered by collision. Most of the time, it is not possible to memorize the expressions of final velocities for different cases. It is generally more convenient to apply the governing laws for the given situation and solve the equation independently. However, the approximated results for the special cases as enumerated above helps save time for working with problems of elastic collision in one dimension. It is, therefore, convenient to remember the results of special cases as enumerated above.
+</para>
+
+<example id="example-70">
+<para id="element-70"><term>Problem : </term> Two spheres "A" and "B" as shown in the figure are identical in shape, size and mass. The sphere "A" moves right with a velocity "v", whereas sphere "B" is at rest. If the wall on the right is fixed, find the velocities of the spheres after all possible collisions have taken place. Assume that collisions are elastic collisions in one dimension and no friction is involved between surfaces.
+</para>
+<para id="element-71">
+<figure id="fig-71">
+<title> Multiple collisions </title>
+<media id="id7090697" alt=""><image src="../../media/ac5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-72"> <term>Solution : </term> Since collisions take place in one dimension, it is imperative that all collisions are "head on" collisions. In order to know the final states of the motion, we proceed from the first collision till the possibility of collision exhausts. 
+</para>
+<para id="element-73">The sphere "A" collides "head - on" with sphere "B". It is one dimensional elastic collision involving equal masses. Therefore, the velocities of the colliding spheres are exchanged after collision. It means that sphere "A" acquires the velocity of "B" i.e it comes to rest. On the other hand, sphere "B" acquires the velocity of sphere "A" and moves with velocity "v" towards the fixed wall. The situation is shown in the figure below.
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> Multiple collisions </title>
+<media id="id7039019" alt=""><image src="../../media/ac6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-75">The sphere "B" moving with velocity "v" collides with fixed wall. This is elastic collision of a lighter projectile with a heavy target. As such, the velocity of the colliding sphere "B" is simply reversed after collision. It means that sphere "B" moves towards sphere "A" with velocity "v" after reversing its motion subsequent to collision with fixed wall. This situation is depicted in the figure.
+</para>
+<para id="element-76">
+<figure id="fig-76">
+<title> Multiple collisions </title>
+<media id="id7113341" alt=""><image src="../../media/ac7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-77">The sphere "B" collides with stationary sphere "A". Again the collision being one dimensional elastic collision between spheres of equal masses, velocities are exchanged. The sphere “B” come to a stop, whereas sphere "A" starts moving left with velocity "v". This constitutes the last collision as sphere "A" moves away from the "B". The final situation is shown in the figure. Evidently, final situation is same as initial situation with only difference that sphere is moving towards left as against its motion towards left in the beginning.
+</para>
+<para id="element-78">
+<figure id="fig-78">
+<title> Multiple collisions </title>
+<media id="id7103304" alt=""><image src="../../media/ac8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-79">This example illustrates how we can analyze elastic collision situations in one dimension with the help of results arrived for special cases. Notably, solution completely avoids any mathematical analysis.
+</para>
+</example>
+</section>
+</section>
+</section>
+
+<section id="section-3">
+<title> Elastic collision in two dimensions </title>
+<para id="element-80">Subsequent to collision, the motion of bodies is determined or affected by the impulse on the bodies. When the collision is "head - on", the impulse is directed along the line of strike. As such, motion of the bodies after collision follows the same line of motion as before collision. Evidently, such is not the case when collision is not "head - on". 
+</para>
+<para id="element-81">
+<figure id="fig-81">
+<title> Elastic collision in two dimensions  </title>
+<media id="id7117630" alt=""><image src="../../media/ac2.gif" mime-type="image/gif"/></media>
+<caption> Bodies move in different directions after collision.</caption>
+</figure>
+</para>
+<para id="element-82">The collision force pair during collision is equal and opposite. The collision force modifies the motion of the bodies as shown in the figure below. The direction of force with respect to the direction of velocity determines what would be the final velocity and its direction. It must be realized that collision force is a variable force. As such, change in velocity takes place during the period of collision and the bodies acquire the final velocity at the end of the collision. 
+</para>
+<para id="element-83">
+<figure id="fig-83">
+<title> Elastic collision in two dimensions  </title>
+<media id="id7037874" alt=""><image src="../../media/ac3.gif" mime-type="image/gif"/></media>
+<caption> Trajectories of the colliding bodies after collision.</caption>
+</figure>
+</para>
+<para id="element-84">
+The figure below shows the situation after collision. The two bodies move in different directions to the one before collision. The motion, therefore, is described in two dimensions x and y.
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Elastic collision in two dimensions  </title>
+<media id="id7006864" alt=""><image src="../../media/ac4.gif" mime-type="image/gif"/></media>
+<caption> Velocities of colliding bodies after collision.</caption>
+</figure>
+</para>
+<para id="element-86">The underlying principles governing collision are a pair of component linear equations and one equation of kinetic energy. Thus, three defining equations are :
+</para>
+<para id="element-87"><term>1: </term> Momentum equations :
+</para>
+<para id="element-88">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1ix </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2ix </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1fx </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2fx </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1iy </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2iy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1fy </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2fy </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-89">
+2: Kinetic energy equation :
+</para>
+<para id="element-90">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-91">
+For the set up shown in the figure, we note here that initial velocities have no component in y-direction. Thus, momentum equation in y-direction is modified as :
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1fy </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2fy </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-93">Writing the component momentum equations in terms of angles, 
+</para>
+<para id="element-94">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-95">
+and
+</para>
+<para id="element-96">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-97">There are four unknowns for given bodies with given initial velocities. They are 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> , </m:mi>
+</m:math>
+ and
+<m:math> 
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+. However, there are only three equations. Evidently, we need to have some experimentally determined value to solve equations for the remaining unknowns. 
+</para>
+</section>
+
+
+  </content>
+  
+</document>

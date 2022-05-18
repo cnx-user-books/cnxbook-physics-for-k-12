@@ -1,0 +1,1008 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Projection in gravitational field (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ecad9c6b-8946-42c9-8a8f-441bf26d5719</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3">We discuss problems, which highlight certain aspects of the study leading to the projection in gravitational field. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> Satellite 
+</item>
+<item> Vertical projection
+</item>
+<item> Escape velocity
+</item>
+</list>
+</para>
+</section> 
+<section id="section-3">
+<title> Satellite 
+</title>
+<section id="section-3a">
+<para id="element-5"><term>Problem 1: </term> A satellite of mass “m” is to be launched into an orbit around Earth of mass “M” and radius “R” at a distance “2R” from the surface. Find the minimum energy required to launch the satellite in the orbit.
+</para> 
+<para id="element-6"><term>Solution : </term> The energy to launch the satellite should equal to difference of total mechanical energy of the system in the orbit and at Earth’s surface. The mechanical energy of the satellite at the surface is only its potential energy. It is given by,
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">On the other hand, satellite is placed at a total distance of  R + 2R = 3R. The total mechanical energy of the satellite in the orbit is,
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>3</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">Hence, energy required to launch the satellite is :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+            <m:mi>m</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section> 
+<section id="section-3b">
+<para id="element-14"><term>Problem 2: </term> A satellite revolves around Earth of radius “R” with a speed “v”. If rockets are fired to stop the satellite to make it standstill, then find the speed with which satellite will strike the Earth. Take g = 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>.
+</para>
+<para id="element-15"><term>Solution : </term>  When the seed of satellite is reduced to zero, it starts falling towards center of Earth. Let the velocity with which it strikes the surface be “v’” and distance between center of Earth and satellite be “r”. 
+</para>
+<para id="element-16">Applying conservation of energy :
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mo>′</m:mo>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">For satellite, we know that kinetic energy is :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19a">Also, we can express "GM" in terms of acceleration at the surface,
+</para>
+<para id="element-19b">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">Substituting these expressions in the equation of law of conservation of mechanical energy and rearranging,
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mo>′</m:mo>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>R</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>                          
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>v</m:mi>
+    <m:msup>
+      <m:mo>′</m:mo>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+            <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mi>R</m:mi>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>v</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23a"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>20</m:mn>
+            <m:mi>R</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>2</m:mn>
+            <m:msup>
+              <m:mi>v</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section> 
+</section> 
+<section id="section-4">
+<title> Vertical projection
+</title>
+<para id="element-24"><term>Problem 3: </term> A particle is projected with initial speed equal to the orbital speed of a satellite near Earth’s surface. If the radius of Earth is “R”, then find the height to which the particle rises.
+</para>
+<para id="element-25"><term>Solution : </term>   It is given that speed of projection is equal to orbital speed of a satellite near Earth’s surface. The orbital speed of the satellite near Earth's surface is given by putting "r = R" in the expression of orbital velocity :
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">Since orbital velocity is less than escape velocity, the particle is returned to the surface after attaining a certain maximum height, “h”. Applying conservation of energy, the height attained by projectile is obtained as :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>   
+</para>
+<para id="element-30">Substituting for “v” and “g”, we have :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:msup>
+            <m:mi>R</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section> 
+<section id="section-5">
+<title> Escape velocity 
+</title>
+<section id="section-5a">
+<para id="element-32"><term>Problem 4: </term> A particle is fired with a velocity 16 km/s from the surface Earth. Find its velocity with which it moves in the interstellar space. Consider Earth’s escape velocity as 11.2 km/s and neglect friction.
+</para>
+<para id="element-33"><term>Solution : </term>  We observe here that initial velocity of the particle is greater than Earth’s escape velocity. We can visualize this situation in terms of energy. The kinetic energy of the particle is used to (i) overcome the mechanical energy binding it to the gravitational influence of Earth and (ii) to move into interstellar space with a certain velocity. 
+</para>
+<para id="element-34">Let “v”, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be velocity of projection, escape velocity and velocity in the interstellar space respectively. Then, applying law of conservation of energy :
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>i</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>i</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">Here, we have considered gravitational potential energy in the interstellar space as zero. Also, we know that kinetic energy corresponding to escape velocity is equal to the magnitude of gravitational potential energy of the particle on the surface. Hence,
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>e</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>i</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>i</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>e</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math></para>
+<para id="element-40">The escape velocity for Earth is 11.2 km/s. Putting values in the equation, we have :
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>i</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>16</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>11.2</m:mn>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>i</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mn>256</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>125.44</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>130.56</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>11.43</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section> 
+<section id="section-5b">
+<para id="element-45"><term>Problem 5: </term> A satellite is orbiting near surface with a speed “v”. What additional velocity is required to be imparted to the satellite so that it escapes Earth’s gravitation. Consider, g = 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math> and R = 6400 km.
+</para>
+<para id="element-46"><term>Solution : </term>  The orbital speed of the satellite near Earth’s surface is given by :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">We can write this expression in terms of acceleration at the surface (g),
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:msup>
+                  <m:mi>R</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>g</m:mi>
+              <m:mi>R</m:mi>
+            </m:mrow>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-51">On the other hand, escape velocity is given by :
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>g</m:mi>
+            <m:mi>R</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Hence, additional velocity to be imparted is difference of two speeds,
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>g</m:mi>
+            <m:mi>R</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>−</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mi>R</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mi>R</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>10</m:mn>
+            <m:mi>X</m:mi>
+            <m:mn>6.4</m:mn>
+            <m:mi>X</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>6</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3.31</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section> 
+</section> 
+
+  </content>
+  
+</document>

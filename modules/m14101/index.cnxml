@@ -1,0 +1,943 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Work by gravity</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>2e16b924-3382-4556-906f-bfe43358f1d6</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Gravity is common to all motions. The most striking aspect of work by gravity stems from the fact that the force due to gravity is constant. As such, value of work is constant for a given displacement irrespective of the state of motion of the particle (i.e velocity of particle). </para>
+
+<para id="element-3">
+We consider two different situations for the analysis of work :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> Particle is subjected to single force due to gravity. </item>
+<item> Particle is subjected to force due to gravity and other forces.  </item>
+</list>
+</para>
+<para id="element-5">
+Two situations are different in their manifestations. For example, projecting an object in vertical direction with initial velocity is different to a situation in which the object (say a lift) is pulled up by the rope attached to it. In the first case, only force that influences the motion of the object is the force due to gravity, whereas the motion of the object in the second case is determined by the force of gravity and tension in the string pulling the object. The situation, in the first case, is described by initial velocity. On the other hand, we will need force analysis of the forces with a free body diagram to know the forces and resulting acceleration. These two situations are shown in the figure. 
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Application of force (s) </title>
+<media id="idp7698064" alt=""><image src="../../media/wg1.gif" mime-type="image/gif"/></media>
+<caption> First figure shows an object thrown at a speed. Second figure shows lift being pulled up by the tension in the rope. </caption>
+</figure>
+</para>
+<para id="element-7">There are many such situations in which force(s) other than garvity plays a role in the motion of an object. When we lift a book from the table, two forces act on the book (i) weight of the book and (ii) force applied by the hand. Note that gravity is always present and is common to all situations. </para>
+
+<section id="section-1">
+<title>Particle is subjected to single force due to gravity.</title>
+
+<para id="element-8">
+We discuss here two different profile of motions (i) vertical and (ii) inclined motion :
+</para>
+
+<section id="section-1a">
+<title> Vertical motion </title>
+
+<para id="element-9">
+When we throw a particle like object with an initial velocity vertically upwards, the force due gravity decelerates the motion by doing a negative work on the object. For a vertical displacement, y, the work done is :
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+<figure id="fig-11"><title> An object projected in vertical direction </title>
+	<media id="idp8493392" alt=""><image src="../../media/wg2.gif" mime-type="image/gif"/></media>
+	<caption> Up and down motions of a vertically projected object </caption>
+</figure>
+</para>
+<para id="element-12">
+Kinetic energy of the particle is correspondingly reduced by the amount of work :
+</para>
+<para id="element-14"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i(up) </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i(up) </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">It is clear from "work-kinetic energy" theorem that initial kinetic energy is equal to "mgh", where "h" is the maximum height. 
+</para>
+
+<para id="element-822"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i(up) </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-670">During this upward motion, force due to gravity transfers energy "from" the particle. This process continues till the particle reaches the maximum height, when kinetic energy is reduced to zero (y = h):</para><para id="element-16"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">A reverse of this description of motion takes place in downward motion. The work by gravity is positive in the downward motion. During this part of motion, the kinetic energy of the particle increases by the amount of work : 
+</para>
+<para id="element-18"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">where “h” is the maximum height attained by the particle. During this downward motion, force due to gravity transfers energy "to" the particle. As a consequence, kinetic energy increases, which is given by :
+</para>
+<para id="element-819"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i(down) </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i(down) </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-865">The process continues till the particle returns to the initial position. Its velocity increases and becomes equal to the velocity of projection on its return to the initial position. For y = 0,</para><para id="element-908"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-185">As such, kinetic energy, at the end of round trip, is equal to that in the beginning.</para><para id="element-20"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+
+<m:mi> K </m:mi>
+<m:mi> f(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i(up) </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-21">For the round trip, net work by gravity is zero. Net transfer of energy “to” or “from” the particle is zero. Initial kinetic energy of the particle is retained at the end of round trip. 
+</para><para id="element-388">Important aspect of this description of motion under gravity is that the end results are specific to gravity. The same result will not hold for motion, which is intervened by force like friction. We shall know that the difference arises due to the difference in the nature of two forces. We shall discuss these difference in detail in a separate module on conservative force. </para>
+</section>
+<section id="section-1b">
+<title> Motion along incline </title>
+<para id="element-22">We shall, now, consider projection of a block on a smooth incline with initial velocity "v". Only force acting on the block is force due to gravity. The component of force is mg sinθ, which opposes motion in upward direction and aids motion in downward direction. Work done for going up the incline for a displacement “y” is :
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Motion along incline </title>
+<media id="idp6731056" alt=""><image src="../../media/wg3.gif" mime-type="image/gif"/></media>
+<caption> The component of gravity along incline is acting downward. </caption>
+</figure>
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> x </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-25">where "r" is any intermediate length along the incline covered by the block. Considering trigonometric ratio of sine of the angle of incline, we have :
+</para>
+<para id="element-26"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+Hence,
+</para>
+<para id="element-28"><m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:msub>
+						<m:mi> W </m:mi>
+						<m:mi> G(up) </m:mi>
+					</m:msub>
+					<m:mo> = </m:mo>
+			<m:mo> - </m:mo>			<m:mi> m </m:mi>
+					<m:mi> g </m:mi>
+					<m:mi> y </m:mi>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+<para id="element-29">This is an important result as it underlines that the work depends only on the vertical component of displacement i.e. the displacement along the direction in which force is applied - not on the component of displacement in the direction perpendicular to that of force. Work by gravity for horizontal displacement is zero as force and displacement are at right angle. This independence of work by gravity from horizontal displacement is further reinforced with the concept of conservative force and corresponding concept of potential energy as discussed in the corresponding modules. 
+</para>
+<para id="element-30">
+The initial kinetic energy of the block decreases as force due to gravity transfers energy from the block :
+</para>
+<para id="element-31"><m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:msub>
+						<m:mi> K </m:mi>
+						<m:mi> f(up) </m:mi>
+					</m:msub>
+					<m:mo> = </m:mo>
+					<m:msub>
+						<m:mi> K </m:mi>
+						<m:mi> i(up) </m:mi>
+					</m:msub>
+					<m:mo> - </m:mo>
+					<m:mi> m </m:mi>
+					<m:mi> g </m:mi>
+					<m:mi> y </m:mi>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+<para id="element-32">
+This process continues till the particle reaches the maximum height, when kinetic energy is reduced (speed is zero) to zero :
+</para>
+<para id="element-33"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+A reverse of this description of motion takes place in downward motion. The work by gravity is positive (but same in magnitude) and kinetic increases by the amount of work : 
+</para>
+<para id="element-35"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-36">
+where “h” is the maximum height attained by the particle. 
+</para>
+<para id="element-37">The process continues till the particle returns to the initial position, when its velocity is same as that in the beginning. As such kinetic energy at the end of round trip is equal to that in the beginning.
+</para>
+<para id="element-38"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i(up) </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-39">
+For the roundtrip, net work by gravity is zero. Net transfer of energy “to” or “from” the particle is zero. Initial kinetic energy of the particle is retained at the end of round trip. 
+</para>
+<para id="element-40">These results are exactly the same as for the vertical motion discussed in the previous section. Interestingly, work along any incline that reaches same height is same. The objects released  from a given height will have same velocity and kinetic energy, irrespective of the length of incline involved. 
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Motion along incline </title>
+<media id="idp11385760" alt=""><image src="../../media/wg4.gif" mime-type="image/gif"/></media>
+<caption> Blocks have same velocity and kinetic energy on reaching ground. </caption>
+</figure>
+</para>
+<para id="element-42">The work, kinetic energy and velocity are independent of path between end points, provided the vertical height is same in all cases. This is even true for curved path. Any curved path can be considered to be series of linear path having horizontal and vertical components. As horizontal component is not relevant,  vertical components sum up to the net height.
+</para>
+<para id="element-43">
+<figure id="fig-43">
+<title> Motion along curved path </title>
+<media id="idp6618096" alt=""><image src="../../media/wg5.gif" mime-type="image/gif"/></media>
+<caption> Vertical components sum up the net height. </caption>
+</figure>
+</para>
+<para id="element-44">We must, however, emphasize that this is not a general result, but specific to gravity and other conservative forces (we shall define this concept in a separate module.). For example, if the surfaces are rough, then block will not be able to retain its kinetic energy on the return to initial position of projection due to friction, which is not a conservative force.
+</para><para id="element-426">In the nutshell, we have learned following characterizing features of the motion of block acted upon by gravity alone :</para><para id="element-355"><list id="list-355" list-type="bulleted"><item> Gravity is a constant force. Hence, work by gravity is constant for a given displacement.  </item>
+<item> The particle retains the kinetic energy on return to same vertical position. </item>
+<item> Work by gravity for horizontal displacement is zero as force and displacement are at right angle. </item>
+<item> Work by gravity is independent of path details and depends only on the vertical component of displacement. </item>
+</list>
+</para>
+
+</section>
+</section>
+
+<section id="section-2">
+<title> Particle is subjected to gravity and other forces </title>
+<para id="element-45">We must understand that work by force due to gravity for a given displacement is independent of the presence of other forces. The work done by gravity remains same. When other forces are also present, “work-kinetic energy” theorem has following form :
+</para>
+
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+where 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:math>
+ are the work done by the gravity and other force(s).
+</para>
+<para id="element-48">
+Here, work done by other external force(s) may be analyzed with respect to following different conditions :
+</para>
+<para id="element-49">
+<list id="list-49" list-type="enumerated">
+<item> Initial and final speeds are zero. </item>
+<item> Initial and final speeds are same. </item>
+<item> Initial and final speeds are different. </item>
+</list>
+</para>
+<para id="element-50">
+In the first two cases, initial and final kinetic energy are same. Hence,
+</para>
+<para id="element-51"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-52">This is an important result. The work done by other force(s) is same as that by gravity, but with a negative sign (we have already discussed such case in previous module). This feature of motion, when end conditions are same, facilitates computation of work by other forces a great deal, as we need not be concerned of the external force other than gravity. We simply compute the work by gravitational force. The work by other external force(s) is equal to the work by gravity with a negative sign. 
+</para>
+<para id="element-53">In third case, kinetic energies at end points are not same. The difference in kinetic energy during a motion is equal to the net work done by all forces. In this case, we can not consider work by other forces to be equal in magnitude to that by gravity. Instead, we would require to find individual force by force analysis and then compute work by each force individually. 
+</para>
+
+<example id="example-54">
+<para id="element-54"><term>Problem : </term> A lift, weighing 1000 kg, is raised vertically by a string - pulley arrangement with an upward acceleration of 1 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+
+. If the initial speed of the lift is 2 m/s, find the speed attained by the lift after traveling a vertical distance of 10 m.
+</para>
+<para id="element-54a"> <term>Solution : </term> Here, lift is moving with upward acceleration of 1 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>. It means that velocities in the beginning and end are not same. Therefore, work done by gravity and tension is not zero.
+</para>
+
+<para id="element-54b">
+Now, work done by gravity is :
+</para>
+<para id="element-55">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1000 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 100000 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-56">In order to know the work done by the tension, we need to know the tension. Note here that work by tension is not equal to work by gravity as in earlier case. From, free body diagram, we have :
+</para>
+<para id="element-57">
+<figure id="fig-57">
+<title> Free body diagram </title>
+<media id="idp1186640" alt=""><image src="../../media/wg6.gif" mime-type="image/gif"/></media>
+</figure>
+
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> g </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 1000 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 11000 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-59">
+Work done by tension in the string is :
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> x </m:mo> 
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 11000 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 110000 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+Using “work - kinetic energy” theorem, we have :
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo> 
+<m:mn> 100000 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 110000 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 10000 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 10000 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10000 </m:mn>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 24 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 4.9 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+</section>
+
+
+  </content>
+  
+</document>

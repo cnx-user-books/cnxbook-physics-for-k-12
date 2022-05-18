@@ -1,0 +1,315 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Force</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9230886e-ba38-4c47-ba66-690f4f70ca08</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">We all have extensive experience of force in its various forms. Newton’s laws of motion provide significant insight about the nature of force and what it does. The laws of motion emphasize that application of a single force (or resultant force) on a body changes its motion (velocity) either in direction or magnitude or both. 
+</para>
+<section id="section-1">
+<title> What is force ? </title>
+<para id="element-2">What is force? This basic important question about force remains unanswered even today. We do not know : what is force and how does it come into existence ? Our best guess today is that it arises from some short of change in the characterization of vacuum around us or according to quantum field theory, force is mediated by exchange of particles called "gravitons" (gravitational force), "photons" (electromagnetic force), "gluons" (strong nuclear force) and "bosons" (weak force). One thing common to all quantum models attempting to explain existence of force is that it propagates at the speed of light. For the time being, however, it would be better if we simply ignore this question and proceed ahead with what we know about force. We shall return to this topic once we familiarize ourselves with other aspects of force.
+</para>
+<para id="element-3">What we know today with definite authority about force is actually its effect on interaction with a particle or a body. Newton’s laws of motion precisely provide this information. The laws tell us about the change in the motion (velocity) of the body on which force is applied. An important description of force is that it is a "push” or “pull” on a body. Importantly, this is the nature of all types of force, irrespective of their class or genesis (gravitational, physical, mechanical, chemical, nuclear, electrical, etc.).
+</para>
+<para id="element-3a">
+We can measure force in exact terms as ”acceleration produced in unit mass”. Using Newton’s second law,
+</para>
+<para id="element-4">
+For m = 1 kg, 
+</para>
+<para id="element-5">F (Newton) = ma = 1 x a = a (
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+)
+</para>
+<para id="element-6">But, this measurement of force would essentially be in terms of what it does (acceleration) rather than in terms of what it is. 
+</para>
+<para id="element-7">
+The question “what is force?” is, therefore, unanswered as we actually do not know.
+</para>
+<section id="section-1a">
+<title> Context of Newton’s laws of motion </title>
+<para id="element-8">Validity of Newton’s laws of motion is limited in important ways. Some of the limitations are basic. The relationship between force and acceleration as given by Newton's second law does not hold at great speeds (comparable to the speed of light) and is replaced by more general law as given by special theory of relativity. In this sense, Newton’s laws are a subset of more general laws as applicable to high speed motion. Further, Newton’s classical mechanics (so to speak) breaks down at atomic level and is substituted by quantum mechanics.
+</para>
+<para id="element-9">Even in the realm of classical mechanics, Newtonian mechanics is valid to motion as measured in certain type of reference system called inertial frame of reference. An inertial frame of reference is the one, in which Newton’s laws of motion are valid. The inertial frame of reference is a non-accelerated frame of reference. 
+</para>
+
+<para id="element-11"><link document="m14042"> Newton's second law of motion  </link> relates force, mass and acceleration. It is important that the measurements of the quantities involved in the relation be same in all inertial frames of reference. Thus, we should be careful while applying Newton’s second law. We must check whether the reference system is inertial or not ? For example, application of Newton’s second law in an accelerated lift will yield unexpected result. Fortunately, this limitation, on the part of reference system, is not insurmountable. We have developed techniques whereupon an accelerated non-inertial reference system can be converted into an equivalent inertial system by applying the concept of pseudo force. Hence, this limitation is not very serious and can be easily overcome.
+</para>
+<para id="element-14">Generally, we apply laws of motion to the terrestrial objects considering that Earth’s surface is an inertial frame. This assumption, as a matter of fact, is not far from the truth. The Earth rotates about its axis. As such, there is centripetal force working on each objects that we might choose to study. Clearly, the reference system attached to Earth is an accelerated frame - not an inertial frame of reference. But think about the motion of the terrestrial objects. They are confined to relatively smaller dimensions, where centripetal acceleration due to rotation may not cause appreciable or noticeable change in the velocity of the motion being observed. In other words, accounting of centripetal acceleration arising from rotation may not require to be taken care of (using pseudo force). 
+</para>
+</section>  
+<section id="section-1b">
+<title> Force as a vector quantity  </title>
+<para id="element-15">Force is a vector quantity. It acts in the direction of application. It is not always possible to identify direction of application in real time situation. As direction of acceleration is same as that of the direction of force, we may identify the direction of force as the direction in which "change of velocity (not velocity alone)" i.e. takes place. 
+</para>
+
+<para id="element-16"> Acceleration or rate of change in velocity takes place considering all forces acting on the body. Force, being vectors, are subject to superposition principle. The superposition principle states that a single vector can represent the effects of all vectors taken together. This single vector is known as net or resultant force. </para>
+
+<para id="element-17">It is possible that the resultant of the force system working on a body adds up to zero and as such there is no acceleration involved. Two forces may be equal, opposite and collinear and thus canceling each other. Mere existence of forces is not a guarantee of the acceleration od change in velocity. Alternatively, we can also state that absence of acceleration is not a guarantee of absence of force.  </para>
+
+<para id="element-18">The fact, that force is a vector, has yet another important implication. The relation of force (cause) and acceleration (effect) can be studied in three mutually perpendicular directions. This feature of representing vector by components is an experimentally verifiable mathematical construction. In simple words as applied to force vector, acceleration in a given direction can be studied by studying component of force (or forces) in that direction as if other components of force in other mutually perpendicular directions did not exist. This is a great simplification in studying mechanics and must be taken advantage, whenever a situation so presents itself.
+</para>
+</section>  
+<section id="section-1c">
+<title> System of forces </title>
+
+<para id="element-19">A body can be subjected to more than one force at a time. We must be careful while applying Newton's second law. The vector addition of forces should include all forces, which act on the body. 
+</para>
+
+<para id="element-20">However, the list of force vectors, being added, must exclude the forces that the body applies on other bodies. Also, internal forces such as the intermolecular forces are not considered as internal forces can not change the velocity of the body. For example, we can not raise ourselves in air, using internal muscular force. 
+</para>
+</section> 
+<section id="section-1d">
+<title> Effects of force </title>
+<para id="element-20a">Generally we associate force with acceleration. This is, however, not always the case. When the object is a rigid body and free to move, then indeed acceleration is the only outcome of the application of force. However, if the object is not a rigid body, then a part of force may be used to deform the object and a part of it may be used to accelerate the object. If the body is constrained to move as well, then only deformation will result. 
+
+</para>
+
+</section>  
+<section id="section-1e">
+<title> Force has no past or future </title>
+<para id="element-20b">
+Force and its effect are current measurements at a particular position. What it means that if we apply a force of 2 N on a body of mass 2 kg for 1 second, then force will produce an acceleration of 1 
+<m:math>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:math>
+ (as given by F=ma) exactly for 1 second. The moment force is removed, the acceleration of the body becomes zero. This is the case with a projectile. We need a force to impart an initial velocity. For the rest of flight when the projectile is airborne, there is only gravity (neglecting air resistance) that determines the acceleration of the projectile. 
+
+
+</para>
+
+</section>
+
+<para id="element-20da">
+<exercise id="exercise-20da">
+<problem id="idm3438032">
+<para id="element-20d">A bob of mass 0.1 kg is hung from a mass-less string of 1 m length. The bob is set in oscillation. Then, the string is cut and the trajectory of the bob is observed.  The bob takes different trajectory depending on the position of bob when the string is cut. It is found that the path is parabolic for the position(s) of bob :
+</para>
+<para id="element-20e">(a) at mean position
+
+</para>
+<para id="element-20f">(b) at extreme position
+
+</para>
+<para id="element-20g">(c) while it is moving up towards extreme position
+
+</para>
+<para id="element-20h">(d) while it is moving down towards mean position 
+</para>
+</problem>
+
+<solution id="idm3009616">
+<para id="element-20i">Force has no past or future. The moment the string is cut, there is no tension force on the bob. Only gravity acts on the bob. If the bob is at extreme position, then its velocity is zero and there is downward acceleration due to gravity. As a result, the bob falls vertically down. 
+</para>
+<para id="element-20j">
+<figure id="fig-20j">
+<title> Path of pendulum bob </title>
+<media id="idm9439504" alt=""><image src="../../media/f1a.gif" mime-type="image/gif"/></media>
+<caption> Path of pendulum bob </caption>
+</figure>
+
+</para>
+<para id="element-20k">In all other cases, the bob has certain velocity. Its direction is horizontal at mean position. It makes certain angle with horizontal when bob is moving either towards extreme position or mean position. In all these cases, velocity is in a direction which is not vertical. The bob is worked down by gravity acting downward. As such, there is downward acceleration due to gravity. This results in a parabolic trajectory.
+</para>
+
+<para id="element-20l">
+Hence, options (b), (c) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section> 
+<section id="section-2">
+<title> Major classifications </title>
+<para id="element-21">Study of force and related phenomena is facilitated with certain classifications. One of the basic classifications is based on our experience with force. In our day to day life, we experience force when objects or particles are in contact. At the same time, we are aware that there are gravitational and electromagnetic forces, which come in to being without contact. These forces can change velocity of an object acting from a distance. 
+
+
+
+</para>
+<para id="element-22"><term>Contact forces :</term> friction, tension, spring, muscle force etc.
+
+</para>
+<para id="element-23"><term>“Action at a distance” forces : </term> gravitational, Electromagnetic  
+
+
+</para>
+<para id="element-24">We should understand that “contact” is a relative concept. What appears to be in contact is actually not in contact at atomic or sub-atomic levels. Further, this classification is also in the root of other important classification that divides force types between “fundamental” and “non-fundamental or other force types” :
+
+
+</para>
+<para id="element-25"><term>Fundamental force : </term>gravitational, Electromagnetic, weak force and strong force (nuclear force)
+
+</para>
+<para id="element-26"><term>Other force types : </term> friction, tension, spring, muscle force etc.
+
+
+</para>
+<para id="element-27">The important interpretation of this classification is that all other forces are actually macroscopic manifestation of fundamental forces. For example, we push an object with our hand using muscle. This muscle force is a macroscopic outcome of chemical force, which in turn is outcome of electromagnetic force. Also, we should keep in mind that the “effect of force” is same. It either pulls an object or pushes an object. In inertial frame of reference (non-accelerated frame of reference), the effect of force is determined by Newton’s laws of motion.
+</para>
+
+
+</section> 
+
+<section id="section-6">
+<title> Newton’s laws of motion and motion types
+</title>
+<para id="element-36">Newton’s laws of motion form the basic framework in which interaction of force with a particle or a body is studied. As a matter of fact, these are the only laws other than conservation laws which govern whole of kinematics and dynamics i.e. study of motion. Newton’s laws of motion are historically postulated for pure translational motion of a particle and that of a body by extension. We, however, employ a similar set of Newton’s laws for studying rotational motion. 
+
+
+</para>
+<para id="element-37">
+There are three corresponding Newton’s laws of motion for pure rotation. Newton’s first law for rotation, for example, states that a body in rotation remains in rotation unless there is an external torque is applied on it. Similarly, Newton’s second law of motion for rotation relates torque, moment of inertia and angular acceleration as :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mrow>
+<m:mi mathvariant="bold"> τ</m:mi>
+<m:mo> = </m:mo>
+
+<m:mi> I </m:mi>
+<m:mi mathvariant="bold"> α </m:mi>
+</m:mrow>
+
+</m:math>
+</para>
+<para id="element-39">
+This relation is very much like the famous relation <m:math>
+<m:mrow>
+<m:mi mathvariant="bold"> F</m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mrow>
+</m:math> for pure translational motion. Clearly, “force” is replaced by “torque”, “mass” by “moment of inertia” and “linear acceleration” by “angular acceleration”.
+</para>
+
+</section> 
+<section id="section-3">
+<title> Generalization of Newton’s laws of motion </title>
+
+<para id="element-28">We have worked with Newton’s laws with fair degree of accuracy as far as “effect of force” i.e. “change in velocity” i.e. “acceleration" is concerned. It is true when we consider interaction at speeds, which are fraction of the speed of light. At higher speed, it is seen that we need a greater force to accelerate a body than that required to accelerate it by the same degree at a lower speed. The special theory of relativity quantifies (or accounts) this difference. The form of Newton’s law in momentum form remains unaltered even at higher speed and is given by :
+
+
+</para>
+<para id="element-29">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> P </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">However, the definition of linear momentum is different at higher speed :
+
+
+</para>
+<para id="element-31">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> c </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+
+</m:msqrt>
+<m:mo> ) </m:mo>
+</m:mrow>
+
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">where “m” is the invariant mass, “v” is velocity and “c” is speed of light. Clearly, the new definition of momentum reduces to classical definition as product of mass and velocity when v&lt;&lt;c. For this reason, we can say that Newton’s laws are subset of more general “special theory of relativity”.
+
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+</section> 
+
+<section id="section-4">
+<title> Unifying theories
+</title>
+<para id="element-34">
+The realization that all forces are manifestation of few fundamental forces, gives rise to a temptation to conclude that all fundamental forces may have a unifying origin or model of description. This tempting idea to unify fundamental forces has led many different approaches and models to describe force. The foremost among these has been the successful unification of electrical and magnetic forces via electromagnetic theory. Both these forces are now considered to be manifested due to the presence of charge and its motion.  However, no further progress towards unifying other fundamental forces could be made based on this model.
+
+
+</para> 
+<para id="element-35">Two promising theories which attempt to unify fundamental forces are “quantum field theory” and “string theory”. The quantum field theory describes force in terms of the exchange of “momentum carrying” particles (photons, bosons etc). According to this theory, the very idea of force is redundant and is replaced by "momentum".
+</para>
+</section> 
+  </content>
+  
+</document>

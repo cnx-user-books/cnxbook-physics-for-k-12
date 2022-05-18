@@ -1,0 +1,885 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Relative velocity in one dimension(application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>064efef4-ffa6-4d05-9aaa-cc0161553a93</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-1">
+<title>  Hints on solving problems </title>
+<para id="element-2">
+<list id="list-2" list-type="enumerated"><item> Foremost thing in solving problems of relative motion is about visualizing measurement. If we say a body "A" has relative velocity "v" with respect to another moving body "B", then we simply mean that we are making measurement from the moving frame (reference) of "B".   
+</item>
+<item> The concept of relative velocity applies to two objects. It is always intuitive to designate one of the objects as moving and other as reference object.   
+</item>
+<item> It is helpful in solving problem to make reference object stationary by applying negative of its velocity to both objects. The resultant velocity of the moving object is equal to the relative velocity of the moving object with respect to reference object. If we interpret relative velocity in this manner, it gives easy visualization as we are accustomed to observing motion from stationary state.      
+</item>
+
+</list>
+</para>
+</section> 
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3">We discuss problems, which highlight certain aspects of the study leading to the relative velocity in one dimension. 
+</para>
+
+
+<example id="example-5">
+<para id="element-5"><term>Problem : </term> A jet cruising at a speed of 1000 km/hr ejects hot air in the opposite direction. If the  speed of hot air with respect to Jet is 800 km/hr, then find its speed with respect to ground.
+</para>
+<para id="element-6"><term>Solution : </term> Let the direction of Jet be x – direction. Also, let us denote jet with “A” and hot air with “B”. Here,
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1000 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> BA </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> -800 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-8">
+Now,
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> = </m:mo>
+<m:mn> 1000 </m:mn>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 800 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 200 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10">
+The speed of the hot air with respect to ground is 200 km/hr.
+</para>
+
+</example>
+
+<example id="example-14">
+<para id="element-14"><term>Problem : </term> If two bodies, at constant speeds, move towards each other, then the linear distance between them decreases at 6 km/hr. If the bodies move in the same direction with same speeds, then the linear distance between them increases at 2 km/hr. Find the speeds of two bodies (in km/hr).
+</para>
+<para id="element-16"><term>Solution : </term> Let the speeds of the bodies are “u” and “v” respectively. When they move towards each other, the relative velocity between them is :
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 6 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+When they are moving in the same direction, the relative velocity between them is :
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> km </m:mi>
+<m:mn> / </m:mn>
+<m:mi> hr </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">
+Solving two linear equations, we have :
+</para>
+<para id="element-21">
+u = 4 km/hr
+</para>
+<para id="element-22">
+v = 2 km/hr
+</para>
+</example>
+
+
+<example id="example-25">
+<para id="element-25"><term>Problem : </term> Two cars A and B move along parallel paths from a common point in a given direction. If “u” and “v” be their speeds (u &gt; v), then find the separation between them after time “t”.
+</para>
+<para id="element-26"><term>Solution : </term> The relative velocity of the cars is :
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+The separation between the cars is :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<example id="example-33">
+<para id="element-33"><term>Problem : </term> Two trains of length 100 m each, running on parallel track, take 20 seconds to overtake and 10 seconds to cross each other. Find their speeds (in m/s).
+</para>
+<para id="element-34"><term>Solution : </term> The distance traveled in the two cases is 100 + 100 = 200m.
+</para>
+
+<para id="element-35">
+Let their speeds be “u” and “v”. Now, relative velocity for the overtake is :
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 200 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> x </m:mo>
+<m:mn> 20 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+The relative velocity to cross each other is :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mi> ‘ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 200 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+Solving two linear equations, we have :
+</para>
+<para id="element-43">
+u = 15 m/s and v = 5 m/s.
+</para>
+</example>
+<example id="example-46">
+<para id="element-46"><term>Problem : </term> Two cars are moving in the same direction at the same speed,”u”. The cars maintain a linear distance "x" between them. An another car (third car) coming from opposite direction meets the two cars at an interval of “t”, then find the speed of the third car.
+</para>
+<para id="element-47"><term>Solution : </term> Let “u” be the speed of either of the two cars and “v” be the speed of the third car. The relative velocity of third car with respect to either of the two cars is :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> rel </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">The distance between the two cars remains same as they are moving at equal speeds in the same direction. The events of meeting two cars separated by a distance “x” is described in the context of relative velocity. We say equivalently that the third car is moving with relative velocity "u+v", whereas the first two cars are stationary. Thus, distance covered by the third car  with relative velocity is given by :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mi> t </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> t </m:mi>
+</m:mfrac>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+<example id="example-51a">
+<para id="element-51a"><term>Problem : </term> Two cars, initially at a separation of 12 m, start simultaneously. First car “A”, starting from rest, moves with an acceleration 2 <m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, whereas the car “B”, which is ahead, moves with a constant velocity 1 m/s along the same direction.  Find the time when car “A” overtakes car “B”.
+</para>
+<para id="element-52a"><term>Solution : </term> We shall attempt this question, using concept of relative velocity. First we need to understand what does the event “overtaking” mean? Simply said, it is the event when both cars are at the same position at a particular time instant. Subsequently, the car coming from behind moves ahead. 
+</para>
+<para id="element-53">Now relative velocity has an appropriate interpretation suiting to this situation. The relative velocity of “A” with respect to “B” means that the car “B” is stationary, while car “A” moves with relative velocity. Thus, problem reduces to a simple motion of a single body moving with a certain velocity (relative velocity) and covering a certain linear distance (here sepeartion of 12 m) with certain acceleration. Note that car “B” has no acceleration.  
+</para>
+<para id="element-54">
+Relative velocity of “A” with respect to “B”, i.e. 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+</m:math>
+, at the start of motion is :
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> -</m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> -</m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+Relative acceleration of “A” with respect to “B”, i.e. aAB is :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> -</m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> -</m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+Applying equation of motion for a single body (remember the second body is rendered stationary),
+</para>
+<para id="element-59"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 12 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Neglecting negative value,
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62"><term>Note : </term> We can solve this problem without using the concept of relative velocity as well. The car “A” moves 12 m more than the distance covered by “B” at the time of overtake. If car “B” moves by “x” meters, then car “A” travels “x+12” meters. It means that :
+</para>
+<para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Displacement of “A”  </m:mi>
+<m:mo> = </m:mo>
+<m:mi> Displacement of “B”  </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 12 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 12 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+Putting values,
+</para>
+<para id="element-66"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 12 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+This is the same equation as obtained earlier. Hence,
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">Evidently, it appears to be much easier when we do not use the concept of relative velocity. This is the case with most situations in one dimensional motion of two bodies. It is easier not to use concept of relative velocity in one dimensional motion to the extent possible. We shall learn subsequently, however, that the concept of relative velocity has an edge in analyzing two dimensional motion, involving two bodies.
+</para>
+
+</example>
+
+</section>  
+
+  
+  </content>
+  
+</document>

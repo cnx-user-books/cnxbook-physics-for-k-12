@@ -1,0 +1,856 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Acceleration</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5dddd312-be8e-4226-9f6d-297ee9e1d21b</md:uuid>
+</metadata>
+<content>
+
+
+<para id="element-1">All bodies have intrinsic property to maintain its velocity. This is a fundamental nature of matter. However, a change in the velocity results when a net external force is applied. In that situation,  <link document="m13348" target-id="section-4b">velocity</link> is not constant and is a function of time.    
+</para>
+
+
+
+<para id="element-2">In our daily life, we are often subjected to the change in velocity. The incidence of the change in velocity is so common that we subconsciously treat constant velocity more as a theoretical consideration. We drive car with varying velocity, while negotiating traffic and curves. We take a ride on the train, which starts from rest and comes to rest. We use lift to ascend and descend floors at varying speeds. All these daily life routines involve change in the velocity. The spontaneous natural phenomena are also largely subjected to force and change in velocity. A flying kite changes its velocity in response to wind force as shown in the figure below.  
+</para>
+<para id="element-2a">
+<figure id="fig2a">
+ <title>A flying kite</title>
+<media id="idm3602096" alt=""><image src="../../media/a1.gif" mime-type="image/gif"/></media>
+<caption> The kite changes its velocity in response to wind force.</caption>
+</figure>
+</para>
+
+
+
+
+<para id="element-3">The presence of external <link document="m14040" target-id="section-4b">force</link> is a common feature of our life and not an exception. Our existence on earth, as a matter of fact, is under the moderation of force due to gravity and friction. It is worth while here to point out that the interaction of external force with bodies is not limited to the earth, but extends to all bodies like stars, planets and other mass aggregation.  
+</para>
+
+<para id="element-4">For example, we may consider the motion of Earth around Sun that takes one year. For illustration purpose, let us approximate the path of motion of the earth as circle. Now, the natural tendency of the earth is to move linearly along the straight line in accordance with the Newton’s first law of motion. But, the earth is made to change its direction continuously by the force of gravitation (shown with red arrow in the figure) that operates between the Earth and the Sun. The change in velocity in this simplified illustration is limited to the change in the direction of the velocity (shown in with blue arrow).
+</para>
+
+<para id="element-5">
+<figure id="fig5">
+ <title> Motion of earth around sun </title>
+<media id="idm4621648" alt=""><image src="../../media/a2.gif" mime-type="image/gif"/></media>
+<caption> Gravitational force changes the direction of the motion</caption>
+</figure>
+</para>
+
+
+<para id="element-6">
+This example points to an interesting aspect of the change in velocity under the action of an external force. The change in velocity need not be a change in the magnitude of velocity alone, but may involve change of magnitude or direction or both. Also, the change in velocity (effect) essentially indicates the presence of a net external force (cause). 
+</para>
+
+<section id="section-1">
+<title>Acceleration</title>
+
+<para id="element-7">
+<definition id="definition-7">
+<term> Acceleration </term>
+<meaning id="idp97808"> Acceleration is the rate of change of velocity with respect to time.
+</meaning>
+</definition>
+</para>
+<para id="element-8">It is evident from the definition that acceleration is a vector quantity having both magnitude and direction, being a ratio involving velocity vector and scalar time. Mathematically,  
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> Δ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> Δ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-10">The ratio denotes average acceleration, when the measurement involves finite time interval; whereas the ratio denotes instantaneous acceleration for infinitesimally small time interval,  
+
+<m:math>
+<m:mi> Δ </m:mi>
+<m:mi> t </m:mi>
+<m:mo> → </m:mo>
+<m:mn> 0 </m:mn>
+</m:math>
+. 
+</para>
+<para id="element-11">
+We know that velocity itself has the dimension of length divided by time; the dimension of the acceleration, which is equal to the change in velocity divided by time, involves division of length by squared time and hence its dimensional formula is 
+<m:math>
+<m:mi> L </m:mi>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+
+</m:math>
+ . The SI unit of acceleration is 
+<m:math>
+<m:mi> meter/ </m:mi>
+<m:msup>
+<m:mi> second </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+i.e. <m:math>
+<m:mi> m/ </m:mi>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. 
+</para>
+<section id="section-1a">
+<title> Average acceleration</title>
+
+<para id="element-12">
+Average acceleration gives the overall acceleration over a finite interval of time. The magnitude of the average acceleration tells us the rapidity with which the velocity of the object changes in a given time interval. 
+</para>
+
+<para id="element-14"><m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> Δ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> Δ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+<figure id="fig15">
+ <title> Average acceleration </title>
+<media id="idm973744" alt=""><image src="../../media/a3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-16">
+The direction of acceleration is along the vector <m:math>
+
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and not required to be in the direction of either of the velocities. If the initial velocity is zero, then <m:math>
+
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:math>
+ and average acceleration is in the direction of final velocity. 
+</para>
+<para id="element-17">
+<note id="idm13619616">Difference of two vectors 
+
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+
+</m:math>
+
+can be drawn conveniently following certain convention (We can take a mental note of the procedure for future use). We draw a straight line, starting from the arrow tip (i.e. head) of the vector being subtracted 
+
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+
+</m:math>
+to the arrow tip (i.e. head) of the vector from which subtraction is to be made
+
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+</m:math>
+. Then, from the triangle law of vector addition,
+
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+
+<m:mo> + </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</note>
+</para>
+
+</section>
+
+<section id="section-1b">
+<title>Instantaneous acceleration</title>
+<para id="element-18">
+Instantaneous acceleration, as the name suggests, is the acceleration at a given instant, which is obtained by evaluating the limit of the average acceleration as  
+<m:math>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> → </m:mo>
+<m:mn> 0 </m:mn>
+</m:math>.
+</para>
+<para id="element-19">
+<figure id="fig19">
+ <title> Instantaneous acceleration </title>
+<media id="idp3910000" alt=""><image src="../../media/a4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-20"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi mathvariant="bold"> a </m:mi>
+          <m:mo>=</m:mo>
+          <m:munder>
+          <m:mrow> 
+          <m:mi> lim </m:mi> 
+          <m:mspace width="10pt"/> 
+          </m:mrow> 
+          <m:mrow> 
+              <m:mo>Δ</m:mo>
+              <m:mi>t</m:mi>
+              <m:mo>→</m:mo>
+              <m:mn> 0 </m:mn>
+          </m:mrow> 
+          </m:munder>
+          <m:mfrac> 
+             <m:mrow> 
+              <m:mo mathvariant="bold">Δ</m:mo>
+              <m:mi mathvariant="bold">v</m:mi>
+             </m:mrow> 
+             <m:mrow> 
+              <m:mo> Δ </m:mo>
+              <m:mo> t </m:mo>
+             </m:mrow> 
+          </m:mfrac> 
+ 
+        <m:mo>=</m:mo>
+
+          </m:mtd>
+          <m:mtd>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi mathvariant="bold">v</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow> 
+              </m:mfrac> 
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-21">As the point B approaches towards A, the limit of the ratio evaluates to a finite value. Note that the ratio evaluates not along the tangent to the curve as in the case of velocity, but along the direction shown by the red arrow. This is a significant result as it tells us that direction of acceleration is independent of the direction of velocity. 
+</para>
+<para id="element-22">
+<definition id="definition-22">
+<term> Instantaneous acceleration </term>
+<meaning id="idm3567488"> Instantaneous acceleration is equal to the first derivative of velocity with respect to time.
+</meaning>
+</definition>
+</para>
+<para id="element-23">
+It is evident that a body might undergo different phases of acceleration during the motion, depending on the external forces acting on the body. It means that accelerations in a given time interval may vary. As such, the average and the instantaneous accelerations need not be equal.
+</para>
+<para id="element-24">
+A general reference to the term acceleration (<term>a</term>) refers to the instantaneous acceleration – not average acceleration. The absolute value of acceleration gives the magnitude of acceleration : 
+</para>
+<para id="element-25">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mo>|</m:mo>
+          <m:mi mathvariant="bold"> a </m:mi>
+          <m:mo>|</m:mo>
+         <m:mo>=</m:mo>
+          <m:mi> a </m:mi> 
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+
+
+</section>
+
+
+<section id="section-1c">
+<title>Acceleration in terms of position vector</title>
+
+<para id="element-29a">Velocity is defined as derivative of  <link document="m13609" target-id="section-4b">position vector</link> :
+</para>
+
+<para id="element-29"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi mathvariant="bold"> v </m:mi>
+          <m:mo>=</m:mo>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi mathvariant="bold">r</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow> 
+              </m:mfrac> 
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-30">
+Combining this expression of velocity into the expression for acceleration, we obtain,
+</para>
+<para id="element-31">
+
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi mathvariant="bold"> a </m:mi>
+          <m:mo>=</m:mo>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi mathvariant="bold">v</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow> 
+              </m:mfrac> 
+
+          </m:mtd>
+          <m:mtd>
+
+          <m:mo>=</m:mo>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi mathvariant="bold">r</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+              </m:mfrac> 
+
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math>
+
+
+</para>
+<para id="element-32">
+<definition id="definition-32">
+<term> Acceleration </term>
+<meaning id="idp2371456"> Acceleration of a point body is equal to the second derivative of position vector with respect to time.
+</meaning>
+</definition>
+</para>
+<para id="element-32a">Now, position vector is represented in terms of  <link document="m14519" target-id="section-4b">components</link> as :
+</para>
+
+<para id="element-33">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi mathvariant="bold"> r </m:mi>
+          <m:mo>=</m:mo>
+          <m:mi>x</m:mi>
+          <m:mi mathvariant="bold"> i </m:mi>
+          <m:mo>+</m:mo>
+    <m:mi>y</m:mi>
+          <m:mi mathvariant="bold"> j </m:mi>
+          <m:mo>+</m:mo>
+           <m:mi>z</m:mi>
+          <m:mi mathvariant="bold"> k </m:mi>
+
+
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-34">
+Substituting in the expression of acceleration, we have :
+</para>
+<para id="element-35"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi mathvariant="bold"> a </m:mi>
+          <m:mo>=</m:mo>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>x</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+              </m:mfrac> 
+                <m:mi mathvariant="bold">i</m:mi>
+                <m:mo>+</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>y</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+              </m:mfrac> 
+                <m:mi mathvariant="bold">j</m:mi>
+                <m:mo>+</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>z</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+              </m:mfrac> 
+                <m:mi mathvariant="bold">k</m:mi>
+          </m:mtd>
+            </m:mtr>
+
+        <m:mtr> 
+          <m:mtd>
+          <m:mi mathvariant="bold"> a </m:mi>
+          <m:mo>=</m:mo>
+                <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>x</m:mi>
+                </m:msub>
+                <m:mi mathvariant="bold"> i </m:mi>
+                <m:mo>+</m:mo>
+                <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>y</m:mi>
+                </m:msub>
+                <m:mi mathvariant="bold"> j </m:mi>
+                <m:mo>+</m:mo>
+                <m:msub>
+                <m:mi>a</m:mi>
+                <m:mi>z</m:mi>
+                </m:msub>
+                <m:mi mathvariant="bold"> k </m:mi>
+          </m:mtd>
+            </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+</para>
+
+<example id="example-1">
+<title> Acceleration </title>
+<para id="element-36">
+<term>Problem : </term> The position of a particle, in meters, moving in space is described by following functions in time. 
+</para>
+<para id="element-37">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi>x</m:mi>
+          <m:mo>=</m:mo>
+                <m:mrow> 
+                <m:mn>2</m:mn>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>t</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>;</m:mo>
+                </m:mrow> 
+          <m:mi>y</m:mi>
+          <m:mo>=</m:mo>
+                <m:mo>-</m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>t</m:mi>
+          <m:mspace width="3pt"/> 
+          <m:mi>and</m:mi>      
+          <m:mspace width="3pt"/> 
+          <m:mi>z</m:mi>
+          <m:mo>=</m:mo>
+          <m:mn>5</m:mn>
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-38">
+Find accelerations of the particle at t = 1 and 4 seconds from the start of motion.
+</para>
+
+<para id="element-39">
+<term>Solution : </term> Here scalar components of accelerations in x,y and z directions are given as :
+</para>
+
+<para id="element-40"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+
+              <m:msub>
+              <m:mi>a</m:mi>
+              <m:mi>x</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>x</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+              </m:mfrac> 
+              <m:mo>=</m:mo>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+                </m:mfrac> 
+                <m:mo>(</m:mo>
+                <m:mrow> 
+                <m:mn>2</m:mn>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>-</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>t</m:mi>
+                <m:mo>+</m:mo>
+                <m:mn>3</m:mn>
+                <m:mo>)</m:mo>
+                </m:mrow> 
+              <m:mo>=</m:mo>
+                <m:mn>4</m:mn>
+          </m:mtd>
+            </m:mtr>
+        <m:mtr> 
+          <m:mtd>
+              <m:msub>
+              <m:mi>a</m:mi>
+              <m:mi>y</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>y</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+              </m:mfrac> 
+              <m:mo>=</m:mo>
+
+                <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+                </m:mfrac> 
+                <m:mo>(</m:mo>
+                <m:mo>- </m:mo>
+                <m:mn>4</m:mn>
+                <m:mi>t</m:mi>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+          </m:mtd>
+            </m:mtr>
+        <m:mtr> 
+          <m:mtd>
+              <m:msub>
+              <m:mi>a</m:mi>
+              <m:mi>z</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo>
+
+
+
+
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:mi>z</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+              </m:mfrac> 
+              <m:mo>=</m:mo>
+
+                <m:mfrac> 
+                <m:mrow> 
+                <m:msup>
+                <m:mi>đ</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>đ</m:mi>
+                <m:msup>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                </m:mrow> 
+                </m:mfrac> 
+                <m:mo>(</m:mo>
+                <m:mn>5</m:mn>
+                <m:mo>)</m:mo>
+                <m:mo>=</m:mo>
+                <m:mn>0</m:mn>
+          </m:mtd>
+            </m:mtr>
+
+ 
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-41">
+Thus, acceleration of the particle is :
+</para>
+<para id="element-42">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+           <m:mi mathvariant="bold"> a </m:mi>
+           <m:mo> = </m:mo>
+           <m:mn> 4 </m:mn>
+           <m:mi mathvariant="bold"> i </m:mi>
+          </m:mtd>
+         </m:mtr>
+      </m:mtable> 
+     </m:math>
+</para>
+<para id="element-43">
+The acceleration of the particle is constant and is along x-direction. As acceleration is not a function of time,  the accelerations at t = 1 and 4 seconds are same being equal to 
+<m:math> 
+           <m:mn> 4 </m:mn>
+           <m:mi> m </m:mi>
+           <m:mo> / </m:mo>
+           <m:msup> 
+           <m:mi> s </m:mi>
+           <m:mi> 2 </m:mi>
+           </m:msup> 
+</m:math>.
+</para>
+
+</example>
+</section>    
+</section>
+
+
+
+
+
+
+
+  
+  </content>
+  
+</document>

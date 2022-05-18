@@ -1,0 +1,3096 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Pulleys</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>55cad73a-1c7a-4924-a556-473cba16e0a6</md:uuid>
+</metadata>
+
+
+
+  <content>
+
+<para id="element-82">
+A pulley is a part of a convenient arrangement that makes it possible to transfer force with change of direction. Unless otherwise stated, a pulley is considered to have negligible mass and friction. This is a relative approximation with respect to mass and friction involved with other elements. Pulleys are used in different combination with other elements – almost always with strings and blocks.
+</para>
+
+<para id="element-83">
+It is relatively difficult to fetch a bucket of water from a well with a “string” as compared to a “pulley and string” system. The basic consideration in making useful mechanical arrangements are two folds (i) improve the convenience of applying force and (ii) reduce the magnitude of force. The example of fetching of a bucket of water with “pulley and string” achieves the goal of improving convenience as we find it easier applying force in the level of arms horizontally rather than applying force vertically.
+</para>
+
+<para id="element-84">
+Had it been possible to reduce force for doing a mechanical activity, then that would have been wonder and of course against the well founded tenets of physical laws.  What is meant here by reducing force is that we can fulfill a task (which comprises of force and motion) by reducing force at the expense of extending motion. 
+</para>
+
+<para id="element-2">
+The important characterizing aspects of pulley are discussed in the sections named :
+</para>
+<para id="element-3">
+<list id="list-2" list-type="bulleted"><item> Static or fixed pulley
+ </item>
+<item> Moving pulley
+ </item>
+<item> Combination or Multiple pulley system
+ </item>
+</list>
+</para>
+
+<section id="section-1">
+<title> Static pulley </title>
+
+<para id="element-4">
+The pulley is fixed to a frame. In this situation, we are only concerned with the accelerations of the bodies connected to the string that passes over the pulley. Since string is a single piece inextensible element, the accelerations of the bodies attached to it are same.
+</para>
+<para id="element-5">We are at liberty to choose the direction of acceleration of the blocks attached to the pulley. A wrong choice will be revealed by the sign of acceleration that we get after solving equations. However, it is a straight forward choice here as it is obvious that the bigger mass will pull the blocks - string system down. 
+</para>
+<example id="example-6">
+<para id="element-6"><term>Problem : </term> Two blocks of masses 10 kg and 20 kg are connected by a string that passes over a pulley as shown in the figure. Neglecting friction between surfaces, find acceleration of the blocks and tension in the string (consider 
+<m:math>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+). 
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Static pulley  system </title>
+<media id="idm2984416" alt=""><image src="../../media/fap1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-8"> <term>Solution : </term> The blocks are connected by a taut string. Hence, their accelerations are same. Let us assume directions of accelerations as shown in the figure. Also, let the magnitude of accelerations be “a”.
+</para> 
+<para id="element-9">
+<figure id="fig-9">
+<title> Static pulley  system </title>
+<media id="idm3071888" alt=""><image src="../../media/fap2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-10">
+<m:math>
+<m:mtext> Free body diagram of body of mass 10 kg </m:mtext>
+</m:math>
+</para>
+<para id="element-11">
+The external forces are (i) weight of block, 10g, and (ii) tension, T, in the string. 
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Free body diagram </title>
+<media id="idm7254208" alt=""><image src="../../media/fap3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+<m:math>
+<m:mtext> Free body diagram of body of mass 20 kg </m:mtext>
+</m:math>
+</para>
+<para id="element-16">
+The external forces are (i) weight of block, 20g, and (ii) tension, T, in the string. 
+</para>
+<para id="element-17">
+<figure id="fig-17">
+<title> Free body diagram </title>
+<media id="idm726928" alt=""><image src="../../media/fap4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 200 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+From two equations, we have :
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 200 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 100 </m:mn>
+<m:mn> 30 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 3.33 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20a">Putting value of "a" in either of above two equations, we determine tension as :
+</para>
+<para id="element-20b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 3.3 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 133 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</example>
+
+<para id="element-82a">
+There is a very useful technique to simplify the solution involving "mass-less" string and pulley. As string has no mass, the motion of the block-string system can be considered to be the motion of a system comprising of two blocks, which are pulled down by a net force in the direction of acceleration.
+</para>
+<para id="element-83a">
+Let us consider two blocks of mass "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" connected by a string as in the  previous example. Let us also consider that <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ so that block of mass "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" is pulled down and block of mass "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" is pulled up. Let "a" be the acceleration of the two block system.
+</para>
+<para id="element-84a">
+Now the force pulling the system in the direction of acceleration is :  
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">
+The total mass of the system is :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">
+Applying law of motion, the acceleration of the system is :
+</para>
+<para id="element-89">
+<equation id="equation-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>-</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+</para>
+<para id="element-90">
+Clearly, this method to find acceleration is valid when the block - string system can be combined i.e. accelerations of the constituents of the system are same. We can check the efficacy of this technique, using the data of previous example. Here,
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+The acceleration of the block is :
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>-</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>20</m:mn>
+            <m:mo>-</m:mo>
+            <m:mn>10</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>10</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>20</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>3.33</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+
+<section id="section-2">
+<title> Moving pulley </title>
+
+<para id="element-21">Moving pulley differs to static pulley in one important respect. The displacements of pulley and block, which is attached to the string passing over it, may not be same. As such, we need to verify this aspect while applying force law. The point is brought out with clarity in the illustration explained here. Here, we consider a block attached to a string, which passes over a mass-less pulley. The string is fixed at one end and the Pulley is pulled by a force in horizontal direction as shown in the figure. 
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Moving pulley system </title>
+<media id="idm2601888" alt=""><image src="../../media/fa20.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-24">
+In order to understand the relation of displacements, we visualize that pulley has moved a distance “x” to its right. The new positions of pulley and block are as shown in the figure. To analyze the situation, we use the fact that the length of string remains same in two situations. Now, 
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Moving pulley system </title>
+<media id="idp1344304" alt=""><image src="../../media/fa21.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-26">
+Length of the string, L, in two situations are given as :
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mrow>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo>
+<m:mi> AB </m:mi>
+<m:mo> + </m:mo>
+<m:mi> BC </m:mi>
+<m:mo> = </m:mo>
+<m:mi> AB </m:mi>
+<m:mo> + </m:mo>
+<m:mi> BD </m:mi>
+<m:mo> + </m:mo>
+<m:mi> ED </m:mi>
+</m:mrow>
+</m:math>
+</para>
+<para id="element-27a">
+<m:math display="block">
+<m:mrow>
+<m:mo> ⇒ </m:mo> 
+<m:mi> BC </m:mi>
+<m:mo> = </m:mo>
+<m:mi> BD </m:mi>
+<m:mo> + </m:mo>
+<m:mi> ED </m:mi>
+</m:mrow>
+</m:math>
+</para>
+<para id="element-27b">
+<m:math display="block">
+<m:mrow>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ED </m:mi>
+<m:mo> = </m:mo>
+<m:mi> BC </m:mi>
+<m:mo> - </m:mo>
+<m:mi> BD </m:mi>
+</m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+Now, displacement of the block is :
+</para>
+
+<para id="element-29">
+<m:math display="block">
+<m:mrow>
+<m:mo> ⇒ </m:mo> 
+<m:mi> CE </m:mi>
+<m:mo> = </m:mo>
+<m:mi> CD </m:mi>
+<m:mo> - </m:mo>
+<m:mi> ED </m:mi>
+<m:mo> = </m:mo>
+<m:mi> CD </m:mi>
+<m:mo> - </m:mo>
+<m:mi> BC </m:mi>
+<m:mo> + </m:mo>
+<m:mi> BD </m:mi>
+<m:mo> = </m:mo>
+<m:mi> BD </m:mi>
+<m:mo> + </m:mo>
+<m:mi> BD </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> BD </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+</m:math> 
+</para>
+
+<para id="element-33a">
+Note that for every displacement “x” of pulley, the displacement of block is 2x. We can appreciate this fact pictorially as shown in the figure below : 
+</para>
+
+<para id="element-33b">
+<figure id="fig-33b">
+<title> Moving pulley system </title>
+<media id="idm7918160" alt=""><image src="../../media/fa19.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-34"> Further, as acceleration is second derivative of displacement with respect to time, the relation between acceleration of the block (
+<m:math>
+		<m:msub>
+			<m:mi> a </m:mi>
+			<m:mi> B </m:mi>
+		</m:msub>
+	</m:math>
+)  and pulley (
+<m:math>
+		<m:msub>
+			<m:mi> a </m:mi>
+			<m:mi> P </m:mi>
+		</m:msub>
+	</m:math>
+)  is :
+</para>
+<para id="element-35"><equation id="equation-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-487">This is an important result that needs some explanation. It had always been emphasized that the acceleration of a taut string is always same through out its body. Each point of a string is expected to have same velocity and acceleration! What happened here ? One end is fixed, while other end is moving with acceleration. There is, in fact, no anomaly. Simply, the acceleration of the pulley is also reflected in the motion of the loose end of the string as they are in contact and that the motion of the string is affected by the motion of the pulley. </para><para id="element-91">But the point is made. The accelerations of two ends of a string need not be same, when in contact with a moving body with a free end. </para><example id="example-36">
+<para id="element-36"><term>Problem : </term> A block of mass, “m”  is connected to a string, which passes over a smooth pulley as shown in the figure. If a force “F” acts in horizontal direction, find the accelerations of the pulley and block.
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> Moving pulley system </title>
+<media id="idm1546512" alt=""><image src="../../media/fap5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-38"> <term>Solution : </term> Let us consider that the acceleration of pulley is “a” in the direction of applied force. Now as analyzed before, acceleration of the block is “2a” and is in the same direction as that of pulley. 
+</para> 
+<para id="element-39">
+<figure id="fig-39">
+<title> Moving pulley system </title>
+<media id="idp1837600" alt=""><image src="../../media/fap6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-40a">
+As motion is confined to x-direction, we draw free body diagram considering forces in x-direction only.
+</para>
+<para id="element-40">
+<m:math>
+<m:mtext>  Free body diagram of pulley  </m:mtext>
+</m:math>
+</para>
+<para id="element-41">
+The external forces are (i) force, F, (ii) tension, T, in the string and (ii) tension, T, in the string.
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> Free body diagram </title>
+<media id="idm5466464" alt=""><image src="../../media/fap7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> p </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> p </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+As mass of the pulley is zero,
+</para>
+<para id="element-45"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+
+<m:mi> 2 </m:mi>
+<m:mn> T </m:mn>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46a">
+This is an unexpected result. The pulley is actually accelerated, but the forces on it form a balanced force system. This apparent contradiction of force law is due to our approximation that pulley is “mass-less”. 
+<m:math>
+<m:mtext>  Free body diagram of block  </m:mtext>
+</m:math>
+</para>
+<para id="element-47">
+The external force is (i) tension, T, in the string.
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Free body diagram </title>
+<media id="idm10256" alt=""><image src="../../media/fap8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+Combining two equations, we have :
+</para>
+<para id="element-51"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+Thus, acceleration of the pulley is F/4m and that of block is F/2m. 
+</para>
+</example>
+</section>
+<section id="section-3">
+<title> Combination or Multiple pulley system </title>
+
+<para id="element-54">
+Multiple pulleys may involve combination of both static and moving pulleys. This may involve combining characterizing aspects of two systems. 
+</para>
+<para id="element-55">
+Let us consider one such system as shown in the figure. 
+</para>
+<para id="element-56">
+<figure id="fig-55">
+<title> Multiple pulley system </title>
+<media id="idm2611888" alt=""><image src="../../media/fap9.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-57">
+Let us consider that accelerations of the blocks are as shown in the figure. It is important to note that we have the freedom to designate direction of acceleration without referring to any other consideration. Here, we consider all accelerations in downward direction.
+</para>
+<para id="element-58">
+<figure id="fig-58">
+<title> Multiple pulley system </title>
+<media id="idm223552" alt=""><image src="../../media/fap10.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-59">
+We observe that for given masses, there are five unknowns 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mtext> and </m:mtext>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+.    Whereas the free body diagram corresponding to three blocks provides only three independent relations. Thus, all five unknowns can not be evaluated using three equations. 
+</para>
+<para id="element-60">
+However, we can add two additional equations; one that relates three accelerations and the one that relates tensions in the two strings. Ultimately, we get five equations for five unknown quantities.
+</para>
+<para id="element-61">
+<term>1: Accelerations </term>
+</para>
+<para id="element-62">
+The pulley “A” is static. The accelerations of block 1 and pulley “B” are, therefore, same.  The pulley “B”, however, is moving. Therefore, the accelerations of blocks 2 and 3 may not be same as discussed for the case of static pulley. The accelerations of blocks 2 and 3 with respect to moving pulley are different than their accelerations with respect to ground reference.
+</para>
+<para id="element-63">
+We need to know the relation among accelerations of block 1, 2 and 3 with respect ground. In order to obtain this relation, we first establish the relation among the positions of moving blocks and pulley with respect to some fixed reference. Then we can obtain relation among accelerations by taking second differentiation of position with respect to time. Important to understand here is that these positions are measured with respect to a fixed reference. As such, their differentiation will yield accelerations of the blocks with respect to fixed reference i.e. ground reference. Let the positions be determined from a horizontal datum drawn through the static pulley as shown in the figure.
+</para>
+<para id="element-64">
+<figure id="fig-64">
+<title> Multiple pulley system </title>
+<media id="idp3441008" alt=""><image src="../../media/fap11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-65">
+Now, the lengths of the two strings are constant. Let they be 
+<m:math>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mtext> and </m:mtext>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+.
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+Eliminating 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+, we have :
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mtext> constant </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+This is the needed relation for the positions. We know that acceleration is second derivative of position with respect to time. Hence,
+</para>
+<para id="element-70"><equation id="equation-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> =</m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-71">
+This gives the relation of accelerations involved in the pulley system. 
+</para>
+<para id="element-72">
+<term>2: Tensions in the strings </term>
+</para>
+<para id="element-73">
+We can, now, find the relation between tensions in two strings by considering the free body diagram of pulley “B” as shown in the figure.
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> Free body diagram </title>
+<media id="idm5165888" alt=""><image src="../../media/fap14.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-75">
+Here,
+</para>
+<para id="element-76"><equation id="equation-76">
+<m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:msub>
+						<m:mi> T </m:mi>
+						<m:mn> 1 </m:mn>
+					</m:msub>
+					<m:mo> = </m:mo>
+					<m:mn> 2 </m:mn>
+					<m:msub>
+						<m:mi> T </m:mi>
+						<m:mn> 2 </m:mn>
+					</m:msub>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</equation></para>
+<para id="element-263"><note id="idm15852288">This result appears to be simple and on expected line. But it is not so. Note that pulley "B" itself is accelerated. The result, on the other hand, is exactly same as for a balanced force system. In fact this equality of forces in opposite direction is possible, because we have considered that pulley has negligible mass. This  aspect has been demonstrated in the force analysis of the example given earlier (you may go through the example again if you have missed the point).  
+</note> </para><para id="element-77">
+<term>3: Free body diagrams of the blocks</term>
+</para>
+<para id="element-78">
+The free body diagrams of the blocks are as shown in the figure.
+</para>
+<para id="element-79">
+<figure id="fig-79">
+<title> Free body diagram </title>
+<media id="idp1164672" alt=""><image src="../../media/fap15.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-80"><equation id="equation-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-81">
+Thus, we have altogether 5 equations for 5 unknowns.
+</para>
+<para id="element-81a">
+There is one important aspect of the motions of blocks of mass "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+" and "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:math>
+" with respect to moving pulley "B". The motion of blocks take place with respect to an accelerating pulley. Thus, interpretation of the acceleration must be specific about the reference (ground or moving pulley). We should ensure that all measurements are in the same frame. In the methods, described above we have considered accelerations with respect to ground. Thus, if acceleration is given with respect to the moving pulley in an analysis, then we must first change value with respect to the ground. 
+</para>
+
+<example id="example-237">
+
+
+
+<para id="element-237"><term>Problem : </term> 
+
+In the arrangement shown in the figure, mass of A = 5 kg and mass of B = 10 kg. Consider string and pulley to be mass-less and friction absent everywhere in the arrangement. Find the accelerations of blocks.
+</para>
+<para id="element-238">
+<figure id="fig-238">
+<title> Pulley block arrangement </title>
+<media id="idm4793248" alt=""><image src="../../media/npq10.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+</para>
+<para id="element-239"><term>Solution : </term> 
+
+Let the acceleration of block “A” be “a” in the downward direction. Let the tensions in the string be “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” and “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>”. See figure below showing forces acting on the blocks and moving pulley. The force analysis of the block “A” yields :
+
+</para>
+<para id="element-240">
+<figure id="fig-240">
+<title> Pulley block arrangement </title>
+<media id="idp1522048" alt=""><image src="../../media/npq11.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+</para>
+<para id="element-241">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>50</m:mn>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-242">
+From constraint of string length, we see that :
+
+</para>
+<para id="element-243">
+<figure id="fig-243">
+<title> Pulley block arrangement </title>
+<media id="idm5299200" alt=""><image src="../../media/npq12.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+</para>
+<para id="element-244">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mtext>Constant</m:mtext>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-244a">Differentiating twice with respect to time, we get relation between accelerations of two blocks as :
+</para>
+<para id="element-244b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-245">
+Force analysis of the moving mass-less pulley yields : 
+
+</para>
+<para id="element-246">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-247">
+Force analysis of the block B results (refer to the force diagram shown in the beginning) :
+
+</para>
+<para id="element-248">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>100</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-249">
+Simultaneous equations of forces on blocks A and B are :
+
+</para>
+<para id="element-250">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>50</m:mn>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>100</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-251">
+Solving for “a”, we have :
+
+</para>
+<para id="element-252">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-252a">Thus, accelerations of two blocks are zero. Note, however, that tensions in the strings are not zero. 
+</para>
+
+</example>
+
+
+
+
+
+</section>
+
+<section id="section-5">
+<title>Exercises</title>
+
+<para id="element-201a">
+<exercise id="exercise-201a">
+<problem id="idm3572368">
+<para id="element-201">
+In the arrangement shown, the acceleration of block “A” is 1 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. Consider string and pulley to be mass-less and friction absent everywhere in the arrangement. Then,
+
+</para>
+<para id="element-202">
+<figure id="fig-202">
+<title> Pulley block arrangement </title>
+<media id="idm4203808" alt=""><image src="../../media/npq6.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+</para>
+<para id="element-203">
+(a)	The acceleration of block “B” is 1 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-204">
+(b)	The acceleration of block “B” is 2 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-205">
+(c)	The acceleration of block “B” is 0.5 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-206">
+(d)	The acceleration of block “B” is 0.75 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+
+</para>
+</problem>
+
+<solution id="idp2645904">
+<para id="element-207">
+We are required to determine acceleration of block "B" to answer this question. By inspection, we observe that if block “A” moves “x” distance towards right, then the string length is distributed in two equal halves about hanging pulley. Clearly, if “A” moves by “x”, then “B” moves by x/2. As such, acceleration of “A” is twice that of “B”. As it is given that acceleration of “A” is 1 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>, the acceleration of “B” is 2 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>.
+
+</para>
+<para id="element-208">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-150a">
+<exercise id="exercise-150a">
+<problem id="idm5469360">
+<para id="element-150">
+Given : mass of block “A” = 0.5 kg and acceleration of pulley = 1 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. Consider string and pulley to be mass-less and friction absent everywhere in the arrangement. Then,
+</para>
+<para id="element-151">
+<figure id="fig-151">
+<title> Pulley block arrangement </title>
+<media id="idm8050288" alt=""><image src="../../media/npq3.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+</para>
+<para id="element-152">
+(a)	The force “F” is 1 N.
+</para>
+<para id="element-153">
+(b)	The force “F” is 2 N.
+</para>
+<para id="element-154">
+(c)	The tension in the string is 1 N. 
+</para>
+<para id="element-155">
+(d)	The tension in the string is 0.5 N.
+
+</para>
+</problem>
+
+<solution id="idm5789552">
+<para id="element-156">
+Let the acceleration of block “A” is “a”. We know that the acceleration of block “A” is two times that of pulley. Hence,
+
+</para>
+<para id="element-157">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>X</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-158">
+Let the tension in the string be “T”. Considering forces on block “A”, we have :
+</para>
+<para id="element-159">
+<figure id="fig-159">
+<title> Pulley block arrangement </title>
+<media id="idm3813920" alt=""><image src="../../media/npq4.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+</para>
+<para id="element-160">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-161">
+Considering forces on the mass-less pulley, we have :
+
+</para>
+<para id="element-162">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-163">
+Hence, options (b) and (c) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-253a">
+<exercise id="exercise-253a">
+<problem id="idm5496816">
+<para id="element-253">
+In the arrangement shown in the figure, accelerations of blocks A,B and C are <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> respectively. Consider string and pulley to be mass-less and friction absent everywhere in the arrangement. Then
+
+
+</para>
+<para id="element-254">
+<figure id="fig-254">
+<title> Blocks and pulleys arrangement </title>
+<media id="idm9066640" alt=""><image src="../../media/npq13.gif" mime-type="image/gif"/></media>
+<caption> Blocks and pulleys arrangement </caption>
+</figure>
+
+</para>
+<para id="element-255">
+<m:math display="block">
+  <m:mrow>
+      <m:mi>(a) </m:mi>
+<m:mspace width="2pt"/>
+
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-256">
+<m:math display="block">
+  <m:mrow>
+      <m:mi>(b) </m:mi>
+<m:mspace width="2pt"/>
+
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-257">
+<m:math display="block">
+  <m:mrow>
+      <m:mi>(c) </m:mi>
+<m:mspace width="2pt"/>
+
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-258">
+<m:math display="block">
+  <m:mrow>
+      <m:mi>(d) </m:mi>
+<m:mspace width="2pt"/>
+
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+</problem>
+
+<solution id="idm5876032">
+<para id="element-259">
+Here,  we need to determine relation of accelerations of blocks using constraint of string length. 
+ 
+</para>
+<para id="element-260">
+<figure id="fig-260">
+<title> Blocks and pulleys arrangement </title>
+<media id="idm4127520" alt=""><image src="../../media/npq14.gif" mime-type="image/gif"/></media>
+<caption> Blocks and pulleys arrangement </caption>
+</figure>
+
+</para>
+<para id="element-261">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mtext>constant</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-262">
+Differentiating two times, we have :
+
+</para>
+<para id="element-263a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-264">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-164a">
+<exercise id="exercise-164a">
+<problem id="idm3938592">
+<para id="element-164">
+Given : mass of block “A” = 10 kg, spring constant = 200 N/m, extension in the string = 0.1 m. Consider string and pulley to be mass-less and friction absent everywhere in the arrangement. Then,
+
+</para>
+<para id="element-165">
+<figure id="fig-165">
+<title> Pulley block arrangement </title>
+<media id="idm9652896" alt=""><image src="../../media/npq5.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+
+</para>
+<para id="element-166">
+(a)	The force “F” is 40 N.
+</para>
+<para id="element-167">
+(b)	The acceleration of block A is 4 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+.
+</para>
+<para id="element-168">
+(c) The acceleration of pulley is 1 <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-169">
+(d)The tension in the string is 10 N.
+
+</para>
+</problem>
+
+<solution id="idm6839552">
+<para id="element-170">
+Let “T” be the tension in the string. Here, spring force is equal to tension in the string. 
+
+</para>
+<para id="element-171">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>200</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>0.1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-172">
+Let acceleration of block “A” is “a”. Considering forces on block “A”, we have :
+
+</para>
+<para id="element-173">
+<figure id="fig-173">
+<title> Pulley block arrangement </title>
+<media id="idp2442992" alt=""><image src="../../media/npq4.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+</para>
+<para id="element-174">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-175">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>20</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-176">
+Considering forces on the mass-less pulley, we have :
+
+</para>
+<para id="element-177">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>40</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-178">
+Now, acceleration of pulley is half of the acceleration of block. Hence, acceleration of pulley is 1 <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+
+</para>
+<para id="element-179">
+Hence, options (a) and (c) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+<para id="element-209a">
+<exercise id="exercise-209a">
+<problem id="idm581872">
+<para id="element-210">
+In the arrangement shown,  the mass of “A” and “B” are 1 kg and 2 kg respectively. Consider string and pulley to be mass-less and friction absent everywhere in the arrangement. Then,
+
+</para>
+<para id="element-211">
+<figure id="fig-211">
+<title> Pulley block arrangement </title>
+<media id="idm5741600" alt=""><image src="../../media/npq7.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+
+</para>
+<para id="element-212">
+(a) The tension in the string connected to “A” is 1 N.
+</para>
+<para id="element-213">
+(b) The tension in the string connected to “A” is 20/3 N.
+</para>
+<para id="element-214">
+(c) The tension in the string connected to “B” is 2 N.
+</para>
+
+<para id="element-215">
+(d) The tension in the string connected to “B” is 20/3 N.
+
+</para>
+</problem>
+
+<solution id="idm3164720">
+<para id="element-216">
+Let the tensions in the strings connected to blocks “A” and “B” be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” respectively. We see here that only force making block “A” to move on the table is tension in the string connected to it. Let acceleration of block “A” is “a”. From constraint relation, we know that the acceleration of “A” is twice the acceleration of “B”. Thus, acceleration of block “B” is “a/2”. Applying law of motion for block “A”, we have :
+
+</para>
+<para id="element-217">
+<figure id="fig-217">
+<title> Pulley block arrangement </title>
+<media id="idm1447424" alt=""><image src="../../media/npq8.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+</para>
+
+<para id="element-218">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mrow>
+    <m:mo>X</m:mo>
+        <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+        <m:mn>1</m:mn>
+    <m:mo>X</m:mo>
+
+        <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+        <m:mi>a</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-219">
+Consideration of mass-less pulley, 
+
+</para>
+<para id="element-220">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mn>2</m:mn>
+      <m:msub>
+        <m:mi>T</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    <m:mo>=</m:mo>
+      <m:mn>2</m:mn>
+    <m:mo>X</m:mo>
+      <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+      <m:mn>2</m:mn>
+      <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-221">
+Applying law of motion for block “A”, we have :
+
+</para>
+<para id="element-222">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+      <m:mi>g</m:mi>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>X</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mn>2</m:mn>
+    <m:mo>X</m:mo>
+      <m:mn>10</m:mn>
+    <m:mo>-</m:mo>
+      <m:mn>2</m:mn>
+      <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+      <m:mn>2</m:mn>
+    <m:mo>X</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+      <m:mi>a</m:mi>
+
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="2pt"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-223">
+Putting this value in the expressions of tensions, we have :
+
+</para>
+<para id="element-224">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mn>2</m:mn>
+      <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="2pt"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-225">
+Hence, options (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-225a">
+<exercise id="exercise-225a">
+<problem id="idp1192512">
+<para id="element-225abc">
+Two blocks of mass “m” and “nm” are hanging over a pulley as shown in the figure. Consider string and pulley to be mass-less and friction absent everywhere in the arrangement.  If n&gt;1 and acceleration of the blocks is g/3, then value of “n” is :
+
+
+</para>
+<para id="element-226">
+<figure id="fig-226">
+<title> Pulley block arrangement </title>
+<media id="idp2309424" alt=""><image src="../../media/npq9.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+</para>
+<para id="element-227">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mn>3</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="idp3110800">
+<para id="element-228">
+We consider blocks and string as one system. The net external force on the system is
+
+</para>
+<para id="element-229">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-230">
+Total mass of the system, M, is :
+
+</para>
+<para id="element-231">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-232">
+The acceleration of the system i.e. the acceleration of either block is :
+
+</para>
+<para id="element-233">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-234">
+According to question,
+
+</para>
+<para id="element-235">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>-</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>n</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>n</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-236">
+Hence, option (d) is correct.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+
+
+<para id="element-180a">
+<exercise id="exercise-180a">
+<problem id="idm1398688">
+<para id="element-180">
+Given : mass of block “A” = 0.5 kg, mass of block “B”=1 kg and F = 2.5 N. Consider string and pulley to be mass-less and friction absent everywhere in the arrangement. Then,
+
+</para>
+<para id="element-181">
+<figure id="fig-181">
+<title> Pulley block arrangement </title>
+<media id="idm572672" alt=""><image src="../../media/npq1.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+
+</para>
+<para id="element-182">
+(a) The acceleration of block “B” is 1 <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-183">
+(b) The acceleration of block “A” is 1 <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-184">
+(c)	The tension in the string connecting block “B” and pulley is 1 N.
+</para>
+<para id="element-185">
+(d)	The tension in the string connected to block “A” is 2 N.
+
+
+</para>
+</problem>
+
+<solution id="idm2981776">
+<para id="element-186">
+Let the acceleration of block “B” is “a”. Considering forces on block of mass “B”, we have :
+
+</para>
+<para id="element-187">
+<figure id="fig-187">
+<title> Pulley block arrangement </title>
+<media id="idm3692800" alt=""><image src="../../media/npq2.gif" mime-type="image/gif"/></media>
+<caption> Pulley block arrangement </caption>
+</figure>
+
+
+</para>
+<para id="element-188">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2.5</m:mn>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-189">
+Considering free body diagram of mass-less pulley,
+
+</para>
+<para id="element-190">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-191">
+The pulley and the block are connected by inextensible string. As such, their accelerations are same. Further, we know by constraint analysis that acceleration of block is twice that of pulley. Hence, acceleration of block “B” is “2a”. Considering forces on block “A”, we have :
+
+</para>
+<para id="element-192">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-193">
+Thus,
+
+</para>
+<para id="element-194">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-195">
+Putting this value in the force equation of block “A”,
+
+</para>
+<para id="element-196">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2.5</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-197">
+Clearly,
+
+</para>
+<para id="element-198">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:msub>
+        <m:mi>T</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-199">
+Hence, option (a) is correct.
+</para>
+<para id="element-200">
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+</section>
+
+
+
+  </content>
+  
+</document>

@@ -1,0 +1,1053 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Artificial satellites</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15114</md:content-id>
+  <md:title>Artificial satellites</md:title>
+  <md:abstract>Artificial satellites are the backbone of modern communication systems.</md:abstract>
+  <md:uuid>ef34a5f7-38e5-4a61-ab80-a0a4e92d3e37</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">The motion of a satellite or space-station is a direct consequence of Earth’s gravity. Once launched in the appropriate orbit, these man-made crafts orbit around Earth without any propulsion. In this module, we shall study basics of satellite motion without going into details of the technology. Also, we shall develop analysis framework of artificial satellite, which can as well be extended to analysis of natural satellite like our moon. For the analysis here, we shall choose a simple framework of “two – body” system, one of which is Earth.
+</para>
+<para id="element-2">We should be aware that gravity is not the only force of gravitation working on the satellite, particularly if satellite is far off from Earth’s surface. But, Earth being the closest massive body, its gravitational attraction is dominant to the extent of excluding effect of other bodies. For this reason, our analysis of satellite motion as “isolated two body system” is good first approximation. 
+</para>
+<para id="element-3">Mass of artificial satellite is negligible in comparison to that of Earth. The “center of mass” of the “two body system” is about same as the center of Earth. There is possibility of different orbits, which are essentially elliptical with different eccentricity. A satellite close to the surface up to 2000 km describes nearly a circular trajectory. In this module, we shall confine ourselves to the analysis of satellites having circular trajectory only. 
+</para>
+<section id="section-1">
+<title>Speed of the satellite</title>
+<para id="element-4">
+Satellites have specific orbital speed to move around Earth, depending on its distance from the center of Earth. The satellite is launched from the surface with the help of a rocket, which parks it in particular orbit with a tangential speed appropriate for that orbit. Since satellite is orbiting along a circular path, there is requirement for the provision of centripetal force, which is always directed towards the center of orbit. This requirement of centripetal force is met by the force of gravity. Hence,
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Satellite </title>
+<media id="id1170679807652" alt=""><image src="../../media/s1-453b.gif" mime-type="image/gif"/></media>
+<caption> Gravitational attraction provides for the requirement of centripetal force for circular motion of satellite.</caption>
+</figure>
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>r</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">where “M” is Earth’s mass and “r” is linear distance of satellite from the "center of mass" of Earth. 
+</para>
+<para id="element-9">The important thing to realize here are : (i) orbital speed of the satellite is independent of the mass of the satellite (ii) a satellite at a greater distance moves with lesser velocity. As the product “GM” appearing in the numerator of the expression is constant, we can see that 
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>∝</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mi>r</m:mi>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">This conclusion is intuitive in the sense that force of gravitation is lesser as we move away from Earth’s surface and the corresponding centripetal force as provided by gravity is smaller. As such, orbital speed is lesser. 
+</para>
+<para id="element-12">This fact has compounding effect on the time period of the satellite. In the first place, a satellite at a greater distance has to travel a longer distance in one revolution than the satellite closer to Earth’s surface. At the same time, orbital speed is lesser as we move away. It is, then, imperative that time period of revolution increases for satellite at greater distance. 
+</para>
+<para id="element-14">We can write the equation of orbital speed in terms of acceleration due to gravity at the surface (g = 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+), which is given by :
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">Substituting in the equation of orbital velocity, we have :
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>r</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:msup>
+                  <m:mi>R</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mi>r</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>g</m:mi>
+                <m:msup>
+                  <m:mi>R</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mrow>
+                <m:mi>R</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">where “h” is the vertical height of the satellite above the surface. Rearranging,
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>g</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mi>R</m:mi>
+                <m:mo>+</m:mo>
+                <m:mi>h</m:mi>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2">
+<title>Time period of revolution</title>
+<para id="element-21">
+Time period of revolution is equal to time taken to travel the perimeter of circular path. The time period of rotation is :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">Substituting expression of “v” as obtained earlier,
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">This is the expression of time period for a satellite revolving in a circular orbit. Like orbital speed, the time period is also independent of the mass of the satellite. Now, squaring both sides, we have :
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">Clearly, square of time period of a satellite is proportional the cube of the linear distance for the circular orbit,
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>∝</m:mo>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-3">
+<title>Example</title>
+<para id="element-29"><term>Problem 1: </term> Two satellites revolve around Earth along a coplanar circular orbit in the plane of equator. They move in the same sense of direction and their periods are 6 hrs and 24 hrs respectively. The satellite having period of 6 hrs is at a distance 10000 km from the center of Earth. When the satellites are at the minimum possible separation between each other, find the magnitude of relative velocity between two satellites.
+</para>
+<para id="element-30"><term>Solution : </term>Let us denote two satellites with subscripts “1” and “2”. Let the satellite designated with “1” is closer to the Earth. The positions of satellites, corresponding to minimum possible separation, are shown in the figure.
+</para>
+<para id="element-31">
+<figure id="fig-31">
+<title> Pair of satellites </title>
+<media id="id1170670313326" alt=""><image src="../../media/s2-5566.gif" mime-type="image/gif"/></media>
+<caption> Two satellites move around Earth in two concentric circular orbits.</caption>
+</figure>
+</para>
+<para id="element-32">The distance between center of Earth and the satellite “1” is 10000 km, but this data is not available for the other satellite. However, we can evaluate other distance, using the fact that  square of time period of a satellite is proportional to the cube of the linear distance for the circular orbit. 
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:msubsup>
+        <m:mi>r</m:mi>
+        <m:mrow>
+          <m:mn>2</m:mn>
+        </m:mrow>
+        <m:mn>3</m:mn>
+      </m:msubsup>
+      <m:msubsup>
+        <m:mi>r</m:mi>
+        <m:mrow>
+          <m:mn>1</m:mn>
+        </m:mrow>
+        <m:mn>3</m:mn>
+      </m:msubsup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msubsup>
+        <m:mi>T</m:mi>
+        <m:mrow>
+          <m:mn>2</m:mn>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msubsup>
+      <m:msubsup>
+        <m:mi>T</m:mi>
+        <m:mrow>
+          <m:mn>1</m:mn>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msubsup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mn>24</m:mn>
+            <m:mn>6</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>16</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">We can now determine velocity of each satellite as :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+For the first satellite,
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>10000</m:mn>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10000</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+For the second satellite,
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>20000</m:mn>
+      </m:mrow>
+      <m:mn>24</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10000</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">Hence, magnitude of relative velocity is :
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10000</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>5238</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>h</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-4">
+<title>Energy of “Earth-satellite” system</title>
+<para id="element-44">
+For consideration of energy, Earth can be treated as particle of mass “M”. Thus, potential energy of “Earth – satellite” as two particles system is given by :
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">Since expression of orbital speed of the satellite is known, we can also determine kinetic energy of the satellite as :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">Putting expression of speed, “v”, as determined before,
+</para>
+<para id="element-49"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">Note that kinetic energy of the satellite is positive, which is consistent with the fact that kinetic energy can not be negative. Now, mechanical energy is algebraic sum of potential and kinetic energy. Hence, mechanical energy of “Earth – satellite” system is :
+</para>
+
+<para id="element-53"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">Here, total mechanical energy of the system is negative. We shall subsequently see that this is characteristic of a system, in which bodies are bounded together by internal force.
+</para>
+<section id="section-4a">
+<title>Relation among energy types</title>
+<para id="element-56">
+The expression of mechanical energy of the “Earth – satellite” system is typical of two body system in which one body revolves around other along a circular path. Particularly note the expression of each of the energy in the equation,
+</para>
+<para id="element-385"><m:math display="block">
+  <m:mrow>
+        <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+        <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+        <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para><para id="element-57"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Comparing above two equations, we see that magnitude of total mechanical energy is equal to kinetic energy, but different in sign. Hence,
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>K</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">Also, we note that total mechanical energy is half of potential energy. Hence,
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>U</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">These relations are very significant. We shall find resemblance of forms of energies in the case of Bohr’s orbit as well. In that case, nucleus of hydrogen atom and electron form the two – body system and are held together by the electrostatic force. 
+</para>
+<para id="element-63">Importantly, it provides an unique method to determine other energies, if we know any of them. For example, if the system has mechanical energy of 
+<m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mn>200</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+, then :
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>200</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mn>6</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>200</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">and
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>400</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-4b">
+<title>Energy plots of a satellite</title>
+<para id="element-67">
+An inspection of the expression of energy forms reveals that that linear distance “r” is the only parameter that can be changed for a satellite of given mass, “m”. From these expressions, it is also easy to realize that they have similar structure apart from having different signs. The product “GMm” is divided by “r” or “2r”. This indicates that nature of variation in their values with linear distance “r” should be similar. 
+</para>
+<para id="element-68">
+<figure id="fig-68">
+<title> Energy plots </title>
+<media id="id1170678880486" alt=""><image src="../../media/s3-d27f.gif" mime-type="image/gif"/></media>
+<caption> Plots of kinetic, potential and mechanical energy .vs. distance</caption>
+</figure>
+</para>
+<para id="element-69">Since kinetic energy is a positive quantity, a plot of kinetic energy .vs. linear distance, “r”, is a hyperbola in the first quadrant. The expression of mechanical energy is exactly same except for the negative sign. Its plot with linear distance, therefore, is an inverted replica of kinetic energy plot in fourth quadrant. Potential energy is also negative like mechanical energy. Its plot also falls in the fourth quadrant. However, magnitude of potential energy is greater than that of mechanical energy as such the plot is displaced further away from the origin as shown in the figure.
+</para><para id="element-123">From plots, we can conclude one important aspect of zero potential reference at infinity. From the figure, it is clear that as the distance increases and becomes large, not only potential energy, but kinetic energy also tends to become zero. We can, therefore, conclude that an object at infinity possess zero potential and kinetic energy. In other words, mechanical energy of an object at infinity is considered zero.  </para>
+</section>
+</section>
+<section id="section-5">
+<title>Gravitational binding energy</title>
+<para id="element-70">
+A system is bounded when constituents of the system are held together. The “Earth-satellite” system is a bounded system as members of the system are held together by gravitational attraction. Subsequently, we shall study such other bounded systems, which exist in other contexts as well. Bounded system of nucleons in a nucleus is one such example. 
+</para>
+<para id="element-71">The characterizing aspect of a bounded system is that mechanical energy of the system is negative. However, we need to qualify that it is guaranteed to be negative when zero reference potential energy is at infinity. 
+</para>
+<para id="element-72">Let us check out this requirement for the case of “Earth-satellite” system. The mechanical energy of Earth- satellite system  is indeed negative :
+</para>
+<para id="element-73"><m:math display="block">
+		<m:mrow>
+			<m:mi>E</m:mi>
+			<m:mo>=</m:mo>
+			<m:mo>−</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:mi>G</m:mi>
+					<m:mi>Mm</m:mi>
+				</m:mrow>
+				<m:mrow>
+					<m:mn>2</m:mn>
+					<m:mi>r</m:mi>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+</para>
+<para id="element-74">where “M” and “m” are the mass of Earth and satellite. Hence, "Earth - satellite" system is a bounded system.
+</para>
+<para id="element-75">We can infer from the discussion of a bounded system that the "binding energy" is the amount of energy required to disintegrate (dismember) a bounded system. For example, we can consider a pebble lying on Earth’s surface. What is the energy required to take this pebble far off in the interstellar space, where Earth’s gravity ceases to exist? We have seen that infinity serves as a theoretical reference, where gravitational field ceases to exits. Further, if we recall, then potential energy is defined as the amount of work done by external agency to bring a particle slowly from infinity to a position in gravitational field. The work by external force is negative as its acts opposite to the displacement. Clearly, taking pebble to the infinity is reverse action. Work by external force is in the direction of displacement. As such, work done in this case is positive. Therefore, binding energy of the pebble is a positive quantity and is equal to the magnitude of potential energy for the pebble. If its mass is “m”, then binding energy of the "Earth-pebble" system is :
+</para>
+<para id="element-76"><m:math display="block">
+		<m:mrow>
+			<m:mo>⇒</m:mo>
+			<m:msub>
+				<m:mi>E</m:mi>
+				<m:mi>B</m:mi>
+			</m:msub>
+			<m:mo>=</m:mo>
+			<m:mo>-</m:mo>
+			<m:mi>U</m:mi>
+			<m:mo>=</m:mo>
+			<m:mo>-</m:mo>
+			<m:mfenced>
+				<m:mrow>
+					<m:mo>−</m:mo>
+					<m:mfrac>
+						<m:mrow>
+							<m:mi>G</m:mi>
+							<m:mi>Mm</m:mi>
+						</m:mrow>
+						<m:mrow>
+							<m:mi>r</m:mi>
+						</m:mrow>
+					</m:mfrac>
+				</m:mrow>
+			</m:mfenced>
+			<m:mo>=</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:mi>G</m:mi>
+					<m:mi>Mm</m:mi>
+				</m:mrow>
+				<m:mrow>
+					<m:mi>r</m:mi>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+</para>
+<para id="element-77">where “M” and “m” are the mass of Earth and pebble respectively and “R” is the radius of Earth. 
+</para>
+<para id="element-78">This is, however, a specific description of dismembering process. In general, a member of the system will have kinetic energy due to its motion. Let us consider the case of “Earth-satellite” system. The satellite has certain kinetic energy. If we want to take this satellite to infinity, we would first require to bring the satellite to a dead stop and then take the same to infinity. Therefore, binding energy of the system is a positive quantity, which is equal to the magnitude of the mechanical energy of the system.
+</para>
+<para id="element-79"><definition id="definition-1">
+<term> Binding energy </term>
+<meaning id="id1170670170998"> Binding energy is equal to the modulus of mechanical energy.</meaning>
+</definition>
+
+
+
+</para>
+<para id="element-80">Going by the definition, the binding energy of the “Earth-satellite” system is :
+</para>
+<para id="element-81"><m:math display="block">
+		<m:mrow>
+			<m:mo>⇒</m:mo>
+			<m:msub>
+				<m:mi>E</m:mi>
+				<m:mi>B</m:mi>
+			</m:msub>
+			<m:mo>=</m:mo>
+			<m:mo>-</m:mo>
+			<m:mi>E</m:mi>
+			<m:mo>=</m:mo>
+			<m:mo>-</m:mo>
+			<m:mfenced>
+				<m:mrow>
+					<m:mo>−</m:mo>
+					<m:mfrac>
+						<m:mrow>
+							<m:mi>G</m:mi>
+							<m:mi>Mm</m:mi>
+						</m:mrow>
+						<m:mrow>
+							<m:mn>2</m:mn>
+							<m:mi>r</m:mi>
+						</m:mrow>
+					</m:mfrac>
+				</m:mrow>
+			</m:mfenced>
+			<m:mo>=</m:mo>
+			<m:mfrac>
+				<m:mrow>
+					<m:mi>G</m:mi>
+					<m:mi>Mm</m:mi>
+				</m:mrow>
+				<m:mrow>
+					<m:mn>2</m:mn>
+					<m:mi>r</m:mi>
+				</m:mrow>
+			</m:mfrac>
+		</m:mrow>
+	</m:math>
+</para>
+<para id="element-82">where “r” is the linear distance between the center of Earth and satellite. 
+</para>
+</section>
+<section id="section-6">
+<title>Satellite systems</title>
+<para id="element-83">
+The satellites are made to specific tasks. One of the most significant applications of artificial satellite is its use in telecast around the world. Earlier it was difficult to relay telecast signals due to spherical shape of Earth. In recent time, advancements in communication have brought about astounding change in the way we live. The backbone of this communication wonder is variety of satellite systems orbiting around Earth. 
+</para>
+<para id="element-84">Satellite systems are classified for different aspects of satellite motion. From the point of physics, it is the orbital classification of satellite systems, which is more interesting. Few of the famous orbits are described here. Almost all orbits generally describe an elliptical orbit. We shall discuss elliptical orbits in the module dedicated to Kepler’s law. For the present, however, we can approximate them to be circular for analysis purpose.
+</para>
+<para id="element-85"><term>1: </term>Geocentric orbit : It is an orbit around Earth. This is the orbit of artificial satellite, which is launched to revolve around Earth. Geocentric orbit is further classified on the basis of distance from Earth’s surface (i) low Earth orbit up to 2000 km (ii) middle Earth orbit between 2000 and geo-synchronous orbit (36000 km) and (iii) high Earth orbit above geo-synchronous orbit (36000 km). 
+</para>
+<para id="element-86"><term>2: </term>Heliocentric Orbit : It is an orbit around Sun. The orbits of planets and all other celestial bodies in the solar system describe heliocentric orbits.
+</para>
+<para id="element-87"><term>3: </term>Geosynchronous Orbit : The time period of this orbit is same as the time period of Earth. 
+</para>
+<para id="element-88"><term>4: </term>Geostationary Orbit : The plane of rotation is equatorial plane. The satellite in this orbit has time period equal to that of Earth. Thus, motion of satellite is completely synchronized with the motion of Earth. The sense of rotation of the satellite is same as that of Earth. The satellite, therefore, is always above a given position on the surface. The orbit is at a distance of 36000 km from Earth’s surface and about 42400 (= 36000 + 6400) km  from the center of Earth. The orbit is also known as Clarke’s orbit after the name of author, who suggested this orbit. 
+</para>
+<para id="element-89"><term>5: </term>Molniya Orbit – It is an orbit having inclination of 63.4° with respect to equatorial plane and orbital period equal to half that of Earth. 
+</para>
+<para id="element-90"><term>6: </term>Polar orbit : The orbit has an inclination of 90° with respect to the equatorial plane and as such, passes over Earth’s poles. 
+</para>
+<para id="element-91">Another important classification of satellite runs along the uses of satellites. Few important satellite types under this classification are :
+</para>
+<para id="element-92"><term>1: </term> Communication satellites : They facilitate communication around the world. The geostationary satellite covers ground locations, which are close to equator. Geostationary satellites appears low from a positions away from equator. For locations at different latitudes away from equator, we need to have suitably designed orbits so that the area can be covered round the clock. Molniya orbit is one such orbit, which is designed to provide satellite coverage through a satellite system, consisting of more than one satellite.
+</para>
+<para id="element-93"><term>2: </term> Astronomical satellites : They are designed for studying celestial bodies.
+</para>
+<para id="element-94"><term>3: </term> Navigational satellites : They are used to specify location on Earth and develop services based on navigation. 
+</para>
+<para id="element-95"><term>4: </term> Earth observation satellites : They are designed for studying Earth system, environment and disaster management.
+</para>
+<para id="element-96"><term>5: </term> Weather satellites : They facilitate to monitor weather and related services.
+</para>
+<para id="element-97"><term>6: </term> Space station : It is an artificial structure in space for human beings to stay and do assigned experiments/works
+</para>
+<para id="element-99">As a matter of fact, there is quite an elaborate classification system. We have only named few important satellite systems. In particular, there are varieties of satellite systems, including reconnaissance satellites, to meet military requirement. 
+</para>
+</section>
+<section id="section-100">
+<title>Acknowledgment</title>
+<para id="element-1000">
+Author wishes to thank Arunabha guha, Physics dept, Georgian court university, Lakewood, New jersey, USA for pointing out a mistake in the example contained in this module. 
+</para>
+</section>
+
+  </content>
+  
+</document>

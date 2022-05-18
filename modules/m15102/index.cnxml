@@ -1,0 +1,891 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conservation of mechanical energy</title>
+  <metadata>
+  <md:content-id>m15102</md:content-id><md:title>Conservation of mechanical energy</md:title>
+  <md:abstract>When only conservative force interacts within the system, the mechanical energy of an isolated system can not change.</md:abstract>
+  <md:uuid>37e972d7-fd3f-47c9-9c92-acbb5223d838</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Conservation of mechanical energy is description of an ideal mechanical process. It is characterized by absence of non-conservative force like friction. There is no external force either on the system. Therefore, the elements of this ideal process are :
+</para>
+<para id="element-2"> 
+<list id="list-2" list-type="bulleted">
+<item> System : isolated </item>
+<item> Energy :  kinetic and potential  </item>
+<item> Forces : gravitational and elastic  </item>
+<item> Transfer of energy : No transfer of energy across the system. </item>
+</list>
+</para>
+<section id="section-1">
+<title>Characteristics of an ideal mechanical process</title>
+<para id="element-3">Conservation of mechanical energy applies to a mechanical process in which external force and non-conservative internal forces are absent. 
+</para>
+
+<para id="element-4">There is no external force on the system. Hence, work by external force is zero. There is no exchange or transfer of energy across the system. Therefore, we use an isolated system to apply conservation of energy.  We should, however, note that transfer of energy from one form to another takes place within the system, resulting from work done by internal force.
+</para>
+<para id="element-5">There is no “non-conservative” force like friction in the system. It means that there is no change in thermal energy of the system. The internal forces are only conservative force. This ensures that transfer of energy takes place only between kinetic and potential energy of the isolated system. Since potential energy is regained during the process, there is no dissipation of energy. 
+</para>
+<para id="element-6">
+As there is no dissipation of energy involved, the system represents the most energy efficient reference for the particular process. One of the most striking feature of this system is that only force working in the system is conservative force. This has great simplifying effect on the analysis. The work by conservative force is independent of path and hence calculation of potential energy of the system is path independent as well. The independence of path, in turn, allows analysis of motion along paths, which are not straight. 
+</para>
+</section>
+<section id="section-2">
+<title>Conservation of mechanical energy</title>
+<para id="element-7">The statement of conservation of energy for the ideal mechanical process is known as “conservation of mechanical energy". The equation for the mechanical process is :
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">
+Here,
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">Hence, for the isolated system,
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">This is what is known as conservation of mechanical energy. We can interpret this equation in many ways and in different words :
+</para>
+<para id="element-18"><term>1: </term>When only conservative forces interact within an isolated system, sum of the change in kinetic and potential energy between two states is equal to zero.
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20"><term>2: </term> When only conservative forces interact within an isolated system, sum of the kinetic and potential energy of an isolated system can not change.
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>U</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>U</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24"><term>3: </term> When only conservative forces interact within an isolated system, the change in mechanical energy of an isolated system is zero.
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26"><term>4: </term> When only conservative forces interact within an isolated system, the mechanical energy of  an isolated system can not change.
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>mech</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">We should be aware that there are two ways to apply conservation law. We can apply it in terms of energy for initial (subscripted with “i”) and final (subscripted with “f”) states or in terms of “change” in energy. This point will be clear as we work with examples.
+</para>
+<para id="element-29">Here, we shall work an example that we had previously analyzed with the help of "work-kinetic energy" theorem. This will help us to understand (i) what are the elements of ideal mechanical process (ii) how conservation principle works and (iii) how does it help simplify analysis.
+</para>
+<section id="section-2a">
+<title>Example</title>
+<para id="element-30"><term>Problem : </term> A small block of 0.1 kg is released from a height 5 m as shown in the figure. The block following a curved path transitions to a linear horizontal path and hits the spring fixed to a wedge. If no friction is involved and spring constant is 1000 N/m, find the maximum compression of the spring.
+</para>
+<para id="element-31">
+<figure id="fig-31"><title> Motion of a block </title>
+<media id="id1165164411123" alt=""><image src="../../media/cen1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-32"><term>Solution : </term> Here block, curved incline and spring form isolated system. Earth is implicit element of the system. We may argue why incline and why not horizontal surface? Curved incline (its shape) determines the component of gravity driving block downward. Hence, it is included in the system. Horizontal surface also applies force on block, but in normal direction to the motion. Now, as friction is not involved, the horizontal surface is not involved in the exchange of energy.  
+</para>
+<para id="element-33">
+Two of the elements i.e. block and spring are subjected to motion. Application of conservation principle, thus, involves more than one object unlike analysis based on laws of motion. As friction is not involved, we can apply the conservation of mechanical energy. Now, initial energy of the system is :
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> E </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>  
+<m:mi> K </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+When the compression in the spring is maximum, kinetic energies of both block and spring are zero. Let "x" be the maximum compression,
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> E </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>  
+<m:mi> K </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>	
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> E </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>  
+<m:mo> = </m:mo> 
+<m:mn> 0.5 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 1000 </m:mn> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 500 </m:mn> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+According to conservation of mechanical energy :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 500 </m:mn> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>  
+<m:mn> 0.1 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> cm </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+<note id="id1165166591267"> We can compare this solution with the one given  in the module titled "<link document="m14104" target-id="element-52"> Conservative forces </link>".</note>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title> Vertical circular motion </title>
+<para id="element-40">
+Study of this vertical motion was incomplete earlier as we were limited by constant force system and linear motion in most of the cases. On the other hand, vertical circular motion involved variable force and non-linear path. The analysis of the situation is suited to the energy analysis. Let us consider that a small object of mass "m" is attached to a string and is whirled in a vertical plane. 
+</para>
+<para id="element-41">
+Force analysis at the highest point gives the minimum speed required so that string does not slack. It is important to understand that this is the most critical point, where string might slack. The forces in y-direction :
+</para>
+<para id="element-42">
+<figure id="fig-42"><title> Vertical circular motion </title>
+<media id="id6333002" alt=""><image src="../../media/cen2.gif" mime-type="image/gif"/></media>
+<caption> The object maintains a minimum speed. </caption>
+</figure>
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>  
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+For the limiting case, when T = 0,
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>  
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>  
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo>   
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">This expression gives the limiting value of the speed of particle in vertical circular motion. If the speed of the particle is less than this limiting value, then the particle will fall. Once this value is known, we can find speed of the particle at any other point along the circular path by applying conservation of mechanical energy. Here, we shall find speed at two other positions - one at the bottom (C) and other at the middle point (B or D).
+</para>
+<para id="element-47">
+<figure id="fig-47"><title> Vertical circular motion </title>
+<media id="id1165159360049" alt=""><image src="../../media/cen3.gif" mime-type="image/gif"/></media>
+<caption> The object maintains a minimum speed. </caption>
+</figure>
+</para>
+<para id="element-48">In order to analyze mechanical energy, we need to have a reference zero gravitational potential energy. For this instant case, we consider the horizontal level containing point "C" as the zero reference for gravitational potential energy. Now, mechacnial energy at points "A", "C" and "D" are :</para>
+<para id="element-49"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> E </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> m </m:mi> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi> 
+<m:mi> g </m:mi> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> r </m:mi> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> m </m:mi> 
+<m:mi> g </m:mi> 
+<m:mi> r </m:mi> 
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> m </m:mi> 
+<m:mi> g </m:mi> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 5 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> m </m:mi> 
+<m:mi> g </m:mi> 
+<m:mi> r </m:mi> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> E </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> m </m:mi> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> m </m:mi> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn> 
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> E </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:mfrac>
+<m:mi> m </m:mi> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi> 
+<m:mi> g </m:mi> 
+<m:mi> r </m:mi> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+From first two equations, we have :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+From last two equations, we have : 
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> D </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">This shows how energy analysis can be helpful in situations where force on the object is not constant and path of motion is not straight. However, this example also points out one weak point about energy analysis. For example, the initial condition for minimum speed at the highest can not be obtained using energy analysis and we have to resort to force analysis. What it means that if details of the motion are to be ascertained, then we have to take recourse to force analysis.
+</para>
+<section id="section-3a">
+<title> Example </title>
+<para id="element-55"><term>Problem 2:</term>The ball is released from a height “h” along a smooth path shown in the figure. What should be the height “h” so that ball goes around the loop without falling of the track ?
+</para>
+<para id="element-56">
+<figure id="fig-56"><title> Vertical circular motion </title>
+<media id="id8141535" alt=""><image src="../../media/cen4.gif" mime-type="image/gif"/></media>
+<caption> The ball does not fall off the track. </caption>
+</figure>
+</para>
+<para id="element-57"><term>Solution :</term> The path here is smooth. Hence, friction is absent. No external force is working on the “Earth – ball” system. The only internal force is gravity, which is a conservative force. Hence, we can apply conservation of mechanical energy. 
+</para>
+<para id="element-58">The most critical point where ball can fall off the track is “B”. We have seen that the ball need to have a minimum speed at "B" as given by :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">Corresponding to this requirement at “B”, the speed of the ball can be obtained at bottom point “C” by applying conservation of mechanical energy. The speed of the ball as worked out earlier is given as :
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>g</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">In order to find the height required to impart this speed to the ball at the bottom, we apply law of conservation of energy between “A” and “C”.
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+Considering ground as zero reference gravitational potential, we have :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>C</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>C</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">Equating two expressions of the speed at point “C”, we have :
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+  </content>
+  
+</document>

@@ -1,0 +1,375 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Newton’s third law of motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c01d12a8-69c6-4c42-bc5f-60d26f8afed5</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Third law of motion is different to other two laws of motion in what it describes. This law states about an important characteristic of force rather than the relation between force and motion as described by the first two laws. 
+</para>
+<para id="element-2">
+<definition id="definition-2">
+<term> Newton’s third law of motion </term>
+<meaning id="idp8930496"> One body interacts with other body exerting force on each other, which are equal in magnitude, but opposite in direction. 
+</meaning>
+</definition>
+</para>
+<para id="element-3">The action and reaction pair acts along the same line. Their points of application are different as they act on different bodies. This is a distinguishing aspect of third law with respect first two laws, which consider application of force on a single entity.
+</para>
+<para id="element-3a">The law underlines the basic manner in which force comes into existence. Force results from interaction of two bodies, always appearing in pair. In other words, the existence of single force is impossible. In the figure below, we consider a block at rest on a table. The block presses the table down with a force equal to its weight (mg). The horizontal table surface, in turn, pushes the block up with an equal normal force (N), acting upwards.
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Newton’s third law of motion </title>
+<media id="idp629296" alt=""><image src="../../media/ntl1.gif" mime-type="image/gif"/></media>
+<caption> Two bodies exert equal but opposite force on each other.</caption>
+</figure>
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mrow>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mn> mg </m:mn>
+</m:mrow>
+</m:math>
+</para>
+<para id="element-5a">
+In this case, the net force on the block and table is zero. The force applied by the table on the block is equal and opposite to the force due to gravity acting on it. As such, there is no change in the state of block. Similarly, net force on the table is zero as ground applies upward reaction force on table to counterbalance the force applied by the block. We should, however, be very clear that these action and reaction force arising from the contact are capable to change the state of motion of individual bodies, provided they are free to move. Consider collision of two billiard balls. The action and reaction forces during collision change the course of motion (acceleration of each ball).  
+</para>
+
+<para id="element-608">The "action" and "reaction" forces are external forces on individual bodies. Depending on the state of a body (i.e. the state of other forces on the body), the individual "action" or "reaction" will cause acceleration in the particular body. For this reason, book and table do not move on contact, but balls after collision actually moves with certain acceleration. </para>
+<para id="element-6">
+The scope of this force is not limited to interactions involving physical contact. This law appears to apply only when two bodies come in contact. But, in reality, the characterization of force by third law is applicable to all force types. This requirement of pair existence is equally applicable to forces like electrostatic or gravitational force, which act at a distance without coming in contact. 
+</para>
+<para id="element-7">Let us consider the force between two charges 
+<m:math>
+		<m:msub>
+			<m:mi> q </m:mi>
+			<m:mn> 1 </m:mn>
+		</m:msub>
+	</m:math>
+ and 
+<m:math>
+		<m:mo> - </m:mo>
+		<m:msub>
+			<m:mi> q </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msub>
+	</m:math> placed at a distance "r" apart. The magnitude of electrostatic force is given by :
+</para>
+<para id="element-8">
+<m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:mi> F </m:mi>
+					<m:mo> = </m:mo>
+				
+					<m:mfrac>
+						<m:mrow>
+							<m:msub>
+								<m:mi> q </m:mi>
+								<m:mn> 1 </m:mn>
+							</m:msub>
+							<m:msub>
+								<m:mi> q </m:mi>
+								<m:mn> 2 </m:mn>
+							</m:msub>
+						</m:mrow>
+						<m:mrow>
+							<m:mn> 4 </m:mn>
+							<m:mi> π </m:mi>
+							<m:msub>
+								<m:mi> ε </m:mi>
+								<m:mn> 0 </m:mn>
+							</m:msub>
+							<m:msup>
+								<m:mi> r </m:mi>
+								<m:mn> 2 </m:mn>
+							</m:msup>
+						</m:mrow>
+					</m:mfrac>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+<para id="element-9">
+The charge 
+<m:math>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+applies a force 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 21 </m:mn>
+</m:msub>
+</m:math>
+on the charge 
+<m:math>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+and charge 
+<m:math>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ applies a force 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 12 </m:mn>
+</m:msub>
+</m:math>
+on 
+<m:math>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+. The two forces are equal in magnitude, but opposite in direction such that :
+</para>
+<para id="element-10">
+<figure id="fig-10">
+<title> Electrostatic force </title>
+<media id="idm2882000" alt=""><image src="../../media/ntl2.gif" mime-type="image/gif"/></media>
+<caption> Force appears in pair.</caption>
+</figure>
+</para>
+<para id="element-11"><equation id="equation-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 12 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 21 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 12 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 21 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-12">
+<note id="idp8125488"> Here, we read the subscripted symbol like this : 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 12 </m:mn>
+</m:msub>
+</m:math>
+ means that it is a force, which is applied on body 1 by body 2.
+</note>
+</para>
+<para id="element-14">It should be emphasized that though vector sum of two forces is zero, but this condition does not indicate a state of equilibrium. This is so because two forces, often called as action and reaction pair, are acting on different bodies. Equilibrium of a body, on the other hand, involves consideration of external forces on the particular body.</para>
+
+<section id="section-2">
+<title> Deduction of Third law from Newton’s Second law  </title>
+<para id="element-18">
+We have pointed out that “action” and “reaction” forces are external forces on the individual bodies. However, if we consider two bodies forming a “system of two bodies”, then action and reaction pairs are internal to the system of two bodies. The forces on the system of bodies are :
+</para>
+<para id="element-19"><equation id="equation-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>int</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>ext</m:mtext>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-20">
+If no external forces act on the system of bodies, then :
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>ext</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">From second law of motion, we know that only external force causes acceleration to the body system under consideration. As such, acceleration of the “system of two bodies” due to net internal forces should be zero. Hence,
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mtext>int</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23a">
+This is possible when internal forces are pair forces of equal magnitude,  which are directed in opposite directions.
+</para>
+<para id="element-24">
+The internal forces are incapable to produce acceleration of the system of bodies. The term “system of bodies” is important (we shall discuss the concept of system of bodies and their motion in separate module). The acceleration of the system of bodies is identified with a point known as <link document="m14119">center of mass</link>. When we say that no acceleration is caused by the pair of third law forces, we mean that the “center of mass” has no acceleration. Even though individual body of the system is accelerated, but “center of mass” is not accelerated and hence, we say that "system of bodies" is not accelerated. 
+</para>
+<para id="element-25">Referring to two charged body system that we referred earlier, we can consider forces 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>21</m:mn>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ being the internal forces with respect to the system of two charged bodies. As such, applying Newton’s second law,
+</para>
+<para id="element-616"><figure id="fig-616">
+<title> Electrostatic force </title>
+<media id="idp744768" alt=""><image src="../../media/ntl2.gif" mime-type="image/gif"/></media>
+<caption> Force appears in pair.</caption>
+</figure></para><para id="element-26"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>i</m:mi>
+        <m:mi>n</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>21</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>21</m:mn>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">The “action” and “reaction” forces are, therefore, equal in magnitude,  but opposite in direction. Clearly, third law is deducible from second law of motion. 
+</para>
+<para id="element-29">The important point to realize here is that “action” and “reaction” forces are external forces, when considered in relation to individual bodies. Each of the two forces is capable to produce acceleration in individual bodies. The same forces constitute a pair of equal and opposite internal forces, when considered in relation to the system of bodies. In this consideration, the center of mass of the body system has no acceleration and net internal force is zero. </para>
+
+</section>
+
+<section id="section-1">
+<title> Summary  </title>
+
+
+<para id="element-16">Here, we summarize the interpretation of third law of motion as discussed above :
+</para>
+<para id="element-17">
+<list id="list-2" list-type="bulleted">
+<item> This law does not address the issue of force and acceleration as applied to a body like first two laws.
+ </item>
+<item> The law characterizes the nature of force irrespective of its class and genesis that they exist in pair of two equal but opposite forces. The existence of a single force is impossible.
+ </item>
+<item> The pair of forces acts on two different bodies. 
+ </item>
+<item> The two forces do not neutralize each other, because they operate on different bodies. Each of the bodies will accelerate, if free to do so.
+ </item>
+</list>
+</para>
+</section>
+
+  
+  </content>
+  
+</document>

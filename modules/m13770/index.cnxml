@@ -1,0 +1,709 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Understanding acceleration</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>90bfdfdd-e750-4f5a-ac2c-66f8da2373b3</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">
+The relationship among velocity, acceleration and force is central to the study of mechanics. Text book treatment normally divides the scope of study between kinematics (study of velocity and acceleration) and dynamics (study of acceleration and force). This approach is perfectly fine till we do not encounter some inherent problem as to the understanding of the subject matter.   
+</para>
+
+<para id="element-2">
+One important short coming of this approach is that we tend to assume that acceleration depends on the state of motion i.e. velocity. Such inference is not all too uncommon as acceleration is defined in terms of velocities. Now the question is “Does acceleration actually depend on the velocity?”   
+</para>
+
+<para id="element-3">
+There are many other such inferences that need to be checked. Following paragraphs investigate these fundamental issues in detail and enrich our understanding of acceleration.    
+</para> 
+
+<section id="section-1">
+<title> Velocity, acceleration and force </title>
+
+<para id="element-4">
+Acceleration is related to external force. This relationship is given by Newton’s second law of motion. For a constant mass system, 
+</para>  
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd>
+
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mtd>
+</m:mtr>
+
+
+</m:mtable>
+</m:math>
+</para>  
+
+<para id="element-6">
+In words, Newton’s second law states that acceleration (effect) is the result of the application of net external force (cause). Thus, the relationship between the two quantities is that of cause and effect. Further, force is equal to the product of a scalar quantity, m, and a vector quantity, <term>a</term>, implying that the direction of the acceleration is same as that of the net force. This means that acceleration is though the measurement of the change of velocity, but is strictly determined by the external force and the mass of the body; and expressed in terms of “change of velocity” per unit time.  
+</para>  
+<para id="element-7">
+If we look around ourselves, we find that force modifies the state of motion of the objects. The immediate effect of a net force on a body is that the state of motion of the body changes. In other words, the velocity of the body changes in response to the application of net force. Here, the word “net” is important. The motion of the body responds to the net or resultant force. In this sense, acceleration is mere statement of the effect of the force as measurement of the rate of change of the velocity with time.  
+</para>  
+<para id="element-8">
+Now, there is complete freedom as to the magnitude and direction of force being applied. From our real time experience, we may substantiate this assertion. For example, we can deflect a foot ball, applying force as we wish (in both magnitude and direction). The motion of the ball has no bearing on how we apply force. Simply put : the magnitude and direction of the force (and that of acceleration) is not dependent on the magnitude and direction of the velocity of the body.  
+</para>  
+<para id="element-9">
+In the nutshell, <term>we conclude that force and hence acceleration is independent of the velocity of the body</term>. The magnitude and direction of the acceleration is determined by the magnitude and direction of the force and mass of the body. This is an important clarification. 
+</para>  
+<para id="element-10">
+To elucidate the assertion further, let us consider parabolic motion of a ball as shown in the figure. The important aspect of the parabolic motion is that the acceleration associated with motion is simply ‘g’ as there is no other force present except the force of gravity. The resultant force and mass of the ball together determine acceleration of the ball. 
+</para>  
+<para id="element-11">
+<figure id="fig11">
+ <title>Parabolic motion</title>
+<media id="idm5962224" alt=""><image src="../../media/ua1.gif" mime-type="image/gif"/></media>
+<caption> The resultant force and mass of the ball together determine acceleration of the ball 
+</caption>
+</figure>
+</para> 
+
+<example id="example-1">
+<title> Acceleration </title>
+<para id="element-12"><term>Problem : </term> If the tension in the string is T, when the string makes an angle θ with the vertical. Find the acceleration of a pendulum bob, having a mass “m”. 
+</para>
+<para id="element-14">
+<term>Solution : </term> As pointed out in our discussion, we need not study or consider velocities of bob to get the answer. Instead we should strive to know the resultant force to find out acceleration, using Newton’s second law of motion. 
+
+</para>
+
+<para id="element-15">
+The forces, acting on the bob, are (i) force of gravity, mg, acting in the downward direction and (ii) Tension, T, acting along the string. Hence, the acceleration of the bob is determined by the resultant force, arising from the two forces.
+</para>
+
+<para id="element-16">
+<figure id="fig16">
+ <title> Acceleration of a pendulum bob </title>
+<media id="idm15475520" alt=""><image src="../../media/ua2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-17">
+Using parallelogram theorem for vector addition, the resultant force is :
+</para>
+<para id="element-18">
+
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+
+              <m:mi>F</m:mi>
+              <m:mo>=</m:mo>
+            <m:msqrt> 
+              <m:mo>{</m:mo>
+                <m:mrow> 
+                <m:msup>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                <m:mi>g</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+               <m:mo>+</m:mo>
+                <m:msup>
+                <m:mi>T</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+               <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>m</m:mi>
+                <m:mi>g</m:mi>
+                <m:mi>T</m:mi>
+                <m:mi>cos</m:mi>
+               <m:mo>(</m:mo>
+                <m:mn>180</m:mn>
+                <m:mi>°</m:mi>
+               <m:mo>-</m:mo>
+                <m:mi>θ</m:mi>
+               <m:mo>)</m:mo>
+                </m:mrow> 
+              <m:mo>}</m:mo>
+           </m:msqrt>
+              <m:mo>=</m:mo>
+          </m:mtd>
+          <m:mtd>
+            <m:msqrt> 
+              <m:mo>(</m:mo>
+                <m:mrow> 
+                <m:msup>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                <m:mi>g</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+               <m:mo>+</m:mo>
+                <m:msup>
+                <m:mi>T</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+     
+              <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>m</m:mi>
+                <m:mi>g</m:mi>
+                <m:mi>T</m:mi>
+                <m:mi>cos</m:mi>
+                <m:mi>θ</m:mi>
+                </m:mrow> 
+              <m:mo>)</m:mo>
+           </m:msqrt>
+          </m:mtd>
+            </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-19">
+The acceleration is in the direction of force as shown in the figure, whereas the magnitude of the acceleration, a, is given by :
+</para>
+<para id="element-20">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+
+              <m:mi>a</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac> 
+                <m:mrow> 
+            <m:msqrt> 
+              <m:mo>(</m:mo>
+                <m:mrow> 
+                <m:msup>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                <m:mi>g</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+               <m:mo>+</m:mo>
+                <m:msup>
+                <m:mi>T</m:mi>
+                <m:mn>2</m:mn>
+                </m:msup>
+              <m:mo>+</m:mo>
+                <m:mn>2</m:mn>
+                <m:mi>m</m:mi>
+                <m:mi>g</m:mi>
+                <m:mi>T</m:mi>
+                <m:mi>cos</m:mi>
+                <m:mi>θ</m:mi>
+                </m:mrow> 
+              <m:mo>)</m:mo>
+           </m:msqrt>
+
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>m</m:mi>
+
+                </m:mrow> 
+              </m:mfrac> 
+
+          </m:mtd>
+            </m:mtr>
+
+ 
+         </m:mtable> 
+     </m:math>
+</para>  
+
+</example>
+
+</section>
+
+<section id="section-4">
+<title> External force and possible scenarios </title>
+
+
+<para id="element-58">
+The change in velocity, resulting from the application of external force, may occur in magnitude or direction or both. 
+</para>
+<para id="element-506"><term>1: </term> When force is applied in a given direction and the object is stationary.  </para><para id="element-621">Under this situation, the magnitude of velocity increases with time, while the body follows a linear path in the direction of force (or acceleration). </para><para id="element-59"><term>2: </term> When force is applied in the direction of the motion, then it increases the magnitude of the velocity without any change in the direction.  
+</para>
+<para id="element-60">Let us consider a block sliding on a smooth incline surface as shown in the figure. The component of the force due to gravity applies in the direction of motion. Under this situation, the magnitude of velocity increases with time, while the body follows a linear path. There is no change in the direction of motion. 
+</para>
+<para id="element-61">
+<figure id="fig61">
+<title> A block sliding along smooth incline </title>
+<media id="idm2749008" alt=""><image src="../../media/ua8.gif" mime-type="image/gif"/></media>
+<caption>The block moves faster as it moves down the slope</caption>
+</figure>
+</para>
+<para id="element-62"><term>3: </term> When force is applied in the opposite direction to the motion, then it decreases the magnitude of the velocity without any change in the direction.  
+
+</para>
+<para id="element-63">Take the example of a ball thrown vertically in the upward direction with certain velocity. Here, force due to gravity is acting downwards. The ball linearly rises to the maximum height till the velocity of ball reduces to zero. </para>
+<para id="element-64">
+<figure id="fig64">
+<title> A ball thrown in vertical direction </title>
+<media id="idp4677264" alt=""><image src="../../media/ua9.gif" mime-type="image/gif"/></media>
+<caption> The ball reverses its direction during motion.</caption>
+</figure>
+</para>
+<para id="element-65">During upward motion, we see that the force acts in the opposite direction to that of the velocity.  Under this situation, the magnitude of velocity decreases with time, while the body follows a linear path. There is no change in the direction of motion. </para>
+<para id="element-606">The velocity of the object at the point, where motion changes direction, is zero and force is acting downwards. This situation is same as the case 1. The object is at rest. Hence, object moves in the direction of force i.e. in the downward direction.</para><para id="element-950">In the figure above, the vectors drawn at various points represent the direction and magnitude of force (<term>F</term>), acceleration (<term>a</term>) and velocity (<term>v</term>) during the motion. Note that both force and acceleration act in the downward direction during the motion.
+</para><para id="element-66"><term>4: </term> When force is applied perpendicular to the direction of motion, then it causes change in the direction of the velocity.  
+</para>
+<para id="element-67">A simple change of direction also constitutes change in velocity and, therefore, acceleration. Consider the case of a uniform circular motion in which a particle moves along a circular path at constant speed “v”. Let 
+
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+
+ be the velocities of the particle at two time instants, then
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mspace width="3pt"/>
+<m:mi> a constant </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68a">
+<figure id="fig68a"><title> Uniform circular motion </title><media id="idm4372816" alt=""><image src="../../media/ua10a.gif" mime-type="image/gif"/></media><caption> A central force perpendicular to motion causes change in direction.</caption></figure>
+</para>
+
+<para id="element-69">In the adjoining figure, the vector segments OC and OD represent <m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+. Knowing that vector difference Δv is directed from initial to final position, it is represented by vector CD. Using the adjoining vector triangle,
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> OC </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> CD </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> OD </m:mi>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+
+
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> CD </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">The important thing to realize here is that direction of Δ<term> v</term> is along CD, which is directed towards the origin. This result is in complete agreement of what we know about uniform circular motion (The topic of uniform circular motion is covered in separate module). We need to apply a force (causing acceleration to the moving particle) across (i.e. perpendicular) to the motion to change direction. If the force (hence acceleration) is perpendicular to velocity, then magnitude of velocity i.e. speed remains same, whereas the direction of motion keeps changing.
+</para>
+
+
+<example id="example-3">
+<title> Acceleration </title>
+<para id="element-72">
+<term>Problem : </term> An object moves along a quadrant AB of a circle of radius 10 m with  a constant speed 5 m/s. Find the average velocity and average acceleration in this interval.
+</para>
+
+<para id="element-73"><term>Solution : </term> Here, we can determine time interval form the first statement of the question. The particle covers a distance of 2πr/4 with a speed v. Hence, time interval,
+</para>
+
+<para id="element-74"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> distance </m:mi>
+<m:mi> speed </m:mi>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> v </m:mi></m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3.14 </m:mn>
+<m:mi> x </m:mi>
+<m:mn> 10 </m:mn>
+</m:mrow>
+
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 3.14 </m:mn>
+<m:mi> s </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">Magnitude of average velocity is given by the ratio of the magnitude of displacement and time :
+</para>
+<para id="element-76">
+<figure id="fig76">
+<title> Motion along circular path </title>
+<media id="idm4482960" alt=""><image src="../../media/ua11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> AB </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+
+<m:mrow>
+<m:mi> Time </m:mi>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+</m:mrow>
+
+<m:mrow>
+<m:mn> 3.14 </m:mn>
+</m:mrow>
+</m:mfrac>
+
+
+<m:mfrac>
+<m:mn> 14.14 </m:mn>
+<m:mn> 3.14 </m:mn>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mn> 4.5 </m:mn>
+<m:mspace width="3pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-78">Average velocity is directed along vector AB i.e. in the direction of displacement vector.
+</para>
+<para id="element-79">
+Magnitude of average acceleration is given by the ratio :
+</para>
+<para id="element-80">
+<figure id="fig80">
+<title> Motion along circular path </title>
+<media id="idm15560608" alt=""><image src="../../media/ua12.gif" mime-type="image/gif"/></media>
+<caption>Direction of acceleration</caption>
+</figure>
+</para>
+
+<para id="element-81"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi> Δ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mi> Δ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+Here,
+</para>
+<para id="element-83"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+
+<m:mo> | </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> | </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+
+<m:mspace width="3pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:msqrt>
+<m:mn> 2 </m:mn>
+</m:msqrt>
+</m:mrow>
+<m:mn> 3.14 </m:mn>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mn> 3.1 </m:mn>
+<m:mspace width="3pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">Average acceleration is directed along the direction of vector <m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>i.e. directed towards the center of the circle (as shown in the figure). 
+</para>
+</example>
+
+<para id="element-85"><term>5: </term> When force is applied at a certain angle with the motion, then it causes change in both magnitude and direction of the velocity.  The component of force in the direction of motion changes its magnitude (an increase or decrease), while the component of force perpendicular to the direction of motion changes its direction.
+</para>
+<para id="element-86">
+The motion of a small spherical mass “m”, tied to a fixed point with the help of a string illustrates the changes taking place in both the direction and magnitude of the velocity. Saving the details for discussion at a later point in the course, here tension in the string and tangential force provide for the change in the direction and magnitude of velocity respectively. 
+</para>
+<para id="element-87">
+When the string makes at angle, θ, with the vertical, then :
+</para>
+
+<para id="element-88">
+<figure id="fig88">
+<title> Motion of a pendulum </title>
+<media id="idm5038640" alt=""><image src="../../media/ua14.gif" mime-type="image/gif"/></media>
+<caption> Forces acting on the pendulum bob </caption>
+</figure>
+</para>
+<para id="element-89">
+(a) Tension in the string, T is :
+</para>
+<para id="element-90">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> mg </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-91">This force acts normal to the path of motion at all points and causes the body to continuously change its direction along the circular path. Note that this force acts perpendicular to the direction of velocity, which is along the tangent at any given point on the arc.
+</para>
+<para id="element-92">
+(b) Tangential force, F, is :
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> mg </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-94">This force acts tangentially to the path and is in the direction of velocity of the spherical mass, which is also along the tangent at that point. As the force and velocity are in the same direction, this force changes the magnitude of velocity. The magnitude of velocity increases when force acts in the direction of velocity and magnitude of velocity decreases when force acts in the opposite direction to that of velocity.
+</para>
+
+</section>
+  </content>
+  
+</document>

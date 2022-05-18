@@ -1,0 +1,803 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Work and energy (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>16b92fcf-e82d-4abf-bace-ce5b2fe6eab1</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to energy and work. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+
+<item> Work by a system of forces
+</item>
+<item> Work by two/three dimensional force
+</item>
+<item> Work by variable force
+</item>
+<item> Kinetic energy
+</item>
+</list>
+</para>
+</section>
+<section id="section-4">
+<title> Work by a system of forces
+</title>
+<para id="element-29"><term>Problem 1 : </term> Two forces are applied on a block in the manner as shown in the figure. If the displacement of block on the horizontal surface is 10 m, find the work done by two forces.
+</para>
+<para id="element-30">
+<figure id="fig-30"><title> Block on a horizontal plane </title>
+<media id="idm9597424" alt=""><image src="../../media/ewq1a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-32"><term>Solution : </term>  We only need to consider horizontal components of forces for computing work. Vertical components of forces do not contribute to work, being perpendicular to the displacement.
+
+</para>
+<para id="element-283">We can solve this problem in two ways : either (i) we compute work by the horizontal components of each force separately and then add them to get the total work, or (ii) we first find the net horizontal component of the forces and then compute the work done. Here, we shall use the later technique. 
+
+</para><para id="element-496">Free body diagram is shown in the figure.</para><para id="element-33">
+<figure id="fig-33">
+<title> Block on a horizontal plane </title>
+<media id="idm3738080" alt=""><image src="../../media/ewq2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-34">The net component of forces in the horizontal direction is :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 2  </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1  </m:mn>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2  </m:mn>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+Work done is :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section> 
+
+<section id="section-5">
+<title> Work by two/three dimensional force
+</title>
+<section id="section-5a">
+<para id="element-14a"><term>Problem 2 : </term> 
+A force  (2<term>i</term> + 3<term>j</term>) Newton acts on a particle. If force and displacement both are are in same plane, then find work done by the force in moving particle from (1 m,2 m) to (3 m,4 m) along a straight line.
+</para>
+<para id="element-16"><term>Solution : </term> We can infer from the expression of force, which involves two unit vectors, that it acts in xy - plane. Since force and displacement both are in same plane, the displacement of the particle is also in xy-plane. 
+</para>
+<para id="element-376"><figure id="fig-376"><title> Force and displacement </title>
+<media id="idp3852384" alt=""><image src="../../media/ewq3.gif" mime-type="image/gif"/></media>
+</figure></para><para id="element-867">The figure above shows force vector (2<term>i</term> + 3<term>j</term>) and displacement end points A (1,2) and B(3,4). Note that we have used two coordinate systems - one for displacement and one for force.</para><para id="element-535">Now, the work in two dimensions is given by :  
+</para><para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">Here, 
+</para>
+<para id="element-161"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>N</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>N</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math></para><para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+<m:mi> + </m:mi>
+<m:mn> 3 </m:mn>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+<m:mi> = </m:mi>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section> 
+
+<section id="section-5b">
+<para id="element-60"><term>Problem 3 : </term> 
+A particle is acted upon by a two dimensional force (2<term>i</term>+3<term>j</term>). The particle moves along a straight line in xy - plane, defined by the equation, ax + 3y = 5, where "a" is a constant.  If work done by the force is zero, then find "a".
+</para>
+<para id="element-62"><term>Solution : </term> As both force and displacement are non-zero, the work can be zero, only if force and displacement are perpendicular to each other. In order to compare the directions of force and displacement, we write equation of a straight line, which is parallel to line of action of force. From the expression of the force, it is clear that its slope, "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+", is given by :
+</para>
+<para id="element-595"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> y </m:mi>
+<m:mi> x </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-98">The equation of a straight line parallel to the line of action of force is : </para><para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo>
+<m:mi> c </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo>
+<m:mi> c </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">Now, rearranging equation of trajectory as given in the question, we have :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">Let "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+" be the slope of the line representing trajectory. Then, </para><para id="element-912"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-66">For two lines to be perpendicular, the product of slopes is 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:math>
+,
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section> 
+</section> 
+
+<section id="section-6">
+<title> Work by variable force  
+</title>
+<para id="element-22"><term>Problem 4 : </term> A particle is acted by a variable force in xy - plane, which is given by (
+<m:math>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:math>
+)  N. If the particle moves from (1 m,2 m) to (3 m,4 m), then find the work done by the force.</para>
+
+<para id="element-23"><term>Solution : </term> 
+The force is a two dimensional variable force. We use integration method to find work in two mutually perpendicular directions and then sum them to find the total work. 
+</para>
+<para id="element-24"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 1 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msubsup>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> ⅆ </m:mo>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> [ </m:mo>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 1 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo>
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+and
+</para>
+<para id="element-26"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mn> 2 </m:mn>
+<m:mn> 4 </m:mn>
+</m:msubsup>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ⅆ </m:mo>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> [ </m:mo>
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 2 </m:mn>
+<m:mn> 4 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo>
+<m:mn> 64 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 56 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 56 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 64 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section> 
+
+<section id="section-7">
+<title> Kinetic energy 
+</title>
+<section id="section-7a">
+<para id="element-6"><term>Problem 5 : </term> A body, having a mass of 10 kg,  moves in a straight line with initial speed of 2 m/s and an acceleration of 1 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Find the initial time rate of change of kinetic energy.</para>
+<para id="element-6a"><term>Solution : </term> 
+Kinetic energy of the particle is given by :
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">
+We need to obtain a relation for "dK/dt" to obtain the required rate. Now,
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> K </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> v </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> K </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-276">Putting values, we have :</para><para id="element-10"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> K </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+<m:mi> 2 </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-7b">
+<para id="element-51"><term>Problem 6 : </term> 
+ If the ratio of the magnitude of linear momentum and kinetic energy of a particle at any given instant is inversely proportional to time, then find the nature of motion.
+</para>
+<para id="element-53"><term>Solution : </term> 
+The ratio of linear momentum and kinetic energy of a particle at any given instant is :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mi> p </m:mi>
+<m:mi> K </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac> 
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mi> v </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">However, it is given that the ratio of linear momentum and kinetic energy is inversely proportional to time. </para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mi> p </m:mi>
+<m:mi> K </m:mi>
+</m:mfrac>
+<m:mo> ∝ </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> t </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-911">Comparing two equations,</para><para id="element-509"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mi> v </m:mi>
+</m:mfrac>
+<m:mo> ∝ </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> t </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-257"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ∝ </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-924">We know that "v = u + at" for motion with constant acceleration. In this case, v ∝  t, which is same as the relation obtained above. Hence, motion considered in the question is characterized by constant acceleration.
+</para>
+</section>
+</section>
+
+
+
+  </content>
+  
+</document>

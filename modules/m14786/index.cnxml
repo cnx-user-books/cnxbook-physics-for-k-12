@@ -1,0 +1,987 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Spring (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6eacf490-3cbc-4e39-806f-dc395bb30894</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-2">We discuss problems, which highlight certain aspects of the study leading to spring. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-3">
+<list id="list-3" list-type="bulleted">
+<item> Spring balance
+</item>
+<item> Spring and block
+</item>
+<item> Spring and pulley
+</item>
+<item> Extension in spring
+</item>
+<item> Spring force as contact force
+</item>
+</list>
+</para>
+</section>
+<section id="section-3">
+<title> Spring and block
+</title>
+<para id="element-4"><term>Problem 1 : </term> A mass of 5 kg is suspended with two “mass-less” spring balances as shown in the figure. What would be the reading in each of the spring balances.
+</para>
+<para id="element-5">
+<figure id="fig-7">
+<title> Spring balance </title>
+<media id="idp7036416" alt=""><image src="../../media/s1-1c21.gif" mime-type="image/gif"/></media>
+<caption> A mass of 5 kg is suspended from a combination of two springs </caption>
+</figure>
+</para>
+<para id="element-6"><term>Solution : </term> The spring balance is calibrated to measure the mass of the object suspended from it.  In the stabilized condition, the spring force in the lower spring is equal to the weight of the object suspended from it. Since spring balances are "mass-less", the lower spring reads 5 kg. 
+</para>
+<para id="element-7">The lower "spring balance" and the "object" together are attached to the lower end of the upper spring balance. Again, a total of 5 kg is suspended from the upper spring balance (note that springs have no weight). As such, the spring force in the upper spring is equal to the weight of the object suspended from it. The upper spring, therefore, also reads 5 kg.  
+</para>
+</section>
+<section id="section-4">
+<title> Spring and block
+</title>
+<para id="element-8"><term>Problem 2 : </term> In the arrangement shown in the figure, the block is displaced by a distance “x” towards right and released. Find the acceleration of the block immediately after it is released.
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Spring balance </title>
+<media id="idp20332816" alt=""><image src="../../media/s2-44b9.gif" mime-type="image/gif"/></media>
+<caption> The block is displaced towards right. </caption>
+</figure>
+</para>
+<para id="element-10"><term>Solution : </term> When block is displaced towards right, the spring on left is stretched. The spring applies a force on the block towards left as spring tries to contract. The force is equal to the spring force and is given by :
+</para>
+<para id="element-11">
+<figure id="fig-11">
+<title> Spring balance </title>
+<media id="idp9890624" alt=""><image src="../../media/s3-45a7.gif" mime-type="image/gif"/></media>
+<caption> Both forces acts towards left. </caption>
+</figure>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">The force is opposite to the assumed positive reference direction of displacement (towards right). On the other hand, the spring on right is compressed. As such, it also applies a force towards left as spring tries to expand. 
+</para>
+<para id="element-15">
+The force is equal to the spring force and is given by : 
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>k</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+Thus, we see that both springs apply force in the direction opposite to the reference direction. The net force on the block, at the time of extension “x” in the spring is given by :
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>k</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">
+The acceleration of the block, immediately after it is released, is :
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>k</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>k</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">The acceleration of the block is negative as all other quantities in the above expression are positive. It means that acceleration is in the opposite direction of the displacement. The magnitude of acceleration is :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mo>|</m:mo>
+      <m:mi>a</m:mi>
+      <m:mo>|</m:mo>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>k</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>k</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5">
+<title> Spring and pulley 
+</title>
+<para id="element-23"><term>Problem 3 : </term>A spring of spring constant 200 N/m is attached to a “block – pulley” system as shown in the figure. Find the extension in the spring.
+</para>
+<para id="element-24">
+<figure id="fig-24">
+<title> Spring pulley system </title>
+<media id="idp13188752" alt=""><image src="../../media/s4-25d7.gif" mime-type="image/gif"/></media>
+<caption> The blocks have same mass. </caption>
+</figure>
+</para>
+<para id="element-25"><term>Solution : </term>We have studied that there is two phases of extension/compression of a spring. One is a brief period in which spring dynamically changes its length depending on the net axial force on it. This means that forces at the two ends of the spring are not same. Quickly, however, spring acquires the stabilized extension in the second phase, usually denoted by symbol “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. In this stabilized condition, the forces at the two ends of an ideal (without mass) spring are equal.
+</para>
+<para id="element-26">This problem deals the situation in which spring has acquired the stabilized extension. Thus forces across the spring are equal at two ends and are also equal to the tensions in the attached string at those ends. In the force analysis, we shall treat spring just like string with the exception that the spring force equals tension in the string. Hence,
+</para>
+<para id="element-27">
+<figure id="fig-27">
+<title> Spring block system </title>
+<media id="idp9177376" alt=""><image src="../../media/s5-a670.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block </caption>
+</figure>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">As the masses of the blocks are equal, the net pulling force on the blocks in the downward direction is zero.
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">It means that blocks have zero acceleration. Now, free body diagram (as shown on the right hand side of the figure above) of any of the given blocks yields :
+</para>
+<para id="element-32"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>200</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.25</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6">
+<title> Extension in spring 
+</title>
+<para id="element-35"><term>Problem 4 : </term>A spring of spring constant "k", has extended lengths "
+<m:math>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+" and "
+<m:math>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+</m:math>
+" corresponding to spring forces 4 N  and 5 N. Find the spring length when spring force is 9 N.
+</para>
+<para id="element-36"><term>Solution : </term>Let the natural length of spring be “x”. According to Hooke’s law, the magnitude of spring force,
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>Δ</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">where "
+<m:math>
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+" is the extension. Let the spring length for spring force 9N be "
+<m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+". Then,
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>9</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>9</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>k</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+We need to find expressions of spring constant and natural length in terms of given values. For the given two extensions, we have :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+Subtracting first equation from second and solving for “k”, 
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>k</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">Substituting for “k” in the first equation, 
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+
+        <m:mi>X</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>4</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+We can, now, evaluate the required expression of “
+<m:math>
+    <m:msub> 
+    <m:mi>x</m:mi>
+    <m:mn>3</m:mn>
+    </m:msub>
+</m:math> 
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>9</m:mn>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>−</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:mfrac>
+        <m:mi>X</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>5</m:mn>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:mn>4</m:mn>
+            <m:msub>
+              <m:mi>x</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>−</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mn>1</m:mn>
+                </m:msub>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>9</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mn>4</m:mn>
+        <m:msub>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-7">
+<title> Spring force as contact force
+</title>
+
+<para id="element-56"><term>Problem 5 : </term>A bead of mass, “m”, is placed on a circular rim of radius “r” and is attached to a fixed point “A” through a spring as shown in the figure. The natural length of spring is equal to the radius “r” of the circular rim and spring constant is “k”. Find the normal force on the circular rim at the moment spring is released from the position “B”. The spring makes 30° with the horizontal in this position. 
+</para>
+<para id="element-57">
+<figure id="fig-57">
+<title> A bead attached to a spring </title>
+<media id="idp12433152" alt=""><image src="../../media/s6.gif" mime-type="image/gif"/></media>
+<caption> The bid applies a force on the circular ring. </caption>
+</figure>
+</para>
+<para id="element-58"><term>Solution : </term>The forces on the bead are (i) its weight (ii) spring force and (iii) normal force. 
+</para>
+<para id="element-59">In order to carry force analysis, we need to determine magnitudes and directions of forces. Here, we know the directions of all three forces. Spring force acts along spring length, gravity acts vertically downward and normal force acts radially. In triangle ABC, CA and CB are the radii. Hence, triangle ABC is an isosceles triangle.
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> A bead attached to a spring </title>
+<media id="idp12400272" alt=""><image src="../../media/s7.gif" mime-type="image/gif"/></media>
+<caption> Forces on the bead. </caption>
+</figure>
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∠</m:mo>
+    <m:mi>C</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∠</m:mo>
+    <m:mi>C</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+ Let "F" be the spring force. Normal force is equal to sum of the components of spring force and gravity in radial direction. Carrying force analysis in CB direction, we have :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+The magnitude of spring force, “F”, is given by :
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+where “x” is the extension in the spring and is given by :
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>r</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+Substituting in the expression of normal force, we have :
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>r</m:mi>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>3</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>{</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>k</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>r</m:mi>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+  </content>
+  
+</document>

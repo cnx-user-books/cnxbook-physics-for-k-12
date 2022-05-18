@@ -1,0 +1,1132 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Non – uniform circular motion(application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>2493532d-558e-4a83-9492-74205554897a</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+
+<section id="section-2">
+<title>  Hints on problem solving </title>
+<para id="element-4">
+<term>1: </term> Calculation of acceleration as time rate of change of speed gives tangential acceleration.
+</para>
+<para id="element-5">
+<term>2: </term> Calculation of acceleration as time rate of change of velocity gives total acceleration.
+</para>
+<para id="element-6">
+<term>3: </term> Tangential acceleration is component of total acceleration along the direction of velocity. Centripetal acceleration is component of acceleration along the radial direction.
+</para>
+<para id="element-7">
+<term>4: </term> We exchange between linear and angular quantities by using radius of circle, "r", as multiplication factor. It is helpful to think that linear quantities are bigger than angular quantities. As such, we need to multiply angular quantity by “r” to get corresponding linear quantities and divide a linear quantity by “r” to get corresponding angular quantity.
+</para>
+</section> 
+
+<section id="section-3">
+<title> Representative problems and their solutions </title>
+<para id="element-8">We discuss problems, which highlight certain aspects of the study leading to non-uniform circular motion. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+
+<para id="element-9">
+<list id="list-9" list-type="bulleted">
+<item> Velocity
+</item>
+
+<item> Average total acceleration
+</item>
+<item> Total acceleration
+</item>
+</list>
+</para>
+</section> 
+
+<section id="section-4">
+<title> Velocity </title>
+
+
+<example id="example-98">
+<para id="element-98"><term>Problem : </term> A particle, tied to a string, starts moving along a horizontal circle of diameter 2 m, with zero angular velocity and a tangential acceleration given by "
+<m:math>
+  <m:mrow>
+    <m:mn>4</m:mn>
+      <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+". If the string breaks off at t = 5 s, then find the speed of the particle with which it flies off the circular path.
+</para>
+<para id="element-99"><term>Solution : </term> 
+Here, tangential acceleration of the particle at time "t" is given as :
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>T</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-103">
+We note here that an expression of tangential acceleration (an higher attribute) is given and we are required to find lower order attribute i.e. linear speed. In order to find linear speed, we need to integrate the acceleration function :
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>T</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-105">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>đ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-106">
+Integrating with appropriate limits, we have :
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mo>đ</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>∫</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msubsup>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>5</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>50</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>∕</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>50</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>50</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>∕</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+
+</example>
+
+
+
+
+
+</section> 
+
+
+<section id="section-6">
+<title> Average total acceleration </title>
+<example id="example-44">
+<para id="element-44"><term>Problem : </term> 
+A particle is executing circular motion. The velocity of the particle changes from (0.1<term>i</term> + 0.2<term>j</term>) m/s to (0.5<term>i</term> + 0.5<term>j</term>) m/s in a period of 1 second.  Find the magnitude of average total acceleration.
+</para>
+
+<para id="element-46"><term>Solution : </term> 
+The average total acceleration is  :
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 0.4 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 0.3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+The magnitude of acceleration is :
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 0.4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 0.3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mn> 0.25 </m:mn>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<example id="example-88">
+<para id="element-88"><term>Problem : </term> 
+A particle starting with a speed “v” completes half circle in time “t” such that its speed at the end is again “v”. Find the magnitude of average total acceleration.
+</para>
+<para id="element-88a"><term>Solution : </term> 
+Average total acceleration is equal to the ratio of change in velocity and time interval.
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>avg</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mstyle mathvariant="bold">
+            <m:mi>v</m:mi>
+          </m:mstyle>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mstyle mathvariant="bold">
+            <m:mi>v</m:mi>
+          </m:mstyle>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">
+From the figure and as given in the question, it is clear that the velocity of the particle has same magnitude but opposite directions. 
+
+</para>
+<para id="element-90a">
+<figure id="fig-90a"><title> Circular motion </title>
+<media id="idp6284224" alt=""><image src="../../media/nucmq1.gif" mime-type="image/gif"/></media>
+<caption> The speeds of the particle are same at two positions.</caption>
+</figure>
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>v</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+Putting in the expression of average total acceleration, we have :
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>avg</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mstyle mathvariant="bold">
+            <m:mi>v</m:mi>
+          </m:mstyle>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mstyle mathvariant="bold">
+            <m:mi>v</m:mi>
+          </m:mstyle>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mstyle mathvariant="bold">
+          <m:mi>v</m:mi>
+        </m:mstyle>
+        <m:mo>−</m:mo>
+        <m:mstyle mathvariant="bold">
+          <m:mi>v</m:mi>
+        </m:mstyle>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mrow>
+        <m:mi>avg</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+        <m:mstyle mathvariant="bold">
+          <m:mi>v</m:mi>
+        </m:mstyle>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">
+The magnitude of the average acceleration is :
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>avg</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+</section> 
+
+<section id="section-7">
+<title> Total acceleration </title>
+
+<example id="example-60">
+<para id="element-60"><term>Problem : </term> 
+The angular position of a particle (in radian), on circular path of radius 0.5 m, is given by :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 0.04 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64a">
+At t = 1 s, find (i) angular velocity (ii) linear speed (iii) angular acceleration (iv) magnitude of tangential acceleration (v) magnitude of centripetal acceleration and (vi) magnitude of total acceleration.
+</para>
+<para id="element-64b"><term>Solution : </term> 
+Angular velocity is :
+</para>
+<para id="element-64c">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mo>đ</m:mo>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>đ</m:mo>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>0.2</m:mn>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mn>0.04</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64d">
+The angular speed, therefore, is dependent as it is a function in "t". At t = 1 s, 
+</para>
+<para id="element-64e">
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>rad</m:mi>
+    <m:mo>/</m:mo>
+      <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+The magnitude of linear velocity, at t = 1 s, is :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>0.5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+Angular acceleration is :
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfrac>
+        <m:mrow>
+          <m:mo>đ</m:mo>
+          <m:mi>ω</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mo>đ</m:mo>
+          <m:mi>t</m:mi>
+        </m:mrow>
+      </m:mfrac>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>0.4</m:mn>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>rad</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+Clearly, angular acceleration is constant and is independent of time.
+</para>
+<para id="element-72">
+The magnitude of tangential acceleration is :
+</para>
+<para id="element-72a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>T</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>α</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>0.5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0.2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72b">
+Tangential acceleration is also constant and is independent of time.
+</para>
+<para id="element-72c">
+The magnitude of centripetal acceleration is :
+</para>
+<para id="element-72d">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.4</m:mn>
+    <m:mi>t</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>0.2</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.08</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72e">
+At t = 1 s,  
+</para>
+<para id="element-72f">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0.08</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72g">
+The magnitude of total acceleration, at t =1 s, is :
+</para>
+<para id="element-72h">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mi>T</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mi>R</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72i">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>0.2</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>0.08</m:mn>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>0.215</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+
+<example id="example-73">
+<para id="element-73"><term>Problem : </term> 
+The speed (m/s) of a particle, along a circle of radius 4 m, is a function in time, "t" as :
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">
+Find the total acceleration of the particle at time, t = 2 s.
+</para>
+<para id="element-76"><term>Solution : </term> The tangential acceleration of the particle is obtained by differentiating the speed function with respect to time,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>T</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">The tangential acceleration at time, t = 2 s, therefore, is :
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>T</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+The radial acceleration of the particle is given as :
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">In order to evaluate this expression, we need to know the velocity at the given time, t = 2 s :
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">
+Putting in the expression of radial acceleration, we have :
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mn>4</m:mn>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">
+The total acceleration of the particle is :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msubsup>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mi>T</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>a</m:mi>
+              <m:mrow>
+                <m:mi>R</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mn>4</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mn>4</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>∕</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+
+</example>
+</section>   
+
+
+
+
+
+  </content>
+  
+</document>

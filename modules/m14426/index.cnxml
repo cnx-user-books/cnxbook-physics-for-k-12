@@ -1,0 +1,1515 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rotation (check your understanding)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>24dfca96-4a96-4389-a3d1-a9b3a5a29013</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The questions have been selected to enhance understanding of the topics covered in the modules on "<link document="m14277"> Rotation </link>". All questions are multiple choice questions with one or more correct answers. There are two sets of the questions. The “understanding level” questions seek to unravel the fundamental concepts involved, whereas “application level” are relatively difficult, which may interlink concepts from other topics.
+</para>
+<para id="element-2">
+Each of the questions is provided with solution. However, it is recommended that solutions may be seen only when your answers do not match with the ones given at the end of this module.  
+</para>
+<section id="section-1">
+<title> Understanding level (Rotation) </title>
+
+
+<para id="element-3">
+<exercise id="exercise-3">
+<problem id="idp2739264">
+<para id="element-4">
+A force <term>F</term> = 2<term>i</term> + <term>j</term> + 3<term>k</term> Newton acts at a point of a rigid body, defined by the position vector <term>r</term> = <term>i</term> + <term>j</term> + <term>k</term> meters. If the body rotates about z-axis of the coordinate system, then the magnitude of torque (in N-m) accelerating the rigid body is  :
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 3 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 4 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp6856336">
+<para id="element-6">
+This question is included here with the purpose to highlight conceptual and visualization aspects of the calculation of torque. The torque about the axis of rotation i.e. z-axis is given as :
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">
+where “r” and “F” are in the plane perpendicular to the axis of rotation i.e. in “xy”-plane. Explicitly, we can write :
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> xy </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> xy </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+<figure id="fig-11"><title> Rotation  </title>
+<media id="idm7181888" alt=""><image src="../../media/rq1.gif" mime-type="image/gif"/></media>
+<caption> Component of force in “xy”-plane. 
+.</caption>
+</figure>
+</para>
+<para id="element-10">The figure above shows the force component in “xy”-plane. Have a careful look at the force component in relation to the point of application, "P". The rigid body is deliberately not shown so that we can visualize vector components without any congestion in the figure.  
+</para>
+<para id="element-12a">
+Note here that body is rotating about z-axis. Thus, we need to calculate torque about z-axis only. The z-component of force does not constitute a torque about z-axis. Hence,
+</para>
+
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> xy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">The component of radius vector in xy -  plane is shown in the figure below. Note that it is measured in the plane of rotation of the point of application of force about the axis. Again, we drop z-component. The “xy” components of force and radius vectors are shown in the red colors in the figure.
+</para>
+<para id="element-15">
+<figure id="fig-15"><title> Rotation  </title>
+<media id="idp2415216" alt=""><image src="../../media/rq2a.gif" mime-type="image/gif"/></media>
+<caption> Component of position vector in “xy”-plane. 
+.</caption>
+</figure>
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> xy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+Therefore, torque about the axis of rotation is :
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> xy </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> xy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+The magnitude of torque is :
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">Note that the torque is in the direction of “-z”-axis and the body is rotating clockwise.
+</para>
+<para id="element-22">
+Alternatively, we can also work this problem without restricting evaluation of vector product in any plane as  :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+<code display="block" id="idp1869440"><term>τ</term> =    | <term>i</term>         <term>j</term>        <term>k</term> |
+       | 1         1        1 |
+       | 2         1        3 |
+</code>
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 3 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> i </m:mo> 
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> j </m:mo> 
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> k </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo mathvariant="bold"> i </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo mathvariant="bold"> j </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo mathvariant="bold"> k </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+The component of torque in z-direction is :
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo mathvariant="bold"> k </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+The magnitude of torque is :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+Hence, option (a) is correct.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-32">
+<exercise id="exercise-32">
+<problem id="idp1797808">
+<para id="element-33">The overview of two horizontal forces acting at the ends of a rod, pivoted at the middle point, is shown in the figure. The rod is free to rotate in horizontal plane. However, the magnitudes of forces, acting perpendicular to the rod, are such that rod is stationary. If the angle of force 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ with respect to rod is changed, then rod can be held stationary if :
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Rotation  </title>
+<media id="idp5397280" alt=""><image src="../../media/rq3.gif" mime-type="image/gif"/></media>
+<caption> A rod is acted upon by a pair of forces in horizontal plane. 
+.</caption>
+</figure>
+</para>
+<para id="element-34a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> force </m:mtext>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mtext> is increased  </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> force 
+ </m:mtext>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mtext> is decreased  </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> point of application of force </m:mtext>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mtext> is brought closure to pivot </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> point of application of force 
+ </m:mtext>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mtext> is brought closure to pivot </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm7444400">
+<para id="element-34b">The rod will not rotate when torques due to the forces are equal in magnitude and opposite in direction :</para>
+<para id="element-35a">
+<figure id="fig-35a">
+<title> Rotation  </title>
+<media id="idp1598224" alt=""><image src="../../media/rq4.gif" mime-type="image/gif"/></media>
+<caption> A rod is acted upon by a pair of forces in horizontal plane. 
+.</caption>
+</figure>
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+Since 
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &lt; </m:mo>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+, we can conclude 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+. The magnitude of torque due to force 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+is given as :
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+Evidently, torque due to 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ is reduced when angle of application of force with respect to rod changes. In order to maintain the balance, the force 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ needs to be increased or the force 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ is decreased or the force 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ is brought closure to the pivot.
+</para>
+<para id="element-41">
+Hence, options (a), (b) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-42">
+<exercise id="exercise-42">
+<problem id="idp6332320">
+
+<para id="element-43">A flywheel with moment of inertia of 2 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, is rotating at 10 rad/s about a perpendicular axis. The flywheel is brought to rest uniformly in 10 seconds due to friction at the axle. The magnitude of torque due to friction is (in N-m) :
+</para>
+<para id="element-43a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 5 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 15 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp6264064">
+<para id="element-44">The angular deceleration is uniform i.e. constant as given in the question. The torque due to friction at the axle is, therefore, also constant. Let “α” be the deceleration. 
+</para>
+<para id="element-45">
+Applying, equation of motion for constant angular acceleration, we have :
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Here, </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+<m:mo> ; </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> ; </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> s </m:mi>
+<m:mo> , </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> + </m:mo>
+<m:mi> α </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> rad </m:mo> 
+<m:mo> / </m:mo> 
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+The magnitude of torque is :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 5 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-59a">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-52">
+<exercise id="exercise-52">
+<problem id="idm7283664">
+<para id="element-53">A circular disk of mass 2 kg and radius 1 m is free to rotate about its central axis. The disk is initially at rest. Then, the constant tangential force (in Newton) required to rotate the disk with angular velocity 10 rad/s in 5 second is :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 4 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 8 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 16 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm825600">
+<para id="element-55">This question is similar to earlier one except that we need to find the tangential force instead of torque. Since torque is equal to the product of tangential force and moment arm, we need to find torque first and then find the required tangential force. 
+</para>
+<para id="element-55a"> A constant tangential force results in a torque along the axis of rotation. The torque, in turn, produces a constant angular acceleration “α”. As such, we can apply equation of motion for constant angular acceleration,
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Here,  </m:mi>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> ; </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+<m:mo> ; </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> s </m:mi>
+<m:mo> , </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo>
+<m:mi> α </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> rad </m:mo> 
+<m:mo> / </m:mo> 
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Applying Newton’s second law for rotation, we have :
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+Here,
+</para>
+<para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> Kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+Hence,
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+Now, torque is also given as :
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> R </m:mi>
+<m:mi> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> τ </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mn> 1 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-70">
+<exercise id="exercise-70">
+<problem id="idp2788976">
+<para id="element-71">
+A wheel of 10 kg, mounted on its central axis, is acted upon by four forces. The lines of action of forces are in the plane perpendicular to the axis of rotation as shown in the figure. If the magnitudes of forces and their directions during rotation are same, then (considering, R = 10 m) :
+</para>
+<para id="element-72">
+<figure id="fig-72"><title> Rotation </title>
+<media id="idp659456" alt=""><image src="../../media/rq5.gif" mime-type="image/gif"/></media>
+<caption> Rotation about central axis. 
+.</caption>
+</figure></para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> the magnitude of net torque is zero
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> the magnitude of net acceleration is 2 
+ </m:mtext>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> the magnitude of net acceleration is 4 
+ </m:mtext>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> the direction of rotation is anti-clockwise
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idp5272992">
+<para id="element-74">
+The forces of 3N and 5N act through the axis of rotation. They do not constitute torque. The force of 4N constitute a clockwise torque of 4 x 10 = 40 N-m. On the other hand, the force of 2N constitute an anticlockwise torque of 2 x 20 = 40 N-m. 
+</para>
+<para id="element-75">The cylinder, therefore, is acted by two equal, but opposite torques. Therefore, the net torque on the body is zero.
+</para>
+<para id="element-76">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>  
+
+<section id="section-2">
+<title> Application level (Rotation) </title>
+<para id="element-77">
+<exercise id="exercise-77">
+<problem id="idp6391600">
+<para id="element-78">
+Two flywheels of moments of inertia 1 and 2 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ and radii 1 and 2 meters respectively are connected by a belt as shown in the figure. The angular speed of larger wheel is increased at a constant rate 2 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+   without any slippage between wheels and the belt. Then,
+</para>
+<para id="element-79">
+<figure id="fig-79"><title> Connected flywheels  </title>
+<media id="idp4255968" alt=""><image src="../../media/rq6.gif" mime-type="image/gif"/></media>
+<caption> There is slippage between belt and flywheels 
+.</caption>
+</figure></para>
+<para id="element-80"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mtext> Tension in the belt is same
+</m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> Linear velocity of the belt is same everywhere 
+</m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> Torques on the wheels are same
+</m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> Angular accelerations of the wheels are same
+</m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="idm1058128">
+<para id="element-81">Since, no slippage between wheels and the belt is involved, the linear velocity of the belt is same through out.
+</para>
+<para id="element-82">The rotation of the larger wheel causes the smaller wheel to rotate as well. Since two wheels are accelerated from at constant rate, it means that they are acted upon by constant torques. On the other hand, a net tangential force on either of the wheels is required to constitute a torque. As such, tension in the belt needs to be different so that there is a net tangential force on the flywheel. 
+</para>
+<para id="element-83">
+Let ω be the angular speed of the larger wheel. The corresponding linear speed of the belt is :
+</para>
+<para id="element-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85">
+The angular speed of the smaller wheel is :
+</para>
+<para id="element-86">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> ω </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-87">
+On the other hand, the linear acceleration of the belt is :
+</para>
+<para id="element-88">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> α </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-89">
+The angular acceleration of the smaller wheel is :
+</para>
+<para id="element-90">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> α </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-91">
+Thus, angular accelerations of the wheels are not same. Now, the torque on the larger wheel is :
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> α </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-93">
+The torque on the smaller wheel is :
+</para>
+<para id="element-94">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> α </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 4 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-95">
+Thus, the torques on the wheels is same.
+</para>
+<para id="element-96">
+Hence, options (b) and (c) are correct.
+</para>
+<para id="element-97">
+<note id="idm537920"> Torques need not be always equal. This result is specific for the set of values given in the question.
+</note>
+</para>
+</solution>
+</exercise>
+</para>
+</section>  
+<section id="section-3">
+<title> Answers </title>
+<para id="element-262">
+<code display="block" id="idp2710288">
+1. (a)   2. (a), (b) and (d)    3. (c)    4. (b)    5. (a) 
+6. (b) and (c)
+</code>
+</para>
+</section>
+
+  </content>
+  
+</document>

@@ -1,0 +1,917 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Angular momentum</title>
+  <metadata>
+  <md:content-id>m14405</md:content-id><md:title>Angular momentum</md:title>
+  <md:abstract>The angular momentum in rotation is a subset of angular momentum about a point in general motion.</md:abstract>
+  <md:uuid>6109caa0-f8f4-4482-89a7-fb299001b86d</md:uuid>
+</metadata>
+
+<content>
+
+
+<para id="element-1"> Like linear momentum, angular momentum is the measure of the "quantity of motion".  From Newton's second law, we know that first time derivative of linear momentum gives net external force on a particle. By analogy, we expect that this quantity (angular momentum) should have an expression such that its first time derivative yields torque on the particle. 
+</para>
+
+<section id="section-1">
+<title> Angular momentum about a point </title>
+
+<para id="element-2">Angular momentum is associated with a particle in motion. The motion need not be rotational motion, but any motion. Importantly, it is measured with respect to a fixed point. 
+</para>
+<para id="element-3"> Angular momentum of a particle about a point is defined as a vector, denoted as "<term>ℓ</term>". 
+</para>
+<para id="element-4">
+<equation id="equation-4">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-5">where "<term>r</term>" is the linear vector connecting the position of the particle with the "point" about which angular momentum is measured and "<term>p</term>" is the linear momentum vector. In case, the point coincides with the origin of coordinate system, the vector "<term>r</term>" becomes the position vector.
+</para>
+<para id="element-5a"> We should note here that small letter "ℓ" is used to denote angular momentum of a particle. The corresponding capital letter "L" is reserved for angular momentum of a system of particle or rigid body. This convention helps to distinguish the context and may be adhered to.
+</para>
+<para id="element-14">The SI unit of angular momentum is 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> s </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+, which is equivalent to J-s. 
+</para>
+<section id="section-1a">
+<title> Magnitude of angular momentum  </title>
+
+<para id="element-6">  Like in the case of torque, the magnitude of angular momentum can be obtained using any of the following relations :
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> Angular momentum of a particle </title>
+<media id="id7653646" alt=""><image src="../../media/am1-551e.gif" mime-type="image/gif"/></media>
+<caption> Angular momentum in terms of enclosed angle.</caption>
+</figure>
+</para>
+<para id="element-7a">
+<term>1: </term> Angular momentum in terms of angle enclosed
+</para>
+<para id="element-8">
+<equation id="equation-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> p </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-7b">
+<term>2: </term> Angular momentum in terms of force perpendicular to position vector
+</para>
+<para id="element-8a">
+<equation id="equation-8a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-7c">
+<term>3: </term> Angular momentum in terms of moment arm
+</para>
+<para id="element-8b">
+<equation id="equation-8b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> p </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-9">If the particle is moving with a velocity "<term>v</term>", then the expression of angular momentum becomes :
+</para>
+<para id="element-10">
+<equation id="equation-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-11">Again, we can interpret this vector product as in the case of torque. Its magnitude can be obtained using any of the following relations :
+</para>
+<para id="element-12">
+<equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+
+<example id="example-15">
+<para id="element-74"><term>Problem : </term> A particle of mass, "m", moves with a constant velocity "v" along a straight line parallel to x-axis as shown in the figure. Find the angular momentum of the particle about the origin of the coordinate system. Also discuss the nature of angular momentum in this case.
+</para>
+<para id="element-16">
+<figure id="fig-17"><title> Angular momentum of a particle </title>
+<media id="id9942609" alt=""><image src="../../media/am2-3f39.gif" mime-type="image/gif"/></media>
+<caption> The particle is moving with a constant velocity.</caption>
+</figure>
+</para>
+<para id="element-18"> <term>Solution : </term> The magnitude of the angular momentum is given by :
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">This expression can be rearranged as :
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+From the ΔOAC, it is clear that :
+</para>
+<para id="element-23">
+<figure id="fig-23"><title> Angular momentum of a particle </title>
+<media id="id6783706" alt=""><image src="../../media/am3-27c4.gif" mime-type="image/gif"/></media>
+<caption> The particle is moving with a constant velocity.</caption>
+</figure>
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> AC </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">At another instant, we have :  
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mi> ' </m:mi>
+</m:msup>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mi> θ </m:mi>
+<m:mi> ' </m:mi>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> BD </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">But the perpendicular distance between two parallel lines are same (AC = BD). Thus,
+</para>
+<para id="element-28"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a constant </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">Also, the quantities "m" and "v" are constants. Therefore, angular momentum of the moving particle about origin "O" is a constant.
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> a constant </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">Since angular momentum is constant, its rate of change with time is zero. But, time rate of change of angular momentum is equal to torque (we shall develop this relation in next module). It means that torque on the particle is zero as time derivate of a constant is zero. Indeed it should be so as the particle is not accelerated. This result underlines the fact that the  concept of angular momentum is consistent even for the description of linear motion as set out in the beginning of this module. 
+</para>
+</example>
+</section>
+<section id="section-1b">
+<title> Direction of angular momentum  </title>
+
+<para id="element-32">
+Angular momentum is perpendicular to the plane formed by the pair of position and linear momentum vectors or by the pair of position and velocity vector, depending upon the formula used. Besides, it is also perpendicular to each of operand vectors. However, the vector relation by itself does not tell which side of the plane formed by operands is the direction of torque. 
+</para>
+<para id="element-33">
+In order to decide the orientation of the angular momentum, we employ right hand vector product rule. The procedure involved is same as that in the case of torque. See the module titled <link document="m14402" target-id="section-1b">Torque about a point</link>. 
+</para>
+</section>
+
+<section id="section-1c">
+<title> Angular momentum in component form
+</title>
+<para id="element-34">
+Angular momentum, being a vector, can be evaluated in component form with the help of unit vectors along the coordinate axes. The various expressions involved in the vector algebraic analysis are as given here : 
+</para>
+
+<para id="element-35">
+<term>1: </term> In terms of position and linear momentum vectors
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> p </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-37">
+
+<code id="id6781721" display="block">
+<term>ℓ</term> = | <term>i</term>	   <term>j</term>	 <term>k</term> |
+    | x	   y	 z |
+    | px   py	 pz|
+</code>
+</para>
+<para id="element-38">
+<equation id="equation-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> y </m:mi>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> z </m:mi>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> z </m:mi>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> x </m:mi>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<para id="element-39">
+<term>2: </term> In terms of position and velocity vectors
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-41">
+
+<code id="id9939724" display="block"><term>ℓ</term> = m | <term>i</term>    <term>j</term>    <term>k</term> |
+      | x    y	  z |
+      | vx   vy	  vz|
+</code>
+</para>
+<para id="element-42">
+<equation id="equation-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> y </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> z </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> z </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> x </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+</section> 
+</section>   
+<section id="section-2">
+<title> Angular momentum for a particle in rotation 
+</title>
+
+<para id="element-43">In rotation, a particle rotates about a fixed axis as shown in the figure. We consider haere a particle, which rotates about z-axis along a circular path in a plane parallel to "xy" plane. By the nature of the rotational motion, linear velocity,"<term>v</term>", and hence linear momentum, "<term>p</term>" are tangential to circular path and are perpendicular to the position vector, "<term>r</term>".
+</para>
+<para id="element-44">
+<figure id="fig-44"><title> A particle rotating about an axis </title>
+<media id="id9840918" alt=""><image src="../../media/am4-4b49.gif" mime-type="image/gif"/></media>
+<caption> The position vector is perpendicular to velocity vector.</caption>
+</figure>
+</para>
+<para id="element-45">The angle between position vector "<term>r</term>" and velocity vector "<term>v</term>" is always 90°. There may be some difficulty in visualizing the angle here. In order to visualize the same in a better perspective, we specifically consider a time instant when position vector and moment arm, 
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:math>
+, are in "xz" plane. At this instant, the velocity vector, "<term>v</term>'", is tangential to the circle and is perpendicular to the "xz" plane. This figure clearly shows that position vector is indeed perpendicular to velocity vector. 
+</para>
+<para id="element-46">
+<figure id="fig-46"><title> Angular momentum </title>
+<media id="id9977349" alt=""><image src="../../media/am5-1012.gif" mime-type="image/gif"/></media>
+<caption> Angular momentum of a particle rotating about an axis.</caption>
+</figure>
+</para>
+<para id="element-47">The angular momentum of the particle, therefore, is :
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 90 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">The direction of angular momentum is perpendicular to the plane formed by position and velocity vectors. For the specific situation as shown in the figure above, the direction of angular momentum is obtained by first shifting the velocity vector to the origin and then applying right hand rule. Importantly, the angular momentum vector makes an angle with extended x-axis in opposite direction as shown here.
+</para>
+<para id="element-50">
+<figure id="fig-50"><title> Angular momentum </title>
+<media id="id9692852" alt=""><image src="../../media/am6-2c95.gif" mime-type="image/gif"/></media>
+<caption> Direction of angular momentum.</caption>
+</figure>
+</para>
+<para id="element-51">We observe that particle is restrained to move along a circular path perpendicular to axis of rotation i.e. z -axis. Thus, only the component of angular momentum in the direction of axis is relevant in the case of rotation. The component of angular momentum in z -direction is :
+</para>
+<para id="element-52"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+From geometry, we see that :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">Hence,</para>
+<para id="element-56"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mo> x </m:mo> 
+<m:mi> ω </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+But, we know that 
+<m:math>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+</m:math>
+. Hence,
+</para>
+<para id="element-58"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">This has been the expected relation corresponding to p=mv for translational motion. The product of moment of inertia and angular velocity about a common axis is equal to component of angular momentum about the rotation axis. </para>
+
+
+<para id="element-60">If we define angular momentum of the particle for rotation as the product of linear momentum and moment arm about the axis of rotation (not position vector with respect to point "O" as in the general case), then we can say that  product of moment of inertia and angular velocity about a common axis is equal to the angular momentum about the rotation axis. Dropping the suffix referring the axis of rotation, we have :
+</para><para id="element-61">
+<equation id="equation-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-62">We must ensure, however, that all quantities in the equation above refer to the same axis of rotation. Also, we should also keep in mind that the definition of angular momentum for rotation about an axis has been equal to the component of linear momentum about the axis of rotation and is different to the one about a point as in the general case. In the nutshell, we find that the angular momentum in rotation is a subset of angular momentum about a point in general motion.
+</para><para id="element-63">It should be amply clear that the expression of angular momentum in terms of moment of inertia and angular velocity is valid only for rotational motion. </para>
+</section>
+
+<section id="section-3">
+<title> Summary
+</title>
+<para id="element-63a">
+<term>1: </term> Angular momentum of a particle in general motion is given as :
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+The interpretation of above relation differs for the reference with respect to which linear distance is measured. In the case of point reference, the vector “r” denotes position vector from the point, whereas it denotes radius vector from the center of circle in rotation.
+</para>
+<para id="element-66">
+<term>2: </term> The magnitude of angular momentum is evaluated, using any of the following six relations :
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> p </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> p </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+<term>3: </term> The direction of the angular momentum, being a vector product, is evaluated in the same manner as that in the case of torque.
+</para>
+<para id="element-69">
+<term>3: </term> In the component form, the angular momentum is expressed as :
+</para>
+<para id="element-70">
+<code id="id9628904" display="block">
+<term>ℓ</term> = | <term>i</term>	   <term>j</term>	 <term>k</term> |
+    | x	   y	 z |
+    | px   py	 pz|
+</code>
+</para>
+<para id="element-71">
+and
+</para>
+<para id="element-72">
+<code id="id9756336" display="block"><term>ℓ</term> = m | <term>i</term>    <term>j</term>    <term>k</term> |
+      | x    y	  z |
+      | vx   vy	  vz|
+</code>
+</para>
+<para id="element-73">
+<term>4: </term> For rotation of a particle, angular momentum has additional expression in terms of moment of inertia and angular velocity as :
+</para>
+<para id="element-74a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+where “r “ is the radius of the circle from the center lying on the axis of rotation.
+</para>
+</section>
+
+  </content>
+  
+</document>

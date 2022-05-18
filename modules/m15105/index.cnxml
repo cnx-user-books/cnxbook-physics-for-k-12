@@ -1,0 +1,825 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravitational potential</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e97305fa-b1a3-4362-b1e7-ace132830162</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Description of force having “action at a distance” is best described in terms of force field. The “per unit” measurement is central idea of a force field.  The field strength of a gravitational field is the measure of gravitational force experienced by unit mass. On a similar footing, we can associate energy with the force field. We shall define a quantity of energy that is associated with the position of unit mass in the gravitational field. This quantity is called gravitational potential (V) and is different to potential energy as we have studied earlier. Gravitational potential energy (U) is the potential energy associated with any mass - as against unit mass in the gravitational field.
+</para>
+<para id="element-2">Two quantities (potential and potential energy) are though different, but are closely related. From the perspective of force field, the gravitational potential energy (U) is the energy associated with the position of a given mass in the gravitational field. Clearly, two quantities are related to each other by the equation,
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4">The unit of gravitational potential is Joule/kg.
+</para>
+<para id="element-5">There is a striking parallel among various techniques that we have so far used to study force and motion. One of the techniques employs vector analysis, whereas the other technique employs scalar analysis. In general, we study motion in terms of force (vector context), using Newton’s laws of motion or in terms of energy employing “work-kinetic energy” theorem or conservation law (scalar context). 
+</para>
+<para id="element-6">In the study of conservative force like gravitation also, we can study gravitational interactions in terms of either force (Newton’s law of gravitation) or energy (gravitational potential energy). It follows, then, that study of conservative force in terms of “force field” should also have two perspectives, namely that of force and energy. Field strength presents the perspective of force (vector character of the field), whereas gravitational potential presents the perspective of energy (scalar character of field).
+</para>
+<section id="section-1">
+<title>Gravitational potential</title>
+<para id="element-7">The definition of gravitational potential energy is extended to unit mass to define gravitational potential. 
+</para>
+<para id="element-8"><definition id="definition-1"><term> Gravitational potential </term>
+<meaning id="idm7524048"> The gravitational potential at a point is equal to “negative” of the work by the gravitational force as a particle of unit mass is brought from infinity to its position in the gravitational field.
+</meaning>
+</definition>
+</para>
+<para id="element-9">Or
+</para>
+<para id="element-10"><definition id="definition-10"><term> Gravitational potential </term>
+<meaning id="idm792912"> The gravitational potential at a point is equal to the work by the external force as a particle of unit mass is brought from infinity to its position in the gravitational field.
+</meaning>
+</definition></para>
+<para id="element-11">Mathematically,
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>G</m:mi>
+        </m:msub>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>∞</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:munderover>
+    <m:mi>E</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">
+Here, we can consider gravitational field strength, “E” in place of gravitational force, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”  to account for the fact we are calculating work per unit mass.
+</para>
+</section>
+<section id="section-2">
+<title>Change in gravitational potential in a field due to point mass</title>
+<para id="element-15">The change in gravitational potential energy is equal to the negative of work by gravitational force as a particle is brought from one point to another in a gravitational field. Mathematically,
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:munderover>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">Clearly, change in gravitational potential is equal to the negative of work by gravitational force as a particle of unit mass is brought from one point to another in a gravitational field. Mathematically,
+:
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:munderover>
+    <m:mi>E</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">We can easily determine change in potential as a particle is moved from one point to another in a gravitational field. In order to find the change in potential difference in a gravitational field due to a point mass, we consider a point mass “M”, situated at the origin of reference. Considering motion in the reference direction of “r”, the change in potential between two points at a distance “r” and “r+dr”  is :
+</para>
+<para id="element-21">
+<figure id="fig-21">
+<title> Gravitational potential </title>
+<media id="idp199680" alt=""><image src="../../media/gp1.gif" mime-type="image/gif"/></media>
+<caption> Gravitational potential difference in a gravitational field due to a point.</caption>
+</figure>
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mrow>
+      <m:mi>G</m:mi>
+      <m:mi>M</m:mi>
+    </m:mrow>
+    <m:mo>[</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mi>G</m:mi>
+      <m:mi>M</m:mi>
+    </m:mrow>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">In the expression, the ratio “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+” is smaller than “
+<m:math>
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+”. Hence, change in gravitational potential is positive as we move from a point closer to the mass responsible for gravitational field to a point away from it.
+</para>
+<section id="section-2a">
+<title>Example</title>
+<para id="element-26"><term>Problem 1: </term>A particle of mass 2 kg is brought from one point to another. The increase in kinetic energy of the mass is 4 J, whereas work done by the external force is -10 J. Find potential difference between two points.
+</para>
+<para id="element-27"><term>Solution : </term> So far we have considered work by external force as equal to change in potential energy. However, if we recall, then this interpretation of work is restricted to the condition that work is done slowly in such a manner that no kinetic energy is imparted to the particle. Here, this is not the case. In general, we know from the conservation of mechanical energy that work by external force is equal to change in mechanical energy:
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>c</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">Putting values,
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>14</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">As the change in potential energy is negative, it means that final potential energy is less than initial potential energy. It means that final potential energy is more negative than the initial. 
+</para>
+<para id="element-34">Potential change is equal to potential energy change per unit mass. The change in potential energy per unit mass i.e. change in potential is :
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Δ</m:mi>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>14</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>7</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Absolute gravitational potential in a field due to point mass</title>
+<para id="element-36">The expression for change in gravitational potential is used to find the expression for the potential at a point by putting suitable values. When, 
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>V</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>say</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>∞</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>say</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">This is the expression for determining potential at a point in the gravitational field of a particle of mass “M”. We see here that gravitational potential is a negative quantity. As we move away from the particle, 1/r becomes a smaller fraction. Therefore, gravitational potential increases being a smaller negative quantity. The magnitude of potential, however, becomes smaller. The maximum value of potential is zero for r = ∞.
+</para>
+<para id="element-43">This relation has an important deduction. We know that particle of unit mass will move towards the particle responsible for the gravitational field, if no other force exists. This fact underlies the natural tendency of a particle to move from a higher gravitational potential (less negative) to lower gravitational potential (more negative). This deduction, though interpreted in the present context, is not specific to gravitational field, but is a general characteristic of all force fields. This aspect is more emphasized in the electromagnetic field.
+</para>
+</section>
+<section id="section-4">
+<title>Gravitational potential and field strength</title>
+<para id="element-44">A change in gravitational potential (ΔV) is equal to the negative of work by gravity on a unit mass,
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>E</m:mi>
+    <m:mi>Δ</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">For infinitesimal change, we can write the equation,
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">Thus, if we know potential function, we can find corresponding field strength. In words, gravitational field strength is equal to the negative potential gradient of the gravitational field. We should be slightly careful here. This is a relationship between a vector and scalar quantity. We have taken the advantage by considering field in one direction only and expressed the relation in scalar form, where sign indicates the direction with respect to assumed positive reference direction. In three dimensional region, the relation is written in terms of a special vector operator called “grad”. 
+</para>
+<para id="element-50">Further, we can see here that gravitational field – a vector – is related to gravitational potential (scalar) and position in scalar form. We need to resolve this so that evaluation of the differentiation on the right yields the desired vector force. As a matter of fact, we handle this situation in a very unique way. Here, the differentiation in itself yields a vector. In three dimensions, we define an operator called “grad” as : 
+</para>
+<para id="element-51"><m:math display="block">
+  <m:mrow>
+    <m:mi>grad</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>i</m:mi>
+        </m:mstyle>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>y</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>j</m:mi>
+        </m:mstyle>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>z</m:mi>
+          </m:mrow>
+        </m:mfrac>
+        <m:mstyle mathvariant="bold">
+          <m:mi>k</m:mi>
+        </m:mstyle>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">where "
+<m:math>
+  <m:mrow>
+        <m:mfrac>
+          <m:mo>∂</m:mo>
+          <m:mrow>
+            <m:mo>∂</m:mo>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfrac>
+  </m:mrow>
+</m:math>
+” is partial differentiation operator with respect to "x". This is same like normal differentiation except that it considers other dimensions (y,z) constant. In terms of “grad”,
+</para>
+<para id="element-53"><m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>grad</m:mi>
+<m:mspace width="2pt"/>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5">
+<title>Gravitational potential and self energy of a rigid body</title>
+<para id="element-54">Gravitational potential energy of a particle of mass “m” is related to gravitational potential of the field by the equation,
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">This relation is quite handy in calculating potential energy and hence “self energy” of a system of particles or a rigid body. If we recall, then we calculated “self energy” of a system of particles by a summation process of work in which particles are brought from infinity one by one. The important point was that the gravitational force working on the particle kept increasing as more and more particles were assembled. This necessitated to calculate work by gravitational forces due to each particle present in the region, where they are assembled.
+</para>
+<para id="element-57">Now, we can use the “known” expressions of gravitational potential to determine gravitational potential energy of a system, including rigid body. We shall derive expressions of potential energy for few regular geometric bodies in the next module. One of the important rigid body is spherical shell, whose gravitational potential is given as :
+</para>
+<para id="element-891"><figure id="fig-891">
+<title> Gravitational potential due to spherical shell</title>
+<media id="idm69328" alt=""><image src="../../media/gp3.gif" mime-type="image/gif"/></media>
+<caption> Gravitational potential at points inside and outside a spherical shell.</caption>
+</figure></para><para id="element-58">For a point inside or on the shell of radius “a”,
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">This means that potential inside the shell is constant and is equal to potential at the surface.
+</para>
+<para id="element-61">For a point outside shell of radius “a” (at a linear distance, “r” from the center of shell) :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">This means that shell behaves as a point mass for potential at a point outside the shell. These known expressions allow us to calculate gravitational potential energy of the spherical shell as explained in the section below.
+</para>
+<section id="section-5a">
+<title>Self energy of a spherical shell</title>
+<para id="element-64">The self potential energy is equal to work done by external force in assembling the shell bit by bit. Since zero gravitational potential energy is referred to infinity, the work needs to be calculated for a small mass at a time in bringing the same from infinity. 
+</para>
+<para id="element-65">In order to calculate work, we draw a strategy in which we consider that some mass has already been placed symmetrically on the shell. As such, it has certain gravitational potential. When a small mass “dm” is brought, the change in potential energy is given by :
+</para>
+<para id="element-66">
+<figure id="fig-66">
+<title> Self energy of a spherical shell </title>
+<media id="idp9859184" alt=""><image src="../../media/gp2.gif" mime-type="image/gif"/></media>
+<caption> Self energy is equal to work in bringing particles one by one from the infinity.</caption>
+</figure>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">We can determine total potential energy of the shell by integrating the expressions on either side of the equation,
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">Taking constants out from the integral on the right side and taking into account the fact that initial potential energy of the shell is zero, we have :
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>m</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>M</m:mi>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>M</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+This is total potential energy of the shell, which is equal to work done in bringing mass from infinity to form the shell. This expression, therefore, represents the self potential energy of the shell. 
+</para>
+<para id="element-74">
+In the same manner, we can also find “self energy” of a solid sphere, if we know the expression for the gravitational potential due to a solid sphere.
+</para>
+<para id="element-75">
+</para>
+</section>
+</section>
+
+
+
+   
+  </content>
+  
+</document>

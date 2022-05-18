@@ -1,0 +1,1499 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Planetary motion</title>
+  <metadata>
+  <md:content-id>m15186</md:content-id><md:title>Planetary motion</md:title>
+  <md:abstract>Kepler’s laws of planetary motion are consistent with Newtonian mechanics.</md:abstract>
+  <md:uuid>2cab8864-ef1d-41c4-a2f3-e107562410e9</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m15152/latest/" strength="3">Two body system - linear motion</link>
+      <link url="http://cnx.org/content/m15153/latest/" strength="3">Two body system - circular motion</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">The trajectory of motion resulting from general solution of “two body” system is a conic section. Subject to initial velocities and relative mass, eccentricity of conic section can have different values. We interpret a conic section for different eccentricity to represent different types of trajectories. We have already discussed straight line and circular trajectories. In this module, we shall discuss elliptical trajectory, which is the trajectory of a planet in the solar system.
+</para>
+<para id="element-2">In a general scenario of “two body system”, involving elliptical trajectory, each body revolves around the common “center of mass” called “barycenter”. The two elliptical paths intersect, but bodies are not at the point of intersection at the same time and as such there is no collision.
+
+</para>
+<para id="element-3">
+<figure id="fig-3">
+<title>  Two body system </title>
+<media id="id1167630468880" alt=""><image src="../../media/kp1.gif" mime-type="image/gif"/></media>
+<caption> Elliptical trajectories </caption>
+</figure>
+</para>
+<para id="element-4">In this module, however, we shall keep our focus on the planetary motion and Kepler’s planetary laws. We are basically seeking to describe planetary motion – particularly that in our solar system. The trajectory of planet is elliptical with one qualification. The Sun, being many times heavier than the planets, is almost at rest in the reference frame of motion. It lies at one of the foci of the elliptical path of the planets around it. Here, we assume that center of mass is about same as the center of Sun. Clearly, planetary motion is a special case of elliptical motion of “two body system” interacted by mutual attraction. 
+</para>
+<para id="element-5">We should, however, be aware that general solution of planetary motion involves second order differential equation, which is solved using polar coordinates. </para>
+<section id="section-1">
+<title>Ellipse</title>
+<para id="element-6">We need to learn about the basics of elliptical trajectory and terminology associated with it. It is important from the point of view of applying laws of Newtonian mechanics. We shall, however, be limited to the basics only.  
+</para>
+<section id="section-1a">
+<title>Conic section</title>
+<para id="element-7"> 
+Conic section is obtained by the intersection of a plane with a cone. Two such intersections, one for a circle and one for an ellipse are shown in the figure. 
+</para>
+<para id="element-8">
+<figure id="fig-8"><title>  Conic sections </title>
+<media id="id1167620624049" alt=""><image src="../../media/kp2a.gif" mime-type="image/gif"/></media>
+<caption> Two conic sections representing a circle and an ellipse are shown. </caption>
+</figure>
+</para>
+</section>
+<section id="section-1b">
+<title>Elliptical trajectory </title>
+<para id="element-9">Here, we recount the elementary geometry of an ellipse in order to understand planetary motion. The equation of an ellipse centered at the origin of a rectangular coordinate (0,0) is :
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>y</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:msup>
+        <m:mi>b</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">where “a” is semi-major axis and “b” is semi-minor axis as shown in the figure.
+</para>
+<para id="element-12"> 
+<figure id="fig-12">
+<title>  Ellipse </title>
+<media id="id1167630540331" alt=""><image src="../../media/kp3.gif" mime-type="image/gif"/></media>
+<caption> Semi major and minor axes of an ellipse </caption>
+</figure>
+</para>
+<para id="element-14">
+Note that “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” are two foci of the ellipse. 
+</para>
+</section>
+<section id="section-1c">
+<title>Eccentricity</title>
+<para id="element-15">
+The eccentricity of a conic section is measure of “how different it is from a circle”. Higher the eccentricity, greater is deviation. The eccentricity (e) of a conic section is defined in terms of “a” and “b” as :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>e</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>k</m:mi>
+                <m:msup>
+                  <m:mi>b</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">where “k” is 1 for an ellipse, 0 for parabola and -1 for hyperbola. The values of eccentricity for different trajectories are as give here :
+</para>
+<para id="element-18">
+<list id="list-18" list-type="enumerated"><item> The eccentricity of a straight line is 1, if we consider b=0 for the straight line. </item>
+<item> The eccentricity of an ellipse falls between 0 and 1.  </item>
+<item> The eccentricity of a circle is 0 </item>
+<item> The eccentricity of a parabola is 1. </item>
+<item> The eccentricity of a hyperbola is greater than 1. </item>
+</list>
+</para>
+</section>
+<section id="section-1d">
+<title>Focal points</title>
+<para id="element-19">
+Focal points (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+) lie on semi major axis at a distance from the origin given by 
+</para>
+<para id="element-19a">
+<figure id="fig-19a">
+<title>  Focal points </title>
+<media id="id1167625240397" alt=""><image src="../../media/kp11.gif" mime-type="image/gif"/></media>
+<caption> Focal distances from the center of ellipse </caption>
+</figure>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>e</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">The focus of an ellipse is at a distance “ae” from the center on the semi-major axis. Area of the ellipse is "πab".
+</para>
+</section>
+<section id="section-1e">
+<title>Semi latus rectum</title>
+<para id="element-22">Semi latus rectum is equal to distance between one of the foci and ellipse as measured along a line perpendicular to the major axis. This is shown in the figure. 
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title>  Semi latus rectum </title>
+<media id="id1167628008537" alt=""><image src="../../media/kp4.gif" mime-type="image/gif"/></media>
+<caption> Semi latus rectum is perpendicular distance as shown in the figure.</caption>
+</figure>
+</para>
+<para id="element-24">For an ellipse, Semi latus rectum has the expression in terms of “a” and “b” as  :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ℓ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>b</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">We can also express the same involving eccentricity as :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ℓ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>e</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Solar system</title>
+<para id="element-28">The solar system consists of Sun and its planets. The  reason they are together is gravitation. The mass of the planet is relatively small with respect to Sun. For example, Earth compares about 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>5</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ times smaller in mass with respect to Sun :
+</para>
+<para id="element-29">
+Mass of Earth : 
+<m:math display="block">
+  <m:mrow>
+    <m:mn>5.98</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>24</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">
+Mass of Sun : 
+<m:math display="block">
+  <m:mrow>
+    <m:mn>1.99</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>30</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">The planetary motion, therefore, fits nicely with elliptical solution obtained from consideration of mechanics. Sun, being many times heavier, appears to be at the “center of mass” of the system i.e. at one of the foci, while planets revolve around it in elliptical orbits of different eccentricities.
+</para>
+<section id="section-2a">
+<title>Equation in polar coordinates</title>
+<para id="element-32">Polar coordinates generally suite geometry of ellipse. The figure shows the polar coordinates of a point on the ellipse. It is important to note that one of foci serves as the origin of polar coordinates, whereas the other focus lies on the negative x-axis. For this reason orientation of x-axis is reversed in the figure. The angle is measured anti-clockwise and the equation of ellipse in polar coordinates is :
+</para>
+<para id="element-33"><figure id="fig-33">
+<title>  Equation in polar coordinate </title>
+<media id="id1167621349030" alt=""><image src="../../media/kp5.gif" mime-type="image/gif"/></media>
+<caption> Second focus lies on negative x-axis.</caption>
+</figure>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>ℓ</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>e</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+Substituting expression for semi latus rectum 
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>e</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>e</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-2a1">
+<title>Perihelion distance</title>
+<para id="element-37">Perihelion position corresponds to minimum distance between Sun and planet. If we consider Sun to be at one focus (say 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+), then perihelion distance is "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+" as shown in the figure. We can see that angle θ = 0° for this position.
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mi>min</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>e</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>e</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>e</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39"><figure id="fig-39">
+<title>  Minimum and maximum distance  </title>
+<media id="id1167624384544" alt=""><image src="../../media/kp6a.gif" mime-type="image/gif"/></media>
+<caption> Positions correspond to perihelion and aphelion positions.</caption>
+</figure>
+</para>
+<para id="element-40">From the figure also, it is clear that minimum distance is equal to “a - ae= a(1-e)”.
+</para>
+</section>
+<section id="section-2a2">
+<title>Aphelion distance</title>
+<para id="element-41">Aphelion position corresponds to maximum distance between Sun and planet. If we consider Sun to be at one focus (say 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+), then perihelion distance is "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>A</m:mi>
+    <m:mi>'</m:mi>
+  </m:mrow>
+</m:math>
+" as shown in the figure. We can see that angle θ = 180° for this position.
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>e</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>e</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>e</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">From the figure also, it is clear that maximum distance is equal to “a + ae= a(1+e)”.
+</para>
+<para id="element-44">We can also prove that the semi-major axis, “a” is arithmetic mean, whereas semi-minor axis, “b”, is geometric mean of  “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mi>min</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mi>max</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>”. 
+</para>
+</section>
+</section>
+</section>
+<section id="section-3">
+<title>Description of planetary motion</title>
+<para id="element-45">We can understand planetary motion by recognizing important aspects of motion like force, velocity, angular momentum, energy etc. The first important difference to motion along circular path is that linear distance between Sun and planet is not constant. The immediate implication is that gravitation force is not constant. It is maximum at perihelion position and minimum at aphelion position.
+</para>
+<para id="element-46">
+If “R” is the radius of curvature at a given position on the elliptical trajectory, then centripetal force equals gravitational force as given here :
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">Where “M” and “m” are the mass of Sun and Earth; and “r” is the linear distance between Sun and Earth. 
+</para>
+<para id="element-49">Except for parameters “r” and “R”, others are constant in the equation. We note that radii of curvature at perihelion and aphelion are equal. On the other hand,  centripetal force is greatest at perihelion and least at aphelion. From the equation above, we can also infer that both linear and angular velocities of planet are not constant. 
+</para>
+<section id="section-3a">
+<title>Angular momentum</title>
+<para id="element-50">The angular velocity of the planet about Sun is not constant. However, as there is no external torque working on the system, the angular momentum of the system is conserved. Hence, angular momentum of the system is constant unlike angular velocity. 
+</para>
+<para id="element-51">The description of motion in angular coordinates facilitates measurement of angular momentum. In the figure below, linear momentum is shown tangential to the path in the direction of velocity. We resolve the linear momentum along the parallel and perpendicular to radial direction. By definition, the angular momentum is given by :
+</para>
+<para id="element-52"><figure id="fig-52"><title>  Angular momentum  </title>
+<media id="id1167630967628" alt=""><image src="../../media/kp7b.gif" mime-type="image/gif"/></media>
+<caption> Angular momentum of the system is constant.</caption>
+</figure>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>p</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>p</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>ω</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">Since mass of the planet “m” is constant, it emerges that the term “
+<m:math>
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+” is constant. It clearly shows that angular velocity (read also linear velocity) increases as linear distance between Sun and Earth decreases and vice versa.
+</para>
+</section>
+<section id="section-3b">
+<title>Maximum and minimum velocities</title>
+<para id="element-57">Maximum velocity corresponds to perihelion position and minimum to aphelion position in accordance with maximum and minimum centripetal force at these positions. We can find expressions of minimum and maximum velocities, using conservation laws.
+</para>
+<para id="element-58">
+<figure id="fig-58"><title>  Maximum and minimum velocities  </title>
+<media id="id1167625271740" alt=""><image src="../../media/kp8a.gif" mime-type="image/gif"/></media>
+<caption> Velocities at these positions are perpendicular to semi major axis.</caption>
+</figure>
+</para>
+<para id="element-59">Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the minimum and maximum distances, then :
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>e</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>e</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+We see that velocities at these positions are perpendicular to semi major axis. Applying conservation of angular momentum,
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">Applying conservation of energy, we have :
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">Substituting for “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, we have :
+</para>
+<para id="element-68"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>a</m:mi>
+        </m:mfrac>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>e</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>e</m:mi>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>min</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>a</m:mi>
+        </m:mfrac>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>−</m:mo>
+                <m:mi>e</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>1</m:mn>
+                <m:mo>+</m:mo>
+                <m:mi>e</m:mi>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3c">
+<title>Energy of Sun-planet system</title>
+<para id="element-70">As no external force is working on the system and there is no non-conservative force, the mechanical energy of the system is conserved. We have derived expression of linear velocities at perihelion and aphelion positions in the previous section. We can, therefore,  find out energy of “Sun-planet” system by determining the same at either of these positions.
+</para>
+<para id="element-71">Let us consider mechanical energy at perihelion position. Here,
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msub>
+        <m:mi>r</m:mi>
+        <m:mn>1</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>       
+</para>
+<para id="element-73">Substituting for velocity and minimum distance, we have :
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>       
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>       
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mi>e</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>e</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>       
+</para>
+<para id="element-78">We see that expression of energy is similar to that of circular trajectory about a center with the exception that semi major axis “a” replaces the radius of circle. 
+</para>
+</section>
+<section id="section-3d">
+<title>Kepler’s laws</title>
+<para id="element-79">Johannes Kepler analyzed Tycho Brahe’s data and proposed three basic laws that govern planetary motion of solar system. The importance of his laws lies in the fact that he gave these laws long before Newton’s laws of motion and gravitation. The brilliance of the Kepler’s laws is remarkable as his laws are consistent with Newton’s laws and conservation laws. 
+</para>
+<para id="element-80">Kepler proposed three laws for planetary motion. First law tells about the nature of orbit. Second law tells about the speed of the planet. Third law tells about time period of revolution. 
+</para>
+<para id="element-81">
+<list id="list-2" list-type="bulleted">
+<item> Law of orbits </item>
+<item> Law of velocities </item>
+<item> Law of time periods  </item>
+</list>
+</para>
+<section id="section-3d1">
+<title>Law of orbits</title>
+<para id="element-82">The first law (law of orbits) is stated as :
+</para>
+<para id="element-83">
+<definition id="definition-1">
+<term> Law of orbits </term>
+<meaning id="id1167625246719"> The orbit of every planet is an ellipse with the sun at one of the foci.</meaning>
+</definition>
+</para>
+<para id="element-84">This law describes the trajectory of a planet, which is an ellipse – not a circle. We have seen that application of mechanics also provides for elliptical trajectory. Only additional thing is that solution of mechanics yields possibilities of other trajectories as well. Thus, we can conclude that Kepler’s law of orbit is consistent with Newtonian mechanics.
+</para>
+<para id="element-85">We should, however, note that eccentricity of elliptical path is very small for Earth (0.0167) and large for Mercury (0.206) and Pluto (0.25). </para>
+</section>
+<section id="section-3d2">
+<title>Law of velocities</title>
+<para id="element-86">Law of velocities is a statement of comparative velocities of planets at different positions along the elliptical path.
+</para>
+<para id="element-87">
+<definition id="definition-87">
+<term> Law of velocities </term>
+<meaning id="id1167627245992"> The line joining a planet and Sun sweeps equal area in equal times in the planet’s orbit.</meaning>
+</definition>
+</para>
+<para id="element-88">This law states that the speed of the planet is not constant as generally might have been conjectured from uniform circular motion. Rather it varies along its path. A given area drawn to the focus is wider when it is closer to Sun. From the figure, it is clear that planet covers smaller arc length when it is away and a larger arc length when it is closer for a given orbital area drawn from the position of Sun. It means that speed of the planet is greater at positions closer to the Sun and smaller at positions away from the Sun.
+</para>
+<para id="element-89">
+<figure id="fig-89"><title>  Equal area swept in equal time </title>
+<media id="id1167624364406" alt=""><image src="../../media/kp9.gif" mime-type="image/gif"/></media>
+<caption> Speed of the planet is greater at positions closer to the Sun and smaller at positions away from the Sun.</caption>
+</figure>
+</para>
+<para id="element-90">Further on close examination, we find that Kepler’s second law, as a matter of fact, is an statement of the conservations of angular momentum. In order to prove this, let us consider a small orbital area as shown in the figure. 
+</para>
+<para id="element-91"><figure id="fig-91"><title>  Area swept  </title>
+<media id="id5609965" alt=""><image src="../../media/kp10a.gif" mime-type="image/gif"/></media>
+<caption> Time rate of area is statement of conservation of angular momentum.</caption>
+</figure>
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Δ</m:mi>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:mi>Base</m:mi>
+    </m:mrow>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:mi>Height</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>r</m:mi>
+    <m:mi>Δ</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>Δ</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">For infinitesimally small area, the “area speed” of the planet (the time rate at which it sweeps orbital area drawn from the Sun) is :
+</para>
+<para id="element-94"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>ω</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">Now, to see the connection of this quantity with angular momentum, let us write the equation of angular momentum :
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>p</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>ω</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>L</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">Substituting this expression in the equation of area – speed, we have :
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>A</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>       
+</para>
+<para id="element-100">As no external torque is assumed to exist on the “Sun-planet” system, its angular momentum is conserved. Hence, parameters on the right hand side of the equation i.e. “L” and “m” are constants. This yields that area-speed is constant as proposed by Kepler. 
+</para>
+<para id="element-101">We can interpret the above result other way round also. Kepler’s law says that area-speed of a planet is constant. His observation is based on measured data by Tycho Brahe. It implies that angular momentum of the system remains constant. This means that no external torque applies on the “Sun – planet” system. 
+</para>
+</section>
+<section id="section-3d3">
+<title>Law of time periods</title>
+<para id="element-104">The law relates time period of the planet with semi major axis of the elliptical trajectory.
+</para>
+<para id="element-105">
+<definition id="definition-105">
+<term> Law of time periods </term>
+<meaning id="id1167627214592"> The square of the time period of a planet is proportional to the cube of the semi-major axis.</meaning>
+</definition>
+</para>
+<para id="element-106">We have already seen in the case of circular trajectory around a larger mass and also in the case of two body system (see <link document="m15153" version="" target-id="">Two body system - circular motion </link>)in which each body is moving along two circular trajectories that time period is given by :
+</para>
+
+
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">The expression of time period for elliptical trajectory is similar except that semi-major axis replaces “r”. We have not proved this in the module, but can be so derived. Squaring each of the side and replacing "r" by "a", we have :
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msup>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>∝</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+</section>
+<section id="section-4">
+<title>Conclusions</title>
+<para id="element-111">Thus, we conclude the following :
+</para>
+<para id="element-112"><term>1: </term>The planet follows a elliptical path about Sun.
+</para>
+<para id="element-113"><term>2: </term> The Sun lies at one of the foci.
+</para>
+<para id="element-114"><term>3: </term> Gravitational force, centripetal force, linear and angular velocities are variable with the motion.
+</para>
+<para id="element-115"><term>4: </term> Velocities are maximum at perihelion and minimum at aphelion.
+</para>
+<para id="element-116"><term>5: </term> Although angular velocity is variable, the angular momentum of the system is conserved.
+</para>
+<para id="element-117"><term>6: </term> The expression of total mechanical energy is same as in the case of circular motion with the exception that semi major axis, “a”, replaces radius, “r”.
+</para>
+<para id="element-118"><term>7: </term> The expression of time period is same as in the case of circular motion with the exception that semi major axis, “a”, replaces radius, “r”.
+</para>
+<para id="element-119"><term>8: </term> Kepler’s three laws are consistent with Newtonian mechanics.
+</para>
+</section>
+
+<section id="section-5">
+<title> Acknowldegement </title>
+<para id="element-120">
+Author wishes to place special thanks to Mr. Mark Prange,
+Port Isabel, Texas, USA and David F Shively for their valuable editorial suggestions on the subject discussed in this module.
+</para>
+
+</section> 
+  </content>
+  
+</document>

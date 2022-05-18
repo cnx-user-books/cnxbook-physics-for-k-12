@@ -1,0 +1,1619 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Displacement</title>
+  <metadata>
+  <md:content-id>m13582</md:content-id><md:title>Displacement</md:title>
+  <md:abstract>Motion involves two types of measurements : one which depends on the end points (displacement) and the other which depends on all points(distance) of motion.</md:abstract>
+  <md:uuid>d567a16b-34f8-4681-bd95-ff119a1fb8f3</md:uuid>
+</metadata>
+
+<content>
+
+
+
+<para id="element-1">Displacement is a measurement of change in position of the particle in motion. Its magnitude and direction are measured by the length and direction of the straight line joining initial and final positions of the particle. Obviously, the length of the straight line between the positions is the shortest distance between the points. 
+
+</para>
+
+
+<para id="element-2">
+<definition id="definition-2"><term> Displacement </term>
+<meaning id="id35817127"> Displacement is the vector extending from initial to final positions of the particle  in motion during an interval. </meaning>
+</definition>
+</para>
+
+
+<para id="element-3">From physical view point, displacement conveys the meaning of shortest distance plus direction of the motion between two time instants or corresponding two positions. Initial and final positions of the point object are the only important consideration for measuring magnitude of displacement. Actual path between two positions has no consequence in so far as displacement is concerned. </para>
+
+<para id="element-3a">The quantum of displacement is measured by the length of the straight line joining two ends of motion. If there is no change in the position at the end of a motion, the displacement is zero. 
+
+</para>
+
+
+<para id="element-4">In order to illustrate the underlying concept of displacement, let us consider the motion of a particle from A to B to C. The displacement vector is represented by the vector AC and its magnitude by the length of AC.  
+</para>
+
+
+<para id="element-4a">
+<figure id="fig4">
+ <title> Displacement </title>
+<media id="id34313331" alt=""><image src="../../media/displacement1.gif" mime-type="image/gif"/></media>
+
+</figure>
+
+</para>
+
+
+<para id="element-5">Once motion has begun, magnitude of displacement may increase or decrease (at a slow, fast or constant rate) or may even be zero, if the object returns to its initial position. Since a body under motion can take any arbitrary path, it is always possible that the end point of the motion may come closer or may go farther away from the initial point. Thus, displacement, unlike distance, may decrease from a given level.
+
+</para>
+
+
+
+<para id="element-6">In order to understand the variations in displacement with the progress of motion, let us consider another example of the motion of a particle along the rectangular path from A to B to C to D to A. Magnitude of displacement, shown by dotted vectors, is increasing during motion from A to B to C. Whereas magnitude of displacement is decreasing as the particle moves from C to D to A, eventually being equal to zero, when the particle returns to A.
+
+</para>
+
+
+
+<para id="element-6a"><figure id="fig6">
+ <title> Displacement </title>
+<media id="id35194485" alt=""><image src="../../media/displacement2.gif" mime-type="image/gif"/></media>
+
+</figure>
+
+</para>
+
+
+<para id="element-7">However, displacement is essentially a measurement of length combined with direction. As direction has no dimension, its dimensional formula is also [L] like that of distance; and likewise, its SI measurement unit is ‘meter’.
+
+</para>
+
+
+<section id="section-1">
+<title> Displacement and Position vector
+
+</title>
+<para id="element-8">We have the liberty to describe displacement vector as an independent vector (<term> AB</term>) or in terms of position vectors (
+<m:math>
+   <m:msub>
+   <m:mi mathvariant="bold"> r </m:mi>
+    <m:mn> 1 </m:mn>
+   </m:msub>
+</m:math>
+and
+<m:math>
+   <m:msub>
+   <m:mi mathvariant="bold"> r </m:mi>
+    <m:mn> 2 </m:mn>
+   </m:msub>
+</m:math>
+). The choice depends on the problem in hand. The description, however, is equivalent. 
+
+</para>
+
+
+<para id="element-9">Let us consider that a point object moves from point A (represented by position vector <m:math>
+   <m:msub>
+   <m:mi mathvariant="bold"> r </m:mi>
+    <m:mn> 1 </m:mn>
+   </m:msub>
+</m:math>
+
+) to point B (represented by position vector
+
+<m:math>
+   <m:msub>
+   <m:mi mathvariant="bold"> r </m:mi>
+    <m:mn> 2 </m:mn>
+   </m:msub>
+</m:math>
+
+
+) as shown in the figure. Now, using triangle law (moving from O to A to B to O), we have :
+
+</para>
+
+<para id="element-10">
+<figure id="fig10">
+ <title> Displacement in terms of position vectors
+ </title>
+<media id="id34664261" alt=""><image src="../../media/displacement3.gif" mime-type="image/gif"/></media>
+<caption> Displacement is equal to the difference between final and initial position vectors </caption>
+</figure>
+
+</para>
+
+<para id="element-11"><equation id="equation-11">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+
+   <m:mtr>
+     <m:mtd>
+      <m:mi mathvariant="bold"> OA </m:mi>
+      <m:mo> + </m:mo>
+      <m:mi mathvariant="bold"> AB </m:mi>
+      <m:mo> = </m:mo>
+      <m:mi mathvariant="bold"> OB </m:mi>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+
+     <m:mtd>
+     <m:msub>
+     <m:mi mathvariant="bold"> r </m:mi>
+      <m:mn> 1 </m:mn>
+      </m:msub>
+      <m:mo> + </m:mo>
+      <m:mi mathvariant="bold"> AB </m:mi>
+      <m:mo> = </m:mo>
+     <m:msub>
+     <m:mi mathvariant="bold"> r </m:mi>
+      <m:mn> 2 </m:mn>
+      </m:msub>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+
+     <m:mtd>
+     <m:mi>  ⇒ </m:mi>
+     <m:mi mathvariant="bold"> AB </m:mi>
+      <m:mo> = </m:mo>
+
+     <m:msub>
+     <m:mi mathvariant="bold"> r </m:mi>
+      <m:mn> 2 </m:mn>
+      </m:msub>
+      <m:mo> - </m:mo>
+     <m:msub>
+     <m:mi mathvariant="bold"> r </m:mi>
+      <m:mn> 1 </m:mn>
+      </m:msub>
+      <m:mo> = </m:mo>
+      <m:mo> ∆ </m:mo>
+     <m:mi mathvariant="bold"> r </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+
+
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+
+
+<para id="element-13">Thus, displacement is equal to the difference between final and initial position vectors. It is important to note that we obtain the difference between final and initial position vectors by drawing a third vector starting from the tip of the initial position vector and ending at the tip of the final position vector. This approach helps us to quickly draw the vector representing the difference of vectors and is a helpful procedural technique that can be used without any ambiguity. Equivalently, we can express displacement vector in terms of components of position vectors as :
+</para>
+
+
+<para id="element-14"><equation id="equation-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+   <m:mtr>
+     <m:mtd>
+     <m:msub>
+     <m:mi mathvariant="bold"> r </m:mi>
+     <m:mn> 1 </m:mn>
+     </m:msub>
+     <m:mo> = </m:mo>
+     <m:msub>
+     <m:mi> x </m:mi>
+     <m:mn> 1 </m:mn>
+     </m:msub>
+     <m:mi mathvariant="bold"> i </m:mi>
+
+     <m:mo> + </m:mo>
+     <m:msub>
+     <m:mi> y </m:mi>
+     <m:mn> 1 </m:mn>
+     </m:msub>
+     <m:mi mathvariant="bold"> j </m:mi>
+
+     <m:mo> + </m:mo>
+     <m:msub>
+     <m:mi> z </m:mi>
+     <m:mn> 1 </m:mn>
+     </m:msub>
+     <m:mi mathvariant="bold"> k </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+
+     <m:mtd>
+     <m:msub>
+     <m:mi mathvariant="bold"> r </m:mi>
+     <m:mn> 2 </m:mn>
+     </m:msub>
+     <m:mo> = </m:mo>
+     <m:msub>
+     <m:mi> x </m:mi>
+     <m:mn> 2 </m:mn>
+     </m:msub>
+     <m:mi mathvariant="bold"> i </m:mi>
+
+     <m:mo> + </m:mo>
+     <m:msub>
+     <m:mi> y </m:mi>
+     <m:mn> 2 </m:mn>
+     </m:msub>
+     <m:mi mathvariant="bold"> j </m:mi>
+
+     <m:mo> + </m:mo>
+     <m:msub>
+     <m:mi> z </m:mi>
+     <m:mn> 2 </m:mn>
+     </m:msub>
+     <m:mi mathvariant="bold"> k </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+
+     <m:mtd>
+     <m:mi>  ⇒ </m:mi>
+     <m:mi mathvariant="bold"> AB </m:mi>
+     <m:mo> = </m:mo>
+     <m:mo> ∆ </m:mo>
+     <m:mi mathvariant="bold"> r </m:mi>
+
+     <m:mo> = </m:mo>
+     <m:mo> ( </m:mo>
+     <m:msub>
+     <m:mi> x </m:mi>
+     <m:mn> 2 </m:mn>
+     </m:msub>
+     <m:mo> - </m:mo>
+     <m:msub>
+     <m:mi> x </m:mi>
+     <m:mn> 1 </m:mn>
+     </m:msub>
+     <m:mo> ) </m:mo>
+     <m:mi mathvariant="bold"> i </m:mi>
+
+
+     <m:mo> + </m:mo>
+     <m:mo> ( </m:mo>
+     <m:msub>
+     <m:mi> y </m:mi>
+     <m:mn> 2 </m:mn>
+     </m:msub>
+     <m:mo> - </m:mo>
+     <m:msub>
+     <m:mi> y </m:mi>
+     <m:mn> 1 </m:mn>
+     </m:msub>
+     <m:mo> ) </m:mo>
+     <m:mi mathvariant="bold"> j </m:mi>
+
+
+     <m:mo> + </m:mo>
+     <m:mo> ( </m:mo>
+     <m:msub>
+     <m:mi> z </m:mi>
+     <m:mn> 2 </m:mn>
+     </m:msub>
+     <m:mo> - </m:mo>
+     <m:msub>
+     <m:mi> z </m:mi>
+     <m:mn> 1 </m:mn>
+     </m:msub>
+     <m:mo> ) </m:mo>
+     <m:mi mathvariant="bold"> k </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+     <m:mtr>
+
+     <m:mtd>
+     <m:mi>  ⇒ </m:mi>
+     <m:mi mathvariant="bold"> AB </m:mi>
+     <m:mo> = </m:mo>
+     <m:mo> ∆ </m:mo>
+     <m:mi mathvariant="bold"> r </m:mi>
+
+     <m:mo> = </m:mo>
+     <m:mo> ∆ </m:mo>
+     <m:mi> x </m:mi>
+     <m:mi mathvariant="bold"> i </m:mi>
+
+
+     <m:mo> + </m:mo>
+     <m:mo> ∆ </m:mo>
+     <m:mi> y </m:mi>
+     <m:mi mathvariant="bold"> j </m:mi>
+
+
+     <m:mo> + </m:mo>
+     <m:mo> ∆ </m:mo>
+     <m:mi> x </m:mi>
+     <m:mi mathvariant="bold"> k </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<para id="element-15">We must emphasize here that position vectors and displacement vector are different vectors  quantities. We need to investigate the relation between position vectors and displacement vector - a bit more closely. It is very important to mentally note that the difference of position vectors i.e. displacement,Δ<term>r</term>, has different directional property to that of the position vectors themselves (<m:math>
+   <m:msub>
+    <m:mi mathvariant="bold"> r </m:mi>
+    <m:mn> 1 </m:mn>
+   </m:msub>
+</m:math>
+
+and 
+
+
+<m:math>
+   <m:msub>
+    <m:mi mathvariant="bold"> r </m:mi>
+    <m:mn> 2 </m:mn>
+   </m:msub>
+</m:math>). 
+</para>
+
+<para id="element-16">In the figure above, the position vectors 
+
+<m:math>
+   <m:msub>
+    <m:mi mathvariant="bold"> r </m:mi>
+    <m:mn> 1 </m:mn>
+   </m:msub>
+</m:math>
+
+and 
+
+
+<m:math>
+   <m:msub>
+    <m:mi mathvariant="bold"> r </m:mi>
+    <m:mn> 2 </m:mn>
+   </m:msub>
+</m:math>
+
+are directed along OA and OB respectively, while displacement vector, Δ<term>r</term>, is directed along AB. This means that the direction of displacement vector need not be same as that of either of the position vectors. Now, what would be the situation, when the motion begins from origin O instead of A? In that case, initial position vector is zero (null vector). Now, let the final position vector be denoted as <term>r</term>. Then
+</para>
+
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:msub>
+     <m:mi mathvariant="bold"> r </m:mi>
+     <m:mn> 1 </m:mn>
+     </m:msub>
+     <m:mo> = </m:mo>
+     <m:mo> 0 </m:mo>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+     <m:msub>
+     <m:mi mathvariant="bold"> r </m:mi>
+     <m:mn> 2 </m:mn>
+     </m:msub>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> r </m:mi>
+
+
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-18">
+and displacement is :
+
+</para>
+<para id="element-19"><equation id="equation-19"><m:math display="block">
+		<m:mi>  ⇒ </m:mi>
+		<m:mi mathvariant="bold"> AB </m:mi>
+		<m:mo> = </m:mo>
+		<m:mo> Δ </m:mo>
+		<m:mi mathvariant="bold"> r </m:mi>
+		<m:mo> = </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> r </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msub>
+		<m:mo> - </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> r </m:mi>
+			<m:mn> 1 </m:mn>
+		</m:msub>
+		<m:mo> = </m:mo>
+		<m:mi mathvariant="bold"> r </m:mi>
+		<m:mo> - </m:mo>
+		<m:mn> 0 </m:mn>
+		<m:mo> = </m:mo>
+		<m:mi mathvariant="bold"> r </m:mi>
+	</m:math>
+</equation></para>
+<para id="element-20">This is a special case, when final position vector itself is equal to the displacement. For this reason, when motion is studied from the origin of reference or origin of reference is chosen to coincide with initial position, then displacement and final position vectors are same and denoted by the symbol, "<term>r</term>".
+ 
+
+</para>
+<para id="element-21">
+In general, however, it is the difference between final and initial position vectors, which is equal to the displacement and we refer displacement in terms of change in position vector and use the symbol Δ<term>r</term> to represent displacement. 
+</para>
+
+<para id="element-22">Magnitude of displacement is equal to the absolute value of the displacement vector. In physical sense, the magnitude of displacement is equal to the linear distance between initial and final positions along the straight line joining two positions i.e. the shortest distance between initial and final positions. This value may or may not be equal to the distance along the actual path of motion. In other words, magnitude of displacement represents the minimum value of distance between any two positions. 
+</para>
+
+
+<example id="example-1">
+<title>Displacement</title>
+<para id="element-23">
+<term>Question</term>  : Consider a person walking from point A to B to C as shown in the figure. Find distance, displacement and magnitude of displacement.
+</para>
+
+<para id="element-24">
+<figure id="fig24">
+
+<media id="id35739607" alt=""><image src="../../media/displacement4.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-415"><term> Characteristics of motion : </term> Two dimensional</para><para id="element-25">
+<term>Solution</term>  : The distance covered, s,  during the motion from A to C is to the sum of the lengths AB and BC. 
+</para>
+
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 7 </m:mn>
+<m:mi>  m </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26a">Displacement, <term>AC</term>, is given as :
+</para>
+
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+
+   <m:mtr>
+     <m:mtd>
+<m:mi mathvariant="bold"> AC </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+     </m:mtd>
+   </m:mtr>
+
+<m:mtr>
+     <m:mtd>
+<m:mi mathvariant="bold"> AC </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+The displacement vector makes an angle with the x – axis given by :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup> 
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> / </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> ) </m:mo> 
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-30">and the magnitude of the displacement is :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> AB </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+
+<m:msub> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub> 
+<m:mo> - </m:mo>
+<m:msub> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub> 
+<m:mo> | </m:mo>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> AB </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+<m:mo> | </m:mo>
+<m:mi> Δ </m:mi>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+<m:mo> | </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup> 
+<m:mn> 4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup> 
+<m:mo> + </m:mo>
+<m:msup> 
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup> 
+<m:mo> ) </m:mo>
+
+<m:mo> = </m:mo>
+<m:mi> 5 m </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+
+
+
+
+
+</para>
+
+</example>
+
+
+<para id="element-32">The example above brings out nuances associated with terms used in describing motion. In particular, we see that distance and magnitude of displacement are not equal. This inequality arises due to the path of motion, which may be other than the shortest linear path between initial and final positions. 
+</para>
+
+
+<para id="element-35">This means that distance and magnitude of displacement may not be equal. They are equal as a limiting case when particle moves in one direction without reversing direction; otherwise, distance is greater than the magnitude of displacement in most of the real time situation.
+</para>
+
+<para id="element-36"><equation id="equation-36">
+<m:math display="block">
+<m:mi> s </m:mi>
+<m:mo> ≥ </m:mo>
+<m:mo> | </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo>
+</m:math>
+</equation></para>
+
+<para id="element-37">This inequality is important. It implies that displacement is not <emphasis>distance plus direction</emphasis> as may loosely be considered. As a matter of fact, displacement is <emphasis>shortest distance plus direction </emphasis>. For this reason, we need to avoid representing displacement by the symbol <term>“s”</term> as a vector counterpart of scalar distance, represented by “s”. In vector algebra, modulus of a vector, <term>A</term>, is represented by its non bold type face letter “A”. Going by this convention, if “<term>s</term>” and “s” represent displacement and distance respectively, then s = |<term>s</term>|, which is incorrect. </para>
+
+<para id="element-38">When a body moves in a straight line maintaining its direction (unidirectional linear motion), then magnitude of displacement, |Δ<term>r</term>| is equal to distance, “s”. Often, this situational equality gives the impression that two quantities are always equal, which is not so. For this reason, we would be careful to write magnitude of displacement by the modulus |Δ<term>r</term>| or in terms of displacement vector like |<term>AB</term>| and not by "|<term>s</term>|".
+</para>
+
+<example id="example-39">
+<title>Displacement</title>
+<para id="element-39"><term>Question</term> : Position (in meters) of a moving particle as a function of time (in second) is given by :
+</para>
+
+<para id="element-40">
+<m:math display="block">
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:msup>
+  <m:mi> t </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+  <m:mo> - </m:mo>
+  <m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mo> - </m:mo>
+  <m:mn> 7 </m:mn>
+  <m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mo> - </m:mo>
+  <m:msup>
+  <m:mi> t </m:mi>
+  <m:mn> 3 </m:mn>
+  </m:msup>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+
+</m:math>
+</para>
+
+<para id="element-41">
+Find the displacement in first 2 seconds.
+</para>
+
+<para id="element-557"><term> Characteristics of motion : </term> Three dimensional, variable velocity, variable speed</para><para id="element-42"><term>Solution</term> : The position vector at t = 0 and 2 seconds are calculated to identify initial and final positions. Let 
+<m:math>
+	<m:msub>
+						<m:mi mathvariant="bold"> r </m:mi>
+						<m:mn> 1 </m:mn>
+					</m:msub>
+
+	</m:math>
+ and 
+
+<m:math>
+	<m:msub>
+						<m:mi mathvariant="bold"> r </m:mi>
+						<m:mn> 2 </m:mn>
+					</m:msub>
+
+	</m:math> be the position vectors at t = 0 and t = 2 s. </para>
+
+<para id="element-43">
+When t = 0 (start of the motion)
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:mo> x </m:mo>
+  <m:mn> 0 </m:mn>
+  <m:mo> - </m:mo>
+  <m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mo> - </m:mo>
+  <m:mn> 7 </m:mn>
+  <m:mo> x </m:mo>
+  <m:mn> 0 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mo> - </m:mo>
+  <m:mn> 0 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+ 
+</m:math>
+</para>
+<para id="element-45">
+When t = 2 s,
+</para>
+
+<para id="element-46">
+<m:math display="block">
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+  <m:mn> 3 </m:mn>
+  <m:mo> x </m:mo>
+
+  <m:msup>
+  <m:mn> 2 </m:mn>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+
+  <m:mo> - </m:mo>
+  <m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+
+<m:mo> ( </m:mo>
+  <m:mn> 4 </m:mn>
+  <m:mo> - </m:mo>
+  <m:mn> 7 </m:mn>
+  <m:mo> x </m:mo>
+  <m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mo> - </m:mo>
+<m:msup>
+  <m:mn> 2 </m:mn>
+  <m:mn> 3 </m:mn>
+</m:msup>
+  <m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 9 </m:mn>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> - </m:mo>
+  <m:mn> 10 </m:mn>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> - </m:mo>
+  <m:mn> 8 </m:mn>
+  <m:mi mathvariant="bold"> k </m:mi>
+</m:math>
+</para>
+
+<para id="element-47">
+The displacement, Δ<term>r</term>, is given by :
+</para>
+
+<para id="element-48">
+<m:math display="block">
+
+<m:mi> Δ </m:mi>
+<m:mi mathvariant="bold"> r </m:mi>
+
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+
+
+<m:mo> ( </m:mo>
+<m:mn> 9 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+
+</m:math>
+</para>
+
+<para id="element-49"><m:math display="block">
+		<m:mi> ⇒ </m:mi>
+		<m:mo> Δ </m:mo>
+		<m:mi mathvariant="bold"> r </m:mi>
+		<m:mo> = </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> r </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msub>
+		<m:mo> - </m:mo>
+		<m:msub>
+			<m:mi mathvariant="bold"> r </m:mi>
+			<m:mn> 1 </m:mn>
+		</m:msub>
+		<m:mo> = </m:mo>
+		<m:mo> ( </m:mo>
+		<m:mn> 9 </m:mn>
+		<m:mi mathvariant="bold"> i </m:mi>
+		<m:mo> - </m:mo>
+		<m:mn> 10 </m:mn>
+		<m:mi mathvariant="bold"> j </m:mi>
+		<m:mo> - </m:mo>
+		<m:mn> 8 </m:mn>
+		<m:mi mathvariant="bold"> k </m:mi>
+		<m:mo> + </m:mo>
+		<m:mn> 3 </m:mn>
+		<m:mi mathvariant="bold"> i </m:mi>
+		<m:mo> - </m:mo>
+		<m:mn> 4 </m:mn>
+		<m:mi mathvariant="bold"> j </m:mi>
+                <m:mo> ) </m:mo>
+		<m:mo> = </m:mo>
+		<m:mn> 12 </m:mn>
+		<m:mi mathvariant="bold"> i </m:mi>
+		<m:mo> - </m:mo>
+		<m:mn> 14 </m:mn>
+		<m:mi mathvariant="bold"> j </m:mi>
+		<m:mo> - </m:mo>
+		<m:mn> 8 </m:mn>
+		<m:mi mathvariant="bold"> k </m:mi>
+	</m:math>
+</para>
+
+<para id="element-50">
+Magnitude of displacement is given by :
+</para>
+
+<para id="element-51"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mi> ⇒ </m:mi>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+
+<m:mo> √ </m:mo>
+<m:mo> { </m:mo>
+<m:msup> 
+
+<m:mn> 12 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup> 
+
+<m:mo> + </m:mo>
+<m:msup> 
+<m:mrow> 
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 14 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow> 
+<m:mn> 2 </m:mn>
+</m:msup> 
+
+<m:mo> + </m:mo>
+<m:msup> 
+<m:mrow> 
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow> 
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> } </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mi> 404 </m:mi>
+<m:mo> = </m:mo>
+
+<m:mn> 20.1 </m:mn>
+<m:mi>  m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+
+</m:math>
+</para>
+
+</example>
+
+</section>
+
+<section id="section-2">
+<title> Displacement and dimension of motion
+</title>
+<para id="element-52">We have so far discussed displacement as a general case in three dimensions. The treatment of displacement in one or two dimensions is relatively simplified. The expression for displacement in component form for these cases are given here :
+</para>
+<para id="element-53"><term>1. Motion in two dimension : </term> Let the motion takes place in the plane determined by x and y axes, then :
+</para>
+<para id="element-54"><m:math display="block">
+		<m:mo> Δ </m:mo>
+		<m:mi mathvariant="bold"> r </m:mi>
+		<m:mo> = </m:mo>
+		<m:mo> Δ </m:mo>
+		<m:mi> x </m:mi>
+		<m:mi mathvariant="bold"> i </m:mi>
+		<m:mo> + </m:mo>
+		<m:mo> Δ </m:mo>
+		<m:mi> y </m:mi>
+		<m:mi mathvariant="bold"> j </m:mi>
+		<m:mo> ; </m:mo>
+		<m:mo> Δ </m:mo>
+		<m:mi> z </m:mi>
+		<m:mo> = </m:mo>
+		<m:mn> 0 </m:mn>
+	</m:math>
+</para>
+<para id="element-55">
+If the initial position of the particle coincides with the origin of reference system, then :
+
+
+</para>
+
+<para id="element-56"><m:math display="block">
+		<m:mo> Δ </m:mo>
+		<m:mi mathvariant="bold"> r </m:mi>
+		<m:mo> = </m:mo>
+		<m:mi mathvariant="bold"> r </m:mi>
+		<m:mo> = </m:mo>
+		<m:mi> x </m:mi>
+		<m:mi mathvariant="bold"> i </m:mi>
+		<m:mo> + </m:mo>
+		<m:mi> y </m:mi>
+		<m:mi mathvariant="bold"> j </m:mi>
+		<m:mo> ; </m:mo>
+		<m:mi> z </m:mi>
+		<m:mo> = </m:mo>
+		<m:mn> 0 </m:mn>
+	</m:math>
+</para>
+<para id="element-57"><term> 2. Motion in one dimension : </term> Let the motion takes place along the straight line parallel to x - axis, then :
+
+
+</para>
+<para id="element-58">
+
+<m:math display="block">
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> ; </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> z </m:mi>
+<m:mo> = </m:mo>
+<m:mo> 0 </m:mo>
+</m:math>
+
+
+</para>
+
+<para id="element-59">
+If the initial position of the particle coincides with the origin of reference system, then :
+
+
+</para>
+<para id="element-60">
+
+<m:math display="block">
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> ; </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> z </m:mi>
+<m:mo> = </m:mo>
+<m:mo> 0 </m:mo>
+</m:math>
+
+
+</para>
+
+</section>
+
+<section id="section-3">
+<title> Displacement – time plot</title>
+
+<para id="element-61">
+Plotting displacement vector requires three axes. Displacement – time plot will, therefore, need a fourth axis for representing time. As such, displacement – time plot can not be represented on a three dimensional Cartesian coordinate system. Even plotting two dimensional displacement with time is complicated. 
+
+
+</para>
+<para id="element-62">
+One dimensional motion, having only two directions – along or opposite to the positive direction of axis, allows plotting displacement – time graph. One dimensional motion involves only one way of changing direction i.e. the particle under motion can reverse its direction of motion. Any other change of direction is not possible; otherwise the motion would not remain one dimensional motion. 
+
+
+</para>
+<para id="element-63">The simplication, in the case of one directional motion, allows us to do away with the need to use vector notation . Instead, the vectors are treated simply as scalars with one qualification that vectors in the direction of chosen reference is considered positive and  vectors in the opposite direction to chosen reference is considered negative.   
+
+
+</para>
+
+<para id="element-64">Representation of a displacement vector as a scalar quantity uses following construct :
+</para>
+
+<para id="element-65">
+<list id="list-65" list-type="enumerated">
+
+<item>Assign an axis along the motion</item>
+<item>Assign the origin with the start of motion; It is, however, a matter of convenience and is not a requirement of the construct.</item>
+<item>Consider displacement in the direction of axis as positive</item>
+<item>Consider displacement in the opposite direction of axis as negative</item>
+</list>
+</para>
+
+<para id="element-69">
+To illustrate the construct, let us consider a motion of a ball which transverses from O to A to B to C to O along x-axis as shown in the figure. 
+</para>
+
+<para id="element-71">
+<figure id="fig71"><title>Rectilinear motion  </title>
+<media id="id38120202" alt=""><image src="../../media/displacement5.gif" mime-type="image/gif"/></media>
+<caption> A particle moves along a straight line.
+</caption>
+</figure>
+</para>
+<para id="element-72">The magnitude of displacements (in meters) at various points of motion are :
+</para>
+<para id="element-73"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> OA </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> OB </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> OC </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+
+
+</m:math>
+</para>
+<para id="element-74">
+It is important to note from above data that when origin is chosen to coincide with initial position of the particle, then displacement and position vectors are equal.
+</para>
+<para id="element-75">
+The data for displacement as obtained above also reveals that by assigning proper sign to a scalar value, we can represent directional attribute of a vector quantity. In other words, plotting magnitude of displacement in one dimension with appropriate sign would completely represent the displacement vector in both magnitude and direction. 
+</para>
+</section>
+
+
+<section id="section-4">
+<title> Interpreting change of position 
+</title>
+<para id="element-76">There are different difference terms like Δr, Δ|<term>r</term>|,  |Δ<term>r</term>| and Δ<term>r</term>, which denote different aspects of change in position. It might appear trivial, but it is the understanding and ability to distinguish these quantities that will enable us to treat and describe motion appropriately in different dimensions. From the discussion so far, we have realized that the symbol "Δ<term>r</term>" denotes displacement, which is equal to the difference in position vectors between "final" and "initial" positions. The meaning of the symbol "|Δ<term>r</term>|" follows from the meaning of "Δ<term>r</term>" as  magnitude of displacement. 
+</para>
+
+<para id="element-78">As a matter of fact, it is the symbol “Δr”, which creates certain "unexpected" confusion or ambiguity – if not handled appropriately. Going by the conventional understanding, we may be tempted to say that  “Δr” represents magnitude of displacement and is equal to the absolute value of displacement i.e. |Δ<term>r</term>|. The point that we want to emphasize here is that it is not so. 
+</para>
+<para id="element-79"><equation id="equation-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ≠ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-80">Going by the plain meaning of the symbol, "Δ", we can interpret two terms as :
+</para>
+<para id="element-81">
+<list id="list-81" list-type="bulleted"><item> Δr = change in the magnitude of position vector, "r" 
+ </item>
+<item> |Δ<term>r</term>| = magnitude of change in the position vector, "<term>r</term>"
+ </item>
+</list>
+</para>
+<para id="element-82">Therefore, what we mean by the inequality emphasized earlier is that change in the magnitude of position vector, "r”, is not equal to the magnitude of change in the position vector. In order to appreciate the point, we can consider the case of two dimensional circular motion. Let us consider the motion from point "A" to "B" along a circle of radius "a", as shown in the figure. 
+</para>
+<para id="element-83">
+<figure id="fig-83"><title> Circular motion </title>
+<media id="id35945565" alt=""><image src="../../media/d1a.gif" mime-type="image/gif"/></media>
+<caption> A particle transverses a quarter of circle from A to B.</caption>
+</figure>
+</para>
+<para id="element-84">Since radius of the circle remains same, the change in the magnitude of position vector,"r", is zero during the motion. Hence,
+</para>
+<para id="element-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-86">
+However, the magnitude of displacement during the motion is :
+</para>
+<para id="element-87"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> AB </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+Hence, the magnitude of change in the position vector is :
+</para>
+<para id="element-89"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> AB </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+Clearly,
+</para>
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> ≠ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92">
+Further, |<term>r</term>| represents the magnitude of position vector and is equal to “r” by conventional meaning. Hence,
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-94">
+Therefore,
+</para>
+<para id="element-95">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> ≠ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-96">This completes the discussion on similarities and differences among the four symbols. But, the question remains why there are differences in the first place. The answer lies in the fact that position vector is a vector quantity with directional property. It means that it can change in either of the following manner :
+</para>
+<para id="element-97">
+<list id="list-2" list-type="enumerated">
+<item> change in magnitude
+ </item>
+<item> change in direction
+ </item>
+<item> change in both magnitude and direction
+ </item>
+</list>
+</para>
+<para id="element-98">Thus we see that it is entirely possible, as in the case of circular motion, that change in position vector is attributed to the change in direction alone (not the magnitude). In that case, Δr and |Δ<term>r</term>| are not same. We can see that such difference in meaning arises due to the consideration of direction. Will this difference persist even in one dimensional motion? 
+</para>
+<para id="element-99">In one dimensional motion, representations of change in position vector and displacement are done with equivalent scalar system. Let us examine the meaning of equivalent scalar terms. Here, the change in the magnitude of position vector "r" is equivalent to the change in the magnitude of position vector, represented by scalar equivalent "|x|". Also, the magnitude of change in the position vector “<term>r</term>” is equivalent to the magnitude of change in the position vector, "x" (note that signed scalar "x" denotes position vector). 
+</para>
+<para id="element-100">Let us consider the case of a rectilinear motion (motion along a straight line) taking place from from A to B to C. The magnitude of change in the position vector, “x”, considering “O” as the origin is :
+</para>
+<para id="element-101">
+<figure id="fig-101">
+<title> Rectilinear motion </title>
+<media id="id37068098" alt=""><image src="../../media/displacement5.gif" mime-type="image/gif"/></media>
+<caption> A particle moves along a straight line.</caption>
+</figure>
+</para>
+<para id="element-102">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+
+
+<m:mo> | </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-103">
+Now, the change in the magnitude of position vector, “|x|”, is :
+</para>
+<para id="element-104"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> | </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> | </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-105">Thus we see that difference in two terms exist even in one dimensional motion. This is expected also as one dimensional motion can involve reversal of direction as in the case considered above. Hence, 
+</para>
+<para id="element-106"><equation id="equation-106">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> ≠ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-107">
+Let us now consider unidirectional one dimensional motion like uniform motion in which velocity is constant and particle moves in only one direction. In this case, this difference disappears and 
+</para>
+<para id="element-108"><equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mo> | </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> | </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> | </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-109">The discussion here on this subtle difference is very important as this becomes an important consideration subsequently with velocity and acceleration as well, which are defined in terms of position vector. 
+</para>
+</section>
+
+<section id="section-5">
+<title> Example
+</title>
+
+<example id="example-1079">
+<para id="element-1079"><term>Problem : </term> The displacement (x) of a particle is given by :
+</para>
+<para id="element-1080">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> A </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1081">
+At what time from the start of motion is the displacement maximum?
+</para>
+<para id="element-1082"> <term>Solution : </term> The displacement (x) depends on the value of sine function. It will be maximum for maximum value of sin(wt + θ). The maximum value of sine function is 1. Hence,
+</para>
+<para id="element-1083">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mfrac> 
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> ω </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> θ </m:mi>
+<m:mi> ω </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1083a">The motion is oscillating as expression for displacement is sinusoidal. The particle will attain maximum displacement at regular intervals.
+</para>
+
+</example>
+
+
+</section>
+
+   
+  </content>
+  
+</document>

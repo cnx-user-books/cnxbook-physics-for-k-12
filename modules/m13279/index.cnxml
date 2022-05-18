@@ -1,0 +1,1168 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Speed</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5e064ab3-dc01-457b-b448-109e368094e3</md:uuid>
+</metadata>
+ <content>
+
+<para id="para_1">
+Motion is the change of position with respect to time. Speed quantifies this change in position, but notably without direction. It tells us exactly : how rapidly this change is taking place with respect to time. 
+</para>
+
+<para id="para_2">
+<definition id="quardef">
+<term>Motion</term>
+<meaning id="idm5563968"><emphasis>Speed is the rate of change of distance with respect to time and is expressed as distance covered in unit time. </emphasis>
+</meaning>
+</definition>
+</para>
+
+<para id="para_21">
+<equation id="eqn_1">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+              <m:mi>v</m:mi>
+              <m:mo>=</m:mo> 
+          </m:mtd>
+          <m:mtd> 
+           <m:mrow> 
+
+              <m:mfrac> 
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>s</m:mi>
+                </m:mrow>
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+
+          </m:mrow>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation>
+</para>
+
+<para id="para_211">
+<equation id="eqn_2">
+<m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:mi>⇒</m:mi>
+              <m:mi> </m:mi>
+              <m:mi>Δs</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mi>v</m:mi>
+              <m:mi>Δt</m:mi>  
+           
+           </m:mrow> 
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation>
+</para>
+
+
+
+<para id="para_3a">Evaluation of ratio of distance and time for finite time interval is called “average” speed, where as evaluation of the ratio for infinitesimally small time interval, when Δt--&gt;0, is called instantaneous speed. In order to distinguish between average and instantaneous speed, we denote them with symbols 
+<m:math>
+   <m:msub>
+    <m:mi> v </m:mi>
+    <m:mi> a </m:mi>
+   </m:msub>
+</m:math>
+
+
+and v respectively.
+
+</para>
+
+<para id="para_3">
+Determination of speed allows us to compare motions of different objects. An aircraft, for example, travels much faster than a motor car. This is an established fact. But, we simply do not know how fast the aircraft is in comparison to the motor car. We need to measure speeds of each of them to state the difference in quantitative terms.
+</para>
+
+<para id="para_31">
+Speed is defined in terms of distance and time, both of which are scalar quantities. It follows that speed is a scalar quantity, having only magnitude and no sense of direction. When we say that a person is pacing at a speed of 3 km/hr, then we  simply mean that the person covers 3 km in 1 hour. It is not known, however, where the person is actually heading and in which direction. 
+</para>
+
+<para id="para_32">
+Dimension of speed is <m:math display="inline"> <m:mi> </m:mi>
+      <m:mrow> 
+        <m:mi mathvariant="bold">L</m:mi> 
+        <m:msubsup>
+        <m:mi mathvariant="bold">T</m:mi>
+        <m:mrow/> 
+        <m:mrow> 
+        <m:mo>-</m:mo> 
+        <m:mn>1</m:mn>
+        </m:mrow> 
+        </m:msubsup>
+    <m:mi> </m:mi>
+    </m:mrow> 
+    </m:math>
+and its SI unit is meter/second (m/s).
+</para>
+
+<para id="para-1011a">
+
+
+<list id="list-2" list-type="bulleted"><title>Some values of speed </title>
+<item> Light : 
+<m:math>
+<m:mn>3</m:mn>
+<m:mo>x</m:mo>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>8</m:mn>
+</m:msup>
+</m:math>
+  m/s</item>
+<item> Sound : 330 m/s </item>
+<item> Continental drift :  
+<m:math>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mrow>
+<m:mo>-</m:mo>
+<m:mn>9</m:mn>
+</m:mrow>
+</m:msup>
+</m:math>
+  m/s
+</item>
+</list>
+
+</para>
+<section id="section-2">
+<title>Distance .vs. time plots</title>
+
+<para id="para-101">
+Motion of an object over a period of time may vary. These variations are conveniently represented on a distance - time plot as shown in the figure.
+</para> 
+
+
+
+<para id="para_4c">
+	  <figure id="fig14"><title>Distance time plot</title>
+	    <media id="idm2451520" alt=""><image src="../../media/distance1a.gif" mime-type="image/gif"/></media>
+	    <caption>Distance is given by the vertical segment parallel to the axis representing distance.</caption>
+</figure>
+</para> 
+
+<para id="para_4a">The figure above displays distance covered in two equal time intervals. The vertical segment DB and FC parallel to the axis represents distances covered in the two equal time intervals. The distance covered in two equal time <m:math display="inline"><m:mrow><m:mi>Δ</m:mi><m:mi> t</m:mi></m:mrow></m:math> intervals may not be equal as average speeds of the object in the two equal time intervals may be different.
+</para>
+
+<para id="para_211a"><m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+           <m:msub> 
+              <m:mi>s</m:mi>
+              <m:mo>1</m:mo> 
+
+           </m:msub> 
+              <m:mi> </m:mi>
+              <m:mo>=</m:mo> 
+              <m:mi> </m:mi>
+           <m:msub> 
+              <m:mi>v</m:mi>
+              <m:mo>1</m:mo> 
+ 
+           </m:msub> 
+              <m:mi>Δ</m:mi>
+ 
+              <m:mo>t</m:mo>
+ 
+
+              <m:mo>=</m:mo>
+
+              <m:mi>DB </m:mi>
+   
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="para_211b"><m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+           <m:msub> 
+              <m:mi>s</m:mi>
+              <m:mo>2</m:mo> 
+
+           </m:msub> 
+              <m:mi> </m:mi>
+              <m:mo>=</m:mo> 
+              <m:mi> </m:mi>
+           <m:msub> 
+              <m:mi>v</m:mi>
+              <m:mo>2</m:mo> 
+
+           </m:msub> 
+              <m:mi>Δ</m:mi>
+ 
+              <m:mo>t</m:mo>
+ 
+
+              <m:mo>=</m:mo>
+
+              <m:mi>FC </m:mi>
+   
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="para_211c">and 
+<m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+
+              <m:mi>DB</m:mi>
+
+              <m:mi>≠</m:mi>
+
+              <m:mtext>FC</m:mtext> 
+   
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-17">The distance - time plot characterizes the nature of  distance. We see that the plot is always drawn in the first quadrant as distance can not be negative. Further, distance – time plot is ever increasing during the motion. It means that the plot can not decrease from any level at a given instant. When the object is at rest, the distance becomes constant and plot is a horizontal line parallel to time axis. Note that the portion of plot with constant speed does not add to the distance and the vertical segment representing distance remains constant during the motion. 
+</para>
+<para id="element-329">	
+  <figure id="fig14aa">
+	    <title>Distance time plot</title>
+	    <media id="idp4532416" alt=""><image src="../../media/dt1.gif" mime-type="image/gif"/></media>
+	    <caption>Static condition is represented by a horizontal section on distance - time plot.</caption>
+
+</figure>
+</para>
+</section>
+
+
+
+<section id="section-3">
+<title>Average speed </title>
+
+
+<para id="para_5">
+Average speed, as the name suggests, gives the overall view of the motion. It does not, however, give the details of motion. Let us take the example of the school bus. Ignoring   the actual, let us consider that the average speed of the journey is 50 km/ hour. This piece of information about speed is very useful in planning the schedule, but the information is not complete as far as the motion is concerned. The school bus could have stopped at predetermined stoppages and crossings, besides traveling at different speeds for variety of reasons.
+Mathematically,
+</para>
+
+
+
+<para id="para_7"><equation id="eqn_11">
+
+<m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi>a</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+
+              <m:mfrac> 
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>s</m:mi>
+                </m:mrow>
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+
+          </m:mrow>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation></para> 
+
+
+<para id="element-977">On a distance time plot, average speed is equal to the slope of the the straight line, joining the end points of the motion, makes with the time axis. Note that average speed is equal to the slope of the chord (AB) and <emphasis> not </emphasis> that of the tangent to the curve.</para>
+
+<para id="element-666"> <figure id="fig15"><title>Distance time plot</title>
+	    <media id="idp6145888" alt=""><image src="../../media/distancetime2.gif" mime-type="image/gif"/></media>
+	    <caption>Distance is equal to the tangent of the angle that the chord of motion makes with time axis.</caption>
+</figure></para><para id="element-613"> 
+<m:math display="block"> 
+
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi>a</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+              <m:mi>tan</m:mi>
+              <m:mi>θ</m:mi>
+              <m:mo>=</m:mo> 
+
+              <m:mfrac> 
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>s</m:mi>
+                </m:mrow>
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+
+          </m:mrow>
+          </m:mtd>
+          <m:mtd> 
+          <m:mrow> 
+              <m:mo>=</m:mo> 
+
+              <m:mfrac> 
+              <m:mi>BC</m:mi> 
+              <m:mi>AC</m:mi>
+              </m:mfrac> 
+
+          </m:mrow>
+          </m:mtd> 
+          </m:mtr> 
+         </m:mtable>
+  
+     </m:math>
+</para>
+
+
+<example id="example-1">
+<title>Average speed</title>
+
+<para id="element-763">
+<term>Problem </term>: The object is moving with two different speeds <m:math display="inline">
+<m:msub>
+<m:mi>v</m:mi>
+<m:mo>1</m:mo>
+
+</m:msub>
+</m:math>
+ and <m:math>
+<m:msub>
+<m:mi>v</m:mi>
+<m:mo>2</m:mo>
+
+</m:msub>
+</m:math> in two equal time intervals. Find the average speed.
+</para> 
+
+<para id="element-247"> 
+<term>Solution :</term>The average speed is given by :</para>
+<para id="element-419"> 
+<m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mi>a</m:mi>
+              </m:msub>
+              <m:mo>=</m:mo> 
+
+              <m:mfrac> 
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>s</m:mi>
+                </m:mrow>
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para><para id="element-568">Let the duration of each time interval is t. Now, total distance is :</para>
+
+<para id="element-538"> 
+<m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+                <m:mi>Δ</m:mi>
+                <m:mi>s</m:mi>
+                <m:mi> </m:mi>                                                                     
+                <m:mo>=</m:mo>
+                <m:mi> </m:mi>  
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>1</m:mn>
+
+              </m:msub>
+                <m:mi>t</m:mi>
+                <m:mi> </m:mi>  
+                <m:mo>+</m:mo>
+                <m:mi> </m:mi>  
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>2</m:mn>
+
+              </m:msub>
+                <m:mi>t</m:mi>
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-884">The total time is :</para><para id="element-354">
+<m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                <m:mi> </m:mi>                                                                     
+                <m:mo>=</m:mo>
+                <m:mi> </m:mi>  
+                <m:mi>t</m:mi>                
+                <m:mi> </m:mi>  
+                <m:mo>+</m:mo>
+                <m:mi> </m:mi>  
+                <m:mi>t</m:mi>                
+                <m:mi> </m:mi>  
+                <m:mo>=</m:mo>
+                <m:mi> </m:mi>  
+                <m:mi>2t</m:mi>
+          </m:mrow>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para><para id="element-453">
+ <m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi>⇒</m:mi>
+          </m:mtd>
+          <m:mtd>
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mi>a</m:mi>
+
+              </m:msub>
+          <m:mi> </m:mi>
+          <m:mi>=</m:mi>
+          <m:mi> </m:mi>
+          </m:mtd>
+          <m:mtd>
+          <m:mfrac> 
+           <m:mrow> 
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>1</m:mn>
+
+              </m:msub>
+                <m:mi>t</m:mi>
+                <m:mi> </m:mi>  
+                <m:mo>+</m:mo>
+                <m:mi> </m:mi>  
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>2</m:mn>
+
+              </m:msub>
+                <m:mi>t</m:mi>
+            </m:mrow>
+           <m:mrow> 
+                <m:mn>2t</m:mn>
+           </m:mrow> 
+          </m:mfrac>  
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para><para id="element-955">
+
+ <m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi>⇒</m:mi>
+          </m:mtd>
+          <m:mtd>
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mi>a</m:mi>
+
+              </m:msub>
+          <m:mi> </m:mi>
+          <m:mi>=</m:mi>
+          <m:mi> </m:mi>
+          </m:mtd>
+          <m:mtd>
+          <m:mfrac> 
+           <m:mrow> 
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>1</m:mn>
+
+              </m:msub>
+                <m:mi> </m:mi>  
+                <m:mo>+</m:mo>
+                <m:mi> </m:mi>  
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>2</m:mn>
+
+              </m:msub>
+            </m:mrow>
+           <m:mrow> 
+                <m:mn>2</m:mn>
+           </m:mrow> 
+          </m:mfrac>  
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para><para id="element-545">The average speed is equal to the arithmetic mean of two speeds.</para>
+
+</example>
+
+
+
+<para id="element-7631">
+<exercise id="exercise-1">
+<problem id="idp3210480">
+<para id="element-763a">The object is moving with two different speeds <m:math display="inline">
+<m:msub>
+<m:mi>v</m:mi>
+<m:mo>1</m:mo>
+
+</m:msub>
+</m:math> and <m:math display="inline">
+<m:msub>
+<m:mi>v</m:mi>
+<m:mo>1</m:mo>
+
+</m:msub>
+</m:math> in two equal intervals of distances. Find the average speed.
+</para>
+</problem>
+
+<solution id="idm5532192">
+<para id="element-247a"><title>Solution :</title> The average speed is given by :</para>
+<para id="element-419a"> <m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+              <m:mi>v</m:mi>
+              <m:mo>=</m:mo> 
+
+              <m:mfrac> 
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>s</m:mi>
+                </m:mrow>
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-568a">Let "s" be distance covered in each time interval <m:math display="inline">
+<m:msub>
+<m:mi>t</m:mi>
+<m:mo>1</m:mo>
+
+</m:msub>
+</m:math> and <m:math display="inline">
+<m:msub>
+<m:mi>t</m:mi>
+<m:mo>2</m:mo>
+
+</m:msub>
+</m:math>. Now,
+</para>
+<para id="element-538a"> <m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+                <m:mi>Δ</m:mi>
+                <m:mi>s</m:mi>
+                <m:mi> </m:mi>                                                                     
+                <m:mo>=</m:mo>
+                <m:mi> </m:mi>  
+                <m:mi>s</m:mi>
+                <m:mi> </m:mi>  
+                <m:mo>+</m:mo>
+                <m:mi> </m:mi> 
+                <m:mi>s</m:mi> 
+                <m:mi> </m:mi>  
+                <m:mo>=</m:mo>
+                <m:mi> </m:mi> 
+                <m:mi>2s</m:mi> 
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-354a"><m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                <m:mi> </m:mi>                                                                     
+                <m:mo>=</m:mo>
+                <m:mi> </m:mi>  
+              <m:msub>
+                <m:mi>t</m:mi>                
+                <m:mn>1</m:mn>
+
+              </m:msub>
+           
+                <m:mi> </m:mi>  
+                <m:mo>+</m:mo>
+                <m:mi> </m:mi>  
+              <m:msub>
+                <m:mi>t</m:mi>                
+                <m:mn>2</m:mn>
+
+              </m:msub>                
+                <m:mi> </m:mi>  
+                <m:mo>=</m:mo>
+                <m:mi> </m:mi>  
+
+          </m:mtd>
+
+          <m:mtd>
+
+          <m:mfrac>
+          <m:mrow>
+                <m:mi>s</m:mi>                
+          </m:mrow>
+          <m:mrow>               
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>1</m:mn>
+
+              </m:msub>                 
+          </m:mrow>
+          </m:mfrac>
+                <m:mi> </m:mi>  
+                <m:mo>+</m:mo>
+                <m:mi> </m:mi> 
+         </m:mtd>
+
+          <m:mtd>
+          <m:mfrac>
+          <m:mrow>
+                <m:mi>s</m:mi>                
+          </m:mrow>
+          <m:mrow>               
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>2</m:mn>
+
+              </m:msub>                 
+          </m:mrow>
+          </m:mfrac>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-453a"> <m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi>⇒</m:mi>
+          </m:mtd>
+          <m:mtd>
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mi>a</m:mi>
+
+              </m:msub>
+          <m:mi> </m:mi>
+          <m:mi>=</m:mi>
+          <m:mi> </m:mi>
+          </m:mtd>
+          <m:mtd>
+          <m:mfrac> 
+           <m:mrow> 
+                <m:mi>2</m:mi>
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>1</m:mn>
+
+              </m:msub>
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>2</m:mn>
+
+              </m:msub>
+            </m:mrow>
+           <m:mrow> 
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>1</m:mn>
+
+              </m:msub>
+                <m:mi> </m:mi>  
+                <m:mo>+</m:mo>
+                <m:mi> </m:mi>  
+              <m:msub>
+                <m:mi>v</m:mi>                
+                <m:mn>2</m:mn>
+
+              </m:msub>
+           </m:mrow> 
+          </m:mfrac>  
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-545a">The average speed is equal to the harmonic mean of two velocities.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>
+
+
+
+
+<section id="section-4">
+<title>Instantaneous speed (v)</title>
+
+<para id="para_74">
+Instantaneous speed is also defined exactly like average speed i.e. it is equal to the ratio of total distance and time interval, but with one qualification that time interval is extremely (infinitesimally) small. This qualification of average speed has important bearing on the value and meaning of speed. The instantaneous speed is the speed at a particular instant of time and may have entirely different value than that of average speed. Mathematically,
+</para>
+
+<para id="para_76"><equation id="equation8">
+<m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:mi>v</m:mi>
+              <m:mo>=</m:mo>
+           </m:mrow>  
+          </m:mtd> 
+          <m:mtd> 
+        <m:apply> 
+        <m:limit/> 
+        <m:bvar> 
+          <m:mi>Δ</m:mi>
+          <m:ci> s </m:ci> 
+        </m:bvar> 
+        <m:lowlimit> 
+          <m:cn> 0 </m:cn> 
+        </m:lowlimit> 
+        <m:lowlimit/> 
+      </m:apply> 
+          </m:mtd> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:mfrac> 
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>s</m:mi>
+                </m:mrow>
+
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+          </m:mrow>
+          </m:mtd>
+          <m:mtd> 
+                <m:mi>=</m:mi>
+          </m:mtd> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:mfrac> 
+
+                <m:mrow> 
+                <m:mi>d</m:mi>
+                <m:mi>s</m:mi>
+                </m:mrow>
+
+                <m:mrow> 
+                <m:mi>d</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+          </m:mrow>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation></para> 
+
+<para id="element-40">Where <m:math display="inline"><m:mrow><m:mi>Δ</m:mi><m:mi>s</m:mi>
+</m:mrow></m:math> is the distance traveled in time <m:math display="inline"><m:mrow><m:mi>Δ</m:mi><m:mi>t</m:mi>
+</m:mrow></m:math>.</para><para id="element-576">As <m:math display="inline"><m:mrow><m:mi>Δ</m:mi><m:mi>t</m:mi>
+</m:mrow></m:math> tends to zero, the ratio defining speed becomes finite and equals to the first derivative of the distance. The speed at the moment ‘t’ is called the instantaneous speed at time ‘t’.</para><para id="element-96">On the distance - time plot, the speed is equal to the slope of the tangent to the curve at the time instant ‘t’. Let A and B points on the plot corresponds to the time <m:math display="inline">
+<m:mi>t</m:mi>
+</m:math>
+and
+<m:math display="inline">
+<m:mrow>
+<m:mi>t</m:mi>
+<m:mo>+</m:mo>
+<m:mi>Δ</m:mi><m:mi>t</m:mi>
+</m:mrow></m:math> during the motion. As <m:math display="inline">
+<m:mrow>
+<m:mi>Δ</m:mi><m:mi>t</m:mi>
+</m:mrow></m:math> approaches zero, the chord AB becomes the tangent AC at A. The slope of the tangent equals ds/dt, which is equal to the instantaneous speed at 't'. </para><para id="element-441">   <figure id="fig14a">
+	    <title>Speed time plot</title>
+	    <media id="idm132272" alt=""><image src="../../media/is.gif" mime-type="image/gif"/></media>
+	    <caption>Instantaneous speed is equal to the slope of the tangent at given instant.</caption>
+</figure>
+</para>
+<para id="element-73"> 
+<m:math> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:mi>v</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi>tan</m:mi>
+              <m:mi>θ</m:mi>
+           </m:mrow>
+          </m:mtd> 
+          <m:mtd> 
+              <m:mo>=</m:mo> 
+          </m:mtd> 
+          <m:mtd> 
+          <m:mrow> 
+<m:mstyle fontsize="16pt" fontstyle="normal">
+              <m:mfrac> 
+              <m:mtext>DC</m:mtext> 
+              <m:mtext>AC</m:mtext>
+              </m:mfrac> 
+</m:mstyle>
+          </m:mrow>
+          </m:mtd>
+          <m:mtd> 
+                <m:mi>=</m:mi>
+          </m:mtd>   
+          <m:mtd> 
+<m:mstyle fontsize="16pt" fontstyle="normal">
+              <m:mfrac> 
+
+                <m:mrow> 
+                <m:mtext>ds</m:mtext>
+
+                </m:mrow>
+
+                <m:mrow> 
+                <m:mtext>dt</m:mtext>
+                </m:mrow>
+              </m:mfrac> 
+</m:mstyle>          
+          </m:mtd>
+          
+          </m:mtr> 
+         </m:mtable> 
+     </m:math>
+</para>
+</section>
+
+
+
+
+
+<section id="section-5">
+<title>Speed - time plot </title>
+
+
+
+
+<para id="element-573">The distance covered in the small time period dt is given by :</para><para id="element-249"> <m:math> 
+      <m:mtable> 
+        <m:mtr> 
+          <m:mtd> 
+
+              <m:mi>ds</m:mi>
+              <m:mo>=</m:mo>
+              <m:mi> </m:mi>
+              <m:mi>v</m:mi>
+              <m:mo>dt</m:mo> 
+
+          </m:mtd>
+          </m:mtr>         
+             </m:mtable> 
+     </m:math></para>
+
+<para id="element-108"> 
+Integrating on both sides between time intervals 
+<m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mo>1</m:mo>
+</m:msub>
+</m:math> and 
+<m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mo>2</m:mo>
+</m:msub>
+</m:math> ,</para>
+
+<para id="element-890"> 
+<equation id="eqn_222a">
+<m:math display="block"> 
+      <m:mtable> 
+        <m:mtr> 
+
+          <m:mtd> 
+          <m:mi>s</m:mi>
+          <m:mo>=</m:mo> 
+          </m:mtd>
+          <m:mtd>  
+           <m:mrow> 
+      <m:apply> 
+        <m:int/> 
+        <m:bvar> 
+          <m:ci>t</m:ci> 
+        </m:bvar> 
+        <m:lowlimit> 
+        <m:msubsup>
+          <m:mi>t</m:mi>
+          <m:mn>1</m:mn>
+        <m:mrow/>
+        </m:msubsup>
+        </m:lowlimit> 
+        <m:uplimit> 
+        <m:msubsup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        <m:mrow/>
+        </m:msubsup>
+        </m:uplimit>
+            <m:mi>v</m:mi> 
+      </m:apply> 
+           </m:mrow>
+           </m:mtd>
+           </m:mtr>
+           </m:mtable>
+    </m:math>
+  </equation>  
+</para>
+
+<para id="element-915">The right hand side of the integral represents an area on a plot drawn between two variables, speed (v) and time (t). The area is bounded by (i) v-t curve (ii) two time ordinates  
+<m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mo>1</m:mo>
+
+</m:msub>
+</m:math> and 
+<m:math>
+<m:msub>
+<m:mi>t</m:mi>
+<m:mo>2</m:mo>
+</m:msub>
+</m:math> and (iii) time (t) axis as shown by the shaded region on the plot.</para><para id="element-513"> <figure orient="horizontal" id="horfig1">
+	    <subfigure id="subfig11">
+            <title>Area under v-t plot</title>
+	      <media id="idm2160512" alt=""><image src="../../media/vt1.gif" mime-type="image/gif"/></media>
+	    </subfigure>
+	    <subfigure id="subfig21">
+<title>Area under v-t plot</title>
+	      <media id="idm2825808" alt=""><image src="../../media/vt2.gif" mime-type="image/gif"/></media>
+	    </subfigure>
+	  <caption>Area under v-t plot gives the distance covered by the object in a given time interval.</caption>
+	  </figure>
+</para><para id="element-497">Alternatively, we can consider the integral as the sum of areas of small strip of rectangular regions (vxdt), each of which represents the distance covered (ds) in the small time interval (dt). As such, the area under speed - time plot gives the total distance covered in a given time interval. </para>  
+</section>
+
+
+<section id="section-6">
+<title> Position - time plot </title>
+
+<para id="element-74a">The position – time plot is similar to distance – time plot in one dimensional motion. In this case, we can assess distance and speed from a position - time plot. Particularly, if the motion is unidirectional i.e. without any reversal of direction, then we can substitute distance by position variable. The example here illustrates this aspect of one-dimensional motion. 
+</para>
+
+<example id="example-79a">
+<para id="element-79a">
+<term> Problem </term> The position – time plot of a particle’s motion is shown below. 
+</para>
+<para id="element-80a">
+<figure id="fig80a">
+<title>Position - time plot</title>
+<media id="idm2110224" alt=""><image src="../../media/s1-e247.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-81a">
+Determine :
+<list id="list-81a" list-type="enumerated">
+<item> average speed in the first 10 seconds  </item>
+<item> Instantaneous speed at 5 seconds </item>
+<item> Maximum speed speed </item>
+<item> The time instant(s), when average speed measured from the beginning of motion equals instantaneous speed </item>
+</list>
+</para>
+<para id="element-82a">
+<term> Solution </term>   
+</para>
+<para id="element-82b">
+1. Average speed in the first 10 seconds 
+</para>
+<para id="element-83a">
+The particle covers a distance of 110 m. Thus, average speed in the first 10 seconds is :
+</para>
+<para id="element-84a">
+<m:math display="block"> 
+<m:mtable columnalign="left"> 
+<m:mtr> 
+<m:mtd> 
+<m:msub>
+<m:mi>v</m:mi>     
+<m:mi>a</m:mi>                
+              </m:msub>
+              <m:mo>=</m:mo> 
+
+              <m:mfrac> 
+                <m:mn>110</m:mn>
+                <m:mn>10</m:mn>
+              </m:mfrac> 
+             <m:mo>=</m:mo>
+                <m:mi>11 m/s </m:mi>     
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-85a">
+2.	Instantaneous speed at 5 second
+
+</para>
+<para id="element-86a">
+We draw the tangent at t = 5 seconds as shown in the figure. The tangent coincides the curve between t = 5 s to 7 s. Now,
+</para>
+<para id="element-87a">
+<figure id="fig87a">
+	    <title>Position - time plot</title>
+	    <media id="idm501664" alt=""><image src="../../media/s2-9e72.gif" mime-type="image/gif"/></media>
+</figure>
+
+</para>
+<para id="element-88a">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+
+                <m:mi>v</m:mi>     
+
+              <m:mo>=</m:mo> 
+                <m:mi> slope of the tangent </m:mi>                
+              <m:mo>=</m:mo> 
+
+              <m:mfrac> 
+                <m:mn>30</m:mn>
+                <m:mn>2</m:mn>
+              </m:mfrac> 
+             <m:mo>=</m:mo>
+                <m:mi>15 m/s </m:mi>     
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-89a">
+3.	Maximum speed
+
+</para>
+<para id="element-90a">
+We observe that the slope of the tangent to the curve first increase to become constant between A and B. The slope of the tangent after point B decreases to become almost flat at the end of the motion. It means the maximum speed corresponds to the constant slope between A and B, which is is 15 m/s
+
+</para>
+<para id="element-91a">
+4.	Time instant(s) when average speed equals instantaneous speed 
+
+</para>
+<para id="element-92a">Average speed is equal to slope of chord between one point to another. On the other hand, speed is equal to slope of tangent at point on the plot. This means that slope of chord between two times is equal to tangent at the end point of motion. Now, as time is measured from the start of motion i.e. from origin, we draw a straight line from the origin, which is tangent to the curve. The only such tangent is shown in the figure below. Now, this straight line is the chord between origin and a point. This line is also tangent to the curve at that point. Thus, average speed equals instantaneous speeds at t = 9 s.
+
+</para>
+<para id="element-93a">
+<figure id="fig93a">
+	    <title>Position - time plot</title>
+	    <media id="idp4064000" alt=""><image src="../../media/s3-16a7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+</example>
+
+<example id="example-1079a">
+<para id="element-76"><term>Problem : </term> Two particles are moving with the same constant speed, but in opposite direction. Under what circumstance will the separation between two remains constant?
+</para>
+<para id="element-1077"> <term>Solution : </term> The condition of motion as stated in the question is possible, if particles are at diametrically opposite positions on a circular path. Two particles are always separated by the diameter of the circular path. See the figure below to evaluate the motion and separation between the particles. 
+</para>
+
+<para id="element-1078">
+<figure id="fig-1078"><title> Motion along a circular path </title><media id="idp4204768" alt=""><image src="../../media/vq8abc.gif" mime-type="image/gif"/></media><caption> Two particles are always separated by the diameter of the circle transversed by the particles. </caption></figure>
+</para>
+
+
+</example>
+</section>
+
+</content>
+  
+</document>

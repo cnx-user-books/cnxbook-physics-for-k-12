@@ -1,0 +1,801 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Center of mass (check your understnading)</title>
+  <metadata>
+  <md:content-id>m14121</md:content-id><md:title>Center of mass (check your understnading)</md:title>
+  <md:abstract>Objective questions, contained in this module with hidden solutions, help improve understanding of the topics covered in the modules "Center of mass" and "Center of mass and rigid bodies".</md:abstract>
+  <md:uuid>34ee7d77-d624-4462-92d8-7c2ede058387</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">The questions have been selected to enhance understanding of the topics covered in the modules titled  "Center of mass" and "Center of mass and rigid bodies". All questions are multiple choice questions with one or more correct answers. There are two sets of the questions. The “understanding level” questions seek to unravel the fundamental concepts involved, whereas “application level” are relatively difficult, which may interlink concepts from other topics.
+</para>
+<para id="element-2">
+Each of the questions is provided with solution. However, it is recommended that solutions may be seen only when your answers do not match with the ones given at the end of this module.  
+</para>
+<section id="section-1">
+<title> Understanding level (Center of mass) </title>
+<para id="element-3">
+<exercise id="exercise-3">
+<problem id="id9489358">
+<para id="element-4">
+An equilateral triangular portion is removed from a uniform square plate as shown in the figure. The center of the mass of the plate :
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> COM of remaining plate </title>
+<media id="id15133833" alt=""><image src="../../media/cmq1.gif" mime-type="image/gif"/></media>
+<caption> An equilateral triangular portion is removed from a uniform square plate .</caption>
+</figure>
+</para>
+<para id="element-6">
+(a) shifts to quadrant I (b) shifts to quadrant II (c) shifts to quadrant III (d) does not shift
+</para>
+</problem>
+<solution id="id9687604">
+<para id="element-7">
+The COM of the portion removed is the geometric center  of the triangle. Note here that the geometric center  of the triangle coincides with the geometric center of the square - even though the triangle is asymmetrically oriented. Thus, removal of the triangular portion does not alter the COM. The COM of the remaining part of the square plate still lies at the center of the square.
+</para>
+<para id="element-8">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-9">
+<exercise id="exercise-9">
+<problem id="id3525079">
+<para id="element-10">
+Three particles are placed at the three corners of a square as shown in the figure. What should be the mass of the particle at the remaining corner so that the COM of the system of particles lies at the center of square ?
+</para>
+<para id="element-11">
+<figure id="fig-11">
+<title> System of particles </title>
+<media id="id8058665" alt=""><image src="../../media/cmq5.gif" mime-type="image/gif"/></media>
+<caption> Particles are placed at the corners of a square .</caption>
+</figure>
+</para>
+<para id="element-12">
+(a) 4 kg or 8 kg (b) 4 kg (c) 6 kg (d) Center of the square can not be COM 
+</para>
+</problem>
+<solution id="id17420137">
+<para id="element-14">
+In order that the COM of the system of particles lies at the center, the masses of the particles on opposite corners should be equal such that masses are symmetrically distributed about the planner axes. Thus, for the given set of particle masses, the COM does not lie at the center of the square.
+</para>
+<para id="element-15">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-16">
+<exercise id="exercise-16">
+<problem id="id9889049">
+<para id="element-17">
+The center of mass of a rigid body :
+</para>
+<para id="element-18">
+(a) coincides with geometric center.
+</para>
+<para id="element-19">
+(b) is a geometric point.
+</para>
+<para id="element-20">
+(c) lies always inside the rigid body.
+</para>
+<para id="element-21">
+(d) lies always outside the rigid body.
+</para>
+</problem>
+<solution id="id11125426">
+<para id="element-22">
+The center of mass coincides with geometric center when density of the rigid body is uniform. However, a rigid body can have non-uniform density as well. In that case, center of mass does not coincide with geometric center. As discussed in the text in the modules on the topic, only choice (b) is correct.
+</para>
+<para id="element-23">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-24">
+<exercise id="exercise-24">
+<problem id="id12659249">
+<para id="element-25">
+Three particles of 1 kg, 2 kg and 3 kg are positioned at the vertices of an equilateral triangle of side 1 m as shown in the figure. The center of mass of the particle system (in meters) is :
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> System of particles </title>
+<media id="id12876277" alt=""><image src="../../media/cmq2.gif" mime-type="image/gif"/></media>
+<caption> Three particles are positioned at the vertices of an equilateral triangle.</caption>
+</figure>
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 0.0866 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0.75 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 0.43 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 1.172 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0.75 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 1</m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id15484178">
+<para id="element-28">
+The height of the triangle is :
+</para>
+<para id="element-28a">
+<figure id="fig-28a">
+<title> System of particles </title>
+<media id="id12052020" alt=""><image src="../../media/cmq4.gif" mime-type="image/gif"/></media>
+<caption> Three particles are positioned at the vertices of an equilateral triangle.</caption>
+</figure>
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> AC </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> OB </m:mi>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> AC </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.866 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+The COM of the system of particles is  :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 0.5 </m:mn>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.75 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+and
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 0.866 </m:mn>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.43 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-35">
+<exercise id="exercise-35">
+<problem id="id11416744">
+
+<para id="element-36">
+If all the particles are situated at a distance "r" from the origin of a three dimensional coordinate system, then COM of the system of particles is :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> ≤ </m:mo>
+<m:mi> r </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> &gt; </m:mo>
+<m:mi> r </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> ≥ </m:mo>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id4453388">
+<para id="element-38">
+ If the particles are uniformly distributed, then COM lies at the center. On the other extreme, if there is only one particle in the system, then COM lies at a linear distance "r" from the center. For other possibilities, COM should lie between these two extremes. 
+</para>
+<para id="element-39">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+<para id="element-40">
+<exercise id="exercise-40">
+<problem id="id11961804">
+<para id="element-41">
+ The density of a rod is not constant. In which of the following situation COM can not lie at the geometric center ?
+</para>
+<para id="element-42">
+(a) Density increases from left to right for the first half and decreases from right to left for the second half
+</para>
+<para id="element-43">
+(b) Density increases from left to right 
+</para>
+<para id="element-44">
+(c) Density decreases from left to right 
+</para>
+<para id="element-45">
+(d) Density decreases from left to right for the first half and increases from right to left for the second half
+</para>
+</problem>
+<solution id="id11977867">
+<para id="element-46">
+When density increases or decreases continuously from one end to another, the COM should lie on heavier side. In these conditions, there is no possibility that the rod is balanced at the geometric center. 
+</para>
+<para id="element-47">
+Hence, options (b) and (c) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+</section>  
+
+
+<section id="section-2">
+<title> Application level (Center of mass) </title>
+<para id="element-48">
+<exercise id="exercise-48">
+<problem id="id5937325">
+<para id="element-49">
+A circular and a square plate are placed in contact as shown in the figure. If the material and thickness of the two plates are same, then COM of the system of bodies as measured from the point of contact is :
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> System of two bodies </title>
+<media id="id14324754" alt=""><image src="../../media/cmq3.gif" mime-type="image/gif"/></media>
+<caption> A circular and a square plate are placed in contact.</caption>
+</figure>
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 0.05 </m:mn>
+<m:mi> a </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0.05 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mn> 0.05 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mn> 0.06 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id7143530">
+
+
+
+<para id="element-52">
+The COMs of each body is its geometric center. They form two particles system separated by a distance "a" in x - direction. Let subscripts "s" and "c" denote square and circular plates respectively. Let "σ" be the area surface density. Then the masses are :
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> σ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+and
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> c </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> σ </m:mi>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+We see that the system of bodies is symmetric about x-axis, but not about y-axis. Thus, COM lies on x - axis. Now, the x-component of COM is :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> c </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> c </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> c </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> σ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> σ </m:mi>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> σ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> σ </m:mi>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+ 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> π </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> π </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 0.06 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Hence, option (d) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+</section> 
+
+<section id="section-3">
+<title> Answers </title>
+<para id="element-262">
+<code id="id4002209" display="block">
+1.  (d)    2. (d)    3. (b)    4. (b)    5. (a)   6. (b) and (c)
+7.  (d)    
+</code>
+</para>
+</section>  
+  </content>
+  
+</document>

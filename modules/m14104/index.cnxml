@@ -1,0 +1,769 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conservative force</title>
+  <metadata>
+  <md:content-id>m14104</md:content-id><md:title>Conservative force</md:title>
+  <md:abstract>Total work done by conservative force in a closed path motion is zero.</md:abstract>
+  <md:uuid>0ef464e1-108b-45cd-9021-f86af3bd4851</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">
+Forces differ in one important aspect. They differ in the way they transfer energy from an object. All forces are consistent and similar in their character in transferring energy "from" an object in motion. They actually differ in their ability to return the energy "to" the object, when motion is reversed. One class of force conserves energy in the form of potential energy and transfers the same when motion is reversed. Additionally, these forces return the energy to object in equal measure with respect to the energy taken from the object. This means that motion of an object interacted by conservative force(s), involving reversal of motion end up regaining its initial motion. The class of forces that conserve energy for reuse is called "conservative" forces. Similarly, the class of forces that do not conserve energy for reuse are called "non-conservative" force.
+</para>
+<para id="element-2">We have noticed that forces such as gravitation force, elastic force, electromagnetic forces etc conform to the requirement of energy reuse as decribed above. Hence, these forces are conservative forces.
+</para>
+<section id="section-1">
+<title> Understanding conservative force </title>
+ 
+<para id="element-3">In order to understand the perspective of conservative force, we consider a block of mass "m", which is projected up a smooth incline. Here, interactiion involves gravitational force. The force due to gravity, opposing the motion, is mg sinθ along the incline. Let us consider that the block travels a total length "L" along the incline before returning to the point of projection. 
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> A block projected on a smooth incline plane </title>
+<media id="id5430671" alt=""><image src="../../media/cf1.gif" mime-type="image/gif"/></media>
+<caption> The force due to gravity does the work on the block.</caption>
+</figure>
+</para>
+<para id="element-462">Work done by gravity during motion in upward direction is :</para><para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-6">Work done by gravity during motion in downward direction is :
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">
+Thus, we find that :
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(down) </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10">
+This condition, when stated in general terms, specify whether the interacting force is conservative or not. In general, let 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math> be the work done by the interacting force during motion and reversal of motion respectively. Then, the inetracting force is conservative force, if :
+</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">Work done along closed path is zero :
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+We summarize important points about the motion, which is interacted by conservative force  :
+</para>
+<para id="element-16">
+<list id="list-16" list-type="bulleted">
+<item>  The object regains initial motion (kinetic energy) on return to initial position in a closed path motion. </item>
+<item> Conservative force transfers energy "to" and "from" an object during a closed path motion in equal measure. </item>
+<item> Conservative force tansfers energy between kinetic energy of the object in motion and the potential energy of the system interating with the object. </item>
+<item> Work done by conservative force is equal to work done by it on reversal of motion.  </item>
+<item> Total work done by conservative force in a closed path motion is zero. </item>
+</list>
+</para>
+
+</section>  
+
+<section id="section-2">
+<title> Understanding non-conservative force </title>
+
+<para id="element-17">It is also inferred from the discussion above that the other class of forces known as "non-conservative" force do not meet the requirement as needed for being conservative. They transfer energy "from" the object in motion just like conservative force, but they do not transfer this energy "to" the potential energy of the system to regain it during reverse  motion. Instead, they transfer the energy to the system in an energy form which can not be used by the force to transfer energy back to the object in motion. Friction is one such non-conservative force. 
+</para>
+<para id="element-18">Let us, now, consider the motion of a block projected on a rough incline instead of a smooth incline. Here, force due to gravity and friction act on the block. During up motion force due to gravity and friction together oppose motion and does negative work on the block. As block is subjected to greater force than earlier, the block travels a lesser distance (L'). Works done by force due to gravity and friction during upward motion are :
+</para>
+<para id="element-19">
+<figure id="fig-19">
+<title> A block projected on a rough incline plane </title>
+<media id="id15465520" alt=""><image src="../../media/cf2.gif" mime-type="image/gif"/></media>
+<caption> The force due to gravity and friction do work on the block.</caption>
+</figure>
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L' </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L' </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+Total work done during upward motion is :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> up </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L' </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">On the other hand, force due to gravity does positive work, whereas friction again does negative work during downward motion. Works done by force due to gravity and friction during downward motion are :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L' </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L' </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">Total work done during downward motion is :
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> down </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L' </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+Total work during the motion along closed path is,
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> total </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L' </m:mi>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">Here, net work in the closed path motion is not zero as in the case of motion with conservative force. As a matter of fact, net work in a closed path motion is equal to work done by the non-conservative force. We observe that friction transfers energy from the object in motion to the "Earth - Incline - block" system in the form of thermal energy - not as potential energy. Thermal energy is associated with the motion of atoms/ molecules composing block and incline. Friction is not able to transfer energy "from" thermal energy of the system "to" the object, when motion is reversed in downward direction. In other words, the energy withdrawn from the motion is not available for reuse by the object during its reverse motion. 
+</para>
+<para id="element-32">
+We summarize important points about the motion, which is interacted by conservative force  :
+</para>
+<para id="element-33">
+<list id="list-33" list-type="bulleted"><item>  The speed and kinetic energy of the object on return to initial position are lesser than initial values in a closed path motion. </item>
+<item>  Non - conservative force does not transfers energy "from" the system "to" the object in motion. </item>
+<item> Non - conservative force transfers energy between kinetic energy of the object in motion and the system via energy forms other than potential energy. </item>
+<item> Total work done by non-conservative force in a closed path motion is not zero.</item>
+</list>
+</para>
+
+</section> 
+
+<section id="section-3">
+<title> Path independence of conservative force </title>
+
+<para id="element-34">We have already seen that work done by the gravity in a closed path motion is zero . We can extend this observation to other conservative force systems as well. In general, let us conceptualize what we have learnt here about conservative force. We imagine a closed path motion. We imagine this closed path motion be divided in two motions between points "A" and "B". Starting from point "A" to point "B" and then ending at point "A" via two work paths named "1" and "2" as shown in the figure.  As observed earlier, the total work by the conservative force for the round trip is zero :
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Motion along closed path </title>
+<media id="id12201595" alt=""><image src="../../media/cf3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> AB1 </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> BA2 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">Let us now change the path for motion from A to B by another path, shown as path "3". Again, the total work by the conservative force for the round trip via new route is zero :
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Motion along closed path </title>
+<media id="id15322961" alt=""><image src="../../media/cf4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> AB3 </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> BA2 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+Comparing two equations,
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> AB1 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> AB3 </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+Similarly, we can say that work done for motion from A to B by conservative force along any of the three paths are equal :
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> AB1 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> AB2 </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> AB3 </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+We summarize the discussion as :
+</para>
+<para id="element-45"><term>1: </term> Work done by conservative force in any closed path motion is zero. The word "any" is important. This means that the configuration of path can be shortest, small, large, straight, two dimensional, three simensional etc. There is no restriction about the path of motion so long only conservative force(s) are the ones interacting with the object in motion. 
+</para>
+<para id="element-46">
+<figure id="fig-46">
+<title> Motion along closed path </title>
+<media id="id9571831" alt=""><image src="../../media/cf5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-47"><term>2: </term>  Work done by conservative force(s)  is independent of the path between any two points. This has a great simplifying implication in anlyzing motions, which otherwise would have been tedious at the least. Four paths between "A" and "E" as shown in the figure are equivalent in the context of work done by conservative force. We can select the easiest path for calculating work done by the conservative force(s).
+</para>
+<para id="element-48">
+<term>3: </term>  The system with conservative(s) force provides a mechanical system, where energy is made available for reuse and where energy does not become unusable for the motion.
+</para>
+
+<example id="example-49">
+<para id="element-49"><term>Problem : </term> A small block of 0.1 kg is released from a height 5 m as shown in the figure. The block following a curved path tansitions to a linear horizontal path and hits the spring fixed to a wedge. If no friction is involved and spring constant is 1000 N/m, find the maximum compression of the spring.
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> Motion along closed path </title>
+<media id="id13036822" alt=""><image src="../../media/cf6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-51"><term>Solution : </term> Here we shall make use of the fact that only conservative force is in play. We need to know the speed of the block in the horizontal section of the motion, before it strikes the spring. We can use "work - kinetic energy" theorem. But, the component of gravity along the curved path is a variable force. It would be difficult to evaluate the work done in this section, using integration form of formula for work. 
+</para>
+
+<para id="element-52">Knowing that work done is independent of the path, we can evaluate the workdone for motion along a vertical straight path. 
+</para>
+<para id="element-53"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">According "work - kinetic energy" theorem,
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> W </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">Here, speed at the time of release is zero. Thus, 
+<m:math>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+ is zero.
+Let the speed of the block on the horizontal section before hitting the spring be "v", Then, </para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">Now, we switch our consideration to the compression of the spring. Let the maximum compression be "x". Then according "work - kinetic energy" theorem,
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> W </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Here, speed at maximum compression is zero. Thus, 
+<m:math>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>
+ is zero.
+</para>
+
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+Combining equations :
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> k </m:mi>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi> 
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mi> k </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 5 </m:mn>
+</m:mrow>
+<m:mn> 1000 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> cm </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">Note : This problem can be solved with simpler calculation using the concept of the conservation of mechanical energy. Energy concept will eliminate intermediate steps involving "work-kinetic energy" theorem. This point will be elaborated in the module on conservation of mechanical energy.
+</para>
+</example>
+</section> 
+
+<section id="section-4">
+<title> Mathematical form </title>
+<para id="element-67">
+The two famous conservative forces viz gravitational and coulomb forces obey inverse square law. It, sometimes, leads us to think that a force needs to conform to this mathematical form to be conservative. As a matter of fact, this is not the requirement. The only requirement is that evaluation of work for a force is independent of intermediate details. It means that we should be able to determine work by merely providing the initial and final values.
+</para>
+</section> 
+
+
+  </content>
+  
+</document>

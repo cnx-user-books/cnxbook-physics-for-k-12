@@ -1,0 +1,1654 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Vector addition</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>424d1966-5725-4269-856a-1571b064af45</md:uuid>
+</metadata>
+  <content>
+
+
+<para id="element-1">Vectors operate with other scalar or vector quantities in a particular manner. Unlike scalar algebraic operation, vector operation draws on graphical representation to incorporate directional aspect. 
+</para>
+
+<para id="element-851">Vector addition is, however, limited to vectors only. We can not add a vector (a directional quantity) to a scalar (a non-directional quantity). Further, vector addition is dealt in three conceptually equivalent ways :</para><para id="element-2">
+<list id="list-2" list-type="enumerated"><item> graphical methods </item>
+<item> analytical methods </item>
+<item> algebraic methods </item></list>
+</para>
+
+<para id="element-851a">In this module, we shall discuss first two methods. Third algebraic method will be discussed in a separate module titled 
+<link document="m14519"> Components of a vector </link>
+</para>
+
+<para id="element-3">The resulting vector after addition is termed as sum or resultant vector. The resultant vector corresponds to the “resultant” or “net” effect of a physical quantities having directional attributes. The effect of a force system on a body, for example, is determined by the resultant force acting on it. The idea of resultant force, in this case, reflects that the resulting force (vector) has the same effect on the body as that of the forces (vectors), which are added.
+</para>
+<para id="element-3a">
+<figure id="fig3a"><title> Resultant force </title>
+<media id="idm3576352" alt=""><image src="../../media/va10a.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-4">It is important to emphasize here that vector rule of addition (graphical or algebraic) do not distinguish between vector types (whether displacement or acceleration vector). This means that the rule of vector addition is general for all vector types. 
+</para>
+
+<para id="element-340">It should be clearly understood that though rule of vector addition is general, which is applicable to all vector types in same manner, but vectors being added should be like vectors only. It is expected also. The requirement is similar to scalar algebra where 2 plus 3 is always 5, but we need to add similar quantity like 2 meters plus 3 meters is 5 meters. But, we can not add, for example, distance and temperature.</para><section id="section-1">
+<title> Vector addition : graphical method </title>
+
+<para id="element-6">Let us examine the example of displacement of a person in two different directions. The two displacement vectors, perpendicular to each other, are added to give the “resultant” vector. In this case, the closing side of the right triangle represents the sum (i.e. resultant) of individual displacements <term>AB</term> and <term>BC</term>. 
+</para>
+
+<para id="element-7">
+<figure id="fig4"><title> Displacement </title>
+<media id="idp3017616" alt=""><image src="../../media/v1-45ae.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+
+<para id="element-8"><equation id="equation-8">
+<m:math display="block">
+<m:mtable>
+   <m:mtr>
+     <m:mtd>
+     <m:mi mathvariant="bold"> AC </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> AB </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> BC </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<para id="element-9">The method used to determine the sum in this particular case (in which, the closing side of the triangle represents the sum of the vectors in both magnitude and direction) forms the basic consideration for various rules dedicated to implement vector addition. 
+</para>
+
+<section id="section-1a">
+<title>  Triangle law </title>
+
+<para id="element-10">
+In most of the situations, we are involved with the addition of two vector quantities. Triangle law of vector addition is appropriate to deal with such situation. 
+</para>
+
+<para id="element-11">
+<definition id="definition-1">
+<term> Triangle law of vector addition </term>
+<meaning id="idm2682416"> If two vectors are represented by two sides of a triangle in sequence, then third closing side of the triangle, in the opposite direction of the sequence, represents the sum (or resultant) of the two vectors in both magnitude and direction.
+</meaning>
+</definition>
+</para>
+
+<para id="element-12">Here, the term “sequence” means that the vectors are placed such that tail of a vector begins at the arrow head of the vector placed before it.
+</para>
+
+<para id="element-13">
+<figure id="fig13"><title> Triangle law of vector addition </title>
+<media id="idp437936" alt=""><image src="../../media/va1.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+
+<para id="element-14">The triangle law does not restrict where to start i.e. with which vector to start. Also, it does not put conditions with regard to any specific direction for the sequence of vectors, like clockwise or anti-clockwise, to be maintained. In figure (i), the law is applied starting with vector,<term>b</term>; whereas the law is applied starting with vector, <term>a</term>, in figure (ii). In either case, the resultant vector, <term>c</term>, is same in magnitude and direction.
+</para>
+<para id="element-15">This is an important result as it conveys that vector addition is commutative in nature i.e. the process of vector addition is independent of the order of addition. This characteristic of vector addition is known as “commutative” property of vector addition and is expressed mathematically as :
+
+</para>
+
+<para id="element-16"><equation id="equation-16">
+<m:math display="block">
+<m:mtable>
+   <m:mtr>
+     <m:mtd>
+     <m:mi mathvariant="bold"> a </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> b </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> b </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> a </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<para id="element-183">If three vectors are represented by three sides of a triangle in sequence, then resultant vector is zero. In order to prove this, let us consider any two vectors in sequence like AB and BC as shown in the figure. According to triangle law of vector addition, the resultant vector is represented by the third closing side in the opposite direction. It means that :
+</para>
+<para id="element-185">
+<figure id="fig-185"><title> Three vectors </title><media id="idm5248000" alt=""><image src="../../media/vq10.gif" mime-type="image/gif"/></media><caption> Three vectors are represented by three sides in sequence. </caption></figure>
+</para>
+
+<para id="element-186">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> AB </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> BC </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> AC </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-187">
+Adding vector <term>CA</term> on either sides of the equation,
+</para>
+<para id="element-188">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> AB </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> BC </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> CA </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> AC </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> CA </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-189">
+The right hand side of the equation is vector sum of two equal and opposite vectors, which evaluates to zero. Hence,
+</para>
+<para id="element-190">
+<figure id="fig-190"><title> Three vectors </title><media id="idm6689776" alt=""><image src="../../media/vq11.gif" mime-type="image/gif"/></media><caption> The resultant of three vectors represented by three sides is zero. </caption></figure>
+</para>
+<para id="element-191">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> AB </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> BC </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> CA </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-192"><term>Note :</term> If the vectors represented by the sides of a triangle are force vectors, then resultant force is zero. It means that three forces represented by the sides of a triangle in a sequence is a balanced force system.
+</para>
+
+</section>
+
+<section id="section-1b">
+<title>  Parallelogram law  </title>
+<para id="element-17">
+Parallelogram law, like triangle law, is applicable to two vectors. 
+</para>
+
+<para id="element-18">
+<definition id="definition-2"><term> Parallelogram law  </term>
+<meaning id="idp4004960"> If two vectors are represented by two adjacent sides of a parallelogram, then the diagonal of parallelogram through the common point represents the sum of the two vectors in both magnitude and direction.
+</meaning>
+</definition>
+</para>
+<para id="element-19">Parallelogram law, as a matter of fact, is an alternate statement of triangle law of vector addition. A graphic representation of the parallelogram law and its interpretation in terms of the triangle is shown in the figure :
+</para>
+
+<para id="element-20">
+<figure id="fig20"><title> Parallelogram law </title>
+<media id="idp4516512" alt=""><image src="../../media/va2.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-21">
+Converting parallelogram sketch to that of triangle law requires shifting vector, <term>b</term>, from the position OB to position AC laterally as shown, while maintaining magnitude and direction. 
+</para>
+</section>
+
+<section id="section-1c">
+<title>  Polygon law </title>
+
+<para id="element-22">The polygon law is an extension of earlier two laws of vector addition. It is successive application of triangle law to more than two vectors. A pair of vectors (<term>a</term>, <term>b</term>) is added in accordance with triangle law. The intermediate resultant vector (<term>a</term> + <term>b</term>) is then added to third vector (c) again, successively till all vectors to be added have been exhausted.
+</para>
+<para id="element-22a">
+<figure id="fig22a"><title> Successive application of triangle law </title>
+<media id="idp3680720" alt=""><image src="../../media/va3.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+
+<para id="element-23">
+<definition id="definition-3"><term> Polygon law </term>
+<meaning id="idm7676336"> Polygon law of vector addition : If (n-1) numbers of vectors are represented by (n-1) sides of a polygon in sequence, then 
+<m:math>
+<m:msup>
+<m:mi>n</m:mi>
+<m:mi>th</m:mi>
+</m:msup>
+</m:math>
+ side, closing the polygon in the opposite direction, represents the sum of the vectors in both magnitude and direction.
+</meaning>
+</definition>
+</para>
+
+<para id="element-24">In the figure shown below, four vectors namely <term>a</term>, <term>b</term>, <term>c</term> and <term>d</term> are combined to give their sum. Starting with any vector, we add vectors in a manner that the subsequent vector begins at the arrow end of the preceding vector. The illustrations in figures i, iii and iv begin with vectors <term>a</term>, <term>d</term> and <term>c</term> respectively.
+</para>
+<para id="element-25">
+<figure id="fig25"><title> Polygon law </title>
+<media id="idp3683200" alt=""><image src="../../media/va4.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-26">Matter of fact, polygon formation has great deal of flexibility. It may appear that we should elect vectors in increasing or decreasing order of direction (i.e. the angle the vector makes with reference to the direction of the first vector). But, this is not so. This point is demonstrated in figure (i) and (ii), in which the vectors <term>b</term> and <term>c</term> have simply been exchanged in their positions in the sequence without affecting the end result.
+</para>
+
+<para id="element-27">
+It means that the order of grouping of vectors for addition has no consequence on the result. This characteristic of vector addition is known as “associative” property of vector addition and is expressed mathematically as :
+</para>
+<para id="element-28"><equation id="equation-28">
+<m:math display="block">
+<m:mtable>
+   <m:mtr>
+     <m:mtd>
+     <m:mo> ( </m:mo>
+     <m:mi mathvariant="bold"> a </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> b </m:mi>
+     <m:mo> ) </m:mo>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> c </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> a </m:mi>
+     <m:mo> + </m:mo>
+     <m:mo> ( </m:mo>
+     <m:mi mathvariant="bold"> b </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> c </m:mi>
+     <m:mo> ) </m:mo>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<section id="section-1d">
+<title>  Subtraction </title>
+
+<para id="element-75">Subtraction is considered an addition process with one modification that the second vector (to be subtracted) is first reversed in direction and is then added to the first vector. To illustrate the process, let us consider the problem of subtracting vector, <term>b</term>, from , <term>a</term>. Using graphical techniques, we first reverse the direction of vector, <term>b</term>, and obtain the sum applying triangle or parallelogram law. 
+</para>
+<para id="element-76">
+Symbolically,
+
+</para>
+<para id="element-77"><equation id="equation-77">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+       <m:mi mathvariant="bold"> a </m:mi>
+
+       <m:mo> - </m:mo>
+       <m:mi mathvariant="bold"> b </m:mi>
+       <m:mo> = </m:mo>
+       <m:mi mathvariant="bold"> a </m:mi>
+       <m:mo> + </m:mo>
+       <m:mo> ( </m:mo>
+       <m:mo> - </m:mo>
+
+       <m:mi mathvariant="bold"> b </m:mi>
+       <m:mo> ) </m:mo>
+
+
+   </m:mtd>
+ </m:mtr>
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</equation></para>
+<para id="element-78a">
+<figure id="fig78a"><title> Subtraction  </title>
+<media id="idm3296800" alt=""><image src="../../media/va9.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para><para id="element-857">Similarly, we can implement subtraction using algebraic method by reversing sign of the vector being subtracted.</para>
+</section>
+
+
+
+</section>
+</section>
+
+<section id="section-2">
+<title>  Vector addition : Analytical method </title>
+
+<para id="element-29">Vector method requires that all vectors be drawn true to the scale of magnitude and direction. The inherent limitation of the medium of drawing and measurement techniques, however, renders graphical method inaccurate. Analytical method, based on geometry, provides a solution in this regard. It allows us to accurately determine the sum or the resultant of the addition, provided accurate values of magnitudes and angles are supplied.
+</para>
+<para id="element-30">Here, we shall analyze vector addition in the form of triangle law to obtain the magnitude of the sum of the two vectors. Let P and Q be the two vectors to be added, which make an angle θ with each other. We arrange the vectors in such a manner that two adjacent sides OA and AB of the triangle OAB, represent two vectors P and Q respectively as shown in the figure. 
+</para>
+<para id="element-31">
+<figure id="fig31"><title> Analytical method </title>
+<media id="idm2159488" alt=""><image src="../../media/va5.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-32">
+According to triangle law, the closing side OB represent sum of the vectors in both magnitude and direction. 
+</para>
+
+<para id="element-33">
+<m:math display="block">
+<m:mtable>
+   <m:mtr>
+     <m:mtd>
+     <m:mi mathvariant="bold"> OB </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> OA </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> AB </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> P </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi mathvariant="bold"> Q </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+In order to determine the magnitude, we drop a perpendicular BC on the extended line OC. 
+</para>
+<para id="element-34a">
+<figure id="fig34a"><title> Analytical method </title>
+<media id="idm6352256" alt=""><image src="../../media/va6.gif" mime-type="image/gif"/></media>
+
+</figure>
+</para>
+<para id="element-35">
+In ∆ACB, 
+</para>
+<para id="element-35a">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi mathvariant="bold"> AC </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> AB </m:mi>
+     <m:mo> cos </m:mo>
+     <m:mi> θ </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> Q </m:mi>
+     <m:mo> cos </m:mo>
+     <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+     <m:mi mathvariant="bold"> BC </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> AB </m:mi>
+     <m:mo> sin </m:mo>
+     <m:mi> θ </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi mathvariant="bold"> Q </m:mi>
+     <m:mo> sin </m:mo>
+     <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+In right ∆OCB, we have :
+</para>
+<para id="element-37">
+
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable>
+   <m:mtr>
+     <m:mtd>
+     <m:mi> OB </m:mi>
+     <m:mo> = </m:mo>
+     <m:mrow>
+
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+     <m:mrow>
+     <m:msup>
+        <m:mi> OC </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> + </m:mo>
+     <m:msup>
+        <m:mi> BC </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     </m:mrow>
+     <m:mo> ) </m:mo>
+     <m:mo> = </m:mo>
+
+     <m:mo> √ </m:mo>
+     <m:mo> { </m:mo>
+     <m:mrow>
+     <m:msup>
+        <m:mrow>
+        <m:mo> ( </m:mo>
+        <m:mi> OA </m:mi>
+        <m:mo> + </m:mo>
+        <m:mi> AC </m:mi>
+        <m:mo> ) </m:mo>
+        </m:mrow>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> + </m:mo>
+     <m:msup>
+        <m:mi> BC </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     </m:mrow>
+     <m:mo> } </m:mo>
+     </m:mrow>
+
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para>
+
+<para id="element-38">
+Substituting for AC and BC,
+</para>
+<para id="element-39"><equation id="equation-39">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mo> ⇒  </m:mo>
+     <m:mi> OB </m:mi>
+     <m:mo> = </m:mo>
+     <m:mrow>
+
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+     <m:mrow>
+     <m:msup>
+        <m:mrow>
+        <m:mo> ( </m:mo>
+        <m:mi> P </m:mi>
+        <m:mo> + </m:mo>
+        <m:mi> Q </m:mi>
+        <m:mo> cos </m:mo>
+        <m:mi> θ </m:mi>
+        <m:mo> ) </m:mo>
+        </m:mrow>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> + </m:mo>
+     <m:msup>
+        <m:mrow>
+        <m:mi> Q </m:mi>
+        <m:mo> sin </m:mo>
+        <m:mi> θ </m:mi>
+        </m:mrow>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     </m:mrow>
+     <m:mo> ) </m:mo>
+     </m:mrow>
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+     <m:mo> ⇒  </m:mo>
+     <m:mi> OB </m:mi>
+     <m:mo> = </m:mo>
+     <m:mrow>
+
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+     <m:mrow>
+     <m:msup>
+        <m:mi> P </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> + </m:mo>
+
+     
+     <m:msup>
+        <m:mi> Q </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:msup>
+        <m:mo> cos </m:mo>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mi> θ </m:mi>
+     <m:mo> + </m:mo>
+     <m:mn> 2 </m:mn>
+     <m:mi> P </m:mi>
+     <m:mi> Q </m:mi>
+     <m:mo> cos </m:mo>
+     <m:mi> θ </m:mi>
+     <m:mo> + </m:mo>
+     <m:msup>
+        <m:mi> Q </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:msup>
+        <m:mo> sin </m:mo>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mi> θ </m:mi> 
+
+ 
+     </m:mrow>
+     <m:mo> ) </m:mo>
+     </m:mrow>
+
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+     <m:mo> ⇒  </m:mo>
+     <m:mi> R </m:mi>
+     <m:mo> = </m:mo>
+     <m:mi> OB </m:mi>
+     <m:mo> = </m:mo>
+
+     <m:mrow>
+
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+     <m:mrow>
+     <m:msup>
+        <m:mi> P </m:mi>
+        <m:mn> 2 </m:mn>
+
+     </m:msup>
+     <m:mo> + </m:mo>
+     <m:mn> 2 </m:mn>
+     <m:mi> P </m:mi>
+     <m:mi> Q </m:mi>
+     <m:mo> cos </m:mo>
+     <m:mi> θ </m:mi>
+     <m:mo> + </m:mo>
+     <m:msup>
+        <m:mi> Q </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     </m:mrow>
+     <m:mo> ) </m:mo>
+     </m:mrow>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</equation></para>
+<para id="element-40">
+Let "α" be the angle that line OA makes with OC, then
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi> tan </m:mi>
+     <m:mi> α </m:mi>
+     <m:mo> = </m:mo>
+     <m:mfrac>
+     <m:mi> BC </m:mi>
+     <m:mi> OC </m:mi>
+     </m:mfrac>
+     <m:mo> = </m:mo>
+     <m:mfrac>
+     <m:mrow>
+     <m:mi> Q </m:mi>
+     <m:mo> sin </m:mo>
+     <m:mi> θ </m:mi>
+     </m:mrow>
+     <m:mrow>
+     <m:mi> P </m:mi>
+     <m:mo> + </m:mo>
+     <m:mi> Q </m:mi>
+     <m:mo> cos </m:mo>
+     <m:mi> θ </m:mi>
+     </m:mrow>
+     </m:mfrac>
+   </m:mtd>
+ </m:mtr>
+
+</m:mtable>
+</m:mstyle> 
+</m:math>
+</para>
+<para id="element-42">
+The equations give the magnitude and direction of the sum of the vectors. The above equation reduces to a simpler form, when two vectors are perpendicular to each other. In that case, θ = 90°; sinθ = sin90° = 1; cosθ = cos90° = 0 and,
+</para>
+<para id="element-43"><equation id="equation-43">
+<m:math display="block">
+<m:mstyle displaystyle="true">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mi> ⇒ </m:mi>
+     <m:mi> OB </m:mi>
+     <m:mo> = </m:mo>
+     <m:mo> √ </m:mo>
+     <m:mo> ( </m:mo>
+     <m:mrow>
+     <m:msup>
+        <m:mi> P </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     <m:mo> + </m:mo>
+     <m:msup>
+        <m:mi> Q </m:mi>
+        <m:mn> 2 </m:mn>
+     </m:msup>
+     </m:mrow>
+     <m:mo> ) </m:mo>
+
+   </m:mtd>
+ </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+     <m:mi> ⇒ </m:mi>
+     <m:mi> tan </m:mi>
+     <m:mi> α </m:mi>
+     <m:mo> = </m:mo>
+
+     <m:mfrac>
+     <m:mi> Q </m:mi>
+     <m:mi> P </m:mi>
+     </m:mfrac>
+
+   </m:mtd>
+ </m:mtr>
+
+</m:mtable>
+</m:mstyle> </m:math>
+</equation></para>
+
+
+<para id="element-44">These results for vectors at right angle are exactly same as determined, using Pythagoras theorem.  
+</para>
+
+
+<example id="example-305a">
+<para id="element-305"> <term>Problem : </term> Three radial vectors OA, OB and OC act at the center of a circle of radius “r” as shown in the figure. Find the magnitude of resultant vector. 
+</para>
+<para id="element-306">
+<figure id="fig-306"><title> Sum of three vectors </title><media id="idp996256" alt=""><image src="../../media/vq1a.gif" mime-type="image/gif"/></media><caption> Three radial vectors OA, OB and OC act at the center of a circle of radius “r”.</caption></figure>
+</para>
+
+<para id="element-307">  <term>Solution : </term> It is evident that vectors are equal in magnitude and is equal to the radius of the circle. The magnitude of the resultant of horizontal and vertical vectors is :
+</para>
+
+
+<para id="element-309">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> R’ </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-310">
+The resultant of horizontal and vertical vectors is along the bisector of angle i.e. along the remaining third vector OB. Hence, magnitude of resultant of all three vectors is :
+</para>
+<para id="element-311">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> R’ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> OB </m:mi>
+<m:mo> + </m:mo>
+<m:mi> R’ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mo> + </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+
+
+<example id="example-338a">
+<para id="element-338"><term>Problem : </term> At what angle does two vectors <term>a</term>+<term>b</term> and <term>a</term>-<term>b</term> act so that the resultant is
+<m:math>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:math>
+.
+</para>
+
+<para id="element-339">  <term>Solution : </term> The magnitude of resultant of two vectors is given by :
+</para>
+
+<para id="element-340a">
+<figure id="fig-340a"><title> Angle </title><media id="idm3321744" alt=""><image src="../../media/vq5-e169.gif" mime-type="image/gif"/></media><caption> The angle between the sum and difference of vectors. </caption></figure>
+</para>
+
+<para id="element-341">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> { </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-342">
+Substituting the expression for magnitude of resultant as given,
+</para>
+<para id="element-343">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> { </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-344">
+Squaring on both sides, we have :
+</para>
+<para id="element-345">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> { </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> } </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-346">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> cos </m:mi>
+<m:mn> 60 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-347">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+</section>
+
+
+
+
+
+<section id="section-4">
+<title> Nature of vector addition </title>
+<section id="section-4a">
+<title> Vector sum and difference </title>
+
+<para id="element-561a"> The magnitude of sum of two vectors is either less than or equal to sum of the magnitudes of individual vectors. Symbolically, if <term>a</term> and <term>b</term> be two vectors, then 
+</para>
+<para id="element-562"> 
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> ≤ </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> + </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-563"> We know that vectors <term>a</term>, <term>b</term> and their sum <term>a</term>+<term>b</term> is represented by three side of a triangle OAC. Further we know that a side of triangle is always less than the sum of remaining two sides. It means that :
+</para>
+<para id="element-564">
+<figure id="fig-564"><title> Two vectors </title><media id="idm3669536" alt=""><image src="../../media/vq7-2efb.gif" mime-type="image/gif"/></media><caption> Sum of two vectors </caption></figure>
+</para>
+<para id="element-565"><m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> OC </m:mi>
+<m:mo> &lt; </m:mo>
+<m:mi> OA </m:mi>
+<m:mo> + </m:mo>
+<m:mi> AC </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> OC </m:mi>
+<m:mo> &lt; </m:mo>
+<m:mi> OA </m:mi>
+<m:mo> + </m:mo>
+<m:mi> OB </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> &lt; </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> + </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> </para>
+<para id="element-566">There is one possibility, however, that two vectors <term>a</term> and <term>b</term> are collinear and act in the same direction. In that case, magnitude of their resultant will be "equal to" the sum of the magnitudes of individual vector. This magnitude represents the maximum or greatest magnitude of two vectors being combined.   
+</para>
+<para id="element-567">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> OC </m:mi>
+<m:mo> = </m:mo>
+<m:mi> OA </m:mi>
+<m:mo> + </m:mo>
+<m:mi> OB </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> + </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-568">
+Combining two results, we have :
+</para>
+<para id="element-569">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> ≤ </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> + </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-70">On the other hand, the magnitude of difference of two vectors is either greater than or equal to difference of the magnitudes of individual vectors. Symbolically, if <term>a</term> and <term>b</term> be two vectors, then  
+</para>
+<para id="element-71"> 
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> ≥ </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> - </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-72">  We know that vectors <term>a</term>, <term>b</term> and their difference <term>a</term>-<term>b</term> are represented by three side of a triangle OAE. Further we know that a side of triangle is always less than the sum of remaining two sides. It means that sum of two sides is greater than the third side :
+</para>
+<para id="element-73">
+<figure id="fig-73">
+<title> Two vectors </title>
+<media id="idm4978528" alt=""><image src="../../media/vq8.gif" mime-type="image/gif"/></media>
+<caption> Difference of two vectors </caption>
+</figure>
+</para>
+<para id="element-74"><m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mi> OE </m:mi>
+<m:mo> + </m:mo>
+<m:mi> AE </m:mi>
+<m:mo> &gt; </m:mo>
+<m:mi> OA </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> OE </m:mi>
+<m:mo> &gt; </m:mo>
+<m:mi> OA </m:mi>
+<m:mo> - </m:mo>
+<m:mi> AE </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> &gt; </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> - </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75a">There is one possibility, however, that two vectors <term>a</term> and <term>b</term> are collinear and act in the opposite directions. In that case, magnitude of their difference will be equal to the difference of the magnitudes of individual vector. This magnitude represents the minimum or least magnitude of two vectors being combined. 
+</para>
+<para id="element-76a">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> OE </m:mi>
+<m:mo> = </m:mo>
+<m:mi> OA </m:mi>
+<m:mo> - </m:mo>
+<m:mi> AE </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> - </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77a">
+Combining two results, we have :
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> ≥ </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> | </m:mo>
+<m:mo> - </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+<section id="section-4b">
+<title> Lami's theorem </title>
+
+<para id="element-193"> Lami's theorem relates magnitude of three non-collinear vectors with the angles enclosed between pair of two vectors, provided resultant of three vectors is zero (null vector). This theorem is a manifestation of triangle law of addition. According to this theorem, if resultant of three vectors <term>a</term>, <term>b</term> and <term>c</term> is zero (null vector), then 
+</para>
+<para id="element-194">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> α </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> b </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> β </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> c </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> γ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-195">
+<figure id="fig-195"><title> Three vectors </title><media id="idp565808" alt=""><image src="../../media/vq12.gif" mime-type="image/gif"/></media><caption> Three non-collinear vectors. </caption></figure>
+</para>
+<para id="element-196">
+where α, β and γ be the angle between the remaining pairs of vectors.
+</para>
+<para id="element-197"> We know that if the resultant of three vectors is zero, then they are represented by three sides of a triangle in magnitude and direction. 
+</para>
+<para id="element-198">
+<figure id="fig-199"><title> Three vectors </title><media id="idp3681792" alt=""><image src="../../media/vq14.gif" mime-type="image/gif"/></media><caption> Three vectors are represented by three sides of a triangle. </caption></figure>
+</para>
+<para id="element-197a">
+Considering the magnitude of vectors and applying sine law of triangle, we have :
+</para>
+<para id="element-198a">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> AB </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> BCA </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> BC </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> CAB </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> CA </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> ABC </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-199">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> AB </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> π </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> BC </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> π </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> β </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> CA </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> π </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> γ </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1100">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> AB </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> α </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> BC </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> β </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> CA </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> γ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1101">It is important to note that the ratio involves exterior (outside) angles – not the interior angles of the triangle. Also, the angle associated with the magnitude of a vector in the individual ratio is the included angle between the remaining vectors.
+</para>
+
+</section>
+</section>
+
+
+<section id="section-5">
+<title>  Exercises </title>
+
+
+<para id="element-382a">
+<exercise id="exercise-382a">
+<problem id="idm4775744">
+<para id="element-383"> Two forces of 10 N and 25 N are applied on a body. Find the magnitude of maximum and minimum resultant force.
+</para>
+</problem>
+
+<solution id="idm1114544">
+<para id="element-384">  Resultant force is maximum when force vectors act along the same direction. The magnitude of resultant force under this condition is :
+</para>
+<para id="element-385">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mtext> max </m:mtext>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 25 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 35 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mtext> min </m:mtext>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 25 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 15 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-386a">
+<exercise id="exercise-386a">
+<problem id="idm4176592">
+<para id="element-387"> Can a body subjected to three coplanar forces 5 N, 17 N and 9 N be in equilibrium?
+
+
+
+</para>
+</problem>
+
+<solution id="idm932240">
+<para id="element-388">  The resultant force, on a body in equilibrium, is zero. It means that three forces can be represented along three sides of a triangle. However, we know that sum of any two sides is greater than third side. In this case, we see that :
+</para>
+<para id="element-389">
+<m:math display="block">
+<m:mtable>
+<m:mtr>
+<m:mtd>
+<m:mn> 5 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 9 </m:mn>
+<m:mo> &lt; </m:mo>
+<m:mn> 17 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-390">
+Clearly, three given forces can not be represented by three sides of a triangle. Thus, we conclude that the body is not in equilibrium.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-379a">
+<exercise id="exercise-379a">
+<problem id="idm900672">
+<para id="element-379"> Under what condition does the magnitude of the resultant of two vectors of equal magnitude, is equal in magnitude to either of two equal vectors?
+</para>
+</problem>
+
+<solution id="idm4328960">
+<para id="element-380">  We know that resultant of two vectors is represented by the closing side of a triangle. If the triangle is equilateral then all three sides are equal. As such magnitude of the resultant of two vectors is equal to the magnitude of either of the two vectors.
+</para>
+<para id="element-381">
+<figure id="fig-381"><title> Two vectors </title><media id="idm8089376" alt=""><image src="../../media/vq9-7417.gif" mime-type="image/gif"/></media><caption> Resultant of two vectors </caption></figure>
+</para>
+<para id="element-382">
+Under this condition, vectors of equal magnitude make an angle of 120° between them.
+</para>
+</solution>
+</exercise>
+</para>
+</section>
+  </content>
+  
+</document>

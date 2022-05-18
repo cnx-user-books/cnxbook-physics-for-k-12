@@ -1,0 +1,3908 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>One dimensional motion with constant acceleration</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>a10b97dd-3e52-4e5f-916c-e2b4a527cdb0</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Free falling bodies under gravity represents typical case of motion in one dimension with constant acceleration. A body projected vertically upwards is also a case of constant acceleration in one dimension, but with the difference that body undergoes reversal of direction as well after reaching the maximum height. Yet another set of examples of constant accelerations may include object sliding on an incline plane, motion of an aboject impeded by rough surfaces and many other motions under the influence of gravitational and frictional forces.
+</para>
+
+
+<para id="element-355">The defining differential equations of velocity and acceleration involve only one position variable (say x). In the case of motion under constant acceleration, the differential equation defining acceleration must evaluate to a constant value.   </para><para id="element-225"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-438">and</para><para id="element-953"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> = </m:mo>
+<m:mi> k </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-975">where k is a positive or negative constant.</para><para id="element-968">The corresponding scalar form of the defining equations of velocity and acceleration for one dimensional motion with constant acceleration are :</para><para id="element-958"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-667">
+and
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<example id="example-2">
+<title> Constant acceleration </title>
+<para id="element-28">
+<term>Problem : </term> The position “x” in meter of a particle moving in one dimension is described by the equation :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mi> x </m:mi>
+
+</m:msqrt>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29a">
+where “t” is in second.
+</para>
+<para id="element-30">
+<list id="list-3" list-type="enumerated">
+
+<item> Find the time when velocity is zero. </item>
+<item> Does the velocity changes its direction? </item>
+<item> Locate position of the particle in the successive seconds for first 3 seconds.
+ </item>
+<item> Find the displacement of the particle in first three seconds. </item>
+<item> Find the distance of the particle in first three seconds. </item>
+<item> Find the displacement of the particle when the velocity becomes zero.    </item>
+<item> Determine, whether the particle is under constant or variable force. </item>
+</list>
+</para>
+
+
+
+<para id="element-31">
+<term>Solution : </term> Velocity is equal to the first differential of the position with respect to time, while acceleration is equal to the second differential of the position with respect to time. The given equation, however, expresses time, t, in terms of position, x. Hence, we need to obtain expression of position as a function in time.
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt>
+<m:mi> x </m:mi>
+
+</m:msqrt>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo>
+<m:msqrt>
+<m:mi> x </m:mi>
+</m:msqrt>
+<m:mo> = </m:mo>
+<m:mi> t </m:mi>
+<m:mo> -  </m:mo>
+<m:mn> 1 </m:mn>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-33">
+Squaring both sides, we have :
+</para>
+<para id="element-34"/>
+
+
+
+
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+This is the desired expression to work upon. Now, taking first differential w.r.t time, we have :
+</para>
+<para id="element-885"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-37">
+1: When v = 0, we have v = 2t – 2 = 0
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+2. Velocity is expressed in terms of time as :
+</para>
+
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-41">
+It is clear from the expression that velocity is negative for t &lt; 1 second, while positive for t &gt; 1. As such velocity changes its direction during motion.
+</para>
+
+<para id="element-42">
+3: Positions of the particle at successive seconds for first three seconds are :
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> ; </m:mi>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mi> ; </m:mi>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1  </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> ; </m:mi>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi> ; </m:mi>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+
+
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+<figure id="fig44">
+<title> Graphical representation of position </title>
+<media id="idm579088" alt=""><image src="../../media/cao1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-45">
+</para>
+<para id="element-46">
+4: Positions of the particle at t = 0 and t = 3 s are 1 m and 4 m from the origin.
+</para>
+<para id="element-47">
+Hence, displacement in first three seconds is 4 – 1 = 3 m
+</para>
+<para id="element-48">5: The particle moves from the start position, x = 1 m, in the negative direction for 1 second. At t = 1, the particle comes to rest. For the time interval from 1 to 3 seconds, the particle moves in the positive direction. 
+</para>
+<para id="element-49">
+Distance in the interval t = 0 to 1 s is :
+</para>
+
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> s </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">
+Total distance is 1 + 4 = 5 m.
+</para>
+<para id="element-52">
+6: Velocity is zero, when  t = 1 s. In this period, displacement is 1 m.
+</para>
+<para id="element-53">
+7: In order to determine the nature of force on the particle, we first determine the acceleration as :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+
+
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+Acceleration of the motion is constant, independent of time. Hence, force on the particle is also constant during the motion.
+</para>
+
+</example>
+
+<section id="section-200">
+<title> Equation of motion for one dimensional motion with constant acceleration  </title>
+<para id="element-200">The equation of motions in one dimension for constant acceleration is obtained from the equations of motion established for the general case i.e. for the three dimensional motion. In one dimension, the equation of motion is simplified (<term>r</term> is replaced by x or y or z with corresponding unit vector). The three basic equations of motions are (say in x - direction) :
+</para>
+<para id="element-201">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> 1: </m:mi>
+<m:mspace width="2pt"/>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> 2: </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi> 3: </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math></para>
+
+
+<para id="element-206">
+Significantly, we can treat vector equivalently as scalars with appropriate sign. Following is the construct used for this purpose :
+</para>
+<para id="element-207">
+<list id="list-207" list-type="enumerated">
+<title> Sign convention </title>
+<item> Assign an axis along the motion. Treat direction of axis as positive.  </item>
+<item> Assign the origin with the start of motion or start of observation. It is, however, a matter of convenience and is not a requirement of the construct.
+ </item>
+<item> Use all quantities describing motion in the direction of axis as positive.
+ </item>
+<item> Use all quantities describing motion in the opposite direction of axis as negative. </item>
+</list>
+</para>
+<para id="element-208">
+Once, we follow the rules as above, we can treat equations of motion as scalar equations as :
+</para>
+<para id="element-209">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> 1: </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> 2: </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mi> 3: </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable> 
+</m:math>
+</para>
+
+<example id="example-1">
+<title> Constant acceleration </title>
+<para id="element-19">
+<term>Problem : </term> A car moving with constant acceleration covers two successive kilometers in 20 s and 30 s respectively. Find the acceleration of the car.
+</para>
+<para id="element-20"><term>Solution : </term> Let "u" and "a" be the initial velocity and acceleration of the car. Applying third equation of motion for first kilometer, we have :
+</para>
+
+
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 1000 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> + </m:mo>
+
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mn> 20 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 200 </m:mn>
+<m:mi> a </m:mi>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> a </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-22">
+At the end of second kilometer, total displacement is 2 kilometer (=2000 m) and total time is 20 + 30 = 50 s. Again applying third equation of motion,
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 2000 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 50 </m:mn>
+<m:mo> + </m:mo>
+
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mn> 50 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 2500 </m:mn>
+<m:mi> a </m:mi>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 200 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 125 </m:mn>
+<m:mi> a </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+Solving two equations,
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2.86 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+Note that acceleration is negative to the positive direction (direction of velocity) and as such it is termed “deceleration”. This interpretation is valid as we observe that the car covers second kilometer in longer time that for the first kilometer, which means that the car has slowed down.
+</para>
+
+<para id="element-27">It is important to emphasize here that mere negative value of acceleration does not mean it to be deceleration. The deciding criterion for deceleration is that acceleration should be opposite to the direction of velocity. 
+</para>
+
+</example>
+</section>
+
+
+<section id="section-1">
+<title> Motion under gravity  </title>
+<para id="element-56">We have observed that when a feather and an iron ball are released from a height, they reach earth surface with different velocity and at different times. These objects are under the action of different forces like gravity, friction, wind and buoyancy force. In case forces other than gravity are absent like in vacuum, the bodies are only acted by the gravitational pull towards earth. In such situation, acceleration due to gravity, denoted by g,  is the only acceleration. 
+</para>
+<para id="element-57">The acceleration due to gravity near the earth surface is nearly constant and equal to 9.8
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Value of ‘g’ is taken as 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ as an approximation to facilitate ease of calculation. 
+</para>
+<para id="element-58">
+When only acceleration due to gravity is considered, neglecting other forces, each of the bodies (feather and iron ball) starting from rest is accelerated at the same rate. Velocity of each bodies increases by 9.8 m/s at the end of every second. As such, the feather and the iron ball reach the surface at the same time and at the same velocity.
+</para>
+
+</section>
+
+<section id="section-2">
+<title> Additional equations of motion </title>
+<para id="element-59">A close scrutiny of three equations of motion derived so far reveals that they relate specific quantities, which define the motion. There is possibility that we may encounter problems where inputs are not provided in the manner required by equation of motion. 
+</para>
+<para id="element-60">For example, a problem involvoing calaculation of displacement may identify initial velocity, final velocity and acceleration as input. Now, the equation of motion for displacement is expressed in terms of  initial velocity, time and acceleration. Evidently, there is a mis-match between what is given and what is required. We can, no doubt, find out time from the set of given inputs, using equation for velocity and then we can solve equation for the displacement. But what if we develop a relation-ship which relates the quantities as given in the input set! This would certainly help. </para>
+<para id="element-61">
+From first equation :
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mi> a </m:mi>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+From second equation :
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mi> t </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mi> t </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+Eliminating ‘t’,
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-66a">
+<equation id="equation-66a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<para id="element-67">
+This equation relates initial velocity, final velocity, acceleration and displacement.
+</para>
+<para id="element-68">Also, we observe that equation for displacement calculates displacement when initial velocity, acceleration and time are given. If final velocity - instead of initial velocity - is given, then displacement can be obtained with slight modification.
+</para>
+<para id="element-69"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">
+Using v = u + at,
+</para>
+<para id="element-71"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1</m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-71a">
+<equation id="equation-71a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1</m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+
+
+<example id="example-3"><title> Constant acceleration in one dimensional motion</title>
+<para id="element-76">
+<term>Problem : </term> A train traveling on a straight track moves with a speed of 20 m/s. Brake is applied  uniformly such that its speed is reduced to 10 m/s, while covering a distance of 200 m. With the same rate of deceleration, how far will the train go before coming to rest.
+</para>
+<para id="element-77">
+<term>Solution : </term> To know the distance before train stops, we need to know the deceleration.  We can find out deceleration from the first set of data. Here, u = 20 m/s ; v = 10 m/s ; x = 200 m ; a = ? An inspection of above data reveals that none of the first three equations of motion fits the requirement in hand, while the additional form of equation  
+<m:math>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> =  </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:math>
+ serves the purpose :
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mn> 20 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 200 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+For the train to stops, we have
+</para>
+<para id="element-83"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mo> ; </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mo> ; </m:mo>
+
+<m:mspace width="2pt"/>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+<m:mo> ; </m:mo>
+<m:mspace width="2pt"/>
+
+<m:mspace width="2pt"/>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-84">
+and,
+</para>
+<para id="element-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn> 0 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mn> 20 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+<m:mn> 266.67 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</example>
+</section>
+
+
+<section id="section-6">
+<title> Displacement in a particular second </title>
+
+<para id="element-72">
+The displacement in a second is obtained by subtracting two displacements in successive seconds. We calculate displacements in <m:math>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math> second and <m:math>
+<m:msup>
+<m:mi> (n-1) </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math> seconds. The difference of two displacements is the displacement in the <m:math>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>  second.
+Now, the displacements at the end of n and (n-1) seconds as measured from origin are given by :
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> n </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+
+<m:mi> a </m:mi>
+<m:msup>
+<m:mrow>
+
+<m:mo> ( </m:mo>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+The displacement in the 
+<m:math>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math> second, therefore, is :
+</para>
+
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> s </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1</m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> n  </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mi> n  </m:mi>
+<m:mo> + </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> n  </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo>
+
+<m:msub>
+<m:mi> s </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1</m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> n  </m:mi>
+
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-75a">
+<equation id="equation-75a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> s </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1</m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> n  </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+<example id="example-205a">
+<para id="element-205a"><term>Problem : </term> The equation of motion for displacement in 
+<m:math>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ second is given by :
+</para>
+<para id="element-206a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-207a">
+This equation is dimensionally incompatible, yet correct. Explain.
+</para>
+<para id="element-208a"> <term>Solution : </term> Since “n” is a number, the dimension of the terms of the equation is indicated as :
+</para>
+<para id="element-209a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> [ </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> Displacment </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> ] </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> [ </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> velocity </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> T </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ] </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> [ </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo>
+<m:mo> [ </m:mo> 
+<m:mi> acceleration </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> T </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ] </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-210">Clearly, dimensions of the terms are not same and hence equation is apparently incompatible in terms of dimensions. 
+</para>
+<para id="element-211">In order to resolve this apparent incompatibility, we need to show that each term of right hand side of the equation has dimension that of displacement i.e. length. Now, we know that the relation is derived for a displacement for time equal to “1” second. As multiplication of “1” or "
+<m:math>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>" with any term is not visible, the apparent discrepancy has appeared in otherwise correct equation. We can, therefore, re-write the equation with explicit time as :
+</para>
+<para id="element-212">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-214">Now, the dimensions of the first and second terms on the right side are : </para>
+<para id="element-215">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> [ </m:mo> 
+<m:mi> u </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> T </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mi> T </m:mi>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> ] </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> [ </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> T </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ] </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mi> L </m:mi>
+<m:mo> ] </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-216">
+Thus, we see that the equation is implicitly correct in terms of dimensions.
+</para>
+</example>
+
+
+<para id="element-317a">
+<exercise id="exercise-317a">
+<problem id="idm6752176">
+<para id="element-317"> If a particle, moving in straight line, covers distances “x”, “y” and “z” in 
+<m:math>
+<m:msup>
+<m:mi> p </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+, 
+<m:math>
+<m:msup>
+<m:mi> q </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ and 
+<m:math>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ seconds respectively, then prove that :
+</para>
+<para id="element-318">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi> p </m:mi>
+<m:mo> - </m:mo>
+<m:mi> q </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> z </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mo> - </m:mo>
+<m:mi> p </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> y </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> q </m:mi>
+<m:mo> - </m:mo>
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</problem>
+
+<solution id="idm66496">
+<para id="element-319"> This is a motion with constant acceleration in one dimension. Let the particle moves with a constant acceleration, “a”. Now, the distances in particular seconds as given in the question are :
+</para>
+<para id="element-320">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> p </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> q </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> z </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> r </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-321">
+Subtracting, second from first equation,
+</para>
+<para id="element-322">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> p </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> q </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> p </m:mi>
+<m:mo> - </m:mo>
+<m:mi> q </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> p </m:mi>
+<m:mo> - </m:mo>
+<m:mi> q </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> p </m:mi>
+<m:mo> - </m:mo>
+<m:mi> q </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> z </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> z </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-323">
+Similarly,
+</para>
+<para id="element-324">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mo> - </m:mo>
+<m:mi> p </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> z </m:mi>
+<m:mo> - </m:mo>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> y </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> q </m:mi>
+<m:mo> - </m:mo>
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mi> y </m:mi>
+<m:mo> - </m:mo>
+<m:mi> z </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-325">
+Adding three equations,
+</para>
+<para id="element-326">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi> p </m:mi>
+<m:mo> - </m:mo>
+<m:mi> q </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> z </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mo> - </m:mo>
+<m:mi> p </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> y </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> q </m:mi>
+<m:mo> - </m:mo>
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> a </m:mi>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mi> y </m:mi>
+<m:mo> - </m:mo>
+<m:mi> y </m:mi>
+<m:mi> z </m:mi>
+<m:mo> + </m:mo>
+<m:mi> y </m:mi>
+<m:mi> z </m:mi>
+<m:mo> - </m:mo>
+<m:mi> x </m:mi>
+<m:mi> y </m:mi>
+<m:mo> + </m:mo>
+<m:mi> x </m:mi>
+<m:mi> y </m:mi>
+<m:mo> - </m:mo>
+<m:mi> x </m:mi>
+<m:mi> z </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi> p </m:mi>
+<m:mo> - </m:mo>
+<m:mi> q </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> z </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mo> - </m:mo>
+<m:mi> p </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> y </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> q </m:mi>
+<m:mo> - </m:mo>
+<m:mi> r </m:mi>
+<m:mo> ) </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+</section>
+
+<section id="section-7">
+<title> Average acceleration </title>
+
+
+<para id="element-86b">Average acceleration is ratio of change in velocity and time. This is an useful concept where acceleration is not constant throughout the motion. There may be motion, which has constant but different values of acceleration in different segments of motion. Our job is to find an  equivalent constant acceleration, which may be used to determine attributes for the whole of motion. Clearly, the single value equivalent acceleration should be such that it yields same value of displacement and velocity for the entire motion. This is the underlying principle for determining equivalent or average acceleration for the motion. 
+</para>
+
+<example id="example-444a">
+<para id="element-444a"><term>Problem : </term> A particle starting with velocity “u” covers two equal distances in a straight line with accelerations 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+. What is the equivalent acceleration for the complete motion?
+</para>
+<para id="element-444b"> <term>Solution : </term> The equivalent acceleration for the complete motion should yield same value for the attributes of the motion at the end of the journey. For example, the final velocity at the end of the journey with the equivalent acceleration should be same as the one calculated with individual accelerations.
+</para>
+
+
+<para id="element-445">Here initial velocity is "u". The velocity at the end of half of the distance (say “x”) is :
+</para>
+<para id="element-446">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> u </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-447">
+Clearly, 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ is the initial velocity for the second leg of motion,
+</para>
+<para id="element-448">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-449">
+Adding above two equations, we have :
+</para>
+<para id="element-450">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> u </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-451">
+This is the square of velocity at the end of journey. Now, let “a” be the equivalent acceleration, then applying equation of motion for the whole distance (2x),
+</para>
+<para id="element-452">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> u </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-453">
+Comparing equations,
+</para>
+<para id="element-454">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+</section>
+
+<section id="section-3">
+<title> Interpretation of equations of motion </title>
+<para id="element-87">
+One dimensional motion felicitates simplified paradigm for interpreting equations of motion. Description of motion in one dimension involves mostly the issue of “magnitude” and only one aspect of direction. The only possible issue of direction here is that the body undergoing motion in one dimension may reverse its direction during the course of motion. This means that the body may either keep moving in the direction of initial velocity or may start moving in the opposite direction of the initial velocity at certain point of time during the motion. This depends on the relative direction of initial velocity and acceleration. Thus, there are two paradigms : 
+</para>
+<para id="element-88">
+<list id="list-88" list-type="enumerated">
+<item> Constant force is applied in the direction of initial velocity. 
+</item>
+<item> Constant force is applied in the opposite direction of initial velocity. 
+ </item>
+</list>
+</para>
+<para id="element-89">
+Irrespective of the above possibilities, one fundamental attribute of motion in one dimension is that all parameters defining motion i.e initial velocity, final velocity and acceleration act along a straight line. 
+</para>
+<section id="section-3a">
+<title> Constant acceleration (force) is applied in the direction of velocity </title>
+<para id="element-90">The magnitude of velocity increases by the magnitude of acceleration at the end of every second (unit time interval). In this case, final velocity at any time instant is greater than velocity at an earlier instant. The motion is not only in one dimension i.e. linear , but also unidirectional. Take the example of a ball released (initial velocity is zero) at a certain height ‘h’ from the surface. The velocity of the ball increases by the magnitude of ‘g’ at the end of every second. If the body has traveled for 3 seconds, then the velocity after 3 seconds is 3g (v= 0 + 3  x g = 3g m/s).</para>
+<para id="element-91">
+<figure id="fig-91">
+ <title> Attributes of motion </title>
+<media id="idm10503184" alt=""><image src="../../media/cao2.gif" mime-type="image/gif"/></media>
+<caption> Attributes of motion as the ball falls under gravity </caption>
+</figure>
+</para>
+<para id="element-92">In this case, all parameters defining motion i.e initial velocity, final velocity and acceleration not only act along a straight line, but also in the same direction. As a consequence, displacement is always increasing during the motion like distance. This fact results in one of the interesting aspect of the motion that magnitude of displacement is equal to distance. For this reason, average speed is also equal to the magnitude of average velocity.
+</para>
+
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi> x </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-94">
+and
+</para>
+
+<para id="element-95">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac> 
+             <m:mrow> 
+              <m:mo>Δ</m:mo>
+              <m:mi>s</m:mi>
+             </m:mrow> 
+             <m:mrow> 
+              <m:mo> Δ </m:mo>
+              <m:mo> t </m:mo>
+             </m:mrow> 
+</m:mfrac> 
+<m:mo>=</m:mo>
+<m:mo> | </m:mo>
+<m:mfrac> 
+             <m:mrow> 
+              <m:mo>Δ</m:mo>
+<m:mi> x </m:mi>
+             </m:mrow> 
+             <m:mrow> 
+              <m:mo> Δ </m:mo>
+              <m:mo> t </m:mo>
+             </m:mrow> 
+</m:mfrac> 
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-3b">
+<title> Constant acceleration (force) is applied in the opposite direction of velocity </title> 
+<para id="element-96">
+The magnitude of velocity decreases by the magnitude of acceleration at the end of every second (unit time interval). In this case, final velocity at any time instant is either less than velocity at an earlier instant or has reversed its direction. The motion is in one dimension i.e. linear, but may be unidirectional or bidirectional. Take the example of a ball thrown (initial velocity is ,say, 30 m/s) vertically from the surface. The velocity of the ball decreases by the magnitude of ‘g’ at the end of every second. If the body has traveled for 3 seconds, then the velocity after 3 seconds is 30 - 3g = 0 (assume g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-97">
+<figure id="fig-97">
+ <title> Attributes of motion </title>
+<media id="idm18134512" alt=""><image src="../../media/cao3.gif" mime-type="image/gif"/></media>
+<caption> Attributes of motion as the ball moves up against gravity </caption>
+</figure>
+</para>
+<para id="element-98">
+During upward motion, velocity and acceleration due to gravity are in opposite direction. As a result, velocity decreases till it achieves the terminal velocity of zero at the end of 3rd second. Note that displacement during the motion is increasing till the ball reaches the maximum height.
+</para>
+<para id="element-99">At the maximum height, the velocity of the ball is zero and is under the action of force due to gravity as always during the motion. As such, the ball begins moving in downward direction with the acceleration due to gravity. The directions of velocity and acceleration, in this part of motion, are same. Note that displacement with respect to point of projection is decreasing.
+</para>
+
+<para id="element-100">
+In the overall analysis of motion when initial velocity is against acceleration, parameters defining motion i.e initial velocity, final velocity and acceleration act along a straight line, but in different directions. As a consequence, displacement may either be increasing or decreasing during the motion. This means that magnitude of displacement may not be equal to distance. For example, consider the motion of ball from the point of projection, A, to maximum height, B, to point, C, at the end of 4 seconds. The displacement is 40 m, while distance is 45 + 5 = 50 m as shown in the figure below. 
+</para>
+
+<para id="element-101">
+<figure id="fig-101">
+ <title> Attributes of motion </title>
+<media id="idm7081456" alt=""><image src="../../media/cao4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-102">
+For this reason, average speed is not always equal to the magnitude of average velocity.
+</para>
+
+<para id="element-103">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> ≠ </m:mo>
+<m:mo> | </m:mo>
+<m:mi> x </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-104">
+and
+</para>
+
+<para id="element-105">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac> 
+             <m:mrow> 
+              <m:mo>Δ</m:mo>
+              <m:mi>s</m:mi>
+             </m:mrow> 
+             <m:mrow> 
+              <m:mo> Δ </m:mo>
+              <m:mo> t </m:mo>
+             </m:mrow> 
+</m:mfrac> 
+<m:mo> ≠ </m:mo>
+<m:mo> | </m:mo>
+<m:mfrac> 
+             <m:mrow> 
+              <m:mo>Δ</m:mo>
+<m:mi> x </m:mi>
+             </m:mrow> 
+             <m:mrow> 
+              <m:mo> Δ </m:mo>
+              <m:mo> t </m:mo>
+             </m:mrow> 
+</m:mfrac> 
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+</section>
+
+<section id="section-4">
+<title> Exercises </title>
+
+<para id="element-575a">
+<exercise id="exercise-575a">
+<problem id="idm6646528">
+<para id="element-575"> Two cyclists start off a race with initial velocities 2 m/s and 4 m/s respectively. Their linear accelerations are 2 and 1 <m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ respectively. If they reach the finish line simultaneously, then what is the length of the track?
+</para>
+</problem>
+
+<solution id="idm993680">
+
+
+
+<para id="element-576">  This is a case of one dimensional motion with constant acceleration. Since both cyclists cross the finish line simultaneously, they cover same displacement in equal times. Hence,
+</para>
+<para id="element-577">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-578">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> u </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-579">
+Putting values as given in the question, we have :
+</para>
+<para id="element-580">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+<m:mo> , </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-581">
+Neglecting zero value,
+</para>
+<para id="element-582">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-583">
+The linear distance covered by the cyclist is obtained by evaluating the equation of displacement of any of the cyclists as :
+</para>
+<para id="element-584"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 4 </m:mn>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 24 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-587a">
+<exercise id="exercise-587a">
+<problem id="idm6842928">
+<para id="element-587"> Two cars are flagged off from the starting point. They move with accelerations 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ respectively. The car “A” takes time “t” less than car “B” to reach the end point and passes the end point with a difference of speed, “v”, with respect to car “B”. Find the ratio v/t.
+</para>
+</problem>
+
+<solution id="idm6955536">
+
+<para id="element-587ab">  Both cars start from rest. They move with different accelerations and hence take different times to reach equal distance, say 
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ for cars A and B respectively. Their final speeds at the end points are also different, say <m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ for cars A and B respectively. According to the question, the difference of time is “t”, whereas difference of speeds is “v”.
+</para>
+<para id="element-587b">
+As car A is faster, it takes lesser time. Here, 
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+. The difference of time, “t”, is :
+</para>
+<para id="element-587c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-587d">
+From equation of motion,
+</para>
+<para id="element-588">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-589">
+Similarly,
+</para>
+<para id="element-590">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-591">
+Hence, 
+</para>
+<para id="element-592">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-593">
+Car A is faster. Hence, 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> &gt;  </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+. The difference of time, “v”, is :
+</para>
+<para id="element-594">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-595">
+From equation of motion,
+</para>
+<para id="element-596">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-597">
+Similarly,
+</para>
+<para id="element-598">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-599">
+Hence,
+</para>
+<para id="element-601">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-602">
+The required ratio, therefore, is :
+</para>
+<para id="element-603">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+
+
+
+
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> { </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> } </m:mo> 
+<m:mo> √ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> √ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> { </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> } </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-604">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-605a">
+<exercise id="exercise-605a">
+<problem id="idm51392">
+<para id="element-605">  Two particles start to move from same position. One moves with constant linear velocity, “v”; whereas the other, starting from rest, moves with constant acceleration, “a”. Before the second catches up with the first, what is maximum separation between two?.
+</para>
+</problem>
+
+<solution id="idm180672">
+<para id="element-606">  One of the particles begins with a constant velocity, “v” and continues to move with that velocity. The second particle starts with zero velocity and continues to move with a constant acceleration, “a”.  At a given instant, “t”, the first covers a linear distance,
+</para>
+
+
+<para id="element-607">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-608">
+In this period, the second particle travels a linear distance given by :
+</para>
+<para id="element-609">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-610">First particle starts with certain velocity as against second one, which is at rest. It means that the first particle will be ahead of second particle in the beginning. The separation between two particles is :
+</para>
+<para id="element-611">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-612">
+For the separation to be maximum, its first time derivative should be equal to zero and second time derivative should be negative. Now, first and second time derivatives are :
+</para>
+<para id="element-614">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> đ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> &lt; </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-615">
+For maximum separation, 
+</para>
+<para id="element-616">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-617">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> a </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-618">
+The separation at this time instant,
+</para>
+<para id="element-619">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+
+<m:mi> v </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> a </m:mi>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> a </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+ 
+</section>
+   
+  </content>
+  
+</document>

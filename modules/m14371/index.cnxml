@@ -1,0 +1,800 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Rolling motion (application)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14371</md:content-id>
+  <md:title>Rolling motion (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>d73bf5bb-140d-4fc9-9ce3-9044ccda2ed9</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the theoretical treatment of the topic. The idea is to provide a verbose explanation of the solution, detailing the application of theory. Solution presented here, therefore, is treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation.
+</para>
+<section id="section-1">
+<title> Representative problems and their solutions
+</title>
+<para id="element-2">We discuss problems, which highlight certain aspects of the  rolling motion. For this reason, questions are categorized in terms of the characterizing features pertaining to the questions :
+</para>
+
+<para id="element-3">
+<list id="list-2" list-type="bulleted">
+<item> Velocity of center of mass
+</item>
+<item> Velocity of a point on the rolling body
+ </item>
+<item> General equation for the coordinates of a particle
+ </item>
+<item> General equation for the velocity of a particle
+ </item>
+</list>
+</para>
+<section id="section-1a">
+<title> Velocity of center of mass
+</title>
+
+<para id="element-4"><term>Example 1 </term> </para>
+<para id="element-5"><term>Problem : </term> What is the speed of center of mass, if a solid sphere of radius 30 cm rolls at 2 revolutions per second along a straight line?
+</para>
+<para id="element-6"><term>Solution : </term> The particle on the outer surface in contact with the surface moves the same distance in rotation as the center of mass moves in translation. In 1 second, the particle on the rim moves a distance : 
+</para>
+
+
+<para id="element-8"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn> 
+<m:mi> π </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:mi> π </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0.3 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 3.77 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> t </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 3.77 </m:mn> 
+<m:mn> 1 </m:mn> 
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 3.77 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-507">Alternatively, we can find the speed of the center of mass, using equation of rolling as :</para><para id="element-621"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:mi> π </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0.3 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 3.77 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<title> Velocity of a point </title>
+
+<para id="element-10"><term>Example 2 </term> </para>
+<para id="element-11"><term>Problem : </term> A disk of radius “R” is rolling with an angular speed of “ω”. If the center of mass at time t = 0 coincides with the origin of the coordinate system, then find the velocity of the point 0,r  (r &lt; R).
+</para>
+<para id="element-12"> <term>Solution : </term> The position of the point is shown in the figure. It lies on the y-axis. The linear velocity of the center of mass is :
+</para>
+<para id="element-10a">
+<figure id="fig-10a">
+<title> Pure rolling of a disk </title>
+<media id="id1166741074381" alt=""><image src="../../media/rmq1a.gif" mime-type="image/gif"/></media>
+<caption> Linear velocity of a point on the vertical diameter.</caption>
+</figure>
+</para>
+<para id="element-12b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-12a">The component of velocity due to pure translation, therefore, is : 
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+On the other hand, linear velocity of the point due to pure rotation is tangential to the circle drawn with radius “r”,
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+Hence, velocity of the point is :
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19a">This question highlights an important fact that velocity due to pure translations is constant for all particles in the rolling body. On the other hand, linear velocities of the particles due to rotation vary, depending upon their relative positions ("<term>r</term>") with respect to COM. The resultant velocities of particles, therefore, vary as a whole depending on their positions in the body. 
+</para>
+
+<para id="element-20"><term>Example 3 </term> </para>
+<para id="element-21"><term>Problem : </term> A person rolls a cylinder by pushing a board on top of the cylinder horizontally. The board does not slide and cylinder rolls without sliding. If the linear distance moved by the person is “L”, then find (i)  the length of board that rolls over the top of the cylinder and (ii) linear distance covered by cylinder.
+</para>
+<para id="element-22">
+<figure id="fig-22">
+<title> Pure rolling of a cylinder </title>
+<media id="id1166739011150" alt=""><image src="../../media/rmq2-1731.gif" mime-type="image/gif"/></media>
+<caption> A person rolls a cylinder by pushing a horizontal board over it.</caption>
+</figure>
+</para>
+<para id="element-23"> <term>Solution : </term> 
+The person needs to move a distance, which is sum of the length of board pushed over and the linear distance moved by the central axis of the cylinder in horizontal direction. This is the requirement of physical situation. 
+</para>
+
+<para id="element-24">
+The important thing to understand here is that speeds of the board and that of central axis of the cylinder are not same. The top of the cylinder moves at a speed “2v”, if the central axis of the cylinder moves at speed “v”. Now, the speed of the board is same as that of the top of the cylinder. Hence, if board moves by a distance “x”, the COM of the cylinder moves by “x/2”. 
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Pure rolling of a cylinder </title>
+<media id="id1166749449014" alt=""><image src="../../media/rmq3-baa8.gif" mime-type="image/gif"/></media>
+<caption> A person rolls a cylinder by pushing a horizontal board over it.</caption>
+</figure>
+</para>
+<para id="element-26">
+The distance covered by the person is :
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+According to question, 
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> L </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> 2L </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+and distance moved by the cylinder is :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-1c">
+<title> General equation for the coordinates of a particle
+</title>
+
+<para id="element-32"><term>Example 4 </term> </para>
+<para id="element-33"><term>Problem : </term> A disk of radius “R” rolls over a horizontal surface along a straight line with a constant velocity, “v”. If the point of contact with the surface at time t = 0 is the origin of the coordinate system, then determine the coordinates of the particle at the contact after time “t”. 
+</para>
+<para id="element-35"> <term>Solution : </term> 
+In general, the center of mass of the disk transverses a linear distance, x, :
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> OA </m:mi>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+Let the particle makes an angle “θ” with the vertical after time “t” as shown in the figure. If “x” and “y” be the coordinates of its position in the coordinate system, then
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Pure rolling motion </title>
+<media id="id6593605" alt=""><image src="../../media/rmq4-b3b4.gif" mime-type="image/gif"/></media>
+<caption> General equation for the coordinates of a particle </caption>
+</figure>
+</para>
+<para id="element-39">
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> OA </m:mi>
+<m:mo> - </m:mo>
+<m:mi> BD </m:mi>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> AC </m:mi>
+<m:mo> - </m:mo>
+<m:mi> BC </m:mi>
+<m:mo> = </m:mo>
+<m:mi> R </m:mi>
+<m:mo> - </m:mo>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+But, angular displacement “θ” is :
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+Hence, coordinates are :
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> R </m:mi>
+<m:mo> - </m:mo>
+<m:mi> R </m:mi>
+<m:mi> sin </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</section>
+<section id="section-1d">
+<title> General equation for the velocity of a particle
+</title>
+
+<para id="element-46"><term>Example 5 </term> </para>
+<para id="element-47"><term>Problem : </term> A disk of radius “R” rolls on a horizontal surface with a velocity “v”. Find the velocity of a particle at a point “P” (as shown in the figure).
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Velocity of a particle in pure rolling motion </title>
+<media id="id6213879" alt=""><image src="../../media/rmq5-ca54.gif" mime-type="image/gif"/></media>
+<caption> The center of the disk at t=0 is the origin of coordinate system.  </caption>
+</figure>
+</para>
+<para id="element-49"> <term>Solution : </term> 
+The velocity of point “P” is the vector sum of velocities due to (i) pure translation and (i)  pure rotation. 
+</para>
+
+<para id="element-50">
+For pure translation, each particle constituting the body moves with the same speed as that of its COM, which is “v” as given in the question. Thus, velocity due to translation is :
+</para>
+<para id="element-51">
+<figure id="fig-51">
+<title> Velocity of a particle in pure rolling motion </title>
+<media id="id1166740084381" alt=""><image src="../../media/rmq6-ef22.gif" mime-type="image/gif"/></media>
+<caption> The velocity of the particle is vector sum of linear velocities due to translation and rotation.  </caption>
+</figure>
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+For pure rotation, each particle constituting the body moves with the same angular velocity,  “ω“.  The tangential linear speed of point “P” due to rotation is :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+This velocity acts tangentially at the point “P” as shown in the figure. In component form, the linear velocity due to pure rotation is :
+</para>
+<para id="element-56">
+<figure id="fig-56">
+<title> Velocity of a particle in pure rolling motion </title>
+<media id="id1166746710262" alt=""><image src="../../media/rmq7-12be.gif" mime-type="image/gif"/></media>
+<caption> The velocity of the particle is vector sum of linear velocities due to translation and rotation.  </caption>
+</figure>
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+Combining velocities due to translation and rotation, we have :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+For rolling motion, we know that angular velocity is related to velocity of COM as :
+</para>
+<para id="element-62">
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+Substituting in the expression of velocity of the point “P”, we have :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+This equation is the general equation for the velocity of a particle constituting the rigid body in pure rolling. For a particle on the rim of the disk (r = R), the relation reduces to :
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> P </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+It is interesting to evaluate this expression of the velocity for the particle on the rim for certain knows positions. This may be taken up as an exercise to calculate velocities at top most and at bottom most positions and to see whether results match with that determined earlier.
+</para>
+
+</section>
+
+</section> 
+  </content>
+  
+</document>

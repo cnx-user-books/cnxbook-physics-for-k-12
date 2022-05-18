@@ -1,0 +1,1307 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>String and spring</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>33401def-f42c-42fa-ab2a-811b77092685</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+String and spring are very close in their roles and functionality in a mechanical arrangement. Main features of two elements in their ideal forms are :
+</para>
+<para id="element-2">
+<list id="list-2" list-type="bulleted">
+<item> <term>String </term>: Inextensible, mass-less : Transmits force 
+ </item>
+<item> <term>Spring</term>:  Extensible and compressible, mass – less : Transmits and stores force  
+ </item>
+</list>
+</para>
+<para id="element-3">
+We have already discussed the basics of these two elements in the module titled "<link document="m14046"> Analysis framework for laws of motion </link>". Here, we shall examine their behaviour as part of a body system and shall also discuss similarities and differences between two elements. 
+</para>
+<section id="section-1">
+<title> String 
+</title>
+
+<para id="element-4">The elements of a body system connected by a string have common acceleration. Consider the body system comprising of two blocks. As the system comprises of inextensible elements, the body system and each element, constituting it, have same magnitude of acceleration (not acceleration as there is change of direction), given by :
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Connected system involving string </title>
+<media id="idm11304816" alt=""><image src="../../media/ss1.gif" mime-type="image/gif"/></media>
+<caption> The elements of a body system connected by a string have common acceleration. </caption>
+</figure>
+</para>
+<para id="element-6">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-7">In the process, string transmits force undiminished for the ideal condition of being “inextensible” and “mass-less”. This is the basic character of string. We must however be careful in stating what we have stated here. If the ideal condition changes, then behavior of string will change. If string has certain “mass”, then force will not be communicated “undiminished”. If string is extensible, then it behaves like an extensible spring and accelerations of the string will not be same everywhere.
+</para>
+
+
+
+<section id="section-1a">
+<title> Inextensible and mass-less string  
+</title>
+
+<para id="element-7a">
+Determination of common acceleration and tension in the string is based on application of force analysis in component forms. In general, force analysis for each of the block gives us an independent algebraic relation. It means that we shall be able to find as many unknowns with the help of as many equations as there are blocks in the body system. 
+</para>
+
+<para id="element-7b">
+Individual string has single magnitude of tension through out its length. On the other hand, if the systems have different pieces of strings (when there are more than two blocks), then each piece will have different tensions.
+</para>
+
+
+<example id="example-8">
+<para id="element-8"><term>Problem : </term>
+Two blocks of masses “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+” and “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+” are connected by a string that passes over a mass-less pulley as shown in the figure. Neglecting friction between surfaces, find acceleration of the block and tension in the string. 
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Connected system involving string </title>
+<media id="idm5538832" alt=""><image src="../../media/ss2.gif" mime-type="image/gif"/></media>
+<caption> The elements of a body system connected by a string have common acceleration. </caption>
+</figure>
+</para>
+<para id="element-10"><term>Solution : </term> 
+Since there is no friction, the block of mass "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" will be pulled to right by the tension in the string (T). On the other hand, block of mass "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+" will move down under net force in vertical direction. 
+</para>
+<para id="element-11">Two blocks are connected by a taut string. Hence, magnitude of accelerations of the bodies are same. Let us assume that the system moves with magnitude of acceleration “a” in the directions as shown. It should be understood here that a  string has same magnitude of acceleration - not the acceleration as string in conjunction with pulley changes the direction of motion and hence that of acceleration. 
+</para>
+
+<para id="element-14">The external forces on "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" are (i) weight of block, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:math>
+, (ii) tension, T, in the string and (iii) Normal force on the block, N. We need not consider analysis of forces on 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:math> in y-direction as forces are balanced in that direction. In x-direction,
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m</m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">On the other hand, the external forces on "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+" are (i) weight of block, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:math>
+ and (ii) tension, T, in the string. 
+</para>
+<para id="element-17"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m</m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g</m:mi>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m</m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> a</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+Combining two equations, we have :
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">
+and
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+<section id="section-1b">
+<title> Useful deduction
+</title>
+<para id="element-22">
+The result for acceleration as obtained above is significant for this type of arrangement, where blocks are pulled down by a string passing over a pulley. The acceleration as derive is equivalent to :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+where 
+<m:math>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:math>
+. It suggests that we can treat the arrangement as composite mass of  (
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+)  subjected to an external force “F” of magnitude “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:math>
+”. This analysis helps in situations where more than one block is pulled by a hanging block. Take the example as shown in the figure :
+</para>
+<para id="element-25">
+<figure id="fig-25">
+<title> Connected system involving string </title>
+<media id="idm12331744" alt=""><image src="../../media/ss3.gif" mime-type="image/gif"/></media>
+<caption> Three blocks are being pulled on a smooth surface. </caption>
+</figure>
+</para>
+<para id="element-26">
+In this case,
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 4 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 4 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 4 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> a </m:mi>
+<m:mo> ; </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ; </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ; </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+Important to note here is that the separate strings have different tensions.  
+</para>
+
+</section>
+</section>
+
+<section id="section-1c">
+<title> Mode of force application 
+</title>
+<para id="element-30">
+Consider the two cases when a block is pulled down by a force in two different manners. In one case, string is pulled by another mass 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+, hanging from it. In the second case, the string is pulled by a force equal to hanging weight (
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:math>
+). Now the question is : whether two situations are equivalent or different ?
+</para>
+<para id="element-31">
+<figure id="fig-31">
+<title> Connected system involving string </title>
+<media id="idm549136" alt=""><image src="../../media/ss5.gif" mime-type="image/gif"/></media>
+<caption> The block on the table is pulled in two different ways. </caption>
+</figure>
+</para>
+<para id="element-32">
+As worked out earlier, the acceleration in the first case, 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+, is : 
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+In the second case, let the acceleration of the block be “
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+”. Then  force analysis of the block on the table is :
+</para>
+<para id="element-35"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> T </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-391">But,</para><para id="element-150"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-36">
+Now, combining two equations, we have :
+</para>
+<para id="element-37"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">Evidently, 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+. This result is expected because applying force as weight and as force are two different things. In the first case, mass of the body applying force is also involved as against the later case, when no "body" of any mass is involved as far as application of force is concerned. The bottom line is : “do not hang a weight simply to apply force”.
+</para>
+</section>
+<section id="section-1d">
+<title> Variable acceleration of a single string
+</title>
+
+<para id="element-39">Further, the behavior of string is true to ideal string so long string is not intervened by other element, which is itself accelerating. Consider a pulley – string system, in which the pulley is accelerating as shown in the figure. 
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> String in contact with moving pulley </title>
+<media id="idm10328864" alt=""><image src="../../media/ss4.gif" mime-type="image/gif"/></media>
+<caption> Different parts of the string have different accelerations. </caption>
+</figure>
+</para>
+<para id="element-41">In such case, the accelerations of different parts of the string are not same. Note in the example shown above that one end of the string is fixed, but the other end of string is moving. As a matter of fact, the acceleration of block (hence that of the string at that end) is twice that of the pulley. The acceleration of the other end of the string, which is fixed, is zero. This aspect is explained in a separate module on movable pulley in the course. 
+</para>
+</section>
+<section id="section-1e">
+<title> String with certain mass  
+</title>
+
+<para id="element-80">
+The tension in the string having certain mass is not same everywhere. A part of the force is required to accelerate string as well. Usually,mass is distributed uniformly along the length of the string. We describe mass distribution in terms of "mass per unit length" and denotes the same as "λ" such that the mass of the string,"m" of length "L" is given as :
+</para>
+<para id="element-81">
+m = λL
+</para>
+<para id="element-82">
+If we take cross section at any point in the string, then the part of the string on each side forms an mass element. having mass proportional to the length of that part of the string. This aspect is brought out in the example given here.
+</para>
+
+<example id="example-83">
+<para id="element-83"><term>Problem : </term> A body of mass “m” is hanging with a string having linear mass density “λ”. What is the tension at point “A” as shown in the figure.
+</para>
+<para id="element-84">
+<figure id="fig-84"><title> Balanced force system </title>
+<media id="idp1429312" alt=""><image src="../../media/ss12.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-85"> <term>Solution : </term> The tension in the string is not same. The tension above “A” balances the weight of the block and the weight of the string below point “A”. 
+</para>
+
+<para id="element-86">
+<m:math>
+<m:mtext> Free body diagram of point “A”</m:mtext>
+</m:math>
+</para>
+<para id="element-87">
+<figure id="fig-87"><title> Free body diagram </title>
+<media id="idm6486896" alt=""><image src="../../media/ss11.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-88">
+Mass of the string below point A, "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+", is :
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> λ </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> L </m:mi>
+<m:mo> - </m:mo>
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-90">
+The external forces at point "A" are (i) Tension, T (ii) weight of block, mg, and  (iii) weight of string below A,"
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+</m:math>
+".
+</para>
+
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mo> - </m:mo>
+<m:mi> mg </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mo> { </m:mo>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo>
+<m:mi> λ </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> L </m:mi>
+<m:mo> - </m:mo>
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> } </m:mo>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+
+<para id="element-92">
+</para>
+<para id="element-93">
+</para>
+<para id="element-94">
+</para>
+<para id="element-95">
+</para>
+<para id="element-96">
+</para>
+<para id="element-97">
+</para>
+<para id="element-98">
+</para>
+<para id="element-99">
+</para>
+<para id="element-100">
+</para>
+
+</section>
+</section>
+
+<section id="section-2">
+<title> Spring
+</title>
+<para id="element-42">
+Spring is extensible and compressible. What it means that spring involves change in its length, when force is applied to it. It must be understood that the role of spring in mechanical arrangement is more significant with respect to “storage” of energy (force) rather than transmission of force. This aspect is dealt in modules related to energy. For the time being, we describe only those aspects of spring, which involve transmission of force.
+</para>
+<para id="element-43">As a matter of fact, spring is exactly like string – though as an element it generally gives impression of complexity. We shall, however, find that such is not the case except for minor adjustment in our perception.
+</para>
+
+
+<section id="section-2a">
+<title> Constant acceleration
+</title>
+<para id="element-44">When a block (body) hangs from a spring, the body system is stationary. The spring is in extended condition for the given force system working on it. The forces at the two ends of the spring are equal. Net force on the spring is zero in the extended condition. This is same as string. There is no difference. As a matter of fact, ideal spring not only transmits force as truly as string, but also provides the magnitude of force in terms of force constant as :
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">where 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+ is the extension for a given force as applied at either end. When a block is suspended from a spring hanging from the ceiling, the spring is acted by equal forces at both ends. We calculate extension in terms of either of the two forces and not for the net force, which is zero in any case. 
+</para>
+<example id="example-47">
+<para id="element-47"><term>Problem : </term> Consider the arrangement consisting of spring in the figure. If extension in the spring is 0.01 m for the given blocks, find the spring constant.
+</para>
+
+<para id="element-49"><term>Solution : </term> We treat spring exactly like string. The tension in the connecting string is equal to spring force,
+</para> 
+<para id="element-50">
+<figure id="fig-50">
+<title> Spring and pulley system </title>
+<media id="idm7058400" alt=""><image src="../../media/ss6.gif" mime-type="image/gif"/></media>
+<caption> The tension in the string is equal to spring force. </caption>
+</figure>
+</para>
+
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+The free body diagrams of 3 kg and 2 kg blocks with assumed common acceleration “a” are shown in the figure. Here all forces are along y-direction only. Now,
+</para>
+<para id="element-54">
+<figure id="fig-54">
+<title> Free body diagram </title>
+<media id="idm5646928" alt=""><image src="../../media/ss7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 3 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+and
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+Combining two equations, we have :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> g </m:mi>
+<m:mn> 5 </m:mn>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Putting in first force equation, we have :
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 3 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mi> g </m:mi>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> k </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+For 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+ = 0.01 m,
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> k </m:mi>
+<m:mo> = </m:mo> 
+
+<m:mfrac>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mn> 10 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mn> 0.01 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 2400 </m:mn>
+<m:mspace width="2pt"/>
+
+<m:mi> N </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> m </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-2b">
+<title> Variable acceleration
+</title>
+<para id="element-64">
+Spring, however, behaves differently for a certain period in the beginning. When we apply force, spring begins to stretch or compress. During this period, the spring force is not constant but its magnitude depends on the extension as :
+</para>
+<para id="element-65">F = -kx
+</para>
+<para id="element-66">where "x" is the displacement. Clearly, spring force is opposite in direction to the displacement. As force is variable here, acceleration of the body attached to spring is also variable. We can not handle variable acceleration, using equation of motion for constant acceleration. The detail of spring motion under variable acceleration, therefore, is handled or analyzed using energy concepts.
+</para>
+<para id="element-67">We can, therefore, analyze spring motion only in limited manner during which length of spring changes. For illustration, consider the case of two blocks, which are connected by a spring and pulled by an external force. 
+</para>
+<para id="element-67a">
+<figure id="fig-67a"><title> Block spring system </title>
+<media id="idp1625264" alt=""><image src="../../media/ss8a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-67b">
+The accelerations of the blocks are not same in this period. It must be understood that extension of the spring takes finite time to extend or compress during which blocks will have different accelerations and spring will be subjected to different forces at the two ends. Eventually, however, extension is stabilized for the given external force and the blocks move with same accelerations.
+</para>
+<example id="example-68">
+<para id="element-68"><term>Problem : </term> Consider the configuration as given in the figure. If “a” be the acceleration of block “A” at the instant shown, then find the acceleration of block “B”.
+</para>
+<para id="element-69">
+<figure id="fig-69"><title> Block spring system </title>
+<media id="idp2630688" alt=""><image src="../../media/ss10.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-70"> <term>Solution : </term> It is important to note the wording of the question. It assumes accelerations to be different. It means that the spring is getting extended during the motion. We do not know the spring force. 
+</para> 
+<para id="element-71">Let us consider that spring force be 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+.
+</para>
+<para id="element-73">
+<m:math>
+<m:mtext> Free body diagram of “A” </m:mtext>
+</m:math>
+</para>
+<para id="element-72">
+<figure id="fig-72"><title> Free body diagram </title>
+<media id="idm6934800" alt=""><image src="../../media/ss9.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+
+<m:mi> a </m:mi>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+<m:math>
+<m:mtext> Free body diagram of “B”
+</m:mtext>
+</m:math>
+</para>
+<para id="element-76"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">
+Combining two equations and eliminating, 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+, we have:
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> - </m:mo>
+
+<m:mi> a </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+</section>
+ 
+  </content>
+  
+</document>

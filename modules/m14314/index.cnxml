@@ -1,0 +1,933 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Angular velocity</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14314</md:content-id>
+  <md:title>Angular velocity</md:title>
+  <md:abstract>Angular quantities are not limited to rotation about fixed axis only.</md:abstract>
+  <md:uuid>e757e0ed-015b-4065-aadd-73653a25e057</md:uuid>
+</metadata>
+
+<content>
+
+<para id="element-1">Angular quantities like angular displacement, velocity, acceleration and torque etc. have been discussed in earlier modules. We were, however, restricted in interpreting and applying these quantities to circular motion or pure rotational motion. Essentially, these physical quantities have been visualized in reference to an axis of rotation and a circular path. 
+</para>
+<para id="element-2">In this module, we shall expand the meaning and application of angular quantities in very general terms, capable of representing pure as well as impure rotation and translation. We shall find, in this module, that pure translation and rotation are, as a matter of fact,  special cases. 
+</para>
+<section id="section-1">
+<title> General interpretation of angular quantities
+</title>
+<para id="element-3b">Here, we shall define and interpret angular quantities very generally with respect to a "point" in the reference system - rather than an axis. This change in reference of measurement allows us to extend application of angular quantities beyond the context of rotational motion. We can actually associate all angular quantities even with a straight line motion i.e. pure translational motion. For example, we can calculate torque on a particle, which is moving along a straight line. Similarly, we can determine angular displacement and velocity for a projectile motion, which we have studied strictly from the point of view of translation.  We shall work out appropriate examples to illustrate extension of angular concepts to these motions.
+</para>
+<para id="element-5">We must understand here that the broadening the concept of angular quantities is not without purpose. We shall find out in the subsequent modules that the de-linking of angular concepts like torque and angular momentum from an axis, lets us derive very powerful law known as conservation of angular momentum. 
+</para>
+<para id="element-5a"> The example given below calculates average angular velocity of a projectile to highlight the generality of angular quantity.
+</para>
+<section id="section-1a">
+<title> Example
+</title>
+<para id="element-6"><term>Problem 1 : </term> A particle is projected with velocity "v" at an angle of "θ" with the horizontal. Find the average angular speed of the particle between point of projection and point of impact.
+</para>
+<para id="element-7"> <term>Solution : </term> The average angular speed is given by :
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Angular velocity </title>
+<media id="id1164066324740" alt=""><image src="../../media/aq3.gif" mime-type="image/gif"/></media>
+<caption> Average angular speed during the flight of a projectile.</caption>
+</figure>
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-14">
+From the figure, magnitude of the total angular displacement is :
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+On the other hand, time of flight is given by : 
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+Putting these values in the expression of angular velocity, we have :
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> θ </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> θ </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-92">From this example, we see that we can indeed associate angular quantity like angular speed with motion like that of projectile, which is not strictly rotational.</para>
+</section> 
+</section> 
+<section id="section-2">
+<title> Angular velocity 
+</title>
+<para id="element-942">As a particle moves, the line joining a fixed point and particle, moves through angular displacement. Important thing to note here is that the particle may not follow a circular path - it can describe any curve even a straight line. We, then, define average angular velocity as :  
+</para>
+<para id="element-942a">
+<definition id="definition-942a"><term> Average angular velocity </term>
+<meaning id="id1164060714529"> Average angular velocity of a particle about a point is equal to the ratio of change in angular displacement about that point and time.</meaning>
+</definition>
+</para>
+<para id="element-366">
+<equation id="equation-366">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mi> avg </m:mi> 
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-622"> Instantaneous angular velocity is obtained by taking the limit when time interval tends to become zero. In other words, the instantaneous angular velocity (simply referred as angular velocity) is equal to the first differential of angular displacement with respect to time :</para>
+<para id="element-239">
+<equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi mathvariant="bold"> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi mathvariant="bold"> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-239a">
+<figure id="fig-239a"><title> Angular velocity </title>
+<media id="id1164065019306" alt=""><image src="../../media/aq4.gif" mime-type="image/gif"/></media>
+<caption> The angular displacement in a small time interval as measured with respect to a point.</caption>
+</figure>
+</para>
+<para id="element-239b">It is convenient to consider the point as the origin of the coordinate system. In the figure above, origin serves as the point about which angular displacement and velocity are defined. Now since angle is measured with respect to origin, the measurement of angular velocity, in turn, will depend on the coordinate system chosen for the measurement.  Further note that the linear distance of the particle from the origin is not constant like in circular motion. 
+</para>
+
+</section>
+<section id="section-5">
+<title> Angular and linear velocity
+</title>
+<para id="element-18">In the case of circular motion about an axis, we have seen that linear velocity of a particle is related to angular velocity by the vector relation given by :
+</para>
+<para id="element-19"><equation id="equation-19"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-19a">In the case of rotation about a fixed axis, the plane of velocity and position vector is same. This is not necessary for motion of a particle about any arbitrary point. The position vector and velocity can be oriented in any direction. It means that plane of motion can be any plane in three dimensional coordinate system and is not constrained in any manner. 
+</para>
+<para id="element-885">Interpretation of the vector equation as given above is difficult for the motion of a particle along a path, which is not circular. We observe that angular velocity is an operand of the cross product. What we mean to say that it is not the vector, which is expressed in terms of other vectors. By looking at the vector relation, we can say that linear velocity is perpendicular to the plane formed by angular velocity and position vector. From the point of view of angular velocity, however, we can only say that it is perpendicular to linear velocity, but it can have any orientation with respect to position vector. This presents difficulty in interpreting this relation for angular velocity about a point.</para><para id="element-19b">Here, we consider a situation as shown in the figure. We see that velocity of the particle and the position vector form an angle, "θ" between them. For convenience, we have considered the point about which angular velocity is defined as the origin of coordinate system.
+</para>
+<para id="element-67"><figure id="fig-67"><title> Angular velocity </title>
+<media id="id1164064193514" alt=""><image src="../../media/aq2.gif" mime-type="image/gif"/></media>
+<caption> The angular displacement in a small time interval as measured with respect to a point.</caption>
+</figure></para><para id="element-638">To analyze the situation, let us consider components of velocity in the radial and tangential directions.</para><para id="element-478"><figure id="fig-478"><title> Angular velocity </title>
+<media id="id1164065304944" alt=""><image src="../../media/aq9.gif" mime-type="image/gif"/></media>
+<caption> The angular displacement in a small time interval as measured with respect to a point.</caption>
+</figure></para><para id="element-19c">The radial component of velocity is not a component for rotation. Its direction is along the line passing through the origin. The rotation is accounted by the component of velocity perpendicular to position vector. Now, tangential velocity is perpendicular to position vector. Thus, we can use the fact that instantaneous angular velocity is equal to ratio of tangential velocity and  linear distance from the origin (as defined for circular motion about an axis). Hence, the magnitude of angular velocity is given as :
+</para>
+<para id="element-19d"><equation id="equation-19d">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-19e"><equation id="equation-19e">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-21a">We can use the expression as defined above to calculate the magnitude of angular velocity. The evaluation of the first expression will require us to determine angle between two vectors. The second expression, which uses tangential velocity, gives easier option, when this component of velocity is known. 
+</para>
+<section id="section-5a">
+<title> Direction of angular velocity 
+</title>
+<para id="element-21b1">As the particle moves along a curved path, position of the particle changes with respect to point about which angular velocity is measured. In order to determine the direction of angular velocity, we need to know the plane of rotation at a particular position. We define plane of rotation as the plane, which contains the point (origin of the coordinate system in our case) and the tangential velocity. The direction of angular velocity is perpendicular to this plane.   
+</para>
+<para id="element-506"><figure id="fig-506"><title> Angular velocity </title>
+<media id="id1164057141529" alt=""><image src="../../media/aq10.gif" mime-type="image/gif"/></media>
+<caption> The angular displacement in a small time interval as measured with respect to a point.</caption>
+</figure></para><para id="element-21c">By convention, we consider anticlockwise rotation as positive. Looking at the figure, we can see that this direction is same that of the direction of vector product of "position vector" and "velocity". 
+</para>
+<para id="element-822">Following the convention, we can write vector equation for angular velocity as :
+</para>
+<para id="element-916"><equation id="equation-916">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-201">
+It can be easily visualized that plane of rotation can change as particle moves in three dimensional space. Accordingly, direction of angular velocity can also change. 
+</para>
+</section>
+<section id="section-5b">
+<title> Example
+</title>
+<para id="element-5a1"><term>Problem : </term> The velocity of a particle confined to xy - plane is (8<term>i</term> – 6<term>j</term>) m/s at an instant, when its position is (2 m, 4m). Find the angular velocity of the particle about the origin at that instant. 
+</para>
+
+<para id="element-5b"> <term>Solution : </term> Angular velocity is related to linear velocity by the following relation,
+</para>
+<para id="element-5c"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5d">From question, we can see that motion (including rotation) takes place in xy-plane. It, then, follows that angular velocity is perpendicular to xy-plane i.e. it is directed along z-axis. Let angular velocity be represented as :
+</para>
+<para id="element-5e"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5f"> 
+Putting the values, we have :
+</para>
+<para id="element-5g"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 8 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo mathvariant="bold"> k </m:mo>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5h"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 8 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo mathvariant="bold"> j </m:mo>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> a </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5i"> 
+Comparing the coefficients of unit vectors on either side of the equation, we have :
+</para>
+<para id="element-5j"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 6 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5k"> 
+and 
+</para>
+<para id="element-5l"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 8 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5m"> 
+We see here that we do not get unique value of angular velocity. As a matter of fact, we have included this example to highlight this aspect of the vector relation used here. It was pointed out that angular velocity is one of the operands of the vector product. From the relation, we can only conclude that angular velocity is perpendicular to linear velocity. We can see that this condition is fulfilled for any direction of velocity in the plane of motion. As such, we do not get the unique value of angular velocity as required.  
+</para>
+<para id="element-5n">Let us now apply the other vector relation that we developed to define angular velocity :
+</para>
+<para id="element-5o"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">Putting values, we have :
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mo> ( </m:mo> 
+<m:mn> 8 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mn> 2 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mn> 4 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn> 
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 12 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 32 </m:mn>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 20 </m:mn> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1.71 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+<section id="section-5c">
+<title> Instantaneous axis of rotation
+</title>
+<para id="element-84">The notion of rotation with the motion of a particle is visualized in terms of moving axis. We have discussed that the direction of angular velocity is perpendicular to the plane formed by tangential velocity and the point about which angular velocity is measured. We can infer this direction to be the axial direction at this point for the angular velocity at that instant. 
+</para>
+<para id="element-85">In case, these instantaneous axes are parallel to each other, then it is possible to assign unique angular velocity of the particle about any one of these instantaneous axes. We shall work out an example here to illustrate determining angular velocity about an instantaneous axis.
+</para>
+<section id="section-5c1">
+<title> Example 3
+</title>
+<para id="element-99c"><term>Problem 3 : </term> A rod of length 10 m lying against a vertical wall starts moving. At an instant, the rod makes an angle of 30° as shown in the figure. If the velocity of end “A” at that instant,  is 10 m/s, then find the angular velocity of the rod about “A”.
+</para>
+<para id="element-99d">
+<figure id="fig-99d"><title> Motion of a rod </title>
+<media id="id1164058252692" alt=""><image src="../../media/aq6.gif" mime-type="image/gif"/></media>
+<caption> The rod is constrained to move between a vertical wall and a horizontal surface.</caption>
+</figure>
+</para>
+<para id="element-99e"> <term>Solution : </term> In this case, the point about which angular velocity is to be determined is itself moving towards right with a velocity of 10 m/s. However, the instantaneous axis of rotation is parallel to each other. As such, it is possible to assign unique angular velocity for the motion under consideration. 
+</para>
+<para id="element-99f">We shall examine the situation with the geometric relation of the length of rod with respect to the position of its end “A”. This is a logical approach as the relation for the position of end “A” shall let us determine both linear and angular velocity.
+</para>
+<para id="element-970"><figure id="fig-970"><title> Motion of a rod </title>
+<media id="id1164060579833" alt=""><image src="../../media/aq7.gif" mime-type="image/gif"/></media>
+<caption> The rod is constrained to move between a vertical wall and a horizontal surface.</caption>
+</figure></para><para id="element-99g"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> AB </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99h">Note here that length of rod is constant. An inspection of the equation reveals that if we differentiate the equation with respect to time, then we shall be able to relate linear velocity with angular velocity. 
+</para>
+<para id="element-99i"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> AB </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ( </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> AB </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99j"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> AB </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> AB </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99k"> 
+Putting values,
+</para>
+<para id="element-99l"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 10 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 10 </m:mn>
+<m:mi> sin </m:mi>
+<m:mn> 30 </m:mn>
+<m:mo> ° </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99m">Negative sign here needs some clarification. We can visualize that rod is rotating about instantaneous axis in anticlockwise direction. As such, the sign of angular velocity should have been positive - not negative. But, note that we are measuring angle from the negative x-direction as against positive x-direction. Therefore, we conclude that the negative sign in this instant case represents rotation of rod about the instantaneous axis in anticlockwise direction. 
+</para><para id="element-793"><figure id="fig-793"><title> Motion of a rod </title>
+<media id="id1164065223266" alt=""><image src="../../media/aq8.gif" mime-type="image/gif"/></media>
+<caption> The rod is constrained to move between a vertical wall and a horizontal surface.</caption>
+</figure>
+</para>
+</section>
+</section>
+</section>
+<section id="section-6">
+<title> Summary </title>
+<para id="element-98m"><term>1: </term> Angular quantities are general quantities, which can be defined and interpreted for any motion types – pure/impure translation or rotation.
+</para>
+<para id="element-98a"><term>2: </term>Angular velocity is defined as the time rate of change of angular displacement with respect to a point :
+</para>
+<para id="element-98as">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi mathvariant="bold"> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi mathvariant="bold"> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> </para>
+<para id="element-98b"><term>3: </term>If the point, about which angular velocity is determined, is the origin of the reference system, then the position of the particle is represented by position vector.
+ </para>
+<para id="element-98c"><term>4: </term>The measurement and physical interpretation of angular velocity are different than that in the case of circular (rotational) motion about an axis.
+ </para>
+
+<para id="element-98e"><term>5: </term>The relation between linear and angular velocity has the following form,
+ </para>
+<para id="element-98f">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+ </para>
+<para id="element-98g">where “<term>r</term>” determines the position of the particle with respect to the point. The magnitude of angular velocity can be determined, using any of the following two relations :
+ </para>
+<para id="element-98h"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-98i">
+and
+ </para>
+<para id="element-98j"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> </para>
+<para id="element-98k">where "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:math>
+" denotes tangential component of the velocity vector, which is perpendicular to the position vector. </para>
+<para id="element-98l"><term>7:</term> Direction of angular velocity is perpendicular to the plane of motion. The plane of motion, however, may not be fixed like in the case of rotation. We define plane of motion, which contains origin (or point) and tangential component of velocity.</para>
+</section>
+  </content>
+  
+</document>

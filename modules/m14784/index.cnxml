@@ -1,0 +1,2090 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Working with moving pulleys (application)</title>
+  <metadata>
+  <md:content-id>m14784</md:content-id><md:title>Working with moving pulleys (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>f738d148-9a32-4e29-8557-6d9fbc0afd48</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/content/m14731/latest/" strength="3">Pulleys(application-I)</link>
+      <link url="http://cnx.org/content/m14783/latest/" strength="2">Pulleys (application - II)</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m14782/latest/" strength="3">Working with moving pulleys</link>
+      <link url="http://cnx.org/content/m14060/latest/" strength="2">Pulleys</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to working with pulleys. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Block and pulley system
+</item>
+<item> Incline and pulley system
+</item>
+
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Block and pulley system
+</title>
+<section id="section-3a">
+<para id="element-6"><term>Problem 1 : </term>In the arrangement, find the mass “M” such that block of mass 1 kg moves with uniform velocity. Neglect mass of the pulleys and the string. Also neglect friction between the surfaces.
+</para>
+<para id="element-7"><figure id="fig-7">
+<title> Block and pulley system </title>
+<media id="id14212352" alt=""><image src="../../media/wq1a.gif" mime-type="image/gif"/></media>
+<caption> The block on the table is attached to a pulley system. </caption>
+</figure>
+</para>
+<para id="element-8"><term>Solution : </term>The block of mass 1 kg moves with constant velocity with respect to ground. It means that there is no net external force on the block. Let us denote block of mass 1 kg and 2 kg by the subscripts “1” and “2” respectively.
+</para>
+<para id="element-9">Now, forces on the block of mass 1 kg, are (i) its weight, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+      <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+”, acting downward and (i) tension in the string, say “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, acting upward. The two forces form a balanced force system as block moves with uniform velocity. Hence,
+</para>
+<para id="element-10">
+<figure id="fig-10">
+<title> Free body diagrams </title>
+<media id="id18024553" alt=""><image src="../../media/wq3.gif" mime-type="image/gif"/></media>
+<caption> FBD of the block of 1 kg and moving pulley </caption>
+</figure>
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">From the force analysis of the moving mass-less pulley, "A",
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">
+Combining two equations,
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">Tension is the only force on the block, which is placed on the horizontal surface of the table. From the force analysis of the block on the horizontal surface (see FBD of block in the figure below), we have :
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>X</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+This is also the acceleration of moving pulley as it is connected to the block on the table with a string. If we consider upward direction as positive, then acceleration of the moving pulley is :
+</para>
+<para id="element-22">
+<figure id="fig-22">
+<title> Free body diagram </title>
+<media id="id18196372" alt=""><image src="../../media/wq2a.gif" mime-type="image/gif"/></media>
+<caption> FBD of the block on the table and forces on the moving pulley system </caption>
+</figure>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mrow>
+      <m:mtext>downward</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">From the expression of acceleration of moving pulley, it is clear that we should get an equation involving acceleration of moving pulley in order to ultimately determine the value of "M" as required. According to question, the block of mass “1 kg” travels with zero acceleration (constant velocity) with reference to ground. The force analysis of this mass, therefore, does not involve acceleration of the moving pulley. 
+Thus, we shall strive to find the acceleration of block of "2 kg" with respect to ground as its expression will involve acceleration of the moving pulley. Since block of mass “1 kg” travels with zero acceleration (constant velocity) with reference to ground, its acceleration with respect to moving pulley is :
+</para>
+<para id="element-24a">We shall, however, take advantage of the fact that acceleration of block of 1 kg has zero acceleration with respect to ground reference. Its acceleration with respect to moving pulley is :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:msub> 
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mn>20</m:mn>
+          <m:mi>M</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+    <m:mrow>
+      <m:mi>upward</m:mi>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">
+This result is physically verifiable. Since pulley has downward acceleration, the block should have upward acceleration of the same magnitude such that block acceleration with respect to ground is zero. The blocks are connected by the same string that goes over the pulley. It means that relative accelerations of the blocks are equal but opposite in direction (see <link document="m14782">Working with moving pulleys </link>). 
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+    <m:mrow>
+      <m:mi>downward</m:mi>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">The acceleration of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” with respect to ground can, now, be obtained as :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mn>20</m:mn>
+          <m:mi>M</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+From force analysis of block of mass 2 kg, we have :
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>80</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<para id="element-38"><term>Problem 2 : </term>For the arrangement as shown in the figure, find the acceleration of block on the horizontal floor. Consider all surfaces “friction-less” and strings and pulleys as “mass-less” for the force analysis.
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Block and pulley system </title>
+<media id="id18652820" alt=""><image src="../../media/wq4.gif" mime-type="image/gif"/></media>
+<caption> The block on the table is attached to a pulley system.</caption>
+</figure>
+</para>
+<para id="element-40"><term>Solution : </term>If we look at the motions of blocks from the reference of moving pulley, then the situation is that of motion of two blocks and a static pulley. Since the blocks are connected by the same string, the accelerations of the blocks with respect to pulley are equal in magnitude but opposite in direction. 
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Block and pulley system </title>
+<media id="id18652884" alt=""><image src="../../media/wq5.gif" mime-type="image/gif"/></media>
+<caption> Tensions in the string are shown.</caption>
+</figure>
+</para>
+
+<para id="element-43">Let the acceleration of the block of mass, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, placed on the horizon, be "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+". Since block on the horizontal surface and the moving pulley are connected by a single piece of string, the acceleration of the moving pulley is same. As such, acceleration of the moving pulley is “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. Now, let the relative accelerations of the blocks with respect to moving pulley be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>21</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>31</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” respectively.  
+</para>
+<para id="element-44"> In order to carry out force analysis of the different elements of the system, we are required to express accelerations with respect to ground. This is an important point. Note that Newton's laws of motion is applicable to inertial frame of reference - not to an accelerated frame of reference like that of moving pulley. We can convert “accelerations with respect to accelerating pulley” to “accelerations with respect to ground” by using the concept of relative acceleration. Let block of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” moves down and the block of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” moves up with respect to the moving pulley. Also, let their accelerations with respect to ground be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” respectively. Then,
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>21</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>31</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+But magnitudes of relative accelerations with respect to moving pulley are equal. 
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>21</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>31</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+Then, considering downward direction as positive,
+</para>
+<para id="element-50"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>21</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>31</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+Thus, we see that two accelerations are now expressed in terms of one relative acceleration, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, only. The analysis of forces in the ground reference for different elements of the system are : 
+</para>
+<para id="element-53"><figure id="fig-53">
+<title> Free body diagrams </title>
+<media id="id13928259" alt=""><image src="../../media/wq6a.gif" mime-type="image/gif"/></media>
+<caption> Free body diagrams of block on the table, moving pulley and two blocks are shown.</caption>
+</figure>
+</para>
+
+<para id="element-56">
+(i) The block of mass, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-54">
+(ii) For pulley :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>T</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+
+<para id="element-58">
+Combining two equations,
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+(iii) For block of mass, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” :
+</para>
+<para id="element-61"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">
+(iv) For block of mass, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” :
+</para>
+<para id="element-64"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">We need to eliminate “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and solve two equations for “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. For this we multiply first by “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and second by “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. The new pair of equations are,
+</para>
+<para id="element-66"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-68">
+Adding, we have :
+</para>
+<para id="element-69"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-70">
+Substituting for “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, we have :
+</para>
+<para id="element-71"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>[</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>{</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>}</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:mn>4</m:mn>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-4">
+<title> Incline and pulley system
+</title>
+
+<section id="section-4b">
+<para id="element-95"><term>Problem 3 : </term>Two blocks of mass “m” and “nm” are part of the arrangement involving pulley and incline as shown in the figure. If friction is negligible everywhere and mass of the pulleys and the strings are also negligible, then find the acceleration of the mass “nm”.
+</para>
+<para id="element-96">
+<figure id="fig-96">
+<title> Incline and pulley system </title>
+<media id="id13929902" alt=""><image src="../../media/wq9.gif" mime-type="image/gif"/></media>
+<caption> The block on incline has tendency to move down.</caption>
+</figure>
+</para>
+<para id="element-97"><term>Solution : </term> Here, we see that block of mass “m” is connected to the moving pulley by a single string. Hence, their accelerations are equal in magnitude. Let the acceleration of the block of mass “m” be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and the acceleration of block of mass “nm” be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. Similarly, let the tensions in the two strings be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” respectively. The force diagrams of the elements of the system are shown here.
+</para>
+<para id="element-98">
+<figure id="fig-98">
+<title> Incline and pulley system </title>
+<media id="id13930041" alt=""><image src="../../media/wq10.gif" mime-type="image/gif"/></media>
+<caption> Forces on the elements of the system are shown.</caption>
+</figure>
+</para>
+<para id="element-99">
+The free body diagrams of block on the incline, moving pulley and hanging block are shown here :
+</para>
+<para id="element-100">
+<figure id="fig-100">
+<title> Free body diagrams </title>
+<media id="id13930096" alt=""><image src="../../media/wq11.gif" mime-type="image/gif"/></media>
+<caption> Free body diagrams of block on incline, pulley and block hanging from pulley are shown.</caption>
+</figure>
+</para>
+<para id="element-101">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-104">
+Now, we need to establish the relation between accelerations of pulley and block of mass “nm” by applying constraint analysis. For this we consider a horizontal reference passing through the fixed end of the string. Using length of string as constraint, we have :
+</para>
+<para id="element-105">
+<figure id="fig-105">
+<title> Incline and pulley system </title>
+<media id="id13930330" alt=""><image src="../../media/wq12.gif" mime-type="image/gif"/></media>
+<caption> The constrain relation for positions are obtained by measuring positions with respect to a fixed point.</caption>
+</figure>
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107">
+Differentiating w.r.t time twice, we have :
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-109">
+Comparing magnitude only,
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-111">
+We see that if one end of the string is fixed, then the acceleration of the other end of the string passing over a movable “mass-less” pulley is two times the acceleration of the movable pulley. Let,
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115">
+Substituting for tension and acceleration in the equations of the blocks as derived earlier, we have 
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-118">
+Multiplying second equation with 2 and adding to eliminate "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+",
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>n</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>4</m:mn>
+        <m:mi>n</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>4</m:mn>
+            <m:mi>n</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+            <m:mi>n</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120a">The acceleration of the block of mass “nm” is :
+
+</para>
+<para id="element-120b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>4</m:mn>
+            <m:mi>n</m:mi>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+            <m:mi>n</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-120c">
+
+</para>
+<para id="element-120d">
+
+</para>
+<para id="element-120e">
+
+</para>
+</section>
+<section id="section-4a">
+<para id="element-74a"><term>Problem 4 : </term>In the arrangement shown, the masses are 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> = 2 kg and 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> = 4 kg. The mass of the strings and pulleys are negligible. The friction is negligible between block and fixed incline and also between pulley and string.  Find the accelerations of two blocks.
+</para>
+<para id="element-75">
+<figure id="fig-75">
+<title> Incline and pulley system </title>
+<media id="id13931054" alt=""><image src="../../media/wq7.gif" mime-type="image/gif"/></media>
+<caption> Two Blocks are attached to two moving pulley.</caption>
+</figure>
+</para>
+<para id="element-76"><term>Solution : </term>Considering free body diagram of the moving pulley, we see that tension in the 
+string attached to mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” is half of the tension attached to the moving pulley. Hence, if “T” be the tension in the string attached to block of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, then the tension in the string attached to the pulley is “2T”.
+</para>
+
+<para id="element-78">
+<figure id="fig-78">
+<title> Incline and pulley system </title>
+<media id="id13931163" alt=""><image src="../../media/wq8a.gif" mime-type="image/gif"/></media>
+<caption> Tensions and accelerations of the elements of the system are shown.</caption>
+</figure>
+</para>
+<para id="element-79">From, the constrain relation as derived in prevous example, we know that the acceleration of the block of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is twice that of the pulley. Hence, if “a” be the acceleration of the moving pulley, then acceleration of the block of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is “2a”.
+</para>
+<para id="element-80">The free body diagram of two blocks are shown here. The force analysis of the block of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is :
+</para>
+<para id="element-81">
+<figure id="fig-81">
+<title> Free body diagrams </title>
+<media id="id13931296" alt=""><image src="../../media/wq8b.gif" mime-type="image/gif"/></media>
+<caption> Free body diagrams of two blocks are shown.</caption>
+</figure>
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">
+Similarly, force analysis of the block of mass “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is :
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>40</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>20</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+Adding two equations, we have :
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">
+Thus, accelerations of block are  :
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+</section>
+
+<section id="section-100">
+<title>Acknowledgment</title>
+<para id="element-1000">
+Author wishes to thank John Trautwein for making suggestions to improve this module. 
+</para>
+</section>
+ 
+  </content>
+  
+</document>

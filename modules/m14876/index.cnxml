@@ -1,0 +1,628 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Nature of equilibrium</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>da15da15-bb9f-425d-adb5-2e7ce25970a6</md:uuid>
+</metadata>
+  <content>
+ 
+<para id="element-1">We encounter different kinds of equilibrium. Take the case of a tennis ball and a paper weight, which are placed on a table. A slight force on tennis ball makes it to roll and finally drop off the table, whereas paper weight hardly moves from its position on the application of same force. Two bodies, therefore, are equilibrium of different nature. In this module, we shall not go for details of every aspects of equilibrium; but will limit ourselves to broader classification, which is based on energy concept. 
+</para>
+<para id="element-2">We shall further limit the analysis of equilibrium to the context of equilibrium in conservative force field like gravity. A body in conservative force field possesses mechanical energy in the form of kinetic and potential energy. Potential energy, as we know, is exclusively defined for conservative force field and is a function of position. In this module, we shall attempt to correlate potential energy with the nature of equilibrium in following categories :
+</para>
+<para id="element-3">
+<list id="list-3" list-type="bulleted"><item> Stable </item>
+<item> Unstable </item>
+<item> Neutral </item>
+</list>
+</para>
+
+<section id="section-1">
+<title>Disturbance and equilibrium</title>
+<para id="element-4">
+In order to appreciate the role of potential energy about equilibrium, we first need to visualize equilibrium in the light of external disturbance. We should keep this in mind that disturbance that we talk about is a relatively small force.
+</para>
+<para id="element-5">
+A typical set of example to illustrate the nature of equilibrium consist of three settings of a small ball (i) inside a spherical shell (ii) over the top of a sphere/ spherical shell and (iii) over a horizontal surface. These three settings are shown in the figure.
+</para>
+<para id="element-5a">
+<figure id="fig-4">
+<title> Nature of equilibrium </title>
+<media id="idp8742576" alt=""><image src="../../media/ne1.gif" mime-type="image/gif"/></media>
+<caption> The equilibrium of a small spherical ball in three different positions.</caption>
+</figure>
+</para>
+<para id="element-6">What do we expect when the ball inside the shell is slightly disturbed to its left. A component of gravity acts to decelerate the motion; brings the ball to a stop; and then accelerates the ball back to its original position and beyond. Restoration by gravity continues till the ball is static at the original position, depending upon the friction. The equilibrium of the ball inside the shell is “stable” equilibrium as it is unable to move out of its setting. The identifying nature of this equilibrium is that a restoring force comes into picture to restore the position of the object.
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> A ball inside a spherical shell </title>
+<media id="idm733664" alt=""><image src="../../media/ne2.gif" mime-type="image/gif"/></media>
+<caption> Force on the small spherical ball.</caption>
+</figure>
+</para>
+<para id="element-8">Let us now consider the second case in which the ball is placed over the shell. We can easily visualize that it is difficult to achieve this equilibrium in the first place. Secondly, when the ball is disturbed with a smallest touch, it starts falling down. The gravity here plays a different role altogether. It aids in destabilizing the equilibrium by pulling the ball down. The equilibrium of the ball over the top of the sphere is called “unstable” equilibrium. The identifying nature of this equilibrium is that once equilibrium ends, there is no returning back to original position as there is no restoring mechanism available. 
+</para>
+<para id="element-9">In the last case, when ball is disturbed, it moves on the horizontal surface. If the surface is smooth it maintains the small velocity so imparted. The distinguishing aspect is that component of gravity in horizontal direction (direction of motion) is zero. As such gravity neither plays the role of restoring force nor that of an aid to the disturbance. The equilibrium of the ball on the horizontal surface is called “neutral” equilibrium. The identifying nature of this equilibrium is that once equilibrium ends, there is neither the tendency of returning back nor the tendency of moving away from the original position.
+</para>
+</section>
+
+<section id="section-2">
+<title>Potential energy and equilibrium</title>
+<para id="element-10">We are interested here to establish the characterizing features of equilibrium. As such, we shall keep our discussion limited to one dimension and attempt to find the required correlation.  
+</para>
+<para id="element-11">For the conservative force system, force is related to potential energy as :
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">
+For translational equilibrium, 
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">
+This relationship can be used to interpret equilibrium, if we have values of potential energy function, U(x), with respect to displacement “x”. A plot of U(x) .vs. x will indicate position of equilibrium, where tangent to the plot is parallel to x-axis so that slope of the curve is zero at that point. 
+</para>
+
+<section id="section-2a">
+<title>Stable equilibrium</title>
+<para id="element-17">In order to correlate, potential energy with stable equilibrium, we draw an indicative potential energy plot of a pendulum bob, which is displaced through a maximum angle of 15. Let pendulum of length, L = 1 m and mass of pendulum bob (of high density material) = 10 kg.  The maximum potential energy corresponds to maximum angular displacement. 
+</para>
+<para id="element-18">
+<figure id="fig-18">
+<title> Pendulum </title>
+<media id="idm238336" alt=""><image src="../../media/ne3.gif" mime-type="image/gif"/></media>
+<caption> A pendulum bob is given angular displacement and released.</caption>
+</figure>
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>L</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>1</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>15</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>100</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>0.966</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>3.4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">The maximum potential energy is equal to maximum mechanical energy that the bob can have in the setup. The important thing to note about the plot is that we measure “x” from point “O” – from the extreme point in the left. The indicative plot is shown here :
+</para>
+<para id="element-22">
+<figure id="fig-22">
+<title> Potential energy plot </title>
+<media id="idp8293408" alt=""><image src="../../media/ne4.gif" mime-type="image/gif"/></media>
+<caption> Potential energy is plotted against displacement.</caption>
+</figure>
+</para>
+<para id="element-23">Further, as force is negative of the slope of the potential energy curve, it is first positive when slope of potential energy curve is negative; negative when slope is positive. An indicative force - displacement plot corresponding to potential energy curve is shown here. 
+</para>
+<para id="element-24">
+<figure id="fig-24">
+<title> Force plot </title>
+<media id="idp8776144" alt=""><image src="../../media/ne5.gif" mime-type="image/gif"/></media>
+<caption> Force on the pendulum bob is plotted against displacement.</caption>
+</figure>
+</para>
+<para id="element-25">These two pairs of plot let us analyze the equilibrium of pendulum bob. For this, we consider motion of the bob towards left from its mean position. The bob gains potential energy at the expense of kinetic energy. Further, the bob has negative velocity as it is moving in opposite to the reference direction. From "F-x" plot, we see that force is acting in positive x-direction. This means that velocity and force are in opposite direction. As such, pendulum bob is decelerated. Ultimately bob comes to a stop and then reverses direction towards point “B”. In this reverse journey, it acquires kinetic energy at the expense of loosing potential energy.
+</para>
+<para id="element-26">Once past “B” in opposite direction i.e towards right, it again gains potential energy at the expense of kinetic energy. It has positive velocity as it is moving in the reference direction. From "F-x" plot, we see that force is acting in negative x-direction. The velocity and force are in opposite direction in this side of motion also. As such, pendulum bob is again decelerated. Ultimately bob comes to a stop and then reverses direction towards point “B”. In this reverse journey, it acquires kinetic energy at the expense of loosing potential energy.
+</para>
+<para id="element-27">For the given set up, maximum mechanical energy corresponds to position θ = 15°. What it means that pendulum never crosses the points “A” and “B”. These points, therefore, are the “turning points” for the given maximum mechanical energy of the set up (=3.4 J). 
+</para>
+<para id="element-28">We, therefore conclude that the equilibrium of pendulum bob is a “stable” equilibrium at “B” within maximum angular displacement. If we give a small disturbance to the bob, its motion is bounded by the energy imparted during the disturbance. As the kinetic energy imparted is less than 3.4 J, it does not escape beyond the turning points specified for the set up. We should note that this situation with respect to pendulum bob is similar to the spherical ball placed inside a spherical shell. 
+</para>
+<para id="element-29">From the discussion so far, we conclude that :
+</para>
+<para id="element-30"><term>1: </term>First derivative of potential energy function with respect to displacement is zero.
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32"><term>2: </term>Potential energy of the body is minimum for stable equilibrium for a given potential energy function and maximum allowable mechanical energy.
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mi>min</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">For this, the second derivative of potential energy function is positive at equilibrium point,
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36"><term>3: </term> The position of stable equilibrium is bounded by two turning points corresponding to maximum allowable mechanical energy.
+</para>
+<para id="element-37"><term>4: </term> Force acts to restore the original position of the body in stable equilibrium. 
+</para>
+
+<section id="section-2a1">
+<title>Example</title>
+<para id="element-38"><term>Problem 1 :</term>The potential energy of a particle in a conservative system is given by the potential energy function,
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">where “a” and “b” are two positive constants. Find the equilibrium position and determine the nature of equilibrium.
+</para>
+<para id="element-41"><term>Solution :</term>The system here is a conservative system. This means that only conservative forces are in operation. In order to determine the equilibrium position, we make use of two facts (i) negative of first differential of potential energy function gives the net force on the system and (ii) for equilibrium, net external force is zero.
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">
+For equilibrium, external force is zero,
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>b</m:mi>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">Further, we need to find the second derivative of potential energy function and investigate the resulting value.
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">It is given that “a” is a positive constant. It means that the particle possess minimum potential energy at <m:math>
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>b</m:mi>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>. Hence, particle is having stable equilibrium at this position.
+</para>
+</section>
+</section>
+
+<section id="section-2b">
+<title>Unstable equilibrium</title>
+<para id="element-51">The nature of the potential energy plot for unstable equilibrium is inverse to that of stable equilibrium curve. A typical plot is shown here in the figure.
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Unstable equilibrium </title>
+<media id="idp7474128" alt=""><image src="../../media/ne6.gif" mime-type="image/gif"/></media>
+<caption> Potential energy is plotted against displacement. </caption>
+</figure>
+</para>
+<para id="element-53">The position of equilibrium at point “B”, where slope of the curve is zero corresponds to maximum potential energy, which in turn is equal to maximum mechanical energy allowable for the body. We can refer this plot to the case of a ball placed over a spherical shell as shown below. 
+</para>
+<para id="element-54">
+<figure id="fig-54">
+<title> Unstable equilibrium </title>
+<media id="idp11421184" alt=""><image src="../../media/ne7.gif" mime-type="image/gif"/></media>
+<caption> A small spherical ball is placed over a spherical shell.</caption>
+</figure>
+</para>
+<para id="element-55">It is easy to realize that the ball has maximum potential energy at the top as is shown in potential energy plot. Further, as force is negative of the slope of the potential energy curve, it is first negative, when slope of potential energy curve is negative; negative, when slope is positive. An indicative force - displacement plot corresponding to potential energy curve is shown here. 
+</para>
+<para id="element-56">
+<figure id="fig-56">
+<title> Unstable equilibrium </title>
+<media id="idm1044032" alt=""><image src="../../media/ne8.gif" mime-type="image/gif"/></media>
+<caption> Force on the spherical ball is plotted against displacement. </caption>
+</figure>
+</para>
+<para id="element-57">The two pairs of plots let us analyze the equilibrium of ball, placed on the shell. For this we consider motion of the ball towards left. The ball gains kinetic energy at the expense of potential energy. The projection of velocity in x-direction is negative. From the figure below, we see that component of gravitational force is constrained to be tangential to sphere. Its component in x-direction is also acting in the negative direction. 
+</para>
+<para id="element-58">
+<figure id="fig-58">
+<title> Unstable equilibrium </title>
+<media id="idp9677344" alt=""><image src="../../media/ne9.gif" mime-type="image/gif"/></media>
+<caption> Components of velocity and force in along x - direction. </caption>
+</figure>
+</para>
+<para id="element-59">Thus, both components of velocity and acceleration are in the opposite direction to the reference x-axis direction. As such, the spherical ball is accelerated and keeps gaining kinetic energy without any possibility of restoration to original energy state. Ultimately, the ball lands on the horizontal surface, which we have considered to be at zero reference potential. There is no component of gravitational force in horizontal direction on the surface. As such, it is stopped after some distance due to friction or keeps moving with uniform velocity if surface is smooth.
+</para>
+<para id="element-60">Similar is the case, when ball moves to the right from its equilibrium position.  
+</para>
+<para id="element-61">
+From the discussion so far, we conclude that :
+</para>
+<para id="element-62"><term>1: </term> First derivative of potential energy function with respect to displacement is zero.
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64"><term>2: </term>Potential energy of the body is maximum for stable equilibrium for a given potential energy function and maximum allowable mechanical energy.
+</para>
+<para id="element-320"><m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para><para id="element-65">
+For this, the second derivative of potential energy function is negative at equilibrium point,
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>&lt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67"><term>3: </term> There is no bounding pairs of turning points like in the case of stable equilibrium.
+</para>
+<para id="element-68"><term>4: </term> There is no restoring force the body. External force (gravity) aids in acquiring kinetic energy by the body. 
+</para>
+</section>
+
+<section id="section-2c">
+<title>Neutral equilibrium</title>
+<para id="element-69">The nature of the potential energy plot for neutral equilibrium is easy to visualize. Let us consider equilibrium of the ball, which is lying on horizontal surface. If we consider the horizontal surface to be the zero reference potential level, then potential energy plot is simply the x-axis itself; if not, it is a straight line parallel to x-axis.
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Neutral equilibrium </title>
+<media id="idp7756528" alt=""><image src="../../media/ne10.gif" mime-type="image/gif"/></media>
+<caption> A small spherical ball is placed on a horizontal surface. </caption>
+</figure>
+</para>
+<para id="element-71">On the other hand, Force – displacement plot is essentially x-axis as component of gravity in horizontal direction is zero. When ball is disturbed from its position, it merely moves till friction stops it. If the surface is smooth, ball keeps moving with the velocity imparted during disturbance.
+</para>
+<para id="element-72">
+From the discussion so far, we conclude that :
+</para>
+<para id="element-73"><term>1: </term> First derivative of potential energy function with respect to displacement is zero.
+</para>
+
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75"><term>2: </term> The second derivative of potential energy function is equal to zero.
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mo>ⅆ</m:mo>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>U</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77"><term>3: </term> There is no bounding pairs of turning points like in the case of stable equilibrium.
+</para>
+<para id="element-78"><term>4: </term> There is no restoring force on the body . External force (gravity) neither acts to restore the body or aid in acquiring kinetic energy by the body.
+</para>
+</section>
+</section>
+
+  </content>
+  
+</document>

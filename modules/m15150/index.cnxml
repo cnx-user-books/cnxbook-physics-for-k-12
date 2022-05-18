@@ -1,0 +1,1988 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Projection in gravitational field</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>a6bf2710-df51-4754-ad3e-56808ca8afc3</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Gravitational force of attraction is a binding force. An object requires certain minimum velocity to break free from this attraction. We are required to impart object with certain kinetic energy to enable it to overcome gravitational pull. As the object moves away, gravitational pull becomes smaller. However, at the same time, speed of the object gets reduced as kinetic energy of the object is continuously transferred into potential energy. Remember, potential energy is maximum at the infinity. 
+</para>
+<para id="element-2">Depending on the initial kinetic energy imparted to the projectile, it will either return to the surface or will move out of the Earth’s gravitational field.
+</para>
+<para id="element-3">The motion of a projectile, away from Earth’s surface, is subjected to variable force – not a constant gravity as is the case for motion near Earth’s surface. Equivalently, acceleration due to gravity, “g”, is no more constant at distances thousands of kilometers away. As such, equations of motion that we developed and used (like v = u+at) for constant acceleration is not valid for motion away from Earth. 
+</para>
+<para id="element-4">We have already seen that analysis using energy concept is suitable for such situation, when acceleration is not constant. We shall, therefore, develop analysis technique based on conservation of energy. 
+</para>
+<section id="section-1">
+<title>Context of motion</title>
+<para id="element-5">We need to deal with two forces for projectile : air resistance i.e. friction and gravitational force. Air resistance is an external non-conservative force, whereas gravity is an internal conservative force to the "Earth-projectile" system. The energy equation for this set up is :
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">Our treatment in the module, however, will neglect air resistance for mathematical derivation. This is a base consideration for understanding motion of an object in a gravitational field at greater distances. Actual motion will not be same as air resistance at higher velocity generates tremendous heat and the projectile, as a matter of fact, will either burn up or will not reach the distances as predicted by the analysis. Hence, we should keep this limitation of our analysis in mind.
+</para>
+<para id="element-8">Nevertheless, the situation without friction is an ideal situation to apply law of conservation of energy. There is only conservative force in operation on the object in translation. The immediate consequence is that work by this force is independent of path. As there is no external force on the system, the changes takes place between potential and kinetic energy in such a manner that overall change in mechanical energy always remains zero. In other words, only transfer of energy between kinetic and gravitational potential energy takes place. As such,
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-1a">
+<title>Change in potential energy</title>
+<para id="element-10">Earlier, we used the expression “mgh” to compute potential energy or change in potential energy. We need to correct this formula for determining change in potential energy by referring calculation of potential energy to infinity. Using formula of potential energy with infinity as reference, we determine the potential difference between Earth’s surface and a point above it,  as :
+</para>
+<para id="element-383"><figure id="fig-383">
+<title> Gravitational potential difference </title>
+<media id="idp1528448" alt=""><image src="../../media/pg6.gif" mime-type="image/gif"/></media>
+<caption> An object at a height "h"</caption>
+</figure></para><para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>R</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+            <m:mi>m</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mi>G</m:mi>
+      <m:mi>M</m:mi>
+      <m:mi>m</m:mi>
+    </m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:mi>R</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">We can eliminate reference to gravitational constant and mass of Earth by using relation of gravitational acceleration at Earth’s surface (
+<m:math>
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+),
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">Substituting in the equation of change in potential energy, we have :
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mi>m</m:mi>
+      <m:mi>g</m:mi>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mrow>
+            <m:mi>R</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mi>m</m:mi>
+      <m:mi>g</m:mi>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mi>h</m:mi>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>R</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>h</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>h</m:mi>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">It is expected that this general formulation for the change in potential energy should be reduced to approximate form. For h&lt;&lt;R, we can neglect “h/R” term and,
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<title>Maximum Height</title>
+<para id="element-23">For velocity less than escape velocity (the velocity at which projectile escapes the gravitation field of Earth), the projected particle reaches a maximum height and then returns to the surface of Earth. 
+</para>
+<para id="element-24">When we consider that acceleration due to gravity is constant near Earth’s surface, then applying conservation of mechanical energy yields :
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">However, we have seen that “mgh” is not true measure of change in potential energy. Like in the case of change in potential energy, we come around the problem of variable acceleration by applying conservation of mechanical energy with reference to infinity. 
+</para>
+
+<para id="element-428"><figure id="fig-423"><title> Maximum height </title>
+<media id="idm1164720" alt=""><image src="../../media/pg7.gif" mime-type="image/gif"/></media>
+<caption> The velocity is zero at maximum height, "h".</caption>
+</figure></para><para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mi>G</m:mi>
+          <m:mi>M</m:mi>
+        </m:mrow>
+        <m:mo>−</m:mo>
+        <m:mrow>
+          <m:mi>G</m:mi>
+          <m:mi>M</m:mi>
+        </m:mrow>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msup>
+              <m:mi>v</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>R</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>R</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>G</m:mi>
+            <m:mi>M</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">We can also write the expression of maximum height in terms of acceleration at Earth’s surface using the relation :
+</para>
+
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">Substituting in the equation and rearranging,
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>g</m:mi>
+        </m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para><para id="element-740">This is the maximum height attained by a projection, which is thrown up from the surface of Earth.</para>
+</section>
+<section id="section-1c">
+<title>Example</title>
+<para id="element-41"><term>Problem 1: </term> A particle is projected vertically at 5 km/s from the surface Earth. Find the maximum height attained by the particle. Given, radius of Earth = 6400 km and g = 10 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>.
+</para>
+<para id="element-42"><term>Solution : </term> We note here that velocity of projectile is less than escape velocity 11.2 km/s. The maximum height attained by the particle is given by:
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>g</m:mi>
+        </m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:msup>
+            <m:mi>v</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">Putting values,
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>5</m:mn>
+              <m:mi>X</m:mi>
+              <m:msup>
+                <m:mn>10</m:mn>
+                <m:mn>3</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>X</m:mi>
+          <m:mn>10</m:mn>
+        </m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mi>X</m:mi>
+                  <m:msup>
+                    <m:mn>10</m:mn>
+                    <m:mn>3</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>6.4</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>6</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>25</m:mn>
+            <m:mi>X</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>6</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>X</m:mi>
+          <m:mn>10</m:mn>
+        </m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>25</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>6</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>6.4</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>6</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.55</m:mn>
+    <m:mi>x</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1550000</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1550</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">It would be interesting to compare the result, if we consider acceleration to be constant. The height attained is :
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>25</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:msup>
+        <m:mn>10</m:mn>
+        <m:mn>6</m:mn>
+      </m:msup>
+      <m:mn>20</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1.25</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1250000</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1250</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">As we can see, approximation of constant acceleration due to gravity, results in huge discrepancy in the result.
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>Escape velocity</title>
+<para id="element-52">In general, when a body is projected up, it returns to Earth after achieving a certain height. The height of the vertical flight depends on the speed of projection. Greater the initial velocity greater is the height attained.
+</para>
+<para id="element-53">Here, we seek to know the velocity of projection for which body does not return to Earth. In other words, the body escapes the gravitational influence of Earth and moves into interstellar space. We can know this velocity in verities of ways. The methods are equivalent, but intuitive in approach. Hence, we shall present here all such considerations :
+</para>
+<section id="section-2a">
+<title>1: Binding energy :</title>
+<para id="element-54">Gravitational binding energy represents the energy required to eject a body out of the influence of a gravitational field. It is equal to the energy of the system, but opposite in sign. In the absence of friction, this energy is the mechanical energy (sum of potential and kinetic energy) in gravitational field. 
+</para>
+<para id="element-55">Now, it is clear from the definition of binding energy itself that the initial kinetic energy of the projection should be equal to the binding energy of the body in order that it moves out of the gravitational influence. Now, the body to escape is at rest before being initiated in projection. Thus, its binding energy is equal to potential energy only. 
+</para>
+<para id="element-56">Therefore, kinetic energy of the projection should be equal to the magnitude of potential energy on the surface of Earth,
+</para>
+<para id="element-57"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>e</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">where “
+<m:math>
+    <m:msub>
+      <m:mi>v</m:mi>
+        <m:mi>e</m:mi>
+    </m:msub>
+</m:math>
+” is the escape velocity. Note that we have used “R” to denote Earth’s radius, which is the distance between the center of Earth and projectile on the surface. Solving above equation for escape velocity, we have :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2b">
+<title>2. Conservation of mechanical energy :</title>
+<para id="element-60">The act of putting a body into interstellar space is equivalent to taking the body to infinity i.e. at a very large distance. Infinity, as we know, has been used as zero potential energy reference. The reference is also said to represent zero kinetic energy. </para>
+<para id="element-61">From conservation of mechanical energy, it follows that total mechanical energy on Earth’s should be equal to mechanical energy at infinity i.e. should be  equal to zero. But, we know that potential energy at the surface is given by :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">On the other hand, for body to escape gravitational field, 
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">Therefore, kinetic energy required by the projectile to escape is :
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-68">Now, putting expression for kinetic energy and proceeding as in the earlier derivation :
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2c">
+<title>3:  Final velocity is not zero :</title>
+<para id="element-70">
+We again use conservation of mechanical energy, but with a difference. Let us consider that projected body of mass, “m” has initial velocity “u” and an intermediate velocity, “v”, at a height “h”. The idea here is to find condition for which intermediate velocity ,”v”, never becomes zero and hence escape Earth’s influence. Applying conservation of mechanical energy, we have :
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>  
+</para>
+<para id="element-74">Rearranging,
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">In order that, final velocity (“v”) is positive, the expressions on the right should evaluate to a positive value. For this,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≥</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>        
+</para>
+<para id="element-78">For the limiting case, u = 
+<m:math>
+    <m:msub>
+      <m:mi>v</m:mi>
+        <m:mi>e</m:mi>
+    </m:msub>
+</m:math>
+,
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Interpreting escape velocity</title>
+<para id="element-80"> These three approaches to determine escape velocity illustrates how we can analyze a given motion in gravitational field in many different ways. We should be aware that we have determined the minimum velocity required to escape Earth’s gravity. It is so because we have used the expression of potential energy, which is defined for work by external force slowly. 
+</para>
+<para id="element-81">However, it is found that the velocity so calculated is good enough for escaping gravitational field. Once projected body achieves considerable height, the gravitational attraction due to other celestial bodies also facilitates escape from Earth's gravity.
+</para>
+<para id="element-82">Further, we can write the expression of escape velocity in terms of gravitational acceleration (consider 
+<m:math>
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>g</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+),
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">Putting in the expression of escape velocity, we have :
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>g</m:mi>
+            <m:mi>R</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-3a">
+<title>Escape velocity of Earth </title>
+<para id="element-621">In the case of Earth,</para><para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5.98</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>24</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6.37</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>X</m:mi>
+                <m:mn>6.67</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>11</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi>X</m:mi>
+                <m:mn>5.98</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>24</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>6.37</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>6</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>11.2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">We should understand that this small numerical value is deceptive. Actually, it is almost impossible to impart such magnitude of speed. Let us have a look at the magnitude in terms of “km/hr”,
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>11.2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>11.2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>60</m:mn>
+    <m:mi>x</m:mi>
+    <m:mn>60</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>40320</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>h</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">If we compare this value with the speed of modern jet (which moves at 1000 km/hr), this value is nearly 40 times! It would be generally a good idea to project object from an artificial satellite instead, which itself may move at great speed of the order of about 8-9 km/s. The projectile would need only additional 2 or 3 km/hr of speed to escape, if projected in the tangential direction of the motion of the satellite.
+</para>
+<para id="element-93">This mechanism is actually in operation in multistage rockets. Each stage acquires the speed of previous stage. The object (probe or vehicle) can, then, be let move on its own in the final stage to escape Earth’s gravity. The mechanism as outlined here is actually the manner an interstellar probe or vehicle is sent out of the Earth’s gravitational field. We can also appreciate that projection, in this manner, has better chance to negotiate friction effectively as air resistance at higher altitudes is significantly less or almost negligible.
+</para>
+
+
+<para id="element-96">This discussion of escape velocity also underlines that the concept of escape velocity is related to object, which is not propelled by any mechanical device. An object, if propelled, can escape gravitational field at any speed.
+</para>
+<para id="element-97">
+<term>Escape velocity of Moon :</term>
+</para>
+<para id="element-97a">
+In the case of Earth’s moon,
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>7.4</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>20</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.74</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>X</m:mi>
+                <m:mn>6.67</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>11</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi>X</m:mi>
+                <m:mn>7.4</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>20</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>1.74</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>6</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99b">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2.4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99c">The root mean square velocity of gas is greater than this value. This is the reason, our moon has no atmosphere. Since sound requires a medium to propagate, we are unable to talk directly there as a consequence of the absence of atmosphere. 
+</para>
+
+</section>
+<section id="section-3b">
+<title>Direction of projection</title>
+<para id="element-100">It may appear that we may need to fire projectile vertically to let it escape in interstellar space. This is not so. The spherical symmetry of Earth indicates that we can project body in any direction with the velocity as determined such that it clears physical obstructions in its path. From this point of view, the term “velocity” is a misnomer as direction of motion is not involved. It would have been more appropriate to call it “speed”.
+</para>
+<para id="element-101">The direction, however, makes a difference in escape velocity for some other reason. The Earth rotates in particular direction – it rotates from East to west at a linear speed of 465 m/s. So if we project the body in the tangential direction east-ward, then Earth rotation helps body’s escape. The effective escape velocity is 11200 – 465 = 10735 m/s. On the other hand, if we project west-ward, then escape velocity is 11200 + 465 = 11635 m/s.
+</para>
+</section>
+<section id="section-3c">
+<title>Escape velocity and Black hole</title>
+<para id="element-102">Black holes are extremely high density mass. This represents the final stage of evolution of a massive star, which collapses due to its own gravitational force. Since mass remains to be very large while radius is reduced (in few kms), the gravitational force becomes extremely large. Such great is the gravitational force that it does not even allow light to escape.
+</para>
+<para id="element-103">Lesser massive star becomes neutron star instead of black hole. Even neutron star has very high gravitational field. We can realize this by calculating escape velocity for one such neutron star,
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>30</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-105">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>X</m:mi>
+                <m:mn>6.67</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>11</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi>X</m:mi>
+                <m:mn>3</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>30</m:mn>
+                </m:msup>
+              </m:mrow>
+              <m:mrow>
+                <m:mn>3</m:mn>
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mn>4</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1.1</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>5</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">It is quite a speed comparable with that of light. Interstellar Black hole is suggested to be 5 times the mass of neutron star and 10 times the mass of sun! On the other hand, its dimension is in few kilometers. For this reason, following is possible :
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>G</m:mi>
+                <m:mi>M</m:mi>
+              </m:mrow>
+              <m:mi>R</m:mi>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>&gt;</m:mo>
+    <m:mi>c</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-110">where “c” is the speed of light. Hence even light will not escape the gravitational force of a black hole as the required velocity for escape is greater than speed of light.
+</para>
+</section>
+</section>
+<section id="section-4">
+<title>Nature of trajectory</title>
+<para id="element-111">In this section, we shall attempt to analyze trajectory of a projectile for different speed range. We shall strive to get the qualitative assessment of the trajectory – not a quantitative one.
+</para>
+<para id="element-112">In order to have a clear picture of the trajectory of a projectile, let us assume that a projectile is projected from a height, in x-direction direction as shown. The point of projection is, though, close to the surface; but for visualization, we have shown the same at considerable distance in terms of the dimension of Earth. 
+</para>
+<para id="element-129">
+<figure id="fig-129">
+<title> Projection in Earth's gravitation </title>
+<media id="idp4777104" alt=""><image src="../../media/pg1.gif" mime-type="image/gif"/></media>
+<caption> Projectile is projected with certain velocity in x-direction.</caption>
+</figure>
+</para>
+<para id="element-114">Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the speed of a satellite near Earth’s surface and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the escape velocity for Earth’s gravity. Then,
+</para>
+<para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>g</m:mi>
+            <m:mi>R</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-116">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>g</m:mi>
+            <m:mi>R</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-471">Different possibilities are as following :</para><para id="element-117">
+<term>1 : </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+ : The gravity pulls the projectile back on the surface. The trajectory is a straight line (OA shown in the figure below).
+</para>
+<para id="element-118">
+<term>2 : </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ : We denote a projection velocity “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” of the projectile such that it always clears Earth’s surface (OC shown in the figure below). A limiting trajectory will just clear Earth’s surface. If the projection velocity is less than this value then the trajectory of the projectile will intersect Earth and projectile will hit the surface (OB shown in the figure below). 
+</para>
+<para id="element-119"><figure id="fig-119">
+<title> Projection in Earth's gravitation </title>
+<media id="idp5627824" alt=""><image src="../../media/pg2a.gif" mime-type="image/gif"/></media>
+<caption> Projectile is projected with certain velocity in x-direction.</caption>
+</figure>
+</para>
+<para id="element-120"><term>3 : </term> 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mrow>
+      <m:mo>&lt;</m:mo>
+      <m:mi>v</m:mi>
+      <m:mo>&lt;</m:mo>
+    </m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+ : Since projection velocity is greater than limiting velocity to clear Earth and less than the benchmark velocity of a satellite in circular orbit, the projectile will move along an elliptical orbit. The Earth will be at one of the foci of the elliptical trajectory (see figure above).
+</para>
+<para id="element-121"><term>4 : </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ : The projectile will move along a circular trajectory (see inner circle in the figure below).
+</para>
+<para id="element-122">
+<figure id="fig-122">
+<title> Projection in Earth's gravitation </title>
+<media id="idp94128" alt=""><image src="../../media/pg3.gif" mime-type="image/gif"/></media>
+<caption> Projectile is projected with certain velocity in x-direction.</caption>
+</figure>
+</para>
+<para id="element-123"><term>5 : </term> 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>O</m:mi>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ : The projection velocity is greater than orbital velocity for circular trajectory, the path of the projectile is not circular. On the other hand, since projection velocity is less than escape velocity, the projectile will not escape gravity either. It means that projectile will be bounded to the Earth. Hence, trajectory of the projectile is again elliptical with Earth at one of the foci (see outer ellipse in the figure above).
+</para>
+<para id="element-124"><term>6 : </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ : The projectile will escape gravity. In order to understand the nature of trajectory, we can think of force acting on the particle and resulting motion. The gravity pulls the projectile in the radial direction towards the center of Earth. Thus, projectile will have acceleration in radial direction all the time. The component of gravity along x-direction is opposite to the direction of horizontal component of velocity. As such, the particle will be retarded in x-direction. On the other hand, vertical component of gravity will accelerate projectile in the negative y – direction. 
+</para>
+<para id="element-125">
+<figure id="fig-125">
+<title> Projection in Earth's gravitation </title>
+<media id="idp5828368" alt=""><image src="../../media/pg4.gif" mime-type="image/gif"/></media>
+<caption> Projectile is projected with certain velocity in x-direction.</caption>
+</figure>
+</para>
+<para id="element-126">However, as the projection speed of the projectile is equal to escape velocity, the projectile will neither be intersected by Earth’s surface nor be bounded to the Earth. The resulting trajectory is parabola leading to the infinity. It is an open trajectory.
+</para>
+<para id="element-127"><term>7 : </term> 
+<m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ : We can infer that projection velocity is just too great. The impact of gravity will be for a very short duration till the projectile is close to Earth. However, as distance increases quickly, the impact of gravitational force becomes almost negligible. The final path is parallel to x-direction.  
+</para>
+<para id="element-128">
+<figure id="fig-128">
+<title> Projection in Earth's gravitation </title>
+<media id="idm205504" alt=""><image src="../../media/pg5.gif" mime-type="image/gif"/></media>
+<caption> Projectile is projected with certain velocity in x-direction.</caption>
+</figure>
+</para>
+</section>
+ 
+  </content>
+  
+</document>

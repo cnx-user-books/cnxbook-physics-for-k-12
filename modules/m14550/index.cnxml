@@ -1,0 +1,2954 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Vertical motion under gravity (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>a412b675-6ace-4049-9a56-81e1829782b7</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3">
+We discuss problems, which highlight certain aspects of the study leading to the accelerated motion under gravity. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> Motion plots
+</item>
+<item> Equal displacement 
+</item>
+<item> Equal time
+</item>
+<item> Displacement in a particular second 
+</item>
+<item> Twice in a position 
+</item>
+<item> Collision in air
+</item>
+</list>
+</para>
+</section>
+<section id="section-3">
+<title> Motion plots
+</title>
+<example id="example-5">
+<para id="element-5"><term>Problem : </term> A ball is dropped from a height of 80 m. If the ball looses half its speed after each strike with the horizontal floor, draw (i) speed – time and (ii) velocity – time plots for two strikes with the floor. Consider vertical downward direction as positive and g = 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-6"> <term>Solution : </term> In order to draw the plot, we need to know the values of speed and velocity against time. However, the ball moves under gravity with a constant acceleration 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. As such, the speed and velocity between strikes are uniformly increasing or decreasing at constant rate. It means that we need to know end values, when the ball strikes the floor or when it reaches the maximum height. 
+</para>
+
+<para id="element-8">
+In the beginning when the ball is released, the initial speed and velocity both are equal to zero. Its velocity, at the time first strike, is obtained from the equation of motion as :
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 80 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10">
+Corresponding speed is :
+</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 40 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">
+The time to reach the floor is :
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 40 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 10 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+According to question, the ball moves up with half the speed. Hence, its speed after first strike is :
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+The corresponding upward velocity after first strike is :
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+<figure id="fig-19"><title> Speed – time plot </title><media id="idp4665648" alt=""><image src="../../media/vmg1a.gif" mime-type="image/gif"/></media><caption> The ball dropped from a height looses half its height on each strike with the horizontal surface. </caption></figure>
+</para>
+<para id="element-19a">
+<figure id="fig-19a">
+<title> Velocity – time plot </title>
+<media id="idm283968" alt=""><image src="../../media/vmg2-48a9.gif" mime-type="image/gif"/></media>
+<caption> The ball dropped from a height looses half its height on each strike with the horizontal surface. </caption>
+</figure>
+</para>
+<para id="element-20">
+It reaches a maximum height, when its speed and velocity both are equal to zero. The time to reach maximum height is :
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 10 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+After reaching the maximum height, the ball returns towards floor and hits it with the same speed with which it was projected up,
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+Corresponding speed is :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+The time to reach the floor is :
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+Again, the ball moves up with half the speed with which ball strikes the floor. Hence, its speed after second strike is :
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+The corresponding upward velocity after first strike is :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+It reaches a maximum height, when its speed and velocity both are equal to zero. The time to reach maximum height is :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 10 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 10 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+<example id="example-34">
+<para id="element-34"><term>Problem : </term> A ball is dropped vertically from a height “h” above the ground. It hits the ground and bounces up vertically to a height “h/3”. Neglecting subsequent motion and air resistance, plot its velocity “v” with the height qualitatively.
+</para>
+<para id="element-35"> <term>Solution : </term> We can proceed to plot first by fixing the origin of coordinate system. Let this be the ground. Let us also assume that vertical upward direction is the positive y-direction of the coordinate system. The ball remains above ground during the motion. Hence, height (y) is always positive. Since we are required to plot velocity .vs. height (displacement), we can use the equation of motion that relates these two quantities : 
+</para>
+<para id="element-35a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+During the downward motion, u = 0, a = -g and displacement (y) is positive. Hence,
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+This is a quadratic equation. As such the plot is a parabola as motion progresses i.e. as y decreases till it becomes equal to zero (see plot below y-axis).
+</para>
+<para id="element-39">
+Similarly, during the upward motion, the ball has certain velocity so that it reaches 1/3 rd of the height. It means that ball has a velocity less than that with which it strikes the ground. However, this velocity of rebound is in the upwards direction i.e positive direction of the coordinate system. In the nutshell, we should start drawing upward motion with a smaller positive velocity. The equation of motion, now, is :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+Again, the nature of the plot is a parabola the relation being a quadratic equation. The plot progresses till displacement becomes equal to y/3 (see plot above y-axis). The two plots should look like as given here :
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> Velocity – displacement plot </title>
+<media id="idm6353936" alt=""><image src="../../media/vmg3-d3c9.gif" mime-type="image/gif"/></media>
+<caption> The nature of plot is parabola.</caption>
+</figure>
+</para>
+</example>
+</section>
+<section id="section-4">
+<title> Equal displacement 
+</title>
+<example id="example-43">
+<para id="element-43"><term>Problem : </term> A particle is released from a height of “3h”. Find the ratios of time taken to fall through equal heights “h”.
+</para>
+<para id="element-44"> <term>Solution : </term> Let 
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+, 
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:math>
+ be the time taken to fall through successive heights “h”. Then, the vertical linear distances traveled are :
+</para>
+
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> 2h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> 3h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> : </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> : </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> :: </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> : </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> : </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+<m:mo> : </m:mo> 
+
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+
+<m:mo> :: </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> : </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> : </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+In order to reduce this proportion into the one as required in the question, we carry out a general reduction of the similar type. In the end, we shall apply the result to the above proportion. Now, a general reduction of the proportion of this type is carried out as below. Let :
+</para>
+
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> :: </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> : </m:mo> 
+<m:mi> b </m:mi>
+<m:mo> : </m:mo> 
+<m:mi> c </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> b </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> c </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+From the first two ratios, 
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> b </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> b </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-54">
+Similarly, from the last two ratios, 
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> b </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> c </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> b </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> c </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> b </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+Now, combining the reduced ratios, we have :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> b </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> c </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> b </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> :: </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> : </m:mo> 
+<m:mi> b </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> : </m:mo> 
+<m:mi> c </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> b </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+In the nutshell, we conclude that if 
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> :: </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> : </m:mo> 
+<m:mi> b </m:mi>
+<m:mo> : </m:mo> 
+<m:mi> c </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+Then,
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> :: </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> : </m:mo> 
+<m:mi> b </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> : </m:mo> 
+<m:mi> c </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> b </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+Applying this result as obtained to the question in hand, 
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+
+<m:mo> : </m:mo> 
+
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+
+<m:mo> :: </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> : </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> : </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+We have :
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> : </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> :: </m:mo> 
+
+<m:mn> 1 </m:mn>
+<m:mo> : </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> : </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-5">
+<title> Equal time 
+</title>
+<example id="example-77">
+<para id="element-77"><term>Problem : </term> Balls are successively dropped one after another at an equal interval from a tower. At the instant, 
+<m:math>
+<m:msup>
+<m:mn> 9 </m:mn>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ball is released, the first ball hits the ground. Which of the ball in series is at ¾ of the height of the tower?
+</para>
+<para id="element-78"> <term>Solution : </term> Let “t” be the equal time interval. The first ball hits the ground when 
+<m:math>
+<m:msup>
+<m:mn> 9 </m:mn>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ ball is dropped. It means that the first ball has fallen for a total time (9-1)t = 8t. Let 
+<m:math>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+  ball is at 3/4th of the height of tower. Then,
+</para>
+<para id="element-79">
+For the first ball,
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+For the nth ball,
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> h </m:mi>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> n </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+Combining two equations, we have :
+</para>
+<para id="element-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> n </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mrow>
+<m:mn> 8 </m:mn>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 32 </m:mn>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 16 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> n </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> n </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+<section id="section-6">
+<title> Displacement in a particular second 
+</title>
+<example id="example-67">
+<para id="element-67"><term>Problem : </term> A ball is dropped vertically from a tower. If the vertical distance covered in the last second is equal to the distance covered in first 3 seconds, then find the height of the tower. Consider g = 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-68"> <term>Solution : </term> Let us consider that the ball covers the height 
+<m:math>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+</m:math>
+ in 
+<m:math>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ second. Then, the distance covered in the 
+<m:math>
+<m:msup>
+<m:mi> n </m:mi>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+ second is given as :
+</para>
+<para id="element-69">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> g </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">
+On the other hand, the distance covered in first 3 seconds is :
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 45 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+According to question,
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mi> n </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 45 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> n </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+Therefre, the height of the tower is :
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 125 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-7">
+<title> Twice in a position 
+</title>
+<example id="example-85">
+<para id="element-85"> <term>Problem : </term> A ball, thrown vertically upward from the ground, crosses a point “A” in time “
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+”. If the ball continues to move up and then return to the ground in additional time “
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+”, then find the height of “A” from the ground.
+.
+</para>
+
+<para id="element-86"> <term>Solution : </term> Let the upward direction be the positive reference direction. The displacement equation for vertical projection from the ground to the point “A”, is  : 
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mn> + </m:mn>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+In this equation, the only variable that we do not know is initial velocity. In order to determine initial velocity, we consider the complete upward motion till the ball reaches the maximum height. We know that the ball takes half of the total time to reach maximum height. It means that time for upward motion till maximum height is :
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mrow>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mn> + </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+As we know the time of flight, final velocity and acceleration, we can know initial velocity :
+</para>
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mrow>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mi> g </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mrow>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mn> + </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92">
+Substituting this value, the height of point “A” is :
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mn> + </m:mn>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mn> + </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mn> - </m:mn>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mi> g </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> g </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<example id="example-94">
+<para id="element-94"> <term>Problem : </term> A ball, thrown vertically upward from the ground, crosses a point “A” at a height 80 meters from the ground. If the ball returns to the same position after 6 second, then find the velocity of projection. (Consider g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+). 
+</para>
+
+<para id="element-95"> <term>Solution : </term> Since two time instants for the same position is given, it is indicative that we may use the displacement equation as it may turn out to be quadratic equation in time “t”. The displacement, “y”, is (considering upward direction as positive y-direction) :
+</para>
+<para id="element-96">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mn> + </m:mn>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn> 80 </m:mn>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mn> + </m:mn>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mn> - </m:mn>
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mn> - </m:mn>
+<m:mn> 5 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mn> 5 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mn> + </m:mn>
+<m:mn> 80 </m:mn>
+<m:mn> = </m:mn>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-97">
+We can express time “t”, using quadratic formulae,
+</para>
+<para id="element-98">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> ) </m:mo> 
+<m:mn> + </m:mn>
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 80 </m:mn>
+<m:mo> } </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> u </m:mi>
+<m:mn> + </m:mn>
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 1600 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 10 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99">
+Similarly, 
+</para>
+<para id="element-100">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> u </m:mi>
+<m:mn> - </m:mn>
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 1600 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 10 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-101">
+According to question,
+</para>
+<para id="element-102">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mn> - </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 1600 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 1600 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 1600 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 30 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-103">
+Squaring both sides we have,
+</para>
+<para id="element-104">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 1600 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 900 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-8">
+<title> Collision in air
+</title>
+<example id="example-105">
+<para id="element-105"> <term>Problem : </term> A ball “A” is dropped from a height, “h”, when another ball, “B” is thrown upward in the same vertical line from the ground. At the instant the balls collide in the air, the speed of “A” is twice that of “B”. Find the height at which the balls collide. 
+</para>
+<para id="element-106"> <term>Solution : </term> Let the velocity of projection of “B” be “u” and let the collision occurs at a fraction “a” of the height “h” from the ground. We should pause and make mental note of this new approach to express an intermediate height in terms of fraction of total height (take the help of figure). 
+</para>
+<para id="element-107">
+<figure id="fig-107">
+<title> Collision in the mid air </title>
+<media id="idm4300848" alt=""><image src="../../media/vmg4-4cc3.gif" mime-type="image/gif"/></media>
+<caption> The balls collide as they move in same vertical line.</caption>
+</figure>
+</para>
+<para id="element-108">Adhering to the conventional approach, we could have denoted the height at which collision takes place. For example, we could have considered collision at a vertical displacement y from the ground. Then displacements of two balls would have been :
+</para>
+<para id="element-109">
+“y” and “h – y”
+</para>
+<para id="element-110">
+Obviously, the second expression of displacement is polynomial of two terms because of minus sign involved. On the other hand, the displacements of two balls in terms of fraction,  are :
+</para>
+<para id="element-111">
+“ha” and “(1-a)h”
+</para>
+<para id="element-112">
+The advantage of the second approach (using fraction) is that displacements are stated in terms of the product of two quantities. The variable “h” appearing in each of the terms cancel out if they appear on ether side of the equation and we ultimately get equation in one variable i.e. “a”. In the nutshell, the approach using fraction reduces variables in the resulting equation. This point will be highlighted at the appropriate point in the solution to appreciate why we should use fraction?
+</para>
+<para id="element-115">Now proceeding with the question, the vertical displacement of “B” is ah and that of “A” is (1-a)h. We observe here that each of the balls takes the same time to cover respective displacements. Using equation of constant acceleration in one dimension (considering downward vertical direction positive), 
+</para>
+<para id="element-116">
+For ball “A”,
+</para>
+<para id="element-117"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-118">
+For ball “B”,
+</para>
+<para id="element-119">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-120">
+The value of “t” obtained from the equation of ball “A” is : 
+</para>
+<para id="element-121">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-122">
+Substituting in the equation of ball “B”, we have :
+</para>
+<para id="element-123"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo> 
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> h </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-124">
+Now, according to the condition given in the question,
+</para>
+<para id="element-125">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-126">
+Using equations of motion for constant acceleration, we have :
+</para>
+<para id="element-127"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> a </m:mi>
+<m:mi> h </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> g </m:mi>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> g </m:mi>
+<m:mi> a </m:mi>
+<m:mi> h </m:mi>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-128">
+Recall our discussion on the use of fraction. We can write down the corresponding steps for conventional method to express displacements   side by side and find that the conventional approach will lead us to an equation as :
+</para>
+<para id="element-129"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+ 
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> h </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> y </m:mi>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-130">
+Evidently, this is an equation in two variables and hence can not be solved. It is this precise limitation of conventional approach that we switched to fraction approach to get an equation in one variable,
+</para>
+<para id="element-131"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> { </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> } </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-132">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:mfrac bevelled="true">
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-133">
+Neglecting, a =0,
+</para>
+<para id="element-134">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac bevelled="true">
+<m:mn> 2 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-135">
+The height from the ground at which collision takes place is :
+</para>
+<para id="element-136">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> h </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> h </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+  
+  </content>
+  
+</document>

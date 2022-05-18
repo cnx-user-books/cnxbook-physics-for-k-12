@@ -1,0 +1,712 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Analysis framework for laws of motion</title>
+  <metadata>
+  <md:content-id>m14046</md:content-id><md:title>Analysis framework for laws of motion</md:title>
+  <md:abstract>A planned approach to problems is essential to effectively apply laws of motion.</md:abstract>
+  <md:uuid>fdff712e-81e8-4f90-b986-11a8d6cc484b</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/content/m14720/latest/" strength="3">Free body diagram (application)</link>
+      <link url="http://cnx.org/content/m14725/latest/" strength="2">Resolution of forces (application)</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">The analysis of motion involves writing Newton's second law of motion in mutually perpendicular coordinate directions. For this, we carry out force analysis following certain simple steps. These steps may appear too many, but we become experienced while working with them. Some of the steps are actually merged. Nevertheless, we need to recognize the importance of each of the steps as these are critical steps to ensure correct analysis of the motion/ situation. The steps are :     </para>
+<para id="element-3">
+<list id="list-3" list-type="enumerated">
+<item> Identifying body system
+ </item>
+<item> Identifying external forces
+ </item>
+
+<item> Identifying a suitable coordinate system
+ </item>
+<item> Constructing a free-body diagram
+ </item>
+
+<item> Resolving force along the coordinate axes
+ </item>
+
+<item> Applying second law of motion
+ </item></list>
+</para>
+<para id="element-4">The identification of body system is based on the description of the problem. The body system decides the nature of force - whether it is internal or external. The selection of body system should suit the requirement of the analysis i.e. end objective of analysis. This will be clear as we discuss this aspect subsequently in the module. 
+</para>
+<para id="element-4a"> The identification of external forces means to identify forces, which are applied on the object by other objects/sources and exclude forces, which the object applies on other objects. The important aspect of identification of external force is that external characterization depends on the definition of body system. The same force, which is external to a body, may become internal force for a different body system involving that body.</para>
+<para id="element-81">In this module, we shall not discuss steps 2 and 6. As far as identification of external forces (step 2) is concerned, we have discussed the same with an appropriate example in module titled <link document="m14042"> Newton’s second law of motion </link>. On the other hand, we shall apply second law of motion in mutually perpendicular directions (step 6) in the analysis of individual cases and as such we shall not discuss this step separately. </para>
+<section id="section-1">
+<title> Identifying body system </title>
+
+<para id="element-5">
+If we are studying a single or two body system, then there is no issue. However, let us consider an illustration here as shown in the figure. There are possibilities of having different combination of bodies constituting different body systems.
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Identifying body system </title>
+<media id="id7730691" alt=""><image src="../../media/aflm1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-7">
+in selection of a body system, the guiding principle is to treat bodies as a single body system, when we know that bodies have common acceleration. 
+</para>
+<para id="element-8">In the figure, the objects numbered 2 and 3 can be considered a single body system as two bodies have same acceleration. The objects 3 and 4 can not be combined as a single body system as they have acceleration of same magnitude, but with different direction. The objects 1 and 2 can be treated as a single body system, if two bodies do not have relative motion with respect to each other. Otherwise, we would need to treat them as separate body systems. 
+</para>
+<para id="element-9">It is not always required that we must know the direction of acceleration before hand. We can assume a direction with respect to one body system and then proceed to find the directions of the accelerations of the other body systems in the arrangement. Even if our assumption about the direction of acceleration is incorrect, the solution of the problem automatically corrects the direction. We shall see this aspect while working with specially designed example, higlighting the issue.  </para>
+<para id="element-10">But the basic question is to know : why should be look for more than one body system in the first place? It is because such considerations will yield different sets of equations involving laws of motion and thus facilitate solution of the problem in hand. 
+ </para>
+</section>
+
+
+<section id="section-2">
+<title> Identifying a suitable coordinate system </title>
+
+<para id="element-11">
+There is no rule in this regard. However, a suitable coordinate system facilitates easier analysis of problem in hand. The guiding principle in this case is to select a coordinate system such that one of the axes aligns itself with the direction of acceleration and other is perpendicular to the direction of acceleration. 
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Identifying a suitable coordinate system </title>
+<media id="id4187612" alt=""><image src="../../media/aflm2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-14">
+For the case as shown in the figure, the coordinate system for body 1 has its x-axis aligned with the incline, whereas its y-axis is perpendicular to the incline. In case, bodies are in equilibrium, then we may align axes such that they minimize the requirement of taking components.
+</para>
+<para id="element-15">
+It must be realized here that we are free to utilize more than one coordinate system for a single problem. However, we would be required to appropriately choose the signs of vector quantities involved. 
+</para>
+<para id="element-16">
+<figure id="fig-16">
+<title> Identifying a suitable coordinate system </title>
+<media id="id8015809" alt=""><image src="../../media/aflm3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-17">In the figure above, we have selected two coordinate systems; one for body 1 and other for body 2. Note that y-axis for body 2 is vertical, whereas y – axis of body 1 is perpendicular to incline. Such considerations are all valid so long we maintain the sign requirements of the individual coordinate systems. In general, we combine "scalar" results from two different coordinate systems. For example, the analysis of force on body 2 yields the magnitude of tension in the string. This value can then be used for analysis of force on body 1, provided string is mass-less and tension in it transmits undiminished. 
+</para>
+
+</section>
+
+<section id="section-3">
+<title> Constructing a free-body diagram </title>
+
+<para id="element-19">A free body diagram is a symbolic diagram that represents the body system with a “point” and shows the external forces in both magnitude and direction. This is the basic free-body diagram, which can be supplemented with an appropriate coordinate system and some symbolic representation of acceleration. The free body diagram of body 1 is shown in the upper left corner of the figure :
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> Constructing a free-body diagram </title>
+<media id="id7486348" alt=""><image src="../../media/aflm4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-21">We may have as many free body diagrams as required for each of the body systems. If the direction of acceleration is known before hand, then we may show its magnitude and direction or we may assign an assumed direction of acceleration. In the later case, the solution finally lets us decide whether the chosen direction was correct or not?
+</para>
+
+<section id="section-3a">
+<title> What force system do we study? </title>
+<para id="element-24">We have discussed in the module titled "Newton's second law of motion" that we implicitly consider force system on a body as concurrent forces. It is so because, Newton's second law of motion connects force (cause) with "linear" acceleration (effect). The words "linear" is implicit as there is no reference to angular quantities in the statement of second law for translation.</para>
+<para id="element-25">We, however, know that such con-currency of forces can only be ensured if we consider point objects. What if we consider real three dimensional bodies? A three dimensional real body involves only translation, if external forces are concurrent (meeting at a common point) and coincides with the "center of mass" of the body. In this situation, the body can be said to be in pure translation. We need only one modification that we assign acceleration of the body to a specific point called "center of mass" (we shall elaborate this aspect in separate module).  </para>
+<para id="element-27">The real time situation presents real three dimensional bodies. We encounter situation in which forces are not concurrent. Still, we consider them to be concurrent (by shifting force in parallel direction). It is because physical set up constrains motion to be translational. For example, consider the motion of a block on an incline as shown in the figure.
+</para>
+<para id="element-27a">
+<figure id="fig-27a" orient="horizontal">
+<title> A block on an incline </title>
+<subfigure id="fig-27aa">
+<media id="id5302647" alt=""><image src="../../media/aflm5a.gif" mime-type="image/gif"/></media>
+<caption> Friction induces a tendency to overturn. </caption>
+</subfigure>
+<subfigure id="fig-27ab">
+<media id="id3740474" alt=""><image src="../../media/aflm6a.gif" mime-type="image/gif"/></media>
+<caption> The weight counterbalances the tendency to overturn. </caption>
+</subfigure>
+</figure>
+
+</para>
+<para id="element-27b">
+The forces weight (mg), normal force (N) and friction force (Ff) are not concurrent. The friction force, as a matter of fact, does not pass through "center of mass" and as such induces "turning" tendency. However, block is not turned over as restoring force due to the weight of the block is greater and inhibits turning of the block. In the nutshell, block is constrained to translate without rotation. Here, translation is enforced not because forces are concurrent, but because physical situation constrains the motion to be translational.
+</para>
+</section>
+</section>
+
+<section id="section-4">
+<title> Resolving force along the coordinate axes </title> 
+<para id="element-34">
+The application of a force and resulting motion, in general, is three dimensional. It becomes convenient to analyze force (cause) and acceleration (effect) analysis along coordinate axes. This approach has the benefit that we get as many equations as many there are axes involved. In turn, we are able to solve equations for as many unknowns. 
+</para>
+<para id="element-35">
+We must know that the consideration in each direction is an independent consideration – not depending on the motion in other perpendicular directions. A force is represented by an equivalent system of components in mutually perpendicular coordinate directions.
+</para>
+<para id="element-36">
+The component of force vector along a direction (say x-axis) is obtained by :
+</para>
+<para id="element-37">
+<figure id="fig-37">
+<title> Component of force </title>
+<media id="id7590581" alt=""><image src="../../media/aflm8.gif" mime-type="image/gif"/></media>
+<caption> The angle is measured from the positive reference direction. </caption>
+</figure>
+</para>
+<para id="element-38">
+<equation id="equation-38">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</equation>
+</para>
+<para id="element-39">
+where “θ” is the angle that force vector makes with the positive direction of x-axis. For example, consider the force as shown in the figure. We need to find the component of a force along x-axis. Here, 
+</para>
+<para id="element-39a">
+<figure id="fig-39a">
+<title> Component of force </title>
+<media id="id7908132" alt=""><image src="../../media/aflm9.gif" mime-type="image/gif"/></media>
+<caption> Acute angle is considered. </caption>
+</figure>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>240</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-41">
+Alternatively, we consider only the acute angle that the force makes with x-axis. We need not measure angle from the The angle here is 60°. As such, the component of the force along x-axis is :
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> Component of force </title>
+<media id="id4190549" alt=""><image src="../../media/aflm10.gif" mime-type="image/gif"/></media>
+<caption> Acute angle is considered. </caption>
+</figure>
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+We decide the sign of the component by observing whether the projection of the force is in the direction of x-axis or opposite to it. In this case, it is in the opposite direction. Hence, we apply negative sign as,
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">
+Clearly, if a force “<term>F</term>” makes angles α, β and γ with the three mutually perpendicular axes, then :
+</para>
+<para id="element-46a">
+<figure id="fig-46a">
+<title> Components of force </title>
+<media id="id3429996" alt=""><image src="../../media/aflm11.gif" mime-type="image/gif"/></media>
+<caption> The angle is measured from respective directions of axes. </caption>
+</figure>
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>β</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>γ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+We can write vector force, using components, as :
+</para>
+<para id="element-51">
+<equation id="equation-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>β</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>γ</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>k</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</equation>
+</para>
+<para id="element-52">
+In the case of coplanar force, we may consider only one angle i.e. the angle that force makes with one of the coordinate direction. The other angle is compliment of this angle. If “θ” be the angle that force makes with the positive direction of x-axis, then
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> Components of coplanar force </title>
+<media id="id5573591" alt=""><image src="../../media/aflm12.gif" mime-type="image/gif"/></media>
+<caption> There are two components of a coplanar force. </caption>
+</figure>
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mn>90</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section> 
+<example id="example-56">
+<para id="element-56"><term>Problem : </term> Find the magnitude of components of the weight of the block of 1 kg in the directions, which are  parallel and perpendicular to the incline of angle 30°.
+</para>
+<para id="element-57"><term>Solution : </term> 
+</para>
+<para id="element-58">
+The weight of the block acts in vertically downward direction. Its magnitude is given as :
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> Components of force </title>
+<media id="id4360790" alt=""><image src="../../media/aflm14.gif" mime-type="image/gif"/></media>
+<caption> Components parallel and perpendicular to incline </caption>
+</figure>
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">
+The direction of weight is at an angle 30° with the perpendicular to the incline. Hence, components are :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>W</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mrow>
+        <m:mo>∣</m:mo>
+        <m:mo>∣</m:mo>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>W</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+<term>Note : </term> We should realize here that these are the magnitudes of components in the referred directions. The components have directions as well. The values here, therefore, represent the scalar components of weight. The vector components should also involve directions. Since components are considered along a given direction, it is possible to indicate direction by assigning appropriate sign before the values. 
+</para>
+<para id="element-65">
+The sign of the components depend on the reference directions i.e. coordinate system. Let us consider the given components in two coordinate systems as shown. In the first coordinate system,
+</para>
+<para id="element-66">
+<figure id="fig-2" orient="horizontal"><title> Components of weight </title>
+<subfigure id="fig-2a">
+<media id="id5235122" alt=""><image src="../../media/aflm15.gif" mime-type="image/gif"/></media>
+<caption> Upward perpendicular direction is positive.  </caption>
+</subfigure>
+<subfigure id="fig-2b">
+<media id="id3513027" alt=""><image src="../../media/aflm16.gif" mime-type="image/gif"/></media>
+<caption> Downward perpendicular direction is positive. </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>W</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>W</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69">
+In the second coordinate system,
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>W</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>W</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example> 
+
+  </content>
+  
+</document>

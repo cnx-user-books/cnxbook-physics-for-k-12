@@ -1,0 +1,1563 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Law of motion in angular form for a system of particles</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>6f8cf8e1-f389-4213-b363-dcead40862e5</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">This module is an extension of previous module in the sense that we move from  consideration of a "particle" to that of a "collection of particles". If we have understood the derivation of angular momentum and second law of motion for a particle, then it would be near replica of reasoning for a system of particles here in this module. However, there are certain characteristic features about system of particles as different from a single particle. These characteristic features will be pointed out (emphasized) in the appropriate context. 
+</para>
+<section id="section-1">
+<title>  Newton's second law for a system of particles in general motion 
+</title>
+<para id="element-2">The concept of angular momentum can easily be extended to include particles, constituting a system. Each of the particles can be associated with certain velocity.  In angular parlance, we can assign angular momentum to each of them, provided they are moving. They may be subjected to internal as well as external forces. This is very important difference between a "particle" and a "system of particles". When we consider a single particle, the force can only be external. A particle occupying a point of zero dimension can not be associated with internal force.
+</para>
+<para id="element-3">For visualization, we can again consider the example of particles or billiard balls that we used in the context of linear momentum. The situation, here, is same with one exception that we shall refer to a point (origin "O" as shown) for calculating angular momentum as against calculation of linear momentum that does not require any such reference point.
+</para>
+<para id="element-4">
+<figure orient="horizontal" id="fig-4">
+<title> Angualr momentum of asystem of particles </title>
+<subfigure id="fig-4a">
+<media id="idp5433904" alt=""><image src="../../media/s1-d6c7.gif" mime-type="image/gif"/></media>
+<caption> Particles moving in different directions </caption>
+</subfigure>
+<subfigure id="fig-4b">
+<media id="idm1318272" alt=""><image src="../../media/s2-a95e.gif" mime-type="image/gif"/></media>
+<caption> Billiard balls moving in different directions </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-5">
+The angular momentum of a particle in three dimensional space is defined by the vector relation :
+</para>
+<para id="element-6"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-7">where “<term>r</term>" and “<term>v</term>” denotes the position and velocity vectors respectively. We can combine angular momentum of one particle provided angular momentums are measured about a common point. Though, we can calculate angular momentum about different points, but then no physical meaning can be assigned to such calculation. This requirement is actually the reason that angular momentum, in general, is defined about a point - not about an axis. It would have not been possible to associate motion of particles with a common axis.
+</para>
+<para id="element-8">Since angular momentum is a vector quantity, the angular momentum of all the particles is equal to the vector sum of all the individual angular momentums. It is imperative that the summation would require application of vector addition rules to get the sum of the angular momentums. 
+</para>
+<para id="element-9"><equation id="equation-9"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-10">The angular momentum of the system of particles is denoted by capital “<term>L</term>”. The particles may change their velocities subsequent to collisions among themselves (due to internal forces) or because of external forces. Consequently, angular moment of the system may change with time. The first time derivative of the  angular momentum of a particle is equal to the torque on it :
+</para>
+<para id="element-11"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12a">
+</para>
+<para id="element-12">The most critical aspect of this equation is that the sum of torques involves both internal as well as external torques. When we talk of torques on the system of particles, the classification of internal and external depends on the boundary of closed system. This, in turn, depends which of the particles are included and which of the particles are excluded from the system. The forces (constituting torques) applied by particles included in the system constitute internal torques. The remaining ones are external torques. A particle can not have internal torque anyway. We must also understand that when we say a torque is applied on a particle (without any qualification), we implicitly mean that torque is external to the particle. 
+</para>
+
+<para id="element-15">
+According to Newton's third law, the internal forces (torques) appear always in the pair of equal and opposite forces (torques). As such, they cancel each other. The expression of angular momentum, then, reduces to :
+</para>
+<para id="element-16"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">where "
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+</m:math>
+" represents net external torue on the system of particles. Finally, the second law of motion in angular form for a system of particles is expressed as :
+</para>
+<para id="element-18"><equation id="equation-22"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-19">This relationship is same as that of a single particle. Only difference is that net external torque, now, is equal to the first time derivative of the vector sum of angular momentum (L) of the system of particles as against a single particle. Evidently, this relation holds for measurement of angular momentum and torque about the same reference point.
+</para>
+</section>
+ 
+<section id="section-2">
+<title>   Newton's second law for a rigid body in rotational motion
+</title>
+<para id="element-20">If the particles in a system are closely packed and its mass distribution about the axis of rotation is fixed, then the aggregation of particles is known as rigid body. The case of rigid body differs to a system of particles in following aspects :
+</para>
+<para id="element-21">
+<figure id="fig-21">
+<title>  Rigid body in rotation </title>
+<media id="idm8393952" alt=""><image src="../../media/s3-99a5.gif" mime-type="image/gif"/></media>
+<caption> Every particle composing the rigid body executes circular motion.</caption>
+</figure>
+</para>
+<para id="element-22">
+<list id="list-2" list-type="enumerated">
+<item> The rigid body moves about an axis of rotation instead of a point. </item>
+<item> The angular quantities can be written in scalar forms with appropriate signs, as they have only two directions. </item>
+</list>
+</para>
+<para id="element-23">
+The angular momentum (ℓ) is the product of moment arm (
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> ⊥ </m:mo> 
+</m:msub>
+</m:math>
+) and linear momentum. The angular momentum of the rigid body (as a system of particles) is given by a scalar sum as given here :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> ℓ </m:mi>
+<m:mi> i </m:mi>
+</m:msub> 
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> i⊥ </m:mo> 
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> i⊥ </m:mo> 
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+Scalar summation is possible in the case of rotation as angular momentum is always along the axis of rotation - either in the positive or negative direction. We must be careful to remember that 
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> i⊥ </m:mo> 
+</m:msub>
+</m:math>
+ is moment arm of about the axis of rotation - not about the point as in the general case. Now, each of the particle rotates with same angular velocity. As such, it can be taken out of the summation sign.
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mo> i⊥ </m:mo> 
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+We note that moment of inertia of the rigid body does not change with time. The only quantity that may change with is angular velocity. Hence, the first time derivative of the total angular momentum is :
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> ω  </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+However, we have derived the following relation earlier for rotation of a rigid about an axis :
+</para>
+<para id="element-30"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+Combining, two equations we have two expressions for torque :
+</para>
+<para id="element-32"><equation id="equation-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<example id="example-33">
+<para id="element-33"><term>Problem : </term> A wheel of mass 10 kg and radius 0.2 m is rotating at an angular speed of 100 rpm with the help of a motor drive. At a particular moment, the motor is turned off. Neglecting friction at the axle, find the constant tangential force required to stop the wheel in 10 revolutions.
+</para>
+<para id="element-34"> <term>Solution : </term>  We need to find the tangential force, which is related to torque as :
+</para>
+
+<para id="element-35"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mi> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+If we know torque, then we can find the force required to stop the wheel. Now, torque is given as (using Newton's second law in angular form), 
+</para>
+<para id="element-37"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+Here, MI of the rotating wheel is :
+</para>
+<para id="element-39"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> 0.2 </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> 0.2 </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> kg- </m:mi>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+By inspecting equation of torque, we realize that we need to find angular acceleration to calculate torque on the wheel. Since the external force is constant, we can conclude that the resulting torque is also constant. This means that the wheel is decelerated at constant rate. Thus, applying equation of motion,
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msubsup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> = </m:mo>
+<m:msubsup>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> α </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+Here, 
+</para>
+<para id="element-43"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 100 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 60 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mn> 10 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rev </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> π </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msubsup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msubsup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+     
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 10 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mn> 20 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 18 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45a">
+Putting this value in the equation, we have :
+</para>
+<para id="element-45"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 18 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 18 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">
+Thus, 
+</para>
+<para id="element-47"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> τ </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 18 </m:mn>
+<m:mo> x
+ </m:mo>
+<m:mn> 0.2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.87 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+Negative sign indicates that force is opposite to the direction of velocity.
+</para>
+</example>
+</section>
+<section id="section-3">
+<title>   Does Newton’s law of motion in angular form hold in the accelerated frame ?
+</title>
+<para id="element-49">Answer to this question is very relevant in the case of combined (translation and rotation) motion. Consider the case of rolling. The axis of rotation i.e. the reference of motion itself may be accelerating down an incline. We may also consider the example of a spring board diver. In this case, the diver accelerates down the spring board under gravity while performing eye catching twists and turns. Here, also the reference frame of rotation attached to the diver is accelerating.
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title>  Rolling along an incline </title>
+<media id="idp5032096" alt=""><image src="../../media/s4-856e.gif" mime-type="image/gif"/></media>
+<caption> The disk rotates about an axis passing through center of mass.</caption>
+</figure>
+</para>
+<para id="element-51">
+Now, let us have the look the way we define a torque :
+</para>
+<para id="element-52"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mspace width="2pt"/> 
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+where,
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo mathvariant="bold"> a </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">We ofcourse know that the relation of force and acceleration (which is Newton’s second law of motion) is valid in inertial frame and is not valid for non-inertial frame. We may, therefore, infer that the Newton’s second law in angular forms as derived here for system of particles and rigid body may also be not valid for non-inertial frames.
+</para>
+<para id="element-56">The question is, then, how do we apply these equation forms in cases of rolling and spring board driver ? The answer is that accelerated rolling or combined motion provides an unique situation for dealing motion in accelerated frame of reference.
+</para>
+<para id="element-57">If we recall, then we realize that we can render a non-inertial (accelerating reference) into an inertial frame by applying a psuedo force at the center of mass of the system of particle or the rigid body as the case may be. This has important bearing on the outcome of net torque.  If the reference point is the center of mass of the system of particle, then the torque due to pseudo force about center of mass is zero. It means that applying Newton's law to a system of particle about the center of mass will be valid even if center of mass i.e. reference point itself is accelerating. Similar is the situation for rotation of a rigid body about an accelerating axis of rotation, which is passing  through the center of mass. The torque due to pseudo force about the axis passing through center of mass is zero. Therefore, application of Newton's law for rotation of a rigid body about an accelerating axis passing through center of mass is valid.
+</para>
+<para id="element-57a">In retrospect, we find that application of Newton's law to determine torque on a rolling body with accelerated axis was premediated as we had not considered the non-inertial frame of reference. From the discussion here, it is clear that we had been not been wrong. 
+</para>
+</section>
+
+
+<section id="section-4">
+<title> Angular momentum of a body in combined motion
+</title>
+<para id="element-58">Here, we consider combined motion of a rigid body comprising of both translational and rotational motions. This is a general consideration, in which the body may or may not be in pure rolling. We shall derive the required expression, proceeding from the basic expression of angular momentum with respect to a point.
+</para>
+<para id="element-59">Let a body of some shape is in combined motion at an instant as shown in the figure below. For our consideration, it is not required that the body of regular geometric shape as we intend to develop the expression in very general term. Let the point, about which angular momentum is considered, be the origin of coordinate system. 
+</para>
+<para id="element-60">In this situation, we further consider that the center of mass is defined by the position  vector (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+) and its velocity is represented by “
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+" .  We, now, consider a particle of mass "
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+", which is specified given the position vector “
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+". According to the defining equation of angular momentum of a particle, 
+</para>
+<para id="element-626"><figure id="fig-626">
+<title>  A body in combine motion </title>
+<media id="idp1882352" alt=""><image src="../../media/s5-a2f2.gif" mime-type="image/gif"/></media>
+<caption> The body may translate as well as rotate.</caption>
+</figure></para><para id="element-61"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mspace width="2pt"/> 
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+Angular momentum of the body about the origin is :
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> ℓ </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+By the triangle formed by the vectors,
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+Substituting in the expression of angular momentum of the particle, we have :
+</para>
+<para id="element-67"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68a">
+Expanding the expression, we have :
+</para>
+<para id="element-69a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">
+We should be careful to maintain the sequence of vectors with respect to vector cross sign as a change will mean change in direction. Further, we should understand that we determine angular momentum for a given instant. At a given instant, the position vector of the center of mass, however,  is unique and as such, we can take the same out  from the summation sign.  Rearranging,
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+Looking at the individual terms in the expression, we realize that some of the terms are part of the definition of center of mass. The center of mass of the body with respect to the origin of a coordinate system is defined as :
+</para>
+<para id="element-69"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> R </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+Now, the center of mass of the body with respect to “itself” is zero :
+</para>
+<para id="element-73"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> R </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+Going by the similar logic or by taking time derivative of the above equation, we can conclude that : 
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">
+Using these zero values and simplifying, we have :
+</para>
+<para id="element-78"><equation id="equation-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> iC </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-79">
+We note here that first term is the angular momentum of the body with respect to origin, as if the mass of the body were concentrated at center of mass. This measurement of angular momentum is a measurement in ground reference i.e. in the coordinate system. The second term, however, is equal to angular momentum of the body (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+) as seen from the reference system attached to “center of mass” and about “center of mass” – a point. 
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">We should emphasize that angular momentum about center of mass is not the same as about an axis of rotation. However, the angular momentum about center of mass is same as angular momentum about axis of rotation passing through center of mass in cases where point (origin) and center of mass are in the plane of motion. In such case, 
+</para>
+<para id="element-82"><equation id="equation-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+</section>
+
+<section id="section-5">
+<title> Summary
+</title>
+<para id="element-83">
+<term>1: </term> Newton’s second law of motion in angular form for a system of particles about a point is given as :
+</para>
+<para id="element-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85">
+In words, the net external torque on the system of particles is equal to the time rate of change of angular momentum.
+</para>
+<para id="element-86">
+<term>2: </term> Newton’s second law of motion for rotation of a rigid body  is given as :
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> net </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+<term>3: </term> The differences in comparison to Newton’s second law of motion in angular form for a system of particles about a point are :
+</para>
+<para id="element-89">
+<list id="list-89" list-type="bulleted">
+<item> Angular momentum is measured with respect to an axis of rotation.
+ </item>
+<item> The moment arm is measured in the plane of rotation from the axis of rotation.
+ </item>
+<item> Angular momentum about an axis is equal to the component of angular momentum about a point in the direction of axis of rotation.
+ </item>
+<item> The relation that connects torque to moment of inertia and angular acceleration is valid only for the case of rotation.
+ </item>
+<item> We can apply Newton’s second law of motion for rotation of a rigid body -  even in the cases where the axis of rotation is accelerating. 
+ </item>
+</list>
+</para>
+<para id="element-90">
+<term>4: </term> Angular momentum of Combined motion 
+</para>
+<para id="element-91">
+The expression of angular momentum for combined motion is given by :
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math> 
+</para>
+<para id="element-93">
+The first term is the angular momentum of the body with respect to origin, as if the mass of the body were concentrated at center of mass. The second term (LC) is equal to angular momentum of the body as seen from the reference system attached to “center of mass” and about “center of mass” – a point. 
+</para>
+<para id="element-94">
+The angular momentum about center of mass is same as angular momentum about axis of rotation passing through center of mass  in cases where point (about which angular momentum is measured) and center of mass are in the plane of motion like. In such case, 
+</para>
+<para id="element-95">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> I </m:mi>
+<m:mi> ω </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+
+  </content>
+  
+</document>

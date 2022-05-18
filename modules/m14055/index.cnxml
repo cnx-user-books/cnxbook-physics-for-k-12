@@ -1,0 +1,929 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Force and invariant mass</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>57a814ca-d658-4bff-95c0-d54c7c35b928</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Newton’s second law is stated in terms of either time rate of change of momentum or as  a product of mass and acceleration.
+</para>
+<para id="element-2">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-3">
+and
+</para>
+<para id="element-4">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-5">
+There is a bit of debate (even difference of opinion) about the forms (momentum .vs. acceleration) in which Newton’s second law is presented – particularly with respect to consideration of mass as invariant or otherwise. In this module, we shall discuss to resolve this issue.
+</para>
+<para id="element-6">
+As far as classical mechanics is concerned, we shall see that mass is always considered invariant. The reference to variable mass is actually about redistribution of mass - not the change in the mass of the matter. Such is the case with a leaking balloon or with a rocket. Matter (gas exhaust) is simply let out in the surrounding. So long, mass is not redistributed during the application of external force, we can safely take out mass from the differential of first equation. In that case, expression of force in two forms are same and equal.    
+</para>
+<para id="element-7">
+However, the two forms of force defining relations are not equivalent in relativistic mechanics. Here, the definition of force in terms of linear momentum stands, but not the form involving mass and acceleration. We shall refer the actual relation in the end of this module. 
+</para>
+
+<section id="section-1">
+<title> Mass invariance  </title>
+<para id="element-34"> The mass invariance in classical mechanics enables us to take the mass out of the differential equation given by Newton’s second law :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+This is important from the perspective that external force can be expressed in terms of acceleration :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+A situation, where measurement of force is required, assumes that mass is invariant. We proceed to measure force either in terms of acceleration or change in momentum in equivalent manner. 
+</para>
+<section id="section-1a">
+<title> Force as product of mass and acceleration </title>
+<example id="example-39">
+<para id="element-39"><term>Problem : </term> A bullet of 10 gram enters into a wooden target with a speed of 200 m/s and comes to stop with constant deceleration. If linear penetration into the wood is 10 cm, then find the force on the bullet.
+</para>
+<para id="element-39a">
+<figure id="fig-39a"><title> A bullet hits wooden target </title>
+<media id="idm4577264" alt=""><image src="../../media/imf2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-40"> <term>Solution : </term> The motion of the bullet is resisted by wood, which applies a force in a direction opposite to that of the bullet. We assume wood to be uniform. The resistance offered by it, therefore, is constant. Now, as force is constant, resulting deceleration is also constant. Applying equation of motion,
+</para> 
+<para id="element-41">
+u = 500 m/s ; v = 0; x = 10/100 = 0.1 m.
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 200 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 0.1 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 40000 </m:mn>
+<m:mn> 0.2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 200000 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+Force on the bullet,
+</para>
+<para id="element-44">
+F = ma = - 0.01 x 200000 = -2000 N
+</para>
+<para id="element-45">
+Note that bullet, in turn, applies 2000 N of force on the wooden target. This explains why bullet hits are so fatal for animals. Further note that we measured force as product of mass and acceleration. 
+</para>
+</example>
+</section>  
+
+
+<section id="section-1b">
+<title> Force as a time rate of change in linear momentum </title>
+<example id="example-46">
+<para id="element-46"><term>Problem : </term> A ball of mass “m” with a speed “v” hits a hard surface as shown in the figure. The ball rebounds with the same speed and at the same angle, θ, with vertical as before. Find average force acting on the ball.  
+</para>
+<para id="element-47">
+<figure id="fig-47"><title> A ball strikes the hard surface </title>
+<media id="idm3922576" alt=""><image src="../../media/imf3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-48"><term>Solution : </term> We can determine force either (i) by measuring acceleration or (ii) by measuring change in linear momentum during the motion. Here, we take the second approach.
+</para> 
+<para id="element-50">
+The linear momentum (remember that it is a vector) before hitting surface is :
+</para>
+<para id="element-51">
+<figure id="fig-51"><title> Components of linear momentum before hitting surface </title>
+<media id="idm2197040" alt=""><image src="../../media/imf4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+The linear momentum (remember that it is a vector) after hitting surface is :
+</para>
+<para id="element-54">
+<figure id="fig-54"><title> Components of linear momentum after hitting surface </title>
+<media id="idm1012672" alt=""><image src="../../media/imf5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+The change in linear during contact with surface, Δp,</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">
+The average force is :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi mathvariant="bold"> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Note that force is acting in vertical upward direction.
+</para>
+</example>
+</section>  
+</section>  
+
+<section id="section-2">
+<title> Mass redistribution and Newton's second law </title>
+<para id="element-9"> There are certain system in which mass is redistributed with the surrounding. The change in mass of the system results as there is exchange of mass between the system and its surrounding. The motion of a leaking balloon, as shown, is an example of changing mass system. 
+</para>
+<para id="element-9a">
+<figure id="fig-9a">
+<title> Leaking balloon </title>
+<media id="idp1931648" alt=""><image src="../../media/imf1.gif" mime-type="image/gif"/></media>
+<caption> The air gushing out of the balloon generates an external force on balloon. </caption>
+</figure>
+</para>
+<para id="element-10">Similar is the situation in the case of a rocket. Now, does this exchange of mass with surrounding have any bearing on the form of Newton’s second law or about the meaning of force as product of mass and acceleration? This is the question that we need to answer. To investigate this question, let us consider the motion of the rocket. It acquires very high speed quickly as a result of high speed gas escaping in the opposite direction. </para>
+<para id="element-72">Applying Newton’s second law, considering that the mass of the system is changing :
+</para><para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi> v </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">This apparent mass variant form of Newton’s second law appears to destroy the well founded meaning of force as "product of invariant mass and acceleration". As a matter of fact, it is not so. 
+</para>
+<para id="element-14">Let us recall that the relation, F = ma, essentially underlines relation between force (cause) and acceleration (effect). Now look closely at the additional term resulting from change in mass in the context of a real time case like of a rocket. Rearranging, we have :
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:mi> v </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-657">Here, we need to be cautious in interpreting this expression. The first question that we need to answer is : what does "v" represent in the expression? Is it the velocity of rocket or escaping gas or is it the relative velocity of rocket with respect to escaping gas? The second question, then, is what does "a" represent? </para><para id="element-956">We see that "v" should represent the velocity of the rocket in the ground inertial reference. This is the way we interpret Newton's second law for a constant mass body? The situation here, however, is different in that a part of the body is continuously being transferred to other system, which itself is moving. In order to simplify the analysis, we consider that rocket is ejecting gas at constant rate and with constant relative velocity. We can then say that ejected gas is applying force on the rocket in the reference of ejected gas, which is moving at uniform velocity. As such moving mass of gas constitute an inertial frame in which force is applied. The velocity, "v", therefore, represents the velocity of the rocket with respect to ejected mass of gas. We, then, rewrite the equation as : </para><para id="element-99"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-267">where "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+</m:math>
+" represents the velocity of rocket with respect to gas being ejected.</para><para id="element-76">Now, we turn to answer second question about acceleration. We know that acceleration is time rate of change of velocity. But, as we discussed, we measure velocity of the rocket with reference to ejected gas. Therefore, it follows that rate of change should also be associated with relative velocity - not the absolute velocity with respect to ground. However, there is an important difference between velocity and acceleration, as measured in two inertial frames  viz. ground and ejected gas. Though, measurement of velocities are different, but measurement of "change" in velocity remains same in all inertial frames. Hence, we can interpret "a" as acceleration measured in either of two references without any distinction.</para><para id="element-16">Now, we are in position to correctly interpret the additional term "
+<m:math>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+" by answering the following question : "How could a high speed ejection of gas make the rocket accelerate in the absence of any other external force? We should remember that gravitational pull and air resistance, as a matter of fact, retards the motion of rocket. The answer lies in the fact that the additional term "
+<m:math>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+" actually represents a force called "thrust" on the rocket. For rocket to accelerate, this thrust is an external force on the rocket. If we represent thrust by symbol "T", then :  
+</para>
+<para id="element-16a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-16b">
+Substituting in the equation of Newton's law,
+</para>
+<para id="element-16c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> + </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">The additional term, therefore, is not an “effect” term like “ma”, but a "cause" term representing “external force”, which results from the exchange of mass with the surrounding. 
+</para>
+<para id="element-17a">Clearly, there is no other external force other than thrust that gives such a great acceleration to a rocket. Gravitational and air resistance actually retards the motion of a rocket moving vertically upward. Thus, we can safely say that thrust is the only force that imparts acceleration in the direction of the motion of the rocket. In case rocket is fired from a region where other external forces like that of gravity and air resistance can be neglected, then we can put , F = 0. Then,</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">In the nutshell, we see that a varying mass does not change the fundamental aspect of Newton’s second law of motion. It only modifies the external force on the body. The net external force is still equal to the product of mass and acceleration. 
+</para>
+<para id="element-365">We shall reinforce these concepts with another approach that makes use of conservation of linear momentum in a separate module on rocket. </para><example id="example-21">
+<para id="element-21"><term>Problem : </term> Air from a leaking balloon of mass 15 gm gushes out at a constant speed of 10 m/s. The balloon shrinks completely in 10 seconds and reduces to a mass of 5 gm. Find the average force on the balloon.
+</para>
+<para id="element-22"> <term>Solution : </term> There is no external force on balloon initially. However, gushing air constitutes an exchange of mass between balloon and its surrounding. This generates an external force on the balloon given by :
+</para> <para id="element-23">
+<figure id="fig-23">
+<title> Leaking balloon </title>
+<media id="idp2540352" alt=""><image src="../../media/imf1.gif" mime-type="image/gif"/></media>
+<caption> The air gushing out of the balloon generates an external force on balloon. </caption>
+</figure>
+</para>
+<para id="element-24"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> Δ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> Δ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.005 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0.015  </m:mn>
+</m:mrow>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0.01 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> N </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+<para id="element-25">
+We summarize the discussion held, in the context of classical mechanics, so far as : 
+</para>
+<para id="element-26">
+<list id="list-26" list-type="enumerated"><item> Given mass is invariant.
+ </item>
+	<item> In some instances, the the variance of the mass of body system observed is actually a redistribution of mass from one body system to more than one body systems.
+ </item>
+	<item> Irrespective of the nature of mass of a body system (varying or constant), external force is equal to time rate change of momentum. 
+ </item>
+	<item> If there is redistribution of mass, then it results into an external force on the original body, modifying the external force on it.
+ </item>
+	<item> Irrespective of the nature of mass of a body system (varying or constant), the net external force is equal to the product of mass and acceleration. 
+ </item>
+	<item> Irrespective of the nature of mass of a body system (varying or constant), momentum and acceleration forms of Newton’s second law are equivalent and consistent to each other.
+ </item>
+</list>
+</para>
+</section>  
+
+<section id="section-3">
+<title> Mass variance in relativistic mechanics </title>
+<para id="element-27">
+The detailed discussion of this topic is not part of the course. For information sake, we shall only outline the features of force law in relativistic mechanics. Here, momentum and acceleration forms are not equivalent. As a matter of fact, the momentum form is valid even in relativistic mechanics i.e.
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi mathvariant="bold"> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+However, the acceleration form is not valid. For relativistic mechanics, this form is written, in terms of rest mass,
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+, as :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> c </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> c </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mfrac>
+<m:mrow>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> c </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+Yet another important aspect of force here is that force and acceleration vectors need not be parallel or in the same direction.
+</para>
+<para id="element-32">
+We summarize the discussion held, in the context of relativistic mechanics, so far as : 
+</para>
+<para id="element-33">
+<list id="list-33" list-type="enumerated">
+<item> Given mass is not invariant.
+ </item>
+<item> The momentum and acceleration forms of Newton’s second law are not equivalent.
+ </item>
+<item> Momentum form of Newton’s second law is valid.
+ </item>
+<item> Acceleration form of Newton’s second law is not valid.
+ </item>
+<item> Force and acceleration need not be in the same direction.
+ </item>
+</list>
+</para>
+</section>  
+
+ 
+ 
+  </content>
+  
+</document>

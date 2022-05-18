@@ -1,0 +1,1154 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Laws of motion and system of particles</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>12b54429-d7ce-43f3-bbf7-d2c6db637187</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+The point of application of a single external force can not be associated with more than one particle. In this sense, the consideration to extend law of motion to many particles system may appear to be meaningless. However, we find that the dynamics of a bunch of even unassociated particles can be studied collectively with startling accuracy and relevance. 
+</para>
+<para id="element-2">
+Let us begin with a collection of six billiard balls, positioned arbitrarily on a smooth billiard table. Imagine we have initiated one of the ball with a constant velocity. 
+</para>
+<para id="element-3">
+<figure id="fig-3">
+<title> System of billiard balls </title>
+<media id="idm11475152" alt=""><image src="../../media/lms1.gif" mime-type="image/gif"/></media>
+<caption> Six billiard balls on a smooth billiard table.</caption>
+</figure>
+</para>
+<para id="element-4">Since other balls are placed unconnected, they are not affected by the motion of one of the six billiard balls. It may be surprising, but we will see that "center of mass (COM)" is, as a matter of fact, governed by Newton's second law of motion! As no external force is acting on the collection of balls (neglect forces like weight and normal force, which are perpendicular to the motion), their COM is moving with a constant velocity in accordance with Newton's second law.
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> ; </m:mo> 
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> ; </m:mo> 
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> a constant </m:mi>
+<m:mo> . </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-6">Not only this, if the moving ball collides with other ball, then also the motion of COM of the system of particles remains same. The magnitude and direction of velocity of COM remain what they were before collision. The contact forces, being the internal forces, do not affect motion of the COM. Whatever be the sequence of subsequent hits among the balls, COM moves with constant velocity. This underlines the connection between Newton's second law and the COM of the system of particles.
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> System of billiard balls </title>
+<media id="idm5494224" alt=""><image src="../../media/lms2.gif" mime-type="image/gif"/></media>
+<caption> The magnitude and direction of velocity remain what they were before collision. </caption>
+</figure>
+</para>
+<para id="element-8">What if the external force is not zero. Let us take another example where a ball is projected at an angle in air. The ball is split in mid air, say, due to implanted cleavage (plane of weakness). The two fragments move down towards the surface after the split. The ball is acted upon by the gravity (force of gravitation) before being split and follows a parabolic path. Since splitting along the cleavage had been an internal process, the system of two parts is acted by the same external force of gravity. Therefore, the COM of split parts also follows exactly the same parabolic path (neglecting air resistance) as the ball would have transversed, if it were not split! Here,
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Projectile motion </title>
+<media id="idm3828960" alt=""><image src="../../media/lms3a.gif" mime-type="image/gif"/></media>
+<caption> The ball is split in mid air. </caption>
+</figure>
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ; </m:mo> 
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> g </m:mi>
+<m:mo> ; </m:mo> 
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> a variable </m:mi>
+<m:mo> . </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-11">
+The external force on the system of two parts is :
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-14">
+where "M" is the total mass of the ball and "
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+</m:math>
+" is acceleration of the COM.
+</para>
+<para id="element-15">
+In the nutshell, we conclude :
+</para>
+<para id="element-16">
+<list id="list-2" list-type="bulleted">
+<item> COM represents an effective point, whose motion is governed by Newton's law of motion.  </item>
+<item> The law of motion for system of particles is stated for the acceleration of COM - not for the individual particle. This equation does not give any information about the acceleration of individual particles.   </item>
+<item> The law of motion for system of particles is stated assuming that all the mass of the system is concentrated at COM. </item>
+<item> The law of motion for system of particles is stated for the external forces acting on the particles of the system - not the internal forces. </item>
+<item> The law of motion for system of particles is stated for a closed system in which mass is constant i.e. there is no exchange of material "from" or "to" the system of particles.</item>
+</list>
+</para>
+<example id="example-17">
+<para id="element-17"><term>Problem : </term> Two spherical charged particles of 0.2 kg and 0.1 kg are placed on a horizontal smooth plane at a distance "x" apart. The particles are oppositely charged to a magnitude of 1μC. At what distance would they collide as measured from the initial position of the particle of 0.2 kg?
+</para>
+<para id="element-18">
+<figure id="fig-18">
+<title> Two charged particles </title>
+<media id="idm12382000" alt=""><image src="../../media/lms8.gif" mime-type="image/gif"/></media>
+<caption> The particles are oppositely charged to a magnitude of 1μC. </caption>
+</figure>
+</para>
+<para id="element-19"> <term>Solution : </term> This is two particles system, which are acted by the electrostatic force of attraction. As the surface is smooth, we can neglect friction. We can also neglect weight of the particles and normal force as they are perpendicular to motion.
+</para>
+
+<para id="element-21">
+The important aspect to consider here is that electrostatic force of attraction between particles is internal force and, therefore, does not enter into our consideration. The position of collision, as we will see, is independent of the force of attraction and hence independent of the charge on the particles. 
+</para>
+<para id="element-22"><note id="idp2558560">Data on charge in the question is superfluous and is given only to highlight the independence of COM from internal forces.</note>
+</para>
+<para id="element-23">
+Now, as the external force on the particles is zero, the motion of the COM of the two particles system will not change. Since the particles were at rest in the beginning, the COM of the particle system will remain where it was in the beginning. At the time of the collision, when the particles have same position (approximately), the COM of particles is also the point of collision. It means that point of collision coincides with the COM. Now, COM of the particle system as measured from the first particle is :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.1 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mn> 0.3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para> 
+<para id="element-25a">
+Thus, charged particles collide at a distance "x/3" from the initial position of the particle of mass 0.2 kg.
+</para> 
+</example>
+
+<section id="section-1">
+<title>Newton's second law of motion</title>
+<para id="element-26">Here, we set out to write Newton's second law of motion for the system of particles by differentiating the expression of COM for a system of particles. First differentiation leads to expression of velocity for the COM of the system. Second differentiation leads to expression of acceleration for the system and, in turn, the expression of Newton's second law for the system of particles.
+</para>
+<section id="section-1a">
+<title> Velocity of COM </title>
+<para id="element-27">
+We consider a number of particles which are individually acted by different forces. Now, according to the definition of COM, we have :
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> .......... </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+Differentiating with respect to time, we have :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> .......... </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">
+This equation relates velocities of individual particles to that of COM of the system of particles. 
+</para>
+<example id="example-34">
+<para id="element-34"><term>Problem : </term> Two particles of 0.2 kg and 0.3 kg, each of which moves with initial velocity of 5 m/s, collide at the origin of planar coordinate system. Find the velocity of their COM before and after the collision.
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Two particles system </title>
+<media id="idm4716512" alt=""><image src="../../media/lms4.gif" mime-type="image/gif"/></media>
+<caption> Two particles collide at the origin . </caption>
+</figure>
+</para>
+<para id="element-36"> <term>Solution : </term> The components of velocities of COM are given as :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> COMx </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2x </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> COMx </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 37 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mo> + </m:mo> 
+<m:mn> 0.3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+</m:mrow>
+<m:mn> 0.5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-198"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> COMx </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mn> 4 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 0.5 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1.6 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para><para id="element-39">
+and
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> COMy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 1y </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> 2y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-41"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> COMy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 37 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> + </m:mo> 
+<m:mn> 0.3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 5 </m:mn>
+</m:mrow>
+<m:mn> 0.5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-989"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> COMy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> ) </m:mo>
+<m:mo> + </m:mo> 
+<m:mn> 1.5 </m:mn>
+</m:mrow>
+<m:mn> 0.5 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1.8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para><para id="element-42">
+Thus, velocity of COM is :
+</para>
+<para id="element-43"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>  
+<m:mn> 1.6 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 1.8 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-44">Since there is no external force, the COM of the two particles move with same velocity before and after the collision.</para>
+
+
+
+</example>
+</section>
+
+<section id="section-1b">
+<title> Acceleration of COM </title>
+<para id="element-47">
+Differentiating the relation for velocity with respect to time, we have :
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> .......... </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+In terms of force,
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> .......... </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+This relation relating accelerations of individual particles to the acceleration of COM needs a closer look. It brings about an important revelation about internal and external forces. Individual particles are indeed acted by both internal and external forces. Many of the forces listed on the right hand of the above equation, therefore, may be internal forces.
+</para>
+<para id="element-54">The internal forces are equal and opposite forces and as such cancel out in the above sum. The resultant force on the right hand side is, thus, external forces only. 
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">This is the expression of Newton's second law for a system of particles. This relation also underlines that COM of the system of particles represents a point where the resultant external force appears to act. This is additional to the assumptions earlier that COM is the point where all the mass of the system appears to be concentrated. Importantly, we must always remember that this is a point where resultant external force "appears" to act and not the point where forces actually act.
+ </para>
+
+<example id="example-58">
+<para id="element-58"><term>Problem : </term> A log of wood of length "L" and mass "M" is floating on the surface of still water. One end of the log touches the bank. A person of mass "m" standing at the far end of the log starts moving toward the bank. Determine the displacement of the log when the person reaches the nearer end of the log?
+</para>
+<para id="element-59"> <term>Solution : </term> AIn this case, no external force is involved in the direction of motion. We neglect weight and normal force perpendicular to the surface of log as they do not affect the motion in x-direction. Now, considering law of motion for the man and log system :
+</para>
+
+
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+Thus, COM is not accelerated. Also as the system was at rest in the beginning, COM of the system at the end should remain where it was in the beginning. Now, considering measurement of COM  in horizontal direction (x - direction) as measured from bank for the initial condition, we have :
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> Log and person system </title>
+<media id="idm407712" alt=""><image src="../../media/lms6.gif" mime-type="image/gif"/></media>
+<caption> The system is at rest in the beginning. </caption>
+</figure>
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COMi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> L </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+Let the log has moved off "x" distance when the person reaches the nearer end. The COM  in horizontal direction (x - direction) as measured from the bank for the final condition is :
+</para>
+<para id="element-67">
+<figure id="fig-67">
+<title> Log and person system </title>
+<media id="idp6019680" alt=""><image src="../../media/lms7.gif" mime-type="image/gif"/></media>
+<caption> The system has moved away by a distance "x". </caption>
+</figure>
+</para>
+<para id="element-68"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COMf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+But,
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COMi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COMf </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> m </m:mi>
+<m:mi> L </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> x </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+</section>
+
+  </content>
+  
+</document>

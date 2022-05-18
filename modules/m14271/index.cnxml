@@ -1,0 +1,1458 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Collision</title>
+  <metadata>
+  <md:content-id>m14271</md:content-id><md:title>Collision</md:title>
+  <md:abstract>Forces in collision are internal to the system of colliding bodies.</md:abstract>
+  <md:uuid>1cb70ea0-ea35-426d-9133-b274f6ec52b9</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Collision of objects is a brief phenomenon of interaction with force of relatively high magnitude. It is a common occurrence in physical world. Atoms, molecules and basic particles frequently collide with each other.  An alpha particle, for example, is said to collide when the nucleus of gold atom repels incoming alpha particle with a strong electrostatic force. The "contact" is an assessment of the event involving force of high magnitude for small period . Two objects of macroscopic dimensions are said to collide making physical contact like, when a tennis ball is hit hard to rebound. 
+</para>
+<para id="element-2">
+<figure id="fig-2" orient="horizontal"><title> Collision </title>
+<subfigure id="fig-2a">
+<media id="id41372226" alt=""><image src="../../media/col1.gif" mime-type="image/gif"/></media>
+<caption> Alpha particle and nucleus of gold atom come very close to each other. </caption>
+</subfigure>
+<subfigure id="fig-2b">
+<media id="id41372253" alt=""><image src="../../media/col2a.gif" mime-type="image/gif"/></media>
+<caption>  Tennis racket and ball collide making contact with each other. </caption>
+</subfigure>
+</figure>
+</para> 
+<para id="element-3">
+Two stationary objects in a given reference can not collide. Therefore, one of the basic requirements of collision is that at least one of the objects must be moving. Since motion is involved, the system of colliding objects has certain momentum and kinetic energy to begin with. Our objective in this module is to investigate these physical quantities during different states associated with a collision process. A collision is typically studied in terms of three states in "time" reference : (i) before (ii) during and (iii) after. 
+</para>
+<para id="element-4">
+The state of contact - actual or otherwise - spans a very brief period. The total duration of contact between tennis racket and ball may hardly sum up to 30 seconds or so in a set of a tennis match, which might involve hundreds of hits ! Typically the contact period during a single collision is milli-seconds only. This poses a serious problem as to the measurement of physical quantities during collision. We shall see that study of collision is basically about making assessment of happenings in this brief period in terms of quantities that can be measured before and after the collision. 
+</para>
+<para id="element-5">Further, a collision involves forces of relatively high magnitude. To complicate the matter, the force during collision period is a variable force. It makes no sense to attempt investigate the nature of this force quantitatively as it may not be possible to correlate the force with the motions of colliding objects using force law for this very small period. There is yet another reason why we would avoid force analysis during collision. We must understand that a collision need not end up with change in motion only. It is entirely possible that a collision may result in the change in shape (deformation) or even decomposition of the colliding bodies. Such changes resulting from force is not the domain of analysis of motion here. 
+</para>
+<para id="element-6">It is, therefore, imperative that we take a broader approach involving momentum and kinetic energy to study the behavior of objects, when they collide. However, before we proceed to develop the theoretical framework for the collision, it would be helpful to enumerate the characterizing aspects of a collision as :
+</para>
+<para id="element-7">
+<list id="list-7" list-type="bulleted"><item> A collision involves interaction of an object with force.  </item>
+<item> A collision involves forces of relatively high magnitude.</item>
+<item> Collision takes place for a very small period usually in milliseconds or less. </item>
+<item> A collision involves certain momentum and kinetic energy to begin with. </item>
+<item> The study of collision is not suited for force analysis, using laws of motion. </item>
+</list>
+</para>
+
+<section id="section-1">
+<title> Forces during collision </title>
+<para id="element-8">Collision usually occurs in the absence of any external force or comparatively negligible external force with respect to collision force. Two bodies collide because a body comes in the line of motion of other body. The forces during collision between colliding bodies are essentially internal forces to the system of colliding bodies. The internal force is a variable force of relatively high magnitude.
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Force during collision </title>
+<media id="id41372718" alt=""><image src="../../media/col3.gif" mime-type="image/gif"/></media>
+<caption> The internal force is a variable force of relatively high magnitude, which operates for a very small period.</caption>
+</figure>
+</para>
+<para id="element-10">The figure here captures the attributes of the collision force. It is important to note that the plot has time in milli-seconds.
+</para>
+<para id="element-11">The collision forces between colliding objects appear in pair and follow Newton's third law. The force pairs are equal and opposite. This has important implications. Irrespective of the masses or sizes of the colliding bodies, the pair (two) forces are always equal at any time during the collision. What it means that force-time plot of either pair force is exact replica of force-time plot of the other collision force.
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Forces during collision </title>
+<media id="id41372910" alt=""><image src="../../media/col4.gif" mime-type="image/gif"/></media>
+<caption> The force pairs are equal and opposite.</caption>
+</figure>
+</para>
+</section>
+
+<section id="section-2">
+<title> Impulse </title>
+<para id="element-14">As pointed out earlier, it is not very useful studying contact force as it is a variable force and secondly, we can not measure the same with any accuracy for the short interval it operates. We can, however, relate the collision force to the change in linear momentum. Here is a word of caution. If the collision forces are internal forces, then how can there be a change in linear momentum? We are actually referring change in linear momentum of one of the colliding bodies, which changes in such a manner so that linear momentum of the system of colliding bodies remain constant. Now, using Newton's second law of motion, the collision force operating on one of the colliding objects is :
+</para>
+<para id="element-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+Integrating for the period of collision,
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">This is an important result. This enables us to measure the product of two immeasurable quantities (i) variable force of relatively high magnitude, F(t) and (ii) very small time, dt,  during the collision in terms of measurable change in momentum, Δ<term>p</term>,  before and after the collision. The integral of the product of force and time equals change in momentum and is known as impulse denoted by the symbol "J" :
+</para>
+<para id="element-21"><equation id="equation-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi mathvariant="bold"> J </m:mi> 
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-22">Like linear momentum, impulse is a vector quantity. Evidently, it has the same dimension and unit as that of linear momentum. It may be noted here that impulse is a measure of the product of force and time of operation, but not either of them individually. Further, it must also be understood that impulse is rarely evaluated using its defining integral; rather it is evaluated as the change in linear momentum - most of the time.
+</para>
+<para id="element-23">We shall learn that a collision may be elastic (where no loss of kinetic energy of the system takes place)  or inelastic (where certain loss of kinetic energy of the system is involved). 
+</para>
+<para id="element-23a"> The collision forces are normal to the tangent through the surfaces in contact. In real situation, the force may not be passing through a contact point, but over an area. In order to keep the analysis simple, however, we consider that contact is a point and the collision forces are normal to the tangent. This simplifying assumption has important implications as we shall see while studying inelastic collision is a separate module.</para>
+
+
+
+<example id="example-24">
+<para id="element-24"><term>Problem : </term> A ball of 0.1 kg in horizontal flight moves with a speed 50 m/s and hits a bat held vertically. The ball reverses its direction and moves with the same speed as before. Find the impulse that acts on the ball during its contact with the bat.
+</para>
+<para id="element-25"><term>Solution : </term> We calculate the impulse on the ball by measuring the change in linear momentum. Here, vectors involved are one dimensional. Therefore, we can use scalar representation of quantities with appropriate sign. Let us consider that the ball is moving in positive x-direction. Then,
+</para>
+<para id="element-25a"> 
+<figure id="fig-25a"><title> Collision </title>
+<media id="id41089435" alt=""><image src="../../media/col10a.gif" mime-type="image/gif"/></media>
+<caption> The ball reverses its direction with same speed after its hits the bat.</caption>
+</figure>
+</para>
+<para id="element-24a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> J </m:mi> 
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> p </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25b"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> J </m:mi> 
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> kg </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> s </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">Negative sign means that the impulse is acting in the "-x" direction, in which the ball finally moves.
+</para>
+</example>
+
+<section id="section-2a">
+<title> Component form of impulse  </title>
+<para id="element-27">Like linear momentum, impulse is a vector quantity.  Impulse vector on a body is directed in the direction of  Δ<term>p</term>. This direction may not be the direction of either initial or final linear momentum of the body under investigation. Like stated before in the course, the direction of a vector and that of "change in vector" may not be same. The component of impulse vector along any of the coordinate direction is equal to the difference of the components of linear momentum in that direction. Mathematically,
+</para>
+<para id="element-28"><equation id="equation-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> fx </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> ix </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> fy </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> iy </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> fz </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> iz </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<example id="example-29">
+<para id="element-51"><term>Problem : </term> A ball of 0.1 kg in horizontal flight moves with a speed 50 m/s and is deflected by a bat as shown in the figure at an angle with horizontal. As a result, the ball is reflected in a direction, making 45° with the horizontal. Find the impulse that acts on the ball during its contact with the bat.
+</para>
+<para id="element-30"> 
+<figure id="fig-30">
+<title> Collision </title>
+<media id="id41088116" alt=""><image src="../../media/col11.gif" mime-type="image/gif"/></media>
+<caption> The ball is deflected at an angle with horizontal.</caption>
+</figure>
+</para>
+<para id="element-31"><term>Solution : </term> We calculate the impulse on the ball by measuring the change in linear momentum in horizontal (x-direction) and vertical (y-direction) directions. Let us consider that the ball is initially moving in positive x-direction. Then,
+</para>
+<para id="element-32"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> fx </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> ix </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> fx </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> ix </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 8.54 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> kg </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">
+Similarly, component of impulse in y-direction is :
+</para>
+<para id="element-34"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> fy </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> iy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> fy </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> iy </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 45 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 3.54 </m:mn>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> kg </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> s </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+The impulse on the ball is :
+</para>
+<para id="element-36"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> J </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi mathvariant="bold"> J </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 8.54</m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3.54</m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> kg </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> s </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section><para id="element-443">This example and the one given earlier illustrate that the impulse and its evaluation in terms of linear momentum is independent of whether the collision is head on or not. No doubt the result is different in two cases. The impulse force is greater for head on collision than when the colliding object glances the target at an angle. It is expected also. The change in linear momentum when the striking object reverses it motion is maximum and as such impulse imparted is also maximum when collision is head on.</para>
+</section>
+
+<section id="section-3">
+<title> Average force  </title>
+<para id="element-37">We may not be able to relate impulse with the instantaneous force during the collision, but we can estimate the average force if we have accurate estimate of the time involved during collision. For the sake of simplicity, we consider one-dimensional contact force. Looking at the expression of impulse i.e the integral of force over the time of collision is graphically equal to the area under the curve.
+</para>
+<para id="element-38">
+<figure id="fig-38"><title> Force - time plot during collision </title>
+<media id="id41383555" alt=""><image src="../../media/col12.gif" mime-type="image/gif"/></media>
+<caption> The integral of force over the time of collision is graphically equal to the area under the curve.</caption>
+</figure>
+</para>
+<para id="element-429"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> J </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> Area </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+ </para>
+<para id="element-39">We can draw a rectangle such its area is equal to the integral. In that case ordinate on the force axis represents the average force during the collision period.
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Average collision force </title>
+<media id="id44015936" alt=""><image src="../../media/col5.gif" mime-type="image/gif"/></media>
+<caption> Average force is equal to the ordinate of the rectangle of area equal to that of area under the force - time actual curve.</caption>
+</figure>
+</para>
+<para id="element-41">
+Mathematically, 
+</para>
+<para id="element-42"><equation id="equation-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> J </m:mi>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<example id="example-43">
+<para id="element-43"><term>Problem : </term> A ball of 0.1 kg in horizontal flight moves with a speed 50 m/s and it hits a bat held vertically. The ball reverses its direction and moves with the same speed as before. If the time of contact is 1 milli-second, then find the average force that acts on the ball during its contact with the bat.
+</para>
+<para id="element-44"> <term>Solution : </term> We calculate the impulse on the ball by measuring the change in its linear momentum. Let us consider that the ball is moving in positive x-direction. Then,
+</para>
+<para id="element-45">
+<figure id="fig-45"><title> Collision </title>
+<media id="id41371595" alt=""><image src="../../media/col10a.gif" mime-type="image/gif"/></media>
+<caption> The ball reverses its direction with same speed after it hits the bat.</caption>
+</figure>
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> J </m:mi> 
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> p </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> J </m:mi> 
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 50 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:mi> kg </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> s </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+The magnitude of average force is :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 10 </m:mn> 
+<m:mrow>
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mrow> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+</m:mrow>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 10000 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">A collision may take place when external force is operating like when a cricket ball strikes the racket in the presence of gravitational force. However, gravitational force is relatively small (mg = 0.1 x 10 = 1.5 N). This force is negligible in comparison to the collision force of 10000 N! It is, therefore, realistic to assume that collision takes place in the absence of external force.
+</para>
+</example>
+<para id="element-51a">
+This concept of average force allows us to estimate the average force on a target, which is bombarded with successive colliding masses like a stream of bullets or balls as shown in the figure below. Here, the average force is given as :
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Series Collision </title>
+<media id="id41370335" alt=""><image src="../../media/col6.gif" mime-type="image/gif"/></media>
+<caption> The ball hits the target in quick succession.</caption>
+</figure>
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> J </m:mi>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+If the projectiles have equal mass "m" and there are "n" numbers of the projectiles hitting the target, then 
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> ∑ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> n </m:mi>
+<m:mi> m </m:mi>
+<m:mo> Δ </m:mo> 
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+and
+</para>
+<para id="element-57"><equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> n </m:mi>
+<m:mi> m </m:mi>
+<m:mo> Δ </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+</section>
+<section id="section-4">
+<title> Linear momentum during collision </title>
+<para id="element-76">We have noted in the examples given here that we can neglect external force for all practical purpose as far as the collision is concerned. Collision force is too large in comparison to forces like gravitational force. For this reason, we shall neglect external forces unless stated otherwise. As such, linear momentum of the system of colliding objects is conserved. This means that linear momentum of the system before and after the collision is same. 
+</para>
+<para id="element-77"><equation id="equation-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> before </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> after </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-78">This fact provides the basic framework for analyzing collision. It is valid irrespective of the type of collision : elastic or inelastic. We shall make use of this fact in subsequent modules, while analyzing various scenarios of collision.
+</para>
+</section>   
+<section id="section-5">
+<title> Kinetic energy of colliding bodies  </title>
+
+<para id="element-58">
+There are two types of collision - elastic and inelastic. In the elastic collision, the colliding bodies is restored to the normal shape and size when the bodies separate. The deformation of colliding bodies is temporary and is limited to the period of collision. This means that kinetic energy of the system is simply stored as elastic energy during  collision and is released to the system when bodies regain their normal condition. On the other hand, there is loss of kinetic energy during inelastic collision as kinetic energy is converted to some other form of energy like sound energy or heat energy, which can not be released to the system of colliding bodies as kinetic energy subsequent to the collision. 
+</para>
+<para id="element-59">
+In reality most of the macroscopic collisions involving physical contact are inelastic as kinetic energy of the system is irrevocably converted to other form of energy. For example, when a tennis ball is released from a height, it does not bounce to the same height on the return journey. However, if the ground is plane and hard, then the ball may transverse the greater part of the height and we may say that the collision is approximately elastic.
+</para>
+<para id="element-60">There is an interesting set up, which explains various aspects of elastic collision. We will study this set up, which comprises of two blocks and a spring to get an insight into the collision process. We imagine two identical blocks "A" and "B" moving on a smooth floor as shown in the figure below. The block "A" moves right with speed 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+ towards block "B". On the other hand block "B" moves with speed 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+ such that 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+. We also imagine that a "mass-less" spring is attached to the block "B" as shown in the figure. Let us also consider that the spring follows Hook's law for elongation (F = -kx). </para>
+<para id="element-64">
+<figure id="fig-64">
+<title> Collision </title>
+<media id="id41368915" alt=""><image src="../../media/col7.gif" mime-type="image/gif"/></media>
+<caption> The spring is compressed.</caption>
+</figure>
+</para>
+<para id="element-61">At the time when block "A" hits the spring, the end of the spring in contact with block "A" acquires the speed of the block "A" (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+). The end of the spring in contact with block "B", however, moves with speed 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+. As the block "A" moves with relative speed towards "B", the spring is compressed. The spring force for any intermediate compression "x" is given by :
+</para>
+<para id="element-62"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> k </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">The spring forces act on both the blocks but in opposite directions. The spring force is equivalent to the internal collision force. The spring force pushes the block "A" towards left and hence decelerates it. Let its speed at a given instant after hitting the spring be 
+<m:math>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+<m:mi> ' </m:mi>
+</m:msubsup>
+</m:math>
+. On the other hand,  spring force pushes the block "B" towards right and hence accelerates it. As such, block "B" acquires certain speed, say 
+<m:math>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+<m:mi> ' </m:mi>
+</m:msubsup>
+</m:math>
+. If 
+<m:math>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+<m:mi> ' </m:mi>
+</m:msubsup>
+<m:mo> &gt; </m:mo>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+<m:mi> ' </m:mi>
+</m:msubsup>
+</m:math>
+, then the spring is further compressed. The speed of block "A" further decreases and that of block "B" further increases. The spring force during this period keeps increasing. This process continues till the speeds of blocks become equal. Let us consider that common speed of each of the blocks be V.This situation corresponds to the maximum compression and maximum spring force i.e the maximum collision force.
+</para>
+
+
+<para id="element-65">The maximum spring force continues to decelerate block "A" and accelerates block "B". As such, block "B" 
+(
+<m:math>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+<m:mi> '' </m:mi>
+</m:msubsup>
+</m:math>
+)
+begins to move faster than the block "A" 
+(
+<m:math>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+<m:mi> '' </m:mi>
+</m:msubsup>
+</m:math>
+)
+. It results in elongation of spring. The spring force during this period keeps decreasing. The spring force, however, continues to decelerates block "A" and accelerates block "B". This process continues till the spring attains its normal length. At this moment, the block "A" looses contact with the spring. The block "B" moves with greater speed (
+<m:math>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+<m:mi> ''' </m:mi>
+</m:msubsup>
+</m:math>
+) than block "A" (
+<m:math>
+<m:msubsup>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+<m:mi> ''' </m:mi>
+</m:msubsup>
+</m:math>
+). Therefore, the separation between two blocks keeps increasing with time as they move with different speeds.
+</para>
+<para id="element-66">
+<figure id="fig-66">
+<title> Collision </title>
+<media id="id41367920" alt=""><image src="../../media/col8.gif" mime-type="image/gif"/></media>
+<caption> The spring is elongated.</caption>
+</figure>
+</para>
+<para id="element-67">
+The spring force - time plot during the contact with spring approximates the force curve during a collision :
+</para>
+<para id="element-68">
+<figure id="fig-68">
+<title> Collision force </title>
+<media id="id41367700" alt=""><image src="../../media/col9.gif" mime-type="image/gif"/></media>
+<caption> The force - time plot.</caption>
+</figure>
+</para>
+<para id="element-69">Since the spring is mass-less and elastic (follows Hooke's law), the kinetic energy of the system before the collision is temporarily converted to elastic potential energy i.e spring energy during the compression of the spring. The stored elastic potential energy is then released as kinetic energy during elongation of the spring. At the end of elongation when spring attains its normal length, the kinetic energy of the system is restored as before. In the nutshell, 
+</para>
+<para id="element-70"><equation id="equation-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> before </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> after </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-71">During collision, however, total energy has component of elastic potential energy as well and is equal to the kinetic energy of the system before and after the collsion :
+</para>
+<para id="element-72"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> E </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> U </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> before </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> after </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-73">
+In the same fashion, we can visualize inelastic collision. In this case, some of the energy is converted to a form of energy, which can not be regained as kinetic energy like when a rubber ball hits a ground and is unable to regain the height. Here,
+</para>
+<para id="element-74"><equation id="equation-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> before </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> after </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+</section>  
+
+
+
+<section id="section-6">
+<title> Summary </title>
+<para id="element-81">
+<term>1: </term> Collision of objects is a brief phenomenon of interaction with force of relatively high magnitude. 
+</para>
+<para id="element-82">
+<term>2: </term>The integral of the product of force and time equals change in momentum and is known as impulse denoted by the symbol "<term>J</term>" :
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> J </m:mi> 
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+<term>3: </term>The component of impulse vector along any of the coordinate direction is equal to the difference of the components of linear momentum in that direction. Mathematically,
+</para>
+<para id="element-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> fx </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> ix </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> fy </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> iy </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> J </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> fz </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> p </m:mi>
+<m:mi> iz </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-86">
+<term>4: </term>The average force during collision is by the ratio of impulse and time interval as :
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> avg </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> J </m:mi>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+<term>5: </term>Elastics collision :
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> before </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> after </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+and
+</para>
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> before </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> after </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92">
+<term>6: </term>Inelastic collision :
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> before </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> after </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">
+and
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> before </m:mi>
+</m:msub>
+<m:mo> &gt; </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> after </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-100">
+<title>Acknowledgment</title>
+<para id="element-1000">
+Author wishes to thank Manuel Widmer for making suggestions to remove error in the module. 
+</para>
+</section>
+
+  </content>
+  
+</document>

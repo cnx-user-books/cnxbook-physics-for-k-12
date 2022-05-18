@@ -1,0 +1,804 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravitational field</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ccfa2a4b-c2c4-4841-90e6-4077be1abbd8</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">We have studied gravitational interaction in two related manners. First, we studied it in terms of force and then in terms of energy. There is yet another way to look at gravitational interactions. We can study it in terms of gravitational field.
+</para>
+<para id="element-2">In the simplest form, we define a gravitational field as a region in which gravitational force can be experienced. We should, however, be aware that the concept of force field has deeper meaning. Forces like gravitational force and electromagnetic force work with “action at a distance”. As bodies are not in contact, it is conceptualized that force is communicated to bodies through a force field, which operates on the entities brought in its region of influence.
+</para>
+<para id="element-3">Electromagnetic interaction, which also abides inverse square law like gravitational force, is completely described in terms of field concept. Theoretical conception of gravitational force field, however, is not complete yet. For this reason, we would restrict treatment of gravitational force field to the extent it is in agreement with well established known facts. In particular, we would not conceptualize about physical existence of gravitational field unless we refer “general relativity”.
+</para>
+<para id="element-4">A body experiences gravitational force in the presence of another mass. This fact can be thought to be the result of a process in which presence of a one mass modifies the characteristics of the region around itself. In other words, it creates a gravitational field around itself. When another mass enters the region of influence, it experiences gravitational force, which is given by Newton’s law of gravitation.
+</para>
+<section id="section-1">
+<title>Field strength</title>
+<para id="element-5">Field strength (<term>E</term>) is equal to gravitational force experienced by unit mass in a gravitational field. Mathematically,
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mstyle mathvariant="bold">
+        <m:mi>F</m:mi>
+      </m:mstyle>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-7">Its unit is N/kg. Field strength is a vector quantity and abides by the rules of vector algebra, including superposition principle. Hence, if there are number of bodies, then resultant or net gravitational field due to them at a given point is vector sum of individual fields,
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mi>i</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+<section id="section-3">
+<title>Significance of field strength</title>
+
+<para id="element-11">An inspection of the expression of gravitational field reveals that its expression is exactly same as that of acceleration of a body of mass, “m”, acted upon by an external force, “<term>F</term>”. Clearly,
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>a</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mstyle mathvariant="bold">
+        <m:mi>F</m:mi>
+      </m:mstyle>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">For this reason, gravitational field strength is dimensionally same as acceleration. Now, dropping vector notation for action in a particular direction of force,
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">We can test this assertion. For example, Earth’s gravitational field strength can be obtained, by substituting for gravitational force between Earth of mass,"M", and a particle of mass, "m" :
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">Thus, Earth’s gravitational field strength is equal to gravitational acceleration, “g”. 
+</para>
+<para id="element-19">Field strength, apart from its interpretation for the action at a distance, is a convenient tool to map a region and thereby find the force on a body brought in the field. It is something like knowing “unit rate”. Suppose if we are selling pens and if we know its unit selling price, then it is easy to calculate price of any numbers of pens that we sale. We need not compute the unit selling price incorporating purchase cost, overheads, profit margins etc every time we make a sale.
+</para>
+<para id="element-20">Similar is the situation here. Once gravitational field strength in a region is mapped (known), we need not be concerned about the bodies which are responsible for the gravitational field. We can compute gravitational force on any mass that enters the region by simply multiplying the mass with the unit rate of gravitational force i.e. field strength,
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">In accordance with this interpretation, we determine gravitational force on a body brought in the gravitational field of Earth by multiplying the mass with the gravitational field strength,
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">This approach has following advantages :
+</para>
+<para id="element-25"><term>1: </term>	We can measure gravitational force on a body without reference to other body responsible for gravitational field. In the context of Earth, for example, we compute gravitational force without any reference to the mass of Earth. The concept of field strength allows us to study gravitational field in terms of the mass of one body and as such relieves us from considering it always in terms of two body system. The effect of one of two bodies is actually represented by its gravitational field strength.
+
+</para>
+<para id="element-26"><term>2: </term>	It simplifies mathematical calculation for gravitational force. Again referring to the context of Earth’s gravity, we see that we hardly ever use Newton’s gravitational law. We find gravitational force by just multiplying mass with gravitational field strength (acceleration). Imagine if we have to compute gravitational force every time, making calculation with masses of Earth and the body and the squared distance between them!
+</para>
+
+<section id="section-3a">
+<title>Comparison with electrostatic field</title>
+<para id="element-75">There is one very important aspect of gravitational field, which is unique to it. We can appreciate this special feature by comparing gravitational field with electrostatic field. We know that the electrostatic force, like gravitational force, also follows inverse square law. Electrostatic force for two point charges separated by a linear distance, "r", is given by Coulomb's law as :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Q</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">The electrostatic field (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> 
+)is defined as the electrostatic force per unit positive charge and is expressed as :
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msub>
+        <m:mi>F</m:mi>
+        <m:mi>E</m:mi>
+      </m:msub>
+      <m:mi>q</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Q</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mi>q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>Q</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-79">The important point, here, is that electrostatic field is not equal to acceleration. Recall that Newton's second law of motion connects force (any type) with "mass" and "acceleration" as :
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">This relation is valid for all kinds of force - gravitational or electrostatic or any other type. What we mean to say that there is no corresponding equation like "F=qa". Mass only is the valid argument of this relation. As such, electrostatic field can not be equated with acceleration as in the case of gravitational field.
+</para>
+<para id="element-82">Thus, equality of "field strength" with "acceleration" is unique and special instance of gravitational field - not a common feature of other fields. As a matter of fact, this instance has a special significance, which is used to state "equivalence of mass" - the building block of general theory of relativity. 
+</para>
+<para id="element-83">We shall discuss this concept in other appropriate context. Here, we only need to underline this important feature of gravitational field.  
+</para>
+</section>
+<section id="section-3b">
+<title>Example</title>
+<para id="element-28"><term>Problem 1:</term> A charged particle of mass “m” carries a charge “q”. It is projected upward from Earth’s surface in an electric field “E”, which is directed downward. Determine the nature of potential energy of the particle at a given height, “h”.
+</para>
+<para id="element-29"><term>Solution : </term>The charged particle is acted upon simultaneously by both gravitational and electrostatic fields. Here, gravity works against displacement. The work by gravity is, therefore, negative. Hence, potential energy arising from gravitational field (with reference from surface) is positive as :
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>G</m:mi>
+        </m:msub>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">As given in the question, the electrostatic field is acting downward. Since charge on the particle is positive, electrostatic force acts downward. It means that work by electrostatic force is also negative. Hence, potential energy arising from electrostatic field (with reference from surface) is :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>W</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>E</m:mi>
+        </m:msub>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mi>h</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>E</m:mi>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">Total potential energy of the charged particle at a height “h” is :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>U</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>h</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>q</m:mi>
+        <m:mi>E</m:mi>
+        <m:mi>h</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>q</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>h</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">The quantities in the bracket are constant. Clearly, potential energy is a function of height. 
+</para>
+<para id="element-36">It is important to realize that description in terms of respective fields enables us to calculate forces without referring to either Newton's gravitation law or Coulomb's law of electrostatic force. 
+</para>
+
+</section>
+
+</section>
+<section id="section-4">
+<title>Gravitational field due to a point mass </title>
+<para id="element-50">Determination of gravitational force strength due to a point mass is easy. It is so because, Newton's law of gravitation provides the expression for determining force between two particles. </para>
+<para id="element-843">Let us consider a particle of mass, "M", for which we are required to find gravitational field strength at a certain point, "P". For convenience, let us consider that the particle is situated at the origin of the reference system. Let the point, where gravitational field is to be determined, lies at a distance "r" from the origin on the reference line. </para><para id="element-496"><figure id="fig-496">
+<title> Gravitational field strength </title>
+<media id="idp16158848" alt=""><image src="../../media/geo1.gif" mime-type="image/gif"/></media>
+<caption> Gravitational field at a point "P" due to mass "M"</caption>
+</figure>
+</para><para id="element-664">We should make it a point to understand that the concept of gravitational field is essentially "one" particle/ body/entity concept. We need to measure gravitational force at the point, "P", on a unit mass as required by the definition of field strength. It does not exist there. In order to determine field strength, however, we need to visualize as if unit mass is actually present there. </para><para id="element-552">We can do this two ways. Either we visualize a point mass exactly of unit value or we visualize any mass, "m", and then calculate gravitational force. In the later case, we divide the gravitational force as obtained from Newton's law of gravitation by the mass to get the force per unit mass. In either case, we call this point mass as test mass. If we choose to use a unit mass, then :</para>
+<para id="element-190">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-331">On the other hand, if we choose any arbitrary test mass, "m", then :
+</para>
+<para id="element-51"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+    <m:mi>F</m:mi>
+    <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">However, there is a small catch here. The test mass has its own gravitational field. This may unduly affect determination of gravitational field due to given particle.  In order to completely negate this possibility, we may consider a mathematical expression as given here, which is more exact for defining gravitational field :
+</para>
+<para id="element-199">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>lim</m:mi>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>→</m:mo>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mrow/>
+    </m:munderover>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">Nevertheless, we know that gravitational force is not a very strong force. The field of a particle of unit mass can safely be considered negligible.</para>
+<para id="element-54">The expression for the gravitational field at point "P", as obtained above, is a scalar value. This expression, therefore, measures the magnitude of gravitational field - not its direction. We can realize from the figure shown above that gravitational field is actually directed towards origin, where the first particle is situated. This direction is opposite to the positive reference direction. Hence, gravitational field strength in vector form is preceded by a negative sign :
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mstyle mathvariant="bold">
+        <m:mi>F</m:mi>
+      </m:mstyle>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mover>
+      <m:mstyle mathvariant="bold">
+        <m:mi>r</m:mi>
+      </m:mstyle>
+      <m:mo>‸</m:mo>
+    </m:mover>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-709">where "
+<m:math>
+  <m:mrow>
+    <m:mover>
+      <m:mstyle mathvariant="bold">
+        <m:mi>r</m:mi>
+      </m:mstyle>
+      <m:mo>‸</m:mo>
+    </m:mover>
+  </m:mrow>
+</m:math>
+" is unit vector in the reference direction.
+</para>
+<para id="element-728">The equation obtained here for the gravitational field due to a particle of mass, "M", is the basic equation for determining gravitational field for any system of particles or rigid body. The general idea is to consider the system being composed of small elements, each of which can be treated at particle. We, then, need to find the net or resultant field, following superposition principle. We shall use this technique to determine gravitational field due to certain regularly shaped geometric bodies in the next module. 
+</para>
+</section>
+<section id="section-5">
+<title>Example</title>
+<para id="element-37"><term>Problem 2 : </term> The gravitational field in a region is in xy-plane is given by 3<term>i</term> + <term>j</term>. A particle moves along a straight line in this field such that work done by gravitation is zero. Find the slope of straight line. 
+</para>
+<para id="element-38"><term>Solution : </term> The given gravitational field is a constant field. Hence, gravitational force on the particle is also constant. Work done by a constant force is given as :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mstyle mathvariant="bold">
+      <m:mo>.</m:mo>
+    </m:mstyle>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">Let "m" be the mass of the particle. Then, work is given in terms of gravitational field as :</para>
+<para id="element-526">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>W</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+    <m:mstyle mathvariant="bold">
+      <m:mo>.</m:mo>
+    </m:mstyle>
+    <m:mstyle mathvariant="bold">
+      <m:mi>r</m:mi>
+    </m:mstyle>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-40">Work done in the gravitational field is zero, if gravitational field and displacement are perpendicular to each other. If “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the slopes of the direction of gravitational field and that of straight path, then the slopes of two quantities are related for being perpendicular as :
+</para>
+<para id="element-469"><figure id="fig-469">
+<title> Work by gravitational force </title>
+<media id="idp12756832" alt=""><image src="../../media/geo2.gif" mime-type="image/gif"/></media>
+<caption> Gravitational field and displacement of particle are perpendicular to each other.</caption>
+</figure></para><para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">Note that slope of a straight line is usually denoted by letter “m”. However, we have used letter “s” in this example to distinguish it from mass, which is also represented by letter “m”. 
+</para>
+<para id="element-43">In order to find the slope of displacement, we need to know the slope of the straight line, which is perpendicular to the direction of gravitational field. 
+</para>
+
+<para id="element-45">Now, the slope of the line of action of gravitational field is :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">Hence, for gravitational field and displacement to be perpendicular,
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+  </content>
+  
+</document>

@@ -1,0 +1,1655 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Motion on accelerated incline plane(application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fcf7ef45-514f-4079-816a-b88052fa0dfc</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-1">
+<title>  Hints on solving problems </title>
+<para id="element-1a"> The incline plane has two contact or interface surfaces. One is the incline surface, where the block is placed and the other is the base of the incline, which is in contact with the surface underneath. The motion of the block, therefore, may depend on the motion of the incline itself. 
+</para>
+<para id="element-2">We must understand here that there are two ways to look at such situation, which involves motion of the incline itself. We can analyze the motion of the elements of "block and incline" system in either the inertial frame (ground reference) or in the accelerated frame. The two techniques have relative merits in particular situations. As pointed out earlier in the course, we should stick to the analysis from inertial frame to the extent possible unless analysis in accelerated frame gives distinct advantage. </para>
+<para id="element-2a"> In this module, however, our objective is to learn analysis of motion in accelerated frame. As such, we have selected questions which are better suited to analysis in non-inertial frame of reference. 
+</para>
+</section> 
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3">We discuss problems, which highlight certain aspects of the study leading to the motion on accelerated incline plane. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+
+<para id="element-4">
+<list id="list-4" list-type="bulleted">
+<item> Coefficient of friction in accelerated frame
+</item>
+<item> Incline on a smooth horizontal surface
+</item>
+<item> Incline in an accelerated lift
+</item>
+</list>
+</para>
+</section> 
+
+<section id="section-3">
+<title> Coefficient of friction in accelerated frame
+</title>
+
+<para id="element-4a"><term>Problem 1 : </term> A block is placed on a rough incline plane placed on the floor of a lift, which is moving up with acceleration “a”. The incline plane is raised at one end to increase the angle of incline slowly till the block is about to move down. Find angle of repose (this is the angle of incline for which block begins to slide).
+</para>
+<para id="element-5"><term>Solution : </term> Let the angle of incline, when block is about to move down, is “θ”. To analyze the forces, we select a coordinate system with axes in horizontal and vertical directions. This orientation of axes takes advantage of the fact that acceleration of the lift is in vertical direction. </para> 
+
+<para id="element-606">The context of motion here is peculiar, in which inertial or non-inertial considerations for force analysis do not make any difference. The reason is that angle of repose is obtained by considering motion in horizontal direction only (as we shall see soon). It does not matter whether we analyze forces without pseudo force (inertial ground reference) or with pseudo force (non-inertial lift reference). Note that if we consider non-inertial analysis, then the pseudo force would be in  vertically downward direction and as such would not come in consideration for force analysis in horizontal direction.</para><para id="element-7">
+<figure id="fig-7">
+<title>  Motion on accelerating incline </title>
+<media id="idm12857760" alt=""><image src="../../media/ai1.gif" mime-type="image/gif"/></media>
+<caption> The incline has acceleration in upward direction. </caption>
+</figure>
+</para>
+<para id="element-700">The component of acceleration of the lift in horizontal direction is zero. The motion of the block in horizontal direction, therefore, is not in accelerated frame of reference. For the condition of balanced net component of forces in horizontal direction :  </para><para id="element-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> N </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> N </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-565">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-9">Thus, we see that angle of repose in the accelerated lift is same as that when the incline is placed on the ground. This result is expected as there is no component of acceleration of the lift in horizontal direction and application of Newton's law remains same as far as force analysis in horizontal direction is concerned. 
+</para>
+
+</section> 
+
+<section id="section-4">
+<title> Incline on a smooth horizontal surface
+</title>
+<section id="section-4a">
+
+<para id="element-14"><term>Problem 2 : </term> A block of mass "m" is kept on a smooth incline of angle "θ" and mass "M". The incline is placed on a smooth horizontal surface.  Find the horizontal force "F" required such that block is stationary with respect to incline. 
+</para>
+<para id="element-14a"><figure id="fig-14a"><title>  Motion on accelerating incline </title>
+<media id="idm5693568" alt=""><image src="../../media/ai2b.gif" mime-type="image/gif"/></media>
+<caption> The block is stationary on an accelerated incline. </caption>
+</figure>
+</para>
+<para id="element-15"><term>Solution : </term> Since block is stationary with respect to incline, both elements of the system (incline and block) have same acceleration. As such, we can consider "block - incline" to constitute a combined system and treat them as one. As all surfaces are smooth, friction force is zero. Hence, acceleration of the system is given by :
+</para> 
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>M</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16a">We can now analyze forces on the block to find force "F" for the given condition  of block being stationary with respect to incline. The block is stationary with reference to incline, but it is accelerated with respect to ground. The condition of "being stationary" is, therefore, given in the context of accelerated frame of incline. Hence, it is more intuitive to carry out analysis in the non-inertial frame of reference. 
+</para>
+<para id="element-967">Three forces on the block, including pseudo force, are shown here in the figure. Further, since two of the three forces i.e weight and pseudo forces are in horizontal and vertical directions, we choose our coordinates accordingly along these directions.  </para><para id="element-232"><figure id="fig-232"><title>  Forces on the block with pseudo force </title>
+<media id="idm6732320" alt=""><image src="../../media/ai3a.gif" mime-type="image/gif"/></media>
+<caption> The block is stationary on an accelerated incline. </caption>
+</figure></para><para id="element-17">The free body diagram of the block with components of forces along the axes is shown here. 
+</para>
+<para id="element-18">
+<figure id="fig-18"><title>  Free body diagram in non-inertial frame </title>
+<media id="idm6655728" alt=""><image src="../../media/ai4a.gif" mime-type="image/gif"/></media>
+<caption> The block is stationary on an accelerated incline. </caption>
+</figure>
+</para>
+<para id="element-19"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+
+
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+Taking ratio, we have :
+</para>
+<para id="element-24"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">
+Substituting for "a", we have :
+</para>
+<para id="element-25a"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>M</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25b"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>g</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section> 
+
+<section id="section-4b">
+
+<para id="element-100"><term>Problem 3 : </term>A block of mass is placed on a rough incline of angle “θ”. The angle of incline is greater than the angle of repose. If coefficient of friction between block and incline is “μ”, then what should be acceleration of the incline in horizontal direction such that no friction operates between block and incline.
+</para>
+<para id="element-101">
+<figure id="fig-101"><title>  Block and incline system </title>
+<media id="idm14929056" alt=""><image src="../../media/ai10.gif" mime-type="image/gif"/></media>
+<caption> The angle of incline is greater than the angle of repose. </caption>
+</figure>
+</para>
+<para id="element-102"><term>Solution : </term>In order to find the acceleration of the incline for “no friction”, we need to know the net component of forces parallel to the incline. The pulling force here is the component of gravitational force parallel to incline in the downward direction. It is given that the angle of incline is greater than angle of repose.  It means that block has started moving downward and force of friction is equal to kinetic friction (about equal to limiting friction).
+</para>
+<para id="element-103">Let the mass of the block be “m”. The net component of force parallel to incline is acting downward and is given by :
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-105">The incline moves with a certain acceleration due to forces acting on it. We need to apply a pseudo force to apply Newton's second law of motion. It is clear that pseudo force should have a component along the incline in upward direction so that net component of force (without friction) is zero. This will ensure that there is no friction between interface of block and the incline.
+</para>
+<para id="element-106">Now, for the pseudo force to have a component along the incline upward direction, the acceleration of the incline should be towards left as indicated in the figure below. 
+</para>
+<para id="element-107">
+<figure id="fig-107"><title>  Block and incline system </title>
+<media id="idm5960336" alt=""><image src="../../media/ai11.gif" mime-type="image/gif"/></media>
+<caption> The angle of incline is greater than the angle of repose. </caption>
+</figure>
+</para>
+<para id="element-108">The free body diagram of the block with pseudo force is shown here.
+</para>
+<para id="element-109">
+<figure id="fig-109"><title>  Free body diagram </title>
+<media id="idm1275728" alt=""><image src="../../media/ai12.gif" mime-type="image/gif"/></media>
+<caption> The forces on the blocck. </caption>
+</figure>
+</para>
+<para id="element-110">The components of gravitational force and pseudo force form balanced force system so that there is no net component of forces along the incline and hence there is no friction between the interface.
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mi>g</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-113">
+<m:math>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math> towards left
+</para>
+
+
+</section> 
+<section id="section-4c">
+
+<para id="element-70a"><term>Problem 4 : </term>
+A block of mass "m" is placed on an incline of angle "θ" and mass "M", which is placed on a horizontal surface. All surfaces are friction - less. Find the acceleration of the block with respect to incline.
+</para>
+<para id="element-70"> 
+<figure id="fig-70"><title>  Block and incline system </title>
+<media id="idm509040" alt=""><image src="../../media/ai7.gif" mime-type="image/gif"/></media>
+<caption> All surfaces are friction-less. </caption>
+</figure>
+</para>
+<para id="element-71"><term>Solution : </term>
+Here, block and incline both have different accelerations. The block moves down along the incline. The incline, on the other hand, moves right as shown in the figure above. As such, we can not treat two elements as one body and find the their common accelerations with respect to ground.
+</para>
+
+<para id="element-73">
+Let "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>"
+, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" and "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>BI</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" respectively denote acceleration of block w.r.t ground, acceleration of the incline w.r.t ground and acceleration of the block w.r.t incline.  
+</para>
+<para id="element-74">
+We first carry out force analysis on the "block" in the non-inertial frame of incline. Here, the forces on the block are (i) weight of the block, "mg", (ii) normal force due to underlying incline, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+", and (iii) Pseudo force, "
+<m:math>
+  <m:mrow>
+      <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" applied in the direction opposite to the acceleration of the incline. The free body diagram of the incline in non-inertial reference of incline is shown here.
+</para>
+<para id="element-75">
+<figure id="fig-75"><title>  Free body diagram of block in non-inertial frame </title>
+<media id="idm4279040" alt=""><image src="../../media/ai8.gif" mime-type="image/gif"/></media>
+<caption> Three forces, including pseudo force, act on the block. </caption>
+</figure>
+</para>
+<para id="element-76">
+Force analysis on the block yields two relation,
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">It is clear from the first equation that we need to know "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" i.e. the acceleration of incline with respect to ground to determine the value of "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>BI</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+". It is imperative that we carry out force analysis on the "incline" in the inertial frame of reference of ground.
+</para>
+<para id="element-80">
+The forces on the incline are (i) weight of the incline, "Mg", (ii) normal force due to overlying block, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+", and (iii) Normal force due to underneath horizontal surface, "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+". The free body diagram of the incline in inertial ground reference is shown here.
+</para>
+<para id="element-81">
+<figure id="fig-81"><title>  Free body diagram of inline inertial frame </title>
+<media id="idm6992960" alt=""><image src="../../media/ai9.gif" mime-type="image/gif"/></media>
+<caption> Three forces act on the block. </caption>
+</figure>
+</para>
+<para id="element-82">Force analysis of the incline yields two relations,
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85">
+First of the equations is useful that can be combined with the analysis in non-inertial frame of reference. Substituting for "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" in the earlier equation, we have :
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>I</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+            <m:mi>sin</m:mi>
+            <m:mi>θ</m:mi>
+            <m:mi>cos</m:mi>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>M</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:mi>sin</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>   
+</para>
+<para id="element-89">
+We can now determine the required acceleration of the block with respect to incline by substituting the value of "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>I</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+" in the expression of "
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>BI</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>" :
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+            <m:mi>sin</m:mi>
+            <m:mi>θ</m:mi>
+            <m:mi>cos</m:mi>
+            <m:msup>
+              <m:mi/>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>M</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>m</m:mi>
+            <m:mi>sin</m:mi>
+            <m:msup>
+              <m:mi/>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>m</m:mi>
+            <m:mi>g</m:mi>
+            <m:mi>sin</m:mi>
+            <m:mi>θ</m:mi>
+            <m:msup>
+              <m:mi>cos</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>M</m:mi>
+            <m:mi>g</m:mi>
+            <m:mi>sin</m:mi>
+            <m:mi>θ</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:mi>sin</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>M</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:mi>sin</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>g</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+        <m:mo>{</m:mo>
+        <m:mi>M</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>m</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>cos</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>sin</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>}</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>M</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>m</m:mi>
+            <m:msup>
+              <m:mi>sin</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>M</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>m</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>M</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>m</m:mi>
+            <m:mi>sin</m:mi>
+            <m:msup>
+              <m:mi/>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math> 
+</para>
+
+</section>  
+<section id="section-4d">
+<para id="element-114"><term>Problem 5 : </term> A block is placed on an incline, which is accelerated towards left at an acceleration equal to the acceleration due to gravity, as shown in the figure. The angle of incline is 30°. If friction is absent at all contact surfaces, then find the time taken by the block to cover a length of 4 m on the incline.
+</para>
+<para id="element-115">
+<figure id="fig-115"><title>  Block and incline system </title>
+<media id="idm1030528" alt=""><image src="../../media/ai14.gif" mime-type="image/gif"/></media>
+<caption> All surfaces are friction-less. </caption>
+</figure>
+</para>
+<para id="element-116"><term>Solution : </term>Here, initial velocity of block is zero. We need to know the acceleration of the block with respect to incline in order to find the required time to cover a displacement of 4 m along the incline.
+</para>
+<para id="element-117">
+<figure id="fig-117"><title>  Block and incline system </title>
+<media id="idm2563584" alt=""><image src="../../media/ai15.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block. </caption>
+</figure>
+</para>
+<para id="element-118">Let “a” be the acceleration of the incline with respect to ground and “
+<m:math>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+</m:math>
+” be the acceleration of the block relative to the incline. We however do not know whether net component of forces parallel to incline is in up or down direction. The free body diagram of the block is superimposed on the block in the figure above. The forces on the block includes pseudo force (mg), acting towards right. 
+</para>
+<para id="element-119"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-121">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-122">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-123">Clearly, the net component of forces along the incline is positive. It means that block is moving up. The magnitude of acceleration with respect to incline in upward direction, is :
+</para>
+<para id="element-124">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-125">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>3</m:mn>
+            </m:msqrt>
+            <m:mo>−</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>3.66</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-126">Now, using equation of motion for constant acceleration, we have (initial velocity is zero) :
+</para>
+<para id="element-127">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-128">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>3.66</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-129">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>8</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>3.66</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1.48</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>  
+</section> 
+<section id="section-5">
+<title> Incline in an accelerated lift
+</title>
+
+<para id="element-54"><term>Problem 6 : </term> A block of 2 kg slides down a smooth inclines plane of angle 30° and  length 12 m. The incline is fixed at the floor of a lift, which is acceleration up at 2 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Find the time taken by the block to travel from the top to bottom of the incline. Also find the magnitude of acceleration of the block with respect to ground. Consider g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.</para>
+<para id="element-55"><term>Solution : </term> In order to know the time, we need to know the acceleration of the block with respect to incline (not with respect to ground). The block has to travel exactly 12 m in the reference of accelerated lift. The technique of pseudo force, therefore, has distinct advantage over analysis in ground reference as the analysis in accelerated frame will directly give the acceleration of the block with respect to incline. This will allow us to apply equation of motion to find time to cover 12 m in the lift.
+</para> 
+<para id="element-56">Let 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+, 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> L </m:mi>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+</m:math>
+be the acceleration of block w.r.t ground, acceleration of lift (incline) w.r.t ground and acceleration of block w.r.t lift (incline) respectively. </para>
+
+<para id="element-57">
+<figure id="fig-57"><title> Motion of block on an incline in an accelerated lift </title>
+<media id="idp285248" alt=""><image src="../../media/ai5a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-657">Note that block is acted upon by three forces (i) weight of the block, "mg" (ii) Normal force on the block, "N" and pseudo force, "maL".  The axes are drawn parallel and perpendicular to the incline. This is advantageous as acceleration of the block with respect to incline is along the incline. As we have gained experience, free body diagram is not separately drawn. It is shown superimposed on the body system. The figure above also shows the weight of the block resolved along the axes.</para><para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> L </m:mi>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mi> sin </m:mi>
+<m:msup>
+<m:mn> 30 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 12 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 6 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+Now, applying equation of motion,
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+The relative acceleration of the block with respect to incline 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+</m:math>
+ is related to accelerations of the block and lift w.r.t ground as :
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> L </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+The acceleration of block with respect to ground is given as :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> L </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55a">
+<figure id="fig-55a"><title> Vector addition </title>
+<media id="idm13158912" alt=""><image src="../../media/ai6a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-66">
+Evaluating the right side of the equation,
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> L </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> BL </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> L </m:mi>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 120 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 6 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 36 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 28 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 5.29 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section> 
+
+
+  </content>
+  
+</document>

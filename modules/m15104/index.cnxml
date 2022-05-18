@@ -1,0 +1,1771 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravitational field due to rigid bodies</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5e74bf22-82ae-4bc2-9e09-15c90ae8e239</md:uuid>
+</metadata>
+  <content>
+
+<section id="section-2">
+<title>Gravitational field of rigid bodies </title>
+<para id="element-28">
+We shall develop few relations here for the gravitational field strength of bodies of particular geometric shape without any reference to Earth’s gravitation. 
+</para>
+<para id="element-29">Newton’s law of gravitation is stated strictly in terms of point mass. The expression of gravitational field due to a particle, as derived from this law, serves as starting point for developing expressions of field strength due to rigid bodies. The derivation for field strength for geometric shapes in this module, therefore, is based on developing technique to treat a real body mass as aggregation of small elements and combine individual effects. There is a bit of visualization required as we need to combine vectors, having directional property. 
+</para>
+<para id="element-30">
+Along these derivations for gravitational field strength, we shall also establish Newton’s shell theory, which has been the important basic consideration for treating spherical mass as point mass. 
+</para>
+
+<para id="element-841">The celestial bodies - whose gravitational field is appreciable and whose motions are subject of great interest - are usually spherical. Our prime interest, therefore, is to derive expression for field strength of solid sphere. Conceptually, a solid sphere can be considered being composed of infinite numbers of closely packed spherical shells. In turn, a spherical shell can be conceptualized to be aggregation of thin circular rings of different diameters. 
+
+</para><para id="element-31">The process of finding the net effect of these elements fits perfectly well with integration process. Our major task, therefore, is to suitably set up an integral expression for elemental mass and then integrate the elemental integral between appropriate limits. It is clear from the discussion here that we need to begin the process in the sequence starting from ring --&gt; spherical shell --&gt; solid sphere. </para>
+
+<section id="section-2b">
+<title>Gravitational field due to a uniform circular ring </title>
+<para id="element-34">
+We need to find gravitational field at a point “P” lying on the central axis of the ring of mass “M” and radius “a”. The arrangement is shown in the figure. We consider a small mass “dm” on the circular ring. The gravitational field due to this elemental mass is along PA. Its magnitude is given by :
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Gravitational field due to a ring </title>
+<media id="idm6990464" alt=""><image src="../../media/ge1.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field is measured on axial point "P".</caption>
+</figure>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mi>P</m:mi>
+            <m:mi>A</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">We resolve this gravitational field in the direction parallel and perpendicular to the axis in the plane of OAP. 
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Gravitational field due to a ring </title>
+<media id="idp758176" alt=""><image src="../../media/ge2.gif" mime-type="image/gif"/></media>
+<caption> The net gravitational field is axial. </caption>
+</figure>
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>E</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mo>⊥</m:mo>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>E</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40a">
+We note two important things. First, we can see from the figure that measures of “y” and “θ” are same for all elemental mass. Further, we are considering equal elemental masses. Therefore, the magnitude of gravitational field due any of the elements of mass “dm” is same, because they are equidistant from point “P”.
+</para>
+<para id="element-41">Second, perpendicular components of elemental field intensity for pair of elemental masses on diametrically opposite sides of the ring are oppositely directed. On integration, these perpendicular components will add up to zero for the whole of ring. It is clear that we can assume zero field strength perpendicular to axial line, if mass distribution on the ring is uniform. For uniform ring, the net gravitational intensity will be obtained by integrating axial components of elemental field strength only. Hence,
+</para>
+<para id="element-42">
+<figure id="fig-42">
+<title> Gravitational field due to a ring </title>
+<media id="idp4718208" alt=""><image src="../../media/ge3.gif" mime-type="image/gif"/></media>
+<caption> Perpendicular components cancel each other. </caption>
+</figure>
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>E</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+The trigonometric ratio “cosθ” is a constant for all points on the ring. Taking out cosine ratio and other constants from the integral,
+</para>
+<para id="element-46"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">Integrating for m = 0 to m = M, we have :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>             
+</para>
+<para id="element-49">From triangle OAP, 
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">Substituting for “cosθ” in the equation ,
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">For r = 0, E = 0. The gravitation field at the center of ring is zero. This result is expected also as gravitational fields due to two diametrically opposite equal elemental mass are equal and opposite and hence balances each other. 
+</para>
+<section id="section-2b1">
+<title>Position of maximum gravitational field </title>
+<para id="element-54">
+We can get the maximum value of gravitational field by differentiating its expression w.r.t linear distance and equating the same to zero,
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+This yields,
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:msqrt>
+        <m:mn>2</m:mn>
+      </m:msqrt>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Substituting in the expression of gravitational field, the maximum field strength due to a circular ring is :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mn>2</m:mn>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:mfrac>
+                  <m:msup>
+                    <m:mi>a</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">The plot of gravitational field with axial distance shows the variation in the magnitude,
+</para>
+<para id="element-61">
+<figure id="fig-61">
+<title> Gravitational field due to a ring </title>
+<media id="idp10144000" alt=""><image src="../../media/ge4.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field along the axial line. </caption>
+</figure>
+</para>
+</section>
+</section>
+
+
+<section id="section-2d">
+<title>Gravitational field due to thin spherical shell </title>
+<para id="element-86">The spherical shell of radius “a” and mass “M” can be considered to be composed of infinite numbers of thin rings. We consider one such ring of infinitesimally small thickness “dx” as shown in the figure. We derive the required expression following the sequence of steps as outlined here : 
+</para>
+<para id="element-87"><figure id="fig-87">
+<title> Gravitational field due to thin spherical shell </title>
+<media id="idp3510016" alt=""><image src="../../media/gp20.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field is measured on axial point "P". </caption>
+</figure>
+</para>
+<para id="element-88">(i) Determine mass of the elemental ring in terms of the mass of shell and its surface area. 
+</para>
+<para id="element-89"><m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">From the figure, we see that :
+</para>
+
+
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">Putting these expressions,
+</para>
+<para id="element-95"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>a</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mi>a</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-96">(ii) Write expression for the gravitational field due to the elemental ring. For this, we employ the formulation derived earlier for the ring,
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>P</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">Putting expression for elemental mass,
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>α</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-101">
+(v)	Set up integral for the whole disc
+</para>
+<para id="element-102">We see here that gravitational fields due to all concentric rings are directed towards the center of spherical shell along the axis. 
+</para>
+<para id="element-103">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-104">The integral expression has three varibles "α","θ" and "y".Clearly, we need to express variables in one variable “x”. From triangle, OAP,
+</para>
+<para id="element-105">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-106">Differentiating each side of the equation,
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>y</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>y</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-109">Again from triangle OAP,
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>y</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>y</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-112">Putting these values in the integral,
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>y</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>y</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-116">We shall decide limits of integration on the basis of the position of point “P” – whether it lies inside or outside the shell. Integrating expression on right side between two general limits,  initial (
+<m:math>
+  <m:mrow>
+  <m:msub>
+    <m:mo>L</m:mo>
+    <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>
+) and final (
+<m:math>
+  <m:mrow>
+  <m:msub>
+    <m:mo>L</m:mo>
+    <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>),
+</para>
+<para id="element-858"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para><para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>y</m:mi>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-2d1">
+<title>Evaluation of integral for the whole shell </title>
+<para id="element-118"><term>Case 1 : </term>  The point “P” lies outside the shell. The total gravitational field is obtained by integrating the integral from y = r-a to y = r+a,
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>y</m:mi>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-120">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-121">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mrow>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+        <m:mo>−</m:mo>
+        <m:mrow>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mrow>
+              <m:mi>r</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>a</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-122">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>4</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>                             
+</para>
+<para id="element-123">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>                             
+</para>
+<para id="element-124">This is an important result. We have been using this result by the name of Newton’s shell theory. According to this theory, a spherical shell, for a particle outside it, behaves as if all its mass is concentrated at its center. This is how we could calculate gravitational attraction between Earth and an apple. Note that radius of the shell, “a”, does not come into picture.
+</para>
+<para id="element-125"><term>Case 2 : </term> The point “P” lies outside the shell. The total gravitational field is obtained by integrating the integral from x = a-r to x = a+r,
+</para>
+<para id="element-126">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>y</m:mi>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-127">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-128">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>r</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfenced>
+      <m:mrow>
+        <m:mrow>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mo>+</m:mo>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+        <m:mo>−</m:mo>
+        <m:mrow>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mrow>
+              <m:mi>a</m:mi>
+              <m:mo>−</m:mo>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-129">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>a</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>r</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>r</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-131">This is yet another important result, which has been used to determine gravitational acceleration below the surface of Earth. The mass residing outside the sphere drawn to include the point below Earth’s surface, does not contribute to gravitational force at that point. 
+</para>
+<para id="element-132">The mass outside the sphere is considered to be composed of infinite numbers of thin shells. The point within the Earth lies inside these larger shells. As gravitational intensity is zero within a shell, the outer shells do not contribute to the gravitational force on the particle at that point.
+</para>
+<para id="element-133">A plot, showing the gravitational field strength, is shown here for regions both inside and outside spherical shell :
+</para>
+<para id="element-134">
+<figure id="fig-134">
+<title> Gravitational field due to thin spherical shell </title>
+<media id="idp3842448" alt=""><image src="../../media/ge8.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field along linear distance from center. </caption>
+</figure>
+</para>
+</section>
+</section>
+<section id="section-2e">
+<title>Gravitational field due to uniform solid sphere </title>
+<para id="element-135">
+The uniform solid sphere of radius “a” and mass “M” can be considered to be composed of infinite numbers of thin spherical shells. We consider one such spherical shell of infinitesimally small thickness “dx” as shown in the figure. The gravitational field strength due to thin spherical shell at a point outside shell, which is at a linear distance “r” from the center, is given by
+</para>
+<para id="element-24"><figure id="fig-24">
+<title> Gravitational field due to solid sphere </title>
+<media id="idp4546624" alt=""><image src="../../media/ge10.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field at a distance "r" from the center of sphere.</caption>
+</figure></para><para id="element-136">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>                             
+</para>
+<para id="element-137">The gravitational field strength acts along the line towards the center of sphere. As such, we can add gravitational field strengths of individual shells to obtain the field strength of the sphere. In this case, most striking point is that the centers of all spherical shells are coincident at one point. This means that linear distance between centers of spherical shell and the point ob observation is same for all shells. In turn, we can conclude that the term “
+<m:math>
+  <m:mrow>
+  <m:msup>
+    <m:mo>r</m:mo>
+    <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+</m:math>
+” is constant for all spherical shells and as such can be taken out of the integral,
+</para>
+<para id="element-138">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>G</m:mi>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-139">We can see here that a uniform solid sphere behaves similar to a shell. For a point outside, it behaves as if all its mass is concentrated at its center. Note that radius of the sphere, “a”, does not come into picture. Sphere behaves as a point mass for a point outside.
+</para>
+<section id="section-2e1">
+<title>Gravitational field at an inside point </title>
+<para id="element-140">We have already derived this relation in the case of Earth. </para>
+<para id="element-141">For this reason, we will not derive this relation here. Nevertheless, it would be intuitive to interpret the result obtained for the acceleration (field strength) earlier,
+</para>
+<para id="element-671"><figure id="fig-671">
+<title> Gravitational field inside solid sphere </title>
+<media id="idp6006080" alt=""><image src="../../media/ge11.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field at a distance "r" from the center of sphere.</caption>
+</figure></para><para id="element-142">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+      <m:msub>
+        <m:mi>g</m:mi>
+        <m:mn>0</m:mn>
+      </m:msub>
+    <m:mo>(</m:mo>
+        <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+        <m:mi>d</m:mi>
+        <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-143">Putting value of “g0” and simplifying,
+</para>
+<para id="element-144">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>-</m:mo>
+        <m:mfrac>
+          <m:mi>d</m:mi>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>R</m:mi>
+            <m:mo>-</m:mo>
+            <m:mi>d</m:mi>
+          </m:mrow>
+          <m:mi>R</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-145">As we have considered “a” as the radius of sphere here – not “R” as in the case of Earth, we have the general expression for the field strength insider a uniform solid sphere as :
+</para>
+<para id="element-146">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>                
+</para>
+<para id="element-147">The field strength of uniform solid sphere within it decreases linearly within  “r”  and becomes zero as we reach at the center of the sphere. A plot, showing the gravitational field strength, is shown here for regions both inside and outside :
+</para>
+<para id="element-148">
+<figure id="fig-148">
+<title> Gravitational field due to uniform solid sphere </title>
+<media id="idp2651488" alt=""><image src="../../media/ge9.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field along linear distance from center. </caption>
+</figure>
+</para>
+</section> 
+</section> 
+</section>
+  
+  </content>
+  
+</document>

@@ -1,0 +1,1049 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Friction between horizontal surfaces</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>9c59cc65-6a91-4b91-b7f0-3dcc59ac7673</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Friction plays different roles in motion. Consider the case of a block on a plane slab (plank), which, in turn, is placed on a horizontal surface. Typically, friction moderates the motion of a body. In other words, friction retards motion. On the other hand, friction also acts as the “cause” of the motion under certain circumstance. In the role of a “moderator”, friction negates external force. In the role of the “cause” of motion, it is either the sole external force or the greater external force on the body responsible for its motion.
+</para>
+<para id="element-1a">In the "block - plank" set up, we can apply force either on the block or on the plank or on both of them simultaneously. The resulting motion depends on varieties of factors such as friction, external force and location of application of external force etc.
+</para>
+<para id="element-2">
+<figure id="fig-4">
+<title> Friction between horizontal surfaces </title>
+<media id="idp7931680" alt=""><image src="../../media/fb1.gif" mime-type="image/gif"/></media>
+<caption> The block and plank move with respect to each other.</caption>
+</figure>
+</para>
+<para id="element-3">In order to analyze situation as mentioned above, we need to have clear understanding of the way friction works on each of bodies. In this module, we seek to organize ourselves so that we have well thought out plan and method to deal with this kind of motion.
+</para>
+<para id="element-4">First thing that we need to know is about friction – its magnitude and direction. Secondly, we need to know the nature of friction – whether friction is static, limiting or kinematic. Once, we have complete picture of various friction forces at different interfaces, we are in position to draw the free body diagram and analyze the motion.
+</para>
+<section id="section-1">
+<title>Friction between interfaces</title>
+<para id="element-5">We shall consider three cases. In order to keep the matter simple, we make one simplifying assumption that the friction between plank and the horizontal surface is negligible. In other words, the underlying horizontal surface is smooth. 
+</para>
+
+<para id="element-7">
+<list id="list-7" list-type="bulleted"><item> An external force is applied on the block. </item>
+<item> An external force is applied on the plank. </item>
+<item> One external force each is applied on block and plank.  </item>
+</list>
+</para>
+<para id="element-8">To keep the description uniform, we refer block as “A”, having mass, “m”, and plank as “B”, having mass, “M”. We shall find that a consistency in denoting block and plank is very helpful in analyzing motion. The analysis of motion for first two cases is similar. It differs only to the extent that point of application of external force changes. Nevertheless, it is interesting to analyze two cases separately to score the differences in two cases. 
+</para>
+
+</section>
+
+<section id="section-2">
+<title>An external force is applied on the block</title>
+<para id="element-10">The external force is applied on the block as shown in the figure below. There are two possibilities : (i) there is no friction between "A" and "B" or (ii) there is friction between "A" and "B".
+</para>
+<para id="element-11">
+<figure id="fig-11">
+<title> An external force on the block </title>
+<media id="idp13989856" alt=""><image src="../../media/fb2.gif" mime-type="image/gif"/></media>
+<caption> An external force, "F", is applied on the block.</caption>
+</figure>
+</para>
+<section id="section-2a">
+<title>There is no friction between block and plank</title>
+<para id="element-12">We first analyze the motion for a case when all interfaces are “friction – less”. In this situation, the external force on block, “A”, accelerates only the block. As there is no friction between the interface of block and plank, there is no external force on the plank in horizontal direction. As such, plank, “B”, is not accelerated. The free body diagrams of “A” and “B” are as shown in the figure.
+</para>
+<para id="element-14">
+<figure id="fig-14">
+<title> Free body diagrams </title>
+<media id="idp7488240" alt=""><image src="../../media/fb3.gif" mime-type="image/gif"/></media>
+<caption> There is no external force on the plank.</caption>
+</figure>
+</para>
+<para id="element-15">
+The acceleration of block, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">The acceleration of plank, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2b">
+<title>There is friction between block and plank</title>
+<para id="element-19">The friction force in this case will influence the motion as it acts as external force on each individual body. The resulting motion of the bodies, however, would depend on the nature of friction (static, limiting or kinetic). In the figure below, the forces on the block and plank are shown separately for each of them. 
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> Forces on the bodies </title>
+<media id="idp7209888" alt=""><image src="../../media/fb4.gif" mime-type="image/gif"/></media>
+<caption> Friction is the only external force on the plank.</caption>
+</figure>
+</para>
+<para id="element-21">In order to determine the direction of frictions at the interface, we go by two simple steps. We first consider the body on which external force (F) is applied. The direction of friction on the body (A) is opposite to the external force. We determine friction on the other body (B) by applying Newton’s third law of motion. Friction on plank (B) is equal in magnitude, but opposite in direction.
+</para>
+<para id="element-22">Once direction of friction is known, we need to know the nature of friction. For this, we first calculate limiting friction between the bodies so as to compare it with external applied force "F". The limiting friction is given by :
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">Important thing to realize here is that limiting friction depends only on the mass of the block, “m”, and is independent of the mass, “M”, of the plank. Now, we should compare external force with friction to determine its magnitude. Finally, we analyze motion in following manner :
+</para>
+<para id="element-25"><term>1 : </term>	
+<m:math>
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>≤</m:mo>
+        <m:msub>
+    <m:mi>F</m:mi>
+    <m:mi>S</m:mi>
+        </m:msub>
+
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mo>≤</m:mo>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>s</m:mi>
+        </m:msub>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">In this case, friction self adjusts to external force, “F”. Hence, static friction is given by :
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">As there is no relative motion, the block and plank move together as a single unit. The friction forces at the interface are internal forces for the combined body. The free body diagram of the combined body is shown here.
+</para>
+<para id="element-29">
+<figure id="fig-29">
+<title> Free body diagram </title>
+<media id="idm54320" alt=""><image src="../../media/fb5.gif" mime-type="image/gif"/></media>
+<caption> Free body diagram of combined body.</caption>
+</figure>
+</para>
+<para id="element-30">The common acceleration of the block and plank, “a”, is :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-32">
+<term>2 : </term>
+<m:math>
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mo>&gt;</m:mo>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>s</m:mi>
+        </m:msub>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+The block and plank move with different accelerations and have relative motion. The friction between the interfaces is, therefore, kinetic friction.
+</para>
+<para id="element-34">
+The free body diagrams of block and plank are shown here.
+</para>
+<para id="element-35">
+<figure id="fig-35">
+<title> Free body diagrams </title>
+<media id="idp11024608" alt=""><image src="../../media/fb6.gif" mime-type="image/gif"/></media>
+<caption> Free body diagrams of block and plank.</caption>
+</figure>
+</para>
+<para id="element-36">The acceleration of block, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>k</m:mi>
+        </m:msub>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37a">The acceleration of block, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>k</m:mi>
+        </m:msub>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+</section>
+
+<section id="section-3">
+<title>An external force is applied on the plank</title>
+<para id="element-38a">The external force is applied on the plank as shown in the figure below. There are two possibilities : (i) there is no friction between "A" and "B" or (ii) there is friction between "A" and "B".
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> An external force on the plank </title>
+<media id="idp13417104" alt=""><image src="../../media/fb7.gif" mime-type="image/gif"/></media>
+<caption> An external force, "F", is applied on the plank.</caption>
+</figure>
+</para>
+<section id="section-3a">
+<title>There is no friction between block and plank</title>
+<para id="element-40">In this situation, the external force on block, “B”, accelerates only the plank. As there is no friction between the interface of block and plank, there is no external force on the block in horizontal direction. As such, block, “A”, is not accelerated. The free body diagrams of “A” and “B” are as shown in the figure.
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Free body diagrams </title>
+<media id="idp7047248" alt=""><image src="../../media/fb8.gif" mime-type="image/gif"/></media>
+<caption> There is no external force on the block.</caption>
+</figure>
+</para>
+<para id="element-45">
+The acceleration of block, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+The acceleration of plank, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-48"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<title>There is friction between block and plank</title>
+<para id="element-49">The friction force in this case will influence the motion as it acts as external force on each individual body. The resulting motion of the bodies, however, would depend on the nature of friction (static, limiting or kinetic). In the figure below, the forces on the block and plank are shown separately for each of them.
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> Forces on the bodies </title>
+<media id="idm27728" alt=""><image src="../../media/fb9.gif" mime-type="image/gif"/></media>
+<caption> Friction is the only external force on the block.</caption>
+</figure>
+</para>
+<para id="element-51">In order to determine the direction of frictions at the interface, we go by two simple steps. We first consider the body on which external force is applied. The direction of friction on the body (B) is opposite to the external force. We determine friction on the other body (A) by applying Newton’s third law of motion. Friction on block (A) is equal in magnitude, but opposite in direction.
+</para>
+<para id="element-52">Once direction of friction is known, we need to know the nature of friction. Unlike in the previous case when external force is applied on the block, the situation here is different. The plank carries another mass of block over itself. The external force (F) is not completely used to overcome friction at the interface, but to move the combined mass together. As such, external force can not be directly linked to static friction as in the case when force is applied on the block.
+</para>
+<para id="element-52a"> For this reason, we shall adopt a different strategy. We shall assume that friction is static friction. If the analysis of force does not support this assumption, then we correct the assumption accordingly. Now, the limiting friction is given by :
+ </para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-58">Let us assume that "
+<m:math>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+</m:math>
+" be the static friction between the surfaces. As there is no relative motion, the block and plank move together as a single unit. The friction forces at the interface are internal forces for the combined body. The free body diagram of the combined body is shown here.
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> Free body diagram </title>
+<media id="idp380992" alt=""><image src="../../media/fb5.gif" mime-type="image/gif"/></media>
+<caption> Free body diagram of combined body.</caption>
+</figure>
+</para>
+<para id="element-60">The common acceleration of the block and plank, “a”, is :
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-62">We observe that friction is the only force on the block. Then, applying  Newton's second law for the motion of block, we have :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mi>m</m:mi>
+      <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-63a">Clearly, if "
+<m:math>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+</m:math>
+" so calculated is less than or equal to limiting friction, then block and plank indeed move together. However, if "
+<m:math>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+</m:math>
+" is greater than limiting friction, then block and plank move with different accelerations. In such case, friction between "A" and "B" is kinetic friction. 
+</para>
+<para id="element-64">
+The free body diagrams of block and plank are shown here.
+</para>
+<para id="element-65">
+<figure id="fig-65">
+<title> Free body diagrams </title>
+<media id="idp8270528" alt=""><image src="../../media/fb10.gif" mime-type="image/gif"/></media>
+<caption> Free body diagrams of block and plank.</caption>
+</figure>
+</para>
+<para id="element-66">The acceleration of block, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>k</m:mi>
+        </m:msub>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mi>k</m:mi>
+    </m:msub>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67a">The acceleration of block, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mi>k</m:mi>
+        </m:msub>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+
+</section>
+</section>
+
+<section id="section-4">
+<title>One external force each is applied on block and plank </title>
+<para id="element-69">In this case, external forces act on the block and plank separately. It is, therefore, not possible in this case to compare limiting force with external force as there are two of them, which are acting on two different bodies. </para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Friction between horizontal surfaces </title>
+<media id="idm152592" alt=""><image src="../../media/fb1.gif" mime-type="image/gif"/></media>
+<caption> The block and plank move with respect to each other. </caption>
+</figure>
+</para>
+<para id="element-71">Here, we adopt the strategy of assuming nature of friction before hand. First, we calculate the limiting friction as before,
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">Then, we consider a friction, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, which is static friction, but whose magnitude is not known. If we are wrong in our assumption as brought out by the analysis, then we will correct our assumption; otherwise not.  The free body diagrams of the block and the plank are shown in the figure.
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> Free body diagrams  </title>
+<media id="idp7589952" alt=""><image src="../../media/fb11.gif" mime-type="image/gif"/></media>
+<caption> Free body diagrams of block and plank. </caption>
+</figure>
+</para>
+<para id="element-75">
+Since friction is static unknown friction, two bodies move together without any relative motion between them. It means that :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>f</m:mi>
+          <m:mi>s</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>f</m:mi>
+          <m:mi>s</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>M</m:mi>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>M</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>M</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mi>M</m:mi>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">If the value of “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>f</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” as calculated, using expression derived above, is less than limiting friction, then we conclude that two bodies are indeed moving together. Otherwise, our assumption were wrong and the bodies are moving with different accelerations. In that case, we calculate accelerations separately as :
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>f</m:mi>
+          <m:mi>s</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>A</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>f</m:mi>
+          <m:mi>s</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6">
+<title>Velocity .vs. Force </title>
+<para id="element-84"> We have so far analyzed motion, considering external force on the bodies. Under certain condition, if data is provided in the form of velocity of the individual body, then the analysis is simplified significantly. Consider the set up as shown in the figure. At a certain instant, the block is imparted a velocity (alternatively, we have simply allowed a block with certain velocity to slide over the plank underneath). 
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Friction between horizontal surfaces </title>
+<media id="idp18295472" alt=""><image src="../../media/fb12.gif" mime-type="image/gif"/></media>
+<caption> The block and plank move with respect to each other. </caption>
+</figure>
+</para>
+<para id="element-86">An initial velocity to block, here, ensures that there is relative motion at the interface. This, in turn, ensures that the friction between the surfaces is kinetic friction. This means that nature of friction is known and need not be investigated as in the case when external force is applied.    
+</para>
+</section>
+<section id="section-7">
+<title>Example </title>
+<para id="element-87"><term>Problem : </term> A block with initial velocity "v" is placed over a rough horizontal plank of the same mass. The plank resides over a smooth horizontal plane. Plot the velocities of the block and the plank with respect to time.
+</para>
+<para id="element-88">
+<figure id="fig-88">
+<title> Block and plank system </title>
+<media id="idp721344" alt=""><image src="../../media/fb14.gif" mime-type="image/gif"/></media>
+<caption> Initial velocity of block is "v". </caption>
+</figure>
+</para>
+
+<para id="element-90"><term>Solution : </term> 
+Let the mass of the block and plank each be “m” and “μ” be the coefficient of kinetic friction between them. Since block is given a velocity with respect to ground, the friction between block and plank is kinetic friction, given by :
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>K</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">The direction of friction on the block is opposite to the direction of motion. The friction here retards the motion. Let us denote block and plank by subscripts “1” and “2” respectively.The deceleration of the block is given by : 
+</para>
+
+<para id="element-94"><m:math display="block">
+  <m:mrow>
+
+      <m:mi>a</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">
+<figure id="fig-95">
+<title> Forces on the bodies  </title>
+<media id="idp9976496" alt=""><image src="../../media/fb15.gif" mime-type="image/gif"/></media>
+<caption> Friction on two bodies are equal but opposite. </caption>
+</figure>
+</para>
+<para id="element-96">It means that velocity of the block decreases at constant rate with time. The velocity – time plot of block, therefore, is a straight line with negative slope. On the other hand, friction is the only force on the plank in the forward direction. The magnitude of acceleration is same as that of block, because it has the same mass and it is worked by force of same magnitude. Since plank starts from zero velocity, the velocity – time plot of the plank is a straight line of constant slope, starting from the origin of the plot.
+</para>
+<para id="element-97">The block looses motion due to deceleration, whereas plank acquires motion due to acceleration. A situation comes when speeds of the two entities are equal. In that situation,
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>μ</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-101">The common velocity is given by :
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>c</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>μ</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">This means that velocity of the block and plank becomes equal to half of the initial velocity imparted to the block. There is no relative motion between two entities. They simply move together with same velocity as combined mass with the common velocity, “v/2”. The required plot is shown in the figure :
+</para>
+<para id="element-104">
+<figure id="fig-104">
+<title> Velocity - time plot  </title>
+<media id="idp11246832" alt=""><image src="../../media/fb16.gif" mime-type="image/gif"/></media>
+<caption> Bodies acquire common velocity after some time. </caption>
+</figure>
+</para>
+
+<para id="element-106">
+It must also be understood that the above approximates an ideal condition;  the plank and block will eventually stop as there is some friction between plank and the underneath horizontal surface. 
+</para>
+</section>  
+  </content>
+  
+</document>

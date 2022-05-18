@@ -1,0 +1,1028 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Transformation of graphs</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>3b1f006d-3149-44f3-80f6-c9694cd11de1</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-75">Transformation of graphs means changing graphs. This generally allows us to draw  graphs of more complicated functions from graphs of basic or simpler functions by applying different transformation techniques. It is important to emphasize here that plotting a graph is an extremely powerful technique and method to know properties of a function such as domain, range, periodicity, polarity and other features which involve differentiability of a function. Subsequently, we shall see that plotting enables us to know these properties more elegantly and easily as compared to other analytical methods.
+
+ 
+
+</para>
+<para id="element-76">Graphing of a given function involves modifying graph of a core function. We modify core function and its graph, applying various mathematical operations on the core function. There are two fundamental ways in which we operate on core function and hence its graph. We can either modify input to the function or modify output of function. 
+
+
+</para>
+<para id="element-77"><term>Broad categories of transformation</term>
+
+
+</para>
+<para id="element-78">
+<list id="list-78" list-type="bulleted">
+<item> Transformation applied by modification to input  
+ </item>
+<item> Transformation applied by modification to output  
+ </item>
+
+<item> Transformation applied by modulus function
+ </item>
+<item> Transformation applied by greatest integer function
+ </item>
+<item> Transformation applied by fraction part function
+ </item>
+<item> Transformation applied by least integer function
+ </item>
+</list>      
+
+</para>
+<para id="element-79">We shall cover first transformation in this module. Others will be taken up in other modules.
+</para>
+
+<section id="section-5">
+<title>Important concepts</title>
+<section id="section-5a">
+<title>Graph of a function</title>
+<para id="element-80">
+It is a plot of values of function against independent variable x. The value of function changes in accordance with function rule as x changes. Graph depicts these changes pictorially. In the current context, both core function and modified function graphs are plotted against same independent variable x. 
+</para>
+</section>
+<section id="section-5b">
+<title>Input to the function</title>
+<para id="element-81"> What is input to the function? How do we change input to the function? Values are passed to the function through argument of the function. The argument itself is a function in x i.e. independent variable. The simplest form of argument is "x" like in function f(x). The modified arguments are "2x" in function f(2x) or "2x-1" in function f(2x-1). This changes input to the function. Important to underline is that independent variable x remains what it is, but argument of the function changes due to mathematical operation on independent variable. Thus, we modify argument though mathematical operation on independent variable x. Basic possibilities of modifying argument i.e. input by using arithmetic operations on x are addition, subtraction, multiplication, division and negation. In notation, we write modification to the input of the function as :
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Argument/input</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mi>b</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>b</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-83">
+These changes are called internal or pre-composition modifications. 
+</para>
+</section>
+<section id="section-5c">
+<title>Output of the function</title>
+<para id="element-84">A modification in input to the graph is reflected in the values of the function. This is one way of modifying output and hence corresponding graph. Yet another approach of changing output is by applying arithmetic operations on the function itself. We shall represent such arithmetic operations on the function as :
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>d</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>d</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-86">
+These changes are called external or post-composition modifications.
+</para>
+</section>
+</section>
+
+<section id="section-6">
+<title>Arithmetic operations</title>
+<section id="section-6a">
+<title>Addition/subtraction operations </title>
+<para id="element-87">
+Addition and subtraction to independent variable x is represented as :
+
+
+</para>
+<para id="element-88">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-89">The notation represents addition operation when c is positive and subtraction when c is negative. In particular, we should underline that notation “bx+c” does not represent addition to independent variable. Rather it represents addition/ subtraction to “bx”. We shall develop proper algorithm to handle such operations subsequently. Similarly, addition and subtraction operation on function is represented as :
+
+</para>
+<para id="element-90">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f(x)</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>d</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>d</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">Again, “af(x) + d” is addition/ subtraction to “af(x)” not to “f(x)”.
+</para>
+</section>
+<section id="section-6b">
+<title>Product/division operations </title>
+<para id="element-92"> Product and division operations are defined with a positive constant for both independent variable and function. It is because negation i.e. multiplication or division with -1 is a separate operation from the point of graphical effect. In the case of product operation, the magnitude of constants (a or b) is greater than 1 such that resulting value is greater than the original value.
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>b</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>|</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext> for independent variable</m:mtext>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>|</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>for function</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-94">The division operation is eqivalent to product operation when value of multiplier is less than 1. In this case, magnitude of constants (a or b) is less than 1 such that resulting value is less than the original value.
+
+
+</para>
+<para id="element-95">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>b</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mo>|</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>for independent variable</m:mtext>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mn>0</m:mn>
+    <m:mo>&lt;</m:mo>
+    <m:mo>|</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>&lt;</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>for function</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+</section>
+<section id="section-6c">
+<title>Negation </title>
+<para id="element-96">
+
+Negation means multiplication or division by -1.
+
+</para>
+</section>
+<section id="section-6d">
+<title>Effect of arithmetic operations </title>
+
+<para id="element-97">
+
+Addition/ subtraction operation on independent variable results in shifting of core graph along x-axis i..e horizontally. Similarly, product/division operations results in scaling (shrinking or stretching) of core graph horizontally. The change in graphs due to negation is reflected as mirroring (across y–axis) horizontally. Clearly, modifications resulting from modification to input modifies core graph horizontally. Another important aspect of these modification is that changes takes place opposite to that of operation on independent variable. For example, when “2” is added to independent variable, then core graph shifts left which is opposite to the direction of increasing x. A multiplication by 2 shrinks the graph horizontally by  a factor 2, whereas division by 2 stretches the graph by a factor of 2. 
+
+
+</para>
+<para id="element-98">On the other hand, modification in the output of function is reflected in change in graphs along y-axis i.e. vertically. Effects such as shifting, scaling (shrinking or stretching) or mirroring across x-axis takes place in vertical direction. Also, the effect of modification in output is in the direction of modification as against effects due to modifications to input. A multiplication of function by a positive constant greater than 1, for example, stretches the graph in y-direction as expected. These aspects will be clear as we study each of the modifications mentioned here.
+
+
+</para>
+</section>
+<section id="section-6e">
+<title>Forms of representation </title>
+
+<para id="element-99">There is a bit of ambiguity about the nature of constants in symbolic representation of transformation. Consider the representation,
+
+
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>d</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>∈</m:mo>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-101">In this case "a", "b", "c" and "d" can be either positive or negative depending on the particular transformation. A positive "d" means that graph is shifted up. On the other hand, we can specify constants to be positive in the following representation :
+
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>±</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>±</m:mo>
+        <m:mi>b</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>±</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>±</m:mo>
+    <m:mi>d</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>,</m:mo>
+    <m:mi>c</m:mi>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-103">The form of representation appears to be cumbersome, but is more explicit in its intent. It delinks sign from the magnitude of constants. In this case, the signs preceding positive constants need to be interpreted for the nature of transformation. For example, a negative sign before c denotes right horizontal shift. It is, however, clear that both representations are essentially equivalent and their use depends on personal choice or context. This difference does not matter so long we understand the process of graphing.
+</para>
+</section>
+</section>
+<section id="section-7">
+<title>Transformation of graph by input </title>
+<section id="section-7a">
+<title>Addition and subtraction to independent variable </title>
+<para id="element-104">In order to understand this type of transformation, we need to explore how output of the function changes as input to the function changes. Let us consider an example of functions f(x) and f(x+1). The integral values of inedependent variable are same as integral values on x-axis of coordinate system. Note that independent variable is plotted along x-axis as real number line.  The integral x+1 values to the function f(x+1) - such that input values are same as that of f(x) - are shown on a separate line just below x-axis. The corresponding values are linked with arrow signs. Input to the function f(x+1) which is same as that of f(x) corresponds to x which is 1 unit smaller. It means graph of f(x+1) is same as graph of f(x), which has been shifted by 1 unit towards left. Else, we can say that the origin of plot (also x-axis) has shifted right by 1 unit. 
+
+</para>
+<para id="element-105">
+<figure id="fig-105"><title> Shifting of graph parallel to x-axis </title><media id="idm349136" alt=""><image src="../../media/t11a.gif" mime-type="image/gif"/></media><caption> Each element of graph is shifted left by same value. </caption></figure>
+</para>
+<para id="element-106">
+Let us now consider an example of functions f(x) and f(x-2).  Input to the function f(x-2) which is same as that of f(x) now appears 2 unit later on x-axis. It means graph of f(x-2) is same as graph of f(x), which has been shifted by 2 units towards right. Else, we can say that the origin of plot  (also x-axis) has shifted left by 2 units. 
+</para>
+<para id="element-107">
+<figure id="fig-107"><title> Shifting of graph parallel to x-axis </title><media id="idm1841536" alt=""><image src="../../media/t12a.gif" mime-type="image/gif"/></media><caption> Each element of graph is shifted right by same value. </caption></figure>
+</para>
+<para id="element-8a">The addition/subtraction transformation is depicted symbolically as :
+</para>
+<para id="element-8b">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>±</m:mo>
+    <m:mo>|</m:mo>
+        <m:mi>a</m:mi>
+    <m:mo>|</m:mo>
+      </m:mrow>
+    </m:mfenced>
+
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>|</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>&gt;</m:mo>
+    <m:mn>0</m:mn>
+
+  </m:mrow>
+</m:math>
+</para>
+
+
+
+
+<para id="element-8">
+If we add a positive constant to the argument of the function, then value of y at x=x in the new function y=f(x+|a|) is same as that of y=f(x) at x=x-|a|. For this reason, the graph of f(x+|a|) is same as the graph of y=f(x) shifted left by unit “a” in x-direction. Similarly, the graph of f(x-|a|) is same as the graph of y=f(x) shifted right by unit “a” in x-direction. 
+
+</para>
+<para id="element-9">
+<term>1 :</term> The plot of y=f(x+|a|); is the plot of y=f(x) shifted left by unit “|a|”. 
+</para>
+<para id="element-10">
+<term>2 :</term> The plot of y=f(x-|a|); is the plot of y=f(x) shifted right by unit “|a|”. 
+</para>
+<para id="element-11">We use these facts to draw graph of transformed function f(x±a) by shifting graph of f(x) by unit “a” in x-direction. Each point forming the plot is shifted parallel to x-axis (see quadratic graph showm in the of figure below). The graph in the center of left figure depicts monomial function <m:math>
+		<m:mrow>
+			<m:mi>y</m:mi>
+			<m:mo>=</m:mo>
+			<m:msup>
+				<m:mi>x</m:mi>
+				<m:mn>2</m:mn>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+with vertex at origin. It is shifted right by “a” units (a&gt;0) and the function representing shifted graph is <m:math>
+		<m:mrow>
+			<m:mi>y</m:mi>
+			<m:mo>=</m:mo>
+			<m:msup>
+				<m:mfenced>
+					<m:mrow>
+						<m:mi>x</m:mi>
+						<m:mo>−</m:mo>
+						<m:mi>a</m:mi>
+					</m:mrow>
+				</m:mfenced>
+				<m:mn>2</m:mn>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+. Note that vertex of parabola is shifted from (0,0) to (a,0). Further, the graph is shifted left by “b” units (b&gt;0) and the function representing shifted graph is <m:math>
+		<m:mrow>
+			<m:mi>y</m:mi>
+			<m:mo>=</m:mo>
+			<m:msup>
+				<m:mfenced>
+					<m:mrow>
+						<m:mi>x</m:mi>
+						<m:mo>+</m:mo>
+						<m:mi>b</m:mi>
+					</m:mrow>
+				</m:mfenced>
+				<m:mn>2</m:mn>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+. In this case, vertex of parabola is shifted from (0,0) to (-b,0).
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Shifting of graph parallel to x-axis </title> 
+<media id="idm6789264" alt=""><image src="../../media/t1.gif" mime-type="image/gif"/></media>
+<caption> Each element of graph is shifted by same value. </caption>
+</figure>
+</para>
+<example id="example-19">
+
+<para id="element-19">
+<term>Problem : </term> 
+Draw graph of function <m:math>
+  <m:mrow>
+    <m:mn>4</m:mn>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+
+</para>
+<para id="element-20">
+<term>Solution : </term> 
+Given function is exponential function. On simplification, we have :
+
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-22">
+Here, core graph is <m:math>
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>x</m:mi>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. We draw its graph first and then shift the graph right by 2 units to get the graph of given function.
+
+</para>
+<para id="element-23">
+<figure id="fig-23">
+<title> Shifting of exponential graph parallel to x-axis </title> 
+<media id="idp1970704" alt=""><image src="../../media/t3.gif" mime-type="image/gif"/></media>
+<caption> Each element of graph is shifted by same value. </caption>
+</figure>
+
+</para>
+<para id="element-24">
+Note that the value of function at x=0 for core and modified functions, respectively, are :
+
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+    <m:mn>2</m:mn>
+      <m:mrow>
+      <m:mi>x</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.25</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+<section id="section-7b">
+<title> Multiplication and division of independent variable
+</title>
+
+<para id="element-108">Let us consider an example of functions f(x) and f(2x).  The integral values of independent variable are same as integral values on x-axis of coordinate system. Note that independent variable is plotted along x-axis as real number line.  The integral 2x values to the function f(2x) - such that input values are same as that of f(x) - are shown on a separate line just below x-axis. The corresponding values are linked with arrow signs. Input to the function f(2x) which is same as that of f(x) now appears closer to origin by a factor of 2. It means graph of f(2x) is same as graph of f(x), which has been shrunk by a factor 2 towards origin. Else, we can say that x-axis has been stretched by a factor 2. 
+
+</para>
+<para id="element-109">
+<figure id="fig-109"><title> Multiplication of independent variable </title><media id="idm999920" alt=""><image src="../../media/t13.gif" mime-type="image/gif"/></media><caption> The graph shrinks towards origin. </caption></figure>
+
+</para>
+<para id="element-110">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>|</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+  
+
+
+</para>
+<para id="element-111">Let us consider another example of functions f(x) and f(x/2). The integral values of independent variable are same as integral values on x-axis of coordinate system. Note that independent variable is plotted along x-axis as real number line.  The integral x/2 values to the function f(x/2) - such that input values are same as that of f(x) - are shown on a separate line just below x-axis. The corresponding values are linked with arrow signs. Input to the function f(x/2) which is same as that of f(x) now appears away from origin by a factor of 2. It means graph of f(x/2) is same as graph of f(x), which has been stretched by a factor 2 away from origin. Else, we can say that x-axis has been shrunk by a factor 2. 
+
+</para>
+<para id="element-112"> 
+<figure id="fig-112"><title> Multiplication of independent variable </title><media id="idm1329360" alt=""><image src="../../media/t14.gif" mime-type="image/gif"/></media><caption> The graph stretches away from origin. </caption></figure>
+
+
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>x</m:mi>
+          <m:mi>b</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mo>|</m:mo>
+    <m:mi>b</m:mi>
+    <m:mo>|</m:mo>
+    <m:mo>&gt;</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math> 
+
+</para>
+<para id="element-114">
+Important thing to note about horizontal scaling (shrinking or stretching) is that it takes place with respect to origin of the coordinate system and along x-axis – not about any other point and not along y-axis. What it means that behavior of graph at x=0 remains unchanged. In equivalent term, we can say that y-intercept of graph remains same and is not affected by scaling resulting from multiplication or division of the independent variable.
+</para>
+</section>
+
+<section id="section-7c">
+<title> Negation of independent variable
+</title>
+<para id="element-115">Let us consider an example of functions f(x) and f(-x). The integral values of independent variable are same as integral values on x-axis of coordinate system. Note that independent variable is plotted along x-axis as real number line.  The integral -x values to the function f(-x) - such that input values are same as that of f(x) - are shown on a separate line just below x-axis. The corresponding values are linked with arrow signs. Input to the function f(-x) which is same as that of f(x) now appears to be flipped across y-axis. It means graph of f(-x) is same as graph of f(x), which is mirror image in y-axis i.e. across y-axis. 
+</para>
+<para id="element-116">
+<figure id="fig-116"><title> Negation of independent variable </title><media id="idm2107776" alt=""><image src="../../media/t15.gif" mime-type="image/gif"/></media><caption> The graph flipped across y. -axis.</caption></figure>
+</para>
+<para id="element-54a">
+The form of transformation is depicted as :
+</para>
+<para id="element-54b">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mspace width="1em"/>
+    <m:mo>⇒</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+    <m:mo>-</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">A graph of a function is drawn for values of x in its domain. Depending on the nature of function, we plot function values for both negative and positive values of x. When sign of the independent variable is changed, the function values for negative x become the values of function for positive x and vice-versa. It means that we need to flip the plot across y-axis. 
+In the nutshell, the graph of y=f(-x) can be obtained by taking mirror image of the graph of y=f(x) in y-axis.
+</para>
+<para id="element-56">While using this transformation, we should know about even function. For even function. f(x)=f(-x). As such, this transformation will not have any implication for even functions as they are already symmetric about y-axis. It means that two parts of the graph of even function across y-axis are image of each other. For this reason, y=cos(-x) = cos(x), y = |-x|=|x| etc. The graphs of these even functions are not affected by change in sign of independent variable.
+</para>
+<example id="example-57">
+<para id="element-57">
+<term>Problem : </term> 
+Draw graph of y=cosec(-x) function
+ 
+</para>
+<para id="element-58">
+<term>Solution : </term> 
+The plot is obtained by plotting image of core graph y=cosec(x) in y axis.
+
+
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> Changing sign of the argument of graph </title> 
+<media id="idm3890608" alt=""><image src="../../media/t8a.gif" mime-type="image/gif"/></media>
+<caption> The transformed graph is image of core graph in y-axis. </caption>
+</figure>
+</para>
+</example>
+
+</section>
+</section>
+
+<section id="section-8">
+<title> Combined input operations
+</title>
+
+<para id="element-117">Certain function are derived from core function as a result of multiple arithmetic operations on independent variable. Consider an example :
+</para>
+<para id="element-118">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-119">We can consider this as a function composition which is based on identity function f(x) = x as core function. From the composition, it is apparent that order of formation consists of operations as :
+
+
+</para>
+<para id="element-120"><term>(i) </term> f(2x) i.e. multiply independent variable by 2 i.e. shrink the graph horizontally by half.
+
+
+</para>
+<para id="element-121"><term>(ii) </term> f(-2x) i.e. negate independent variable x i.e. flip the graph across y-axis. 
+
+</para>
+<para id="element-122"><term>(iii) </term> f(-2x-2) i.e. subtract 2 from -2x.
+
+
+</para>
+<para id="element-123">This sequence of operation is not correct for the reason that third operation is a subtraction operation to -2x not to independent variable x, whereas we have defined transformation for subtraction from independent variable. The order of operation for transformation resulting from modifications to input can, therefore, be determined using following considerations :
+</para>
+<para id="element-124"><term>1 : </term> Order of operations for transformation due to input is opposite to the order of composition.
+
+</para>
+<para id="element-125"><term>2 : </term>  Precedence of addition/subtraction is higher than that of multiplication/division.
+
+
+</para>
+<para id="element-126">Keeping above two rules in mind, let us rework transformation steps :
+
+
+</para>
+<para id="element-127"><term>(i) </term>  f(x-2) i.e. subtract 2 from independent variable x i.e. shift the graph right by 2 units.
+
+</para>
+<para id="element-128"><term>(ii) </term> f(2x-2) i.e. multiply independent variable x by 2 i.e. shrink the graph horizontally by half.
+
+</para>
+<para id="element-129"><term>(iii) </term> f(-2x-2) i.e. negate independent variable i.e. flip the graph across y-axis.
+
+</para>
+<para id="element-130">
+This is the correct sequence as all transformations involved are as defined. The resulting graph is shown in the figure below : 
+
+ 
+
+</para>
+<para id="element-131">
+<figure id="fig-131"><title> Graph of transformed function </title><media id="idm3417760" alt=""><image src="../../media/t16.gif" mime-type="image/gif"/></media><caption> Operations are carried in sequence. </caption></figure>
+
+
+</para>
+<para id="element-132">It is important the way graph is shrunk horizontally towards origin. Important thing is to ensure that y-intercept is not changed. It can be seen that function before being shrunk is :
+
+
+</para>
+<para id="element-133">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-134">Its y-intercept is 2. When the graph is shrunk by a factor by 2, the function is :
+
+</para>
+<para id="element-135">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>x</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-136">The y-intercept is again 2.The graph moves 1 unit half of x-intercept towards origin. Further, we can verify validity of critical points like x and y intercepts to ensure that transformation steps are indeed correct.  Here,
+
+
+</para>
+<para id="element-137">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0,</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>y</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-138"> We can decompose a given function in more than one ways so long transformations are valid as defined. Can we rewrite function as y = f{-2(x+1)}? Let us see :
+ 
+
+</para>
+<para id="element-139"><term>(i) </term> f(2x) i.e. multiply independent variable x by 2 i.e. i.e. shrink the graph horizontally by half.
+
+</para>
+
+<para id="element-140"><term>(ii) </term> f(-2x) i.e. negate independent variable i.e. flip the graph across y-axis.
+
+</para>
+<para id="element-141"><term>(iii) </term> f{-2(x+1} i.e. add 1 to independent variable x x i.e. shift the graph left by 1 unit.
+</para>
+<para id="element-142">
+This decomposition is valid as transformation steps are consistent with the transformations allowed for arithmetic operations on independent variable.
+</para>
+<para id="element-143">
+<figure id="fig-143"><title> Graph of transformed function </title><media id="idp309248" alt=""><image src="../../media/t17.gif" mime-type="image/gif"/></media><caption> Operations are carried in sequence. </caption></figure>
+
+</para>
+<section id="section-8a">
+<title> Horizontal shift
+</title>
+<para id="element-144">
+
+
+We have discussed transformation resulting in horizontal shift. In the simple case of operation with independent variable alone, the horizontal shift is “c”. In this case, transformation is represented by f(x+c). What is horizontal shift for more general case of transformation represented by f(bx+c)?  Let us rearrange argument of the function,
+
+</para>
+<para id="element-145">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>f</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mi>f</m:mi>
+    <m:mo>{</m:mo>
+    <m:mi>b</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mi>c</m:mi>
+          <m:mi>b</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-146">
+Comparing with f(x+c), horizontal shift is given by :
+
+</para>
+<para id="element-147">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Horizontal shift</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>c</m:mi>
+      <m:mi>b</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+
+
+
+
+  </content>
+  
+</document>

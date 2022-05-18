@@ -1,0 +1,555 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Units of measurement</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15034</md:content-id>
+  <md:title>Units of measurement</md:title>
+  <md:abstract>Measurement of a quantity involves its comparison with a standard quantity called unit.</md:abstract>
+  <md:uuid>72d53b57-3d9d-4586-a66c-32c70cb44073</md:uuid>
+</metadata>
+  <content>
+ 
+<para id="element-1">The study of science, including physics, is quantitative in nature. We study natural phenomena and events in terms of quantities, which can be measured. A measurement is basically observations to estimate a physical quantity. Its basic objective is to reduce uncertainty and to give definitive stature to the quantities being described. 
+</para>
+<para id="element-2">The measurement of quantity is done by comparing it with some standard called “unit”. A unit, therefore, is any division of quantity, which is accepted as one unit of that quantity. A quantity (Q) is expressed as the product of a number (number of times in comparison to the standard) and the name given to the unit or standard.   
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:mtext>name of unit</m:mtext>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>u</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5">We can have a look at some of the physical quantities that we use in our everyday life: 5 kg of sugar, 110 Volt of electric potential, 35 Horse Power of an engine and so on. The pattern of all these quantitative expression follows the same construct as defined above. 
+</para>
+<section id="section-1">
+<title>System of units </title>
+<para id="element-6">Our earlier units have been human based (in the context of what we use in our daily life) and, therefore, varied from country to country and even from society to society. We had measure of length (foot) in terms of the length of a foot step as unit. 
+</para>
+<para id="element-7">Relating units to immediate physical world is not wrong; rather it is desirable. What is wrong is that there are many units for the same quantity with no relative merit over each other. We are led to a situation, where we have different units for the same quantity, based on experiences in different parts of the world. These different units of the same quantity do not bear any logical relation amongst themselves. We, therefore, need to have uniform unit system across the world.
+</para>
+<para id="element-8">Further, it is seen that there are scores of physical quantities. If we assemble all quantities, which are referred in the study of physics, then the list will have more than 100 entries. Fortunately, however, most physical quantities are “dependent” quantities, which can be expressed as combination of other quantities. This fact leads us to classify quantities in two groups :
+</para>
+<para id="element-9">
+<list id="list-9" list-type="enumerated"><item> Basic or fundamental quantities </item>
+<item> Derived quantities </item>
+</list>
+</para>
+<para id="element-10">Basic or fundamental units are a set of units for physical quantities from which other units can be derived. This classification i.e. existence of basic quantities has a great simplifying effect. We are limited to study few of basic units; others (derived) are derived from them.
+</para>
+<para id="element-11">Here, we should also strike difference between “basic” quantity of a system of measurement to that of quantity of basic nature.  The presence of length, mass and time in the basic category may give impression that all members are basic in nature. Neither it is required nor it is so. We can have a system of measurement with quantities, which are not basic in nature. 
+</para>
+<para id="element-12">In modern SI unit system, for example, the electric current is included in the list of “basic” quantities. We, though, know that it is equal to time rate of charge. A quantity of basic nature in the universe is not derivable from other quantities, but current is. As such, current is not basic in nature. We could have included “charge” as the basic quantity instead. But, then there are other requirements of a basic unit like reproducibility and ease of measurement etc, which need to be taken into consideration. 
+</para>
+<para id="element-14">As pointed out earlier, the basic units should be correlated to our immediate context. For example, a meter represents a length that we are able to correlate and visualize with the physical entities in our world. For example, we say that height of the room is 2.1 m – not something like 
+<m:math>
+  <m:mrow>
+    <m:mn>2.1</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ m. 
+</para>
+<para id="element-15">Nature presents a kind of continuum, which ranges from very small to very large. Consider the dimensions of a nucleus (∼
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>15</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ m) and distance of the sun (∼
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math> m). The system of units, therefore, needs to have a scheme to express wide variations often seen in physical quantities. 
+</para>
+<para id="element-16">Finally, the advancement in scientific studies has expanded scope of studies much beyond human physical existence. We study atoms at one hand and galaxies on the other. The quantities involved are ether so small or so big that the physical comparison with a real time measuring device may not be possible. For example, we can not think of going inside an atom and measure its radius with a scale. Inferred (indirect) measurements are, therefore, allowed and accepted in such situations.
+</para>
+<section id="section-1a">
+<title>Features of fundamental units </title>
+<para id="element-17">Following are the features/ characteristics of fundamental units :
+</para>
+<para id="element-18">
+<list id="list-18" list-type="bulleted"><item> They are not deducible from each other. </item>
+	<item> They are invariant in time and place (in classical context). </item>
+	<item> They can be accurately reproduced. </item>
+	<item> They describe human physical world. </item>
+</list>
+</para>
+</section>
+</section>
+<section id="section-2">
+<title>International system of units </title>
+<para id="element-19">Its short name is SI system, which is an abbreviated form of French equivalent “Systeme Internationale d’ units”. As study of science became more and more definitive and universal, it was felt to have a system of units, which can be refereed internationally.  The rationales for adopting SI system as international system are two fold. First, this system is based on the powers of 10. Second, there is a well structured prefixes to represent range of measurements associated with a physical quantity. 
+</para>
+<para id="element-20">The “power of 10” makes it easy to change smaller to bigger unit and vice versa. A mere shift of “decimal” does the job.
+</para>
+<para id="element-21">12.0 mm (smaller) =  1.20 cm (bigger)
+</para>
+<para id="element-22">Equivalently, we multiply the given quantity with 10 raised to positive integer to obtain the measurement in terms of smaller unit; and divide it with 10 raised to positive integer to obtain the measurement in terms of bigger quantity.
+</para>
+<para id="element-23">Finally, SI system has a set of prefixes for a given unit to represent smaller or bigger quantities. This set of “prefixed” represents a predefined factor in terms of the power of 10. We should remind ourselves that all of these prefixes are applicable uniformly to all quantities.
+</para>
+<para id="element-125"><figure id="fig-125">
+<title> Prefix factors </title>
+<media id="id8225987" alt=""><image src="../../media/m1.gif" mime-type="image/gif"/></media>
+<caption> The factors are powers of 10.</caption>
+</figure>
+</para><para id="element-24">Femto(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>15</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+), pico(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+), nano(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>9</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+), micro(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+), milli(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+), centi(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+), deci (<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>), deka (
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+), hector(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>), kilo(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>), mega(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>), giga(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>9</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+),tera(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>),peta(
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>15</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+)
+</para>
+<para id="element-25">Note that except for few prefixes in the middle, the powers of the factor differs by “3” or “-3”.
+</para>
+<section id="section-2b">
+<title>Basic units </title>
+<para id="element-26">The seven basic quantities included in SI system of measurement are :
+</para>
+<para id="element-27">
+<list id="list-27" list-type="enumerated">
+<item> Length </item>
+<item> Mass </item>
+<item> Time </item>
+<item> Current </item>
+<item> Temperature </item>
+<item> Amount of substance (mole) </item>
+<item> Luminous intensity </item>
+</list>
+</para>
+<para id="element-28">The corresponding seven basic units with their symbols are defined here (as officially defined):
+</para>
+<para id="element-29"><term>1: meter (m) : </term>It  is the length of the path travelled by light in vacuum during a time interval of 1/299 792 458 of a second. 
+</para>
+<para id="element-30"><term>2: kilogram (kg) : </term> It is equal to the mass of the international prototype of the kilogram. The prototype is a platinum-iridium cylinder kept at International Bureau of Weights and Measures, at Severes, near Paris, France.
+</para>
+<para id="element-31"><term>3: time (t) : </term> It is the duration of 9, 192, 631, 770 periods of the radiation corresponding to the transition between the two hyperfine levels of the ground state of the cesium - 133 atom.
+</para>
+<para id="element-32"><term>4: ampere (A) : </term> It is is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 m apart in vacuum, would produce between these conductors a force equal to 
+<m:math>
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ newton per meter of length.
+</para>
+<para id="element-33"><term>5: kelvin (K) : </term> It is the fraction 1/273.16 of the thermodynamic temperature of the triple point of water.
+</para>
+<para id="element-34"><term>6: mole (mol) : </term> It is the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12.
+</para>
+<para id="element-35"><term>7: candela (cd) : </term> It is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 
+<m:math>
+  <m:mrow>
+    <m:mn>540</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ hertz and that has a radiant intensity in that direction of 1/683 watt per steradian (measure of solid angle).
+</para>
+</section>
+<section id="section-2a">
+<title>MKS system of units </title>
+<para id="element-36">MKS is an abbreviation of <term>M</term>eter, <term>K</term>ilogram and <term>S</term>econd. These three quantities form the basic set of units in MKS system. Clearly, it is a subset of SI system of units. As we can realize, mechanics - a branch of physics - involves only length, mass and time. Therefore, MKS system is adequate to represent quantities used in mechanics. 
+</para>
+<para id="element-37">This distinction between mechanics and rest of physics is hardly made in recent time. We can, therefore, completely do away with MKS nomenclature in favor of SI system.
+</para>
+
+</section>
+</section>
+
+<section id="section-3">
+<title>Conversion of units</title>
+<para id="element-38">Despite endeavor on world level for adoption of SI unit, there are, as a matter of fact, wide spread variation in the selection of unit system. Engineering world is full of inconsistencies with respect to the use of unit system. We often need to have skill to convert one unit into another. We take a simple example here to illustrate how it is done for the case of basic quantity like mass.
+</para>
+<para id="element-39">Let us consider a mass of 10 kg, which is required to be converted into gram - the mass unit in cgs unit (Gaussian system). Let the measurements in two systems are “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” respectively. But, the quantity, “Q”, is “10 kg” and is same irrespective of the system of units employed. As such,
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:msub>
+            <m:mi>u</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:msub>
+            <m:mi>u</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:mn>1</m:mn>
+			<m:mspace width="2pt"/>
+            <m:mi>kg</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+			<m:mspace width="2pt"/>
+            <m:mi>gm</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mn>3</m:mn>
+            </m:msup>
+			<m:mspace width="2pt"/>
+            <m:mi>gm</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:mn>1</m:mn>
+			<m:mspace width="2pt"/>
+            <m:mi>gm</m:mi>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>Q</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>n</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>4</m:mn>
+    </m:msup>
+<m:mspace width="2pt"/>
+    <m:mi>gm</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">The process of conversion with respect to basic quantities is straight forward. The conversion of derived quantities, however, would involve dimensions of the derived quantities. We shall discuss conversion of derived quantities in a separate module.
+</para>
+</section>
+
+
+  </content>
+  
+</document>

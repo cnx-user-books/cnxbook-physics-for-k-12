@@ -1,0 +1,467 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Coordinate systems in physics</title>
+  <metadata>
+  <md:content-id>m13600</md:content-id><md:title>Coordinate systems in physics</md:title>
+  <md:abstract>Coordinate system is a mathematical construct to measure distance and direction in relation to a system of rigid bodies. The connection to rigid bodies is a crucial consideration for drawing a coordinate system, with out which coordinate system has no meaning in physics.</md:abstract>
+  <md:uuid>1d1d5ab1-0b2e-4303-af8c-aa14ab01ca13</md:uuid>
+</metadata>
+
+<content>
+
+<para id="element-1">
+Coordinate system is a system of measurement of distance and direction with respect to rigid bodies. Structurally, it comprises of coordinates and a reference point, usually the origin of the coordinate system. The coordinates primarily serve the purpose of reference for the direction of motion, while origin serves the purpose of reference for the magnitude of motion.
+</para>
+
+<para id="element-2">Measurements of magnitude and direction allow us to locate a position of a point in terms of measurable quantities like linear distances or angles or their combinations. With these measurements, it is possible to locate a point in the spatial extent of the coordinate system.  The point may lie anywhere in the spatial (volumetric) extent defined by the rectangular axes as shown in the figure. (Note : The point, in the figure, is shown as small sphere for visual emphasis only)
+</para>
+
+<para id="element-3">
+<figure id="fig4"><title> A point in the coordinate system </title>
+	<media id="id6277902" alt=""><image src="../../media/cs1-f336.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-4">
+A distance in the coordinate system is measured with a standard rigid linear length like that of a “meter” or a “foot”. A distance of 5 meters, for example, is 5 times the length of the standard length of a meter. On the other hand, an angle is defined as a ratio of lengths and is dimensional-less. Hence, measurement of direction is indirectly equivalent to the measurement of distances only. 
+</para>
+
+<para id="element-5">The coordinate system represents the system of rigid body like earth, which is embodied by an observer, making measurements. Since measurements are implemented by the observer, they (the measurements in the coordinate system) represent distance and direction as seen by the observer.  It is, therefore, clearly implied that measurements in the coordinates system are specific to the state of motion of the coordinate system.
+</para>
+<para id="element-5a">In a plane language, we can say that the description of motion is specific to a system of rigid bodies, which involves measurement of distance and direction. The measurements are done, using standards of length,  by an observer, who is at rest with the system of rigid bodies. The observer makes use of a coordinate system attached to the system of rigid bodies and uses the same as reference to make measurements. 
+</para>
+<para id="element-5b">It is apparent that the terms “system of rigid bodies”, “observer” and “coordinate system” etc. are similar in meaning; all of which conveys a system of reference for carrying out measurements to describe motion. We sum  up the discussion thus far as :  
+</para>
+
+
+
+<para id="element-7">
+<list id="list-7" list-type="enumerated">
+	<item> Measurements of distance, direction and location in a coordinate system are specific to the system of rigid bodies, which serve as reference for both magnitude and direction. </item>
+	<item> Like point, distance and other aspects of motion, the concept of space is specific to the reference represented by coordinate system. It is, therefore, suggested that use of word “space” independent of coordinate system should be avoided and if used it must be kept in mind that it represents volumetric extent of a specific coordinate system. The concept of space, if used without caution, leads to an inaccurate understanding of the laws of nature. </item>
+	<item> Once the meanings of terms are clear, “the system of reference” or “frame of reference” or “rigid body system” or “observer” or “coordinate system” may be used interchangeably to denote an unique system for determination of motional quantities and the representation of a motion.  
+</item>
+</list>
+</para>
+
+<section id="section-1">
+<title> Coordinate system types </title>
+
+<para id="element-8">Coordinate system types determine position of a point with measurements of distance or angle or combination of them. A spatial point requires three measurements in each of these coordinate types. It must, however, be noted that the descriptions of a point in any of these systems are equivalent.  Different coordinate types are mere convenience of appropriateness for a given situation. Three major coordinate systems used in the study of physics are :
+</para>
+
+
+<para id="element-9">
+<list id="list-9" list-type="bulleted">
+
+<item> Rectangular (Cartesian)  </item>
+<item> Spherical </item>
+<item> Cylindrical </item>
+</list>
+</para>
+
+
+<para id="element-10">Rectangular (Cartesian) coordinate system is the most convenient as it is easy to visualize and associate with our perception of motion in daily life. Spherical and cylindrical systems are specifically designed to describe motions, which follow spherical or cylindrical curvatures. 
+</para>
+
+<section id="section-1a">
+<title> Rectangular (Cartesian) coordinate system </title>
+
+<para id="element-11">
+The measurements of distances along three mutually perpendicular directions, designated as x,y and z, completely define a point A (x,y,z).
+</para>
+
+<para id="element-11a"><figure id="fig11a"><title> A point in rectangular coordinate system </title>
+<media id="id14066744" alt=""><image src="../../media/cs3b.gif" mime-type="image/gif"/></media>
+<caption> A point is specified with three coordinate values </caption>
+</figure>
+</para>
+
+<para id="element-12">From geometric consideration of triangle OAB,
+</para>
+
+<para id="element-32"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt> 
+  <m:msup>
+  <m:mi> OB </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> AB </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+</m:msqrt> 
+
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-737">From geometric consideration of triangle OBD,</para><para id="element-482"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:msup>
+  <m:mi> OB </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> = </m:mo>
+<m:msqrt> 
+  <m:msup>
+  <m:mi> BD </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> OD </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+</m:msqrt> 
+
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-722">Combining above two relations, we have :</para><para id="element-652"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt> 
+  <m:msup>
+  <m:mi> BD </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> OD </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> AB </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+</m:msqrt> 
+
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-14"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt> 
+  <m:msup>
+  <m:mi> x </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> y </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> z </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+</m:msqrt> 
+
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+The numbers are assigned to a point in the sequence x, y, z as shown for the points A and B.
+</para>
+
+<para id="element-16">
+<figure id="fig16">
+<title> Specifying points in rectangular coordinate system </title>
+<media id="id5408528" alt=""><image src="../../media/cs2-0baa.gif" mime-type="image/gif"/></media>
+<caption> A point is specified with coordinate values </caption>
+</figure>
+</para>
+
+<para id="element-17">
+Rectangular coordinate system can also be viewed as volume composed of three rectangular surfaces. The three surfaces are designated as a pair of axial designations like “xy” plane. We may infer that the “xy” plane is defined by two lines (x and y axes) at right angle. Thus, there are “xy”, “yz” and “zx” rectangular planes that make up the space (volumetric extent) of the coordinate system (See figure).
+</para>
+
+<para id="element-17a">
+<figure id="fig17a">
+<title> Planes in rectangular coordinate system </title>
+<media id="id12628840" alt=""><image src="../../media/cs4-3cbb.gif" mime-type="image/gif"/></media>
+<caption> Three mutually perpendicular planes define domain of rectangular system  </caption>
+</figure>
+</para>
+
+<para id="element-17b">
+The motion need not be extended in all three directions, but may be limited to two or one dimensions. A circular motion, for example, can be represented in any of the three planes, whereby only two axes with an origin will be required to describe motion. A linear motion, on the other hand, will require representation in one dimension only. 
+</para>
+</section>
+
+<section id="section-2a">
+<title> Spherical coordinate system </title>
+
+<para id="element-18">A three dimensional point “A” in spherical coordinate system is considered to be located on a sphere of a radius “r”. The point lies on a particular cross section (or plane) containing origin of the coordinate system. This cross section makes an angle “θ” from the “zx” plane (also known as longitude angle). Once the plane is identified, the angle, φ, that the line joining origin O to the point A, makes with “z” axis, uniquely defines the point A (r, θ, φ). </para>
+
+<para id="element-19">
+<figure id="fig19">
+<title> Spherical coordinate system </title>
+<media id="id9433655" alt=""><image src="../../media/cs5-a3ca.gif" mime-type="image/gif"/></media>
+<caption> A point is specified with three coordinate values </caption>
+</figure>
+</para>
+<para id="element-20">
+It must be realized here that we need to designate three values r, θ and φ to uniquely define the point A. If we do not specify θ, the point could then lie any of the infinite numbers of possible cross section through the sphere like A'(See Figure below).
+
+</para>
+<para id="element-20a">
+<figure id="fig20a">
+<title> Spherical coordinate system </title>
+<media id="id6741630" alt=""><image src="../../media/cs6-3039.gif" mime-type="image/gif"/></media>
+<caption> A point is specified with three coordinate values </caption>
+</figure>
+</para>
+
+<para id="element-21">
+From geometric consideration of spherical coordinate system :
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt> 
+  <m:msup>
+  <m:mi> x </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> y </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> z </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+</m:msqrt> 
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> x </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> φ </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> y </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> φ </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+
+
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> z </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> φ </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> tan </m:mi>
+  <m:mi> φ </m:mi>
+  <m:mo> = </m:mo>
+  <m:mfrac>
+  <m:mrow>
+  <m:msqrt>
+  <m:msup>
+  <m:mi> x </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+  <m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> y </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+  </m:msqrt>
+  </m:mrow>
+  <m:mi> z </m:mi>
+  </m:mfrac>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> tan </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+  <m:mfrac>
+  <m:mi> y </m:mi>
+  <m:mi> z </m:mi>
+  </m:mfrac>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para><para id="element-685">These relations can be easily obtained, if we know to determine projection of a directional quantity like position vector. For example, the projection of "r" in "xy" plane is "r sinφ". In turn, projection of "r sinφ" along x-axis is ""r sinφ cosθ". Hence,</para><para id="element-221"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi> x </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> φ </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-453">In the similar fashion, we can determine other relations.</para>
+
+</section>
+
+<section id="section-2c">
+<title> Cylindrical coordinate system </title>
+
+
+
+
+
+<para id="element-23">
+A three dimensional point “A” in cylindrical coordinate system is considered to be located on a cylinder of a radius “r”. The point lies on a particular cross section (or plane) containing origin of the coordinate system. This cross section makes an angle “θ” from the “zx” plane. Once the plane is identified, the height, z, parallel to vertical axis “z” uniquely defines the point A(r, θ, z)   
+</para>
+<para id="element-24">
+<figure id="fig24">
+<title> Cylindrical coordinate system </title>
+<media id="id11643573" alt=""><image src="../../media/cs7-8a27.gif" mime-type="image/gif"/></media>
+<caption> A point is specified with three coordinate values </caption>
+</figure>
+
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msqrt> 
+  <m:msup>
+  <m:mi> x </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+<m:mo> + </m:mo>
+  <m:msup>
+  <m:mi> y </m:mi>
+  <m:mn> 2 </m:mn>
+  </m:msup>
+</m:msqrt> 
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> x </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> y </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> r </m:mi>
+  <m:mi> sin </m:mi>
+  <m:mi> θ </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> z </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> z </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi> tan </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+  <m:mfrac>
+  <m:mi> y </m:mi>
+  <m:mi> z </m:mi>
+  </m:mfrac>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+
+</para>
+
+
+
+
+
+
+
+</section>
+
+</section>
+
+
+
+  
+  </content>
+  
+</document>

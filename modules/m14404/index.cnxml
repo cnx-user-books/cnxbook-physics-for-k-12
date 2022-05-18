@@ -1,0 +1,1049 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Torque about a point (check your understanding)</title>
+  <metadata>
+  <md:content-id>m14404</md:content-id><md:title>Torque about a point (check your understanding)</md:title>
+  <md:abstract>Objective questions, contained in this module with hidden solutions, help improve understanding of the topics covered under the module "Torque about a point".</md:abstract>
+  <md:uuid>fca9d344-52be-49b3-aa1f-f7f3212888ad</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">The questions have been selected to enhance understanding of the topics covered in the module titled "<link document="m14402"> Torque </link>". All questions are multiple choice questions with one or more correct answers. 
+</para>
+
+<section id="section-1">
+<title> Understanding level (Torque about a point) </title>
+
+<para id="element-61">
+<exercise id="exercise-61">
+<problem id="id8105049">
+<para id="element-62">
+A force, “F”,  acts on a particle at a linear distance “r” from the origin of a coordinate system. If force acts in coordinate plane “yz”, then the toque on the particle is :
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> Torque about the origin </title>
+<media id="id6443473" alt=""><image src="../../media/tpq7.gif" mime-type="image/gif"/></media>
+<caption> The force acts in “yz” plane.  </caption>
+</figure>
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> makes an angle “θ” with “–z” axis
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> makes an angle “θ” with x axis
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> acts along x axis
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> acts along “-x” axis
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id3783931">
+<para id="element-65">In this case, vectors “<term>r</term>” and “<term>F</term>” are in yz – plane. As torque is perpendicular to this plane, it is directed either along “x” or “-x” axis. Applying right hand rule by shifting force vector at the origin, we see that the torque acts in x-direction. 
+</para>
+<para id="element-66">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+<para id="element-67">
+<exercise id="exercise-67">
+<problem id="id3845655">
+<para id="element-68">The torque on a particle at a position on x-axis (other than origin) is zero. If the force applied is not zero, then force is acting :
+</para>
+<para id="element-69"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> either in “y” or “z” direction
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext>  in  x direction
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> in ± x direction
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> - z direction
+</m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id6420111">
+<para id="element-70">
+The torque on the particle is given as :
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+Its magnitude is given by :
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> r </m:mi>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">The torque can be zero for following conditions (i) force is zero (ii) particle is at the origin and (iii) sine of enclosed angle is zero. Since "r" and "F" are non-zero, it follows that : 
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mo> ° </m:mo> 
+<m:mspace width="4pt"/>
+<m:mi> or </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 180 </m:mn> 
+<m:mo> ° </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-76">
+Thus, the force on the particle is acting ± x direction.
+</para>
+<para id="element-77">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-44">
+<exercise id="exercise-44">
+<problem id="id18678563">
+<para id="element-45">The bob of a pendulum of length "L" is raised to one side and released to oscillate about the mid point. The torque about the point of suspension, at an instant when the bob makes an angle “θ” with respect to vertical, is :
+</para>
+<para id="element-46">
+<figure id="fig-46">
+<title> Pendulum </title>
+<media id="id4215270" alt=""><image src="../../media/tpq3.gif" mime-type="image/gif"/></media>
+<caption> The pendulum bob makes an angle “θ” with the vertical.  </caption>
+</figure>
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id18777028">
+<para id="element-48">There are two forces that operate on the pendulum bob (see the left figure):
+</para>
+<para id="element-49">
+<list id="list-2" list-type="bulleted">
+<item> Weight of the bob (mg)
+ </item>
+<item> Tension in the string (T)
+ </item>
+</list>
+</para>
+<para id="element-50">The line of action of tension in the string of the pendulum is along the string itself, which passes through center of mass. It means that torque is applied by only the weight of the bob. Since the linear distance of the weight acting on the bob from the point of suspension is given, it would be easier to find magnitude of torque as product of linear distance and component of force perpendicular to it. 
+</para>
+<para id="element-51">
+<figure id="fig-51" orient="horizontal">
+<title> Pendulum </title>
+<subfigure id="fig-51a">
+<media id="id18721240" alt=""><image src="../../media/tpq4.gif" mime-type="image/gif"/></media>
+<caption> Two forces act on the pendulum bob. </caption>
+</subfigure>
+<subfigure id="fig-51b">
+<media id="id4196750" alt=""><image src="../../media/tpq5.gif" mime-type="image/gif"/></media>
+<caption> The component of weight perpendicular to string </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-52">
+The component of weight perpendicular to the string is  (see the right figure) :
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> ⊥ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+The torque due to the weight is :
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> L </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> ⊥ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+Hence, option (a) is correct.
+</para>
+<para id="element-57"><term>Note : </term> The torque about the suspension point can also be determined, using moment arm. In this case moment arm i.e. perpendicular distance between suspension point and line of action of force is "AB" :  
+</para>
+<para id="element-58">
+<figure id="fig-58">
+<title> Pendulum </title>
+<media id="id4264841" alt=""><image src="../../media/tpq6.gif" mime-type="image/gif"/></media>
+<caption> The pendulum bob makes an angle “θ” with the vertical.  </caption>
+</figure>
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> τ </m:mi>
+<m:mo> = </m:mo> 
+
+<m:msub>
+<m:mi> L </m:mi>
+<m:mi> ⊥ </m:mi>
+</m:msub>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> AB </m:mi>
+<m:mo> x </m:mo> 
+<m:mi> F </m:mi>
+
+<m:mo> = </m:mo> 
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> x </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-3">
+<exercise id="exercise-3">
+<problem id="id4238386">
+<para id="element-4">
+A force <term>F</term> = (2<term>i</term> + 2<term>j</term> – 3<term>k</term>) Newton acts on a particle, placed at a point given by <term>r</term> = (<term>i</term> + <term>j</term> – <term>k</term>)  meters. If the particle is constrained to rotate about x-axis along a circular path, then the magnitude of torque about the axis is :
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 2 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 3 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 4 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</problem>
+<solution id="id6428357">
+<para id="element-6">
+The torque about the origin of coordinate system is given by :
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">
+<code id="id6270946" display="block">
+<term>τ</term> =   | <term>i</term>	<term>j</term>	 <term>k</term> |
+      | 1	1	-1 |
+      | 2	2	-3 |
+</code>
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo>
+<m:mo> -  </m:mo>  
+<m:mn> 3 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> -  </m:mo>
+<m:mo> ( </m:mo>  
+<m:mn> 2 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> [ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> } </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mo> ] </m:mo> 
+<m:mi mathvariant="bold"> k </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> +  </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> ) </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10">The particle, here, moves about the axis of rotation in x-direction. In this case, the particle is restrained to rotate or move about any other axis. Thus, torque in rotation about x-axis is equal to the x- component of torque about the origin. Now, the vector x-component of torque is :
+</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi mathvariant="bold"> i </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">
+The magnitude of torque about x-axis for rotation is :
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+Hence, option (a) is correct.
+</para>
+<para id="element-16"><term>Note : </term> We can check the result, considering individual force components. We first identify A (1,1) in xy-plane, then we find the position of the particle, B(1,1,-1) by moving “-1” in negative z-direction as in the figure below. 
+</para>
+<para id="element-17">
+<figure id="fig-17">
+<title> Torque on the particle </title>
+<media id="id18751978" alt=""><image src="../../media/tpq1.gif" mime-type="image/gif"/></media>
+<caption> The position of particle along with components of force  </caption>
+</figure>
+</para>
+<para id="element-18">The component in x-direction does not constitute a torque about x-axis as the included angle is zero. 
+</para>
+<para id="element-19">The component of force in y-direction is Fy = 2 N at a perpendicular distance z = 1 m. For determining torque about the axis, we multiply perpendicular distance with force. We apply appropriate sign, depending on the sense of rotation about the axis. The torque about x-axis due to component of force in y - direction is anticlockwise and hence is positive :
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> xy </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> z </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">The component of force in z-direction is Fz = 3 N at a perpendicular distance y = 1 m. The torque about x-axis due to the component of force in z - direction is clockwise and hence is negative :
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> xz </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> y </m:mi>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">Since both torques are acting along same axis i.e. x-axis, we can obtain net torque about x-axis by arithmetic sum :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> xy </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> xz </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+The magnitude of net torque about x-axis is :
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-27">
+<exercise id="exercise-27">
+<problem id="id18814573">
+<para id="element-28">
+In the figure, three forces of 10 N each act on a triangular plate as shown in the figure. If “C” be the center of mass of the plate, then torque, in N-m, about it is :
+</para>
+<para id="element-29">
+<figure id="fig-29">
+<title> Torque about center of mass </title>
+<media id="id18641272" alt=""><image src="../../media/tpq2.gif" mime-type="image/gif"/></media>
+<caption> Three forces are acting.  </caption>
+</figure>
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mn> 0.61 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mn> 1.33 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mn> 0.91 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> - </m:mo>
+<m:mn> 1.11 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id3818250">
+<para id="element-31">
+We note here that line of action of the force acting on the horizontal face passes through center of mass. Thus, it does not constitute a torque about the center of mass.
+</para>
+<para id="element-32">
+Further, we see that the linear distances of the point of action of the forces are given. Therefore, it would be easy to apply the formula for the magnitude of torque, which makes use of perpendicular force component. 
+</para>
+<para id="element-33">
+Now, the perpendicular force component at “B” is :
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> B⊥ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mi> sin </m:mi>
+<m:mn> 45 </m:mn> 
+<m:mo> ° </m:mo>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 10 </m:mn> 
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn> 
+</m:mrow>
+</m:mfrac>
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+Similarly, the perpendicular force component at “D” is :
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> D⊥ </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mi> sin </m:mi>
+<m:mn> 30 </m:mn> 
+<m:mo> ° </m:mo>
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">The torque due to force at “B” about center of mass, “C”, is clockwise and hence is negative :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> CB </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 0.2 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 10 </m:mn> 
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">Torque due to force at “D” about center of mass, “C”, is anticlockwise and hence is positive :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> CD </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0.1 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mo> = </m:mo> 
+<m:mn> 0.5  </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+The torques are along the same direction i.e. perpendicular to the surface of the plate. Therefore, we can find the net torque as algebraic sum : 
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> τ </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 0.5  </m:mn> 
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 0.91  </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> N </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+</section>  
+
+
+
+<para id="element-78">
+<exercise id="exercise-78">
+<problem id="id18924858">
+<para id="element-79">
+A force, “F”,  acts on a particle lying in “xz” plane at a linear distance “r” from the origin of a coordinate system. If the direction of force "F" is parallel to y-axis, then the toque on the particle :
+</para>
+<para id="element-80">
+<figure id="fig-80">
+<title> Torque about the origin </title>
+<media id="id3851707" alt=""><image src="../../media/tpq8.gif" mime-type="image/gif"/></media>
+<caption> The particle lies in “xz” plane.  </caption>
+</figure>
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> (a) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> makes an angle “θ” with “–z” axis
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (b) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> makes an angle “θ” with x - axis
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (c) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> acts along x – axis
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mspace width="4pt"/>
+<m:mi> (d) </m:mi>
+<m:mspace width="4pt"/>
+<m:mtext> acts along “-x” axis
+ </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+<solution id="id3862092">
+<para id="element-82">First thing that we note here is that the plane formed by operands is not same as any of the coordinate planes. Now, the torque on the particle is given as :
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> τ </m:mi>
+<m:mo> = </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">From the relation, we come to know that the vector product “<term>τ</term>" is perpendicular to the plane formed by the vectors “<term>r</term>” and “<term>F</term>”.
+</para>
+
+<para id="element-87">
+Let us imagine force vector is moved to origin keeping the direction same. Applying Right hand cross product rule, we move from vector “<term>r</term>” from its position to that of “<term>F</term>” such that the curl of fingers is along the direction of movement. The direction of thumb downward tells us that torque is acting perpendicular to plane and below the surface i.e. making an acute angle with x-axis. 
+</para>
+<para id="element-87a">
+<figure id="fig-87a">
+<title> Torque about the origin </title>
+<media id="id18931419" alt=""><image src="../../media/tpq10.gif" mime-type="image/gif"/></media>
+<caption> Direction of torque  </caption>
+</figure>
+</para>
+<para id="element-88">
+We observe here that torque “τ” and position vector “r” are perpendicular to each other. On the other hand, “z” and “x” axes are perpendicular to each other. Since the angle between perpendiculars on two lines is same, we conclude that torque acts in xz plane, making an angle “θ” with the x-axis as shown in the figure above. 
+</para>
+<para id="element-89">
+Hence, option (b) is correct.
+</para>
+<para id="element-90">
+
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<section id="section-3">
+<title> Answers </title>
+<para id="element-262">
+<code id="id18933907" display="block">
+1. (c)   2. (c)    3. (a)    4. (a)    5.  (c) 
+6. (b)        
+</code>
+</para>
+</section>
+   
+  </content>
+  
+</document>

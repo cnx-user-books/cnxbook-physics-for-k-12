@@ -1,0 +1,1311 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Center of mass</title>
+  <metadata>
+  <md:content-id>m14119</md:content-id><md:title>Center of mass</md:title>
+  <md:abstract>There is a characteristic geometric point of the three dimensional body in motion, which behaves yet as a particle.</md:abstract>
+  <md:uuid>cc5af167-d1a2-49c5-9f1f-c8a69a5f1002</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">
+Our study of motion has been limited up to this point. We referred particle, object and body in one and same way. We considered that actual three dimensional rigid body moved such that all constituent particles had same motion i.e. same trajectory, velocity and acceleration. 
+</para>
+<para id="element-2">An actual body, however, can move differently to this simplified paradigm. Consider a ball rolling down an incline plane or consider a stick thrown in air. Different parts of the body have different motions. While translating in the air, the stick rotates about a moving axis. In the nutshell, this means that these bodies may not behave like a particle as assumed earlier.  
+</para>
+<para id="element-3">
+<figure id="fig-3"><title> Stick thrown in air </title>
+<media id="id1171295606965" alt=""><image src="../../media/cm1a.gif" mime-type="image/gif"/></media>
+<caption> The stick does not behave like a particle.</caption>
+</figure>
+
+</para>
+<para id="element-4">
+Apparently, it would be quite complicated to describe motions of parts or particles, having different motions, in an integrated manner. There is but one surprising simplifying characteristic of these motions. There is a characteristic geometric point of the three dimensional body in motion, which behaves yet as a particle. This point is known as "center of mass" in short "COM". It has following two characterizing aspects :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+
+<item> COM appears to carry the whole mass of the body. </item>
+<item> All external forces appear to apply at COM. </item>
+
+</list>
+
+</para>
+
+<para id="element-7">
+<figure id="fig-7" orient="horizontal"><title> Rolling ball on an incline and Stick thrown in air </title>
+<subfigure id="fig-7a">
+<media id="id1171295285554" alt=""><image src="../../media/cm2a.gif" mime-type="image/gif"/></media>
+<caption> The force appears to operate on the COM is  “mgsinθ”. </caption>
+</subfigure>
+<subfigure id="fig-7b">
+<media id="id3981038" alt=""><image src="../../media/cm3a.gif" mime-type="image/gif"/></media>
+<caption> The force appears to operate on the COM is “mg”. </caption>
+</subfigure>
+</figure>
+</para>
+
+<para id="element-6">
+Significantly, the center of ball, which is COM of rolling ball, follows a straight linear path; whereas the COM of the stick follows a parabolic path as shown in the figure. Secondly, the forces appear to operate on the COMs in two cases are “mgsinθ” and “mg” as if they were indeed particle like objects. This concept of COM, therefore, relieves us of the complexities that otherwise we would have faced describing motions of rigid bodies. 
+</para>
+
+
+<para id="element-8">
+We must here note the word "appear" in describing characteristics of COM. In reality, COM is a geometric point. It need not be even the part of the body. Think of a hollow sphere, whose center is its COM. Is there any material there? Also, consider the motion of the stick again. Each particle constituting the stick is pulled by gravitational force. What it means that external forces, in actuality, may not act on COM alone as they appear in equivalent term.
+</para>
+<para id="element-9">Further the concept of COM is equally valid to a system of particles, which may not be in contact. This follows from the fact that a rigid body, after all, is an arrangement of particles, where inter-particle distances are extremely small.
+</para>
+<para id="element-10">
+In words, we can, therefore, define COM as :
+</para>
+<para id="element-11">
+<definition id="definition-11">
+<term> Center of mass (COM) </term>
+<meaning id="id1171293893284"> COM of a system of particles is a geometric point, which assumes all the mass and external force(s) during motion.</meaning>
+</definition>
+</para>  
+
+<section id="section-1">
+<title> Mathematical expression of COM for a system of particles </title>
+<para id="element-12">Let us now look at a baseball bat closely. It has a peculiar shape. Where should the COM lie? By experience, we can say that it should lie on the heavier side. This perception comes from the realization that heavier part has most of the mass. It gives us the clue about COM that it lies on the heavier side of an irregularly shaped body. Now, let us consider the motion of spherical sphere of uniform density. Here, mass is evenly distributed. Where should the COM lie? Obviously, COM coincides with the center of spherical ball.
+</para>
+<para id="element-14">
+It emerges from the discussion that COM is a statement of spatial arrangement of mass i.e. distribution of mass within the system. The position of COM is given a mathematical formulation which involves distribution of mass in a volumetric space, assuming as if all mass is concentrated there :
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> COM for a system of particles </title>
+<media id="id1171285679898" alt=""><image src="../../media/cm4-92e5.gif" mime-type="image/gif"/></media>
+<caption> COM assumes as if  mass of all particles is concentrated there.</caption>
+</figure>
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> Total mass </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> Position of COM </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> Mass of individual particle </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> Position of particle</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> Position of COM </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> Mass of individual particle </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> Position of particle</m:mi>
+</m:mrow>
+<m:mi> Total mass </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">This relation is read as "position of COM is mass weighted average of the positions of particles". 
+</para>
+<para id="element-20">Further, COM is a geometric point in three-dimensional volume and it involves distribution of mass with respect to some reference system. This expression of the position of COM is description of a position in three dimensional volume. Now, substituting with appropriate symbols, we have :
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+It is important to note here that this formulation is not arbitrary. We shall find subsequently that this mathematical expression of COM, as a matter of fact, leads us to formulation of Newton's second law for a system of particles, while keeping its form intact. 
+</para>
+<para id="element-23">
+We can express the position of COM in scalar component form as :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> z </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> z </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">We know that there are only two directions involved with each of the axes. As such, we assign positive value for distances in reference direction and negative in opposite direction. 
+</para>
+
+<section id="section-1a">
+<title> Special cases  </title>
+<para id="element-26"><term>(a)</term> Particle system along a straight line :
+</para>
+<para id="element-27">COM of particle system along a straight line is given by the scalar expression in one dimension:
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> COM for a system of particles along a straight line </title>
+<media id="id5687341" alt=""><image src="../../media/cm5-18ae.gif" mime-type="image/gif"/></media>
+<caption> Scalar COM expression in one dimension </caption>
+</figure>
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+Evidently, COM of particles lie on the line containing particles.
+</para>
+<para id="element-31">
+<term>(b) </term>Two particles system 
+</para>
+<para id="element-32">
+The expression of COM reduces for two particles as :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">As only one coordinate is involved, it is imperative that COM lies on the line joining two particles. It can also be seen that center of mass lies in between the masses on the line connecting two particles. There are two additional simplified cases for two particles system as :
+</para>
+<para id="element-35">
+<term>(i)</term> Origin of coordinate coincides with position of one of the particles :
+</para>
+<para id="element-36">
+The expression of COM is simplified when position of one of the particles is the origin. For two particles system,  
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> , </m:mo> 
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">where "x" is the linear distance between two particles. Since 
+"
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:math>
+"
+ is a fraction, it follows that center of mass two particles system is indeed a point which lies between the positions of two particles.
+</para>
+<para id="element-39"><term>(ii)</term> The mass of the particles are equal :
+</para>
+<para id="element-40">
+In this case, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+</m:math>
+(say)
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+When origin of coordinate coincides with position of one of the particles, 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo> 
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> , </m:mo> 
+</m:math>
+ :
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+This result is on expected line. Center of mass (COM) of two particles of equal masses is midway between the particles.
+</para>
+<example id="example-45">
+<para id="element-45"><term>Problem : </term> Two particles of 2 kg and 4 kg are placed at (1,4) and (3,-2) in x and y plane. If the coordinates are in meters, then find the position of COM.
+</para>
+<para id="element-46"> <term>Solution : </term> Using expression in scalar component form :
+</para>
+<para id="element-47">
+<figure id="fig-47">
+<title> Two particles system </title>
+<media id="id1171287930288" alt=""><image src="../../media/cm6.gif" mime-type="image/gif"/></media>
+<caption> Positions of the particles are shown on "xy" coordinate system. </caption>
+</figure>
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 7 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+and
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> x </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+Thus, position of COM lies on x - axis at x = 7/3 m.
+</para>
+</example>
+</section>
+</section>
+
+
+<section id="section-2">
+<title> COM of rigid body </title>
+<para id="element-54">Rigid body is composed of very large numbers of particles. Mass of rigid body is distributed closely. Thus, the distribution of mass can be treated as continuous. The mathematical expression for rigid body, therefore, is modified involving integration. The integral expressions of the components of position of COM in three mutually perpendicular directions are : 
+
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> M </m:mi>
+</m:mfrac>
+
+<m:mo> ∫ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> M </m:mi>
+</m:mfrac>
+
+<m:mo> ∫ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> z </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> M </m:mi>
+</m:mfrac>
+
+<m:mo> ∫ </m:mo> 
+<m:mi> z </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-996">Note that the term in the numerator of the expression is nothing but the product of the mass of particle like small volumetric element and its distance from the origin along the axis. Evidently, this terms when integrated is equal to sum of all such products of mass elements constituting the rigid body.</para><para id="element-56">Evaluation of above integrals is simplified, if the density of the rigid body is uniform. In that case,
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ρ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> V </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> V </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> V </m:mi>
+</m:mrow>
+<m:mi> V </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-285">Substituting,</para><para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> V </m:mi>
+</m:mfrac>
+
+<m:mo> ∫ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> V </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> V </m:mi>
+</m:mfrac>
+
+<m:mo> ∫ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> V </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> z </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mi> V </m:mi>
+</m:mfrac>
+
+<m:mo> ∫ </m:mo> 
+<m:mi> z </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> V </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+<para id="element-487">We must understand here that once we determine COM of a rigid body, the same can be treated as a particle at COM with all the mass assigned to that particle. This concept helps to find COM of a system of rigid bodies, comprising of many rigid bodies. Similarly, when a portion is removed from a rigid body, the COM of the rigid body can be obtained by treating the "portion removed" and the "remaining body" as particles. We shall see the working of this concept in the example given in the next section. </para><section id="section-2a">
+<title> Symmetry and COM of rigid body </title>
+<para id="element-59">Evaluation of the integrals for determining COM is very difficult for irregularly shaped bodies. On the other hand, symmetry plays important role in determining COM of a regularly shaped rigid body. There are certain simplifying facts about symmetry and COM :
+</para>
+<para id="element-60">
+<list id="list-60" list-type="enumerated"><item> If symmetry is about a point, then COM lies on that point. For example, COM of a spherical ball of uniform density is its center. </item>
+<item> If symmetry is about a line, then COM lies on that line. For example, COM of a cone of uniform density lies on cone axis. </item>
+<item> If symmetry is about a plane, then COM lies on that plane. For example, COM of a cricket bat lies on the central plane. </item>
+</list>
+</para>
+<para id="element-61">
+The test of symmetry about a straight line or a plane is that the body on one side is replicated on the other side.
+</para>
+<example id="example-62">
+<para id="element-62"><term>Problem : </term> A small circular portion of radius r/4 is taken out from a circular disc of uniform thickness having  radius "r" and mass "m" as shown in the figure. Determine the COM of the remaining portion of the uniform disc.
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> COM of remaining portion of circular disc </title>
+<media id="id1171285680044" alt=""><image src="../../media/cm7.gif" mime-type="image/gif"/></media>
+<caption> A small circular portion of radius r/4 is taken out.  </caption>
+</figure>
+</para>
+<para id="element-64"><term>Solution : </term> If we start from integral to determine COM of the remaining disc portion, then it would be a really complex proposition. Here, we shall make use of the connection between symmetry and COM. We note that the COM of the given disc is "O" and COM of the smaller disc removed is "O'". How can we use these fact to find center of mass of the remaining portion ?
+</para>
+<para id="element-65">
+The main idea here is that we can treat regular bodies with known COM as particles, which are separated by a known distance. Then, we shall employ the expression of COM for two particles to determine the COM of the remaining portion. We must realize that when a portion is removed from the bigger disc on the right side, the COM of the remaining portion shifts towards left side (heavier side). 
+</para>
+<para id="element-66">The test of symmetry about a straight line or a plane is that the body on one side is replicated on the other side. We see here that the remaining portion of the disc is not symmetric about y-axis, but is symmetric about x-axis. It means that the COM of the remaining portion lies on the x-axis on the left side of the center of original disc. It also means that we need to employ the expression of COM for one dimension only. 
+</para>
+<para id="element-67">While employing expression of COM, we use the logic as explained here. The original disc (with known COM) is equivalent to two particles system comprising of (i) remaining portion (with unknown COM) and (ii) smaller disc (with known COM). Now, x-component of the COM of original disc is :
+</para>
+<para id="element-68">
+<figure id="fig-68">
+<title> COM of remaining portion of circular disc </title>
+<media id="id1171285680118" alt=""><image src="../../media/cm8.gif" mime-type="image/gif"/></media>
+<caption> A small circular portion of radius r/4 is taken out.  </caption>
+</figure>
+</para>
+<para id="element-69">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">But, x-component of the COM of original disc coincides with origin of the coordinate system. Further, let us denote the remaining disc by subscript "r" and the smaller circular disk removed by subscript "s".
+</para>
+<para id="element-70"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mn> = </m:mn>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-73">As evident from figure, 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:math>
+. We, now, need to find mass of smaller disc, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+, and mass of remaining portion, 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+</m:math>, using the fact that the density is uniform. The density of the material is :
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ρ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> m </m:mi>
+<m:mi> V </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> m </m:mi>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+where "t" is thickness of disc.
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> V </m:mi>
+<m:mi> ρ </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mi> m </m:mi>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> m </m:mi>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> m </m:mi>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 15 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">Putting these values in the expression of the position of COM, we have :
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> m </m:mi>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+<m:mo> )</m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> )</m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn> 15 </m:mn>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mn> 16 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> r </m:mi>
+<m:mn> 30 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+</section>
+<section id="section-100">
+<title>Acknowledgment</title>
+<para id="element-1000">
+Author wishes to thank Aladesanmi Oladele A for making suggestion to remove error in the module. 
+</para>
+</section>
+
+  </content>
+  
+</document>

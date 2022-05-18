@@ -1,0 +1,829 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Dynamics of circular motion</title>
+  <metadata>
+  <md:content-id>m14090</md:content-id><md:title>Dynamics of circular motion</md:title>
+  <md:abstract>Uniform circular motion requires a radial force that continuously change its direction, while keeping magnitude constant.</md:abstract>
+  <md:uuid>288df090-5760-4600-aa32-36b633fabfd3</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">We have already studied the kinematics of circular motion . Specifically, we observed that a force, known as centripetal force, is required for a particle to execute circular motion. 
+</para>
+<para id="element-2">Force is required because the particle executing circular motion needs to change direction continuously. In the case of uniform circular motion (UCM), speed of the particle is constant. The change in velocity is only in terms of change in direction. This needs a force in the radial direction to meet the requirement of the change in direction continuously. 
+</para>
+<para id="element-3">
+The acceleration is given by :
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-4">
+The centripetal force is given by :
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-6">
+<figure id="fig-4">
+<title> Centripetal force </title>
+<media id="id4421141" alt=""><image src="../../media/ducm1.gif" mime-type="image/gif"/></media>
+<caption> Uniform circular motion requires a radial force that continuously change its direction, while keeping magnitude constant.</caption>
+</figure>
+</para>
+
+<section id="section-4">
+<title> Centripetal force
+</title>
+<para id="element-7">The specific requirement of a continuously changing radial force is not easy to meet by mechanical arrangement. The requirement means that force should continuously change its direction along with particle. It is a tall order. Particularly, if we think of managing force by physically changing the mechanism that applies force. Fortunately, natural and many craftily thought out arrangements create situations, in which the force on the body changes direction with the change in the position of the particle - by the very act of motion. One such arrangement is solar system in which gravitational force on the planet is always radial.
+</para>
+<para id="element-7a">Centripetal force is a name given to the force required  for circular motion. The net component of external forces which meet this requirement is called centripetal force. In this sense, centripetal force is not a separately existing force. Rather, we should look at this force as component of the external forces on the body in radial direction. 
+</para>
+</section>
+<section id="section-1">
+<title> Direction of centripetal force and circular trajectory
+</title>
+
+<para id="element-8">There is a subtle point about circular motion with regard to the direction of force as applied on the particle in circular motion. If we apply force on a particle at rest, then it moves in the direction of applied force and not perpendicular to it. In circular motion, the situation is different. We apply force (centripetal) to a particle, which is already moving in a direction perpendicular to the force. As such, the resulting motion from the interaction of motion with external force is not in radial direction, but in tangential direction.
+</para>
+<para id="element-9">In accordance with Newton's second law of motion, the particle accelerates along the direction of centripetal force i.e. towards center. As such, the particle actually transverses a downward displacement (Δy) with centripetal acceleration; but in the same time, the particle moves sideways (Δx) with constant speed, as the component of centripetal force in the perpendicular direction is zero.
+</para>
+<para id="element-547">It may sound bizzare, but the fact is that the particle is continuously falling towards the center in the direction of centripetal force and at the same is able to maintain its linear distance from the center, owing to constant side way motion.</para><para id="element-10">
+<figure id="fig-10">
+<title> Centripetal force </title>
+<media id="id8345298" alt=""><image src="../../media/ducm2.gif" mime-type="image/gif"/></media>
+<caption> Direction of centripetal force and circular trajectory</caption>
+</figure>
+</para>
+
+<para id="element-11">
+In the figure shown, the particle moves towards center by Δy, but in the same period the particle moves left by Δx. In the given period, the vertical and horizontal displacements are such that resultant displacement finds the particle always on the circle. 
+</para>
+<para id="element-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+
+<m:msup>
+<m:mrow>
+<m:mo> Δ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-2">
+<title> Force analysis of uniform circular motion
+</title>
+<para id="element-14">As pointed our earlier, we come across large numbers of motion, where natural setting enables continuous change of force direction with the moving particle. We find that a force meeting the requirement of centripetal force can be any force type like friction force, gravitational force, tension in the string or electromagnetic force. Here, we consider some of the important examples of uniform circular motion drawn from our life experience.
+</para>
+<section id="section-2a">
+<title> Uniform circular motion in horizontal plane
+</title>
+<para id="element-15">
+A particle tied to a string is rotated in horizontal plane by virtue of the tension in the string. The tension in the string provides the centripetal force for uniform circular motion.
+</para>
+<para id="element-16">We should, however, understand that this force description is actually an approximation, because it does not take into account the downward force due to gravity. As a matter of fact, it is not possible to have a horizontal uniform circular motion (except in the region of zero gravity) by keeping the string in horizontal plane. It is so because, gravitational pull will change the plane of string and the tension in it. 
+</para>
+<para id="element-17">
+In order that there is horizontal uniform circular motion, the string should be slanted such that the tension as applied to the particle forms an angle with the horizontal plane. Horizontal component of the tension provides the needed centripetal force, whereas vertical component balances the weight of the particle.
+</para>
+<para id="element-18">
+<figure id="fig-18"><title> Uniform circular motion in horizontal plane </title>
+<media id="id1166300496801" alt=""><image src="../../media/ducm3a.gif" mime-type="image/gif"/></media>
+<caption> String is not in the plane of circular motion.</caption>
+</figure>
+</para>
+<para id="element-19"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">
+and
+</para>
+<para id="element-20a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+Taking ratio,
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<example id="example-1">
+<para id="element-55"><term>Problem : </term> A small boy sits on a horizontal platform of a joy wheel at a linear distance of 10 m from the center. When the wheel exceeds 1 rad/s, the boy starts slipping. Find the coefficient of friction between boy and the platform.
+</para>
+<para id="element-56"> <term>Solution : </term> For boy to be stationary with respect to platform, forces in both vertical and horizontal directions are equal. However, requirement of centripetal force increases with increasing rotational speed. If centripetal force exceeds the maximum static friction, then boy begins to slip towards the center of the rotating platform.
+</para> 
+<para id="element-58">
+<figure id="fig-58">
+<title> Horizontal circular motion </title>
+<media id="id1166302401956" alt=""><image src="../../media/ducm8.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-615">In vertical direction,</para><para id="element-57"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para><para id="element-804">In horizontal direction,</para><para id="element-960"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> r </m:mi>
+<m:msup>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0.5 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-2b">
+<title> Motion of a space shuttle 
+
+</title>
+<para id="element-23">A space shuttle moves in a circular path around Earth. The gravitational force between earth and shuttle provides for the centripetal force. 
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> g </m:mi>
+<m:mi> ‘ </m:mi>
+</m:msup>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">where g' is the acceleration due to gravity (acceleration arising from the gravitational pull of Earth) on the satellite.
+</para>
+<para id="element-26">Here, we need to point out an interesting aspect of centripetal force. A person is subjected to centripetal force, while moving in a car and as well when moving in a space shuttle. But the experience of the person in two cases are different. In car, the person experiences (feels) a normal force in the radial direction as applied to a part of the body. On the other hand, a person in the shuttle experiences the "feeling" of weightlessness. Why this difference when body experiences centripetal force in either case?
+</para>
+<para id="element-27">In the space shuttle, gravity acts on each of the atoms constituting our body and this gravity itself is the provider of centripetal force. There is no push on the body as in the case of car. The body experiences the "feeling" of weightlessness as both space shuttle and the person are continuously falling towards center of Earth. The person is not able to push other bodies. Importantly, gravitational pull or weight of the person is equal to mg’ and not equal to zero. </para>
+
+</section>
+
+
+<section id="section-2c">
+<title> Horizontal circular motion in a rotor
+</title>
+
+
+
+<para id="element-28">
+Horizontal rotor holds an object against the wall of a rotating cylinder at a certain angular speed. The object (which could be a person in a fun game arrangement) is held by friction between the surfaces of the object and the cylinder's inside wall. For a given weight of the object, there is a threshold minimum velocity of the rotor (cylinder); otherwise the object will fall down. 
+</para>
+
+<para id="element-28a">
+The object has a tendency to move straight. As the object is forced to move in a circle, it tends to move away from the center. This means that the object presses the wall of the rotor. The rotor, in turn, applies normal force on the object towards the center of circular path.
+</para>
+<para id="element-29">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">Since friction is linearly related to normal force for a given pair of surfaces (
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+), it is possible to adjust speed of the rotor such that maximum friction is equal to the weight of the object. In the vertical direction, we have :
+</para>
+<para id="element-31">
+<figure id="fig-31">
+<title> Horizontal circular motion in a rotor </title>
+<media id="id1166314331959" alt=""><image src="../../media/ducm4.gif" mime-type="image/gif"/></media>
+<caption> As a limiting case, the maximum friction is equal to the weight of the object.</caption>
+</figure>
+</para>
+<para id="element-32"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">
+Combining two equations, we have :
+</para>
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>	
+<m:mo> ) </m:mo>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-301">This is threshold value of speed for the person to remain stuck with the rotor. </para><para id="element-35">
+We note following points about the horizontal rotor :
+</para>
+<para id="element-36">
+<list id="list-36" list-type="enumerated">
+<item> The object tends to move away from the center owing to its tendency to move straight.
+</item>
+<item> A normal force acts towards center, providing centripetal force
+</item>
+<item> Normal force contributes to maximum friction as 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:math>.
+</item>
+
+<item> Velocity of the rotor is independent of the mass of the object.
+</item>
+</list>
+</para>
+
+</section>
+
+</section>
+
+<section id="section-3">
+<title> Force analysis of non-uniform circular motion
+</title>
+
+<para id="element-37">
+Motion in vertical loop involves non-uniform circular motion. To illustrate the force analysis, we consider the motion of a cyclist, who makes circular rounds in vertical plane within a cylindrical surface by maintaining a certain speed. 
+</para>
+
+<section id="section-3a">
+<title> Vertical circular motion
+</title>
+<para id="element-38">In the vertical loop within a hallow cylindrical surface, the cyclist tends to move straight in accordance with its natural tendency. The curvature of cylinder, however, forces the cyclist to move along circular path (by changing direction). As such, the body has the tendency to press the surface of the cylindrical surface. In turn, cylindrical surface presses the body towards the center of the circular path. 
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Vertical circular motion </title>
+<media id="id1166304963241" alt=""><image src="../../media/ducm5.gif" mime-type="image/gif"/></media>
+<caption> The cyclist executes vertical circular motion along the cylindrical surface.</caption>
+</figure>
+</para>
+<para id="element-40">The free body diagram of the cyclist at an angle “θ” is shown in the figure. We see that the resultant of normal force and component of weight in the radial direction meets the requirement of centripetal force in radial direction,
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Vertical circular motion </title>
+<media id="id1166300659003" alt=""><image src="../../media/ducm6.gif" mime-type="image/gif"/></media>
+<caption> Force diagram </caption>
+</figure>
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+The distinguishing aspects of circular motion in vertical plane are listed here :
+</para>
+<para id="element-44">
+<list id="list-44" list-type="enumerated">
+<item> Motion in a vertical loop is a circular motion – not uniform circular motion. It is so because there are both radial force (N – mg cosθ) and tangential force (mg sin θ). Radial force meets the requirement of centripetal force, whereas tangential force accelerates the particle in the tangential direction. As a result, the speed of the cyclist decreases while traveling up and increases while traveling down.
+
+</item>
+<item> Centripetal force is not constant, but changing in magnitude as the speed of the cyclist is changing and is dependent on the angle “θ”. 
+
+</item>
+
+</list>
+</para>
+<para id="element-45">
+The cyclist is required to maintain a minimum speed to avoid free fall. The possibility of free fall is most stringent at the highest point of the loop. We, therefore, analyze the motion at the highest point with the help of the free body diagram as shown in the figure.  
+</para>
+<para id="element-46">
+<figure id="fig-46"><title> Vertical circular motion </title>
+<media id="id1166308422385" alt=""><image src="../../media/ducm7.gif" mime-type="image/gif"/></media>
+<caption> Force diagram at the top </caption>
+</figure>
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+<note id="id1166310008830"> We can also achieve the result as above by putting the value θ=180° in the equation obtained earlier. </note>
+</para>
+<para id="element-49">
+Th minimum speed of the cyclist corresponds to the situation when normal force is zero. For this condition,
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<section id="section-3b1">
+<title> Vertical motion of a particle attached to a string
+</title>
+<para id="element-51">
+This motion is same as discussed above. Only difference is that tension of the string replaces normal force in this case. The force at the highest point is given as :
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+Also, the minimum speed for the string not to slack at the highest point (T  = 0),
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> r </m:mi>
+<m:mi> g </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-98">The complete analysis of circular motion in vertical plane involves considering forces on the body at different positions. However, external forces depend on the position of the body in the circular trajectory. The forces are not constant forces as in the case of circular motion in horizontal plane.</para><para id="element-181">We shall learn subsequently that situation involving variable force is best analyzed in terms of energy concept. As such, we will revisit vertical circular motion again after studying different forms of mechanical energy.</para>
+</section>
+
+</section>
+</section>
+
+  
+  </content>
+  
+</document>

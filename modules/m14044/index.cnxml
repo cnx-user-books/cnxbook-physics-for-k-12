@@ -1,0 +1,542 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Fundamental force types</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>385e9ee6-6024-43fd-a4d9-66d0decc9b58</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">There are different types of forces that may operate on a body. The forces are different in origin and characterization. However, there are only four fundamental forces. Other force types are simply manifestation of these fundamental forces.  
+</para>
+<para id="element-2">In this module, we shall describe the four fundamental force types. The other force types, which are required to be considered in mechanics, will be discussed in a separate module. In this sense, this module is preparatory to the study of dynamics. The treatment of the force types, however, will be preliminary and limited in scope to the extent which fulfills the requirement of dynamics.
+</para>
+<para id="element-3">
+The four fundamental force types are :
+</para>
+<para id="element-4">
+<list id="list-2" list-type="enumerated">
+<item> Gravitational force
+ </item>
+<item> Electromagnetic force
+ </item>
+<item> Weak force
+ </item>
+<item> Strong force (nuclear force)
+ </item>
+</list>
+</para>
+
+
+<section id="section-1">
+<title> Gravitational force </title>
+<para id="element-5">
+The force of gravitation is a long distance force, arising due to the very presence of matter. Netwon’s gravitation law provides the empirical expression of gravitational force between two point like masses 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ separated by a distance “r” as :
+</para>
+<para id="element-6"><equation id="equation-6">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> G </m:mi>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-7">
+where “G” is the universal constant. 
+<m:math>
+<m:mi> G </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 6.7  </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 11 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> kg </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. 
+</para>
+<para id="element-8">
+Gravitational force is a pair of pull on the two bodies directed towards each other. It is always a force of attraction. Gravitation is said to follow inverse square law as the force is inversely proportional to the square of the distance between the bodies. 
+</para>
+<para id="element-9">
+Since the force of gravitation follows inverse square law, the force can be depicted as a conservative force field, in which work done in moving a mass from one point to another is independent of the path followed. The gravitation force is the weakest of all fundamental forces but can assume great magnitude as there are truly massive bodies present in the universe.
+</para>
+<para id="element-11">
+In the case of Earth (mass “M”) and a body (mass “m”), the expression for the gravitational force is :
+</para>
+<para id="element-12"><equation id="equation-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> G </m:mi>
+<m:mi> M </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-14"><equation id="equation-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-15">
+where “g” is the acceleration due to gravity.
+</para>
+<para id="element-16"><equation id="equation-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> G </m:mi>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-17">
+The most important aspect of acceleration due to gravity here is that it is independent of the mass of the body “m”, which is being subjected to acceleration. Its value is taken as 9.81 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-18">Gravitation force has a typical relation with the mass of the body on which its effect is studied. We know that mass (“m”) is part of the Newton’s second law that relates force with acceleration. Incidentally, the same mass of the body (“m”) is also a part of the equation og gravitation that determines force. Because of this special condition, bodies of different masses are subjected to same acceleration. Such is not the case with other forces and the resulting acceleration is not independent of mass.
+</para>
+<para id="element-629">Consider for example a body of mass "m'" instead of "m". Then, </para><para id="element-596"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> G </m:mi>
+<m:mi> M </m:mi>
+<m:mi> m' </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> m' </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-697"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> G </m:mi>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-591">We see here that gravitational force on the body is proportional to the mass of the body itself. As such, the acceleration, which is equal to the force divided by mass, remains same.  </para><para id="element-19">Knowing that acceleration due to gravitational force in the Earth’s vicinity is a constant, we can calculate  gravitational pull on a body of mass "m", using relation second law of motion :
+</para>
+<para id="element-20">
+F = mg
+</para><para id="element-334">Further, gravitational force is typically a force which operates at a distance. The force is said to be communicated to an object at a distance through a field known as gravitational field. For this reason, gravitational force is classified as "force at a distance".</para>
+</section>  
+
+
+<section id="section-2">
+<title> Electromagnetic force </title>
+<para id="element-21">
+Electromagnetic force is an intermediate range force that plays central role in the constitution of matter in its various forms. Coulomb’s law provides the empirical expression of electromagnetic force between two point like charges 
+<m:math>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ separated by a distance “r” as :
+</para>
+<para id="element-22"><equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> E </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> π </m:mi>
+<m:msub>
+<m:mi> ε </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-23">
+where 
+<m:math>
+<m:msub>
+<m:mi> ε </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+ is the permittivity of vacuum. 
+<m:math>
+<m:msub>
+<m:mi> ε </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 8.854 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 12 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> / </m:mo>
+<m:mi> N </m:mi>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+</para>
+<para id="element-24">
+Electromagnetic force is a pair of pulls on the two charged bodies. The force is said to follow inverse square law as the force is inversely proportional to the square of the distance between the bodies. 
+</para>
+<para id="element-24a">The charge is a signed scalar quantity, meaning thereby that the nature of electromagnetic force may be attractive or negative, depending on the polarity of two charges. Two similar charges (positive or negative) repel each other, whereas two dissimilar charges (positive and negative) attract each other.
+</para>
+<para id="element-25">
+Since the electromagnetic force follows inverse square law, the force can be depicted as a conservative force field, in which work done in moving a mass from one point to another is independent of the path followed. The electromagnetic force is second strongest force after nuclear force. 
+</para>
+<para id="element-26">
+The acceleration of a charged body of mass “m”, carrying a charge “q” is given as  :
+</para>
+<para id="element-27"><equation id="equation-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> E </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi> q </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> π </m:mi>
+<m:msub>
+<m:mi> ε </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> m </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-28">
+Here, acceleration of the body is not independent of “mass” of the body as in the case of gravitational force.
+</para><para id="element-497">Like gravitational force, however, the electromagnetic force operates at a distance. The electromagnetic force is said to be communicated to an object at a distance through a field known as electromagnetic field. For this reason, electromagnetic force is also classified as "force at a distance" and "field force".</para>
+</section>  
+
+<section id="section-3">
+<title> Strong (nuclear) force </title>
+
+<para id="element-29">
+Nuclear force is strongest of all forces and is a short range (
+<m:math>
+<m:mi> &lt; </m:mi>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 14 </m:mn>
+</m:mrow>
+</m:msup>
+</m:math>
+m) force that is effective within the dimension of a nucleus. This force is responsible for holding together charged nucleons i.e. protons, which other wise would have been repelled away due to electromagnetic force operating between charged particles of same polarity.
+</para>
+<para id="element-30">
+When inter-particle distance increases (
+<m:math>
+<m:mi> &gt; </m:mi>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 14 </m:mn>
+</m:mrow>
+</m:msup>
+</m:math>
+ m), nuclear force sharply decreases and becomes smaller than the electromagnetic force. Further, nuclear force is not a charge based force like electromagnetic force. It operates between a pair of nucleons whether charged or not charged and is largely attractive in nature. Three possible nucleon force pairs are :
+
+</para>
+<para id="element-31">
+<list id="list-31" list-type="bulleted">
+<item> neutron (n) – neutron (n)  </item>
+<item> proton (p) – neutron (n)  </item>
+<item> proton (p) – proton (p) </item>
+</list>
+</para>
+<para id="element-32">
+When the inter-particle distance decreases less than 0.5 fermi (
+<m:math>
+<m:mi> &lt; </m:mi>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 15 </m:mn>
+</m:mrow>
+</m:msup>
+</m:math>
+m), the nuclear force becomes repulsive. 
+</para>
+<para id="element-33">
+No quantitative expression for nuclear force is yet known.
+</para>
+
+</section>  
+
+<section id="section-4">
+<title> Weak force </title>
+
+<para id="element-34">
+Like nuclear force, weak force is a short range force and in addition also a short duration force. Existence of this force came into consideration to explain variation in energy levels in β-decay during radioactive disintegration. According to classical model, the energy of all β- particles (electrons) should have been same. However, it is found that they possess energy from zero to a certain maximum value.
+</para>
+<para id="element-35">This apparent contradiction was resolved by postulating existence of “weak force”, which interacts through elementary particles like neutrino and anti-neutrino to manifest variation in energy distribution in radioactive decay. Subsequently, postulation of these elementary particles has been supported with their actual existence.
+</para>
+<para id="element-36">
+No quantitative expression for weak force is yet known.
+</para>
+<para id="element-37">Contrary to its name, it is not the weakest force. It is a “weak” force with respect to other nucleus – based nuclear force, but is stronger than gravitational force. The relative strength of fundamental forces is as given here :
+</para>
+<para id="element-38">
+Gravitational force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> G </m:mi>
+</m:msub>
+</m:math>
+) &lt; Weak force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> W </m:mi>
+</m:msub>
+</m:math>
+) &lt; Electromagnetic force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> E </m:mi>
+</m:msub>
+</m:math>
+) &lt; Nuclear force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:math>
+)
+</para>
+</section>  
+  
+  </content>
+  
+</document>

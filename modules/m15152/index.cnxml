@@ -1,0 +1,1485 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Two body system - linear motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5ce78de0-5d66-46a2-b2d1-f349bcc6fad1</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">“Two body” system represents the starting point for studying motion of celestial bodies, including Earth. In general, gravitational force is dominant for a pair of masses in such a manner that influence of all other bodies can be neglected as first approximation. In that case, we are left with an isolated “two body” system. The most important deduction of this simplifying assumption is that isolated system is free of external force. This means that “center of mass” of the isolated system in not accelerated. 
+</para>
+<para id="element-2">In the solar system, one of the massive bodies is Sun and the other is one of the planets. In this case, Sun is relatively much larger than second body. Similarly, in Earth-moon system, Earth is relatively much larger than moon. On the other hand, bodies are of similar mass in a “binary stars” system. There are indeed various possibilities. However, we first need to understand the basics of the motion of isolated two bodies system, which is interacted by internal force of attraction due to gravitation. Specially, how do they hold themselves in space?
+</para>
+<para id="element-3">In this module, we shall apply laws of mechanics, which are based on Newton’s laws of motion and Newton's law of gravitation. Most characterizing aspect of the motion is that two bodies, in question, move in a single plane, which contains their center of mass. What it means that the motion of two body system is coplanar.
+</para>
+<para id="element-4">
+<figure id="fig-4"><title> Two body system </title>
+<media id="idm13545536" alt=""><image src="../../media/fig1.gif" mime-type="image/gif"/></media>
+<caption> The plane of "one body and center of mass" and plane of "other body and center of mass" are in the same plane.</caption>
+</figure>
+</para>
+<para id="element-5">Newtonian mechanics provides a general solution in terms of trajectory of a conic section with different eccentricity. The trajectories like linear, circular, elliptical, parabolic, hyperbolic etc are subsets of this general solution with specific eccentricity. Here, we do not seek mathematical derivation of generalized solution of the motion. Rather, we want to introduce simpler trajectories like that of a straight line, circle etc. first and then interpret elliptical trajectory with simplifying assumptions. In this module, we shall limit ourselves to the motion of “two body” system along a straight line. We shall take up circular motion in the next module.
+</para>
+<para id="element-6">In a way, the discussion of motion of “two body” system is preparatory before studying Kepler’s laws of planetary motion, which deals with specific case of elliptical trajectory.
+</para>
+<para id="element-7">
+<note id="idp2368">The general solution of two bodies system involves polar coordinates (as it suits the situation), vector algebra and calculus. In this module, however, we have retained rectangular coordinates for the most part with scalar derivation and limited our discussion to specific case of linear trajectory. 
+</note>
+</para>
+<section id="section-1">
+<title>Straight line trajectory</title>
+<para id="element-8">This is simplest motion possible for "two body" system. The  bodies under consideration are initially at rest. In this case, center of mass of two bodies is a specific point in the given reference. Also, it is to be noted that center of mass lies always between two bodies and not beyond them. 
+</para>
+<para id="element-9">Since no external force is applied, the subsequent motion due to internal gravitational force does not change the position of center of mass in accordance with second law of motion. The bodies simply move towards each other such that center of mass remains at rest. 
+</para>
+<para id="element-10">The two bodies move along a straight line joining their centers. The line of motion also also passes through center of mass. This has one important implication. The plane containing one body and “center of mass” and the plane containing other body and “center of mass” are same. It means that motions of two bodies are “coplanar” with line joining the centers of bodies and center of mass. The non-planar motions as shown in the figure below are not possible as motion is not along the line joining the centers of two bodies.
+</para>
+<para id="element-11">
+<figure id="fig-11"><title> Two body system </title>
+<media id="idm4507760" alt=""><image src="../../media/fig3.gif" mime-type="image/gif"/></media>
+<caption> The motion of two body system can not be non-planar.</caption>
+</figure>
+</para>
+<para id="element-11a">Let suscripts "1" and "2" denote two bodies. Also, let “
+<m:math>
+		<m:msub>
+			<m:mi>r</m:mi>
+			<m:mn>1</m:mn>
+		</m:msub>
+	</m:math>
+”, “
+<m:math>
+		<m:msub>
+			<m:mi>v</m:mi>
+			<m:mn>1</m:mn>
+		</m:msub>
+	</m:math>
+”, “
+<m:math>
+		<m:msub>
+			<m:mi>a</m:mi>
+			<m:mn>1</m:mn>
+		</m:msub>
+	</m:math>
+” and “
+<m:math>
+		<m:msub>
+			<m:mi>r</m:mi>
+			<m:mn>2</m:mn>
+		</m:msub>
+	</m:math>
+”, “
+<m:math>
+		<m:msub>
+			<m:mi>v</m:mi>
+			<m:mn>2</m:mn>
+		</m:msub>
+	</m:math>”, “
+<m:math>
+		<m:msub>
+			<m:mi>a</m:mi>
+			<m:mn>2</m:mn>
+		</m:msub>
+	</m:math>
+” be the magnitudes of linear distance from the center of mass, speeds and magnitudes of accelerations respectively of two bodies under consideration. Also let “center of mass” of the system is the origin of reference frame. Then, by definition of center of mass :
+</para>
+<para id="element-12">
+<figure id="fig-12"><title> Two body system </title>
+<media id="idp1461264" alt=""><image src="../../media/fig2.gif" mime-type="image/gif"/></media>
+<caption> Center of mass is the origin of reference frame.</caption>
+</figure>
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mi>c</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">But “center of mass” lies at the origin of the reference frame,
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mi>c</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">Taking first differentiation of position with respect to time, we have :
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>c</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">Taking first differentiation of velocity with respect to time, we have :
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>c</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">Considering only magnitude and combining with Newton’s law of gravitation,
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>21</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>r</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">Since distance of bodies from center of mass changes with time, the gravitational force on two bodies is equal in magnitude at a given instant, but varies with time. 
+</para>
+</section>
+<section id="section-2">
+<title>Newton’s Second law of motion</title>
+<para id="element-28">We can treat “two body” system equivalent to “one body” system by stating law of motion in appropriate terms. For example, it would be interesting to know how force can be related to the relative acceleration with which two bodies are approaching towards each other. Again, we would avoid vector notation and only consider the magnitudes of accelerations involved. The relative acceleration is sum of the magnitudes of individual accelerations of the bodies approaching towards each other :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">According to Newton's third law, gravitational force on two bodies are pair of action and reaction and hence are equal in magnitude. The magnitude of force on each of the bodies is related to acceleration as :
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-33"><m:math display="block">
+		<m:mrow>
+			<m:mo>⇒</m:mo>
+			<m:msub>
+				<m:mi>m</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+			<m:msub>
+				<m:mi>a</m:mi>
+				<m:mn>1</m:mn>
+			</m:msub>
+			<m:mo>=</m:mo>
+			<m:msub>
+				<m:mi>m</m:mi>
+				<m:mn>2</m:mn>
+			</m:msub>
+			<m:msub>
+				<m:mi>a</m:mi>
+				<m:mn>2</m:mn>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+</para>
+<para id="element-34">We can note here that this relation, as a matter of fact, is same as obtained using concept of center of mass. Now, we can write magnitude of relative acceleration of two bodies, “
+<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>a</m:mi>
+				<m:mi>r</m:mi>
+			</m:msub>
+		</m:mrow>
+	</m:math>
+”, in terms of individual accelerations is :
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">Substituting in the Newton’s law of motion,
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">Where,
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-2a">
+<title>Reduced mass</title>
+<para id="element-43">The quantity given by the expression :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>μ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">is known as “reduced mass”. It has the same unit as that of “mass”. It represents the “effect” of two bodies, if we want to treat “two body” system as “one body” system. 
+</para>
+<para id="element-46">In the nutshell, we can treat motion of “two body” system along a straight line as “one body” system, which has a mass equal to “μ” and acceleration equal to relative acceleration, “
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+  </m:mrow>
+</m:math>
+”.
+</para>
+</section>
+<section id="section-2b">
+<title>Velocity of approach</title>
+<para id="element-47">The two bodies are approaching towards each other. Hence, magnitude of velocity of approach is given by :
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Velocity of approach </title>
+<media id="idp1506368" alt=""><image src="../../media/fig4.gif" mime-type="image/gif"/></media>
+<caption> Two bodies are approaching each other along a straight line.</caption>
+</figure>
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-50">
+This is the expression of the magnitude of velocity of approach. We can write corresponding vector equation for velocity of approach in relation to reference direction. In this module, however, we will avoid vector notation or vector interpretation to keep the discussion simplified.
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Kinetic energy</title>
+<para id="element-51">The kinetic energy of the “two body” system is given as the sum of kinetic energy of individual bodies,
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">
+We can write this expression of kinetic energy in terms of relative velocity i.e. velocity of approach. For this, we need to express individual speeds in terms of relative speed as :
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">But,
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">Substituting in the expression of relative velocity,
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">Similarly,
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">
+Now, putting these expressions of individual speed in the equation of kinetic energy :
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>m</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>r</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>m</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>r</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>r</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>1</m:mn>
+              </m:msub>
+              <m:mo>+</m:mo>
+              <m:msub>
+                <m:mi>m</m:mi>
+                <m:mn>2</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>1</m:mn>
+          </m:msub>
+          <m:mo>+</m:mo>
+          <m:msub>
+            <m:mi>m</m:mi>
+            <m:mn>2</m:mn>
+          </m:msub>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>r</m:mi>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>    
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-68">This result also indicates that we can treat “two body” system as “one body” system from the point of view of kinetic energy, as if the body has reduced mass of “μ” and speed equal to the magnitude of relative velocity, “
+<m:math>
+		<m:mrow>
+			<m:msub>
+				<m:mi>v</m:mi>
+				<m:mi>r</m:mi>
+			</m:msub>
+		</m:mrow>
+	</m:math>”.
+</para>
+<section id="section-3a">
+<title>Example</title>
+<para id="element-69"><term>Problem 1: </term> Two masses “
+<m:math>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” are initially at rest at a great distance. At a certain instant, they start moving towards each other, when released from their positions. Considering absence of any other gravitational field, calculate velocity of approach when they are at a distance “r” apart.
+</para>
+<para id="element-70"><term>Solution : </term>The bodies are at large distance in the beginning. There is no external gravitational field. Hence, we can consider initial gravitational energy of the system as zero (separated y infinite distance). Also, the bodies are at rest in the beginning. The initial kinetic energy is also zero. In turn, initial mechanical energy of the system is zero. 
+</para>
+<para id="element-71">Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” be the velocity of approach, when the bodies are at a distance “r” apart. Applying conservation of mechanical energy, we have :
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>U</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>μ</m:mi>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75"><m:math display="block">
+		<m:mrow>
+			<m:mo>⇒</m:mo>
+			<m:msub>
+				<m:mi>v</m:mi>
+				<m:mi>r</m:mi>
+			</m:msub>
+			<m:mo>=</m:mo>
+				<m:msqrt>
+				<m:mo>{</m:mo>
+			<m:mfrac>
+					<m:mrow>
+						<m:mn>2</m:mn>
+						<m:mi>G</m:mi>
+						<m:mfenced>
+							<m:mrow>
+								<m:msub>
+									<m:mi>m</m:mi>
+									<m:mn>1</m:mn>
+								</m:msub>
+								<m:mo>+</m:mo>
+								<m:msub>
+									<m:mi>m</m:mi>
+									<m:mn>2</m:mn>
+								</m:msub>
+							</m:mrow>
+						</m:mfenced>
+					</m:mrow>
+				<m:mrow>
+					<m:mi>r</m:mi>
+				</m:mrow>
+			</m:mfrac>
+					<m:mo>}</m:mo>
+				</m:msqrt>
+		</m:mrow>
+	</m:math>
+</para>
+</section>
+</section>
+<section id="section-4">
+<title>Conclusions</title>
+<para id="element-76">
+From the discussion above, we conclude the followings about the motion of “two body” system along a straight line  :
+</para>
+<para id="element-77"><term>1: </term>Each body follows a straight line trajectory.
+</para>
+<para id="element-78"><term>2: </term> The line joining centers of two bodies pass through center of mass.
+</para>
+<para id="element-79"><term>3: </term> The planes of two motions are in the same plane. In other words, two motions are coplanar. 
+</para>
+<para id="element-80"><term>4: </term> Magnitude of gravitational force is same for two bodies, but they vary as the distance between them changes.
+</para>
+<para id="element-81"><term>5: </term> We can treat “two body” system equivalent to “one body” system by using concepts of (i) reduced mass “μ” (ii) relative velocity, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and (iii) relative acceleration “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”.
+</para>
+</section>
+
+
+   
+  </content>
+  
+</document>

@@ -1,0 +1,742 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravitational field (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>1ae81f91-3888-4854-b8ca-b038ab1a1da7</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to gravitational field. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Gravitational field
+</item>
+<item> Gravitational force
+</item>
+<item> Superposition principle
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Gravitational field
+</title>
+<para id="element-6"><term>Problem 1 : </term> Calculate gravitational field at a distance “r” from the center of a solid sphere of uniform density, “ρ”, and radius “R”. Given that r &lt; R.
+</para>
+<para id="element-7"> 
+<figure id="fig-7">
+<title> Gravitational field </title>
+<media id="idm10658320" alt=""><image src="../../media/gfq1.gif" mime-type="image/gif"/></media>
+<caption> Gravitational field inside a solid sphere.</caption>
+</figure>
+</para>  
+<para id="element-8"><term>Solution : </term> The point is inside the solid sphere of uniform density. We apply the theorem that gravitational field due to mass outside the sphere of radius “r” is zero at the point where field is being calculated. Let the mass of the sphere of radius “r” be “m”, then :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>4</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mi>π</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>3</m:mn>
+    </m:msup>
+    <m:mi>ρ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">The gravitational field due to this sphere on its surface is given by :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>X</m:mi>
+        <m:mfrac>
+          <m:mn>4</m:mn>
+          <m:mn>3</m:mn>
+        </m:mfrac>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-4">
+<title> Gravitational force
+</title>
+<para id="element-14"><term>Problem 2 : </term>A sphere of mass “2M” is placed a distance “√3 R” on the axis of a vertical ring of radius “R” and mass “M”. Find the force of gravitation between two bodies.
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Gravitational force </title>
+<media id="idm2669152" alt=""><image src="../../media/gfq3.gif" mime-type="image/gif"/></media>
+<caption> The center of sphere lies on the axis of ring.</caption>
+</figure>
+</para>
+<para id="element-16"><term>Solution : </term> Here, we determine gravitational field due to ring at the axial position, where center of sphere lies. Then, we multiply the gravitational field with the mass of the sphere to calculate gravitational force between two bodies.
+</para>
+<para id="element-17">
+The gravitational field due to ring on its axis is given as :
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">
+Putting values,
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mi>R</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msqrt>
+                <m:mn>3</m:mn>
+              </m:msqrt>
+              <m:mi>R</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mo>}</m:mo>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">The sphere acts as a point mass. Therefore, the gravitational force between two bodies is :
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>M</m:mi>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>M</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>M</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5">
+<title> Superposition principle
+</title>
+<section id="section-5a">
+<para id="element-25"><term>Problem 3 : </term>A spherical cavity is made in a solid sphere of mass “M” and radius “R” as shown in the figure. Find the gravitational field at the center of cavity due to remaining mass.
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> Superposition principle </title>
+<media id="idp5363152" alt=""><image src="../../media/gfq4.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field at the center of spherical cavity </caption>
+</figure>
+</para>
+<para id="element-27"><term>Solution : </term> According to superposition principle, gravitational field  (<term>E</term>) due to whole mass is equal to vector sum of gravitational field due to remaining mass (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+) and removed mass (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+). 
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>E</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">The gravitation field due to a uniform solid sphere is zero at its center. Therefore, gravitational field due to removed mass is zero at its center. It means that gravitational field due to solid sphere is equal to gravitational field due to remaining mass. Now, we know that “<term>E</term>” at the point acts towards center of sphere.  As such both “<term>E</term>” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>E</m:mi>
+      </m:mstyle>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” acts along same direction. Hence, we can use scalar form,
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+        <m:mi>E</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+      <m:mi>E</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">Now, gravitational field due to solid sphere of radius “R” at a point “r” within the sphere is given as :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>R</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+Here,
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Superposition principle </title>
+<media id="idm2277792" alt=""><image src="../../media/gfq5.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field at the center of spherical cavity </caption>
+</figure>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-36">Thus,
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">Therefore, gravitational field due to remaining mass, “
+<m:math>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+”, is :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-5b">
+<para id="element-40"><term>Problem 4 : </term>Two concentric spherical shells of mass “
+<m:math>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+” and “
+<m:math>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+</m:math>
+” have radii “
+<m:math>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>
+” and “
+<m:math>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+</m:math>
+” respectively, where 
+<m:math>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+</m:math>&gt;
+<m:math>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+</m:math>. Find gravitational intensity at a point, which is at a distance “r” from the common center for following situations, when it lies (i) inside smaller shell (ii) in between two shells and (iii) outside outer shell. 
+</para>
+<para id="element-41"><term>Solution : </term> Three points “A”, “B” and “C” corresponding to three given situations in the question are shown in the figure :
+</para>
+<para id="element-42">
+<figure id="fig-42"><title> Superposition principle </title>
+<media id="idp3758624" alt=""><image src="../../media/gfq6a.gif" mime-type="image/gif"/></media>
+<caption> The gravitational field at three different points  </caption>
+</figure>
+</para>
+<para id="element-43">The point inside smaller shell is also inside outer shell. The gravitational field inside a shell is zero. Hence, net gravitational field at a position inside the smaller shell is zero,
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">The gravitational field strength due to outer shell (
+<m:math>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+</m:math>
+) at a point inside is zero. On the other hand, gravitational field strength due to inner shell (
+<m:math>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+</m:math>) at a point outside is :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">Hence, net gravitational field at position in between two shells is :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">A point outside outer shell is also outside inner shell. Hence, net field strength at a position outside outer shell is :
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>E</m:mi>
+    <m:mi>i</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>E</m:mi>
+    <m:mi>o</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math> 
+</para>
+</section>
+</section>
+  
+  </content>
+  
+</document>

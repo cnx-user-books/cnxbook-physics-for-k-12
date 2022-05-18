@@ -1,0 +1,564 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Free body diagram (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>85b0a3b5-9d00-4835-84f8-c361a2fba13b</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+<section id="section-2">
+<title> Representative problems and their solutions </title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to the Free body diagram (FBD). The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Vertically Staked blocks 
+</item>
+<item> Block, string and pulley
+</item>
+<item> Block, spring and incline
+</item>
+<item> Hinged rod
+</item>
+<item> Rod and spherical shell
+</item>
+</list>
+</para>
+</section> 
+
+<section id="section-3">
+<title> Vertically Staked blocks  </title>
+<example id="example-6">
+<para id="element-6"><term>Problem : </term> Draw free body diagram of three blocks placed one over other as shown in the figure. 
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Vertically Staked blocks </title>
+<media id="idp1701936" alt=""><image src="../../media/fbd1.gif" mime-type="image/gif"/></media>
+<caption> Three blocks of different masses are placed one over other on a horizontal surface.</caption>
+</figure>
+</para>
+<para id="element-8"><term>Solution : </term> 
+We start drawing FBD of the topmost block as we do no need to consider normal force due to an overlying body as the case with other blocks. 
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Forces on the blocks </title>
+<media id="idp1697696" alt=""><image src="../../media/fbd2.gif" mime-type="image/gif"/></media>
+<caption> The forces on the individual elements of the system are shown.</caption>
+</figure>
+</para>
+<para id="element-8a"> 
+The forces on the block “C” are :
+</para>
+<para id="element-9">
+<list id="list-9" list-type="enumerated">
+<item> 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+</m:math>
+ its weight, acting downward 
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ normal reaction on “C” due to the upper surface of block B, acting upward
+</item>
+</list>
+</para>
+<para id="element-10">
+The forces on the block “B” are :
+</para>
+<para id="element-11">
+<list id="list-11" list-type="enumerated">
+<item> 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+</m:math>
+ its weight, acting downward 
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ normal reaction on “B” due to the lower surface of block C, acting downward
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ normal reaction on “B” due to the upper surface of block A, acting upward
+</item>
+</list>
+</para>
+<para id="element-12">
+The forces on the block “A” are :
+</para>
+<para id="element-14">
+<list id="list-14" list-type="enumerated">
+<item> 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+</m:math>
+ its weight, acting downward 
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ normal reaction on “A” due to the lower surface of block B, acting downward
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ normal reaction on “A” due to horizontal surface, acting upward
+</item>
+</list>
+</para>
+
+<para id="element-16">The FBD of the blocks as points with external forces are shown here. Note that motion is not involved. Hence, no information about acceleration is given in the drawing.
+</para>
+<para id="element-17">
+<figure id="fig-17">
+<title> Free body diagram </title>
+<media id="idm1802224" alt=""><image src="../../media/fbd3.gif" mime-type="image/gif"/></media>
+<caption> The elements are shown as point with forces.</caption>
+</figure>
+</para>
+<para id="element-18">We have deliberately not shown the coordinate system which may be selected, keeping in mind the inputs available. In this instant case, however, a vertical axis  is clearly the only choice.
+</para>
+
+</example>
+</section> 
+
+<section id="section-4">
+<title> Block, string and pulley </title>
+
+<example id="example-19">
+<para id="element-19"><term>Problem : </term> Three blocks are connected with the help of two “mass-less” strings and a “mass-less” pulley as shown in the figure. If there is no friction involved and strings are taught, then draw free body diagram of each of the blocks.
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> Three blocks connected with two strings </title>
+<media id="idp1512816" alt=""><image src="../../media/fbd4.gif" mime-type="image/gif"/></media>
+<caption> Three blocks are connected through two "mass-less" strings and one "mass-less" pulley.</caption>
+</figure>
+</para>
+<para id="element-21"><term>Solution : </term> 
+Since there are two separate strings. Tensions in two strings are different. We see here that block -1 has no attachment to its left. Hence, it would involve minimum numbers of forces. Thus, we start from block -1. 
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Forces on the blocks </title>
+<media id="idm2411472" alt=""><image src="../../media/fbd5.gif" mime-type="image/gif"/></media>
+<caption> The forces on the individual elements of the system are shown. </caption>
+</figure>
+</para>
+<para id="element-21a">
+The forces on the block – 1 are :
+</para>
+<para id="element-22">
+<list id="list-22" list-type="enumerated"><item> 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+</m:math>
+ its weight, acting downward
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ normal force on block – 1 due to the surface of table, acting upward
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ tension in the string, towards right  
+</item>
+</list>
+</para>
+
+<para id="element-23">
+The forces on the block – 2 are :
+</para>
+<para id="element-24">
+<list id="list-24" list-type="enumerated"><item> 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+</m:math>
+ its weight, acting downward
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> N </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ normal force on block – 2 due to the surface of table, acting upward
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ tension in the string, towards left   
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ tension in the string, towards right   
+</item>
+</list>
+</para>
+<para id="element-25">We note here that “mass-less” string passes over a “mass-less” pulley and no friction is involved. As such, the tensions in the string on either side of the pulley are equal.
+</para>
+<para id="element-26">
+The forces on the block – 3 are :
+</para>
+<para id="element-27">
+<list id="list-27" list-type="enumerated"><item> 
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+</m:math>
+ its weight, acting downward
+</item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+</m:math>
+ tension in the string, acting upward 
+</item>
+</list>
+</para>
+
+<para id="element-29">Since strings are taught, it is evident that the acceleration of the blocks and string are same. Also, we note that motion of the blocks on the table is in horizontal direction only. There is no motion in vertical direction. The forces in the vertical direction, therefore, constitute a balanced force system. Thus, for the analysis of motion, the consideration of forces in vertical directions for blocks of masses “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+” and “
+<m:math>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>” is redundant and can be simply ignored. Now, taking these two considerations in account, the FBD of the blocks are as shown here :
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Free body diagram </title>
+<media id="idp631888" alt=""><image src="../../media/fbd6.gif" mime-type="image/gif"/></media>
+<caption> The elements are shown as point with forces.</caption>
+</figure>
+</para>
+<para id="element-31">
+We should note that the FBD of the blocks show acceleration. Idea here is that we should supplement FBD with as much information as is available. However, we have deliberately not shown the coordinate system which may be selected, keeping in mind the inputs available.
+</para>
+</example>
+<example id="example-60">
+<para id="element-60"><term>Problem : </term> Draw free body diagrams of two blocks “A” and “B” in the arrangement shown in the figure, where Block “B” is lying on a smooth horizontal plane.
+</para>
+<para id="element-61">
+<figure id="fig-61">
+<title> Two blocks </title>
+<media id="idm5323728" alt=""><image src="../../media/fbd17.gif" mime-type="image/gif"/></media>
+<caption> A force "F" is applied with string and pulley arrangement.</caption>
+</figure>
+</para>
+<para id="element-62"><term>Solution : </term>Drawing FBD is a methodological process. However, its efficient use is intuitive and sometimes experience based. 
+</para>
+<para id="element-257">This problem highlights these aspects of drawing FBD. The figure below gives the sketch of various forces on each of the blocks. Note specially that there are indeed large numbers of forces on block "B".  </para><para id="element-63">
+<figure id="fig-63">
+<title> Two blocks </title>
+<media id="idm514848" alt=""><image src="../../media/fbd18.gif" mime-type="image/gif"/></media>
+<caption> Forces on the two blocks.</caption>
+</figure>
+</para>
+<para id="element-64">The FBD of each of the blocks are shown assuming that only translation is involved. The forces are, therefore, shown concurrent at a single point in each case.
+</para>
+<para id="element-65">
+<figure id="fig-65">
+<title> Free body diagrams </title>
+<media id="idp520960" alt=""><image src="../../media/fbd19.gif" mime-type="image/gif"/></media>
+<caption> Forces on the two blocks are shown concurrent.</caption>
+</figure>
+</para>
+<para id="element-66">If we look closely at the forces on the block "B", then we realize that tension in the string is equal to external force "F". These tensions act on the block "B" through two attached pulleys. Knowing that tension in the string is same everywhere, we could have neglected all the four tensions as far as block "B" is concerned. They form two pairs of equal and opposite forces and, therefore, tensions form a balanced force system for block "B".
+</para>
+<para id="element-67">We could have further simplified drawing of FBD in the first attempt. We are required to consider only translation in horizontal direction. The forces in vertical direction on block "B", as a matter of fact, may not be required for the force analysis in horizontal direction. We will learn subsequently that we can determine friction in this case by considering vertical normal force only on block "A". Thus, we can simplify drawing FBD a lot, if we have lots of experience in analyzing forces. 
+</para>
+<para id="element-68">
+<figure id="fig-68">
+<title> Free body diagrams </title>
+<media id="idp522800" alt=""><image src="../../media/fbd20a.gif" mime-type="image/gif"/></media>
+<caption> Abridged version of free body diagram.</caption>
+</figure>
+</para>
+</example>
+</section> 
+<section id="section-5">
+<title> Block, spring and incline </title>
+<example id="example-32">
+<para id="element-32"><term>Problem : </term> A block of mass “m” is held with the support of a spring of constant “k” on a rough incline of angle “θ”. Draw the free body diagram (FBD) of the block.
+</para>
+<para id="element-33">
+<figure id="fig-33">
+<title> A block on an incline </title>
+<media id="idm3669712" alt=""><image src="../../media/fbd7.gif" mime-type="image/gif"/></media>
+<caption> A block of mass “m” is held with the support of a spring of constant “k” on a rough incline of angle “θ”.</caption>
+</figure>
+</para>
+<para id="element-34"><term>Solution : </term> 
+The external forces on the block are :
+</para>
+<para id="element-35">
+<list id="list-35" list-type="enumerated">
+<item> 
+Weight of the block
+</item>
+<item> 
+Normal force due to incline
+</item>
+<item> 
+Friction force
+</item>
+<item> 
+Spring force
+</item>
+</list>
+</para>
+<para id="element-36">
+The forces are drawn from the points of respective applications. Note specially that forces are not concurrent.
+</para>
+<para id="element-37">
+<figure id="fig-37"><title> Forces on the blocks </title>
+<media id="idp6421376" alt=""><image src="../../media/fbd8.gif" mime-type="image/gif"/></media>
+<caption> The forces on the block are shown. </caption>
+</figure>
+</para>
+<para id="element-38">
+As there is no rotation involved, we consider forces to be concurrent and represent them as such with a common point. 
+</para>
+<para id="element-39">
+The FBD of the block as point object is shown here :
+</para>
+<para id="element-40">
+<figure id="fig-40">
+<title> Free body diagram </title>
+<media id="idp4003744" alt=""><image src="../../media/fbd9.gif" mime-type="image/gif"/></media>
+<caption> The block is shown as point with external forces on it.</caption>
+</figure>
+</para>
+<para id="element-41">We have indicated the angle that normal force makes with the direction of perpendicular to the incline. Idea here is that we should supplement FBD with as much information as is available. We have deliberately not shown the coordinate system which may be selected, keeping in mind the inputs available.
+</para>
+
+</example>
+</section>  
+
+<section id="section-6">
+<title> Hinged rod </title>
+<example id="example-42">
+<para id="element-42"><term>Problem : </term> A rod “AB” is hinged at “A” from a wall and is held with the help of a string as shown in the figure. Draw the free body diagram (FBD) of the rod.
+</para>
+<para id="element-43">
+<figure id="fig-43">
+<title> A hinged rod  </title>
+<media id="idm1892304" alt=""><image src="../../media/fbd10a.gif" mime-type="image/gif"/></media>
+<caption> The rod is hinged from a wall and is held with the help of a string .</caption>
+</figure>
+</para>
+<para id="element-44"><term>Solution : </term> 
+This example is designed to highlight the characteristics of a hinge. A hinge changes the nature of contact force at the contact between two objects. The direction of contact forces are not predefined like in the normal case, but can assume any direction depending on the other forces acting on the body under consideration. 
+</para>
+<para id="element-45">As a consequence, the contact force is represented by a unknown force “F”. In the case of coplanar force system, this unknown force can, in turn, be represented by a pair of components in “x” and “y” directions. The figure below shows the forces acting on the rod “AB”.
+</para>
+<para id="element-46">
+<figure id="fig-46">
+<title> Forces on the rod </title>
+<media id="idm581392" alt=""><image src="../../media/fbd11a.gif" mime-type="image/gif"/></media>
+<caption> The forces on the rod are shown. </caption>
+</figure>
+</para>
+<para id="element-47">
+The FBD of the rod after removing other elements of the system is shown here :
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> Free body diagram </title>
+<media id="idm551184" alt=""><image src="../../media/fbd12a.gif" mime-type="image/gif"/></media>
+<caption> The rod is shown with external forces on it.</caption>
+</figure>
+</para>
+<para id="element-49">We should note that the FBD of the rod shows the angle that the tension force makes with the vertical. Idea here is that we should supplement FBD of the rod with as much information as is available. Also, we should note that we have not reduced the rod to a point as earlier to emphasize the lateral placements of forces on the rod. As a result, the rod may involve tendencies for both translation and rotation. If only translational is involved, we can treat rod as point with its center of mass.
+</para>
+<para id="element-50">We have considered horizontal and vertical directions as "x" and "y" directions for denoting unknown force components "
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:math>
+" and "
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:math>
+".
+</para>
+
+</example>
+</section> 
+<section id="section-7">
+<title> Rod and spherical shell </title>
+<example id="example-51">
+<para id="element-51"><term>Problem : </term> A rod AB is placed inside a spherical shell, whose inside surface is rough. Draw the free body diagram (FBD) of the rod.
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> A rod placed inside a spherical shell  </title>
+<media id="idm2086800" alt=""><image src="../../media/fbd14.gif" mime-type="image/gif"/></media>
+<caption> The rod is placed inside a spherical shell, whose inside surface is rough. </caption>
+</figure>
+</para>
+<para id="element-53"><term>Solution : </term> 
+We note that inside surface of the spherical shell is rough. It means that there will be friction between spherical shall and the rod. Thus, there are three forces operating on the rod : (i) weight of rod (ii) normal force between rod and spherical shell and (iii) friction force between rod and spherical shell. Since the rod is in contact at two end points, contact forces operate at both these end points.
+</para>
+
+<para id="element-54">
+<figure id="fig-54">
+<title> Forces on the rod </title>
+<media id="idm2498832" alt=""><image src="../../media/fbd15.gif" mime-type="image/gif"/></media>
+<caption> The forces on the rod are shown. </caption>
+</figure>
+</para>
+<para id="element-55">
+The normal forces are perpendicular to the tangents drawn at “A” and “B”. As such, normal forces at these points, when extended meet at the center of the spherical shell. The friction force at the contact surface is along the tangent drawn.
+</para>
+
+<para id="element-57">
+Here we see that weight is shifted laterally towards “B”. Considering rod has a downward tendency at “B”, the friction is shown in the upward direction at “B” and downward direction at “A”. The FBD of the rod after removing other elements of the system is shown here.
+</para>
+<para id="element-58">
+<figure id="fig-58">
+<title> Free body diagram </title>
+<media id="idp6301504" alt=""><image src="../../media/fbd16.gif" mime-type="image/gif"/></media>
+<caption> The rod is shown with external forces on it.</caption>
+</figure>
+</para>
+<para id="element-59">We have deliberately not shown the coordinate system which may be selected, keeping in mind the inputs available. Also, we have not reduced the rod as point as the rod may undergo both translational and rotational motion. As such, lateral placements of forces along the rod are shown with FBD.
+</para>
+</example>
+</section>
+  </content>
+  
+</document>

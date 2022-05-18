@@ -1,0 +1,515 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Motion in accelerated frame (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>c7f003ed-e6d3-42cd-959f-e651db220888</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to motion in accelerated frame. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> Motion in a lift
+</item>
+<item> Motion of an incline on smooth surface 
+</item>
+<item> Motion on an incline 
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Motion in a lift   
+</title>
+<para id="element-6"><term>Problem 1 : </term>What should be the acceleration “a” of the lift so that a block of mass “m” placed on the floor exerts a normal force of "mg/3" on it.
+
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> A block on the floor of a lift </title>
+<media id="idm10512144" alt=""><image src="../../media/fa2a.gif" mime-type="image/gif"/></media>
+<caption> The lift is moving with acceleration.</caption>  
+</figure>
+</para>
+<para id="element-8"><term>Solution : </term>The normal force on the floor is less than that exerted by the block when the lift is stationary. It means that lift is accelerating in downward direction.
+</para>
+<para id="element-9">In order to find acceleration of the lift, we analyze force on the block in the non-inertial frame of lift. The forces of the block are (i) its weight, “mg”, acting downward (ii) Normal force, “N”, acting upward and (iii) pseudo force, “ma” acting upward in the direction opposite to the direction of lift's acceleration.
+</para>
+<para id="element-10">The free body diagram of the block in the frame of lift is shown in the figure. Analyzing force in the vertical direction, we have :
+</para>
+<para id="element-11">
+<figure id="fig-11"><title> Free body diagram </title>
+<media id="idm1069872" alt=""><image src="../../media/fa1-c67b.gif" mime-type="image/gif"/></media>
+<caption> The forces on the block.</caption>  
+</figure>
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">Substituting for normal force as given in the question,
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+<section id="section-4">
+<title> Motion of an incline on smooth surface   
+</title>
+
+<para id="element-17">The problems here are related to the motion of incline, which is accelerated. The incline serves as the accelerated frame for the motion of block. In this sense, these problems do not exactly pertain to the motion in accelerated frame. We shall, therefore, analyze the motion of incline in inertial ground reference. Problems, involving motion of block in the accelerated frame of incline, are included in the next module.
+</para>
+<section id="section-4a">
+<para id="element-18"><term>Problem 2 : </term>In the arrangement shown in the figure, “N” is the normal force applied by the block on the incline of angle “θ”. If all surfaces are smooth, then find the acceleration of the incline.
+</para>
+<para id="element-19">
+<figure id="fig-19"><title> Block and incline system </title>
+<media id="idm8851344" alt=""><image src="../../media/fa3-a591.gif" mime-type="image/gif"/></media>
+<caption> All the surfaces are smooth.</caption>  
+</figure>
+</para>
+<para id="element-20"><term>Solution : </term>Since all surfaces are smooth, the incline will accelerate due to the normal force applied by the block. 
+</para>
+<para id="element-21">The forces on the incline are (i) its weight, “mg”, (ii) Normal force, “N”, applied by the overlying block and (iii) normal force, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” due to the surface underneath. There is no motion of incline in the vertical direction. Thus, we need to analyze components of forces in horizontal direction only to find the acceleration in that direction. 
+</para>
+<para id="element-22">
+<figure id="fig-22"><title> Block and incline system </title>
+<media id="idm2607136" alt=""><image src="../../media/fa4-84bb.gif" mime-type="image/gif"/></media>
+<caption> Forces on the incline.</caption>  
+</figure>
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>N</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mi>M</m:mi>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+<m:mtext> towards right </m:mtext>
+  </m:mrow>
+</m:math>
+ 
+</para>
+</section>
+<section id="section-4b">
+<para id="element-25"><term>Problem 3 : </term>In the arrangement shown in the figure, “N” is the normal force applied by the block on the incline of angle “θ”. If all surfaces are smooth, then find normal force on the incline, as applied by the horizontal surface underneath. 
+</para>
+<para id="element-26">
+<figure id="fig-26"><title> Block and incline system </title>
+<media id="idm1195088" alt=""><image src="../../media/fa3-a591.gif" mime-type="image/gif"/></media>
+<caption> All the surfaces are smooth.</caption>  
+</figure>
+</para>
+<para id="element-27"><term>Solution : </term>Since all surfaces are smooth, the incline will accelerate due to the normal force applied by the block. 
+</para>
+<para id="element-28">The forces on the incline are (i) its weight, “mg”, (ii) Normal force, “N”, applied by the overlying block and (iii) normal force, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” due to the surface underneath. There is no motion of incline in the vertical direction. Hence, components of forces in vertical direction constitute a balanced force system. 
+</para>
+<para id="element-29">
+<figure id="fig-29"><title> Block and incline system </title>
+<media id="idp2861504" alt=""><image src="../../media/fa4-84bb.gif" mime-type="image/gif"/></media>
+<caption> Forces on the incline.</caption>  
+</figure>
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>N</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>M</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-5">
+<title> Motion on an incline  
+</title>
+<para id="element-32"><term>Problem 4 : </term>A pendulum bob of mass 2 kg hangs from the ceiling of a train compartment. The train is accelerating up an incline terrain at 5 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+, making an angle 30° with horizontal. Find the angle that the pendulum bob makes with the normal to the ceiling.
+</para>
+<para id="element-33">
+<figure id="fig-33"><title> Pendulum </title>
+<media id="idm2387376" alt=""><image src="../../media/fa5-51b2.gif" mime-type="image/gif"/></media>
+<caption> A pendulum bob hangs from the ceiling of a train compartment.</caption>  
+</figure>
+</para>
+<para id="element-34"><term>Solution : </term>Let the pendulum bob be at an angle “α” with the normal to the ceiling of the compartment as shown in the figure below. The bob is in a stationary position in the non-inertial frame of the accelerating compartment. We can use this fact in the non-inertial frame. As such, we shall carry out force analysis in the accelerated frame of the compartment.
+</para>
+<para id="element-35">
+The forces on the bob are (i) its weight “mg”, acting in vertically downward direction (ii) Tension in the string, “T”, making an angle “α” with the normal to the ceiling and (iii) pseudo force, “ma”, acting down the incline in the direction opposite to the direction of acceleration of frame of reference.
+</para>
+<para id="element-36">
+<figure id="fig-36"><title> Pendulum </title>
+<media id="idp1538960" alt=""><image src="../../media/fa6-7c24.gif" mime-type="image/gif"/></media>
+<caption> Forces on pendulum bob.</caption>  
+</figure>
+</para>
+<para id="element-37">As pseudo force is along the incline, we select coordinate axes parallel and perpendicular to the incline terrain as shown in the figure. FBD as superimposed on the diagram is shown in the figure.
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>F</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">Taking ratio of two equations, we have :
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">From the analysis "x" direction, the tension in the string is :
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-46">We need to know "sinα" in order to evaluate the expression of tension. Using the ratio of tangent, we can determine the sine of the angle :
+</para>
+<para id="element-47">
+<figure id="fig-47"><title> Trigonometric ratio </title>
+<media id="idm9359424" alt=""><image src="../../media/fa7-04ab.gif" mime-type="image/gif"/></media>
+<caption> Sine of the angle.</caption>  
+</figure>
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mo>{</m:mo>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:msqrt>
+                    <m:mn>3</m:mn>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>}</m:mo>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>7</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+Putting in the expression of tension, ”T”,
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mn>20</m:mn>
+          <m:msqrt>
+            <m:mn>7</m:mn>
+          </m:msqrt>
+        </m:mrow>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>7</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+  </content>
+  
+</document>

@@ -1,0 +1,1149 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Balanced force system</title>
+  <metadata>
+  <md:content-id>m14056</md:content-id><md:title>Balanced force system</md:title>
+  <md:abstract>Resultant of a balanced force system is zero.</md:abstract>
+  <md:uuid>8d169b0a-7f77-4914-b4b6-98fd69efb4e2</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/content/m14725/latest/" strength="3">Balanced force system (application)  </link>
+      <link url="http://cnx.org/content/m14720/latest/" strength="2">Free body diagram (application)</link>
+      <link url="http://cnx.org/content/m14785/latest/" strength="2">Resolution of forces (application)  </link>
+      <link url="http://cnx.org/content/m14083/latest/" strength="1">Unbalanced force system (application)  </link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m14046/latest/" strength="3">Analysis framework for laws of motion  </link>
+      <link url="http://cnx.org/content/m14046/latest/" strength="3">Analysis framework for laws of motion  </link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1"> The motion under balanced force system is the subject matter of Newton's first law of motion. The condition of balanced force system simply implies that the net external force on the body is zero. This is exactly the situation for which Newton’s first law predicts that the body maintains its state of translational motion. 
+</para>
+<para id="element-2">
+Mathematically, the net external force is zero for a balanced force system :
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-4">
+This implies that linear acceleration of the point mass is zero,
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>a</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-6">
+For three dimensional rigid body, linear acceleration of the center of mass is zero (we shall discuss this aspect in detail subsequently in the course) ,
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>a</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">
+In component form,
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+It is to be noted here that the condition of zero net force does not mean necessarily “rest” as may be inferred from most of the examples in the immediate surrounding. A balanced force system simply indicates that velocity of the body does not change i.e. 
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>v</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>constant</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<section id="section-1">
+<title> Equilibrium </title>
+<para id="element-15">
+Equilibrium denotes a state of motion, which does not change due to external force or force system. Inversely, a force system, which does not change the state of motion of a body is said to be in equilibrium.
+</para>
+<para id="element-16">
+The state of motion of a body consists of both its translational and rotational states. A balanced force system, having zero net external force, does not guarantee equilibrium. A general consideration of equilibrium requires that force system should meet two conditions :
+</para>
+<para id="element-17">
+<list id="list-17" list-type="enumerated">
+<item> The net force is zero. In other words, force system is a balanced force system. </item>
+<item> The net moment of force (torque) about any axis should be equal to zero. </item>
+</list>
+</para>
+<para id="element-18">
+Mathematically,
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>τ</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2">
+<title> Equilibrium and balanced force system </title>
+
+<para id="element-21">
+It is clear that a balanced force system is a necessary condition for equilibrium, but it is not the sufficient condition to ensure equilibrium. However, a close look, at the body systems that we generally consider in dynamics, reveals that many of the systems eventually are restricted to translational motion.
+</para>
+<para id="element-22">
+There are following three situations under which a body is restricted to have only translational motion :
+</para>
+<para id="element-23">
+<term>1: </term> The body is an infinitesimally small entity to be approximated as a point. In this case, forces are concurrent, meeting at a common point.
+</para>
+<para id="element-24">
+<term>2: </term> The body is a real three dimensional entity. The forces on the body are concurrent at a common point. The common point, in turn, coincides with "center of mass" of the body.
+</para>
+<para id="element-25">
+<term>3: </term> The body is a real three dimensional entity. The forces on the body are not concurrent at a common point. However, the body is restrained to have only translational motion. The forces are though not concurrent, but we consider them concurrent at the "center of mass" of the body, as no rotational motion is involved.
+</para>
+<para id="element-26">
+In the nutshell, if we can treat the motion as translational motion without any angular or rotational motion involved, then a balanced force system with zero net force alone is sufficient to meet the requirement of equilibrium of the body. 
+</para>
+
+<example id="example-27">
+<para id="element-27"><term>Problem : </term> A block of mass “m” is at rest on a rough incline of angle “θ”. Find the contact forces and the net contact force on the block.
+</para>
+<para id="element-28"> 
+<figure id="fig-28">
+<title> A block on an incline </title>
+<media id="id1171843716616" alt=""><image src="../../media/bf1.gif" mime-type="image/gif"/></media>
+<caption> The block rests on the incline.</caption>
+</figure>
+</para>
+<para id="element-29"><term>Solution : </term> The forces on the block are (i) its weight (ii) normal force and (iii) Friction force. These forces are not concurrent (see figure).
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Forces on the block </title>
+<media id="id1171859177137" alt=""><image src="../../media/bf2.gif" mime-type="image/gif"/></media>
+<caption> Forces are not concurrent.</caption>
+</figure>
+</para>
+<para id="element-31">However, no turning effect is involved. We can, therefore, treat force system concurrent with the "center of mass" of the block. In order to analyze the forces, we consider a coordinate system as shown in the figure. Since the block is at rest, the forces on the block are balanced :
+</para>
+<para id="element-32">
+<figure id="fig-32"><title> Free body diagram </title>
+<media id="id1171859391138" alt=""><image src="../../media/bf3.gif" mime-type="image/gif"/></media>
+<caption> Forces are shown with block as a point with concurrent forces .</caption>
+</figure>
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">There are two contact forces (i) normal force and (ii) friction. The friction is given by the first equation :
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>f</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">
+The normal force is given by the second equation :
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">The net contact force is vector sum of two contact forces, which are at right angle to each other. Hence, magnitude of net contact force is :
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>N</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msubsup>
+              <m:mi>F</m:mi>
+              <m:mrow>
+                <m:mi>f</m:mi>
+              </m:mrow>
+              <m:mn>2</m:mn>
+            </m:msubsup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mo>{</m:mo>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+            </m:mrow>
+          </m:mfenced>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>cos</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>sin</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>}</m:mo>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</example>
+</section>
+
+
+<section id="section-3">
+<title> Coplanar force system </title>
+<para id="element-43">Though it has not been explicitly mentioned at any point in our study, but a scrutiny of the illustrations so far discussed indicates that most of the situations involve coplanar force systems. This simplifies force analysis greatly as we need to analyze force in two directions only :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45a">
+If the force system is a balanced force system, then :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-48">
+In case only translation is involved, then above two equations fulfills the requirement of the equilibrium as well.
+</para>
+<example id="example-49">
+<para id="element-49"><term>Problem : </term> : A body is subjected to four coplanar concurrent forces as shown in the figure. The body is under equilibrium. Find the forces “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”.
+</para>
+<para id="element-50"> 
+<figure id="fig-50">
+<title> Four forces on a body </title>
+<media id="id1171843816649" alt=""><image src="../../media/bf7.gif" mime-type="image/gif"/></media>
+<caption> The forces are concurrent.</caption>
+</figure>
+</para>
+<para id="element-51"><term>Solution : </term> The body is in equilibrium under the action of coplanar concurrent forces. It means that forces form a balanced force system. We can treat the body as a point on the free body diagram. Let “x” and “y” be the axes of the coplanar coordinate system as shown in the figure. Then,
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Free body diagram </title>
+<media id="id1171846209650" alt=""><image src="../../media/bf8.gif" mime-type="image/gif"/></media>
+<caption> The forces are concurrent.</caption>
+</figure>
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>16</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+We can find “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” from the first equation,
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>16</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+Substituting in second equation and solving for “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, we have :
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>cos</m:mi>
+    <m:msup>
+      <m:mn>30</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>8</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>20</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:msqrt>
+        <m:mn>3</m:mn>
+      </m:msqrt>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>20</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>12</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+    <m:mn>8</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+
+
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+
+
+
+
+<section id="section-4">
+<title> Lami’s theorem </title>
+<para id="element-62">
+We have studied  <link document="m13601" target-id="section-4b">Lami’s theorem</link> for three concurrent vectors (non-collinear vectors). If three concurrent forces are balanced, then 
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> Lami's theorem </title>
+<media id="id1171843922043" alt=""><image src="../../media/bf4.gif" mime-type="image/gif"/></media>
+<caption> Three concurrent balanced forces.</caption>
+</figure>
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>β</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>γ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-65">
+where α,β,γ are the angles between remaining two force not involved in the particular ratio.  We can refer to the figure to understand the relation between forces and the angle involved. As net force is zero, forces represent three sides of a closed triangle. Clearly, three balanced concurrent forces are coplanar.
+</para>
+<para id="element-66">This theorem helps us to analyze balanced force system, comprising of exactly three concurrent coplanar forces.
+</para>
+
+<example id="example-67">
+<para id="element-67"><term>Problem : </term> A spherical mass “m” hanging from ceiling is displaced by applying a horizontal force,F. The string makes an angle “θ” with vertical as shown in the figure. Find force F.
+</para>
+<para id="element-68"> 
+<figure id="fig-68">
+<title> Three forces on a spherical mass </title>
+<media id="id1171841453115" alt=""><image src="../../media/bf5.gif" mime-type="image/gif"/></media>
+<caption> The forces are concurrent.</caption>
+</figure>
+</para>
+<para id="element-69"><term>Solution : </term> Here, we shall employ Lami’s theorem as there are exactly three forces acting on the spherical mass. The FBD of the spherical mass is as shown in the figure.
+</para>
+
+<para id="element-70">
+<figure id="fig-70">
+<title> Free body diagram </title>
+<media id="id1171843485079" alt=""><image src="../../media/bf6.gif" mime-type="image/gif"/></media>
+<caption> The forces are concurrent.</caption>
+</figure>
+</para>
+<para id="element-71">
+Applying Lami’s theorem, we have :
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mn>90</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>90</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mn>180</m:mn>
+              <m:mn>0</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>T</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">
+From the last two ratios, we have :
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-76">
+From the first two ratios, we have :
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-78">
+Combining two equations,
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-80">
+Lami's theroem provides an alternative to normal component analysis - may be with some computational advantage. Nevertheless, we should keep in mind that it is just an alternative method. We could have solved this problem, using component analysis as :
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+and
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> mg </m:mi>
+<m:mo> - </m:mo>
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> mg </m:mi>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+Taking ratio to eliminate “T”,
+</para>
+<para id="element-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mi> mg </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> = </m:mo>
+<m:mi> mg </m:mi>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section> 
+  </content>
+  
+</document>

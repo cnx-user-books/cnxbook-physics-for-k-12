@@ -1,0 +1,3118 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Non-uniform acceleration</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>ac07e63d-b396-489c-a67a-cda52b7f9d5e</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Non-uniform acceleration constitutes the most general description of motion. It refers to variation in the rate of change in velocity. Simply put, it means that acceleration changes during motion. This variation can be expressed either in terms of position (x) or time (t). We understand that if we can describe non-uniform acceleration in one dimension, we can easily extend the analysis to two or three dimensions using composition of motions in component directions. For this reason, we shall confine ourselves to the consideration of non-uniform i.e. variable acceleration in one dimension.
+
+</para>
+<para id="element-2">In this module, we shall describe non-uniform acceleration using expressions of velocity or acceleration in terms of either of time, “t”, or position, “x”. We shall also consider description of non-uniform acceleration by expressing acceleration in terms of velocity. As a matter of fact, there can be various possibilities. Besides, non-uniform acceleration may involve interpretation acceleration - time or velocity - time graphs. 
+
+</para>
+<para id="element-3">Accordingly, analysis of non-uniform acceleration motion is carried out in two ways :
+
+</para>
+<para id="element-4">
+<list id="list-4a" list-type="bulleted">
+<item> Using calculus
+ </item>
+<item> Using graphs
+ </item>
+</list>
+</para>
+<para id="element-5">Analysis using calculus is generic and accurate, but is limited to the availability of expression of velocity and acceleration. It is not always possible to obtain an expression of motional attributes in terms of “x” or “t”. On the other hand, graphical method lacks accuracy, but this method can be used with precision if the graphs are composed of regular shapes.
+
+</para>
+
+<para id="element-7">Using calculus involves differentiation and integration. The integration allows us to evaluate expression of acceleration for velocity and evaluate expression of velocity for displacement. Similarly, differentiation allows us to evaluate expression of position for velocity and evaluate expression of velocity for acceleration. We have already worked with expression of position in time. We shall work here with other expressions. Clearly, we need to know a bit about differentiation and integration before we proceed to analyze non-uniform motion. 
+</para>
+
+<section id="section-1">
+<title> Important calculus results
+</title>
+<para id="element-8">Integration is anti-differentiation i.e. an inverse process. We can compare differentiation and integration of basic algebraic, trigonometric, exponential and logarithmic functions to understand the inverse relation between processes. In the next section, we list few important differentiation and integration results for reference.
+
+</para>
+<section id="section-1a">
+<title> Differentiation
+</title>
+<para id="element-9">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>a</m:mi>
+          <m:mi>x</m:mi>
+          <m:mo>+</m:mo>
+          <m:mi>b</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>a</m:mi>
+          <m:mi>x</m:mi>
+          <m:mo>+</m:mo>
+          <m:mi>b</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>sin</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>cos</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mo>đ</m:mo>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>log</m:mi>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</section>
+<section id="section-1b">
+<title> Integration
+</title>
+
+<para id="element-10"><m:math display="block">
+  <m:mrow>
+    <m:mo>∫</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mrow>
+          <m:mi>n</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mo>+</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mspace width="1em"/>
+    <m:mo>∫</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mi>a</m:mi>
+          <m:mi>x</m:mi>
+          <m:mo>+</m:mo>
+          <m:mi>b</m:mi>
+        </m:mrow>
+      </m:mfenced>
+      <m:mi>n</m:mi>
+    </m:msup>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>a</m:mi>
+            <m:mi>x</m:mi>
+            <m:mo>+</m:mo>
+            <m:mi>b</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mrow>
+          <m:mi>n</m:mi>
+          <m:mo>+</m:mo>
+          <m:mn>1</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>n</m:mi>
+            <m:mo>+</m:mo>
+            <m:mn>1</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∫</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mspace width="1em"/>
+    <m:mo>∫</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>a</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∫</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>e</m:mi>
+      <m:mi>x</m:mi>
+    </m:msup>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mspace width="1em"/>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>log</m:mi>
+    <m:msub>
+      <m:mi/>
+      <m:mi>e</m:mi>
+    </m:msub>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title> Velocity and acceleration is expressed in terms of time “t
+</title>
+
+
+<para id="element-11">Let the expression of acceleration in x is given as function a(t). Now, acceleration is related to velocity as :
+
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-13">
+We obtain expression for velocity by rearranging and integrating :
+ 
+</para>
+<para id="element-14"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-15">This relation yields an expression of velocity in "t" after using initial conditions of motion. We obtain expression for position/ displacement by using defining equation, rearranging and integrating :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>v</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-17">This relation yields an expression of position in "t" after using initial conditions of motion.
+</para>
+
+<example id="example-18">
+
+<para id="element-18"><term>Problem : </term> 
+The acceleration of a particle along x-axis varies with time as :
+
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-703">Velocity and position both are zero at t= 0. Find displacement of the particle in the interval from t=1 to t = 3 s. Consider all measurements in SI unit.</para><para id="element-20"><term>Solution : </term> 
+Using integration result obtained earlier for expression of acceleration :
+
+</para>
+
+<para id="element-22"><m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-23">
+Here, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+. Let <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+, then :
+
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>t</m:mi>
+    </m:munderover>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>t</m:mi>
+    </m:munderover>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-25">
+Note that we have integrated RHS between time 0 ans t seconds in order to get an expression of velocity in “t”.
+
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>t</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-27">Using integration result obtained earlier for expression of velocity :
+
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>v</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msup>
+              <m:mi>t</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>d</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-28">
+Integrating between t=1 and t=3, we have :
+
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:munderover>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mrow>
+            <m:msup>
+              <m:mi>t</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:munderover>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>27</m:mn>
+      </m:mrow>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>9</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+
+<example id="example-92">
+<para id="element-92"><term>Problem : </term> If the velocity of particle moving along a straight line is proportional to  
+<m:math>
+<m:msup>
+<m:mrow>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mi> th </m:mi>
+</m:mrow>
+</m:msup>
+</m:math> power of time, then how do its displacement and acceleration vary with time?
+</para>
+<para id="element-93"> <term>Solution : </term> Here, we need to find a higher order attribute (acceleration) and a lower order attribute displacement. We can find high order attribute by differentiation, whereas we can find lower order attribute by integration. 
+</para>
+<para id="element-94">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> ∝ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-95">
+Let,
+</para>
+<para id="element-96">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> k </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-97">
+where k is a constant. The acceleration of the particle is :
+</para>
+<para id="element-99">
+</para>
+<para id="element-100">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> k </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> - </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> k </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-101">
+Hence,
+</para>
+<para id="element-102">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> ∝ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-103">
+For lower order attribute “displacement”, we integrate the function  :
+</para>
+<para id="element-104">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> k </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> k </m:mi>
+<m:msup>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 7 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 7 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> ∝ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mn> 7 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+<section id="section-3">
+<title> Velocity and acceleration is expressed in terms of time “x”
+</title>
+
+<para id="element-30">
+
+Let the expression of acceleration in x given as function a(x). Now, the defining equation of instantaneous acceleration is:
+
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-32">
+In order to incorporate differentiation with position, “x”, we rearrange the equation as :
+
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-34">
+We obtain expression for velocity by rearranging and integrating :
+ 
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∫</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>d</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>d</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-36">
+This relation yields an expression of velocity in x. We obtain expression for position/ displacement by using defining equation, rearranging and integrating :
+
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mo>đ</m:mo>
+      <m:mi>t</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-38">
+This relation yields an expression of position in t.
+</para>
+<example id="example-39">
+<para id="element-39">
+<term>Problem : </term> 
+The acceleration of a particle along x-axis varies with position as :
+
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>9</m:mn>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-41">
+Velocity is zero at t = 0 and x=2m. Find speed at x=4. Consider all measurements in SI unit.
+
+</para>
+<para id="element-42">
+<term>Solution : </term> 
+Using integration,
+
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∫</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:munderover>
+    <m:mi>v</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:munderover>
+    <m:mn>9</m:mn>
+    <m:mi>x</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:munderover>
+    <m:mo>=</m:mo>
+    <m:mn>9</m:mn>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>9</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>36</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mn>9</m:mn>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mo>−</m:mo>
+    <m:mrow>
+      <m:mn>36</m:mn>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>9</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+        <m:mo>−</m:mo>
+        <m:mrow>
+          <m:mn>4</m:mn>
+        </m:mrow>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mi>v</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>3</m:mn>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:mo>−</m:mo>
+            <m:mrow>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-44">
+We neglect negative sign as particle is moving in x-direction with positive acceleration. At x =4 m,
+
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mrow>
+      <m:mi>v</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mrow>
+              <m:msup>
+                <m:mn>4</m:mn>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+            <m:mo>−</m:mo>
+            <m:mrow>
+              <m:mn>4</m:mn>
+            </m:mrow>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:msqrt>
+      <m:mn>12</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+</example>
+</section>
+
+
+<section id="section-4">
+<title> Acceleration in terms of velocity
+</title>
+<para id="element-46">
+Let acceleration is expressed as function of velocity as :
+
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+
+
+<section id="section-4a">
+<title> Obtaining expression of velocity in time, “t”
+</title>
+<para id="element-48">
+
+The acceleration is defined as :
+
+
+
+</para>
+<para id="element-50">
+Arranging terms with same variable on one side of the equation, we have :
+
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-52">
+Integrating, we have :
+
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-54">
+Evaluation of this relation results an expression of velocity in t. Clearly, we can proceed as before to obtain expression of position in t.
+</para>
+</section>
+<section id="section-4b">
+<title> Obtaining expression of velocity in time, “x”
+</title>
+<para id="element-55">
+
+In order to incorporate differentiation with position, “x”, we rearrange the defining equation of acceleration as :
+
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-57">
+Arranging terms with same variable on one side of the equation, we have :
+
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-59">
+Integrating, we have :
+
+
+</para>
+<para id="element-59a">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>v</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-60">
+Evaluation of this relation results an expression of velocity in x. Clearly, we can proceed as before to obtain expression of position in t.
+</para>
+</section>
+
+<example id="example-505">
+
+<para id="element-505"> <term>Problem : </term>  The motion of a body in one dimension is given by the equation dv(t)/dt = 6.0 -3 v (t), where v(t) is the velocity in m/s and “t” in seconds. If the body was at rest at t = 0, then find the expression of velocity.
+</para>
+
+<para id="element-506"> <term>Solution : </term> Here, acceleration is given as a function in velocity as independent variable. We are required to find expression of velocity in time. Using integration result obtained earlier for expression of time :
+
+
+</para>
+<para id="element-505abcdef">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-508">
+Substituting expression of acceleration and integrating between t=0 and t=t, we have :
+</para>
+<para id="element-509">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+    <m:mtext>Δ</m:mtext>
+    <m:mi>t</m:mi>
+<m:mo> = </m:mo> 
+    <m:mi>t</m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-510">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+    <m:mi>t</m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ln </m:mo> 
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> { </m:mo>
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 6 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> ] </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-111">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:msup>
+<m:mrow>
+<m:mi> e </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> e </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> e </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+
+
+
+
+</section>
+<section id="section-5">
+<title> Graphical method
+</title>
+<para id="element-62">
+We analyze graphs of motion in parts keeping in mind regular geometric shapes involved in the graphical representation. Here, we shall work with two examples. One depicts variation of velocity with respect to time. Other depicts variation of acceleration with respect to time.
+
+</para>
+<section id="section-5a">
+<title> Velocity .vs. time
+</title>
+
+
+<example id="example-233">
+<para id="element-233"><term>Problem : </term> A particle moving in a straight line is subjected to accelerations as given in the figure below :
+</para>
+<para id="element-234a">
+<figure id="fig-234a">
+<title> Acceleration – time plot  </title>
+<media id="idm9068016" alt=""><image src="../../media/amo5.gif" mime-type="image/gif"/></media>
+<caption> Acceleration – time plot </caption>
+</figure>
+</para>
+<para id="element-235">
+If v = 0 and t = 0, then draw velocity – time plot for the same time interval.
+</para>
+<para id="element-236"> <term>Solution : </term> In the time interval between t = 0 and t = 2 s, acceleration is constant and is equal to 2 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Hence, applying equation of motion for final velocity, we have :
+</para>
+<para id="element-237">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-238">
+But, u = 0 and a = 2 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-239">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-240">The velocity at the end of 2 seconds is 4 m/s. Since acceleration is constant, the velocity – time plot for the interval is a straight line. On the other hand, the acceleration is zero in the  time interval between t = 2 and t = 4 s. Hence, velocity remains constant in this time interval. For time interval t = 4 and 6 s, acceleration is - 4 
+<m:math>
+		<m:mi> m </m:mi>
+		<m:mo> / </m:mo>
+		<m:msup>
+			<m:mi> s </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+	</m:math>
+. 
+</para>
+<para id="element-241">From the plot it is clear that the velocity at t = 4 s is equal to the velocity at t = 2 s, which is given by :
+</para>
+<para id="element-242"><m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:mo> ⇒ </m:mo>
+					<m:mi> u </m:mi>
+					<m:mo> = </m:mo>
+					<m:mn> 2 </m:mn>
+					<m:mspace width="2pt"/>
+					<m:mo> x </m:mo>
+					<m:mspace width="2pt"/>
+					<m:mn> 2 </m:mn>
+					<m:mo> = </m:mo>
+					<m:mn> 4 </m:mn>
+					<m:mspace width="2pt"/>
+					<m:mi> m </m:mi>
+					<m:mo> / </m:mo>
+					<m:mi> s </m:mi>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+<para id="element-243">
+<figure id="fig-243">
+<title> Velocity – time plot  </title>
+<media id="idm4764016" alt=""><image src="../../media/amo6.gif" mime-type="image/gif"/></media>
+<caption> Corresponding velocity – time plot. </caption>
+</figure>
+</para>
+<para id="element-244">Putting this value as initial velocity in the equation of velocity, we have :
+</para>
+<para id="element-245">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-246">We should, however, be careful in drawing velocity plot for t = 4 s to t = 6 s. We should relaize that the equation above is valid in the time interval considered. The time t = 4 s from the beginning corresponds to t = 0 s and t = 6 s corresponds to t = 2 s for this equation.
+</para>
+<para id="element-247">
+Velocity at t = 5 s is obtained by putting t = 1 s in the equation,
+</para>
+<para id="element-248">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-249">
+Velocity at t = 6 s is obtained by putting t = 2 s in the equation,
+</para>
+<para id="element-250">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+<section id="section-5b">
+<title> Acceleration .vs. time
+</title>
+
+
+<example id="example-227">
+<para id="element-227"><term>Problem : </term> A particle starting from rest and undergoes a rectilinear motion with acceleration “a”. The variation of “a” with time “t” is shown in the figure. Find the maximum velocity attained by the particle during the motion.
+</para>
+<para id="element-228">
+<figure id="fig-228">
+<title> Acceleration – time plot  </title>
+<media id="idm4973040" alt=""><image src="../../media/amo4.gif" mime-type="image/gif"/></media>
+<caption> The area under plot gives change in velocity. </caption>
+</figure>
+</para>
+<para id="element-229"> <term>Solution : </term> We see here that the particle begins from rest and is continuously accelerated in one direction (acceleration is always positive through out the motion) at a diminishing rate. Note that though acceleration is decreasing, but remains positive for the motion. It means that the particle attains maximum velocity at the end of motion i.e. at t = 12 s. 
+</para>
+
+<para id="element-230">
+The area under the plot on acceleration – time graph gives change in velocity. Since the plot start at t = 0 i.e. the beginning of the motion, the areas under the plot gives the velocity at the end of motion,
+</para>
+<para id="element-231">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 12 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 48 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-232">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 48 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+</section>
+</section>
+
+<section id="section-6">
+<title> Exercises
+</title>
+<para id="element-6">
+<list id="list-4" list-type="bulleted">
+<item> First identify : what is given and what is required. Establish relative order between given and required attribute.   
+
+ </item>
+<item> Use differentiation method to get a higher order attribute in the following order : displacement (position vector) → velocity → acceleration.   
+ </item>
+<item> Use integration method to get a lower order attribute in the following order : acceleration → velocity → displacement (position vector).   
+ </item>
+
+<item> Since we are considering accelerated motion in one dimension, graphical representation of motion is valid. The interpretation of plot in terms of slope of the curve gives higher order attribute, whereas interpretation of plot in terms of area under the plot gives lower order attribute.
+ </item>
+
+</list>
+
+</para>
+<para id="element-351a">
+<exercise id="exercise-351a">
+<problem id="idm190256">
+<para id="element-351"> A particle of mass m moves on the x-axis. It starts from rest t = 0 from the point x = 0, and comes to rest at t = 1 at the point x = 1. No other information is available about its motion at intermediate time (0 &lt; t &lt; 1). Prove that magnitude of instantaneous acceleration during the motion can not be less than 4 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+</problem>
+
+<solution id="idm6490336">
+<para id="element-352"> In between the starting and end point, the particle may undergo any combination of acceleration and deceleration. According to question, we are required to know the minimum value of acceleration for any combination possible.
+</para>
+<para id="element-353">Let us check the magnitude of acceleration for the simplest combination and then we evaluate other complex possible scenarios. Now, the simplest scenario would be that the particle first accelerates and then decelerates for equal time and at the same rate to complete the motion. 
+</para>
+<para id="element-354">
+<figure id="fig-354">
+<title> Velocity – time plot  </title>
+<media id="idm4685344" alt=""><image src="../../media/amo3.gif" mime-type="image/gif"/></media>
+<caption> Velocity – time plot </caption>
+</figure>
+</para>
+<para id="element-355">In order to assess the acceleration for a linear motion , we would make use of the fact that area under v-t plot gives the displacement (= 1 m). Hence, 
+</para>
+<para id="element-356">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> OAB </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> v </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> v </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-357">
+Thus, the maximum velocity during motion under this condition is 2 m/s. On the other hand, the acceleration for this motion is equal to the slope of the line,
+</para>
+<para id="element-358">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 0.5 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-359">Now let us complicate the situation, in which particle accelerates for shorter period and decelerates gently for a longer period (see figure below). This situation would result velocity being equal to 2 m/s and acceleration greater than 4 
+<m:math>
+		<m:mi> m </m:mi>
+		<m:mo> / </m:mo>
+		<m:msup>
+			<m:mi> s </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+	</m:math>
+.
+</para>
+<para id="element-360">
+It is so because time period is fixed (1 s) and hence base of the triangle is fixed. Also as displacement in given time is 1 m. It means that area under the triangle is also fixed (1 m). As area is half of the product of base and height, it follows that the height of the triangle should remain same i.e 2 m/s. For this reason the graphical representations of possible variation of acceleration and deceleration may look like as shown in the figure here.
+ </para>
+<para id="element-361">
+<figure id="fig-361">
+<title> Velocity – time plot  </title>
+<media id="idm8359168" alt=""><image src="../../media/amo8.gif" mime-type="image/gif"/></media>
+<caption> Area under velocity – time plot gives displacement , whereas slope of the plot gives the acceleration. </caption>
+</figure>
+</para>
+<para id="element-362">
+Clearly, the slope of OA’ is greater than 4 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-363">
+We may argue that why to have a single combination of acceleration and deceleration? What if the particle undergoes two cycles of acceleration and deceleration? It is obvious that such consideration will again lead to similar analysis for symmetric and non-symmetric acceleration, which would be bounded by the value of time and area of the triangle. 
+</para>
+<para id="element-364">
+Thus we conclude that the minimum value of acceleration is 4 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+.
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-365a">
+<exercise id="exercise-365a">
+<problem id="idp192144">
+
+<para id="element-365"> A particle accelerates at constant rate “a” from rest at and then decelerates at constant rate “b” to come to rest. If the total time elapsed is “t” during this motion, then find (i) maximum velocity achieved and (ii) total displacement during the motion.
+</para>
+<para id="element-366">
+<figure id="fig-366">
+<title> Velocity – time plot  </title>
+<media id="idm2377680" alt=""><image src="../../media/amo7.gif" mime-type="image/gif"/></media>
+<caption> Area under velocity – time plot gives displacement , whereas slope of the plot gives the acceleration. </caption>
+</figure>
+</para>
+</problem>
+
+<solution id="idm3420512">
+<para id="element-366a"> The particle initially accelerates at a constant rate. It means that its velocity increases with time. The particle, therefore, gains maximum velocity say, 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mi> max </m:mi>
+		</m:msub>
+	</m:math>
+, before it begins to decelerate. Let 
+<m:math>
+		<m:msub>
+			<m:mi> t </m:mi>
+			<m:mn> 1 </m:mn>
+		</m:msub>
+	</m:math>
+and 
+<m:math>
+		<m:msub>
+			<m:mi> t </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msub>
+	</m:math>
+ be the time intervals, for which particle is in acceleration and deceleration respectively. Then,
+</para>
+<para id="element-367">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-368">
+From the triangle OAC, the magnitude of acceleration is equal to the slope of straight line OA. Hence,
+</para>
+<para id="element-369">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-370">Similarly from the triangle CAB, the magnitude of acceleration is equal to the slope of straight line AB. Hence,
+</para>
+<para id="element-371">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> b </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-372">
+Substituting values of time, we have :
+</para>
+<para id="element-373">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> b </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> b </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-374">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-375">
+In order to find the displacement, we shall use the fact that area under velocity – time plot is equal to displacement. Hence,
+</para>
+<para id="element-376">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> max </m:mi>
+</m:msub>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-377">
+Putting the value of maximum velocity, we have :
+</para>
+<para id="element-378">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-405a">
+<exercise id="exercise-405a">
+<problem id="idm4019408">
+<para id="element-405"> The velocity – time plot of the motion of a particle along x - axis is as shown in the figure. If x = 0 at t= 0, then (i) analyze acceleration of particle during the motion (ii) draw corresponding displacement – time plot (showing nature of the plot) and (iii) find total displacement. 
+</para>
+<para id="element-406">
+<figure id="fig-406">
+<title> Velocity – time plot  </title>
+<media id="idp1390864" alt=""><image src="../../media/amo1.gif" mime-type="image/gif"/></media>
+<caption> Slope of the plot gives acceleration; area under plot gives displacement. </caption>
+</figure>
+</para>
+</problem>
+
+<solution id="idm2540336">
+<para id="element-407"> Graphically, slope of the plot yields acceleration and area under the plot yields displacement. 
+</para>
+<para id="element-408">
+Since the plot involves regular geometric shapes, we shall find areas of these geometric shapes individually and then add them up to get various points for displacement – time plot. 
+</para>
+<para id="element-409">
+The displacement between times 0 and 1 s is :
+</para>
+<para id="element-410">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-411">The velocity between 0 and 1 s is increasing at constant rate. The acceleration is constant and its magnitude is equal to the slope, which is 
+<m:math>
+<m:mfrac bevelled="true">
+<m:mn> 10 </m:mn>
+<m:mn> 1 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Since acceleration is in the direction of motion, the particle is accelerated. The resulting displacement – time curve is a parabola with an increasing slope. 
+</para>
+<para id="element-412">
+The displacement between times 1 and 2 s is :
+</para>
+<para id="element-414">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-415">The velocity between 1 and 2 s is constant and as such acceleration is zero. The resulting displacement – time curve for this time interval is a straight line having slope equal to that of the magnitude of velocity. 
+</para>
+<para id="element-416">
+The displacement at the end of 2 s is 5 + 10 = 15 m
+</para>
+<para id="element-417">Now, the displacement between times 2 and 4 s is :
+</para>
+<para id="element-418">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mn> 20 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 30 </m:mn>
+<m:mo> ) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 25 </m:mn>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-419">
+<figure id="fig-419">
+<title> Displacement – time plot  </title>
+<media id="idm4967136" alt=""><image src="../../media/amo2.gif" mime-type="image/gif"/></media>
+<caption> Corresponding displacement – time plot of the given velocity- - time plot. </caption>
+</figure>
+</para>
+<para id="element-420">The velocity between 2 and 4 s is increasing at constant rate. The acceleration, therefore, is constant and its magnitude is equal to the slope of the plot, 
+<m:math>
+<m:mfrac bevelled="true">
+<m:mn> 20 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Since acceleration is in the direction of motion, the particle is accelerated and the resulting displacement – time curve is a parabola with increasing slope. 
+</para>
+<para id="element-421">
+The displacement at the end of 4 s is 5 + 10 + 25 = 40 m
+</para>
+<para id="element-422">Now, the displacement between times 4 and 5 s is :
+</para>
+<para id="element-423">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 15 </m:mn>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-424">The velocity between 2 and 4 s is decreasing at constant rate, but always remains positive. As such, the acceleration is constant, but negative and its magnitude is equal to the slope, which is <m:math>
+<m:mfrac bevelled="true">
+<m:mn> 30 </m:mn>
+<m:mn> 1 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Since acceleration is in the opposite direction of motion, the particle is decelerated. The resulting displacement – time curve is an inverted parabola with decreasing slope. 
+</para>
+<para id="element-425">The final displacement at the end of 5 s is 5 + 10 + 25 + 15 = 55 m
+</para>
+<para id="element-426">
+Characteristics of motion : One dimensional, Unidirectional, variable acceleration in one dimension (magnitude)
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-379">
+<exercise id="exercise-379">
+<problem id="idm1427024">
+<para id="element-379a"> The motion of a body in one dimension is given by the equation dv(t)/dt = 6.0 -3 v (t), where v(t) is the velocity in m/s and “t” in seconds. If the body was at rest at t = 0, then find the terminal speed.
+</para>
+</problem>
+
+<solution id="idm3906336">
+<para id="element-380a"> In order to answer this question, we need to know the meaning of terminal speed. The terminal speed is the speed when the body begins to move with constant speed. Now, the first time derivate of velocity gives the acceleration of the body :
+</para>
+<para id="element-381">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-382">
+For terminal motion, a = 0. Hence,
+</para>
+<para id="element-383">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-384">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 6 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-5055a">
+<exercise id="exercise-5055a">
+<problem id="idp981184">
+<para id="element-79"> The motion of a body in one dimension is given by the equation dv(t)/dt = 6.0 -3 v (t), where v(t) is the velocity in m/s and “t” in seconds. If the body was at rest at t = 0, then find the magnitude of the initial acceleration and also find the velocity, when the acceleration is half the initial value.
+</para>
+
+</problem>
+
+<solution id="idp283616">
+<para id="element-80">  We have to find the acceleration at t = 0 from the equation given as :
+</para>
+<para id="element-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-86">
+Generally, we would have been required to know the velocity function so that we can evaluate the function for time t = 0. In this instant case, though the function of velocity is not known, but we know the value of velocity at time t = 0. Thus, we can know acceleration at t =0 by just substituting the value for velocity function at that time instant as :
+</para>
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+Now when the acceleration is half the initial acceleration, 
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a’ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 6 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+Hence,
+</para>
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>
+
+   
+  </content>
+  
+</document>

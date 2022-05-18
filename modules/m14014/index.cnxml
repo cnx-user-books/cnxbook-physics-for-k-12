@@ -1,0 +1,2117 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Circular motion and rotational kinematics</title>
+  <metadata>
+  <md:content-id>m14014</md:content-id><md:title>Circular motion and rotational kinematics</md:title>
+  <md:abstract>Each part of a rigid body under pure rotational motion describes a circular motion about a fixed axis.</md:abstract>
+  <md:uuid>76f1c810-7308-4a39-bd7c-5b52787d1c6f</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m13871/latest/" strength="3">Uniform circular motion</link>
+      <link url="http://cnx.org/content/m14555/latest/" strength="2">Accelerated motion in two dimensions</link>
+      <link url="http://cnx.org/content/m14022/latest/" strength="2">Circular motion with constant acceleration </link>
+      <link url="http://cnx.org/content/m14020/latest/" strength="1">Non-uniform circular motion</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+In pure rotational motion, the constituent particles of a rigid body rotate about a fixed axis in a circular trajectory. The particles, composing the rigid body, are always at a constant perpendicular distance from the axis of rotation as their internal distances within the rigid body is locked. Farther the particle from the axis of rotation, greater is the speed of rotation of the particle. Clearly, rotation of a rigid body comprises of circular motion of individual particles.
+</para>
+<para id="element-2">
+<figure id="fig-2">
+<title> Rotation of a rigid body about a fixed axis </title>
+<media id="id8040837" alt=""><image src="../../media/am1-1ab2.gif" mime-type="image/gif"/></media>
+<caption> Each particle constituting the body executes an uniform circular motion about the fixed axis.</caption>
+</figure>
+</para>
+<para id="element-3">
+We shall study these and other details about the rotational motion of rigid bodies at a later stage. For now, we confine ourselves to the aspects of rotational motion, which are connected to the circular motion as executed by a particle. In this background, we can say that uniform circular motion (UCM) represents the basic form of circular motion and circular motion, in turn, constitutes rotational motion of a rigid body.
+</para>
+<para id="element-4">
+The description of a circular and hence that of rotational motion is best suited to corresponding angular quantities as  against linear quantities that we have so far used to describe translational motion. In this module, we shall introduce these angular quantities and prepare the ground work to enable us apply the concepts of angular quantities to “circular motion” in general and “uniform circulation motion” in particular.
+</para>
+<para id="element-5">
+Most important aspect of angular description as against linear description is that there exists one to one correspondence of quantities describing motion : angular displacement (linear displacement), angular velocity (linear velocity) and angular acceleration (linear acceleration).
+</para>
+<section id="section-1">
+<title> Angular quantities </title>
+<para id="element-5a"> In this section, we discuss some of the defining quantities, which are used to study uniform circular motion of a particle and rotational motion of rigid bodies. These quantities are angular position, angular displacement and angular velocity. They possess directional properties. Their measurement in counter clockwise direction is considered positive, whereas quantities measured in clockwise direction is considered negative. This gives us a simplified scheme to represent an angular vector by a simple variable, whose sign indicates its direction.   
+
+</para>
+
+<para id="element-5b">Notably, we shall not discuss angular acceleration in this module. It will be discussed as a part of non-uniform circular motion in a separate module.
+</para>
+<section id="section-1a">
+<title> Angular position (θ) </title>
+
+<para id="element-6">We need two straight lines to measure an angle. In rotational motion, one of them represents fixed direction, while another represents the rotating arm containing the particle. Both these lines are perpendicular to the rotating axis. The rotating arm, additionally, passes through the position of the particle. 
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Angular position (θ)  </title>
+<media id="id13388411" alt=""><image src="../../media/am2-5abf.gif" mime-type="image/gif"/></media>
+<caption> Angular position is the angle between reference direction and rotating arm.</caption>
+</figure>
+</para>
+<para id="element-8">
+For convenience, the reference direction like x – axis of the coordinate system serves to represent fixed direction. The angle between reference direction and rotating arm (OP) at any instant is the angular position of the particle (θ). 
+</para>
+<para id="element-9">
+It must be clearly understood that angular position (θ) is an angle and does not represent the position of the particle by itself. It requires to be paired with radius of the circle (r) along which particle moves in order to specify the position of the particle. Thus, a specification of a position in the reference system will require both “r” and “θ” to be specified.
+</para>
+<para id="element-10">
+<figure id="fig-10">
+<title> Relation between distance (s) and angle (θ)  </title>
+<media id="id8647659" alt=""><image src="../../media/am3-337e.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-11">
+By geometry,
+</para>
+<para id="element-12"><equation id="equation-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> s </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mi> θ  </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-14">where "s" is the length of the arc subtending angle “θ” at the origin and “r” is the radius of the circle containing the position of the particle. The angular position is measured in “radian”, which has no dimension, being ratio of two lengths. One revolution contains 2π radians. The unit of radian is related to other angle measuring units "degree" and "revolution" as :
+</para>
+<para id="element-15">
+1 revolution = 360° = 2π radian
+</para>
+<para id="element-16">
+<note id="id12125851">The quantities related to angular motion are expressed in terms of angular position. It must be ensured that values of angular position wherever it appears in the expression be substituted in radians only. If the given value is in some other unit, then we first need to change the value into radian. It is so because, radian is a unit derived from the definition of the angle. The defining relation θ = s/r will not hold unless “θ” is in radian.
+</note>
+</para>
+</section>
+
+<section id="section-1b">
+<title> Angular displacement (Δθ) </title>
+<para id="element-17">
+Angular displacement is equal to the difference of angular positions at two instants of rotational motion.
+</para>
+<para id="element-18">
+<figure id="fig-18">
+<title> Angular displacement (Δθ) </title>
+<media id="id3993842" alt=""><image src="../../media/am4-774d.gif" mime-type="image/gif"/></media>
+<caption> Angular displacement is equal to the difference of angular positions at two positions. </caption>
+</figure>
+</para>
+<para id="element-19"><equation id="equation-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2  </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1  </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para><para id="element-296">The angular displacement is also measured in “radian” like angular position. In case our measurement of angular position coincides with the reference direction, we can make substitution as given here : </para><para id="element-242"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para><para id="element-117"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math></para><para id="element-351">With these substitution, we can simply express angular displacement in terms of angle as :</para><para id="element-697"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math></para>
+
+
+</section>
+
+<section id="section-1c">
+<title>  Angular velocity (ω) </title>
+
+<para id="element-21">
+Angular speed is the ratio of the magnitude of angular displacement and time interval. 
+</para>
+<para id="element-22"><equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω</m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> Δ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-23">This ratio is called average angular velocity, when it is evaluated for finite time interval; and instantaneous angular velocity, when it is evaluated for infinitesimally small period (Δ→0). 
+</para>
+<para id="element-24"><equation id="equation-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω</m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-25">The angular velocity is measured in “rad/s”. 
+</para>
+
+</section>
+
+</section> 
+
+<section id="section-2">
+<title>  Description of circular motion </title>
+
+<para id="element-26">
+Circular motion is completely described when angular position of a particle is given as a function of time like :
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> f </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">For example, 
+<m:math>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+</m:math>
+tells us the position of the particle with the progress of time. The attributes of circular motion such as angular velocity and acceleration are first and second time derivatives of this function in time. Similarity to pure translational motion is quite obvious here. In pure translational motion, each particle constituting a rigid body follows parallel linear paths. The position of a particle is a function of time, whereby :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> f </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<example id="example-31">
+<para id="element-31"><term>Problem : </term> The angular position (in radian) of a particle under circular motion about a perpendicular  axis with respect to reference direction is given by the function in time (seconds) as :
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">
+Find (i) angular position when angular velocity is zero and (ii) determine whether rotation is clock-wise or anti-clockwise.
+</para>
+
+<para id="element-34"> <term>Solution : </term> The angular velocity is equal to first derivative of angular position,
+</para> 
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω</m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+For ω= 0, we have :
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+The angular position at t = 0.1 s, 
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.99 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.99 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 360 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 0.99 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 360 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 7 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 22 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 56.7</m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">As the particle makes a positive angle with respect to reference direction, we conclude that the particle is moving in anti-clockwise direction (We shall discuss the convention regarding direction of angular quantities in detail subsequently).
+</para>
+
+</example>
+</section>
+
+<section id="section-3">
+<title>  Relationship between linear (v) and angular speed (ω) </title>
+<para id="element-41">In order to understand the relation, let us consider two uniform circular motions with equal time period (T) along two circular trajectories of radii 
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+ and 
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+(
+<m:math>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> &gt; </m:mo>
+<m:msub>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+). It is evident that particle along the outer circle is moving at a greater speed as it has to cover greater perimeter or distance. On the other hand angular speeds of the two particles are equal as they transverse equal angles in a given time. 
+</para>
+<para id="element-42">
+This observation is key to understand the relation between linear and angular speed. Now, we know that :
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mi> r </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">
+Differentiating with respect to time, we have :
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> s </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:mi> r </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">
+Since, “r” is constant for a given circular motion, 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:math>
+. 
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> s </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω</m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+Now, 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> s </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+ is equal to linear speed, v. Hence,
+</para>
+<para id="element-50"><equation id="equation-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω</m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-51">
+This is the relation between angular and linear speeds. Though it is apparent, but it is emphasized here for clarity that angular and linear speeds do not represent two separate individual speeds. Remember that a particle can have only one speed at a particular point of time. They are, as a matter of fact, equivalent representation of the same change of position with respect to time. They represent same speed – but in different language or notation. 
+</para>
+<example id="example-51a">
+<para id="element-51b"><term>Problem : </term> The angular position (in radian) of a particle with respect to reference direction, along a circle of radius 0.5 m is given by the function in time (seconds) as :
+</para>
+<para id="element-51c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51d">
+Find linear velocity of the particle at t  = 0 second.
+</para>
+
+<para id="element-51e"> <term>Solution : </term> The angular velocity is given by :
+</para> <para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω</m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-53">
+For t = 0, the angular velocity is  :
+</para>
+<para id="element-54"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω</m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> rad/s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+The linear velocity at this instant is :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> ω</m:mi>
+<m:mi> r</m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+</section>
+<section id="section-4">
+<title>  Vector representation of angular quantities </title>
+
+<para id="element-57">The angular quantities (displacement, velocity and acceleration) are also vector quantities like their linear counter parts and follow vector rules of addition and multiplication, with the notable exception of angular displacement. Angular displacement does not follow the rule of vector addition strictly. In particular, it can be shown that addition of angular displacement depends on the order in which they are added. This is contrary to the property of vector addition. Order of addition should not affect the result. We intend here to skip the details of this exception to focus on the subject matter in hand. Besides, we should know that we may completely ignore this exception if the angles involved have small values.  
+</para>
+<para id="element-58">
+The vector angular quantities like angular velocity (<term> ω</term>) or ω (as scalar representation of angular vector) is represented by a vector, whose direction is obtained by applying “Right hand rule”. We just hold the axis of rotation with right hand in such a manner that the direction of the curl of fingers is along the direction of the rotation. The direction of extended thumb (along y-axis in the figure below) then represents the direction of angular velocity (<term> ω</term>). 
+</para>
+<para id="element-59">
+<figure id="fig-59">
+ <title> Vector cross product </title>
+<media id="id8630329" alt=""><image src="../../media/am5-8893.gif" mime-type="image/gif"/></media>
+<caption> Right Hand Rule (RHR) </caption>
+</figure>
+</para>
+<para id="element-60">The important aspect of angular vector representation is that the angular vector is essentially a straight line of certain magnitude represented on certain scale with an arrow showing direction (shown in the figure as a red line with arrow) – not a curl as some might have expected. 
+Further, the angular vector quantities are axial in nature. This means that they apply along the axis of rotation. Now, there are only two possible directions along the axis of rotation. Thus, we can work with sign (positive or negative) to indicate directional attribute of angular quantities. The angular quantities measured in counter clockwise direction is considered positive, whereas quantities measured in clockwise direction is considered negative.
+</para>
+<para id="element-63">
+This simplicity resulting from fixed axis of rotation is very useful. We can take the liberty to represent angular vector quantities in terms of signed scalar quantities as done in the case of linear quantities. The sign of the angular quantity represents the relative direction of the angular quantity with respect to a reference direction.
+</para>
+<para id="element-64">Analysis of angular motion involves working interchangeably between linear and angular quantities. We must understand here that the relationships essentially involve both axial (angular) and polar (linear) vectors. In this context, it is recommended that we know the relationship between linear and angular quantities in vector forms as vector relation provide complete information about the quantities involved. 
+</para>
+
+
+
+</section>
+
+<section id="section-5">
+<title>  Linear and angular velocity relation in vector form  </title>
+
+<para id="element-67">
+If we want to write the relation for velocities (as against the one derived for speed, v = ω r), then we need to write the relation as vector cross product :
+</para>
+<para id="element-68"><equation id="equation-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-69">
+The order of quantities in vector product is important. A change in the order of cross product like (
+<m:math>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> ω </m:mi>
+</m:math>
+) represents the product vector in opposite direction. The directional relationship between thee vector quantities are shown in the figure. The vectors “<term>v</term>” and “<term>r</term>” are in the plane of “xz” plane, whereas angular velocity (<term> ω </term>), is in y-direction. 
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Linear and angular velocity </title>
+<media id="id12125247" alt=""><image src="../../media/am6-449e.gif" mime-type="image/gif"/></media>
+<caption> Directional relation between linear and angular velocity </caption>
+</figure>
+</para>
+<para id="element-71">
+Here, we shall demonstrate the usefulness of vector notation. Let us do a bit of interpretation here to establish the directional relationship among the quantities from the vector notation. It is expected from the equation (
+<m:math>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> ω </m:mi>
+<m:mo mathvariant="bold"> x </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+</m:math>
+) that the vector product of angular velocity (<term> ω </term>) and radius vector (<term>r</term>) should yield the direction of velocity (<term>v</term>).
+</para>
+<para id="element-72">Remember that a vector cross product is evaluated by Right Hand Rule (RHR). We move from first vector (<term> ω </term>) to the second vector (<term>r</term>) of the vector product in an arc as shown in the figure. 
+</para>
+<para id="element-73">
+<figure id="fig-73">
+<title> Vector cross product </title>
+<media id="id8647124" alt=""><image src="../../media/am7.gif" mime-type="image/gif"/></media>
+<caption> Determining direction of vector cross product </caption>
+</figure>
+</para>
+<para id="element-74">We place our right hand such that the curl of fingers follows the direction of arc. The extended thumb, then, represents the direction of cross product (<term>v</term>), which is perpendicular (this fact lets us draw the exact direction) to each of the vectors and the plane containing two vectors (<term> ω </term> and <term>r</term>) whose products is being evaluated. In the case of circular motion, vectors <term> ω </term> and <term>r</term> are perpendicular to each other and vector <term>v</term> is perpendicular to the plane defined by vectors <term> ω </term> and <term>r</term>. 
+</para>
+<para id="element-75">
+<figure id="fig-75">
+<title> Vector cross product </title>
+<media id="id9675861" alt=""><image src="../../media/am8.gif" mime-type="image/gif"/></media>
+<caption> Determining direction of vector cross product </caption>
+</figure>
+</para>
+<para id="element-76">
+Thus, we see that the interpretation of cross products completely defines the directions of quantities involved at the expense of developing skill to interpret vector product (we may require to do a bit of practice).
+</para>
+<para id="element-77">
+Also, we can evaluate magnitude (speed) as :
+</para>
+<para id="element-78"><equation id="equation-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-79">
+where θ is the angle between two vectors ω and r. In the case of circular motion, θ = 90°, Hence,
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mi> ω </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+Thus, we have every detail of directional quantities involved in the equation by remembering vector form of equation.
+</para>
+
+<section id="section-5a">
+<title>  Uniform circular motion</title>
+
+<para id="element-82">
+In the case of the uniform circular motion, the speed (v) of the particle is constant (by definition). This implies that angular velocity (ω = v/r) in uniform circular motion is also constant. 
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> r </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+<m:mi> constant </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+Also, the time period of the uniform circular motion is :
+</para>
+<para id="element-85"><equation id="equation-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mi> v </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+<m:mi> ω </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+</section>
+
+</section>
+<section id="section-6">
+<title>  Linear .vs. angular quantity </title>
+<para id="element-86">
+The description of circular motion is described better in terms of angular quantity than its linear counter part. 
+</para>
+<para id="element-87">The reasons are easy to understand. For example, consider the case of uniform circular motion. Here, the velocity of particle is changing - though the motion is “uniform”. The two concepts do not go together. The general connotation of the term “uniform” indicates “constant”, but the velocity is actually changing all the time. 
+</para>
+<para id="element-88">
+When we describe the same uniform circular motion in terms of angular velocity, there is no contradiction. The velocity (i.e. angular velocity) is indeed constant. This is the first advantage of describing uniform circular motion in terms of angular velocity. 
+</para>
+<para id="element-89">In other words, the vector manipulation or analysis of linear velocity along the circular path is complicated as its direction is specific to a particular point on the circular path and is basically multi-directional. On the other hand, direction of angular velocity is limited to be bi-directional  at the most, along the fixed axis of rotation.
+</para>
+<para id="element-90">
+<figure id="fig-90">
+<title> Linear and angular velocity </title>
+<media id="id17731253" alt=""><image src="../../media/am9.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-91">
+Second advantage is that angular velocity conveys the physical sense of the rotation of the particle as against linear velocity, which indicates translational motion. Alternatively, angular description emphasizes the distinction between two types of motion (translational and rotational).
+</para>
+<para id="element-92">
+Finally, angular quantities allow to write equations of motion as available for translational motion with constant acceleration. For illustration purpose, we can refer to equation of motion connecting initial and final angular velocities for a motion with constant angular acceleration “α” as :
+</para>
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-94">
+We shall study detailed aspect of circular motion under constant angular acceleration in a separate module.
+</para>
+
+</section>
+
+
+<section id="section-7d">
+<title>Exercises</title>
+
+<para id="element-101a">
+<exercise id="exercise-101a">
+<problem id="id8647727">
+<para id="element-101">
+A flywheel of a car is rotating at 300 revolutions per minute. Find its angular speed in radian per second.
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>10</m:mn>
+    <m:mi>π</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mi>π</m:mi>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:mn>20</m:mn>
+      </m:mrow>
+      <m:mi>π</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</problem>
+
+<solution id="id17969846">
+<para id="element-103">
+Flywheel covers angular displacement of "2π" in one revolution. Therefore, the angular speed in "radian/second" is :
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>300</m:mn>
+      </m:mrow>
+      <m:mn>60</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>π</m:mi>
+    <m:mspace width="1em"/>
+    <m:mi>rad</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-105">
+Hence, option (b) is correct.
+
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-106a">
+<exercise id="exercise-106a">
+<problem id="id13216281">
+<para id="element-106">
+A particle is rotating along a circle of radius 0.1 m at an angular speed of π rad/s. The time period of the rotation is :
+
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>1</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>2</m:mn>
+
+    <m:mspace width="1pt"/>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>3</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>s</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>4</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id19186884">
+<para id="element-108">
+The time period of rotation is :
+
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>π</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1pt"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-110">
+Note : The input of radius is superfluous here. 
+
+</para>
+<para id="element-111">
+Hence, option (b) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+<para id="element-112a">
+<exercise id="exercise-112a">
+<problem id="id19470240">
+<para id="element-112">
+A particle is rotating at constant speed along a circle of radius 0.1 m, having a time period of 1 second. Then, angular speed in "revolution/s" is :
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>4</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id13676278">
+<para id="element-114">
+The time period of rotation is :
+</para>
+<para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>ω</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-116">
+Rearranging, the angular speed is :
+
+</para>
+<para id="element-117abc">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-118">
+Converting to in the unit of revolution per second, the angular speed is :
+
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>rad /s</m:mtext>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mtext>revolution/s</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-120">
+Hence, option (a) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-121a">
+<exercise id="exercise-121a">
+<problem id="id19184444">
+<para id="element-121">
+A particle is moving with a constant angular speed "ω" along a circle of radius "r" about a perpendicular axis passing through the center of the circle.  If "<term>n</term>" be the unit vector in the positive direction of axis of rotation, then linear velocity is given by :
+
+</para>
+<para id="element-122">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+
+      <m:mi mathvariant="bold">r</m:mi>
+
+    <m:mi>X</m:mi>
+
+      <m:mi mathvariant="bold">ω</m:mi>
+
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>r</m:mi>
+    <m:mi>ω</m:mi>
+
+      <m:mi mathvariant="bold">n</m:mi>
+
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+
+      <m:mi mathvariant="bold">ω</m:mi>
+
+    <m:mi>X</m:mi>
+
+      <m:mi mathvariant="bold">r</m:mi>
+
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+
+      <m:mi mathvariant="bold">ω</m:mi>
+
+    <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">r</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id17969782">
+<para id="element-123">
+The linear velocity is given by the following vector cross product,
+    
+</para>
+<para id="element-124">
+<m:math display="block">
+  <m:mrow>
+
+      <m:mi mathvariant="bold">v</m:mi>
+
+    <m:mo>=</m:mo>
+
+      <m:mi mathvariant="bold">ω</m:mi>
+
+    <m:mi>X</m:mi>
+
+      <m:mi mathvariant="bold">r</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-125">
+We know that a change in the order of operands in cross product reverses the resulting vector. Hence,
+
+</para>
+<para id="element-126">
+<m:math display="block">
+  <m:mrow>
+
+      <m:mi mathvariant="bold">v</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+
+      <m:mi mathvariant="bold">r</m:mi>
+
+    <m:mi>X</m:mi>
+
+      <m:mi mathvariant="bold">ω</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-127">
+Further, it is given in the question that positive axial direction has the unit vector "n". But, the plane of motion is perpendicular to axis of rotation. Hence, velocity is not aligned in the direction of unit vector <term>n</term>. 
+
+</para>
+
+<para id="element-129">
+Hence, options (a) and (b) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+<para id="element-130a">
+<exercise id="exercise-130a">
+<problem id="id19356481">
+<para id="element-130">
+The figure shows the plot of angular displacement and time of a rotating disc. Corresponding to the segments marked on the plot, the direction of rotation is as :
+
+</para>
+<para id="element-131">
+<figure id="fig-131">
+<title> Angular displacement </title>
+<media id="id19429268" alt=""><image src="../../media/cm1.gif" mime-type="image/gif"/></media>
+<caption> Angular displacement </caption>
+</figure>
+
+</para>
+<para id="element-132">
+(a) disk rotates in clockwise direction in the segments OA and AB.
+</para>
+<para id="element-133">
+(b) disk rotates in clockwise direction in the segment OA, but in anti-clockwise direction in the segment AB.
+</para>
+<para id="element-134">
+(c) disk rotates in anti-clockwise direction in the segment BC.
+</para>
+<para id="element-135">
+(d) disk rotates in anti-clockwise direction in the segment CD.
+
+</para>
+</problem>
+
+<solution id="id19429627">
+<para id="element-136">
+The direction of rotation is determined by the sign of angular velocity. In turn, the sign of angular velocity is determined by the sign of the slope on angular displacement - time plot. The sign of slope is negative for line OA, positive for line AC and zero for line CD. 
+
+</para>
+<para id="element-137">
+The positive angular velocity indicates anti-clockwise rotation and negative angular velocity indicates clockwise rotation. The disk is stationary when angular velocity is zero.
+
+</para>
+<para id="element-138">
+Hence, options (b) and (c) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-139a">
+<exercise id="exercise-139a">
+<problem id="id19504861">
+<para id="element-139">
+A particle moves along a circle in xy-plane with center of the circle as origin. It moves from position Q(1, √3) to R(-1, √3) as shown in the figure. The angular displacement is :
+        
+</para>
+<para id="element-140">
+<figure id="fig-140">
+<title> Angular displacement </title>
+<media id="id19504913" alt=""><image src="../../media/cm2.gif" mime-type="image/gif"/></media>
+<caption> Angular displacement </caption>
+</figure>
+
+
+</para>
+<para id="element-141">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>30</m:mn>
+    <m:mo>°</m:mo>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>45</m:mn>
+    <m:mo>°</m:mo>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>60</m:mn>
+    <m:mo>°</m:mo>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mn>75</m:mn>
+    <m:mo>°</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id19553446">
+<para id="element-142">
+In order to find angular displacement, we need to find initial and final angular positions. From the geometry,
+
+</para>
+<para id="element-143">
+<figure id="fig-143">
+<title> Angular displacement </title>
+<media id="id13538310" alt=""><image src="../../media/cm3.gif" mime-type="image/gif"/></media>
+<caption> Angular displacement </caption>
+</figure>
+
+</para>
+<para id="element-144">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-145">
+Similarly,
+
+</para>
+<para id="element-146">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>120</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>120</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+
+
+<para id="element-149">
+Thus, angular displacement is :
+</para>
+<para id="element-150">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>Δ</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>120</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-151">
+Hence, option (c) is correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-152a">
+<exercise id="exercise-152a">
+<problem id="id8630437">
+<para id="element-152">
+Select the correct statement(s) :
+
+</para>
+<para id="element-153">
+(a) The direction of angular velocity is tangential to the circular path.
+</para>
+<para id="element-154">
+(b) The direction of angular velocity and centripetal acceleration are radial towards the center of the circle.
+</para>
+<para id="element-155">
+(c) The linear velocity, angular velocity and centripetal accelerations are mutually perpendicular to each other.
+</para>
+<para id="element-156">
+(d) The direction of angular velocity is axial. 
+
+</para>
+</problem>
+
+<solution id="id13259490">
+<para id="element-157">
+The direction of linear velocity is normal to radial direction. The direction of centripetal acceleration is radial. The direction of angular velocity is axial. See the figure.
+
+</para>
+<para id="element-158">
+<figure id="fig-158">
+<title> Angular motion </title>
+<media id="id13259539" alt=""><image src="../../media/cm4-c595.gif" mime-type="image/gif"/></media>
+<caption> Angular motion </caption>
+</figure>
+
+</para>
+<para id="element-159">
+Clearly, the three directions are mutually perpendicular to each other.
+
+</para>
+<para id="element-160">
+Hence, options (c) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+<para id="element-161a">
+<exercise id="exercise-161a">
+<problem id="id13259647">
+<para id="element-161">
+The magnitude of centripetal acceleration is given by :
+
+</para>
+<para id="element-162">
+<m:math display="block">
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>b</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>ω</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>c</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>ω</m:mi>
+    <m:mi>r</m:mi>
+    <m:mspace width="1em"/>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>d</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mrow>
+      <m:mo>|</m:mo>
+
+        <m:mi mathvariant="bold">ω</m:mi>
+
+      <m:mi>X</m:mi>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mo>|</m:mo>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+
+</para>
+</problem>
+
+<solution id="id13686014">
+
+<para id="element-163">
+The centripetal acceleration is given by :
+
+</para>
+<para id="element-164">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-165">
+The linear speed "v" is related to angular speed by the relation,
+
+</para>
+<para id="element-166">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-167">
+Substituting this in the expression of centripetal acceleration, we have :
+</para>
+<para id="element-168">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>ω</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>ω</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-169">
+We need to evaluate fourth cross product expression to know whether its modulus is equal to the magnitude of centripetal acceleration or not. Let the cross product be equal to a vector "<term>A</term>". The magnitude of vector "<term>A</term>" is :
+
+</para>
+<para id="element-170">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+
+      <m:mi mathvariant="bold">ω</m:mi>
+
+    <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">v</m:mi>
+
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-171">
+For circular motion, the angle between linear and angular velocity is 90°. Hence,
+
+
+</para>
+<para id="element-172">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>|</m:mo>
+
+      <m:mi mathvariant="bold">ω</m:mi>
+
+    <m:mi>X</m:mi>
+
+      <m:mi mathvariant="bold">v</m:mi>
+
+    <m:mo>|</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>90</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>v</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-173">
+Substituting for " ω", we have :
+
+</para>
+<para id="element-174">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-175">
+The modulus of the expression, therefore, is equal to the magnitude of centripetal acceleration. 
+
+
+</para>
+<para id="element-176">
+Note : The vector cross product "| <term>ω</term> X<term>v</term>|” is the vector expression of centripetal force. 
+
+</para>
+<para id="element-177">
+Hence, options (a) and (d) are correct.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+</section>
+
+  </content>
+  
+</document>

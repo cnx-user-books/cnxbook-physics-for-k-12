@@ -1,0 +1,646 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rectilinear motion (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>5660123e-332b-4f8e-a130-7d49c38d68d1</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+<section id="section-1">
+<title> Representative problems and their solutions
+</title>
+<para id="element-3">
+We discuss problems, which highlight certain aspects of rectilinear motion. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted"><item> Interpretation of position - time plot 
+</item>
+<item> Interpretation of displacement - time plot 
+</item>
+<item> Displacement
+</item>
+<item> Average velocity 
+</item>
+</list>
+</para>
+
+<section id="section-1a">
+<title> Position vector
+</title>
+<example id="example-5">
+<para id="element-5"><term>Problem : </term> Two boys (P and Q) walk to their respective school from their homes in the morning on a particular day. Their motions are plotted on a position – time graph for the day as shown. If all schools and homes are situated by the side of a straight road, then answer the followings :
+</para>
+<para id="element-6a">
+<figure id="fig-6a">
+<title> Motion of two boys </title>
+<media id="idp10464112" alt=""><image src="../../media/rmq1-8cc9.gif" mime-type="image/gif"/></media>
+<caption> Position – time plot of a rectilinear motion. </caption>
+</figure>
+</para>
+
+
+<para id="element-7a">
+<list id="list-7a" list-type="enumerated">
+<item> Which of the two resides closer to the school?
+ </item>
+<item> Which of the two starts earlier for the school?
+ </item>
+<item> Which of the two walks faster?
+ </item>
+<item> Which of the two reaches the school earlier?
+ </item>
+<item> Which of the two overtakes other during walk?
+ </item>
+</list>
+</para>
+<para id="element-8"> <term>Solution : </term> In order to answer questions, we complete the drawing with vertical and horizontal lines as shown here. Now,
+</para>
+<para id="element-8a">
+<figure id="fig-8a"><title> Motion of two boys </title>
+<media id="idp9673472" alt=""><image src="../../media/rmq2-06a7.gif" mime-type="image/gif"/></media>
+<caption> Position – time plot of a rectilinear motion. </caption>
+</figure>
+</para>
+<para id="element-9">
+<term>1: </term> Which of the two resides closer to the school? 
+</para>
+<para id="element-10">
+We can answer this question by knowing the displacements. The total displacements here are OC by P and OD by Q. From figure, OC &lt; OD. Hence, P resides closer to the school.
+</para>
+<para id="element-11">
+<term>2: </term> Which of the two starts earlier for the school?
+</para>
+<para id="element-12">The start times are point O for P and A for Q on the time axis. Hence, P starts earlier for school.
+</para>
+<para id="element-14">
+<term>3: </term> Which of the two walks faster?
+</para>
+<para id="element-15">The speed is given by the slope of the plot. Slope of the motion of P is smaller than that of Q. Hence, Q walks faster.
+</para>
+<para id="element-16">
+<term>4: </term> Which of the two reaches the school earlier?
+</para>
+<para id="element-17">
+Both boys reach school at the time given by point B on time axis. Hence, they reach school at the same time.
+</para>
+<para id="element-18">
+<term>5: </term> Which of the two overtakes other during walk?
+</para>
+<para id="element-19">
+The plots intersect at a point E. They are at the same location at this time instant.  Since, speed of B is greater, he overtakes A.  
+</para>
+
+</example>
+</section>
+
+<section id="section-1b">
+<title> Interpretation of displacement - time plot
+</title>
+
+<example id="example-26">
+<para id="element-26"><term>Problem : </term> A displacement – time plot in one dimension is as shown. Find the ratio of velocities represented by two straight lines.
+</para>
+<para id="element-6">
+<figure id="fig-6"><title> Displacement-time plot </title>
+<media id="idp13990080" alt=""><image src="../../media/rmq3-fbe5.gif" mime-type="image/gif"/></media>
+<caption> There two segments of different velocities. </caption>
+</figure>
+</para>
+<para id="element-7"><term>Solution : </term> The slope of displacement – time plot is equal to velocity. Let v1 and v2 be the velocities in two segments, then magnitudes of velocities in two segments are :
+</para>
+<para id="element-26a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> tan </m:mi>
+<m:mn> 60 </m:mn>
+<m:mo> ° </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> | </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> tan </m:mi>
+<m:mn> 30 </m:mn>
+<m:mo> ° </m:mo> 
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">We note that velocity in the first segment is positive, whereas velocity in the second segment is negative. Hence, the required ratio of two velocities is :
+</para>
+<para id="element-28"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+
+</section>
+
+
+<section id="section-1c">
+<title> Displacement
+</title>
+
+<example id="example-29">
+<para id="element-29"><term>Problem : </term> The displacement “x” of a particle moving in one dimension is related to time “t” as :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> √ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+where “t” is in seconds and “x” is in meters. Find the displacement of the particle when its velocity is zero.
+</para>
+<para id="element-32"><term>Solution : </term> We need to find “x” when velocity is zero. In order to find this, we require to have an expression for velocity. This, in turn, requires an expression of displacement in terms of time. The given expression of time, therefore, is required to be re-arranged :
+</para>
+
+
+<para id="element-34">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> √ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+Squaring both sides, we have :
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 9 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+Now, we obtain the required expression of velocity in one dimension by differentiating the above relation with respect to time,
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ⅆ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 6 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+According to question,
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">
+Putting this value of time in the expression of displacement, we have :
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mn> 3 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 6 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> 3 </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 9 </m:mn>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+<section id="section-1d">
+<title> Average velocity 
+</title>
+<example id="example-43">
+<para id="element-43"><term>Problem : </term> A particle moving in a straight line covers 1/3rd of the distance with a velocity 4 m/s. The remaining part of the linear distance is covered with velocities 2 m/s and 6 m/s for equal times. What is the average velocity during the total motion?
+</para>
+<para id="element-44"> <term>Solution : </term> The average velocity is ratio of displacement and time. In one dimensional unidirectional motion, distance and displacement are same. As such, average velocity is ratio of total distance and time. 
+</para>
+
+<para id="element-45">Let the total distance be “x”. Now, we need to find total time in order to find the average velocity. Let "
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+", "
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+" and "
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+" be the time periods of the motion in three parts of the motion as given in the question. Considering the first part of the motion,
+</para>
+<para id="element-46">
+<figure id="fig-46"><title> Unidirectional motion </title>
+<media id="idp14500272" alt=""><image src="../../media/rmq4-c81e.gif" mime-type="image/gif"/></media>
+<caption> The particle covers segments of the motion with different average velocities. </caption>
+</figure>
+</para>
+
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+For the second part of the motion, the particle covers the remaining distance at two different velocities for equal time, “
+<m:math>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+”,
+</para>
+<para id="element-50"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mn> 6 </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 8 </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 24 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">
+Thus, average velocity is :
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> a </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mi> t </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mi> x </m:mi>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+
+
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+</section>
+
+
+  </content>
+  
+</document>

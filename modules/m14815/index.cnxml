@@ -1,0 +1,1112 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Friction between horizontal surfaces (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>7966b6cb-8f86-41ca-8234-016e63f85584</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to friction between horizontal surfaces. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+<item> An external force on the block
+</item>
+<item> An external force on the plank
+</item>
+<item> One external force each on block and plank
+</item>
+<item> Block with initial velocity 
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> An external force on the block  
+</title>
+
+<para id="element-6"><term>Problem 1 : </term>In the arrangement shown in the figure, the mass of the pulleys and strings are negligible. The block “B” rests on the smooth horizontal surface, whereas the coefficient of friction between two blocks is 0.5. If masses of the blocks “A” and “B” are 2 kg and 4 kg respectively, then find the maximum force for which there is no relative motion between two blocks.
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> Two Blocks system </title>
+<media id="idm3294608" alt=""><image src="../../media/fhq1.gif" mime-type="image/gif"/></media>
+<caption> External force is applied on the top block. </caption>  
+</figure>
+</para>
+<para id="element-8"><term>Solution : </term> According to the question, two blocks have no relative motion between them. The friction force is less than limiting friction. As the limiting case, the maximum friction between the blocks is equal to limiting friction :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">
+Since blocks have no relative motion between them, they move as a single unit with a common acceleration, say “a”. The vertical and horizontal forces by the two brackets holding pulleys balance each other. Hence, these forces are not considered. The free body diagram of the combined body is shown on the left side of the figure. The friction forces between the blocks are internal forces for the combined body and as such not considered. Note that we have not drawn components of forces in vertical direction as the analysis in vertical direction is not relevant here.
+</para>
+<para id="element-12">
+<figure id="fig-12"><title> Free body diagrams </title>
+<media id="idm6730272" alt=""><image src="../../media/fhq2.gif" mime-type="image/gif"/></media>
+<caption> Blocks move with same accelerations. </caption>  
+</figure>
+</para>
+<para id="element-14a">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mi>A</m:mi>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>m</m:mi>
+              <m:mi>B</m:mi>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>   
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14b">
+Considering free body diagram of block “B” as shown on the right side of the figure, we have :
+</para>
+<para id="element-14c">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>S</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2.5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14d">
+Putting in the expression of force, we have,
+</para>
+<para id="element-14e">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2.5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-4">
+<title> An external force on the plank  
+</title>
+<section id="section-4a">
+<para id="element-14"><term>Problem 2 : </term> In the arrangement shown in the figure, mass of block and plank are 2 kg and 3 kg respectively. The coefficient of friction between block and plank is 0.5, whereas there is no friction between plank and underneath horizontal surface. An external force of 50 N is applied on the plank as shown. If the length of plank is 5 m, find the time after which block and plank are separated. 
+</para>
+<para id="element-15">
+<figure id="fig-15"><title> Block and plank system </title>
+<media id="idp2621488" alt=""><image src="../../media/fhq5.gif" mime-type="image/gif"/></media>
+<caption> A force is applied on the plank.</caption>  
+</figure>
+</para>
+<para id="element-16"><term>Solution : </term> First, we need to know the nature of the friction between block and plank. If the friction is less than liming friction, then two entities will move together with an acceleration given by :
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>50</m:mn>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>3</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+Let us use subscript “1” and “2” to denote block and plank respectively. Since friction is the only force on the block (1), the friction is 
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">
+The limiting friction, however, is :
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">
+It means that our assumption that they move together is wrong. They move with relative velocity between them. The friction, therefore, is equal to kinetic friction and is nearly equal to limiting friction 10 N. 
+</para>
+<para id="element-23">
+The free body diagram of two entities are shown in the figure. 
+</para>
+<para id="element-24">
+<figure id="fig-24"><title> Free body diagrams </title>
+<media id="idm3610832" alt=""><image src="../../media/fhq6.gif" mime-type="image/gif"/></media>
+<caption> Forces on the block and plank. </caption>  
+</figure>
+</para>
+<para id="element-25a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>K</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>10</m:mn>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25b">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>50</m:mn>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>K</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:msub>
+        <m:mi>m</m:mi>
+        <m:mn>2</m:mn>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>50</m:mn>
+        <m:mo>−</m:mo>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25c">
+The relative acceleration of 1 (block) with respect 2 (plank) is :
+</para>
+<para id="element-25d">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25e">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>∕</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25f">Thus, block has relative acceleration in the opposite direction to the direction of individual accelerations i.e. it is directed towards left. Now, initial velocity is zero and total displacement is 5m. Applying equation of motion for constant acceleration, we have :
+</para>
+<para id="element-25g">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25h">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25i">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>10</m:mn>
+          <m:mn>10</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-4b">
+<para id="element-26"><term>Problem 3 : </term> In the arrangement shown, a force of 4mg, acts on the plank of mass “4m”. The coefficient of friction between block “A” and plank “B” is 0.25, whereas friction between plank and the surface underneath is negligible. Find the acceleration of “A” with respect to ground and its acceleration with respect to block “B”.
+</para>
+<para id="element-26a">
+<figure id="fig-26a"><title> Block and plank system </title>
+<media id="idp756144" alt=""><image src="../../media/fhq9.gif" mime-type="image/gif"/></media>
+<caption> An external force is applied on the plank.</caption>  
+</figure>
+</para>
+<para id="element-27"><term>Solution : </term> External force acts on the plank “B”. As such, it has tendency to move to right with respect to block “A”. The friction on the plank is, therefore, directed in the opposite direction i.e. towards left. 
+</para>
+<para id="element-28">According to Newton’s third law, the friction acts on block in equal measure but in opposite direction i.e. towards right. We, however, need to know the nature of friction to proceed with the force analysis. 
+</para>
+
+<para id="element-702">Here, limiting friction is :
+</para><para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.25</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">We see here that friction is the only external force on block “A”. We assume here that friction is less than limiting friction (if assumption is wrong then we would get wrong result). In this condition, plank and block will together with a common acceleration given by :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+The external force on the block would, then, be :
+</para>
+<para id="element-34a"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+          <m:mi>X</m:mi>
+          <m:mn>2</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34b">
+Clearly, external force on block “A” is greater than limiting friction, which is not possible as friction is the only external force on it. Friction, we know, can not exceed limiting friction. It means our assumption that block and plank move together has been wrong. It further means that two entities move with relative motion. As such, friction between them is kinetic friction (about equal to limiting friction). 
+</para>
+<para id="element-34c">
+Now, we know the magnitude and direction of friction force operating between the surface and hence, we can draw the free body diagrams of each of the entities as shown in the figure.
+</para>
+<para id="element-34d">
+<figure id="fig-34d"><title> Free body diagrams </title>
+<media id="idm3687360" alt=""><image src="../../media/fhq10.gif" mime-type="image/gif"/></media>
+<caption> Forces on block and plank.</caption>  
+</figure>
+</para>
+<para id="element-34e">
+The acceleration of the block with respect to ground, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is given by :
+</para>
+<para id="element-34f"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>S</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mrow>
+      <m:mi>2m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34g">
+The acceleration of plank with respect to ground, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is given by :
+</para>
+<para id="element-34h"><m:math display="block">
+  <m:mrow>
+  <m:msub>
+    <m:mi>a</m:mi>
+    <m:mi>B</m:mi>
+  </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mo>-</m:mo>
+  <m:msub>
+    <m:mi>F</m:mi>
+    <m:mi>S</m:mi>
+  </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+        <m:mo>−</m:mo>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>8</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34i">
+The relative acceleration of block “A” with respect to plank, “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>AB</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, is :
+</para>
+<para id="element-34j"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>g</m:mi>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>7</m:mn>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>8</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+      <m:mn>5</m:mn>
+      <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>8</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34k">
+The relative acceleration of “A” with respect to be is, thus, directed in the opposite direction of the motion.
+</para>
+</section>
+</section>
+
+<section id="section-5">
+<title> One external force each on block and plank 
+</title> 
+<para id="element-35"> <term>Problem 4 : </term> A block of mass 4 kg is placed on a plank of mass 8 kg. At an instant, two external forces are applied on them as shown in the figure. The coefficient of friction for surfaces between block and plank is 0.5, whereas friction between plank and underneath surface is negligible. Find the friction between block and plank.
+</para>
+<para id="element-36">
+<figure id="fig-36"><title> Block and plank system </title>
+<media id="idm13252576" alt=""><image src="../../media/fhq3.gif" mime-type="image/gif"/></media>
+<caption> One external force each is applied on block and plank. </caption>  
+</figure>
+</para>
+<para id="element-37"><term>Solution : </term>Considering block, the maximum static friction between block and plank is :
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">The block and the plank will have relative motion with respect to each other when friction between the surfaces is kinetic friction (about equal to limiting friction). If friction between them is less than limiting static friction, then two entities will move together. 
+</para>
+<para id="element-40">Here, we do not know the magnitude of friction. So we do not know whether two entities move together or not. Let us assume that they move together. If our assumption is wrong, then friction as determined from the force analysis under the assumed condition will equal to limiting friction, otherwise less than it.  
+</para>
+<para id="element-41a">Now, net external force on the combined body is towards left. Let the common acceleration be, “a”, and let the friction between block and plank be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”. The free body diagrams of block and plank are shown in the figure. 
+</para>
+<para id="element-41b">
+<figure id="fig-41d"><title> Free body diagrams </title>
+<media id="idp410256" alt=""><image src="../../media/fhq4.gif" mime-type="image/gif"/></media>
+<caption> Forces on block and plank.</caption>  
+</figure>
+</para>
+<para id="element-41c">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>F</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>40</m:mn>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>F</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mn>8</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41d">Solving for “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+”, we have :
+</para>
+<para id="element-41e">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>8</m:mn>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>40</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>160</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41f">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>12</m:mn>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>200</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41g">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>F</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>16.66</m:mn>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41h">Thus, we see that friction at the interface is actually less than the limiting friction. Our assumption, therefore, was correct and hence, friction between the surface is 16.66 N.
+</para>
+</section>
+
+<section id="section-6">
+<title> Block with initial velocity  
+</title> 
+<para id="element-42"><term>Problem 5 : </term> A plank “B” of mass “2m” is placed over smooth horizontal surface. A block “A” of mass “m” and having initial velocity “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” is gently placed over the plank at one of its end as shown in the figure. If the coefficient of friction between “A” and “B” is 0.5, find the acceleration of “B” with respect to “A”.
+</para>
+<para id="element-43">
+<figure id="fig-43"><title> Block and plank system </title>
+<media id="idp6351680" alt=""><image src="../../media/fhq7.gif" mime-type="image/gif"/></media>
+<caption> Block is given an initial velocity. </caption>  
+</figure>
+</para>
+<para id="element-44"><term>Solution : </term>We see here that block and plank has certain initial relative velocity. It means that friction between “A” and “B” is kinetic friction. The friction acts opposite to the velocity of the block “A”. On the other hand, friction is the only external force on the plank and acts opposite to the friction on “A”. Clearly, it is the friction that accelerates plank "B". 
+</para>
+<para id="element-45">Let the magnitudes of accelerations of the block and the plank  be “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” respectively with respect to ground. The free body diagrams, showing the forces on the block and the plank, are shown here.
+</para>
+<para id="element-46">
+<figure id="fig-46"><title> Free body diagrams </title>
+<media id="idm2627312" alt=""><image src="../../media/fhq8.gif" mime-type="image/gif"/></media>
+<caption> Forces on block and plank.</caption>  
+</figure>
+</para>
+<para id="element-999">The magnitudes of accelerations are :</para><para id="element-47"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>μ</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-48"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+      <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">Two accelerations are in opposite direction. The relative acceleration of “B” with respect to “A” is :
+</para>
+<para id="element-50"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>μ</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mi>μ</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>μ</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">The relative acceleration is in the same direction as that of the acceleration of block “B” i.e. towards right.
+</para>
+</section> 
+  </content>
+  
+</document>

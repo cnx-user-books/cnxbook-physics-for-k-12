@@ -1,0 +1,1570 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Analysing motion in a medium</title>
+  <metadata>
+  <md:content-id>m14561</md:content-id><md:title>Analysing motion in a medium</md:title>
+  <md:abstract>Resultant motion follows the principle of independence of motion in mutually perpendicular directions.</md:abstract>
+  <md:uuid>d4ea9294-e825-4a9e-ac23-f431be2dcf85</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">
+The motion of an object body in a medium is composed of two motions : (i) motion of the object and (ii) motion of the medium. The resulting motion as observed by an observer in the reference frame is the resultant of two motions. The basic equation that governs the context of study is the equation of relative motion in two dimensions :
+</para>
+<para id="element-3"><equation id="equation-2">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi mathvariant="bold">v</m:mi>
+      </m:mstyle>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi mathvariant="bold">v</m:mi>
+      </m:mstyle>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> 
+</equation></para>
+<para id="element-4">
+As discussed in the previous module, the motion of the body can alternatively be considered as the resultant of two motions. This concept of resultant motion is essentially an equivalent way of stating the concept of relative motion. Rearranging the equation, we have :
+</para>
+<para id="element-5"><equation id="equation-5">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-6">
+Both these equations are a vector equations, which can be broadly dealt in two ways (i) analytically (using graphics) and (ii) algebraically (using unit vectors). The use of a particular method depends on the inputs available and the context of motion. 
+</para>
+<section id="section-1">
+<title> Concept of independence of motion
+</title>
+
+<para id="element-7">
+Analysis of the motion of a body in a medium, specifically, makes use of independence of motions in two perpendicular directions. On a rectilinear coordinate system, the same principle can be stated in terms of component velocities. For example, let us consider the motion of a boat in a river, which tries to reach a point on the opposite bank of the river. The boat sails in the direction perpendicular to the direction of stream. Had the water been still, the boat would have reached the point exactly across the river with a velocity (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+). But, water body is not still. It has a velocity in x-direction. The boat, therefore, drifts in the direction of the motion of the water stream (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+).
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Motion of a Boat </title>
+<media id="id7599385" alt=""><image src="../../media/arm1a.gif" mime-type="image/gif"/></media>
+<caption> Motions in two mutually perpendicular directions are independent of each other.</caption>
+</figure>
+</para>
+<para id="element-10">
+The important aspect of this motion is that the drift (x) depends on the component of velocity in x-direction. This drift (x) is independent of the component of velocity in y-direction. Why? Simply because, it is an experimental fact, which is fundamental to natural phenomena. We shall expand on this aspect while studying projectile motion also, where motions in vertical and horizontal directions are independent of each other.
+</para>
+<para id="element-11">
+In the case of boat, the displacements in the mutually perpendicular coordinate directions are  :
+</para>
+<para id="element-12"><equation id="equation-12">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-14"><equation id="equation-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math> 
+</equation></para>
+
+</section>
+<section id="section-2">
+<title> Motion of boat in a stream
+</title>
+<para id="element-15">
+In this section, we shall consider a general situation of sailing of a boat in a moving stream of water. In order to keep our context simplified, we consider that stream is unidirectional in x-direction and the width of stream, “d”,  is constant. 
+</para>
+<para id="element-18">
+Let the velocities of boat (A) and stream (B) be 
+“<m:math>
+  <m:mrow>
+    <m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+“ and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+“ respectively with respect to ground. The velocity of boat (A) with respect to stream (B), therefore, is :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mo> ⇒ </m:mo> 
+  <m:mrow>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+        <m:mi mathvariant="bold">v</m:mi>
+
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-19">
+<figure id="fig-19"><title> Resultant velocity </title>
+<media id="id3603798" alt=""><image src="../../media/arm2a.gif" mime-type="image/gif"/></media>
+<caption> The boat moves with the resultant velocity.</caption>
+</figure>
+</para>
+<para id="element-20">
+These velocities are drawn as shown in the figure. This is clear from the figure that boat sails in the direction, making an angle “θ” with y-direction, but reaches destination in different direction. The boat obviously is carried along in the stream in x-direction. The displacement in x-direction (x = QR) from the directly opposite position to actual position on the other side of the stream is called the drift of the boat.
+</para>
+<section id="section-2a">
+<title> Resultant velocity
+</title>
+<para id="element-21">
+The magnitude of resultant velocity is obtained, using parallelogram theorem,
+</para>
+<para id="element-22"><equation id="equation-22">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>2</m:mn>
+            </m:mrow>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>B</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+            </m:mrow>
+          </m:msub>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mi>B</m:mi>
+          </m:msub>
+          <m:mi>cos</m:mi>
+          <m:mi>α</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-23">
+where “α” is the angle between 
+<m:math>
+  <m:mrow>
+    <m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+ and 
+<m:math>
+  <m:mrow>
+    <m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+      <m:mi>AB</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+ vectors. The angle “β” formed by the resultant velocity with x-direction is given as :
+</para>
+<para id="element-24"><equation id="equation-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>β</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>α</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></para>
+</section>
+<section id="section-2b">
+<title> Time to cross the stream
+</title>
+<para id="element-25">
+The boat covers a linear distance equal to the width of stream “d” in time “t” in y-direction  Applying the concept of independence of motions in perpendicular direction, we can say that boat covers a linear distance “OQ = d” with a speed equal to the component of resultant velocity in y-direction. 
+</para>
+<para id="element-26">
+Now, resultant velocity is composed of (i) velocity of boat with respect to stream and (ii) velocity of stream. We observe here that velocity of stream is perpendicular to y – direction. As such, it does not have any component in y – direction. We, therefore, conclude that the component of resultant velocity is equal to the component of the velocity of boat with respect to stream in y -direction,. Note the two equal components shown in the figure. They are geometrically equal as they are altitudes of same parallelogram. Hence,
+</para>
+<para id="element-27">
+<figure id="fig-27"><title> Components of velocity </title>
+<media id="id5340054" alt=""><image src="../../media/arm4a.gif" mime-type="image/gif"/></media>
+<caption> Components of velocity of boat w.r.t stream and velocity of stream in y-direction are equal.</caption>
+</figure>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+where “θ” is the angle that relative velocity of boat w.r.t stream makes with the vertical.
+</para>
+<para id="element-30"><equation id="equation-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:msub>
+        <m:mi>v</m:mi>
+        <m:mrow>
+          <m:mi>A</m:mi>
+          <m:mi>y</m:mi>
+        </m:mrow>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation>
+</para>
+<para id="element-31">
+We can use either of the two expressions to calculate time to cross the river, depending on the inputs available.
+</para>
+</section>
+<section id="section-2c">
+<title> Drift of the boat
+</title>
+<para id="element-31a">
+The displacement of the boat in x-direction is independent of motion in perpendicular direction. Hence, displacement in x-direction is achieved with the component of resultant velocity in x-direction,
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>AB</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+Substituting for time “t”, we have :
+</para>
+<para id="element-34"><equation id="equation-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mfenced>
+        <m:mrow>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>B</m:mi>
+            </m:mrow>
+          </m:msub>
+          <m:mo>−</m:mo>
+          <m:msub>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+            </m:mrow>
+          </m:msub>
+          <m:mi>sin</m:mi>
+          <m:mi>θ</m:mi>
+        </m:mrow>
+      </m:mfenced>
+    </m:mrow>
+
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></para>
+</section>
+</section>
+<section id="section-3">
+<title> Special cases 
+</title>
+<section id="section-3a">
+<title> Shortest interval of time to cross the stream
+</title>
+
+<para id="element-36">
+The time to cross the river is given by :
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:msub>
+        <m:mi>v</m:mi>
+        <m:mrow>
+          <m:mi>A</m:mi>
+          <m:mi>y</m:mi>
+        </m:mrow>
+      </m:msub>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+Clearly, time is minimum for greatest value of denominator. The denominator is maximum for θ = 0°. For this value,
+</para>
+<para id="element-39"><equation id="equation-39">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mi>min</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-40">
+This means that the boat needs to sail in the perpendicular direction to the stream to reach the opposite side in minimum time. The drift of the boat for this condition is :
+</para>
+<para id="element-41"><equation id="equation-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+        <m:mi>d</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></para>
+<example id="example-id7301050"><para id="id7301050"><term>Problem : </term> A boat, which has a speed of 10 m/s
+in still water, points directly across the river of width 100 m. If
+the stream flows with the velocity 7.5 m/s in a linear direction,
+then how far downstream does the boat touch on the opposite bank.
+</para>
+<para id="id7301063"><term>Solution : </term> Let the direction of stream be in
+x-direction and the direction across stream is y-direction. We
+further denote  boat with “A” and stream with “B”.
+Now, from the question, we have :
+</para> 
+
+<para id="id7301063a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 7.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="id30">
+<figure id="fig-id30"><title> Resultant velocity </title>
+<media id="id3793390" alt=""><image src="../../media/rm3a-2ddb.gif" mime-type="image/gif"/></media>
+<caption> The boat moves at an angle with vertical.</caption>
+</figure>
+</para>
+
+
+<para id="id7301346">The motions in two mutually perpendicular directions are
+independent of each other. In order to determine time (t), we consider motion in y – direction,
+</para>
+
+
+<para id="id7303838"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> OP </m:mi>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 100 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="id7301355">
+The displacement in x-direction is :
+</para>
+<para id="id7301355a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> PQ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> x </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="id7303878">Putting this value, we have :</para>
+<para id="id7303885">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> PQ </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> x </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 7.5 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 75 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<para id="element-41a">
+The velocity of the boat w.r.t stream and the stream velocity are perpendicular to each other in this situation of shortest time as shown here in the figure. Magnitude of resultant velocity in this condition, therefore, is given as :
+</para>
+<para id="element-41b">
+<figure id="fig-id41b"><title> Resultant velocity </title>
+<media id="id5174352" alt=""><image src="../../media/arm5.gif" mime-type="image/gif"/></media>
+<caption> The boat moves at an angle with y-direction.</caption>
+</figure>
+</para>
+<para id="element-41c"><equation id="equation-41c">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>+</m:mo>
+          <m:msubsup>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>B</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-41d">
+The angle that the resultant makes with y-direction (perpendicular to stream direction) is :
+</para>
+<para id="element-41e">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41f">Time to cross the river, in terms of linear distance covered during the motion, is :
+</para>
+<para id="element-41g"><equation id="equation-41g">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>Q</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mi>B</m:mi>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+              <m:mo>+</m:mo>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mi>B</m:mi>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></para>
+
+</section>
+<section id="section-3b">
+<title> Direction to reach opposite point of the stream
+</title>
+
+<para id="element-42">
+If the boat is required to reach a point directly opposite, then it should sail upstream. In this case, the resultant velocity of the boat should be directed in y –direction. The drift of the boat is zero here. Hence,
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi>B</m:mi>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mi>A</m:mi>
+                <m:mi>B</m:mi>
+              </m:mrow>
+            </m:msub>
+            <m:mi>sin</m:mi>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>d</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mo> ⇒ </m:mo> 
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45"><equation id="equation-45">
+<m:math display="block">
+<m:mo> ⇒ </m:mo> 
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-46">
+Thus. the boat should sail upstream at an angle given by above expression to reach a point exactly opposite to the point of sailing. 
+</para>
+
+</section>
+<section id="section-3c">
+<title> The velocity to reach opposite point of the stream
+</title>
+<para id="element-47">
+The angle at which boat sails to reach the opposite point is :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+This expression points to a certain limitation with respect to velocities of boat and stream. If velocity of boat in still water is equal to the velocity of stream, then
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>90</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mo> ⇒ </m:mo> 
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>90</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-52">
+It means that boat has to sail in the direction opposite to the stream to reach opposite point. This is an impossibility from the point of physical reality. Hence, we can say that velocity of boat in still water should be greater than the velocity of stream (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+) in order to reach a point opposite to the point of sailing. 
+</para>
+<para id="element-53">
+In any case, if 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+, then the boat can not reach the opposite point as sine function can not be greater than 1.
+</para>
+
+</section>
+<section id="section-3d">
+<title> Shortest path </title>
+
+<para id="element-54">
+The magnitude of linear distance covered by the boat is given by :
+</para>
+<para id="element-55"><equation id="equation-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>s</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>d</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-56">
+It is evident from the equation that linear distance depends on the drift of the boat, “x”. Thus, shortest path corresponds to shortest drift. Now, there are two situations depending on the relative magnitudes of velocities of boat and stream. 
+</para>
+<para id="element-56a">
+<note id="id5215946">
+We should be aware that though the perpendicular distance to stream (width of the river) is the shortest path, but boat may not be capable to follow this shortest path in the first place. 
+</note>
+</para>
+
+<para id="element-57">
+<term>1: </term>
+<m:math>
+<m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>&gt;</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-58">
+We have seen that when stream velocity (
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+</m:mrow>
+</m:math>
+) is less than the velocity of boat in still water, the boat is capable to reach the opposite point across the stream. For this condition, drift (x) is zero and represents the minimum value. Accordingly, the shortest path is :
+</para>
+<para id="element-59"><equation id="equation-59">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>s</m:mi>
+      <m:mi>min</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>d</m:mi>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-59a">
+The boat needs to sail upstream at the specified angle. In this case, the resultant velocity is directed across the river in perpendicular direction and its magnitude is given by :
+</para>
+<para id="element-59b">
+<figure id="fig-id59b"><title> Resultant velocity </title>
+<media id="id5227233" alt=""><image src="../../media/arm6.gif" mime-type="image/gif"/></media>
+<caption> The boat moves perpendicular to stream.</caption>
+</figure>
+</para>
+<para id="element-59c"><equation id="equation-59c">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>A</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msubsup>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>B</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+          <m:mo>−</m:mo>
+          <m:msubsup>
+            <m:mi>v</m:mi>
+            <m:mrow>
+              <m:mi>B</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msubsup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-59d">
+The time taken to cross the river is :
+</para>
+<para id="element-59e"><equation id="equation-59e">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>d</m:mi>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mi>A</m:mi>
+                  <m:mi>B</m:mi>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+              <m:mo>−</m:mo>
+              <m:msubsup>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mi>B</m:mi>
+                </m:mrow>
+                <m:mn>2</m:mn>
+              </m:msubsup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</equation></para>
+
+<para id="element-60">
+<term>2: </term>
+<m:math>
+<m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>&lt;</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-61">
+In this case, the boat is carried away from the opposite point in the direction of stream. Now, the drift “x” is given as :
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi>B</m:mi>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:msub>
+              <m:mi>v</m:mi>
+              <m:mrow>
+                <m:mi>A</m:mi>
+                <m:mi>B</m:mi>
+              </m:mrow>
+            </m:msub>
+            <m:mi>sin</m:mi>
+            <m:mi>θ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>d</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>B</m:mi>
+          </m:mrow>
+        </m:msub>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">
+For minimum value of “x”, first time derivative of “x” is equal to zero,
+</para>
+<para id="element-64"><equation id="equation-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-65">
+We need to find minimum drift and corresponding minimum length of path, subject to this condition. 
+</para>
+</section>
+
+</section>
+<section id="section-4">
+<title> Motion of an object in a medium
+</title>
+
+
+
+
+
+
+
+
+<para id="element-66">
+We have discussed the motion in the specific reference of boat in water stream. However, the consideration is general and is applicable to the motion of a body in a medium. For example, the discussion and analysis can be extended to the motion of an aircraft, whose velocity is modified by the motion of the wind.
+</para>
+<example id="example-67">
+<para id="element-67"><term>Problem : </term> An aircraft flies with a wind velocity of 200√2 km/hr blowing from south. If the relative velocity of aircraft with respect to wind is 1000 km/hr, then find the direction in which aircraft should fly such that it reaches a destination in north – east direction.
+</para>
+<para id="element-68"> <term>Solution : </term> The figure here shows the velocities. OP denotes the velocity of the aircraft in the still air or equivalently it represents the relative velocity of aircraft with respect to air in motion; PQ denotes the velocity of the wind and OQ denotes the resultant velocity of the aircraft. It is clear that the aircraft should fly in the direction OP so that it is ultimately led to follow the north-east direction. 
+</para>
+<para id="element-68a"> We should understand here that one of the velocities is  resultant velocity of the remaining two velocities. It follows then that three velocity vectors are represented by the sides of a closed triangle. 
+</para>
+<para id="element-70">
+<figure id="fig-70"><title> Motion of an aircraft </title>
+<media id="id4305801" alt=""><image src="../../media/arm3a.gif" mime-type="image/gif"/></media>
+<caption> The aircraft flies such a way that it keeps a north – east course.</caption>
+</figure>
+</para>
+<para id="element-69">
+We can get the direction of OP, if we can find the angle “θ”. The easiest technique to determine the angle between vectors composing a triangle is to apply sine law,
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>P</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:msup>
+          <m:mn>45</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>P</m:mi>
+        <m:mi>Q</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72">
+Putting values, we have :
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mi>P</m:mi>
+          <m:mi>Q</m:mi>
+        </m:mrow>
+        <m:mrow>
+          <m:mi>sin</m:mi>
+          <m:msup>
+            <m:mn>45</m:mn>
+            <m:mn>0</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>P</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>200</m:mn>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1000</m:mn>
+        <m:mi>x</m:mi>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0.2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">
+Hence the aircraft should steer in the direction, making an angle with east as given by :
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>45</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:msup>
+      <m:mi>sin</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>0.2</m:mn>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math></para>
+
+</example>
+
+</section>
+
+  </content>
+  
+</document>

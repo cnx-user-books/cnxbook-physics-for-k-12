@@ -1,0 +1,838 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Working with moving pulleys</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>533b91f5-e85c-4e59-b136-12c1bd5c4322</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Analysis of motion with moving pulley relies on constraint relation and force analysis for moving entities like pulleys and blocks. This classic approach, however, has a serious problem. As there may be large numbers of blocks and other elements, the numbers of unknowns and corresponding numbers of available equations become very large and analysis of motion becomes very difficult.
+</para>
+<para id="element-911">Further, we consider acceleration of each movable part with reference to ground. Most of the time, it is difficult to guess the directional relationship among the accelerations of various entities of the system. In this module, we shall introduce few simplifying methods that allow us to extend the use of the simple framework of static pulley for analyzing motion of movable pulley. 
+</para>
+<section id="section-1">
+<title> Component pulley system </title>
+<para id="element-3">A pulley system may comprise of smaller component pulley systems. Take the case of a pulley system, which consists of two component pulley systems (“B” and “C”) as shown in the figure.
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Mixed pulley system </title>
+<media id="idp6307072" alt=""><image src="../../media/wp1-b2ce.gif" mime-type="image/gif"/></media>
+<caption> The pulley system comprises of two component pulley systems.</caption>
+</figure>
+</para>
+
+<para id="element-5">The component pulley system, usually, is a simple arrangement of two blocks connected with a single string passing over the pulley. The arrangement is alike static pulley system except that the pulley (“B” or "C") is also moving along with other constituents of the component systems like string and blocks. 
+</para>
+<para id="element-6">If we could treat the moving pulley system static, then the analysis for the motion of blocks would become very easy. In that case, recall that the accelerations of the blocks connected with single string has equal magnitudes of accelerations, which are oppositely directed. This sense of oppositely directed acceleration, however, is not valid with moving pulley. A block, which appears to have a downward acceleration with respect to static pulley, say 1 
+<m:math>
+  <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+        <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>, will have an upward acceleration of 2 <m:math>
+  <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+        <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> with respect to ground as pulley itself may have an upward acceleration of 3 <m:math>
+  <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+        <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>. This situation leads to a simplified framework for determining acceleration. 
+</para>
+<para id="element-9a">
+This simple framework of analysis involves two steps :
+</para>
+<para id="element-9b">
+<list id="list-9b" list-type="bulleted">
+
+<item> Analyze for accelerations of blocks with respect to moving reference of pulley.  </item>
+<item> Use concept of relative acceleration to determine accelerations of blocks with respect to ground. </item>
+
+</list>
+
+</para>
+<para id="element-9">For understanding the technique, we concentrate on one of the component systems that of pulley "B" as shown in the figure above. Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” denote accelerations of the two blocks with respect to ground reference. Let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>” denotes the acceleration of pulley “B” with respect to ground. Also, let “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” and “
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+” denote relative accelerations of the two blocks with respect to moving pulley “B”. Analyzing motion of blocks with respect to moving reference of pulley, we have :
+</para>
+<para id="element-10a"><equation id="equation-10a">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-10b">
+Applying concept of <link document="m13618">relative motion</link>, we can expand relative accelerations as :
+</para>
+
+
+<para id="element-14"><equation id="equation-14">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-15"><equation id="equation-15">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-16">
+where accelerations on the right hand side of the equation are measured with reference to ground. Clearly, using these expansions, we can find accelerations of blocks with respect to ground as required.
+</para>
+<section id="section-1a">
+<title> Example </title>
+<para id="element-17"><term>Problem : </term> 
+In the arrangement shown the accelerations of blocks “1”, “2” and “3” are 2 <m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>, 8 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> and 2 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> respectively in upward direction. The masses of the pulleys and string are negligible. Friction is absent everywhere. Find the acceleration of the block “4”.
+</para>
+<para id="element-18">
+<figure id="fig-18">
+<title> Mixed pulley system </title>
+<media id="idm1407584" alt=""><image src="../../media/wp1-b2ce.gif" mime-type="image/gif"/></media>
+<caption> Three blocks have absolute accelerations in upward direction.</caption>
+</figure>
+</para>
+<para id="element-19"><term>Solution : </term> The accelerations of three blocks are given with respect to ground. For analysis in moving frames of pulleys, we assign directions of relative accelerations as shown in the figure below. The pulley “B” and “C” are hanging from fixed pulley, “A”. If pulley “B” moves up, then pulley “C” moves down. The blocks “1” and “2”, in turn, are hanging from moving pulley “B”. If relative acceleration of “1” is up, then relative acceleration of “2” is down as they are connected by one string. Similarly, the blocks “3” and “4” are hanging from moving pulley “C”. If relative acceleration of “3” is up, then relative acceleration of “4” is down as they are connected by one string. 
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> Mixed pulley system </title>
+<media id="idp7047408" alt=""><image src="../../media/wp2.gif" mime-type="image/gif"/></media>
+<caption> Directions of relative accelerations of the blocks are shown.</caption>
+</figure>
+</para>
+<para id="element-21">Let us now consider upward direction as positive. Since relative acceleration of block "1" is equal and opposite to relative acceleration of block "2", we have :
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">
+Expanding in terms of absolute accelerations, we have :
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>B</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">
+Putting given values, 
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>8</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">Now, pulleys “B” and “C” are connected through a string passing over a static pulley “A”. The accelerations of the moving pulleys “B” and “C” are, therefore, equal in magnitude but opposite in direction. From the analysis above, the pulley “B” has upward acceleration of 5 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>. It, then, follows that pulley “C” has acceleration of 5 
+<m:math>
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> in downward direction,
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>B</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">Again following the earlier reasoning that relative accelerations are equal and opposite, we have :
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mn>4</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>a</m:mi>
+          <m:mi>C</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-34">Putting values,
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>7</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>12</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">The negative sign shows that the block “4” moves down i.e. opposite to the positive reference direction, which is upward. 
+</para>
+</section>
+</section>
+<section id="section-4">
+<title> Limitation of analysis in moving frame of reference
+</title> 
+<para id="element-61">Analysis of accelerations of blocks attached to moving block is based on the fact that blocks are attached to a taut inflexible string. These accelerations of blocks are accelerations with respect to moving pulley, which is itself accelerating. We can not ,however, use these accelerations directly to analyze forces on the blocks as moving pulley system is an accelerated frame of reference. We need to determine acceleration with respect to ground i.e. inertial frame of reference in order to apply <link document="m14042">Newton's second law of motion</link>. 
+</para>
+<para id="element-62"> We, therefore, need to first determine acceleration with respect to ground using relation for <link document="m13618">relative motion</link>. Considering the moving pulley "B" and attached blocks "1" and "2", we have :
+</para>
+<para id="element-63a">
+<figure id="fig-63a">
+<title> Mixed pulley system </title>
+<media id="idm1084288" alt=""><image src="../../media/wp4.gif" mime-type="image/gif"/></media>
+<caption> Blocks "1" and "2" have equal and opposite relative accelerations </caption>
+</figure>
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>(</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>)</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>(</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>)</m:mo>
+
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-65"> There is yet another approach for analyzing forces in accelerating frame of reference. We apply the concept of pseudo force. We shall study about pseudo force subsequently in a separate module. Here, we shall limit our discussion to only the working steps as applied in the analysis of motion of moving pulley.   
+</para>
+
+<para id="element-66"> We assume a pseudo force on the body being studied in the accelerated frame. The magnitude of pseudo force is equal to the product of mass and acceleration of the frame of reference. It acts in the direction opposite to the acceleration of the frame of reference. While writing equation of motion, we also incorporate this force. But, we use acceleration of the body with respect to accelerated frame of reference - not with respect to inertial frame. This scheme is easily understood with an example. Considering the case as above, let us analyze the motion of block "1". Let us assume that moving pulley is accelerating upwards.
+</para>
+<para id="element-67"> Here, pseudo force is : 
+</para>
+<para id="element-67a">
+<figure id="fig-67a">
+<title> Pseudo force </title>
+<media id="idp5470672" alt=""><image src="../../media/wp5.gif" mime-type="image/gif"/></media>
+<caption> Force analysis in accelerated frame of reference </caption>
+</figure>
+</para>
+<para id="element-68"> 
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>s</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69"> The pseudo force is acting in downward direction as the moving pulley "B" is accelerating upward. Now, applying <link document="m14042">Newton's second law of motion</link>, we have : 
+</para>
+<para id="element-70"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>g</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>(</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>)</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-72"> Thus, we see that analyzing motion in accelerated frame with pseudo force is equivalent to analyzing motion in inertial frame.
+</para>
+</section>
+
+
+<section id="section-2">
+<title> Advantages of analysis in moving frame of reference
+</title>
+<para id="element-39">The consideration of relative acceleration as against absolute acceleration for analysis using constraint relation (see <link document="m14060">Pulleys</link>) has many advantages. We enumerate these advantages here as :
+</para>
+<para id="element-40"><term>1 :</term>  The relative accelerations of blocks with respect to moving pulley are equal in magnitude, but opposite in direction. This is based on the fact that blocks are attached with a single string that passes over moving pulley. This simplifies analysis a great deal.
+</para>
+<para id="element-51">On the other hand, if we refer accelerations to the ground, then we can not be sure of the directions of accelerations of the blocks as they depend on the acceleration of the pulley itself. It is for this reason that we generally assume same direction of absolute accelerations of the blocks. If the assumption is wrong, then we get negative value of acceleration after analysis, showing that our initial assumption about the direction was wrong and that the acceleration is actually opposite to that assumed. This technique was illustrated in the module on <link document="m14060">Pulleys </link>.
+</para>
+
+
+<para id="element-52"><term>2 :</term> Sometimes observed values are given in terms of relative reference in the first place. In this situation, we have the easy option to carry out analysis in the accelerated reference itself. Otherwise, we would be required to convert given values to the ground reference, using concept of relative acceleration and carry out the analysis in the ground reference.
+</para>
+
+</section>
+<section id="section-3">
+<title> Transition between absolute and moving reference </title>
+<para id="element-54">We enumerated advantages of relative acceleration technique. It does not, however, mean that analysis of motion in ground reference has no virtue. As a matter of fact, we are interested in the values, which are referred to ground reference – measurement of accelerations as seen in the ground reference. Even though, relative acceleration technique allows us to simplify solution; the analysis in accelerated frame essentially yields values, which are referred to the accelerated frame of pulley. Ultimately, we are required to convert the solution or values of acceleration in the ground reference.
+</para>
+<para id="element-55">On the other hand, we have seen in earlier module (see <link document="m14060">Pulleys</link>) that the technique of constraint relation is extremely effective. It relates velocities and accelerations of the elements of the system in the ground reference very elegantly – notwithstanding the complexity of the system. 
+</para>
+<para id="element-56">It emerges from above discussion that two frameworks of analysis have their relative strengths and weaknesses. It is, therefore, pragmatic to combine the strengths of two techniques in our analysis. We may transition between two analysis frameworks, using the concept of relative acceleration in one dimension. 
+</para>
+<para id="element-57"><equation id="equation-57">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</equation></para>
+<para id="element-58">The emphasis on the sequence of subscript almost makes the conversion mechanical. It is always helpful to read the relation : “the relative acceleration of “1” with respect to “2” is equal to the absolute acceleration of “1”, subtracted by the absolute acceleration of “2”.
+</para>
+</section>
+  </content>
+  
+</document>

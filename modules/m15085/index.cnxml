@@ -1,0 +1,908 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravitation</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>bf8da0cb-f17a-4182-b0eb-954c040ee285</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">Gravitation is an inherent property of all matter. Two bodies attract each other by virtue of their mass. This force between two bodies of any size (an atom or a galaxy) signifies existence of matter and is known as gravitational force. 
+</para>
+<para id="element-2">Gravitational force is weakest of four fundamental forces. It is, therefore, experienced only when at least one of two bodies has considerable mass. This presents difficulties in setting up illustrations with terrestrial objects. On the other hand, gravitation is the force that sets up our universe and governs motions of all celestial bodies. Orbital motions of satellites – both natural and artificial –  are governed by gravitational force.
+</para>
+<para id="element-3">Newton derived a law to quantify gravitational force between two “particles”. The famous incidence of an apple falling from a tree stimulated Newton’s mind to analyze observations and carry out series of calculations that finally led him to propose universal law of gravitation. A possible sequence of reasoning, leading to the postulation is given here :
+</para>
+<para id="element-4"><term>1: </term>	The same force of attraction works between “Earth (E) and an apple (A)” and between “Earth (E) and Moon (M)”.
+</para>
+<para id="element-5"><term>2: </term>	From the analysis of data available at that time, he observed that the ratio of forces of attraction for the above two pairs is equal to the ratio of square of distance involved as :
+</para>
+<para id="element-6"><figure id="fig-6">
+<title> Gravitational force </title>
+<media id="idm8343600" alt=""><image src="../../media/g1a.gif" mime-type="image/gif"/></media>
+<caption> Earth - moon - apple system </caption>
+</figure>
+</para>
+<para id="element-7"><m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mrow>
+            <m:mi>M</m:mi>
+            <m:mi>E</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mrow>
+            <m:mi>A</m:mi>
+            <m:mi>E</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:msup>
+            <m:mrow>
+              <m:mi>A</m:mi>
+              <m:mi>E</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:msup>
+            <m:mrow>
+              <m:mi>M</m:mi>
+              <m:mi>E</m:mi>
+            </m:mrow>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8"><term>3: </term> From above relation, Newton concluded that the force of attraction between any pair of two bodies is inversely proportional to the square of linear distance between them.
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>∝</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10"><term>4: </term>	From second law of motion, force is proportional to mass of the body being subjected to gravitational force. From third law of motion, forces exist in equal and opposite pair. Hence, gravitational force is also proportional to the mass of other body. Newton concluded that force of gravitation is proportional to the product of mass of two bodies.
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>∝</m:mo>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12"><term>5: </term>	Combining two “proportional” equations and introducing a constant of proportionality,"G", Newton proposed the gravitational law as  :
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">In order to emphasize the universal character of gravitational force, the constant “G” is known as “Universal gravitational constant”. Its value is :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>G</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6.67</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+    <m:mo>-</m:mo>
+    <m:msup>
+      <m:mi>m</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>/</m:mo>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>g</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16a">
+This law was formulated based on the observations on real bodies - small (apple) and big (Earth and moon). However, Newton’s law of gravitation is stated strictly for two particles. The force pair acts between two particles, along the line joining their positions as shown in the figure :
+</para>
+<para id="element-17">
+<figure id="fig-17">
+<title> Gravitational force </title>
+<media id="idp4134080" alt=""><image src="../../media/g2.gif" mime-type="image/gif"/></media>
+<caption> Force between two particles placed at a distance </caption>
+</figure>
+</para>
+<para id="element-18">Extension of this law to real bodies like Earth and Moon pair can be understood as bodies are separated by large distance (about 
+<m:math>
+  <m:mrow>
+    <m:mn>0.4</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> km), compared to dimension of bodies (in thousands km). Two bodies, therefore, can be treated as particles. 
+</para>
+<para id="element-19">On the other hand, Earth can not be treated as particle for “Earth and Apple” pair, based on the reasoning of large distance. Apple is right on the surface of Earth. Newton proved a theorem that every spherical shell (hollow sphere) behaves like a particle for a particle external to it. Extending this theorem, Earth, being continuous composition of infinite numbers of shells of different radii, behaves - as a whole - like a particle for external object like an apple. 
+</para>
+<para id="element-20">As a matter of fact, we will prove this theorem, employing gravitational field concept for a spherical mass like that of Earth. For the time being, we consider Earth and apple as particles, based on the Newton’s shell theory. In that case, the distance between Apple and center of Earth is equal to the radius of Earth i.e 6400 km.
+</para>
+<section id="section-1">
+<title>Magnitude of force</title>
+<para id="element-21">The magnitude of gravitational force between terrestrial objects is too small to experience. A general question that arises in the mind of a beginner is “why do not we experience this force between, say, a book and pencil?” The underlying fact is that gravitational force is indeed a very small force for masses that we deal with in our immediate surrounding - except Earth. 
+</para>
+<para id="element-22">We can appreciate this fact by calculating force of gravitation between two particle masses of 1 kg each, which are 1 m apart :
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>6.67</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>11</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:msup>
+        <m:mn>1</m:mn>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>6.67</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>   
+</para>
+<para id="element-24">This is too insignificant a force to manifest against bigger forces like force of gravitation due to Earth, friction, force due to atmospheric pressure, wind etc. 
+</para>
+<para id="element-25">Evidently, this is the small value of “G”, which renders force of gravitation so small for terrestrial objects. Gravitation plays visible and significant role, where masses are significant like that of planets including our Earth, stars and such other massive aggregation, including “black holes” with extraordinary gravitational force to hold back even light. This is the reason, we experience gravitational force of Earth, but we do not experience gravitational force due to a building or any such structures on Earth.
+</para>
+</section>
+<section id="section-2">
+<title>Gravitational force vector</title>
+<para id="element-26">Newton’s law of gravitation provides with expression of gravitational force between two bodies. Here, gravitational force is a vector. However, force vector is expressed in terms of quantities, which are not vectors. The linear distance between two masses, appearing in the denominator of the expression, can have either of two directions from one to another point mass.
+</para>
+<para id="element-27">Even if, we refer the linear distance between two particles to a reference direction, the vector appears in the denominator and is, then, squared also. In order to express gravitational force in vector form, therefore, we shall consider a unit vector in the reference direction and use the same to denote the direction of force as:
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Direction of gravitational force </title>
+<media id="idp3878304" alt=""><image src="../../media/g3.gif" mime-type="image/gif"/></media>
+<caption> Force between two particles placed at a distance </caption>
+</figure>
+</para>
+<para id="element-29"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+      <m:mn>12</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+		<m:mover>
+<m:mi mathvariant="bold"> r </m:mi>
+          <m:mo>‸</m:mo>
+		</m:mover>
+
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+      <m:mrow>
+        <m:mn>21</m:mn>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+		<m:mover>
+<m:mi mathvariant="bold"> r </m:mi>
+          <m:mo>‸</m:mo>
+		</m:mover>
+      </m:mrow>
+      <m:msup>
+          <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">Note that we need to put a negative sign before the second expression to make the direction consistent with the direction of gravitational force of attraction. We can easily infer that sign in the expression actually depends on the choice of reference direction.
+</para>
+</section>
+<section id="section-4">
+<title>Net gravitational force </title>
+<para id="element-51">Gravitation force is a vector quantity. The net force of gravitation on a particle is equal to resultant of forces due to all other particles. This is also known as “superposition principle”, according to which net effect is sum of individual effects. Mathematically,
+</para>
+<para id="element-52"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>Σ</m:mi>
+    <m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-53">Here, <term>F</term> is the net force due to other particles 1, 2, 3, and so on.
+</para>
+<para id="element-54">An extended body is considered to be continuous aggregation of elements, which can be treated as particles. This fact can be represented by an integral of all elemental forces due to all such elements of a body, which are treated as particles. The force on a particle due to an extended body, therefore, can be computed as : 
+</para>
+<para id="element-55">
+<figure id="fig-55">
+<title> Net gravitational force </title>
+<media id="idp7638656" alt=""><image src="../../media/g6.gif" mime-type="image/gif"/></media>
+<caption> Net gravitational force is vector sum of individual gravitations due to particle like masses. </caption>
+</figure>
+</para>
+<para id="element-56"><m:math display="block">
+  <m:mrow>
+<m:mi mathvariant="bold"> F </m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>d</m:mi>
+<m:mi mathvariant="bold"> F </m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-57">where integration is evaluated to include all mass of a body.
+</para>
+</section>
+<section id="section-3">
+<title>Examples</title>
+<section id="section-3a">
+<para id="element-32a"><term>Problem 1: </term>Three identical spheres of mass “M” and radius “R” are assembled to be in contact with each other. Find gravitational force on any of the sphere due to remaining two spheres. Consider no external gravitational force exists.
+</para>
+<para id="element-32">
+<figure id="fig-32">
+<title> Three identical sphered in contact </title>
+<media id="idm8891184" alt=""><image src="../../media/g4.gif" mime-type="image/gif"/></media>
+<caption> Three identical spheres of mass “M” and radius “R” are assembled in contact with each other. </caption>
+</figure>
+</para>
+<para id="element-33"><term>Solution : </term> The gravitational forces due to pairs of any two speres are equal in magnitude, making an angle of 60° with each other. The resultant force is :
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Three identical sphered in contact </title>
+<media id="idm1227520" alt=""><image src="../../media/g5.gif" mime-type="image/gif"/></media>
+<caption> Each sphere is attracted by other two spheres. </caption>
+</figure>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>F</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>F</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>F</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>cos</m:mi>
+          <m:msup>
+            <m:mn>60</m:mn>
+            <m:mn>0</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>  
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>F</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:mn>2</m:mn>
+          <m:msup>
+            <m:mi>F</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>X</m:mi>
+          <m:mfrac>
+            <m:mn>1</m:mn>
+            <m:mn>2</m:mn>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>  
+</para>
+<para id="element-37"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mrow>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msqrt>
+        <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">Now, the distance between centers of mass of any pair of spheres is “2R”. The gravitational force is :
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>M</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mi>R</m:mi>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>M</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">Therefore, the resultant force on a sphere is :
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>3</m:mn>
+        </m:msqrt>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>M</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<para id="element-42"><term>Problem 2: </term> Two identical spheres of uniform density are in contact. Show that gravitational force is proportional to the fourth power of radius of either sphere. 
+</para>
+<para id="element-43"><term>Solution : </term> The gravitational force  between two spheres is :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:msup>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mrow>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>r</m:mi>
+            </m:mrow>
+          </m:mfenced>
+        </m:mrow>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+Now, mass of each of the uniform sphere is :
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mi>ρ</m:mi>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+Putting this expression in the expression of force, we have :
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>16</m:mn>
+        <m:msup>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>6</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>ρ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>9</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>x</m:mi>
+        <m:mn>16</m:mn>
+        <m:msup>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>4</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>ρ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>36</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">Since all other quantities are constants, including density, we conclude that gravitational force is proportional to the fourth power of radius of either sphere,
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>∝</m:mo>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>4</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+</section>
+
+<section id="section-5">
+<title>Measurement of universal gravitational constant</title>
+<para id="element-58">
+The universal gravitational constant was first measured by Cavendish. The measurement was an important achievement in the sense that it could measure small value of “G” quite accurately. 
+</para>
+<para id="element-59">The arrangement consists of two identical small spheres, each of mass “m”. They  are attached to a light rod in the form of a dumb-bell. The rod is suspended by a quartz wire of known coefficient of torsion “k” such that rod lies in horizontal plane. A mirror is attached to quartz wire, which reflects a light beam falling on it. The reflected light beam is read on a scale. The beam, mirror and scale are all arranged in one plane. 
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Cavendish experiment  </title>
+<media id="idp5158464" alt=""><image src="../../media/g7.gif" mime-type="image/gif"/></media>
+<caption>  Measurement of universal gravitational constant</caption>
+</figure>
+</para>
+<para id="element-61">The rod is first made to suspend freely and stabilize at an equilibrium position. As no net force acts in the horizontal direction, the rod should rest in a position without any torsion in the quartz string. The position of the reflected light on the scale is noted. This reading corresponds to neutral position, when no horizontal force acts on the rod. The component of Earth's gravitation is vertical. Its horizontal component is zero. Therefore, it is important to keep the plane of rotation horizontal to eliminate effect of Earth’s gravitation. 
+</para>
+<para id="element-62">Two large and heavier spheres are, then brought across, close to smaller sphere such that centers of all spheres lie on a circle as shown in the figure above. The gravitational forces due to each pair of small and big mass, are perpendicular to the rod and opposite in direction. Two equal and opposite force constitutes a couple, which is given by :
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64">where “L” is the length of the rod. 
+</para>
+<para id="element-65">The couple caused by gravitational force is balanced by the torsion in the quartz string. The torque is proportional to angle “θ”   through which the rod rotates about vertical axis. 
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>τ</m:mi>
+      <m:mi>T</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">The position of the reflected light is noted on the scale for the equilibrium. In this condition of equilibrium,
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math> 
+</para>
+<para id="element-69">Now, the expression of Newton’s law of gravitation for the gravitational force is: 
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>G</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">where “m” and “M” are mass of small and big spheres. Putting this in the equilibrium equation, we have :
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>r</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">Solving for “G”, we have :
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>G</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>k</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-75">In order to improve accuracy of measurement, the bigger spheres are, then, placed on the opposite sides of the smaller spheres with respect to earlier positions (as shown in the figure below). Again, position of reflected light is noted on the scale for equilibrium position, which should lie opposite to earlier reading about the reading corresponding to neutral position. 
+</para>
+<para id="element-76">
+<figure id="fig-76">
+<title> Cavendish experiment  </title>
+<media id="idp2388112" alt=""><image src="../../media/g8.gif" mime-type="image/gif"/></media>
+<caption>  Measurement of universal gravitational constant</caption>
+</figure>
+</para>
+<para id="element-77">The difference in the readings (x) on the scale for two configurations of larger spheres is read. The distance between mirror and scale (y) is also determined. The angle subtended by the arc “x” at the mirror is twice the angle through which mirror rotates between two configurations. Hence,
+</para>
+<para id="element-78">
+<figure id="fig-78">
+<title> Cavendish experiment  </title>
+<media id="idp3819536" alt=""><image src="../../media/g9.gif" mime-type="image/gif"/></media>
+<caption>  Measurement of angle</caption>
+</figure>
+</para>
+<para id="element-79"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-249"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mrow>
+    <m:mn>4</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para><para id="element-80">We see here that beam, mirror and scale arrangement enables us to read an angle, which is 2 times larger than the actual angle involved. This improves accuracy of the measurement. Putting the expression of angle, we have the final expression for determination of “G”,
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>G</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>k</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>M</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>L</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+  </content>
+  
+</document>

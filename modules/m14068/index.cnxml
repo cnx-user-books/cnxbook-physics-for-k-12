@@ -1,0 +1,1142 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Friction</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>e5684963-2933-41cb-ae82-c74c47dd9356</md:uuid>
+</metadata>
+<content>
+
+<para id="element-1">
+Friction force (also referred simply as friction) plays the role of a dampener to the motion of a body that takes place in contact with another body. All motions involved in our daily life take place in contact with another body or medium. The force of opposition to the motion of a body in relation to another rigid body is called “friction” and in relation to fluid (liquid or gas) medium is called “drag”. 
+</para>
+
+<para id="element-2">
+Friction is a huge disadvantage to us. A good part of the energy used in this world goes waste to counteract this force. On the other hand, this force is also responsible for our existence and the very existence of life on the planet. Imagine its absence. How would have we stopped once in motion? Everything would have been perpetually in motion with no control. Could this life have evolved without friction in the first place? Friction is simply indispensable to us. 
+</para>
+<section id="section-1">
+<title> Genesis of friction
+</title>
+<para id="element-3">When bodies come in contact with each other, large numbers of atoms of the two surfaces come close to each other, affecting a temporary joint (referred as cold welds in technical parlance) i.e. atoms from the two surfaces become part of one body mass. These joints result from electromagnetic force operating between atoms, when brought sufficiently close. The temporary joints between two surfaces inhibit relative movement between two surfaces.
+</para>
+
+<para id="element-5">In general two ordinary surfaces are uneven at microscopic level. The surface is actually formed of small hills and valleys. All points across the surfaces do not come in contact. Still, there are large numbers of such contact points, forming temporary joints. 
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Surfaces in contact </title>
+<media id="idm6849872" alt=""><image src="../../media/f1-e530.gif" mime-type="image/gif"/></media>
+<caption> The surface is actually formed of small hills and valleys.</caption>
+</figure>
+</para>
+<para id="element-7">The weight of the body plays important role in determining friction. When the overlying body has greater mass, it applies greater force at the interface. More points come in contact or become sufficiently close to form joints. Further, all contact points are not cold welded or joints.  Due to the weight of the overlying body, more of the contact points become temporary joints or become stronger joints, requiring larger external force to initiate motion. Thus, friction depends on (i) numbers of points in contact (nature of the surfaces in contact) and (ii) normal force at the contact surface which presses them to come closure. 
+</para>
+<para id="element-8">Generally, a smooth polished surface is known to offer smaller friction with respect to a rough surface. When the surface is smooth, then there are more contact points, but corresponding force per point is smaller. In this case, the weight of the block, pressing against the surface beneath, is distributed across larger numbers of contact points. The net result is that there are greater numbers of contact points, but fewer welded joints opposing motion. Thus, a smooth surface offers smaller friction in comparison to rough surface. 
+ </para>
+<para id="element-9">However, if the surfaces are genuinely smooth to perfection and brought together, then there are much greater numbers of contact points, which are already sufficiently close and produce still larger numbers of weld sites. In such case, two bodies become almost inseparable and require a much greater external force to separate two bodies. If the joint is done between very smooth surfaces in the absence of air i.e. vacuum, then the cold welding, at contact sites covering larger contact area, makes the two pieces as one and the bodies are mechanically inseparable.</para>
+</section>  
+
+<section id="section-2">
+<title> Static friction
+</title>
+
+<para id="element-10">Static friction comes into play when a body tends to move over another body (surface), but the body has yet not been initiated into motion. When we apply a small force to initiate motion of a block, lying on a horizontal surface as shown in the figure; the temporary joints may not yield to the external force. This means that the force is not sufficient enough to break off the welds, which are formed at contact points. In this case, the external force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> || </m:mo>
+</m:msub>
+</m:math>
+) parallel to the contact surface is equal to the static friction,
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mo> s </m:mo>
+</m:msub>
+</m:math>
+, i.e.
+</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mo> s </m:mo>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> || </m:mo>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> A block on  plane surface </title>
+<media id="idm2950624" alt=""><image src="../../media/f2-8186.gif" mime-type="image/gif"/></media>
+<caption> A block is pulled by a horizontal force.</caption>
+</figure>
+</para>
+<para id="element-14">Note that friction force comes into being even before motion is initiated. If we increase the external force in the direction parallel to the contact surface, then friction force increases so that two forces are equal in magnitude and opposite to each other. It is important to understand that friction responds to the net external force parallel to the contact surface to match the magnitude. In this sense, static friction force is a "self adjusting" force against net external force parallel to the contact force (F||) or the component of external forces along contact surface.
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Friction and applied force </title>
+<media id="idm7896512" alt=""><image src="../../media/f3-c09b.gif" mime-type="image/gif"/></media>
+<caption> Friction is equal to external force parallel to the contact force. </caption>
+</figure>
+</para>
+<para id="element-16">
+Self adjusting force means that if a 2 N force parallel to contact surface fails to initiate motion, then static friction is 2 N; if a 4 N force parallel to contact surface fails to initiate motion, then static friction is 4 N and so on.
+</para>
+<example id="example-17">
+<para id="element-17"><term>Problem : </term> A force of 10 N is applied on a block of 10 kg. The force makes an angle 60° with the horizontal. If the block fails to move, then find static friction between two surfaces.
+</para>
+<para id="element-18"><term>Solution : </term> Here, the block is not initiated into motion by the external force. Now, we know that static friction is equal to the component of net external force parallel to contact surface :
+</para> 
+<para id="element-19">
+<figure id="fig-19"><title> A block on a plane surface </title>
+<media id="idm7253712" alt=""><image src="../../media/f4-c3bf.gif" mime-type="image/gif"/></media>
+<caption> The block is pulled by an external force of 10 N. </caption>
+</figure>
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> || </m:mo>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 60 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+<para id="element-21">We must realize following characteristics of the static friction from the discussion so far :
+</para>
+<para id="element-22">
+<list id="list-2" list-type="bulleted"><item> So long the body does not start moving, the static friction is equal to the component of net external force  in the direction parallel to contact surface. 
+  </item>
+<item> So long the body does not start moving, the static friction is a self adjusting force i.e. it varies with net external force in the direction parallel to contact surface. 
+ </item>
+</list>
+</para>
+<para id="element-23">Also, we must realize that friction force (
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+) and component of external force parallel to contact surface (
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mo> || </m:mo>
+</m:msub>
+</m:math>
+)  are parallel to each other and may not be concurrent in reality. However, we treat them concurrent, while analyzing - for the simple reason that we are considering translational motion. In this situation, the forces can be considered concurrent.
+</para>
+<para id="element-24">
+<figure id="fig-24"><title> A block on a plane surface </title>
+<media id="idm4077584" alt=""><image src="../../media/f5-9de0.gif" mime-type="image/gif"/></media>
+<caption> The forces are not concurrent, but are considered concurrent for translational motion. </caption>
+</figure>
+</para>
+<para id="element-934"><note id="idm5065392">In this course we shall follow a convention to denote various friction forces. According to this convention, "
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+</m:math>
+" denotes friction in general, whose nature is not known; "
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+" denotes self adjusting static friction ; "
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:math>
+" denotes limiting or maximum static friction and "
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+</m:math>
+" denotes kinetic friction.
+</note></para><section id="section-2a">
+<title> Nature of force system
+</title>
+<para id="element-25">If the body remains at rest under the action of an external force, then the forces on the body are balanced. This means that the forces on the body, including friction, should complete a closed force polygon so that the net force is zero. Let us consider the case of a block of mass “m”, lying on a horizontal surface. There are four forces (i) weight of the block,mg, (ii) normal force, N, (iii) external force (F) and (iv) friction force (
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+
+).
+</para>
+<para id="element-26">
+<figure id="fig-26"><title> A block resting on a plane surface </title>
+<media id="idm2497312" alt=""><image src="../../media/f6a.gif" mime-type="image/gif"/></media>
+<caption> The forces form a closed vector polygon. </caption>
+</figure>
+</para><para id="element-843">Till the body starts moving, the external force and static friction adjust themselves to complete the closed polygon. </para>
+
+</section>  
+</section>  
+
+<section id="section-3">
+<title> Limiting (maximum) static friction
+</title>
+
+<para id="element-27">If we continue to increase the component of external force parallel to the contact surface, then for a particular magnitude, the weld joints at the contact points are broken off and the block starts moving. For any particular pair of surfaces, there is a limiting or maximum static friction (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+). 
+</para>
+<para id="element-28">This limiting friction force between two surfaces can not be specified on the basis of the constitution of the material of bodies alone (such as the iron, lead etc), but its value depends on two additional factors (i) the relative smoothness or roughness of the two surfaces in contact and (ii) normal force between the two surfaces. Normal force is responsible to increase numbers of joints between the surfaces and as such affects friction between surfaces. In order to understand this aspect of friction, let us consider that the mass of block is 10 kg and acceleration due to gravity is 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. From force analysis, we observe that normal force on the body is equal to the weight of the block :
+</para>
+<para id="element-30">
+
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> mg </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mtext> Newton </m:mtext>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-31">
+<figure id="fig-31">
+<title> A block resting on a plane surface </title>
+<media id="idm2283024" alt=""><image src="../../media/f7-e86b.gif" mime-type="image/gif"/></media>
+<caption> The free body diagram superimposed on body systems. </caption>
+</figure>
+</para>
+<para id="element-32">Now, let us put another block of mass of 10 kg over the block on the surface. As a result, the normal force increases to 200 N as shown in the figure below. 
+</para>
+<para id="element-33">
+<figure id="fig-33">
+<title> Two blocks resting on a plane surface </title>
+<media id="idm3466368" alt=""><image src="../../media/f8-5955.gif" mime-type="image/gif"/></media>
+<caption> Greater normal force means more joints between surfaces. </caption>
+</figure>
+</para>
+<para id="element-34">As the block is now pressing the underlying surface with greater force, more of the contact points are converted into weld sites. Plainly speaking, the atoms at contact points have moved closure, increasing the inter-atomic forces. For the same pair of surfaces, we would, then, need a bigger maximum force (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+) to initiate motion as shown in the figure below.
+</para>
+<para id="element-35">
+<figure orient="horizontal" id="fig-35"><title> Friction .vs. external force plot  </title>
+<subfigure id="fig-35a">
+<media id="idm5134704" alt=""><image src="../../media/f8b.gif" mime-type="image/gif"/></media>
+</subfigure>
+<subfigure id="fig-35b">
+<media id="idm6264560" alt=""><image src="../../media/f9a.gif" mime-type="image/gif"/></media>
+</subfigure>
+<caption> Greater normal force extends maximum static friction. </caption>
+</figure>
+</para>
+<para id="element-36">
+Experimentally, it is found that maximum friction force is proportional to normal force on the block. 
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ∝ </m:mo>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">where 
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+ is called coefficient of static friction, specific to a given pair of the surfaces in contact. It depends on the nature of the surfaces in contact. Importantly, it neither depends on the normal force unlike friction (force) nor it depends on the area in contact. We should also note that coefficient of friction, 
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>, being equal to 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> N </m:mi>
+</m:mfrac>
+</m:math>
+ is a ratio of two forces and is, therefore, dimensionless. Further, coefficient of static friction is defined only for the maximum static friction, when body is about to move and not for friction before this stage. What it means that we can not estimate self adjusting static friction, using above relation. The self adjusting friction, as we can remember, is equal to the component of external force parallel to the contact surface.
+</para>
+
+<para id="element-39">
+Here, we distinguish maximum static friction force by denoting it with the symbol “
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+”, whereas static friction before motion is denoted by “
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+”. 
+</para>
+<para id="element-40">
+We summarize following characterizing aspects of static (
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+) and maximum static friction (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+) :
+</para>
+<para id="element-41">
+<list id="list-41" list-type="enumerated"><item> Static friction applies in the direction opposite to the component of net external force parallel to contact surface. This, as a matter of fact, is the criteria of deciding direction of friction.
+ </item>
+<item> Self adjusting static friction (
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+) is equal to the component of net external force parallel to contact surface. It ranges from 0 to a maximum value 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+. Static friction is a self adjusting friction force. It is important to emphasize that static friction, unlike maximum (limiting) static friction, is not given by the expression of coefficient of friction. Note the relation for static friction : 
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> || </m:mo> 
+</m:msub>
+</m:math>
+ (and 
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> ≠ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+
+<m:mi> N </m:mi>
+</m:math>
+)
+ </item>
+<item> Maximum static friction is proportional to normal force applied on the body and is a single value (unlike static friction) quantity.
+ </item>
+<item> The relation between maximum (limiting) static friction and normal force is a scalar relation. This relation connects forces, which are mutually perpendicular to each other.
+ </item>
+</list>
+</para>
+<example id="example-42">
+<para id="element-42"><term>Problem : </term> A force "F" is applied on a block of  mass "m", making an angle "θ" with the horizontal as shown in the figure. If the block just starts to move with the applied force, find (i) maximum static friction and (ii) static friction coefficient for the two surfaces in contact. 
+</para>
+<para id="element-43">
+<figure id="fig-43">
+<title> Block on a horizontal plane </title>
+<media id="idp1746880" alt=""><image src="../../media/f11-2d7d.gif" mime-type="image/gif"/></media>
+<caption> The block is pulled by an external force. </caption>
+</figure>
+</para>
+<para id="element-44"> <term>Solution : </term> (i) The maximum static friction is equal to the force parallel to contact surface to initiate the motion. Thus,
+</para> 
+<para id="element-45">
+<figure id="fig-45"><title> Block on a horizontal plane </title>
+<media id="idp3372112" alt=""><image src="../../media/f12a.gif" mime-type="image/gif"/></media>
+<caption> The block is pulled by an external force. </caption>
+</figure>
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">(ii)	Coefficient of static friction is ratio of normal force and friction. We, therefore, need to know the normal force on the block. Now, force analysis in y-direction results in following relation for normal force,
+</para>
+<para id="element-48"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> + </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> N </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">Hence,
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> N </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>  
+
+<section id="section-4">
+<title> Kinetic friction
+</title>
+
+
+<para id="element-51">If the external force parallel to contact surface exceeds maximum static friction, then the body starts moving over underlying surface. It does not mean, however, that friction between surfaces disappears. New contact points between surfaces come in contact, some of which are momentarily joined and then broken on continuous basis. The friction force is dropped slightly (almost instantly); but remains constant - independent of the velocity of the body. 
+</para>
+<para id="element-52">
+We denote kinetic friction force as 
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+ and corresponding friction coefficient as 
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+. The kinetic friction is related to normal force as :
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> ∝ </m:mo>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">
+The coefficient of kinetic friction is generally independent of the velocity of the body and is practically considered constant.
+</para>
+
+<section id="section-4a">
+<title> Motion over a rough surface
+</title>
+<para id="element-72">
+Once the external force along the contact surface exceeds limiting or maximum static friction, the body starts moving on the surface. The nature of motion, subsequent to initiation, depends on the external force. There are two possibilities :
+</para>
+<para id="element-73">
+<term>1:</term>Uniform motion :
+</para>
+<para id="element-74">The external force along the contact surface exactly equals to kinetic friction during the motion. In this case, the body is subjected to a balanced external force system (including friction) having zero net force. As such, the body will continue moving with whatever initial velocity is given to the body. What it means that we apply external force, 
+<m:math>
+<m:mi> F </m:mi>
+<m:mo> &gt; </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+, momentarily to impart initial velocity to the body and then subsequently maintain uniform velocity by external force, F, such that 
+<m:math>
+<m:mi> F </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+. 
+</para>
+<para id="element-75">A typical friction force - time plot for the situation is shown in the figure. Here, we have considered that external force along the contact surface is  increased slowly till it equals maximum static friction, then external force is adjusted simply to maintain velocity of the body.
+</para>
+<para id="element-76">
+<figure id="fig-76"><title> Freiction .vs. time plot </title>
+<media id="idm766064" alt=""><image src="../../media/f14a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-77">The maximum static friction coefficient, 
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+, and kinetic friction coefficient, 
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+, are usually close values for a pair of given surfaces and may be taken to be equal as an approximation.
+</para>
+<para id="element-78">
+<term>2:</term> Accelerated motion :
+</para>
+<para id="element-79">
+If we maintain external force along the contact surface in excess of kinetic friction, then body undergoes accelerated motion. 
+</para>
+<para id="element-80">
+<figure id="fig-80"><title> Accelerated motion </title>
+<media id="idm4563744" alt=""><image src="../../media/f15a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-81">
+The free body diagram is shown here in the figure. Let “a” be the acceleration towards right.
+</para>
+<para id="element-82">
+<figure id="fig-82"><title> Free body diagram </title>
+<media id="idm956112" alt=""><image src="../../media/f16a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+
+
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<example id="example-55">
+<para id="element-55"><term>Problem : </term> A block of 10 kg is moving with a speed 10 m/s along a straight line on a horizontal surface at a particular instant. If the coefficient of kinetic friction between block and the surface is 0.5, then find (i) how long does it travel before coming to a stop and (ii) the time taken to come to a stop. Assume g = 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math> 
+.
+</para>
+<para id="element-56"> <term>Solution : </term> Kinetic friction is a constant force that acts opposite to the relative velocity of the block with respect to the surface on which it moves. This constant force results in constant deceleration, whose magnitude is given by :
+</para> 
+<para id="element-58">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-59">
+Now the free body diagram of the block as superimposed on the body diagram is shown in the figure. 
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Block moving on a horizontal plane </title>
+<media id="idp2388080" alt=""><image src="../../media/f17.gif" mime-type="image/gif"/></media>
+<caption> Friction decelerates the block to a stop. </caption>
+</figure>
+</para>
+<para id="element-61">
+As there is no motion in y-direction,
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+In x-direction, the magnitude of acceleration is :
+</para>
+<para id="element-64"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0.5 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> 10 </m:mo> 
+<m:mo> = </m:mo> 
+<m:mo> 5 </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:msup>
+<m:mi> s </m:mi>
+<m:mo> 2 </m:mo> 
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">As the deceleration is constant, we can employ equation of motion to determine the displacement in x-direction.
+</para>
+<para id="element-66">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mo> 2 </m:mo> 
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> u </m:mi>
+<m:mo> 2 </m:mo> 
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mo> 2 </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">
+Here, v = 0, u = 10 m/s and a = -5 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:msup>
+<m:mi> s </m:mi>
+<m:mo> 2 </m:mo> 
+</m:msup>
+</m:math>
+.
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 0 </m:mn> 
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mn> 10 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mo> x </m:mo> 
+<m:mn> 5 </m:mn> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 100 </m:mn> 
+<m:mn> 10 </m:mn> 
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 10 </m:mn> 
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+If “t” is time taken, then using the relation v = u + at, we have :
+</para>
+<para id="element-70">
+⇒ 0 = 10 – 5t
+</para>
+<para id="element-71">
+⇒ t = 2s
+</para>
+</example>
+
+</section>  
+
+</section>  
+  
+<section id="section-5">
+<title> Laws of friction
+</title>
+
+<para id="element-84">
+The properties of friction as explained above are summarized in three laws of friction as :</para>
+<para id="element-85">
+<term>1:</term> If a force fails to initiate the motion of a body in contact with another surface, then static friction is equal to the component of net external force parallel to the surface of the contact surface.
+</para>
+<para id="element-86">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mo> || </m:mo>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+<term>2:</term> The static friction has a maximum value (Fs), which is given by :
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">where 
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+   is the coefficient of static friction and "N" is the magnitude of normal force. The maximum static friction (
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+) and normal force (N) are mutually perpendicular to each other . The coefficient of static friction depends on the nature of the surfaces in contact.
+</para>
+<para id="element-91">
+<term>3:</term> If the body begins to move along the surface, then friction force, called kinetic friction,  is reduced slightly, which is given by :
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-93">where "
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:math>
+" is coefficient of kinetic friction and depends on the nature of surfaces in contact. Experimentally, it is found that  
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> &lt; </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+.
+</para>
+
+</section>  
+
+<section id="section-6">
+<title> Area of contact and friction
+</title>
+<para id="element-94">
+We observe that area of contact does not appear anywhere in our consideration of friction. Though, we might generally believe that a greater contact area should offer greater friction and would be difficult to move. 
+</para>
+<para id="element-95">In order to understand the absence of area in our consideration, let us consider the different shapes of bodies of equal mass in contact with a given surface.
+</para>
+<para id="element-96">
+<figure id="fig-96"><title> Shapes of bodies and friction </title>
+<media id="idp155696" alt=""><image src="../../media/f18.gif" mime-type="image/gif"/></media>
+<caption> Irrespective of the difference in contact areas, the friction in all three cases is same.
+</caption>
+</figure>
+</para>
+<para id="element-97">
+Irrespective of the difference in contact areas, the friction in all three cases is same.
+</para>
+<para id="element-98">If we recall, friction results from the temporary joints formed between the contact surfaces. Thus, friction depends on (i) the numbers of contact points and (ii) the force inducing joints at these contact points. 
+</para>
+<para id="element-99">The actual contact area may be much less - only up to 40 % of the total surface area in the case of ordinary plane surface. This means that friction does not depend on the total area, but only the part of the area which is actually in contact with the other surface.  This fact is incorporated in our consideration through "coefficient of friction" – which represents the mutual characteristic of two surfaces – not of one surface. It largely accounts for the numbers of contact points between two surfaces and hence is characteristic of a pair of surfaces in contact. 
+</para>
+<para id="element-100">On the other hand, formation of joints at the contact points depend on the distribution of normal force at contact points. Normal force, in turn, is distributed across the surface. If the density of contact points throughout is uniform, we can say that formation of joints depends on the normal force per unit area. Normal force is equal to the product of normal force per unit area and area as given here : </para>
+<para id="element-101">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> N </m:mi>
+<m:mi> A </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> A </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-102">It is clear that by considering normal force we have implicitly accounted for the area of contact. In the nutshell, we can say in a very general way that (i) coefficient of friction largely accounts for the contact points between a given pair of surfaces and (ii) normal force accounts for the distribution of force at contact points across the whole area. 
+</para>
+
+</section>  
+ 
+  </content>
+  
+</document>

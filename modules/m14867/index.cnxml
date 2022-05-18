@@ -1,0 +1,630 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rocket (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>a3137e78-9297-4b1f-8139-cb02df239482</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4">We discuss problems, which highlight certain aspects of the study leading to rocket. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5">
+<list id="list-5" list-type="bulleted">
+
+<item> Initial acceleration
+</item>
+<item> Fuel consumption rate
+</item>
+<item> Projection from space
+</item>
+<item> Motion under gravity
+</item>
+</list>
+</para>
+</section>
+<section id="section-3">
+<title> Initial acceleration
+</title>
+<section id="section-3a">
+<para id="element-6"><term>Problem 1 : </term> A rocket of total mass 500 kg is fired from the surface of Earth in vertical direction. The rocket consumes fuel at 1.5 kg/s and ejects gas at 2000 m/s. Find initial acceleration of the rocket. Neglect air resistance.
+</para>
+<para id="element-7"><term>Solution : </term>  We consider thrust on the rocket assuming no other external force and then apply force due to gravity in the opposite direction in order to get the initial force on the rocket.
+</para>  
+<para id="element-8">The equation of rocket in terms of fuel consumption rate is :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-10">Putting values,
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2000</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>3000</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">Now, the magnitude of force due to gravity on the rocket is equal to its initial weight,
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>g</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>500</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>5000</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-15">Thus, there is net force of 5000 – 3000 = 2000 N on the rocket in the downward direction. The rocket, therefore, is unable lift itself. Its initial acceleration is zero.
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<para id="element-17"><term>Problem 2 : </term> A rocket of total mass 500 kg is fired from the surface of Earth in vertical direction. The rocket consumes fuel at 3 kg/s and ejects gas at 2500 m/s. Find initial acceleration of the rocket. Neglect air resistance.
+</para>
+<para id="element-18"><term>Solution : </term>  The initial acceleration of the rocket, which includes effect of gravity, is given by :
+</para>  
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>T</m:mi>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>g</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">Here,
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2500</m:mn>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mn>7500</m:mn>
+      <m:mi>N</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>g</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>500</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>5000</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-23">Putting values,
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mn>7500</m:mn>
+          <m:mo>−</m:mo>
+          <m:mn>5000</m:mn>
+        </m:mrow>
+      </m:mrow>
+      <m:mn>500</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+
+<section id="section-4">
+<title> Fuel consumption rate
+</title>
+<section id="section-4a">
+<para id="element-25"><term>Problem 3 : </term> A rocket of total mass 500 kg is fired from the surface of Earth in vertical direction. The rocket ejects gas at 2500 m/s. Find fuel consumption rate to just lift the rocket. 
+</para>
+<para id="element-26"><term>Solution : </term>  For the given situation, the upward direction is equal to the weight of the rocket in downward direction. 
+</para> 
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-30">Putting values,
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>500</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>2500</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-4b">
+<para id="element-25a"><term>Problem 4 : </term> A rocket of total mass 500 kg is fired from the surface of Earth in vertical direction. The rocket ejects gas at 2500 m/s. Find fuel consumption rate so that its initial acceleration is twice that of acceleration due to gravity.
+</para>
+<para id="element-26a"><term>Solution : </term>  The required acceleration is twice to that of  acceleration due to gravity :
+</para> 
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>g</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">The equation of rocket is :
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>T</m:mi>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>g</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>r</m:mi>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>m</m:mi>
+        <m:mi>g</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35"> Putting values,
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mrow>
+          <m:mi>r</m:mi>
+          <m:mi>X</m:mi>
+          <m:mn>2500</m:mn>
+          <m:mo>−</m:mo>
+          <m:mn>500</m:mn>
+          <m:mi>X</m:mi>
+          <m:mn>10</m:mn>
+        </m:mrow>
+      </m:mrow>
+      <m:mn>500</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2500</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>500</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>500</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10000</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>5000</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>15000</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>15000</m:mn>
+      <m:mn>2500</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>k</m:mi>
+    <m:mi>g</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-5">
+<title> Projection from space
+</title>
+<para id="element-39"><term>Problem 5 : </term> A rocket of total mass 500 kg is fired from the surface of a permanent space station. The rocket consumes fuel at 1.5 kg/s and ejects gas at 2000 m/s. Find its velocity at the time its mass reduces to 50 kg.
+</para>
+<para id="element-40"><term>Solution : </term>  We have seen in earlier example that the rocket was unable to lift itself from the surface of Earth for the given design parameters. However, the same can be projected from a space station where gravity is zero. Assuming that space station is massive enough to remain in its position, the velocity of the rocket is given by :
+</para> 
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.303</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>log</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">Putting values,
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.303</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2000</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>log</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>500</m:mn>
+          <m:mn>50</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.303</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2000</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4606</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-6">
+<title> Motion under gravity
+</title>
+<para id="element-45"><term>Problem 5 : </term> A rocket of total mass 500 kg,  carrying 450 kg of fuel, is fired from the surface of Earth in vertical direction. The rocket consumes fuel at 3 kg/s and ejects gas at 2500 m/s. If acceleration due to gravity is assumed constant during its flight, find its velocity,  when all fuel has been consumed. Neglect air resistance. 
+</para>
+<para id="element-46"><term>Solution : </term>  This problem assumes that acceleration due to gravity is constant in the region of flight. We see here that gravity decelerates rocket at a constant rate irrespective of the mass of rocket. Recall that acceleration due to gravity does not depend on mass, as “mass” appears both (i) as cause of gravitational force and (ii) as object subjected to the gravitation force. 
+</para> 
+<para id="element-45a">Further, it can be seen that rocket is able to lift itself for the given design parameters. Now, applying deceleration due to gravity to the equation of velocity of rocket, we have :
+</para>
+<para id="element-46a">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.303</m:mn>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+    <m:mi>log</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>i</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mi>f</m:mi>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">Here fuel consumption rate is given. Hence, we can find the total time for the consumption of total fuel,
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>450</m:mn>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>150</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">Putting values in the expression of velocity of the rocket, we have :
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2.303</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2500</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>log</m:mi>
+    <m:mfrac>
+      <m:mn>500</m:mn>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>500</m:mn>
+            <m:mo>−</m:mo>
+            <m:mn>50</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>150</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4606</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>1500</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4106</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+
+
+
+
+
+
+  </content>
+  
+</document>

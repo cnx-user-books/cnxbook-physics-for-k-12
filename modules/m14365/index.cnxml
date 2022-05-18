@@ -1,0 +1,1806 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Moments of inertia of rigid bodies (application)</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14365</md:content-id>
+  <md:title>Moments of inertia of rigid bodies (application)</md:title>
+  <md:abstract>Solving problems is an essential part of the understanding process.</md:abstract>
+  <md:uuid>501e4a9e-a0bc-4625-b910-057d71981adc</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+Questions and their answers are presented here in the module text format as if it were an extension of the theoretical treatment of the topic. The idea is to provide a verbose explanation of the solution, detailing the application of theory. Solution presented here, therefore, is treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation.
+</para>
+<section id="section-1">
+<title> Hints on solving problems </title>
+
+<para id="element-2">
+<list id="list-2" list-type="bulleted"><item> Moment of inertia is a scalar quantity without any directional property. This has important implication in solving problems, which involve removal of a part of the rigid body from the whole. We need to simply use the MI formula for a given shape with changed mass of the remaining body, ensuring that the pattern of mass distribution about the axis has not changed.
+ </item>
+<item> Moment of inertia about an oblique axis involves MI integration with certain modification. Here, mass distribution and distance involve different variables. We are required to express integral in terms of one variable so that the same can be integrated by single integration process.
+ </item>
+<item> In determining relative MIs, we should look how closely or how distantly mass is distributed. This enables us to compare MIs without actual calculation in some cases.
+ </item>
+<item> So far, we have studied calculation of MI for uniform objects. However, we can also evaluate MI integral, if variation in mass follows certain pattern and the same can be expressed in terms of mathematical expression involving variable. 
+ </item>
+</list>
+</para>
+</section>
+
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+
+
+<para id="element-3">We discuss problems, which highlight certain aspects of the calculation of moment of inertia of regularly shaped rigid bodies. For this reason, questions are categorized in terms of the characterizing features pertaining to the questions as :
+</para>
+<para id="element-4">
+<list id="list-4" list-type="bulleted"><item> Using MI formula </item>
+<item> Estimation of MI by inspection </item>
+<item> Part of a rigid body </item>
+<item> Non-uniform mass distribution </item>
+</list>
+</para>
+<section id="section-2a">
+<title> Using MI formula
+</title>
+<para id="element-5"><term>Example 1 </term> </para>
+<para id="element-6"><term>Problem : </term> The moment of inertia of a straight wire about its perpendicular bisector and moment of inertia of a circular frame about its perpendicular central axis are 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+respectively. If the composition of wires are same and lengths of the wires in them are equal, then find the ratio 
+<m:math>
+<m:mfrac bevelled="true">
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:math>
+.
+</para>
+<para id="element-7"> <term>Solution : </term> The MI of the straight wire about a perpendicular through the mid point is :
+</para>
+
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10">
+The MI of the circular frame about its perpendicular central axis is :
+</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">According to question, the lengths of the wires in them are equal. As the composition of the wires same, the mass of two entities are same. Also :
+</para>
+<para id="element-14"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-15">
+Substituting in the expression of MI of circular frame,
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:msup>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+Now, the required ratio is :
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> x </m:mo> 
+<m:mn> 4 </m:mn>
+<m:msup>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 12 </m:mn>
+<m:mo> x </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> π </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-20"><term>Example 2 </term> </para>
+<para id="element-21"><term>Problem : </term> 
+The moments of inertia of a solid sphere and a ring of same mass about their central axes are same. If 
+<m:math>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:math>
+ be the radius of solid sphere, then find the radius of the ring.
+</para>
+<para id="element-22"><term>Solution : </term> The MI of the solid sphere about its central axis is given as :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">Let the radius of the ring is 
+<m:math>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+</m:math>
+. The MI of the ring about its central axis is given as :
+</para>
+<para id="element-25"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">According to question, the moments of inertia of the solid sphere and the ring about their central axes are same :
+</para>
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> r </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> x </m:mo>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-2b">
+<title> Estimation of MI by inspection
+</title>
+<para id="element-29"><term>Example 3 </term> </para>
+<para id="element-30"><term>Problem : </term> 
+Find the axis of the coordinate system about which the moment of inertia of a uniform rectangle of dimensions "a" and "2a" is least.
+</para>
+<para id="element-31">
+<figure id="fig-31"><title> Rectangular plate </title>
+<media id="id7951727" alt=""><image src="../../media/mi1q.gif" mime-type="image/gif"/></media>
+<caption> MI of rectangular plate about an axis.</caption>
+</figure>
+</para>
+<para id="element-32"><term>Solution : </term> We can actually determine MI about the given axes by evaluating the integral of MI about each of the axes and then compare. However, we can as well estimate least MI as mass of the rectangle is uniformly distributed. MI is least for the axis about which the mass is distributed closest to it. 
+</para>
+
+<para id="element-176"><figure id="fig-176"><title> Rectangular plate </title>
+<media id="id1166507956555" alt=""><image src="../../media/miq1b.gif" mime-type="image/gif"/></media>
+<caption> MI of rectangular plate about z-axis.</caption>
+</figure></para><para id="element-33">We can see here that the most distant mass about x-axis is at a distance "a/2"; most distant mass about y-axis is at a distance "a"; most distant mass about z-axis at a distance between "a" and "√5a/2".
+</para>
+<para id="element-34">
+Here, mass distribution is closest about x-axis. Thus, moment of inertia about x-axis is least.
+</para>
+
+</section>
+
+
+<section id="section-2c">
+<title> Part of a rigid body
+</title>
+<para id="element-35"><term>Example 4 </term> </para>
+<para id="element-36"><term>Problem : </term> 
+Find the the MI of one quarter of a circular plate of mass "M" and radius "R" about z-axis, as shown in the figure.
+</para>
+<para id="element-37">
+<figure id="fig-37"><title> Quarter plate </title>
+<media id="id7669344" alt=""><image src="../../media/miq2.gif" mime-type="image/gif"/></media>
+<caption> MI of quarter plate about z-axis.</caption>
+</figure>
+</para>
+<para id="element-38"><term>Solution : </term> We need to look closely the way MI about an axis is defined. MI of the rigid body about the an axis is given by :
+</para>
+
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> M </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> R </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+This definition is essentially scalar in nature. The "R" in the expression is perpendicular distance of a particle from the axis of rotation. Does it matter whether the particle lie on left or right of the axis? Obviously no. It means that MI has no directional attribute. Thus, we can conclude that MI of the quarter plate is arithmetic quarter (1/4) of the MI of a complete disk, whose mass is 4 times greater than that of quarter plate.
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Circular plate </title>
+<media id="id1166502428769" alt=""><image src="../../media/miq3.gif" mime-type="image/gif"/></media>
+<caption> MI of complete circular plate. </caption>
+</figure>
+</para>
+<para id="element-42">
+Hence, mass of the corresponding complete disk is 4M and radius is same R as that of quarter plate. The MI of the complete disk about perpendicular axis to its surface is :
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+Now, MI of the quarter plate is 1/4 of the complete disk,
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> O </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> ( </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> M </m:mi>
+<m:mo> ) </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+
+<para id="element-565"><term> Note : </term> We notice that the expression of MI has not changed for the quarter plate. We must, however, be aware that the symbol "M" represents mass of the quarter plate - not that of the complete circular plate. </para><para id="element-46"><term>QBA (Question based on above) : </term> 
+The MI of a uniform disk is 1.0 
+<m:math>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ about its perpendicular central axis. If a segment, subtending an angle of 120° at the center, is removed from it, then find the MI of the remaining disk about the axis.
+</para>
+<para id="element-47"><term>Hint : </term> We see that 120°/360° = 1/3 part of the complete disk is removed. Therefore, the mass of the remaining part is 1-1/3 = 2/3. Answer is “2/3 
+<m:math>
+<m:mi> kg </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+”.</para>
+</section> 
+
+<section id="section-2d">
+<title> Oblique axis 
+</title>
+<para id="element-48"><term>Example 5 </term> </para>
+<para id="element-49"><term>Problem : </term> 
+Determine the moment of inertia of a uniform rod of length "L" and mass "m" about an axis passing through its center and inclined at an angle "θ" as shown in the figure.
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> MI of a rod </title>
+<media id="id5895189" alt=""><image src="../../media/miq4.gif" mime-type="image/gif"/></media>
+<caption> MI of a rod about an axis making an angle with the rod </caption>
+</figure>
+</para>
+<para id="element-50a"><term>Solution : </term> We shall work out MI from the basic integral expression for elemental mass  :
+</para>
+
+<para id="element-50c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-50d">
+Let us consider an small element "dx" along the length, which is situated at a linear distance "x" from the axis. The elemental mass, however, is at a perpendicular distance AB from the axis of rotation – not “x’. 
+</para>
+<para id="element-51">
+<figure id="fig-51">
+<title> MI of a rod </title>
+<media id="id6920095" alt=""><image src="../../media/miq5.gif" mime-type="image/gif"/></media>
+<caption> MI of a rod about an axis making an angle with the rod </caption>
+</figure>
+</para>
+<para id="element-52">
+From ΔOAB,
+</para>
+<para id="element-53"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> x </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-54">The above expression allows us to convert all distances involved in the calculation of MI in terms of a single variable "x". Now, the elemental mass (dm) is, given as :
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> λ </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+The MI of elemental mass about inclined axis AA' is :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> đ </m:mi>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">The MI of rod about inclined axis AA', therefore, is :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-60">We note here that the angle "θ" is constant for all elemental masses along the rod and, thus "
+<m:math>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:math>
+" together with "M/L" can be taken out of the integral sign. The appropriate limits of integration covering the length of the rod are "-L/2" and "L/2" :
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msubsup>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mi> L </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mrow>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 24 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 24 </m:mn>
+</m:mfrac>
+<m:mo> ] </m:mo>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66"><term>Note1 : </term>Here, 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:math>
+ is MI of the rod about perpendicular line through COM, denoted by Ic. The moment of inertia about an axis making an angle with the rod, therefore, can be expressed in terms of "Ic" as :
+</para>
+<para id="element-67"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+<term> Note2 :</term> The MI of the rod at an inclined axis passing through one of its edge is obtained by integrating between limits "0" and "L" :
+</para>
+<para id="element-69">
+<figure id="fig-69">
+<title> MI of a rod </title>
+<media id="id7910379" alt=""><image src="../../media/miq6.gif" mime-type="image/gif"/></media>
+<caption> MI of a rod about an axis making an angle with the rod and passing through one of the edges</caption>
+</figure>
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> L </m:mi>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> M </m:mi>
+<m:mi> L </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msup>
+<m:mi> sin </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-2e">
+<title> Non-uniform mass distribution
+</title>
+<para id="element-73"><term>Example 6 </term> </para>
+<para id="element-74"><term>Problem : </term> 
+The mass per unit length of a non-uniform rod of mass “M” and length “L” is given as “ax”, where “x” is measured from left end and “a” is a constant. What is its moment of inertia about an axis perpendicular to the rod and passing through its left end ( point “O”) ?
+</para>
+<para id="element-75">
+<figure id="fig-75">
+<title> MI of a rod </title>
+<media id="id1411888" alt=""><image src="../../media/miq7.gif" mime-type="image/gif"/></media>
+<caption> Mass per unit length of the rod varies from one end to another. </caption>
+</figure>
+</para>
+<para id="element-76"> <term>Solution : </term> Let us now consider a small length “dx” at a distance “x” from the axis of rotation. The elemental mass is,
+</para>
+<para id="element-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> λ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">
+In order to evaluate the constant “a”, we integrate the elemental mass for the whole length of the rod and equate the same to its mass as :
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> M </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">
+Putting the appropriate limit,
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> L </m:mi>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+Thus, elemental mass is :
+</para>
+<para id="element-84"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> x </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85">
+The moment of inertia of the elemental mass about the axis is :
+</para>
+<para id="element-86"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ( </m:mo>  
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-87">
+Integrating between the limits “0” and “L”, we have :
+</para>
+<para id="element-88"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> đ </m:mo>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-89"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> L </m:mi>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-91"><term>Example 7 </term> </para>
+<para id="element-92"><term>Problem : </term> 
+A circular disk of radius “R” and mass “M” has non-uniform surface mass density, given by 
+<m:math>
+<m:mi> σ </m:mi>
+<m:mo> = </m:mo>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, where “r” is the distance from the center of the disk and “a” is a constant. What is its MI about the perpendicular central axis ?
+</para>
+<para id="element-93"> <term>Solution : </term> Let us now consider a small concentric area of thickness “dr” at a distance “r” from the axis of rotation. The elemental mass is,
+</para>
+
+<para id="element-94">
+<figure id="fig-94">
+<title> MI of a circular plate </title>
+<media id="id2694786" alt=""><image src="../../media/miq8.gif" mime-type="image/gif"/></media>
+<caption> Mass per unit areas of the circular plate varies in radial direction. </caption>
+</figure>
+</para>
+
+<para id="element-95">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> σ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> A </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> r </m:mi>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-96">
+In order to evaluate the constant “a”, we integrate the elemental mass for the whole of the circular disk and equate the same to its mass as :
+</para>
+<para id="element-97">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> M </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> a </m:mi>
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-98">
+Putting the appropriate limit,
+</para>
+<para id="element-99">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:mi> a </m:mi>
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> L </m:mi>
+</m:msubsup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-100">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-101">
+Thus, elemental mass is :
+</para>
+<para id="element-102">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-103">
+The moment of inertia of the ring of elemental mass about the axis is :
+</para>
+<para id="element-104"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+<m:mi> π </m:mi>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 5 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-105">
+Integrating between the limits “0” and “R”, we have :
+</para>
+<para id="element-106"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> đ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> ∫ </m:mo>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 5 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-107">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> [ </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 6 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:msubsup>
+<m:mo> ] </m:mo>
+<m:mn> 0 </m:mn>
+<m:mi> R </m:mi>
+</m:msubsup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-108">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 4 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 6 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 6 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+
+</section> 
+
+ 
+  </content>
+  
+</document>

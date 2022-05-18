@@ -1,0 +1,1195 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Work - kinetic energy theorem</title>
+  <metadata>
+  <md:content-id>m14095</md:content-id><md:title>Work - kinetic energy theorem</md:title>
+  <md:abstract>The kinetic energy of a particle changes by the amount of work done on it.</md:abstract>
+  <md:uuid>6a8da7b3-c8ab-449a-b31c-f0d4f2af7abe</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Work is itself energy, but plays a specific role with respect to other forms for energy. Its relationship with different energy forms will automatically come to the fore as we investigate them. In this module, we shall investigate the relationship between work and kinetic energy.
+</para>
+<para id="element-2">To appreciate the connection between work and kinetic energy, let us consider a block, which is moving with a speed "v" in a straight line on a rough horizontal plane. The kinetic friction opposes the motion and eventually brings the block to rest after a displacement say "r". 
+</para>
+<para id="element-3">
+<figure id="fig-3">
+<title> A block is brought to rest by friction </title>
+<media id="id5080690" alt=""><image src="../../media/wet1.gif" mime-type="image/gif"/></media>
+<caption> Friction applies in opposite direction to displacement .</caption>
+</figure>
+</para>
+<para id="element-4">Here, kinetic friction is equal to the product of coefficient of kinetic friction and normal force applied by the horizontal surface on the block,
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-6">Kinetic friction opposes the motion of the block with deceleration, a, :
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mrow>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> g </m:mi> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-8">Considering motion in x-direction and using equation of motion for deacceleration, 
+<m:math>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+</m:math>
+, we have :
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10">
+Thus, kinetic energy of the block in the beginning of motion is :
+</para>
+
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-12">A close inspection of the expression of initial kinetic energy as calculated above reveals that the expression is equal to the magnitude of work done by the kinetic friction to bring the block to rest from its initial sate of motion. The magnitude of work done by the kinetic friction is :
+</para>
+<para id="element-14"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+   
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> k </m:mi>
+</m:msub>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> K </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">This brings up to a new definition of kinetic energy : 
+</para>
+
+
+<para id="element-881"><definition id="definition-1"><term> Kinetic energy </term>
+<meaning id="id7751879"> Kinetic energy of a particle in motion is equal to the amount of work done by an external force to bring the particle to rest.</meaning>
+</definition>
+</para><section id="section-1">
+<title> Work - kinetic energy theorem </title>
+ 
+<para id="element-16">Work - kinetic energy theorem is a generalized description of motion - not specific to any force type like gravity or friction. We shall, here, formally write work - kinetic energy theorem considering an external force. The application of a constant external force results in the change in kinetic energy of the particle. For the time being, we consider a "constant" external force. At the end of this module, we shall extend the concept to variable force as well.
+</para>
+<para id="element-17">Let 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+ be the initial speed of the particle, when we start observing motion. Now, the acceleration of the particle is :
+</para>
+<para id="element-18">
+<figure id="fig-18">
+<title> A force moves the block on a horizontal surface </title>
+<media id="id4964065" alt=""><image src="../../media/wet2.gif" mime-type="image/gif"/></media>
+<caption> Force does work on the block.</caption>
+</figure>
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mi> m </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">Let the final velocity of the particle be 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:math>. Then using equation of motion, 
+<m:math>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> r </m:mi>
+</m:math>
+,
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">
+Multiplying each term by 1/2 m, we have :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mi> F </m:mi>
+<m:mi> m </m:mi>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> W </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">This is the equation, which is known as  work - kinetic energy theorem. In words, change in kinetic energy resulting from application of external force(s) is equal to the work done by the force(s). Equivalently, work done by the force(s) in displacing a particle is equal to change in the kinetic energy of the particle. The above work - kinetic energy equation can be rearranged as :
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> W </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">In this form, work - kinetic energy theorem states that kinetic energy changes by the amount of work done on the particle. We know that work can be either positive or negative. Hence, positive work results in an increase of the kinetic energy and negative work results in a decrease of the kinetic energy by the amount of work done on the particle. It is emphasized here for clarity that "work" in the theorem refers to work by "net" force - not individual force. 
+</para>
+
+<section id="section-1a">
+<title> Work - kinetic energy theorem with multiple forces </title>
+<para id="element-27a">Extension of work - kinetic energy theorem to multiple forces is simple. We can either determine net force of all external forces acting on the particle, compute work by the net force and then apply work - kinetic energy theorem. This approach requires that we consider free body diagram of the particle in the context of a coordinate system to find the net force on it. </para>
+<para id="element-462"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F</m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> F</m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> F</m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> F</m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mi> ........ </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> F</m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-220">Work - kinetic energy theorem is written for the net force as :</para><para id="element-848"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> F</m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+<m:mo mathvariant="bold"> .</m:mo>
+<m:mi mathvariant="bold"> r</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-248">where <m:math>
+<m:msub>
+<m:mi mathvariant="bold"> F</m:mi>
+<m:mi> N </m:mi>
+</m:msub>
+</m:math>
+ is the net force on the particle. Alternatively, we can determine work done by individual forces for the displacement involved and then sum them to equate with the change in kinetic energy. Most favour this second approach as it does not involve vector consideration with a coordinate system.</para><para id="element-27b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-1b">
+<title> Application of Work - kinetic energy theorem  </title>
+<para id="element-27c">Work - kinetic energy theorem is not an alternative to other techniques available for analyzing motion. What we want to mean here is that it provides a specific technique to analyze motion, including situations where details of motion are not available. The analysis typically does not involve intermediate details in certain circumstances. One such instance is illustrated here.    </para>
+<para id="element-950">In order to illustrate the application of "work - kinetic energy" theory, we shall work with an example of a block being raised along an incline. We do not have information about the nature of motion - whether it is raised along the incline slowly or with constant speed or with varying speed. We also do not know - whether the applied external force was constant or varying. But, we know the end conditions that the block was stationary at the beginning of the motion and at the end of motion. So,
+</para><para id="element-27d">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27e">It means that work done by the forces on the block should sum up to zero (according to "work - kinetic energy" theorem). If we know all other forces but one "unknown" force and also work done by the known forces, then we are in position to know the work done by the "unknown" force.
+</para><para id="element-289">We should know that application of work-kinetic energy theorem is not limited to cases where initial and final velocities are zero or equal, but can be applied also to situations where velocities are not equal. We shall discuss these applications with references to specific forces like gravity and spring force in separate modules.  </para>
+
+<section id="section-1bc">
+<title> Example </title>
+
+<para id="element-51"><term>Problem : </term> A block of 2 kg is pulled up along a smooth incline of length 10 m and height 5 m by applying an external force. At the end of incline, the block is released to slide down to the bottom. Find (i) work done by the external force and (ii) kinetic energy of the particle at the end of round trip. (consider, g = 10 
+<m:math>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-28a"><term>Solution : </term> This question is structured to bring out finer points about the "work - kinetic energy" theorem. There are three forces on the block while going up : (i) weight of the block, mg, and (ii) normal force, N, applied by the block and (iii) external force, F. On the other hand, there are only two forces while going down. The external force is absent in downward journey. The force diagram of the forces is shown here for upward motion of the block.
+</para>
+<para id="element-28">
+<figure id="fig-28"><title> A block on an incline </title>
+<media id="id6145221" alt=""><image src="../../media/wet3.gif" mime-type="image/gif"/></media>
+<caption> Known forces acting on the block </caption>
+</figure>
+</para>
+<para id="element-39"><term>(i)</term> work done by external force (
+<m:math>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mn> F </m:mn>
+</m:msub>
+</m:math>
+) during round trip 
+</para>
+<para id="element-28b">The most striking aspect about the external force, "F", is that we do not know either about its magnitude or about its direction. We have represented the external force on the force diagram with an arbitrary vector. Further, external force, F, acts only during up journey. Note that the block is simply released at the end of upward journey. It means that we need to find work by external force only during upward journey.
+</para>
+<para id="element-28c">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(up) </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(down) </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(up) </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(up) </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28cc"> The kinetic energies in the beginning and at the end of "upward" motion are zero. Note the wordings of the problem that emphasizes this. From "work - kinetic energy" theorem, we can coclude that sum of the work done by all three forces is equal to zero during upward motion. It is, therefore, clear that if we know the work done by the other two forces (normal force and gravity), then we shall find out the work done by the external force, "F", as required.</para>
+
+<para id="element-40">Work done by the forces normal to the incline is zero. It follows then that we do not need to consider normal force. According to "work-kinetic energy" theorem, the sum of work done by gravity and external force for upward motion is zero :   
+</para>
+
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30"> Thus, we need to compute work done by the gravity in order to compute work by the external force "F". Now, the component of weight parallel to incline is directed downward. It means that it (gravity) does negative work on the block while going up. The component of gravity along incline is "mg sinθ", acting downward. Work done by gravity during upward journey is :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mi> r </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> L </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mn> 5 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-31a">Hence, work done by the external force, "F", during the round trip is :
+</para>
+<para id="element-31b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(up) </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+
+<para id="element-42"><term>(ii)</term> Kinetic energy at the end of round trip :
+</para>
+<para id="element-43">
+Initial kinetic energy of the block is zero. The kinetic energy is increased by the work done by the forces acting on the block. According to work - kinetic energy theorem :
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i</m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> (round-trip) </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-34">
+Total work done during round trip by external force, "F", is 100 J as computed earlier. Total work done during round trip by gravity is :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(roundtrip) </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+<m:mi> L </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35a">
+Hence, total work done during round trip is :
+</para>
+<para id="element-35b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> roundtrip </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> F(roundtrip) </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> G(roundtrip) </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">
+For understanding purpose, we again emphasize that total work done during upward motion is zero as block is stationary in the beginning and at the end during motion up the incline. The positive work done by external force, "F", is canceled by the exactly same amount of negative work by gravity. The net work is done in only downward motion by the gravity, whereupon kinetic energy of the block increases.
+</para>
+<para id="element-45a">
+Finally, we should note that this example was specially designed to illustrate calculation of work by unknown force indirectly, using "work-kinetic energy" theorem. This application, however, depends on the specific situation. For example, had the incline been rough, we would be required to consider friction force as well. This friction, in turn, would depend on the external force. As such, we would not be in a position to calculate work by "unknown" force indirectly as in this case. Clearly, in that situation, we would need to know the external force as well to apply "work-kinetic energy" theorem. 
+</para>
+</section>
+</section>
+</section>
+<section id="section-2">
+<title> Context of work - kinetic energy theorem </title>
+<para id="element-46">We summarize important aspects of work - kinetic energy theorem as :   
+</para>
+<para id="element-46a"><term>1 : </term> Generally, significance of "work-kinetic energy" theorem is not fully appreciated. Often, it is convenient and more intuitive to use laws such as "conservation of energy" in general or "conservation of mechanical energy" in mechanics. But we should know that mathematical formulations of these generalized conservation laws, as a matter of fact, are extension of this theorem. 
+</para>
+<para id="element-47a"><term>2 : </term> We should understand that kinetic energy and work are general concept not limited to any class of forces such as conservative forces.  For this particular reason, we selected some examples involving friction (non-conservative force) to emphasize that the "work-kinetic energy" theorem is not limited to conservative force. 
+</para>
+<para id="element-47b"><term>3 : </term> The "work-kinetic energy" theorem considers works by all the forces working on the body or equivalently work by the "net" force.  Unlike force analysis, application of "work-kinetic energy" theorem neither requires coordinate system nor free body diagram. 
+</para>
+<para id="element-47c"><term>4 : </term> Application of "work-kinetic energy" theorem is particularly suited for situations in which there is no change in the kinetic energy. This, sometimes, allows us to calculate work by even "unknown" force.
+</para>
+</section> 
+
+<section id="section-3">
+<title> Work - kinetic energy theorem and variable force </title>
+<para id="element-48">We derived mathematical expression of work-kinetic energy theorem in relation to constant force. We restricted our consideration to constant force to keep the discussion simple. 
+</para>
+<para id="element-49">
+Here, we set out to establish work - energy theorem for an external force "F", which varies with displacement (r). We consider a particle of mass "m" moving along a straight line under the application of force "F". The work done in moving the particle by a small linear distance, "dr", is :
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> đ </m:mo>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mo> . </m:mo>
+<m:mo> đ </m:mo>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50a"> Let us also consider that force and displacement are in the same direction. This linear consideration is a convenient set up for even two or three dimensional cases. In general case also, we can compute work and kinetic energy in three mutually perpendicular directions of the coordinate system considering components of force and displacement in respective directions. Each of the computation in mutually perpendicular directions is a linear consideration.
+</para>
+<para id="element-50b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> đ </m:mo>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> r </m:mi>
+<m:mi> cos </m:mi>
+<m:msup>
+<m:mn> 0 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-51b">
+Now,
+</para>
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> F </m:mo>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mo> a </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52a">
+Hence,
+</para>
+<para id="element-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> đ </m:mo>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> a </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> đ </m:mo>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>	
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> r </m:mi>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mo> đ </m:mo>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> đ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>	
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-54">
+Integrating for limits corresponding to initial and final position of the particle,
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∫ </m:mo>
+<m:mo> đ </m:mo>
+<m:mi> W </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msubsup>
+<m:mo> ∫ </m:mo>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:msubsup>
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mo> đ </m:mo>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> W </m:mi> 
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section> 
+
+ 
+  </content>
+  
+</document>

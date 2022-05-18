@@ -1,0 +1,2480 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Vertical motion under gravity</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>391d036b-7894-4864-aef8-ef4e85acc811</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">Vertical motion under gravity is a specific case of one dimensional motion with constant acceleration. Here, acceleration is always directed in vertically downward direction and its magnitude is "g". </para>
+<para id="element-541">As the force due to gravity may be opposite to the direction of motion,  there exists the possibility that the body under force of gravity reverses its direction. It is, therefore, important to understand that the quantities involved in the equations of motion may evaluate to positive or negative values with the exception of time (t).  We must appropriately assign sign to various inputs that goes into the equation and correctly interpret the result with reference to the assumed positive direction.
+Further, some of them evaluate to two values one for one direction and another of reversed direction.</para><para id="element-2">
+As pointed out earlier in the course, we must also realize that a change in reference direction may actually change the sign of the attributes, but their physical interpretation remains same. What it means that an attribute such as velocity, for example, can be either 5 m/s or -5 m/s, conveying the same velocity. The interpretation must be done with respect to the assigned positive reference direction.
+</para>
+
+
+<section id="section-1">
+<title> Velocity </title>
+<para id="element-5">Let us analyze the equation "v = u + at" for the vertical motion under gravity with the help of an example. We consider a ball thrown upwards from ground with an initial speed of 30 m/s. In the frame of reference with upward direction as positive,  
+</para>
+<para id="element-7">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-7a">
+<figure id="fig7a">
+ <title> Vertical motion under gravity </title>
+<media id="idp2633168" alt=""><image src="../../media/vmg4-3b33.gif" mime-type="image/gif"/></media>
+<caption> The ball reaches maximum height when its velocity becomes zero </caption>
+</figure>
+</para>
+
+<para id="element-8">
+Putting this value in the equation, we have :
+</para>
+<para id="element-9">
+v = 30 – 10 t
+</para>
+<para id="element-10">
+The important aspect of this equation is that velocity evaluates to both positive and negative values; positive for upward motion and negative for downward motion. The final velocity (v) is positive for t &lt; 3 seconds, zero for t = 3 seconds and negative for t &gt; 3 seconds. The total time taken for the complete up and down journey is 3 (for upward motion) + 3 (for downward motion) = 6 seconds. 
+</para>
+<para id="element-12">The velocities of the ball at successive seconds are :
+</para>
+<para id="element-14">
+<code display="block" id="idm7403888">
+----------------------------------
+Time (t)	Final velocity (v) 
+in seconds         in m/s
+----------------------------------
+  0.0	             30
+  1.0	             20
+  2.0	             10
+  3.0	             0
+  4.0	            -10
+  5.0	            -20
+  6.0               -30
+----------------------------------
+</code>
+</para>
+<para id="element-15">
+The corresponding velocity – time plot looks like as shown in the figure. 
+</para>
+<para id="element-16">
+<figure id="fig16a">
+ <title> Velocity – time plot </title>
+<media id="idp9129184" alt=""><image src="../../media/vmg1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-17">We notice following important characteristics of the motion : 
+</para>
+<para id="element-18">
+1: The velocity at the maximum height is zero (v=0).
+</para>
+<para id="element-19">
+2: The time taken by the ball to reach maximum height is obtained as :
+</para>
+<para id="element-20"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> For </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi> 
+<m:mo> + </m:mo>
+<m:mi> a </m:mi> 
+<m:mi> t </m:mi> 
+
+<m:mo> = </m:mo>
+<m:mi> u </m:mi> 
+<m:mo> - </m:mo>
+<m:mi> g </m:mi> 
+<m:mi> t </m:mi> 
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> u </m:mi>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-21">
+3: The ball completely regains its speed when it returns to ground, but the motion is
+directed in the opposite direction i.e. </para>
+<para id="element-22"><m:math display="block">
+		<m:mtable columnalign="left">
+			<m:mtr>
+				<m:mtd>
+					<m:mi> v </m:mi>
+					<m:mo> = </m:mo>
+					<m:mo> - </m:mo>
+					<m:mi> u </m:mi>
+				</m:mtd>
+			</m:mtr>
+		</m:mtable>
+	</m:math>
+</para>
+<para id="element-23">
+4: The time taken for the complete round trip is :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> For </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mo> , </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi> 
+<m:mo> + </m:mo>
+<m:mi> a </m:mi> 
+<m:mi> t </m:mi> 
+
+<m:mo> = </m:mo>
+<m:mi> u </m:mi> 
+<m:mo> - </m:mo>
+<m:mi> g </m:mi> 
+<m:mi> t </m:mi> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> - </m:mo>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> u </m:mi>
+</m:mrow>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">The time taken for the complete journey is twice the time taken to reach the maximum height. It means that the ball takes equal time in upward and downward journey. 
+Thus, the total motion can be considered to be divided in two parts of equal duration.</para><para id="element-433">5: The velocity of the ball is positive in the first half of motion; Zero at the maximum height; negative in the second of the motion. </para><para id="element-306">6: The velocity is decreasing all through the motion from a positive value to less positive value in the first half and from a less negative value to more negative value in the second half of the motion. This renders acceleration to be always negative (directed in -y direction), which is actually the case.</para><para id="element-617">7: The velocity (positive) and acceleration (negative) in the first part are opposite in direction and the resulting speed is decreasing. On the other hand, the velocity (negative) and acceleration (negative) in the second part are in the same direction and the resulting speed is increasing. </para>
+
+</section>
+
+
+<section id="section-2">
+<title> Displacement and distance </title>
+<para id="element-26">
+Let us analyze the equation 
+
+<m:math>
+<m:mi> Δ </m:mi>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ for the vertical motion under gravity with the help of earlier example. If we choose initial position as the origin, then 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo>
+<m:mspace width="2pt"/>
+</m:math>
+<m:math>
+
+<m:mo> Δ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> x </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mi> say </m:mi>
+<m:mo> ) </m:mo>
+</m:math>
+and
+<m:math>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, where x denotes position and displacement as well. In the frame of reference with upward direction as positive,  
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+Putting these values in the equation, we have :
+</para>
+<para id="element-30"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+The important aspect of this equation is that it is a quadratic equation in time “t”. This equation yields two values of time “t” for every position and displacement. This outcome is in complete agreement with the actual motion as the ball reaches a given position twice (during upward and downward motion). Only exception is point at the maximum height, which is reached only once.
+We have seen earlier that ball reaches maximum height at t = 3 s. Therefore, maximum height,H, is given as :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> H </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> X </m:mo>
+<m:mn> 9 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 45 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">The displacement values for the motion at successive seconds are :
+</para>
+<para id="element-37">
+<code display="block" id="idp4285568">-------------------------------------------------------------
+Time (t)      	ut		5txt		Displacement
+in seconds                                      or position (x)
+ 		                        	in meters
+-------------------------------------------------------------
+0.0		0 		0		0
+1.0		30		5		25
+2.0		60		20		40
+3.0		90		45		45
+4.0		120		80		40
+5.0		150		125		25
+6.0		180		180		0
+-------------------------------------------------------------
+</code>
+</para>
+<para id="element-38">
+The corresponding displacement – time plot looks like as shown in the figure. 
+</para>
+<para id="element-39">
+<figure id="fig39">
+<title> Displacement – time plot </title>
+<media id="idp9013168" alt=""><image src="../../media/vmg2-2e47.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-40">
+We notice following important characteristics of the motion : 
+</para>
+
+<para id="element-41">
+1:  The ball retraces every position during motion except the point at maximum height. 
+</para>
+<para id="element-42">
+2: The net displacement when ball return to initial position is zero. Thus, the total time of journey (T) is obtained using displacement, x = 0,
+</para>
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> For </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> , </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> T </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> u </m:mi>
+<m:mi> T </m:mi>
+<m:mo> - </m:mo>
+<m:mi> g </m:mi>
+<m:msup>
+<m:mi> T </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> 2u </m:mi>
+<m:mi> g </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+Here, we neglect T = 0, which corresponds to initial position.  
+</para>
+<para id="element-45">3: The “x” in equation 
+<m:math>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ denotes displacement and not distance. Hence, it is not possible to use this equation directly to obtain distance, when motion is not unidirectional. 
+</para>
+<para id="element-46">Let us answer the question with respect to the motion of the ball under consideration : what is the distance traveled in first  4 seconds? Obviously, the ball travels 30 m in the upward direction to reach maximum height in 3 seconds and then it travels 5 m in the 
+<m:math>
+<m:msup>
+<m:mn> 4 </m:mn>
+<m:mi> th </m:mi>
+</m:msup>
+</m:math>
+second in downward direction. Hence, the total distance traveled is 45 + 5 = 50 m in 4 s. This means that we need to apply the equation of motion in two parts : one for the upward motion and the second for the downward motion. Thus, we find displacement for each segment of the motion and then we can add their magnitude to obtain distance. 
+</para>
+<para id="element-48">The distance values for the motion at successive seconds are :
+</para>
+<para id="element-49">
+<code display="block" id="idp5903296">------------------------------------------------------------
+Time (t)      ut	5t*t	Displacement      Distance
+in seconds                      or position       in meters
+		                (x) in meters
+------------------------------------------------------------
+0.0	      0 	0	    0	             0
+1.0	      30	5	    25		     25
+2.0	      60	20	    40		     40
+3.0	      90	45	    45		     45
+4.0	      120	80	    40		     50
+5.0	      150	125	    25		     65
+6.0	      180	180	    0		     90
+------------------------------------------------------------
+</code>
+</para>
+<para id="element-50">
+<figure id="fig50a">
+<title> Distance – time plot </title>
+<media id="idp2632704" alt=""><image src="../../media/vmg6.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<example id="example-1">
+<title> Constant acceleration </title>
+<para id="element-51"><term>Problem : </term> A balloon starts rising from the ground with an acceleration of 1.25 m/s. After 8 second, a stone is released from the balloon. Starting from the release of stone, find the displacement and distance traveled by the stone on reaching the ground. Also, find the time taken to reach the ground (take g = 10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+).
+</para>
+<para id="element-52"><term>Solution : </term> This question raises few important issues. First the rise of balloon is at a constant acceleration of 1.25 <m:math>
+		<m:mi> m </m:mi>
+		<m:mo> / </m:mo>
+		<m:msup>
+			<m:mi> s </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+	</m:math>
+. This acceleration is the “measured” acceleration, which is net of the downward acceleration due to gravity. This means that the balloon rises with this net vertical acceleration of 1.25 
+<m:math>
+		<m:mi> m </m:mi>
+		<m:mo> / </m:mo>
+		<m:msup>
+			<m:mi> s </m:mi>
+			<m:mn> 2 </m:mn>
+		</m:msup>
+	</m:math>
+ in the upward direction. </para>
+<para id="element-53">
+<figure id="fig53">
+<title>  Motion under gravity  </title>
+<media id="idp3593968" alt=""><image src="../../media/vmg5.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-54">Here, u = 0; a = 1.25 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+; t = 8 s. Let the balloon rises to a height “h” during this time, then (considering origin on ground and upward direction as positive) the displacement of the balloon after 8 seconds is :
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+</m:mtd>
+
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 1.25 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mn> 8 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 40 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+Now, we know that, the body released from moving body acquires the velocity but not the acceleration of the container body under motion. The velocity of the balloon at the instant of separation is equal to the velocity of the balloon at that instant. 
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+</m:mtd>
+
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1.25 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">Thus, this is the initial velocity of the stone and is directed upward as that of the velocity of balloon. Once released, the stone is acted upon by the force of gravity alone. The role of the acceleration of the balloon is over. Now, the acceleration for the motion of stone is equal to the acceleration due to gravity, g. 
+</para>
+<para id="element-60">
+The path of motion of the stone is depicted in the figure. Stone rises due to its initial upward velocity to a certain height above 40 m where it was released till its velocity is zero. From this highest vertical point, the stone falls freely under gravity and hits the ground. 
+</para>
+<para id="element-61">
+1: In order to describe motion of the stone once it is released, we realize that it would be easier for us if we shift the origin to the point where stone is released. Considering origin at the point of release and upward direction as positive as shown in the figure, the displacement during the motion of stone is :
+</para>
+<para id="element-62">
+y =  OB = - 40 m 
+</para>
+<para id="element-63">
+<figure id="fig63">
+<title>  Motion under gravity  </title>
+<media id="idp12418032" alt=""><image src="../../media/vmg3-a755.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-65">
+2: Distance, on the other hand, is equal to :
+</para>
+<para id="element-66">
+s =  OA + AO + OB = 2 OA + OB 
+</para>
+<para id="element-67">
+In order to obtain, OA, we consider this part of rectilinear motion (origin at the point of release and upward direction as positive as shown in the figure).
+</para>
+<para id="element-68">
+Here, u = 10 m/s; a = -10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ and v = 0. Applying equation of motion, we have :</para>
+<para id="element-69">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> +  </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> u </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn> 0 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">
+Hence,  OA = 5 m, and distance is :
+</para>
+<para id="element-71">
+s =  2 OA + OB = 2 x 5 + 40 = 50 m
+</para>
+<para id="element-72">
+3:  The time of the journey of stone after its release from the balloon is obtained using equation of motion (origin at the point of release and upward direction as positive as shown in the figure). 
+</para>
+<para id="element-73">
+Here, u = 12 m/s; a = -10 
+<m:math>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ and y = - 40 m.
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 40 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 0.5 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 5 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 40 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+This is a quadratic equation in “t”. Its solution is : </para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 5 </m:mn>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 40 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 5 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 5 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> ( </m:mo>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> , </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">
+As negative value of time is not acceptable, time to reach the ground is 4s.
+</para>
+<para id="element-78">
+<note id="idp1294112"> It is important to realize that we are at liberty to switch origin or direction of reference after making suitable change in the sign of attributes.
+</note> 
+</para>
+
+</example>
+</section>
+
+<section id="section-3">
+<title>  Position </title>
+<para id="element-81">
+We use the equation 
+<m:math>
+<m:mi> Δ </m:mi>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+normally in the context of displacement, even though the equation is also designed to determine initial 
+(
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+) or final position (
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+).  In certain situations, however, using this equation to determine position rather than displacement provides more elegant adaptability to the situation. 
+</para>
+<para id="element-82">
+Let us consider a typical problem highlighting this aspect of the equation of motion. 
+</para>
+<example id="example-4">
+<para id="element-83"><term>Problem : </term> A ball is thrown vertically from the ground at a velocity 30 m/s, when another ball is dropped  along the same line, simultaneously from the top of tower 120 m in height. Find the time (i) when the two balls meet and (ii) where do they meet.
+</para>
+<para id="element-84"><term>Solution : </term> This question puts the position as the central concept. In addition to equal time of travel for each of the balls, rhe coordinate positions of the two balls are also same at the time they meet. Let this position be “y”. Considering upward direction as the positive reference direction, we have :
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Vertical motion under gravity </title>
+<media id="idp5550576" alt=""><image src="../../media/vmg7.gif" mime-type="image/gif"/></media>
+<caption> The balls have same coordinate value when they meet. </caption>
+</figure></para>
+<para id="element-86">
+For ball thrown from the ground :
+</para>
+
+<para id="element-88"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="2pt"/>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-89"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 0 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mn> 10 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-90">
+<equation id="equation-90"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mi> t </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:mo> x </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-91">
+For ball dropped from the top of the tower  :
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="2pt"/>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 120 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> y </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-93">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> a </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-94">
+<equation id="equation-94">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 120 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:mi> x </m:mi>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-95">
+Now, deducting equation (2) from (1), we have :
+</para>
+<para id="element-96">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 30 </m:mn>
+<m:mi> t </m:mi>
+<m:mo>=  </m:mo>
+<m:mn> 120 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> t </m:mi>
+<m:mo>=  </m:mo>
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-97">
+Putting this value in equation – 1, we have :
+</para>
+<para id="element-98">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mi> x </m:mi>
+<m:mn> 4 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 5 </m:mn>
+<m:mi> x </m:mi>
+<m:msup>
+<m:mn> 4 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 120 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 80 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 40 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-99">
+One interesting aspect of this simultaneous motion of two balls is that the ball dropped from the tower meets the ball thrown from the ground, when the ball thrown from the ground is actually returning from after attaining the maximum height in 3 seconds. For maximum height of the ball thrown from the ground,
+</para>
+<para id="element-100">
+<figure id="fig-100">
+<title> Vertical motion under gravity </title>
+<media id="idp8532864" alt=""><image src="../../media/vmg7.gif" mime-type="image/gif"/></media>
+<caption> When returning from the maximum height, the ball thrown up from the ground is hit by the ball dropped from towers. </caption>
+</figure>
+</para>
+<para id="element-101">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> , </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:msup>
+<m:mi> s </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mspace width="2pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="2pt"/>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-102"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+<m:mo> + </m:mo>
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-103">
+This means that this ball has actually traveled for 1 second (4 – 3 = 1 s) in the downward direction, when it is hit by the ball dropped from the tower!
+</para>
+
+</example>
+
+</section>
+
+<section id="section-6">
+<title>Exercises</title>
+
+<para id="element-233a">
+<exercise id="exercise-233a">
+<problem id="idp1820560">
+<para id="element-233">
+A ball is thrown up in vertical direction with an initial speed of 40 m/s. Find acceleration of the ball at the highest point.
+</para>
+</problem>
+
+<solution id="idm1561840">
+<para id="element-234">
+The velocity of the ball at the highest point is zero. The only force on the ball is due to gravity. The accleration of ball all through out its motion is acceleration due to gravity “g”, which is directed downwards. The acceleration of the ball is constant and is not dependent on the state of motion -  whether it is moving or is stationary. 
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-210a">
+<exercise id="exercise-210a">
+<problem id="idp11008160">
+<para id="element-210">
+A ball is released from a height of 45 m. Find the magnitude of average velocity during its motion till it reaches the ground.
+</para>
+</problem>
+
+<solution id="idp3228608">
+<para id="element-211">
+The average velocity is ratio of displacement and time. Here, displacement is given. We need to find the time of travel. For the motion of ball, we consider the point of release as origin and upward direction as positive.
+
+</para>
+<para id="element-212">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>−</m:mo>
+    <m:mn>45</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>45</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>9</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-213">
+Neglecting negative time, t = 3 s. Magnitude of average velocity is :
+
+</para>
+<para id="element-214">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mtext>avg</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>45</m:mn>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-215a">
+<exercise id="exercise-215a">
+<problem id="idp10471968">
+<para id="element-215">
+A ball is released from an elevator moving upward with an acceleration <m:math>
+  <m:mrow>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+. What is the acceleration of the ball after it is released from the elevator ?
+
+</para>
+</problem>
+
+<solution id="idp10603040">
+<para id="element-216">
+On separation, ball acquires the velocity of elevator – not its acceleration. Once it is released, the only force acting on it is that due to gravity. Hence, acceleration of the ball is same as that due to gravity. 
+
+</para>
+<para id="element-217">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mi>m</m:mi>
+      <m:mrow>
+        <m:msup>
+          <m:mi>s</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mtext>downward</m:mtext>
+  </m:mrow>
+</m:math>
+
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-218a">
+<exercise id="exercise-218a">
+<problem id="idp10322464">
+<para id="element-218">
+A ball is released from an elevator moving upward with an acceleration <m:math>
+  <m:mrow>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+. What is the acceleration of the ball with respect to elevator after it is released from the elevator ?
+
+</para>
+</problem>
+
+<solution id="idp2262064">
+<para id="element-219">
+On separation, ball acquires the velocity of elevator – not its acceleration. Once it is released, the only force acting on it is that due to gravity. Hence, acceleration of the ball is same as that due to gravity. The relative acceleration of the ball (considering downward direction as positive) :
+
+</para>
+<para id="element-220">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mtext>rel</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mtext>ball</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mtext>elevator</m:mtext>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:mtext>rel</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mi>m</m:mi>
+      <m:mrow>
+        <m:msup>
+          <m:mi>s</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-221a">
+<exercise id="exercise-221a">
+<problem id="idp4229648">
+<para id="element-221">
+A balloon ascends vertically with a constant speed for 5 second, when a pebble falls from it reaching the ground in 5 s.  Find the speed of balloon.
+</para>
+</problem>
+
+<solution id="idp5185008">
+<para id="element-222">
+The velocity of balloon is constant and is a measured value. Let the ball moves up with a velocity u. At the time of release, the pebble acquires velocity of balloon.  For the motion of pebble, we consider the point of release as origin and upward direction as positive. Here, 
+
+</para>
+<para id="element-223">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>u</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-224">
+Using equation for displacement :
+
+</para>
+<para id="element-225">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>5</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>25</m:mn>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mi>m</m:mi>
+      <m:mi>s</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-226a">
+<exercise id="exercise-226a">
+<problem id="idp10334160">
+<para id="element-226">
+A balloon ascends vertically with a constant speed of 10 m/s. At a certain height, a pebble falls from it reaching the ground in 5 s.  Find the height of ballon when pebble is released from the balloon.
+
+</para>
+</problem>
+
+<solution id="idm1505680">
+<para id="element-227">
+The velocity of balloon is constant. Let the ball moves up with a velocity u. At the time of release, the pebble acquires velocity of balloon.  For the motion of pebble, we consider the point of release as origin and upward direction as positive. Here, 
+
+</para>
+<para id="element-228">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>?</m:mo>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>u</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>g</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-229">
+Using equation for displacement :
+
+</para>
+<para id="element-230">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>g</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>5</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>50</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>25</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>75</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-231">
+Height of ballon when pebble is released from it,
+
+</para>
+<para id="element-232">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>H</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>75</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+
+<para id="element-235a">
+<exercise id="exercise-235a">
+<problem id="idp9058992">
+<para id="element-235">
+A ball is released from a top. Another ball is dropped from a point 15 m below the top, when the first ball reaches a point 5 m below the top. Both balls reach the ground simultaneously. Determine the height of the top. 
+
+</para>
+</problem>
+
+<solution id="idp4392992">
+<para id="element-236">
+We compare motion of two balls under gravity, when second ball is dropped. At that moment, two balls are 10 m apart. The first ball moves with certain velocity, whereas first ball starts with zero velocity. 
+
+</para>
+<para id="element-237">
+Let us consider downward direction as positive. The velocity of the first ball when it reaches 10 m below the top is :
+
+</para>
+<para id="element-238">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>u</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-239">
+Let the balls take time “t” to reach the gorund. First ball travels 10 m more than second ball. Let 1 and 2 denote first and second ball, then,
+</para>
+<para id="element-240">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-241">
+In this time, second ball travels a distance given by :
+
+</para>
+<para id="element-242">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>10</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>12</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-243">
+But, second ball is 15 m below the top. Hence, height of the top is 15 + 5 = 20 m.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-244a">
+<exercise id="exercise-244a">
+<problem id="idm7070032">
+<para id="element-244">
+One ball is dropped from the top at a height 60 m, when another ball is projected up in the same line of motion. Two balls hit each other 20 m below the top. Compare the speeds of the ball when they strike.
+</para>
+</problem>
+
+<solution id="idp12245088">
+<para id="element-245">
+For the motion of first ball dropped from the top, let downward direction be positive :
+</para>
+<para id="element-246">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-247">
+For the ball dropped from the top,
+
+</para>
+<para id="element-248">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>±</m:mo>
+    <m:mn>2</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-249">
+Neglecting negative value, t = 2s. Hence, velocity of the ball dropped from the top is :
+
+</para>
+<para id="element-250">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-251">
+For the motion of second ball projected from the bottom, let upward direction be positive :
+</para>
+<para id="element-252">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+
+      <m:mi>u</m:mi>
+    <m:mo>+</m:mo>
+      <m:mi>at</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+
+      <m:mi>u</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>X</m:mo>
+    <m:mn>2</m:mn>
+    <m:mo>=</m:mo>
+      <m:mi>u</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>20</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-253">
+Clearly, we need to know u. For upward motion,
+</para>
+<para id="element-254">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>a</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>40</m:mn>
+    <m:mo>=</m:mo>
+    <m:mi>u</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>2</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>40</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>u</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>30</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-255">
+Thus,
+
+</para>
+<para id="element-256">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>20</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mn>1</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+
+</solution>
+</exercise>
+</para>
+
+<para id="element-257">
+<note id="idp10440224"> See module titled “<link document="m14550"> Vertical motion under gravity (application) </link>
+for more questions. </note>
+</para>
+
+
+
+</section>
+
+ 
+  </content>
+  
+</document>

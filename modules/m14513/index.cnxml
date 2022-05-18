@@ -1,0 +1,3154 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Scalar (dot) product</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>040c8e46-e494-49f8-a6e6-beda66d4fa76</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">
+In physics, we require to multiply a vector with other scalar and vector quantities. The vector multiplication, however, is not an unique mathematical construct like scalar multiplication. The multiplication depends on the nature of quantities (vector or scalar) and on the physical process, necessitating scalar or vector multiplication.  
+</para>
+<para id="element-2">
+The rules of vector multiplication have been formulated to encapsulate physical processes in their completeness. This is the core consideration. In order to explore this aspect, let us find out the direction of acceleration in the case of parabolic motion of a particle. There may be two ways to deal with the requirement. We may observe the directions of velocities at two points along the path and find out the direction of the change of velocities. Since we know that the direction of change of velocity is the direction of acceleration, we draw the vector diagram and find out the direction of acceleration. We can see that the direction of acceleration turns out to act in vertically downward direction.
+</para>
+<para id="element-3">
+<figure id="fig3">
+<title> Direction of acceleration </title>
+<media id="idm1791152" alt=""><image src="../../media/vm1a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-4">The conceptualization of physical laws in vector form, however, provides us with powerful means to arrive at the result in relatively simpler manner. If we look at the flight of particle in parabolic motion, then we observe that the motion of particle is under the force of gravity, which is acting vertically downward. There is no other force (neglecting air resistance). Now, from second law of motion, we know that :
+</para>
+<para id="element-5">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:msub>
+  <m:mi mathvariant="bold"> F </m:mi>
+  <m:mi> Resultant </m:mi>
+  </m:msub>
+
+  <m:mo> = </m:mo>
+  <m:mi> m </m:mi>
+  <m:mi mathvariant="bold"> a </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-6">This equation reveals that the direction of acceleration is same as that of the resultant force acting on the particle. Thus, acceleration of the particle in parabolic motion is acting vertically downward. We see that this second approach is more elegant of the two methods. We could arrive at the correct answer in a very concise manner, without getting into the details of the motion. It is possible, because Newton's second law in vector form states that net force on the body is product of acceleration vector with scalar mass. As multiplication of scalar with a vector does not change the direction of resultant vector, we conclude that direction of acceleration is same as that of net force acting on the projectile.
+</para>
+
+<section id="section-1">
+<title> Multiplication with scalar </title>
+
+<para id="element-7">Multiplication of a vector, <term>A</term>, with another scalar quantity, a,  results in another vector, <term>B</term>. The magnitude of the resulting vector is equal to the product of the magnitude of vector with the scalar quantity. The direction of the resulting vector, however, is same as that of the original vector (See Figures below). 
+</para>
+<para id="element-351"><equation id="equation-351">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> B </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi mathvariant="bold"> A </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation></para><para id="element-8">
+<figure id="fig8"><title> Multiplication with scalar </title>
+<media id="idm2296352" alt=""><image src="../../media/vm2a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-9">
+We have already made use of this type of multiplication intuitively in expressing a vector in component form. 
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> A </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> A </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> A </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> A </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">
+In this vector representation, each component vector is obtained by multiplying the scalar component with the unit vector. As the unit vector has the magnitude of 1 with a specific direction, the resulting component vector retains the magnitude of the scalar component, but acquires the direction of unit vector.
+</para>
+<para id="element-12"><equation id="equation-12">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:msub>
+  <m:mi mathvariant="bold"> A </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> A </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation></para>
+
+
+</section>
+
+<section id="section-2">
+<title> Products of vectors </title>
+<para id="element-14">Some physical quantities are themselves a scalar quantity, but are composed from the product of vector quantities. One such example is “work”. On the other hand, there are physical quantities like torque and magnetic force on a moving charge, which are themselves vectors and are also composed from vector quantities.</para>
+<para id="element-15">Thus, products of vectors are defined in two distinct manner – one resulting in a scalar quantity and the other resulting in a vector quantity. The product that results in scalar value is scalar product, also known as dot product as a "dot" (<term>.</term>) is the symbol of operator for this product. On the other hand, the product that results in vector value is vector product, also known as cross product as a "cross" (<term>x</term>) is the symbol of operator for this product. We shall discuss scalar product only in this module. We shall cover vector product in a separate module.  
+</para>
+</section>
+
+<section id="section-3">
+<title> Scalar product (dot product) </title>
+<para id="element-16">Scalar product of two vectors <term>a</term> and <term>b</term> is a scalar quantity defined as :
+</para>
+<para id="element-17"><equation id="equation-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-18">where “a” and “b” are the magnitudes of two vectors and “θ” is the angle between the direction of two vectors. It is important to note that vectors have two angles θ and 2π - θ. We can use either of them as cosine of both “θ” and “2π - θ” are same. However, it is suggested to use the smaller of the enclosed angles to be consistent with cross product in which it is required to use the smaller of the enclosed angles. This approach will maintain consistency with regard to enclosed angle in two types of vector multiplications. 
+</para>
+<para id="element-19">The notation “<term>a.b</term>” is important and should be mentally noted to represent a scalar quantity – even though it involves bold faced vectors. It should be noted that the quantity on the right hand side of the equation is a scalar.
+</para>
+
+
+<section id="section-3e">
+<title> Angle between vectors </title>
+<para id="element-19a">
+The angle between vectors is measured with precaution. The direction of vectors may sometimes be misleading. The basic consideration is that it is the angle between vectors at the common point of intersection. This intersection point, however, should be the common tail of vectors. If required, we may be required to shift the vector parallel to it or along its line of action to obtain common point at which tails of vectors meet. 
+</para>
+<para id="element-19b">
+<figure id="fig-4">
+<title> Angle between vectors </title>
+<media id="idm1394000" alt=""><image src="../../media/sp2.gif" mime-type="image/gif"/></media>
+<caption> Angle between vectors </caption>
+</figure>
+</para>
+<para id="element-19c">See the steps shown in the figure. First, we need to shift one of two vectors say, <term>a</term> so that it touches the tail of vector  <term>b</term>. Second, we move vector <term>a</term> along its line of action till tails of two vectors meet at the common point. Finally, we measure the angle θ such that 0≤ θ≤π.
+</para>
+
+
+</section>
+<section id="section-3a">
+<title> Meaning of scalar product </title>
+<para id="element-20">
+We can read the definition of scalar product in either of the following manners :
+</para>
+
+<para id="element-21"><equation id="equation-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mo> ( </m:mo>
+  <m:mi> b </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> ) </m:mo>
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> b </m:mi>
+  <m:mo> ( </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> ) </m:mo>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-22">Recall that “bcos θ” is the scalar component of vector <term>b</term> along the direction of vector <term>a</term> and “a cos θ” is the scalar component of vector <term>a</term> along the direction of vector <term>b</term>. Thus,  we may consider the scalar product of vectors <term>a</term> and <term>b</term> as  the product of the magnitude of one vector and the scalar component of other vector along the first vector. 
+</para>
+<para id="element-23">The figure below shows drawing of scalar components. The scalar component of vector in figure (i) is obtained by drawing perpendicular from the tip of the vector, <term>b</term>, on the direction of vector, <term>a</term>. Similarly, the scalar component of vector in figure (ii) is obtained by drawing perpendicular from the tip of the vector, <term>a</term>, on the direction of vector, <term>b</term>.
+</para>
+<para id="element-24">
+<figure id="fig24">
+<title> Scalar product </title>
+<media id="idp3325552" alt=""><image src="../../media/vm3.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-25">The two alternate ways of evaluating dot product of two vectors indicate that the product is commutative i.e. independent of the order of two vectors :
+</para>
+<para id="element-26"><equation id="equation-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation>
+</para>
+
+
+<para id="element-36">
+<exercise id="exercise-36">
+<problem id="idp5321600">
+<para id="element-37">
+A block of mass “m” moves from point A to B along a smooth plane surface under the action of force as shown in the figure. Find the work done if it is defined as : </para>
+<para id="element-38">
+W = <term>F. </term>Δ<term>x</term>
+</para>
+<para id="element-38a">
+<figure id="fig38a"><title> Work done </title>
+<media id="idp8383152" alt=""><image src="../../media/vm10.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-39">
+where <term>F</term> and Δ<term>x</term> are force and displacement vectors. 
+</para>
+
+</problem>
+
+<solution id="idp10311280">
+<para id="element-40">
+Expanding the expression of work, we have :
+</para>
+
+<para id="element-40a">
+<figure id="fig40a"><title> Work done </title>
+<media id="idm8845488" alt=""><image src="../../media/vm9.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-41"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi> W </m:mi>
+  <m:mo> = </m:mo>
+
+  <m:mi mathvariant="bold"> F </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mo> Δ </m:mo>
+  <m:mi mathvariant="bold"> x </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> F </m:mi>
+  <m:mo> Δ </m:mo>
+  <m:mi> x </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-42">Here, F = 10 N, Δx = 10 m and  cosθ = cos60° = 0.5.
+</para>
+
+<para id="element-43">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi> ⇒ </m:mi>
+  <m:mi> W </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 10 </m:mn>
+  <m:mo> x </m:mo>
+  <m:mn> 10 </m:mn>
+  <m:mo> x </m:mo>
+  <m:mn> 0.5 </m:mn>
+  <m:mo> = </m:mo>
+  <m:mi> 50 J </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>
+
+<section id="section-3b">
+<title> Values of scalar product</title>
+<para id="element-27">The value of dot product is maximum for the maximum value of cosθ. Now, the maximum value of cosine is 
+
+<m:math>
+   <m:mi> cos </m:mi>
+
+   <m:mn> 0 </m:mn>
+   <m:mo> ° </m:mo>
+
+   <m:mo> = </m:mo>
+   <m:mn> 1 </m:mn>
+</m:math>
+
+
+. For this value, dot product simply evaluates to the product of the magnitudes of two vectors.
+
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:msub>
+  <m:mrow>
+  <m:mo> ( </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> ) </m:mo>
+  </m:mrow>
+  <m:mi> max </m:mi>
+  </m:msub>
+
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+For 
+<m:math>
+   <m:mi> θ </m:mi>
+   <m:mo> = </m:mo>
+   <m:mn> 180 </m:mn>
+   <m:mo> ° </m:mo>
+   <m:mi> , </m:mi>
+   <m:mi> cos </m:mi>
+   <m:mn> 180 </m:mn>
+   <m:mo> ° </m:mo>
+   <m:mo> = </m:mo>
+   <m:mi> - </m:mi>
+   <m:mn> 1 </m:mn>
+</m:math>
+ and
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mo> - </m:mo>
+
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">Thus, we see that dot product can evaluate to negative value as well. This is a significant result as many scalar quantities in physics are given negative value. The work done, for example, can be negative, when displacement is in the opposite direction to the component of force along that direction.</para>
+<para id="element-32">
+The scalar product evaluates to zero for θ = 90° and 270° as cosine of these angles are zero. These results have important implication for unit vectors. The dot products of same unit vector evaluates to 1.
+</para>
+
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 1 </m:mn>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+The dot products of combination of different unit vectors evaluate to zero.
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 0 </m:mn>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+
+<example id="example-205">
+<para id="element-205"><term>Problem : </term> Find the angle between vectors 2<term>i</term> + <term>j</term> – <term>k</term> and  <term>i</term> – <term>k</term>. 
+</para>
+<para id="element-206"> <term>Solution : </term> The cosine of the angle between two vectors is given in terms of dot product as :
+</para>
+<para id="element-207">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ab </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-208">
+Now,
+</para>
+<para id="element-209">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-210">
+Ignoring dot products of different unit vectors (they evaluate to zero), we have :
+</para>
+<para id="element-211">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> k </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 6 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> b </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> ab </m:mi>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 6 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 12 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-212">
+Putting in the expression of cosine, we have :
+</para>
+<para id="element-214">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> ab </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> cos </m:mi>
+<m:mn> 30 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+<section id="section-3c">
+<title> Scalar product in component form  </title>
+<para id="element-44">
+Two vectors in component forms are written as :
+</para>
+
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">In evaluating the product, we make use of the fact that multiplication of the same unit vectors is 1, while multiplication of different unit vectors is zero. The dot product evaluates to scalar terms as :
+</para>
+<para id="element-47"><equation id="equation-47">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mo> ( </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> ) </m:mo>
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mo> ⇒ </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+ <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo> + </m:mo>
+ 
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:mi mathvariant="bold"> k </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+  <m:mo> ⇒ </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mo> + </m:mo>
+ 
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+
+ 
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</equation></para>
+
+</section>
+</section>
+
+<section id="section-4">
+<title> Component as scalar (dot) product </title>
+<para id="element-48">
+A closer look at the expansion of dot product of two vectors reveals that the expression is very similar to the expression for a component of a vector. The expression of the dot product is :
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">
+On the other hand, the component of a vector in a given direction is :
+</para>
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:msub>
+     <m:mi> a </m:mi>
+     <m:mi> x </m:mi>
+     </m:msub>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-52">Comparing two equations, we can define component of a vector in a direction given by unit vector "<term>n</term>" as :
+</para>
+<para id="element-53">
+<equation id="equation-53">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:msub>
+     <m:mi> a </m:mi>
+     <m:mi> x </m:mi>
+     </m:msub>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> n </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-54">
+This is a very general and useful relation to determine component of a vector in any direction. Only requirement is that we should know the unit vector in the direction in which component is to be determined.
+</para>
+
+<example id="example-223">
+<para id="element-223"><term>Problem : </term> Find the components of vector 2<term>i</term> + 3<term>j</term> along the direction <term>i</term>+<term>j</term>.
+</para>
+<para id="element-224"><term>Solution : </term> The component of a vector “<term>a</term>” in a direction, represented by unit vector “<term>n</term>” is given by dot product :
+</para>
+
+<para id="element-225">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> n </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-226">Thus, it is clear that we need to find the unit vector in the direction of <term>i</term>+<term>j</term>. Now, the unit vector in the direction of the vector is :
+</para>
+<para id="element-227">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> n </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-228">
+Here,
+</para>
+<para id="element-229"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-230">
+Hence,
+</para>
+<para id="element-231">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> n </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-232">
+The component of vector 2<term>i</term> + 3<term>j</term> in the direction of “<term>n</term>” is :
+</para>
+<para id="element-233">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> n </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-234">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> n </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+</section> 
+
+<section id="section-5">
+<title> Attributes of scalar (dot) product </title>
+
+<para id="element-55a">
+In this section, we summarize the properties of dot product as discussed above. Besides, some additional derived attributes are included for reference.
+</para>
+
+<para id="element-55">
+<term>1:  </term> Dot product is commutative 
+</para>
+<para id="element-56">
+This means that the dot product of vectors is not dependent on the sequence of vectors :
+</para>
+<para id="element-57">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-58">We must, however, be careful while writing sequence of dot product. For example, writing a sequence involving three vectors like <term>a.b.c</term> is incorrect. For, dot product of any two vectors is a scalar. As dot product is defined for two vectors (not one vector and one scalar), the resulting dot product of a scalar (<term>a.b</term>) and that of third vector <term>c</term> has no meaning.
+</para>
+<para id="element-59">
+<term>2:  </term> Distributive property of dot product :
+</para>
+<para id="element-60">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mo> ( </m:mo>
+
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi mathvariant="bold"> c </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+   <m:mo> + </m:mo>
+ <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> c </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-61">
+<term>3:  </term> The dot product of a vector with itself is equal to the square of the magnitude of the vector.
+</para>
+<para id="element-62">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mi> a </m:mi>
+  <m:mi> cosθ  </m:mi>
+   <m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+  <m:mi> cos </m:mi>
+<m:mn> 0 </m:mn>
+  <m:mi> ° </m:mi>
+   <m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-63">
+<term>4:  </term>  The magnitude of dot product of two vectors can be obtained in either of the following manner : 
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mo> ( </m:mo>
+  <m:mi> b </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mtext> component of </m:mtext>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> b </m:mi>
+<m:mspace width="2pt"/>
+  <m:mtext> along </m:mtext>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> a </m:mi>
+<m:mspace width="2pt"/>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> cos </m:mi>
+  <m:mi> θ </m:mi>
+  <m:mo> ) </m:mo>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mi> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> b </m:mi>
+<m:mspace width="2pt"/>
+  <m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+  <m:mtext> component of </m:mtext>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> a </m:mi>
+<m:mspace width="2pt"/>
+  <m:mtext> along </m:mtext>
+<m:mspace width="2pt"/>
+  <m:mi mathvariant="bold"> b </m:mi>
+<m:mspace width="2pt"/>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">The dot product of two vectors is equal to the algebraic product of magnitude of one vector and component of second vector in the direction of first vector.
+</para>
+<para id="element-66">
+<term>5:  </term> The cosine of the angle between two vectors can be obtained in terms of dot product as :
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> cosθ  </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+<m:mo> ⇒ </m:mo> 
+  <m:mi> cosθ  </m:mi>
+  <m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+</m:mrow>
+<m:mrow>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+</m:mrow>
+</m:mfrac>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69a">
+<term>6:  </term>  The condition of two perpendicular vectors in terms of dot product is given by :
+</para>
+<para id="element-70">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:mi> a </m:mi>
+  <m:mi> b </m:mi>
+  <m:mi> cos  </m:mi>
+  <m:mn> 90 </m:mn>
+  <m:mo> ° </m:mo>
+  <m:mo> = </m:mo>
+  <m:mn> 0 </m:mn>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-71">
+<term>7:  </term>  Properties of dot product with respect to unit vectors along the axes of rectangular coordinate system are :
+</para>
+<para id="element-72">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 1 </m:mn>
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> j </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> k </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 0 </m:mn>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-73">
+<term>8:  </term>  Dot product in component form is :
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> = </m:mo>
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> x </m:mi>
+  </m:msub>
+  <m:mo> + </m:mo>
+
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> y </m:mi>
+  </m:msub>
+  <m:mo> + </m:mo>
+ 
+  <m:msub>
+  <m:mi> a </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+  <m:msub>
+  <m:mi> b </m:mi>
+  <m:mi> z </m:mi>
+  </m:msub>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para><para id="element-465"><term>9: </term> The dot product does not yield to cancellation. For example, if <term>a.b</term> = <term>a.c</term>, then we can not conclude that <term>b</term> = <term>c</term>. Rearranging, we have :</para><para id="element-176">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> - </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> c </m:mi>
+  <m:mo> = </m:mo>
+  <m:mn> 0 </m:mn>
+
+     </m:mtd>
+   </m:mtr>
+   <m:mtr>
+     <m:mtd>
+
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> - </m:mo>
+  <m:mi mathvariant="bold"> c </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> = </m:mo>
+  <m:mn> 0 </m:mn>
+     </m:mtd>
+   </m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-964">
+This means that <term>a</term> and (<term>b</term> - <term>c</term>) are perpendicular to each other. In turn, this implies that (<term>b</term> - <term>c</term>) is not equal to zero (null vector). Hence, <term>b</term> is not equal to <term>c</term> as we would get after cancellation.
+</para>
+<para id="element-964a">
+We can understand this difference with respect to cancellation more explicitly by working through the problem given here :
+</para>
+
+<example id="example-235">
+<para id="element-235"><term>Problem : </term> Verify vector equality <term>B</term> = <term>C</term>, if <term>A.B</term> = <term>A.C</term>.
+</para>
+<para id="element-235a"> <term>Solution : </term> The given equality of dot products is :
+</para>
+<para id="element-235b">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> B </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> C </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-236">
+We should understand that dot product is not a simple algebraic product of two numbers (read magnitudes). The angle between two vectors plays a role in determining the magnitude of the dot product. Hence, it is entirely possible that vectors <term>B</term> and <term>C</term> are different yet their dot products with common vector A are equal. Let 
+<m:math>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+ be the angles for first and second pairs of dot products. Then,
+</para>
+<para id="element-238">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> B </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> C </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-239">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> AB cos </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> AC cos </m:mi>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-240">
+If 
+<m:math>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+, then 
+<m:math>
+<m:mi> B </m:mi>
+<m:mo> = </m:mo>
+<m:mi> C </m:mi>
+</m:math>
+. However, if 
+<m:math>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ≠ </m:mo>
+<m:msub>
+<m:mi> θ </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+, then 
+<m:math>
+<m:mi> B </m:mi>
+<m:mo> ≠ </m:mo>
+<m:mi> C </m:mi>
+</m:math>
+.
+</para>
+</example>
+
+</section>
+<section id="section-6">
+<title> Law of cosine and dot product </title>
+<para id="element-75a">Law of cosine relates sides of a triangle with one included angle. We can determine this relationship using property of a dot product. Let three vectors are represented by sides of the triangle such that closing side is the sum of other two vectors. Then applying triangle law of addition :
+</para>
+<para id="element-75b"><figure id="fig-75b"><title> Cosine law </title><media id="idp3702960" alt=""><image src="sp1.gif" mime-type="image/gif"/></media><caption> Cosine law </caption></figure>
+</para>
+<para id="element-75c">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> c </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> ) </m:mo>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75d">We know that the dot product of a vector with itself is equal to the square of the magnitude of the vector. Hence,
+</para>
+
+<para id="element-75f"><m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:msup>
+      <m:mi> c </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mo> ( </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> = </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> + </m:mo>
+      <m:mn> 2 </m:mn>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+     <m:msup>
+      <m:mi> c </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+  <m:mo> = </m:mo>
+     <m:msup>
+      <m:mi> a </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+  <m:mo> + </m:mo>
+      <m:mn> 2 </m:mn>
+      <m:mi> a </m:mi>
+      <m:mi> b </m:mi>
+      <m:mi> cos </m:mi>
+
+  <m:mi> θ </m:mi>
+
+  <m:mo> + </m:mo>
+     <m:msup>
+      <m:mi> b </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+
+     </m:mtd>
+   </m:mtr>
+
+   <m:mtr>
+     <m:mtd>
+     <m:msup>
+      <m:mi> c </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+  <m:mo> = </m:mo>
+     <m:msup>
+      <m:mi> a </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+  <m:mo> + </m:mo>
+      <m:mn> 2 </m:mn>
+      <m:mi> a </m:mi>
+      <m:mi> b </m:mi>
+      <m:mi> cos </m:mi>
+  <m:mo> ( </m:mo>
+  <m:mo> π-φ </m:mo>
+  <m:mo> ) </m:mo>
+  <m:mo> + </m:mo>
+     <m:msup>
+      <m:mi> b </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+
+     </m:mtd>
+   </m:mtr>
+
+
+   <m:mtr>
+     <m:mtd>
+     <m:msup>
+      <m:mi> c </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+  <m:mo> = </m:mo>
+     <m:msup>
+      <m:mi> a </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+  <m:mo> - </m:mo>
+      <m:mn> 2 </m:mn>
+      <m:mi> a </m:mi>
+      <m:mi> b </m:mi>
+      <m:mi> cos </m:mi>
+
+  <m:mo> φ </m:mo>
+
+  <m:mo> + </m:mo>
+     <m:msup>
+      <m:mi> b </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+
+     </m:mtd>
+   </m:mtr>
+
+
+</m:mtable>
+</m:math></para>
+<para id="element-75g">This is known as cosine law of triangle. Curiously, we may pay attention to first two equations above. As a matter of fact, second equation gives the square of the magnitude of resultant of two vectors <term>a</term> and <term>b</term>.  
+</para>
+</section>
+
+<section id="section-7">
+<title> Differentiation and dot product </title>
+<para id="element-76a"> Differentiation of  a vector expression yields a vector. Consider a vector expression given as : 
+</para>
+<para id="element-76b">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+     <m:msup>
+      <m:mi> x </m:mi>
+      <m:mn> 2 </m:mn>
+     </m:msup>
+  <m:mo> + </m:mo>
+      <m:mn> 2 </m:mn>
+      <m:mi> x </m:mi>
+  <m:mo> + </m:mo>
+      <m:mn> 3 </m:mn>
+  <m:mo> ) </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-76c">The derivative of the vector with respect to x is :
+</para>
+<para id="element-76d">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+
+     <m:msup>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> ' </m:mo>
+     </m:msup>
+  <m:mo> = </m:mo>
+  <m:mo> ( </m:mo>
+      <m:mn> 2 </m:mn>
+      <m:mi> x </m:mi>
+  <m:mo> + </m:mo>
+      <m:mn> 2 </m:mn>
+  <m:mo> ) </m:mo>
+  <m:mi mathvariant="bold"> i </m:mi>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-76e">As the derivative is a vector, two vector expressions with dot product is differentiated in a manner so that dot product is retained in the final expression of derivative. For example,
+</para>
+<para id="element-76f">
+<m:math display="block">
+<m:mtable columnalign="left">
+   <m:mtr>
+     <m:mtd>
+     <m:mfrac>
+      <m:mi> d </m:mi>
+     <m:mrow>
+      <m:mi> d </m:mi>
+      <m:mi> x </m:mi>
+     </m:mrow>
+     </m:mfrac>
+  <m:mo> ( </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo mathvariant="bold"> . </m:mo>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> ) </m:mo>
+  <m:mo> = </m:mo>
+     <m:msup>
+  <m:mi mathvariant="bold"> a </m:mi>
+  <m:mo> ' </m:mo>
+     </m:msup>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> + </m:mo>
+  <m:mi mathvariant="bold"> a </m:mi>
+     <m:msup>
+  <m:mi mathvariant="bold"> b </m:mi>
+  <m:mo> ' </m:mo>
+     </m:msup>
+     </m:mtd>
+   </m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+
+</section>
+
+
+<section id="section-8">
+<title> Exercises </title>
+
+<para id="element-205ab">
+<exercise id="exercise-205ab">
+<problem id="idp8722000">
+<para id="element-205a"> Sum and difference of two vectors <term> a</term> and <term>b</term> are perpendicular to each other. Find the relation between two vectors.
+</para>
+
+</problem>
+
+<solution id="idp9920448">
+<para id="element-206a">  The sum <term>a</term>+<term>b</term> and difference <term>a</term>-<term>b</term> are perpendicular to each other. Hence, their dot product should evaluate to zero.
+</para>
+
+<para id="element-215">
+<figure id="fig-215">
+<title> Sum and difference of two vectors </title>
+<media id="idp9311424" alt=""><image src="../../media/spq1.gif" mime-type="image/gif"/></media>
+<caption> Sum and difference of two vectors are perpendicular to each other.</caption>
+</figure>
+</para>
+<para id="element-216">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-217">
+Using distributive property,
+</para>
+<para id="element-218">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-219">Using commutative property, <term>a.b</term> = <term>b.a</term>, Hence,
+</para>
+<para id="element-220">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> b </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-221">It means that magnitudes of two vectors are equal. See figure below for enclosed angle between vectors, when vectors are equal :
+</para>
+<para id="element-222">
+<figure id="fig-222">
+<title> Sum and difference of two vectors </title>
+<media id="idp9513328" alt=""><image src="../../media/spq2.gif" mime-type="image/gif"/></media>
+<caption> Sum and difference of two vectors are perpendicular to each other, when vectors are equal.</caption>
+</figure>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-241a">
+<exercise id="exercise-241a">
+<problem id="idp6251344">
+<para id="element-241">  If |<term>a</term> + <term>b</term>| = |<term>a</term> – <term>b</term>|, then find the angle between vectors <term>a</term> and <term>b</term>. 
+</para>
+</problem>
+
+<solution id="idp10816384">
+<para id="element-242">  A question that involves modulus or magnitude of vector can be handled in specific manner to find information about the vector (s). The specific identity that is used in this circumstance is : 
+</para>
+<para id="element-243">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-244">We use this identity first with the sum of the vectors (<term>a</term>+<term>b</term>),
+</para>
+<para id="element-245"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-246">
+Using distributive property,
+</para>
+<para id="element-247">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-248">Similarly, using the identity with difference of the vectors (a-b), 
+</para>
+<para id="element-249">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-250">
+It is, however, given that :
+</para>
+<para id="element-251">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+<m:mo> = </m:mo>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-252">
+Squaring on either side of the equation,
+</para>
+<para id="element-253">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-254">
+Putting the expressions,
+</para>
+<para id="element-255">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 90 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-256">
+<term>Note : </term>We can have a mental picture of the significance of this result. As given, the magnitude of sum of two vectors is equal to the magnitude of difference of two vectors. Now, we know that difference of vectors is similar to vector sum with one exception that one of the operand is rendered negative. Graphically, it means that one of the vectors is reversed.
+</para>
+<para id="element-257">Reversing one of the vectors changes the included angle between two vectors, but do not change the magnitudes of either vector. It is, therefore, only the included angle between the vectors that might change the magnitude of resultant. In order that magnitude of resultant does not change even after reversing direction of one of the vectors, it is required that the included angle between the vectors is not changed. This is only possible, when included angle between vectors is 90°. See figure.
+</para>
+<para id="element-258">
+<figure id="fig-258"><title> Sum and difference of two vectors </title>
+<media id="idp6286272" alt=""><image src="../../media/spq3.gif" mime-type="image/gif"/></media>
+<caption> Magnitudes of Sum and difference of two vectors are same when vectors at right angle to each other.</caption>
+</figure>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-229a">
+<exercise id="exercise-229a">
+<problem id="idp6287584">
+<para id="element-259">  If <term>a</term> and <term>b</term> are two non-collinear unit vectors and |<term>a</term> + <term>b</term>| = √3, then find the value of expression :
+</para>
+<para id="element-260">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+
+<solution id="idp7622992">
+<para id="element-242a"> The given expression is scalar product of two vector sums. Using distributive property we can expand the expression, which will comprise of scalar product of two vectors <term>a</term> and <term>b</term>.
+</para>
+<para id="element-261">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-262">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-263">
+We can evaluate this scalar product, if we know the angle between them as magnitudes of unit vectors are each 1. In order to find the angle between the vectors, we use the identity,
+</para>
+<para id="element-264">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> A </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> A </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-265">
+Now,
+</para>
+<para id="element-266"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-267"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-268">
+It is given that :
+</para>
+<para id="element-69"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo>
+<m:mo> √ </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> ) </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-270">
+Putting this value,
+</para>
+<para id="element-271"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mrow>
+<m:mo> | </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> | </m:mo>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-272">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-273">
+Using this value, we now proceed to find the value of given identity,
+</para>
+<para id="element-274"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mi> a </m:mi>
+<m:mi> b </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mi> 1 </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> 1 </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> cos </m:mi>
+<m:mn> 60 </m:mn>
+<m:mo> ° </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-275">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+<para id="element-276a">
+<exercise id="exercise-276a">
+<problem id="idp1743648">
+<para id="element-276">  In an experiment of light reflection, if <term>a</term>, <term>b</term> and <term>c</term> are the unit vectors in the direction of incident ray, reflected ray and normal to the reflecting surface, then prove that :
+</para>
+<para id="element-277">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> c </m:mi>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> c </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</problem>
+
+<solution id="idp1351360">
+<para id="element-278a"> Let us consider vectors in a coordinate system in which “x” and “y” axes of the coordinate system are in the direction of reflecting surface and normal to the reflecting surface respectively as shown in the figure. 
+</para>
+<para id="element-278">
+<figure id="fig-278">
+<title> Reflection </title>
+<media id="idm9257984" alt=""><image src="../../media/spq4.gif" mime-type="image/gif"/></media>
+<caption> Angle of incidence is equal to angle of reflection.</caption>
+</figure>
+</para>
+<para id="element-279">We express unit vectors with respect to the incident and reflected as  :
+</para>
+<para id="element-280">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> - </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-281">Subtracting first equation from the second equation, we have :
+</para>
+<para id="element-282">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> - </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> + </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-283">Now, we evaluate dot product, involving unit vectors :
+</para>
+<para id="element-284">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> c </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo>
+<m:mn> 180 </m:mn>
+<m:mo> ° </m:mo>
+<m:mo> - </m:mo>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-285">
+Substituting for cosθ, we have :
+</para>
+<para id="element-286">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> b </m:mi>
+<m:mo> = </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> c </m:mi>
+<m:mo> ) </m:mo>
+<m:mi mathvariant="bold"> c </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+
+
+</section>
+  </content>
+  
+</document>

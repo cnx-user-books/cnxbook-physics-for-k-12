@@ -1,0 +1,1548 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Relative velocity in one dimension</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>3f6b860c-2046-4c4e-992b-b35717c408ea</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">The measurements, describing motion, are subject to the state of motion of the frame of reference with respect to which measurements are made. Our day to day perception of motion is generally earth’s view – a view common to all bodies at rest with respect to earth. However, we encounter occasions when there is perceptible change to our earth’s view. One such occasion is traveling on the city trains. We find that it takes lot longer to overtake another train on a parallel track. Also, we see two people talking  while driving separate cars in the parallel lane, as if they were stationary to each other!. In terms of kinematics, as a matter of fact, they are actually stationary to each other - even though each of them are in motion with respect to ground.
+</para>
+<para id="element-3">In this module, we set ourselves to study motion from a perspective other than that of earth. Only condition we subject ourselves is that two references or two observers making the measurements of motion of an object, are moving at constant velocity (We shall learn afterward that two such reference systems moving with constant velocity is known as inertial frames, where Newton’s laws of motion are valid.). </para>
+<para id="element-321">The observers themselves are not accelerated. There is, however, no restriction on the motion of the object itself, which the observers are going to observe from different reference systems. The motion of the object can very well be accelerated. Further, we shall study relative motion for two categories of motion : (i) one dimension (in this module) and (ii) two dimensions (in another module). We shall skip three dimensional motion – though two dimensional study can easily be extended to three dimensional motion as well.
+</para>
+
+<section id="section-1">
+<title> Relative motion in one dimension </title>
+<para id="element-5">
+We start here with relative motion in one dimension. It means that the individual motions of the object and observers are along a straight line with only two possible directions of motion. 
+</para>
+<section id="section-1a">
+<title> Position of the point object  </title>
+<para id="element-6">We consider two observers “A” and “B”. The observer “A” is at rest with earth, whereas observer “B” moves with a velocity 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+ with respect to the observer “A”. The two observers watch the motion of the point like object “C”. The motions of “B” and “C” are along the same straight line.
+</para>
+<para id="element-7">
+<note id="idm3650976">It helps to have a convention about writing subscripted symbol such as 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+. The first subscript indicates the entity possessing the attribute (here velocity) and second subscript indicates the entity with respect to which measurement is made. A velocity like 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mrow>
+				<m:mi> B </m:mi>
+				<m:mi> A </m:mi>
+			</m:mrow>
+		</m:msub>
+	</m:math>
+ shall, therefore, mean velocity of “B” with respect to “A”.
+</note>
+</para>
+<para id="element-8">The position of the object “C” as measured by the two observers “A” and “B” are 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+as shown in the figure. The observers are represented by their respective frame of reference in the figure. 
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Position </title>
+<media id="idm443744" alt=""><image src="../../media/rmo1a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-10">
+Here,
+</para>
+
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-1b">
+<title> Velocity of the point object  </title>
+
+<para id="element-12">We can obtain velocity of the object by differentiating its position with respect to time. As the measurements of position in two references are different, it is expected that velocities in two references are different, because one observer is at rest, whereas other observer is moving with constant velocity. 
+</para>
+<para id="element-14">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-15">
+and
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">Now, we can obtain relation between these two velocities, using the relation 
+<m:math>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+ and differentiating the terms of the equation with respect to time :
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">
+<figure id="fig-20"><title> Relative velocity </title>
+<media id="idm8188000" alt=""><image src="../../media/rmo2a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-21">
+The meaning of the subscripted velocities are :
+</para>
+<para id="element-22">
+<list id="list-22" list-type="bulleted"><item> 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: velocity of object "C" with respect to "A"
+ </item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: velocity of object "C" with respect to "B"
+ </item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: velocity of object "B" with respect to "A"
+ </item>
+</list>
+</para>
+<example id="example-23">
+<para id="element-23"><term>Problem : </term> Two cars, standing a distance apart, start moving towards each other with speeds 1 m/s and 2 m/s along a straight road. What is the speed with which they approach each other ?
+</para>
+<para id="element-24"><term>Solution : </term> Let us consider that "A" denotes Earth, "B" denotes first car and "C" denotes second car. The equation of relative velocity for this case is :
+</para> 
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-26">
+Here, we need to fix a reference direction to assign sign to the velocities as they are moving opposite to each other and should have opposite signs. Let us consider that the direction of the velocity of B is in the reference direction, then
+</para>
+<para id="element-27"><figure id="fig-27">
+<title> Relative velocity </title>
+<media id="idm1287008" alt=""><image src="../../media/rmo3a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+<m:mo> . </m:mo>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-30">
+Now :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">This means that the car "C" is approaching "B" with a speed of -3 m/s along the straight road. Equivalently, it means that the car "B" is approaching "C" with a speed of 3 m/s along the straight road. We, therefore, say that the two cars approach each other with a relative speed of 3 m/s.
+</para>
+
+</example>
+
+</section>
+
+<section id="section-1c">
+<title> Acceleration of the point object   </title>
+<para id="element-34">If the object being observed is accelerated, then its acceleration is obtained by the time derivative of velocity. Differentiating equation of relative velocity, we have :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+
+<m:mo> + </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> đ </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-38">
+The meaning of the subscripted accelerations are :
+</para>
+<para id="element-39">
+<list id="list-39" list-type="bulleted"><item> 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: acceleration of object "C" with respect to "A"
+ </item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: acceleration of object "C" with respect to "B"
+ </item>
+<item> 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: acceleration of object "B" with respect to "A"
+ </item>
+</list>
+</para>
+<para id="element-40">But we have restricted ourselves to reference systems which are moving at constant velocity. This means that relative velocity of "B" with respect to "A" is a constant. In other words, the acceleration of "B" with respect to "A" is zero i.e. 
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:math>
+. Hence,
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">The observers moving at constant velocity, therefore, measure same acceleration of the object. As a matter of fact, this result is characteristics of inertial frame of reference. The reference frames, which measure same acceleration of an object, are inertial frames of reference.  
+</para>
+
+</section>
+
+</section>
+<section id="section-2">
+<title> Interpretation of the equation of relative velocity </title>
+<para id="element-43">The important aspect of relative velocity in one dimension is that velocity has only two possible directions. We need not use vector notation to write or evaluate equation of relative velocities in one dimension. The velocity, therefore, can be treated as signed scalar variable; plus sign indicating velocity in the reference direction and minus sign indicating velocity in opposite to the reference direction.
+</para>
+
+<section id="section-2a">
+<title> Equation with reference to earth</title>
+
+
+
+<para id="element-44">
+The equation of relative velocities refers velocities in relation to different reference system.  
+</para>
+<para id="element-45">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-46">We note that two of the velocities are referred to A. In case, “A” denotes Earth’s reference, then we can conveniently drop the reference. A velocity without reference to any frame shall then mean Earth’s frame of reference.
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> C </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">This is an important relation. This is the working relation for relative motion in one dimension. We shall be using this form of equation most of the time, while working with problems in relative motion. This equation can be used effectively to determine relative velocity of two moving objects with uniform velocities (C and B), when their velocities in Earth’s reference are known. Let us work out an exercise, using new notation and see the ease of working.
+</para>
+
+
+
+<example id="example-49">
+<para id="element-49"><term>Problem : </term> Two cars, initially 100 m distant apart, start moving towards each other with speeds 1 m/s and 2 m/s along a straight road. When would they meet ?
+</para>
+<para id="element-50"> <term>Solution : </term> The relative velocity of two cars (say 1 and 2) is :
+</para> 
+<para id="element-51">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-54">
+Let us consider that the direction 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+is the positive reference direction.
+</para>
+<para id="element-55">
+Here, 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+= 1 m/s  and 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+= -2 m/s. Thus, relative velocity of two cars (of 2 w.r.t 1) is :
+</para>
+
+
+
+<para id="element-52">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+
+<para id="element-56">This means that car "2" is approaching car "1" with a speed of -3 m/s along the straight road. Similarly, car "1" is approaching car "2" with a speed of 3 m/s along the straight road. Therefore, we can say that two cars are approaching at a speed of 3 m/s. Now, let the two cars meet after time “t” :
+</para>
+<para id="element-57"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> Displacement </m:mi>
+<m:mi> Relative velocity  </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 100 </m:mn>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 33.3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</example>
+
+</section>
+
+<section id="section-2b">
+<title> Order of subscript </title>
+
+<para id="element-58">There is slight possibility of misunderstanding or confusion as a result of the order of subscript in the equation. However, if we observe the subscript in the equation, it is easy to formulate a rule as far as writing subscript in the equation for relative motion is concerned. For any two subscripts say “A” and “B”, the relative velocity of “A” (first subscript) with respect to “B” (second subscript) is equal to velocity of “A” (first subscript) subtracted by the velocity of “B” (second subscript) :
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">and the relative velocity of  B (first subscript) with respect to A (second subscript) is equal to velocity of B (first subscript) subtracted by the velocity of A (second subscript):
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+<section id="section-2c">
+<title> Evaluating relative velocity by making reference object stationary </title>
+
+<para id="element-62">An inspection of the equation of relative velocity points to an interesting feature of the equation. We need to emphasize that the equation of relative velocity is essentially a vector equation. In one dimensional motion, we have taken the liberty to write them as scalar equation :
+</para>
+<para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> B </m:mi>
+<m:mi> A </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+Now, the equation comprises of two vector quantities (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+and 
+<m:math>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+) on the right hand side of the equation. The vector “
+<m:math>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+” is actually the negative vector i.e. a vector equal in magnitude, but opposite in direction to “
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+”. Thus, we can evaluate relative velocity as following :
+</para>
+<para id="element-65">
+<list id="list-65" list-type="enumerated"><item> Apply velocity of the reference object (say object "A") to both objects and render the reference object at rest.
+ </item>
+<item> The resultant velocity of the other object ("B") is equal to relative velocity of "B" with respect to "A".
+ </item>
+</list>
+</para>
+<para id="element-305">This concept of rendering the reference object stationary is explained in the figure below. In order to determine relative velocity of car "B" with reference to car "A", we apply velocity vector of car "A" to both cars. The relative velocity of car "B" with respect to car "A" is equal to the resultant velocity of car "B".</para><para id="element-66">
+<figure id="fig-66">
+<title> Relative velocity </title>
+<media id="idm9896928" alt=""><image src="../../media/rmo4.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-67">
+This technique is a very useful tool for consideration of relative motion in two dimensions.
+</para>
+</section>
+<section id="section-2d">
+<title> Direction of relative velocities </title>
+<para id="element-68">
+For a pair of two moving objects moving uniformly, there are two values of relative velocity corresponding to two reference frames. The values differ only in sign – not in magnitude. This is clear from the example here.
+</para>
+<example id="example-69">
+<para id="element-69"><term>Problem : </term> Two cars start moving away from each other with speeds 1 m/s and 2 m/s along a straight road. What are relative velocities ? Discuss the significance of their sign.
+</para>
+<para id="element-70"><term>Solution : </term> Let the cars be denoted by subscripts “1” and “2”. Let us also consider that the direction 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+is the positive reference direction, then relative velocities are :
+</para> <para id="element-70a"> 
+<figure id="fig-70a"><title> Relative velocity </title><media id="idm5279376" alt=""><image src="../../media/rmo7a.gif" mime-type="image/gif"/></media></figure>
+</para> 
+
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+The sign attached to relative velocity indicates the direction of relative velocity with respect to reference direction. The directions of relative velocity are different, depending on the reference object. 
+</para>
+<para id="element-73">However, two relative velocities with different directions mean same physical situation. Let us read the negative value first. It means that car 1 moves away from car 2 at a speed of 3 m/s in the direction opposite to that of car 2. This is exactly the physical situation. Now for positive value of relative velocity, the value reads as car 2 moves from car 1 in the direction of its own velocity. This also is  exactly the physical situation. There is no contradiction as far as physical interpretation is concerned. Importantly, the magnitude of approach – whatever be the sign of  relative velocity – is same.
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> Relative velocity </title>
+<media id="idm3749344" alt=""><image src="../../media/rmo5a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+</example>
+
+</section>
+<section id="section-2e">
+<title> Relative velocity .vs. difference in velocities
+</title>
+
+<para id="element-75">It is very important to understand that relative velocity refers to two moving bodies – not a single body. Also that relative velocity is a different concept than the concept of "difference of two velocities", which may pertain to the same or different objects. The difference in velocities represents difference of “final” velocity and “initial” velocity and is independent of any order of subscript. In the case of relative velocity, the order of subscripts are important. The expression for two concepts viz relative velocity and difference in velocities may look similar, but they are different concepts. 
+</para>
+
+</section>
+<section id="section-4">
+<title> Relative acceleration </title>
+<para id="element-93">We had restricted out discussion up to this point for objects, which moved with constant velocity. The question, now, is whether we can extend the concept of relative velocity to acceleration as well. The answer is yes. We can attach similar meaning to most of the quantities - scalar and vector both. It all depends on attaching physical meaning to the relative concept with respect to a particular quantity. For example, we measure potential energy (a scalar quantity) with respect to an assumed datum. 
+</para>
+<para id="element-93a">
+Extending concept of relative velocity to acceleration is done with the restriction that measurements of individual accelerations are made from the same  reference. 
+</para>
+
+<para id="element-93b">If two objects are moving with different accelerations in one dimension, then the relative acceleration is equal to the net acceleration following the same working relation as that for relative velocity. For example, let us consider than an object designated as "1" moves with acceleration "<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" and the other object designated as "2" moves with acceleration "
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>" along a straight line. Then, relative acceleration of "1" with respect to "2" is given by :
+</para>
+<para id="element-94">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-95">
+Similarly,relative acceleration of "2" with respect to "1" is given by :
+</para>
+<para id="element-96">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> a </m:mi>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+</section>
+<section id="section-3">
+<title> Worked out problems </title>
+
+<example id="example-76">
+<title> Relative motion </title>
+<para id="element-76"><term>Problem :</term>Two trains are running on parallel straight tracks in the same direction. The train, moving with the speed of 30 m/s overtakes the train ahead, which is moving with the speed of 20 m/s. If the train lengths are 200 m each, then find the time elapsed and the ground distance covered by the trains during overtake. 
+</para>
+<para id="element-77">
+<term>Solution :</term> First train, moving with the speed of 30 m/s overtakes the second train, moving with the speed of 20 m/s. The relative speed with which first train overtakes the second train,
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 12 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 10 m/s. </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">The figure here shows the initial situation, when faster train begins to overtake and the final situation, when faster train goes past the slower train. The total distance to be covered is equal to the sum of each length of the trains (L1 + L2) i.e. 200 + 200 = 400 m. Thus, time taken to overtake is :</para>
+<para id="element-80">
+<figure id="fig80">
+<title> The total relative distance </title>
+<media id="idp1175008" alt=""><image src="../../media/rmo6.gif" mime-type="image/gif"/></media>
+<caption> The total relative distance to cover during overtake is equal to the sum of lengths of each train. </caption>
+</figure>
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> 400 </m:mi>
+<m:mi> 10 </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> 40 s. </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">In this time interval, the two trains cover the ground distance given by:
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 40 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 40 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 1200 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 800 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 2000 m. </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+<para id="element-85">
+<exercise id="exercise-85">
+<problem id="idm6697776">
+<para id="element-86">
+In the question given in the example, if the trains travel in the opposite direction, then find the time elapsed and the ground distance covered by the trains during the period in which they cross each other. 
+</para>
+</problem>
+
+<solution id="idm9910464">
+<para id="element-87">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 12 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> - </m:mo>
+<m:mo> ( </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mi> 50 m/s. </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-88">
+The total distance to be covered is equal to the sum of each length of the trains i.e. 200 + 200 = 400 m. Thus, time taken to overtake is :
+</para>
+<para id="element-89">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mi> 400 </m:mi>
+<m:mi> 50 </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> 8 s. </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+Now, in this time interval, the two trains cover the ground distance given by:
+</para>
+<para id="element-91">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 20 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 8 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 240 </m:mn>
+<m:mo> + </m:mo>
+<m:mn> 160 </m:mn>
+<m:mo> = </m:mo>
+<m:mi> 400 m. </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-92">
+In this case, we find that the sum of the lengths of the trains is equal to the ground distance covered by the trains, while crossing each other. 
+</para>
+
+</solution>
+
+</exercise>
+</para>
+
+</section>
+
+<section id="section-10">
+<title> Check your understanding </title>
+<para id="element-262">Check the module titled <link document="m14035"> Relative velocity in one dimension (Check your understanding)</link> to test your understanding of the topics covered in this module.
+</para>
+</section>
+  
+  </content>
+  
+</document>

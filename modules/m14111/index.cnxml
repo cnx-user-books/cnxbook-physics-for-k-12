@@ -1,0 +1,1261 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Work - kinetic energy theorem (application)</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>fc3c46e2-0a43-46b8-bd91-1f46165a242c</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1a">
+Questions and their answers are presented here in the module text format as if it were an extension of the treatment of the topic. The idea is to provide a verbose explanation, detailing the application of theory. Solution presented is, therefore, treated as the part of the understanding process – not merely a Q/A session. The emphasis is to enforce ideas and concepts, which can not be completely absorbed unless they are put to real time situation. 
+</para>
+<section id="section-2">
+<title> Representative problems and their solutions
+</title>
+<para id="element-4aa">We discuss problems, which highlight certain aspects of the study leading to work - kinetic energy theorem. The questions are categorized in terms of the characterizing features of the subject matter :
+</para>
+<para id="element-5a">
+<list id="list-5" list-type="bulleted">
+<item> Constant force
+</item>
+<item> Variable force
+</item>
+<item> Maximum kinetic energy
+</item>
+</list>
+</para>
+</section>
+
+<section id="section-3">
+<title> Constant force
+</title>
+<section id="section-3a">
+
+<para id="element-28"><term>Problem 1 : </term>
+A bullet traveling at 100 m/s just pierces a wooden plank of 5 m. What should be the speed (in m/s) of the bullet to pierce a wooden plank of same material, but having a thickness of 10m?
+</para>
+<para id="element-29"><term>Solution : </term>
+Final speed and hence final kinetic energy are zero in both cases. From "work- kinetic energy" theorem, initial kinetic energy is equal to work done by the force resisting the motion of bullet. As the material is same, the resisting force is same in either case. If subscript "1" and "2" denote the two cases respectively, then :
+</para>
+<para id="element-30">
+For 5 m wood plank :
+</para>
+<para id="element-31">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mn> 100 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 5 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-32">
+For 10 m wood plank :
+</para>
+<para id="element-33">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 0 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mi> F </m:mi>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mi> F </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> X </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 10 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-34">
+Taking ratio of two equations, we have :
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mn> 100 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mo> x </m:mo>
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-36">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10000 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 20000 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 141.4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<para id="element-52"><term>Problem 2 : </term>
+A block of 2 kg is attached to one end of a string that passes over a pulley as shown in the figure. The block is pulled by a force of 50 N, applied at the other end of the string. If change in the kinetic energy of the block is 60 J, then find the work done by the tension in the string.
+</para>
+<para id="element-53">
+<figure id="fig-53">
+<title> Block hanging from pulley </title>
+<media id="idp3729936" alt=""><image src="../../media/wkeq2.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-55"><term>Solution : </term>
+We need to know tension and the displacement to find the work by tension. We note here that change in kinetic energy is given. Using "work - kinetic energy" theorem, we find work by the net force - not by the tension alone - on the block  :
+</para>
+<para id="element-56">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> Δ </m:mo>
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">
+In order to find tension and net force on the block, we draw free body diagram as shown in the figure.  
+</para>
+<para id="element-58">
+<figure id="fig-58">
+<title> Free body diagram </title>
+<media id="idp6085408" alt=""><image src="../../media/wkeq3a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> T </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">
+and
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mo> - </m:mo>
+<m:mi> m </m:mi>
+<m:mi> g </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ∑ </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 30 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> N </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+Let the vertical displacement be "y". Then, the work done by the net force is :
+</para>
+<para id="element-63">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mn> 30 </m:mn>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 60 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">
+Now, we have values of tension and displacement of the block. Hence, work done by the tension in the string :
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> W </m:mi>
+<m:mi> T </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> T </m:mi>
+<m:mo> x</m:mo>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 2 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 100 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-762">Note that this example illustrates two important aspects of analysis, using "work - kinetic energy" theorem : (i) work equated to change in kinetic energy is work by net force and (ii) if details like the value of tension and displacement are not known, then we need to employ force analysis to find quantities used for the calculation of work by individual force.</para>
+</section>
+<section id="section-3c">
+<para id="element-12"><term>Problem 3 : </term>
+A block of 1 kg, initially at  10 m/s, moves along a straight line on a rough horizontal plane. If its kinetic energy reduces by 80 % in 10 meters, then find coefficient of kinetic friction between block and horizontal surface.
+</para>
+
+<para id="element-15"><term>Solution : </term>
+From the given data, we can find the change in kinetic energy and hence work done by friction (which is the only force in this case). We do not consider weight or normal force as they are perpendicular to the direction of displacement. Here, 
+<m:math>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:math>
+. Applying "Work - kinetic energy" theorem,
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0.2 </m:mn>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.8 </m:mn>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+Now, 
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi>i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 100 </m:mn>
+<m:mo> = </m:mo>
+<m:mn> 50 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">
+Combining two equations,
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 0.8 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 50 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 40 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">
+Now, work by the friction is related to friction as :
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mi> r  </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22a">
+and friction is related to normal force as :
+</para>
+<para id="element-23">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mi> N  </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-24">
+Combining two equations, we have :
+</para>
+<para id="element-25">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mi> N  </m:mi>
+<m:mi> r  </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> W </m:mi>
+<m:mrow>
+<m:mi> N  </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mi> W </m:mi>
+<m:mrow>
+<m:mi> m  </m:mi>
+<m:mi> g  </m:mi>
+<m:mi> r </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 40  </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 1  </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10  </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 10  </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0.4  </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+</section>
+
+<section id="section-4">
+<title> Variable force
+</title>
+<section id="section-4a">
+
+<para id="element-4a"><term>Problem 4 : </term>
+Velocity - time plot of the motion of a particle of 1 kg from t = 2s to t = 6s, is as shown in figure. FInd the work done by all the forces (in Joule) on the particle during this time interval.</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Velocity - time plot </title>
+<media id="idp3131312" alt=""><image src="../../media/wkeq1.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-7"><term>Solution : </term>
+We are required to find work by all the forces, operating on the particle. No information about force is given. However, states of motion at end points can be read from the given plot. The "work - kinetic energy" theorem is independent of intermediate detail. From the plot. we have :
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mi> i </m:mi>
+		</m:msub>
+	</m:math>
+ = 2 m/s and 
+<m:math>
+		<m:msub>
+			<m:mi> v </m:mi>
+			<m:mi> f </m:mi>
+		</m:msub>
+	</m:math>
+ = 6 m/s. Now, applying theorem for the end conditions, we get the work by all forces, acting on the particle :
+</para>
+<para id="element-8">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-9">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 1 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 6 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mn> 2 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 0.5  </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 36 </m:mn>
+<m:mo> - </m:mo>
+<m:mn> 4 </m:mn>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 16 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-4b">
+<para id="element-39"><term>Problem 5 : </term>
+The displacement of a particle of 0.1 kg moving along x-axis is a function of time as x (in meters) = 2
+<m:math>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+ + t. Find the work done (in Joule) by the net force on the particle during time interval t = 0 to t = 5 s.
+</para>
+
+<para id="element-41"><term>Solution : </term>
+Here, displacement is given as a function of time. This enables us to determine speed at given time instants. This, in turn, enables us to determine change in kinetic energy and hence work by the net force on the particle. Now,
+</para>
+<para id="element-42">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:mi> x </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 4 </m:mn>
+<m:mi> t </m:mi>	
+<m:mo> + </m:mo>
+<m:mn> 1 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-43">
+Speed at t = 0,
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 1 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">Speed at t = 5 s,
+</para>
+<para id="element-46">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 21 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-47">Applying work-kinetic energy theorem, we get work done by the net force as :
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mn> 0.1 </m:mn>
+<m:mo> x </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mn> 21 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mn> 1 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+<m:mn> 22</m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+</section>
+
+<section id="section-5">
+<title> Maximum kinetic energy
+</title>
+
+<para id="element-68"><term>Problem 6 : </term>
+A particle of 0.1 kg is at rest when x = 0. A force given by the function F(x) = (
+<m:math>
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+) N, is applied on the particle. If displacement is in meters, then find the maximum kinetic energy (in Joule) of the particle for x &gt; 0.
+</para>
+
+<para id="element-70"><term>Solution : </term>
+The given force is a function of displacement. We can use integral form to determine work. This work can, then, be equated to the change in kinetic energies, using "work - kinetic energy" theorem. Once we have the relation of kinetic energy as a function of "x", we can differentiate and apply the condition for maximum kinetic energy. Now,
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∫ </m:mo>
+<m:mi> F </m:mi>
+<m:mo> ( </m:mo>
+<m:mi> x </m:mi>
+<m:mo> ) </m:mo>
+<m:mo> ⅆ </m:mo>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo>
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> ⅆ </m:mo>
+<m:mi> x </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> W </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 9 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">
+The particle is initially at rest. It means that its initial kinetic energy is zero. Now, applying "work - kinetic energy" theorem, we have :
+</para>
+<para id="element-73">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi> K </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> K </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> K </m:mi>
+<m:mo> = </m:mo>
+<m:mn> 9 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:mi> K </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mn> 9 </m:mn>
+<m:mo> - </m:mo>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-75">
+For 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:mi> K </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:math>
+, we have :
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> or </m:mi>
+<m:mspace width="4pt"/>
+<m:mo> + </m:mo>
+<m:mn> 3 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">But for x &gt; 0, x = 3 m. Second derivative of kinetic enregy should be negative for this value of "x = 3" so that kinetic energy at this point is maximum. 
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mo> ⅆ </m:mo>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> K </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo>
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+<m:mo> = </m:mo>
+<m:mo> - </m:mo>
+<m:mn> 6 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">Thus, kinetic energy at x = 3 m is maximum for x &gt; 0. It is given by :
+</para>
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> K </m:mi>	
+<m:mo> = </m:mo>
+<m:mn> 9 </m:mn>
+<m:mi> x </m:mi>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>	
+<m:mo> = </m:mo>
+<m:mn> 9 </m:mn>
+<m:mo> x </m:mo>
+<m:mn> 3 </m:mn>
+<m:mo> - </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mn> 3 </m:mn>
+<m:mn> 3 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mn> 18 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> J </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+
+
+
+  </content>
+  
+</document>

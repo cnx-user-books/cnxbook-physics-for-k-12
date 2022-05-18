@@ -1,0 +1,1742 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Theorems on moment of inertia</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m14294</md:content-id>
+  <md:title>Theorems on moment of inertia</md:title>
+  <md:abstract>Theorems on moment of inertia help to calculate it about additional relevant axes without any integral evaluation.</md:abstract>
+  <md:uuid>eb3be6fb-85cf-4da1-bc76-3406e98a9806</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">The use of integral expression of moment of inertia (MI) for a rigid body can be employed to calculate MI about different axes of rotation. However, such consideration is tedious because of difficulty in integral evaluation. There are two theorems, which avoid integral evaluation for calculating MI about certain other axes, when moment of inertia about an axis is known. The theorems are (i) theorem of parallel axes and (ii)  theorems of perpendicular axes.
+</para>
+
+<section id="section-1">
+<title> Theorem of parallel axes
+</title>
+
+
+<para id="element-2">
+This theorem enables us to calculate MI about any axis, parallel to the axis passing through center of mass (COM). The mathematical expression of this theorem is given as :
+</para>
+<para id="element-3"><equation id="equation-22"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-4">where <m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+ is MI of the body about an axis passing through center of mass, "C"; I is MI of the body about an axis parallel to the axis passing through center of mass; 
+"M" is the mass of the rigid body and "d" is the perpendicular distance between two parallel axes. 
+</para>
+<para id="element-5">We shall here drive expression for the MI about parallel axis in a general case of arbitrarily shaped three dimensional rigid body. This derivation requires clear visualization in three dimensional coordinate space. We shall use three figures to bring out relative distances and angles in order to achieve the clarity as stated. 
+</para>
+<para id="element-6">Let "M" be the mass of the rigid body and "dm" be the mass of a small element. Let "C" be the center of mass and "Cz" be an axis of rotation as shown in the figure. For convenience, we consider that "Cz" is along z-coordinate of the reference system.
+</para>
+<para id="element-7">
+<figure id="fig-7"><title> Theorem of parallel axes </title>
+<media id="id7737279" alt=""><image src="../../media/mit1a.gif" mime-type="image/gif"/></media>
+<caption> MI about parallel axis of arbitrarily shaped three dimensional rigid body.</caption>
+</figure>
+</para>
+<para id="element-8">In general, the elemental mass "dm" may be situated anywhere in relation to the axis "cz". Here, we consider two cross sections of the rigid body in parallel planes, which are perpendicular to z - axis (axis of rotation). The two cross sections are drawn here such that one (on the rear) contains center of mass "C" and other (on the front) contains the elemental mass "dm". We designate the plane containing elemental mass "dm" as xy-plane of the coordinate system. 
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Theorem of parallel axes </title>
+<media id="id7890567" alt=""><image src="../../media/mit2b.gif" mime-type="image/gif"/></media>
+<caption> Two cross sections of rigid body.</caption>
+</figure>
+</para>
+<para id="element-10">Now we concentrate on the plane (the plane in the front) containing elemental mass "dm". The element of mass "dm" being in the xy-plane has z = 0 and its position is given by two coordinates "x" and "y". </para>
+<para id="element-346">The parallel axis through center of mass intersects the plane (xy) at point "O".  Let Az' be the parallel axis about which, we have to calculate MI of the rigid body. This axis intersects the plane (xy)  at point "A" as shown in the figure below. </para><para id="element-11">In order to comprehend three dimensional aspect of perpendicular lines, we should realize that all lines drawn on the plane (xy) are perpendicular to two parallel axes (Oz or Az') as xy plane is perpendicular to them. The line BA in the xy plane, therefore,  represents the perpendicular distance of elemental mass "dm" from the axis Az'. Similarly, the line BO represents the perpendicular distance of elemental mass "dm" from the axis Oz.  Also, the line OA in xy-plane is perpendicular distance between two parallel axes, which is equal to "d". 
+</para>
+<para id="element-12">
+<figure id="fig-12"><title> Theorem of parallel axes </title>
+<media id="id8940538" alt=""><image src="../../media/mit3a.gif" mime-type="image/gif"/></media>
+<caption> The cross section of rigid body containing elemental mass.</caption>
+</figure>
+</para>
+<para id="element-14">
+Now, MI of the rigid body about axis Az' in the form of integral is given by :
+</para>
+<para id="element-15"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> AE </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> BE </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> { </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> x </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> y </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> } </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mi> a </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> x </m:mi>
+<m:mi> b </m:mi>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-17">
+Rearranging, we have :
+</para>
+<para id="element-18">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> a </m:mi>
+<m:mo> ∫ </m:mo>
+<m:mi> x </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> - </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> b </m:mi>
+<m:mo> ∫ </m:mo>
+<m:mi> y </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-19">However, the coordinates of the center of mass by definition are given as :
+</para>
+<para id="element-20">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo>
+<m:mi> x </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> y </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo>
+<m:mi> y </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> z </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo>
+<m:mi> z </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+</para>
+<para id="element-21">But, we see here that "x" and "y" coordinates of center of mass are zero as it  lies on z - axis. It means that :
+</para>
+<para id="element-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> x </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∫ </m:mo>
+<m:mi> x </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mi> x </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23">
+Similarly,
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mi> y </m:mi>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">
+Thus, the equation for the MI of the rigid body about the axis parallel to an axis passing through center of mass "C" is :
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+From the figure,
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-29">
+and
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">
+Substituting in the equation of MI, we have :
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">
+We, however, note that "R" is variable, but "d" is constant. Taking the constant out of the integral sign :
+</para>
+<para id="element-34"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ∫ </m:mo>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> đ </m:mi>
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">
+The integral on right hand side is the expression of MI of the rigid body about the axis passing through center of mass. Hence,
+</para>
+<para id="element-36"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section> 
+
+<section id="section-2">
+<title> Application of theorem of parallel axes
+</title>
+<para id="element-37">
+We shall illustrate application of the theorem of parallel axes to some of the regular rigid bodies, whose MI about an axis passing through center of mass is known.
+</para>
+<para id="element-38">
+<term>(i) </term>Rod : about an axis perpendicular to the rod and passing through one of its ends  
+</para>
+<para id="element-39">
+<figure id="fig-39"><title> Theorem of parallel axes </title>
+<media id="id7873287" alt=""><image src="../../media/mit4.gif" mime-type="image/gif"/></media>
+<caption> MI of rod about an axis perpendicular to the rod and passing through one of its ends. </caption>
+</figure>
+</para>
+<para id="element-40">
+MI about perpendicular bisector is known and is given by :
+</para>
+<para id="element-41">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">
+According to theorem of parallel axes, 
+</para>
+<para id="element-43"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:mo> x </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-44">
+<term>(ii) </term> Circular ring : about a line  tangential to the ring 
+</para>
+<para id="element-45">
+<figure id="fig-45" orient="horizontal">
+<title> Theorem of parallel axes </title>
+<subfigure id="fig-45a">
+<media id="id8450166" alt=""><image src="../../media/mit6.gif" mime-type="image/gif"/></media>
+<caption> MI of circular ring about a line  tangential to the ring. </caption>
+</subfigure>
+<subfigure id="fig-45b">
+<media id="id1166533486736" alt=""><image src="../../media/mit14.gif" mime-type="image/gif"/></media>
+<caption> MI of hollow cylinder about an axis tangential to the surface. </caption>
+</subfigure>
+</figure>
+
+</para>
+<para id="element-46">
+MI about an axis  passing through the center and perpendicular to the ring is known and is given by :
+</para>
+<para id="element-47">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-48">
+According to theorem of parallel axes, 
+</para>
+<para id="element-49"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo>
+<m:mn> 2 </m:mn> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup></m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-50">Since hollow cylinder has similar expression of MI, the expression for the MI about a line tangential to its curved surface is also same.
+</para>
+<para id="element-51">
+<term>(i) </term> Circular plate  : about a line perpendicular and tangential to the circular plate  
+</para>
+<para id="element-52">
+<figure id="fig-52" orient="horizontal">
+<title> Theorem of parallel axes </title>
+<subfigure id="fig-52a">
+<media id="id6741088" alt=""><image src="../../media/mit7.gif" mime-type="image/gif"/></media>
+<caption> MI of Circular plate about a line perpendicular and tangential to it. </caption>
+</subfigure>
+<subfigure id="fig-52b">
+<media id="id1166533421625" alt=""><image src="../../media/mit14.gif" mime-type="image/gif"/></media>
+<caption>  MI of solid cylinder about a line tangential to it. </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-53">
+MI about an axis passing through the center and perpendicular to the circular plate is known and is given by :
+</para>
+<para id="element-54">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-55">
+According to theorem of parallel axes, 
+</para>
+<para id="element-56"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-57">Since solid cylinder has similar expression of MI, the expression for the MI about a line tangential to its curved surface is also same.
+</para>
+<para id="element-58">
+<term>(iii) </term> Hollow sphere : about a line tangential to the hollow sphere  
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> Theorem of parallel axes </title>
+<media id="id8154712" alt=""><image src="../../media/mit8.gif" mime-type="image/gif"/></media>
+<caption> MI of hollow sphere about a line tangential to it. </caption>
+</figure>
+</para>
+<para id="element-60">MI about one of its diameters is known and is given by :
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">
+According to theorem of parallel axes, 
+</para>
+<para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64"><term>(iv) </term> Solid sphere :  about a line tangential to the solid sphere  
+</para>
+<para id="element-65">
+<figure id="fig-65">
+<title> Theorem of parallel axes </title>
+<media id="id7934997" alt=""><image src="../../media/mit8.gif" mime-type="image/gif"/></media>
+<caption> MI of solid sphere about a line tangential to it. </caption>
+</figure>
+</para>
+<para id="element-66">MI about one of its diameters is known and is given by :
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+According to theorem of parallel axes, 
+</para>
+<para id="element-69"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 7 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> L </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</section>
+
+<section id="section-3">
+<title> Theorem of perpendicular axes
+</title>
+
+
+<para id="element-70">Theorem of perpendicular axes is applicable to planar bodies only. According to this theorem, moment of inertia of a planar rigid body about a perpendicular axis (z) is equal to the sum of moments of inertia about two mutually perpendicular axes (x and y) in the plane of the body, which are themselves perpendicular to the z - axis. 
+</para>
+<para id="element-71"><equation id="equation-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-72">
+<figure id="fig-72">
+<title> Theorem of perpendicular axes </title>
+<media id="id8117181" alt=""><image src="../../media/mit9.gif" mime-type="image/gif"/></media>
+<caption> MI of a plate of irregular shape about an axis perpenndicular to it. </caption>
+</figure>
+</para>
+
+<para id="element-73">Three axes involved in the theorem are mutually perpendicular to each other and form the rectangular coordinate system. It should be noted that there is no restriction that axes pass through center of mass of the rigid body as in the case of parallel axis theorem. In order to prove the theorem in general, we consider a planar body of irregular shape. We consider an elemental mass "dm" at P (x,y) as shown in the figure above. 
+</para>
+<para id="element-74">
+The moment of inertia of the body about z - axis is given as :
+</para>
+<para id="element-75">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-76">
+We drop two perpendiculars in the plane of body on "x" and "y" axes. Then,
+</para>
+<para id="element-77">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mi> r </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> = </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-78">
+Substituting in the equation of moment of inertia,
+</para>
+
+<para id="element-80">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∫ </m:mo> 
+<m:msup>
+<m:mi> x </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> y </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> đ </m:mo> 
+<m:mi> m </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+The expressions on the right hand side represent moments of inertia of the body about "x" and "y" axes. Hence,
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</section>
+<section id="section-4">
+<title> Application of theorem of perpendicular axes
+</title>
+<para id="element-83">We shall determine MIs of objects about other axes, which are not symmetric to the body. As pointed out earlier, we shall limit the application of the theorem of perpendicular axes to planar objects like rectangular plate, ring and circular plate etc.
+</para>
+<para id="element-84">
+<term>(i) </term> Rectangular plate : about a line passing through center of mass and perpendicular to the plane 
+</para>
+<para id="element-85">
+Moment of inertia about a line passing through center of mass and parallel to one of the side is given as :
+</para>
+<para id="element-86">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-87">
+<figure id="fig-87">
+<title> Theorem of perpendicular axes </title>
+<media id="id1166535553085" alt=""><image src="../../media/mit10.gif" mime-type="image/gif"/></media>
+<caption> Moment of inertia of a rectangular plate about a line passing through center of mass and perpendicular to its surface. </caption>
+</figure>
+</para>
+<para id="element-88">
+Applying theorem of perpendicular axes, we have :
+</para>
+<para id="element-89"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mo> ( </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> b </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mn> 12 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-90">
+<term>(ii) </term> Circular ring : about one of the diameter
+</para>
+<para id="element-91">
+Moment of inertia about a perpendicular line passing through center of ring is given as :
+</para>
+<para id="element-92">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-93">
+<figure id="fig-93">
+<title> Theorem of perpendicular axes  </title>
+<media id="id1166533547574" alt=""><image src="../../media/mit11.gif" mime-type="image/gif"/></media>
+<caption> Moment of inertia of a circular ring about one of the diameters. </caption>
+</figure>
+</para>
+<para id="element-94">We consider two mutually perpendicular diameters as "x" and "y" axes of the cordinate system. Now, applying theorem of perpendicular axes, we have :
+</para>
+<para id="element-95">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-96">However, the circular ring has uniform mass distribution, which is symmetrically distributed about any diameter. Thus, MIs about the axes "x" and "y" are equal,
+</para>
+<para id="element-97">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-98">
+Thus,
+</para>
+<para id="element-99"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-100"><term>(iii) </term> Circular plate : about one of the diameter
+</para>
+<para id="element-101">
+Moment of inertia about a perpendicular line passing through center of circular plate is given as :
+</para>
+<para id="element-102">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-103">
+<figure id="fig-103">
+<title> Theorem of perpendicular axes  </title>
+<media id="id1166535507745" alt=""><image src="../../media/mit12.gif" mime-type="image/gif"/></media>
+<caption> Moment of inertia of a circular plate about one of the diameters. </caption>
+</figure>
+</para>
+<para id="element-104">
+We consider two mutually perpendicular diameters as shown in the figure. These diameters can be treated as two coordinates of the plane of the circular plate. Now, applying theorem of perpendicular axes, we have :
+</para>
+<para id="element-105">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-106">
+However, the circular plate has uniform mass distribution, which is symmetrically distributed about any diameter. Thus, MIs about the planar axes "x" and "y" are equal,
+</para>
+<para id="element-107">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-108">
+Thus,
+</para>
+<para id="element-109"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+
+</section>
+<section id="section-5">
+<title> Summary 
+</title>
+<para id="element-110">
+<term>1.</term> Theorem of perpendicular axes
+</para>
+<para id="element-111">
+The mathematical expression of this theorem is given as :
+</para>
+<para id="element-112">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:msup>
+<m:mi> d </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-114">where <m:math>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+ is MI of the body about an axis passing through center of mass, "C"; I is MI of the body about an axis parallel to the axis passing through center of mass; 
+"M" is the mass of the rigid body and "d" is the perpendicular distance between two parallel axes. 
+</para>
+<para id="element-115"><term>2.</term> Theorem of parallel axes is valid for all shapes (regular and irregular).
+</para>
+<para id="element-116"><term>3.</term> Theorem of parallel axes expresses MI about a parallel axis in terms of the MI about a parallel axis passing through COM. Thus, we should ensure that one of the two parallel axes be through the COM of the rigid body. 
+</para>
+<para id="element-117">
+<term>4.</term> Theorem of perpendicular axes
+</para>
+<para id="element-118">
+According to this theorem, moment of inertia of a planar rigid body about a perpendicular axis (z) is equal to the sum of moments of inertia about two mutually perpendicular axes (x and y) in the plane of the body, which are also perpendicular to the axis along z - axis. 
+</para>
+<para id="element-119">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> z </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> I </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-120"><term>4.</term> Theorem of perpendicular axes is valid only for all planar shapes (regular and irregular).
+</para>
+
+</section>
+
+  </content>
+  
+</document>

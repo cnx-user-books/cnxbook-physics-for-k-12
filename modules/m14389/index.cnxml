@@ -1,0 +1,1076 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Rolling with sliding</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>74540035-c1e1-4068-9b8b-3e1fe1c76fc2</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">We encounter many real time examples, when circular body in motion rolls with sliding. When we drive the car and are required to decelerate quickly, we need to apply sudden brake. The car in response may skid before coming to a stop. The length of slide depends on the friction between the surfaces. On a wet road, we may find that car slides longer than anticipated (reduced friction). For this reason, we experience almost uncontrolled sliding on a surface covered with ice, when we apply brake hard. 
+</para>
+<para id="element-2">On the other extreme of above example, we may encounter a situation when we may not be able to move a car on a wet land at all. As we press the gas (paddle), the wheel rotates in its place without translating. Only, the wheel keeps rotating. The car may be stuck getting deeper into a groove created there. In such situations, we are required to push the vehicle to translate, keeping some hard matter like bricks or wooden plate near stuck wheel.
+</para>
+<para id="element-3">Evidently, rolling (pure) is not taking place in these examples. Clearly, rolling with sliding is not pure rolling. 
+</para>
+
+<section id="section-1">
+<title> Implication of rolling with sliding
+</title>
+
+<para id="element-4">In this section, we outline differentiating aspects of rolling with sliding (impure rolling) via-a-vis pure rolling as :
+</para>
+<para id="element-5"><term>1: </term> In the case of applying sudden brake, we apply brake pad. The friction between brake pad and braking disk constitute a circumferential force. This force constitutes a torque that opposes angular motion of the rolling wheel. The net effect is that we disproportionately try to reduce angular velocity – not maintaining the relation between angular and linear velocity as given by equation of rolling.
+</para>
+<para id="element-6">When we accelerate or initiate a motion on a wet land without being able to translate, we apply torque and induce angular acceleration. But, friction between wheel and land is not sufficient to convert angular acceleration into linear acceleration as required for rolling. 
+</para>
+<para id="element-7"><term>2: </term> For rolling with sliding, the distance covered in translation is not equal to the distance covered by a point on the rim of the body in rotation. This means that 
+</para>
+<para id="element-8">
+<equation id="equation-8"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> ≠ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-9">In the case of applying “sudden brake”, the car moves a greater distance than 2πR before the wheel completes one revolution i.e. there are fewer revolutions than in the rolling motion.
+</para>
+<para id="element-10">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> &gt; </m:mo> 
+<m:mi> θ </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-11">In the case of driving on a wet land, the car, in one revolution of wheel, moves a lesser distance than 2πR. There are more revolutions than in the rolling motion.
+</para>
+<para id="element-188"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> s </m:mi>
+<m:mo> &lt; </m:mo> 
+<m:mi> θ </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para><para id="element-12">
+<term>3: </term> The friction involved in the sliding is kinetic friction – not static friction.
+</para>
+<para id="element-14"><term>4: </term> In the case of rolling with sliding, the motion is still analyzed, using two forms of Newton’s second law (linear and angular). However, equations of rolling for velocity and acceleration are not valid :
+</para>
+<para id="element-15">
+<equation id="equation-15">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ≠ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-16">
+<equation id="equation-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> ≠ </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para><para id="element-373"><term>5 :</term> When left to itself, motion of a body initially rolling with sliding ultimately changes to rolling due to friction. </para>
+
+</section>
+
+<section id="section-2">
+<title> Illustrations 
+</title>
+<para id="element-17">We noted in earlier section that, when left to itself, a body initially rolling with sliding is rendered to roll without sliding due to friction. Here, we shall work out two examples to illustrate this assertion for two situations :
+</para>
+<para id="element-18">
+<list id="list-18" list-type="bulleted"><item> The body initially has  greater angular velocity. 
+ </item>
+<item> The body initially has greater linear velocity. 
+ </item>
+</list>
+</para>
+<para id="element-19">We shall first consider a case, in which the body is given initial spin (angular velocity) without any linear velocity. In this case, kinetic friction appears such that the angular velocity is decreased and linear acceleration is increased and  over a period of time so that the equation of rolling is satisfied.  
+
+</para>
+<para id="element-20">Second, we consider a case in which the rigid body initially has greater linear velocity than required for rolling without sliding i.e. for rolling motion. In this case, kinetic friction appears such that the linear acceleration is decreased and angular velocity is increased over a period of time so that the equation of rolling is satisfied. The friction works to balance combination of linear angular motion such that equation of rolling is satisfied.
+</para>
+<para id="element-21">The solution in each case requires us to apply Newton’s second law for translational and rotational motion separately. Then, we use equation(s) of rolling as limiting condition when motion of rolling with sliding of the body is rendered as pure rolling. In the subsections below, we consider two examples to illustrate the concept discussed here.
+</para>
+
+<section id="section-2b">
+<title> The rigid body initially having greater angular velocity.  </title>
+<example id="example-51">
+<para id="element-52"><term>Problem : </term> A hollow sphere of mass “M” and radius “R” is spun and released on a rough horizontal surface with angular velocity, “
+<m:math>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>”. After some time, the sphere begins to move with pure rolling. What is linear and angular velocity when it starts moving with pure rolling ? 
+</para>
+<para id="element-53"> <term>Solution : </term> In the beginning, the sphere has only angular velocity about the axis of rotation. There is sliding tendency in the backward direction at the point of contact as it continues rotating. This is the natural tendency. This causes friction to come into picture. This friction, in the opposite direction of the sliding, does two things : (i) it works as a net force on the sphere and imparts translational acceleration and (ii) it works as torque to oppose angular velocity i.e. imparts angular deceleration to the rotating sphere. In simple words, the sphere acquires translation motion at the expense of angular motion. This process continues till the condition of pure rolling is met i.e. 
+</para>
+<para id="element-54">
+<figure id="fig-54"><title> Rolling with sliding </title>
+<media id="idm8394544" alt=""><image src="../../media/rs3a.gif" mime-type="image/gif"/></media>
+<caption> Linear velocity and angular velocity are related by equation of rolling. </caption>
+</figure>
+</para>
+<para id="element-55">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-56">
+It is therefore clear that we must strive to find a general expression of translational and rotational velocities at a given time “t”. Once we have these relations, we can use the condition as stated above and find out the required velocity, when sphere starts pure rolling. Now, we know that friction is causing acceleration. This force, incidentally, is a constant force for the given surfaces and allows us to use equation of motion for constant acceleration. 
+</para>
+<para id="element-58">
+Let us first analyze translation motion. Here,
+</para>
+<para id="element-59"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-60">Initially, the sphere has only rotational motion i.e. 
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 0 </m:mn>
+</m:math>. Hence,
+</para>
+<para id="element-61"><equation id="equation-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+<para id="element-62">The translational acceleration is obtained from the Newton’s law as force divided by mass :
+</para>
+<para id="element-63"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> f </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-64">Substituting in equation of motion (equation - 4),
+</para>
+<para id="element-65">
+<equation id="equation-65"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> f </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> X </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-66">
+Let us, now, analyze rotational motion. Here,
+</para>
+<para id="element-67"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-68">
+Initial angular velocity is clockwise and hence negative. The rotational acceleration is obtained from the Newton’s law in angular form as torque divided by moment of inertia (angular acceleration is positive as it anti-clockwise) :
+</para>
+<para id="element-69"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mi> τ </m:mi>
+<m:mi> I </m:mi>
+</m:mfrac>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> f </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">Torque and angular acceleration due to friction are anti-clockwise and hence are positive. Substituting in the equation of angular motion,
+</para>
+<para id="element-71">
+<equation id="equation-71"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> f </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>
+<m:mo> x  </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-72">Thus, we have two equations : one for translational motion and another for rotational motion. We need to eliminate time “t” from these equations. From equation of translational motion (equation – 5), we have :
+</para>
+<para id="element-73"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mi> f </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-74">
+Substituting the value of time in the equation of rotational motion, we have :
+</para>
+<para id="element-75"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-76">Now, we use the condition of rolling, v = -ωR as "v" and ω have opposite signs. In this case, we multiply the equation for ω by “-R” to get the equation for translational velocity :
+</para>
+<para id="element-77">
+<equation id="equation-77"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> R </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mo> =  </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> v </m:mi>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-78">
+Substituting the expression of MI of hollow sphere about a diameter,
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 5 </m:mn>
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> =  </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-23a">Angular velocity is given by :
+
+</para> 
+<para id="element-79a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> ω </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mi> v </m:mi>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+
+</m:mrow>
+<m:mi> R </m:mi>
+</m:mfrac>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 5 </m:mn>
+</m:mfrac>
+
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+<section id="section-2a">
+<title> The rigid body initially having greater linear velocity. 
+</title>
+<example id="example-22">
+<para id="element-23"><term>Problem : </term> A disk of mass “M” and radius “R” moves on a horizontal surface with translational speed “
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+” and angular speed “
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:math>
+”. Find linear velocity, when the disk starts moving with pure rolling.
+</para>
+<para id="element-24">
+<figure id="fig-24">
+<title> Rolling with sliding </title>
+<media id="idm2329872" alt=""><image src="../../media/rs1.gif" mime-type="image/gif"/></media>
+<caption> Linear velocity is initially greater than angular velocity </caption>
+</figure>
+</para>
+<para id="element-25"><term>Solution : </term> According to the question, the initial motion is not pure rolling. For pure rolling, translational speed is linked to angular speed by the equation,
+</para>
+
+<para id="element-27">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-28">But here, translational velocity (
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:math>
+) is greater than the required angular velocity for rolling. The linear velocity corresponding to the given angular velocity is only "
+<m:math>
+ 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo>
+<m:mspace width="2pt"/>
+<m:mi> R </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:math>
+". This means that the disk translates more than "2πR" in one revolution. This, in turn, means that the disk also slides on the surface, besides rotating. 
+</para>
+
+<para id="element-30">
+The sliding motion is opposed by friction acting in opposite direction to the motion. Now as the disk decelerates, let “a” be the deceleration. The deceleration, “a”, is given by Newton’s second law. Here, force responsible for deceleration is kinetic friction.
+</para>
+<para id="element-31">
+<figure id="fig-31">
+<title> Rolling with sliding </title>
+<media id="idp2937024" alt=""><image src="../../media/rs2.gif" mime-type="image/gif"/></media>
+<caption> Linear velocity and angular velocity are related by equation of rolling. </caption>
+</figure>
+</para>
+<para id="element-32">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> a </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33">Negative sign shows that it acts in the direction opposite to x-axis. The velocity of center of mass, “v”, at a time “t” is given by the equation of linear motion for constant acceleration (note that we have not used the subscript “C” for center of mass to keep notation simple) :
+</para>
+<para id="element-34"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35">Substituting the expression of acceleration, 
+</para>
+<para id="element-36">
+<equation id="equation-36"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> x </m:mo>
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-37">We can similarly find expression for angular velocity at a given time. First, we need to calculate angular acceleration resulting from the torque applied by the friction. Note here that friction causes angular acceleration – not deceleration. 
+</para>
+<para id="element-38">
+Now, angular acceleration,”α”, is given as :
+</para>
+<para id="element-39">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mi> τ </m:mi>
+<m:mi> I </m:mi>
+</m:mfrac>
+<m:mo> =  </m:mo> 
+
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+<m:mi> R </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-40">
+Angular acceleration is clockwise and hence negative. The angular velocity, “ω”, at a time “t” is given by :
+</para>
+<para id="element-41"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> +  </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> t </m:mi>
+
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-42">Substituting expression of angular aceleration, 
+</para>
+<para id="element-43"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:msub>
+<m:mi> ω </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> x  </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-44">
+<equation id="equation-44"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> ω </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mn> 3 </m:mn>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> -  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> x  </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-45">
+According to equation of rolling (negative sign for relation of velocities as against unsigned relation for speeds),
+</para>
+<para id="element-46">
+<equation id="equation-46"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:mo> -  </m:mo> 
+<m:mi> ω </m:mi>
+<m:mi> R </m:mi>
+<m:mo> =  </m:mo> 
+
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> +  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+<m:mo> x  </m:mo> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-47">We have two expressions (equations 8 and 10) for translation velocity at time “t”. Now, "t" is obtained from equation - 8 as :
+</para>
+<para id="element-48"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> (  </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> )  </m:mo> 
+<m:mi> M </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mi> K </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">Substituting expression of “t” in the equation - 10, we have :
+</para>
+<para id="element-50">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+<m:mo> +  </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> (  </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> )  </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mn> 3 </m:mn>
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 7 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 3 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 7 </m:mn>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 0 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mn> 9 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+</section>
+
+<section id="section-1000">
+<title> Acknowledgement 
+</title>
+<para id="element-1000">
+Author wishes to place special thanks to Wei Yu for their valuable suggestions on the subject discussed in this module.
+</para>
+</section>
+   
+  </content>
+  
+</document>

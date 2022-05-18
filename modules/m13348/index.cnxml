@@ -1,0 +1,2480 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Velocity</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>78d4f356-d76b-43fa-8e7e-8bb332d6ee75</md:uuid>
+</metadata>
+  <content>
+
+<para id="element-1">Velocity is the measure of rapidity with which a particle covers shortest distance between initial and final positions, irrespective of the actual path. It also indicates the direction of motion as against speed, which is devoid of this information.
+</para>
+
+<para id="element-2"> 
+<definition id="definition-2">
+<term>Velocity</term>
+<meaning id="idm2023520"><emphasis> Velocity is the rate of change of displacement with respect to time and is expressed as the ratio of displacement and time. 
+</emphasis>
+</meaning>
+</definition>
+</para>
+
+<para id="element-3"> 
+<equation id="equation-3">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mfrac> 
+                <m:mi>Displacement</m:mi>
+                <m:mi>Δt</m:mi>
+              </m:mfrac> 
+           </m:mrow>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation>
+</para>
+
+<para id="element-4"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:mo>⇒</m:mo>
+              <m:mi> </m:mi>
+              <m:mi>Displacement</m:mi>
+              <m:mo>=</m:mo> 
+              <m:mi mathvariant="bold">Δv</m:mi>
+              <m:mi>t</m:mi>  
+       
+           </m:mrow> 
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-5">If the ratio of displacement and time is evaluated for finite time interval, we call the ratio “average” velocity, whereas if the ratio is evaluated for infinitesimally small time interval(Δt→0) , then we call the ratio “instantaneous” velocity. Conventionally, we denote average and instantaneous velocities as 
+<m:math>
+   <m:msub>
+   <m:mi mathvariant="bold"> v </m:mi>
+    <m:mn mathvariant="bold"> a </m:mn>
+   </m:msub>
+</m:math>
+and
+<m:math>
+   <m:mi mathvariant="bold"> v </m:mi>
+</m:math>
+respectively to differentiate between the two concepts of velocity.
+</para>
+
+<para id="element-6">As against speed, which is defined in terms of distance, velocity is defined in terms of displacement. Velocity amounts to be equal to the multiplication of a scalar (1/Δt) with a vector (displacement). As scalar multiplication of a vector is another vector, velocity is a vector quantity, having both magnitude and direction. The direction of velocity is same as that of displacement and the magnitude of velocity is numerically equal to the absolute value of the velocity vector, denoted by the corresponding non bold face counterpart of the symbol. 
+</para>
+
+<para id="element-7">Dimension of velocity is 
+
+<m:math>
+   <m:mi> L </m:mi>
+   <m:msup>
+   <m:mi> T </m:mi>
+   <m:mrow>
+   <m:mo> - </m:mo>
+    <m:mn> 1 </m:mn>
+   </m:mrow>
+   </m:msup>
+</m:math>
+   and its SI unit is meter/second (m/s). 
+</para>
+<section id="section-1">
+<title> Position vector and velocity  </title>
+
+
+<para id="element-8"> 
+The displacement is equal to the difference of position vectors between initial and final positions. As such, velocity can be conveniently expressed in terms of position vectors. 
+</para>
+<para id="element-8a"> 
+<figure id="fig8a">
+ <title> Displacement in terms of position vector </title>
+<media id="idp2866896" alt=""><image src="../../media/v1-e2ee.gif" mime-type="image/gif"/></media>
+<caption> Displacement is equal to the change in position vector </caption>
+</figure>
+</para>
+
+<para id="element-9"> 
+Let us consider that
+ <m:math display="inline">
+<m:msub>
+<m:mi mathvariant="bold">r</m:mi>
+<m:mi mathvariant="bold">1</m:mi>
+</m:msub>
+</m:math> and 
+<m:math display="inline">
+<m:msub>
+<m:mi mathvariant="bold">r</m:mi>
+<m:mi mathvariant="bold">2</m:mi>
+</m:msub>
+</m:math>
+be the position vectors corresponding to the object positions at time instants
+
+<m:math display="inline">
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>1</m:mi>
+</m:msub>
+</m:math> and 
+<m:math display="inline">
+<m:msub>
+<m:mi>t</m:mi>
+<m:mi>2</m:mi>
+</m:msub>
+</m:math>
+. Then, displacement is given by :
+</para>
+
+<para id="element-11"> 
+<equation id="eqn_11"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd> 
+           <m:mrow> 
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>=</m:mo>
+          </m:mrow>
+          </m:mtd>
+          <m:mtd>
+          <m:mrow>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msub>
+                <m:mi mathvariant="bold">r</m:mi>
+                <m:mi mathvariant="bold">2</m:mi>
+                </m:msub>
+                <m:mo>-</m:mo> 
+
+                <m:msub>
+                <m:mi mathvariant="bold">r</m:mi>
+                <m:mi mathvariant="bold">1</m:mi>
+                </m:msub>
+                </m:mrow>
+                <m:mrow> 
+                <m:msub>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo> 
+
+                
+                <m:msub>
+                <m:mi>t</m:mi>
+                <m:mn>1</m:mn>
+                </m:msub>
+
+                </m:mrow>
+              </m:mfrac> 
+
+          </m:mrow>
+          </m:mtd>
+
+           <m:mtd> 
+           <m:mrow> 
+
+              <m:mo>=</m:mo>
+  
+              <m:mfrac> 
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi mathvariant="bold">r</m:mi>
+                </m:mrow>
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+ 
+          </m:mrow>
+          </m:mtd>
+
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation>
+</para>
+<para id="element-14"> 
+<definition id="definition-14"><term> Velocity </term>
+<meaning id="idm3052160"><emphasis> Velocity is the rate of change of position vector with respect to time and is expressed as the ratio of change in position vector and time. 
+</emphasis>
+</meaning>
+</definition>
+</para>
+<para id="element-15"> 
+The expression of velocity in terms of position vectors is generally considered more intuitive and basic to the one expressed in terms of displacement. This follows from the fact that displacement vector itself is equal to the difference in position vectors between final and initial positions. 
+</para>
+
+</section>
+
+
+<section id="section-2">
+<title> Average velocity </title>
+
+<para id="element-16"> 
+Average velocity is defined as the ratio of total displacement and time interval. 
+</para>
+<para id="element-17"> 
+<equation id="equation-17"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+           <m:mtd> 
+           <m:mrow> 
+                <m:msub>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mi> a </m:mi>
+                 </m:msub>
+              <m:mo>=</m:mo> 
+          </m:mrow>
+
+           <m:mrow> 
+
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi mathvariant="bold">r</m:mi>
+                </m:mrow>
+                <m:mrow> 
+                <m:mi>Δ</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mfrac> 
+ 
+          </m:mrow>
+          </m:mtd>
+
+          <m:mtd>
+              <m:mo>=</m:mo> 
+              <m:mfrac> 
+                <m:mrow> 
+                <m:msub>
+                <m:mi mathvariant="bold">r</m:mi>
+                <m:mi mathvariant="bold">2</m:mi>
+                </m:msub>
+                <m:mo>-</m:mo> 
+
+                <m:msub>
+                <m:mi mathvariant="bold">r</m:mi>
+                <m:mi mathvariant="bold">1</m:mi>
+                </m:msub>
+                </m:mrow>
+                <m:mrow> 
+                <m:msub>
+                <m:mi>t</m:mi>
+                <m:mn>2</m:mn>
+                </m:msub>
+                <m:mo>-</m:mo> 
+
+                
+                <m:msub>
+                <m:mi>t</m:mi>
+                <m:mn>1</m:mn>
+                </m:msub>
+
+                </m:mrow>
+              </m:mfrac> 
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation>
+</para>
+
+<para id="element-18">Average velocity gives the overall picture about the motion. The magnitude of the average velocity tells us the rapidity with which the object approaches final point along the straight line – not the rapidity along the actual path of motion. It is important to notice here that the magnitude of  average velocity does not depend on the actual path as in the case of speed, but depends on the shortest path between two points represented by the straight line joining the two ends. Further, the direction of average velocity is from the initial to final position along the straight line (See Figure). 
+</para>
+<para id="element-19"> 
+<figure id="fig19">
+<title> Direction of velocity</title>
+<media id="idm11326000" alt=""><image src="../../media/v2-06df.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-20">Average velocity may be different to instantaneous velocities in between the motion in either magnitude or direction or both. Consider the example of the tip of the second’s hand of a wall clock. It moves along a circular path of 2п r in 60 seconds. The magnitude of average velocity is zero in this period (60 seconds) as the second’s hand reaches the initial position. This is the overall picture. However, the tip of the second’s hand has actually traveled the path of 2п r, indicating that intermediate instantaneous velocities during the motion were not zero.  
+</para>
+
+<para id="element-22">Also, the magnitude of average velocity may be entirely different than that of average speed. We know that distance is either greater than or equal to the magnitude of displacement. It follows then that average speed is either greater than or equal to the magnitude of average velocity. For the movement along semi-circle as shown in the figure below, the magnitude of velocity is 2r/30 m/s, where as average speed is п r/30 = 3.14 r/30 m/s. Clearly, the average speed is greater than the magnitude of average velocity.
+</para><para id="element-810"><figure id="fig810">
+<title> Speed and velocity </title>
+<media id="idp2190608" alt=""><image src="../../media/v3-d5d7.gif" mime-type="image/gif"/></media>
+</figure></para>
+
+
+</section>
+
+<section id="section-3">
+<title> Position – time plot and average velocity  </title>
+
+<para id="element-24"> 
+Position – time plot is a convenient technique to interpret velocity of a motion. The limitation here is that we can plot position – time graph only for one and two dimensional motions.  As a matter of fact, it is only one dimensional (linear or rectilinear) motion, which renders itself for convenient drawing. 
+</para>
+
+<para id="element-25"> 
+On the plot, positions are plotted with appropriate sign against time. A positive value of position indicates that particle is lying on the positive side of the origin, whereas negative value of position indicates that the particle is lying on the opposite side of the origin. It must, therefore, be realized that a position – time plot may extend to two quadrants of a two dimensional coordinate system as the value of x can be negative.
+</para>
+
+<para id="element-26"> 
+On a position – time plot, the vertical intercept parallel to position axis is the measure of displacement, whereas horizontal intercept is the measure of time interval (See Figure). On the other hand, the slope of the chord is equal to the ratio of two intercepts and hence equal to the magnitude of average velocity. 
+</para>
+
+<para id="element-27"> 
+<figure id="fig27"><title> Average velocity </title>
+<media id="idm5730560" alt=""><image src="../../media/v4a-4344.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+
+<para id="element-28"> 
+<equation id="eqn_28">
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+           <m:mtd> 
+              <m:mo> | </m:mo>
+                <m:msub>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mi mathvariant="bold"> a </m:mi>
+                 </m:msub>
+              <m:mo> | </m:mo>
+
+              <m:mo>=</m:mo> 
+              <m:mfrac> 
+                <m:mi>BC</m:mi>
+                <m:mi>AC</m:mi>
+              </m:mfrac> 
+         </m:mtd>
+
+          <m:mtd>
+              <m:mo> = </m:mo>
+              <m:mfrac> 
+              <m:mrow> 
+                <m:mo>Δ</m:mo>
+                <m:mi>x</m:mi>
+              </m:mrow> 
+              <m:mrow> 
+                <m:mo>Δ</m:mo>
+                <m:mi>t</m:mi>
+              </m:mrow> 
+            </m:mfrac> 
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</equation>
+</para>
+
+<example id="example-1">
+<title> Average velocity </title>
+<para id="element-29">
+<term>Problem : </term> A particle completes a motion in two parts. It covers a straight distance of 10 m in 1 s in the first part along the positive x - direction and 20 m in 5 s in the second part along negative x- direction (See Figure). Find average speed and velocity.
+</para>
+<para id="element-30">
+<figure id="fig30"><title> Motion in straight line </title>
+<media id="idp768016" alt=""><image src="../../media/v5a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-30a">
+<term> Characteristics of motion : </term> One dimensional
+</para>
+<para id="element-31"><term>Solution : </term> In order to find the average speed, we need to find distance and time. Here total time is 1 + 5 = 6 s and total distance covered is 10 + 20 = 30 m. Hence,
+</para>
+
+<para id="element-33"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+           <m:mtd> 
+                <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi> a </m:mi>
+                 </m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 30 </m:mn>
+<m:mn> 6 </m:mn> 
+</m:mfrac> 
+
+<m:mo> = </m:mo>
+<m:mi> 5 m/s </m:mi>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-33a">The displacement is equal to the linear distance between initial and final positions. The initial and final positions are at a linear distance =  -10 m. The value is taken as negative as final position falls on the opposite side of the origin. Hence,
+</para>
+
+
+<para id="element-33b"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+           <m:mtd> 
+                <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi> a </m:mi>
+                 </m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo>
+<m:mn> 10 </m:mn>
+</m:mrow>
+<m:mn> 6 </m:mn> 
+</m:mfrac> 
+
+<m:mo> = </m:mo>
+<m:mi> -1.66 m/s </m:mi>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-33c">The negative value indicates that the average velocity is directed in the opposite direction to that of the positive reference direction. We have discussed earlier that one dimensional motion consists of only two direction and as such an one dimensional velocity can be equivalently represented by scalar value with appropriate sign scheme. Though, the symbol for average velocity is shown to be like a scalar symbol (not bold), but its value represents direction as well (the direction is opposite to reference direction). 
+</para>
+<para id="element-33d">Also significantly, we may note that average speed is not equal to the magnitude of average velocity. 
+</para>
+</example>
+
+
+<para id="element-34"> 
+<exercise id="exercise-34">
+<problem id="idp21552">
+
+<para id="element-35"> 
+Consider position – time plot as shown below showing a trip by a motor car. </para>
+<para id="element-36"> 
+<figure id="fig36">
+<title> Motion in straight line </title>
+<media id="idm1286640" alt=""><image src="../../media/v6a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-37"> 
+Determine :
+<list id="list-37" list-type="enumerated">
+<item> Total distance  </item>
+<item> Displacement </item>
+<item> Average speed and average velocity for the round trip </item>
+<item> Average speed and average velocity during motion from O to C </item>
+<item> The parts of motion for which magnitudes of average velocity are equal in each direction. </item>
+<item> Compare speeds in the portion OB and BD </item>
+</list>
+</para>
+</problem>
+
+<solution id="idm1065344">
+<para id="element-38a">
+<term> Characteristics of motion : </term> One dimensional, variable speed
+</para>
+<para id="element-38"> 
+(i)	Total distance in the round trip = 120 + 120 = 240 Km
+</para>
+
+<para id="element-39"> 
+(ii)	Displacement = 120 – 120 = 0
+</para>
+
+<para id="element-40"> 
+(iii)	Average speed for the round trip
+</para>
+<para id="element-41"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+           <m:mtd> 
+                <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi> OD </m:mi>
+                 </m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 240 </m:mn>
+<m:mn> 9 </m:mn> 
+</m:mfrac> 
+
+<m:mo> = </m:mo>
+<m:mi> 26.67 km/hr </m:mi>
+          </m:mtd>
+           <m:mtd> 
+<m:mi> and average velocity for the round trip : </m:mi>
+          </m:mtd>
+
+           <m:mtd> 
+                <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi> OD </m:mi>
+                 </m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 0 </m:mn>
+<m:mn> 9 </m:mn> 
+</m:mfrac> 
+
+<m:mo> = </m:mo>
+<m:mi> 0  </m:mi>
+          </m:mtd>
+
+
+
+
+          </m:mtr>
+         </m:mtable> 
+</m:math>
+
+</para>
+
+
+<para id="element-42"> 
+(iv)	Average speed during motion from O to C
+</para>
+<para id="element-43"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+           <m:mtd> 
+                <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi> OC </m:mi>
+                 </m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 120 </m:mn>
+<m:mn> 5 </m:mn> 
+</m:mfrac> 
+
+<m:mo> = </m:mo>
+<m:mi> 24 km/hr </m:mi>
+          </m:mtd>
+           <m:mtd> 
+<m:mi> and average velocity : </m:mi>
+          </m:mtd>
+
+           <m:mtd> 
+                <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi> OC </m:mi>
+                 </m:msub>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 120 </m:mn>
+<m:mn> 5 </m:mn> 
+</m:mfrac> 
+
+<m:mo> = </m:mo>
+<m:mi> 24 km/hr  </m:mi>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+</m:math>
+</para>
+
+<para id="element-44">As magnitude of average velocity is positive, the direction of velocity is in the positive x – direction. It is important to note for motion in one dimension and in one direction (unidirectional), distance is equal to the magnitude of displacement and average speed is equal to the magnitude of average velocity. Such is the case for this portion of motion.
+</para>
+<para id="element-45"> 
+(v)	The part of motion for which average velocity is equal in each direction. 
+</para>
+<para id="element-46"> 
+By inspection of the plots, we see that time interval is same for motion from B to C and from C to B (on return). Also, the displacements in these two segments of motion are equal. Hence magnitudes of velocities in two segments are equal.
+</para>
+
+<para id="element-47"> 
+<figure id="fig47">
+<title> Motion in straight line </title>
+<media id="idm1101520" alt=""><image src="../../media/v6a.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-48"> 
+(vi)	Compare speeds in the portion OB and BD.
+</para>
+<para id="element-49">By inspection of the plots, we see that the motor car travels equal distances of 60 m. We see that distances in each direction is covered in equal times i.e. 2 hrs. But, the car actually stops for 1 hour in the forward journey and as such average speed is smaller in this case. 
+</para>
+<para id="element-50"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+           <m:mtd> 
+
+                <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi> a,OB </m:mi>
+                 </m:msub>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 60 </m:mn>
+<m:mn> 3 </m:mn> 
+</m:mfrac> 
+
+<m:mo> = </m:mo>
+<m:mi> 20 km/hr </m:mi>
+          </m:mtd>
+           <m:mtd> 
+<m:mi> and  </m:mi>
+          </m:mtd>
+
+           <m:mtd> 
+
+                <m:msub>
+              <m:mi>v</m:mi>
+              <m:mi> a,BD </m:mi>
+                 </m:msub>
+
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 60 </m:mn>
+<m:mn> 2 </m:mn> 
+</m:mfrac> 
+
+<m:mo> = </m:mo>
+<m:mi> 30 km/hr  </m:mi>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+
+</section>
+
+<section id="section-4">
+<title> Instantaneous velocity </title>
+
+<para id="element-51"> 
+<definition id="definition-51">
+<term> velocity </term>
+<meaning id="idm3817312"><emphasis> Instantaneous velocity is equal to the rate of change of position vector i.e displacement with respect to time at a given time and is equal to the first differential of position vector. 
+</emphasis>
+</meaning>
+</definition>
+</para>
+
+<para id="element-52"> 
+Instantaneous velocity is defined exactly like speed. It  is equal to the ratio of total displacement and time interval, but with one qualification that time interval is extremely (infinitesimally) small. Thus, instantaneous velocity can be termed as the average velocity at a particular instant of time when Δt tends to zero and may have entirely different value than that of average velocity. Mathematically,
+</para>
+<para id="element-53"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+          <m:mi mathvariant="bold"> v </m:mi>
+          <m:mo>=</m:mo>
+          <m:munder>
+          <m:mrow> 
+          <m:mi> lim </m:mi> 
+          <m:mspace width="10pt"/> 
+          </m:mrow> 
+          <m:mrow> 
+              <m:mo>Δ</m:mo>
+              <m:mi>t</m:mi>
+              <m:mo>→</m:mo>
+              <m:mn> 0 </m:mn>
+          </m:mrow> 
+          </m:munder>
+          <m:mfrac> 
+             <m:mrow> 
+              <m:mo mathvariant="bold">Δ</m:mo>
+              <m:mi mathvariant="bold">r</m:mi>
+             </m:mrow> 
+             <m:mrow> 
+              <m:mo> Δ </m:mo>
+              <m:mo> t </m:mo>
+             </m:mrow> 
+          </m:mfrac> 
+ 
+        <m:mo>=</m:mo>
+
+          </m:mtd>
+          <m:mtd>
+
+              <m:mfrac> 
+                <m:mrow> 
+                <m:mi>d</m:mi>
+                <m:mi mathvariant="bold">r</m:mi>
+                </m:mrow> 
+                <m:mrow> 
+                <m:mi>d</m:mi>
+                <m:mi>t</m:mi>
+                </m:mrow> 
+              </m:mfrac> 
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-55"> 
+As Δt tends to zero, the ratio defining velocity becomes finite and equals to the first derivative of the position vector. The velocity at the moment ‘t’ is called the instantaneous velocity or simply velocity at time ‘t’. 
+</para>
+
+
+
+</section>
+<section id="section-5">
+<title>  Instantaneous velocity and position - time plot </title>
+<para id="element-201"> 
+Position - time plot provides for calculation of the magnitude of velocity, which is equal to speed. The discussion of position – time plot in the context of velocity, however, differs in one important respect that we can also estimate the direction of motion.
+
+</para>
+<para id="element-202"> 
+<figure id="fig202">
+<title> Instantaneous Velocity </title>
+<media id="idm1900784" alt=""><image src="../../media/v7.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-203"> 
+In the figure above, as we proceed from point B to A through intermediate points B’ and B’’, the time interval becomes smaller and smaller and the chord becomes tangent to the curve at point A as Δ t → 0. The magnitude of instantaneous velocity (speed) at A is given by the slope of the curve.
+</para>
+<para id="element-204"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+           <m:mtd> 
+              <m:mo> | </m:mo>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo> | </m:mo>
+
+              <m:mo>=</m:mo> 
+              <m:mfrac> 
+                <m:mi>DC</m:mi>
+                <m:mi>AC</m:mi>
+              </m:mfrac> 
+         </m:mtd>
+
+          <m:mtd>
+              <m:mo> = </m:mo>
+              <m:mfrac> 
+              <m:mrow> 
+                <m:mi>d</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow> 
+              <m:mrow> 
+                <m:mi>d</m:mi>
+                <m:mi>t</m:mi>
+              </m:mrow> 
+            </m:mfrac> 
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+
+</para>
+
+
+<para id="element-59a"> 
+There is one important difference between average velocity and instantaneous velocity. The magnitude of average velocity 
+<m:math> 
+              <m:mrow> 
+              <m:mo> | </m:mo>
+              <m:msub> 
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mrow> 
+                <m:mi>avg</m:mi>
+              </m:mrow> 
+              </m:msub> 
+              <m:mo> | </m:mo>
+              </m:mrow> 
+</m:math>
+ and average speed 
+<m:math> 
+              <m:mrow> 
+
+              <m:msub> 
+              <m:mi>v</m:mi>
+              <m:mrow> 
+                <m:mi>avg</m:mi>
+              </m:mrow> 
+              </m:msub> 
+
+              </m:mrow> 
+</m:math>
+may not be equal, but magnitude of instantaneous velocity <m:math> 
+              <m:mrow> 
+              <m:mo> | </m:mo>
+              <m:mi mathvariant="bold">v</m:mi>
+               <m:mo> | </m:mo>
+              </m:mrow> 
+</m:math> is always equal to instantaneous speed <m:math> 
+              <m:mrow> 
+
+              <m:mi>v</m:mi>
+
+              </m:mrow> 
+</m:math>.
+</para>
+<para id="element-59b"> 
+We have discussed that magnitude of displacement and distance are different quantities. The magnitude of displacement is a measure of linear shortest distance, whereas distance is measure of actual path. As such, magnitude of average velocity <m:math> 
+              <m:mrow> 
+              <m:mo> | </m:mo>
+              <m:msub> 
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mrow> 
+                <m:mi>avg</m:mi>
+              </m:mrow> 
+              </m:msub> 
+              <m:mo> | </m:mo>
+              </m:mrow> 
+</m:math> and average speed <m:math> 
+              <m:mrow> 
+
+              <m:msub> 
+              <m:mi>v</m:mi>
+              <m:mrow> 
+                <m:mi>avg</m:mi>
+              </m:mrow> 
+              </m:msub> 
+
+              </m:mrow> 
+</m:math>
+ are not be equal. However, if the motion is along a straight line and without any change in direction (i.e unidirectional), then distance and displacement are equal and so magnitude of average velocity and average speed are equal. In the case of instantaneous velocity, the time interval is infinitesimally small for which displacement and distance are infinitesimally small. In such situation, both displacement and distance are same. Hence, magnitude of instantaneous velocity 
+<m:math> 
+              <m:mrow> 
+              <m:mo> | </m:mo>
+              <m:mi mathvariant="bold">v</m:mi>
+               <m:mo> | </m:mo>
+              </m:mrow> 
+</m:math> is always equal to instantaneous speed <m:math> 
+              <m:mrow> 
+              <m:mi>v</m:mi>
+              </m:mrow> 
+</m:math>.
+</para>
+</section>
+
+<section id="section-6">
+<title>  Components of velocity </title>
+
+
+<para id="element-59"> 
+Velocity in a three dimensional space is defined as the ratio of displacement (change in position vector) and time. The object in motion undergoes a displacement, which has components in three mutually perpendicular directions in Cartesian coordinate system. 
+</para>
+<para id="element-60"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mo>Δ</m:mo>
+              <m:mi mathvariant="bold">r</m:mi>
+              <m:mo> = </m:mo>
+              <m:mo>Δ</m:mo>
+              <m:mi>x</m:mi>
+              <m:mi mathvariant="bold">i</m:mi>
+              <m:mo> + </m:mo>
+              <m:mo>Δ</m:mo>
+              <m:mi>y</m:mi>
+              <m:mi mathvariant="bold">j</m:mi>
+              <m:mo> + </m:mo>
+              <m:mo>Δ</m:mo>
+              <m:mi>z</m:mi>
+              <m:mi mathvariant="bold">k</m:mi>
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-61">It follows from the component form of displacement that a velocity in three dimensional coordinate space is the vector sum of component velocities in three mutually perpendicular directions. For a small time interval when Δ t → 0,
+</para>
+
+<para id="element-63"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi mathvariant="bold">r</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d </m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+
+              <m:mo>=</m:mo>
+
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d </m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+              <m:mi mathvariant="bold">i</m:mi>
+
+              <m:mo>+</m:mo>
+
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d </m:mi>
+              <m:mi>y</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+              <m:mi mathvariant="bold">j</m:mi>
+
+              <m:mo>+</m:mo>
+
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>z</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+              <m:mi mathvariant="bold">k</m:mi>
+
+          </m:mtd>
+          </m:mtr>
+
+        <m:mtr> 
+          <m:mtd>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>=</m:mo>
+              <m:msub>
+              <m:mi> v </m:mi>
+              <m:mi> x </m:mi>
+              </m:msub>
+              <m:mi mathvariant="bold">i</m:mi>
+
+              <m:mo>+</m:mo>
+              <m:msub>
+              <m:mi> v </m:mi>
+              <m:mi> y </m:mi>
+              </m:msub>
+              <m:mi mathvariant="bold">j</m:mi>
+              <m:mo>+</m:mo>
+              <m:msub>
+              <m:mi> v </m:mi>
+              <m:mi> z </m:mi>
+              </m:msub>
+              <m:mi mathvariant="bold">k</m:mi>
+
+
+
+          </m:mtd>
+          </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-64">For the sake of clarity, it must be understood that components of velocity is a conceptual construct for examining a physical situation. It is so because it is impossible for an object to have two velocities at a given time. If we have information about the variations of position along three mutually perpendicular directions, then we can find out component velocities along the axes leading to determination of resultant velocity. The resultant velocity is calculated using following relation :
+</para>
+<para id="element-65"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mi> v </m:mi>
+              <m:mo>=</m:mo>
+              <m:mrow>
+              <m:mo>|</m:mo>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>|</m:mo>
+              <m:mo>=</m:mo>
+              <m:mo>√</m:mo>
+              <m:mo>(</m:mo>
+              <m:msubsup>
+              <m:mi> v </m:mi>
+              <m:mi> x </m:mi>
+              <m:mi> 2 </m:mi>
+              </m:msubsup>
+
+              <m:mo>+</m:mo>
+              <m:msubsup>
+              <m:mi> v </m:mi>
+              <m:mi> y </m:mi>
+              <m:mi> 2 </m:mi>
+              </m:msubsup>
+              <m:mo>+</m:mo>
+              <m:msubsup>
+              <m:mi> v </m:mi>
+              <m:mi> z </m:mi>
+              <m:mi> 2 </m:mi>
+              </m:msubsup>
+              <m:mo>)</m:mo>
+              </m:mrow>
+
+          </m:mtd>
+          </m:mtr>
+
+         </m:mtable> 
+     </m:math>
+
+</para>
+<para id="element-66"> 
+The component of velocity is a powerful concept that makes it possible to treat a three or two dimensional motion as composition of component straight line motions. To illustrate the point, consider the case of two dimensional parabolic motions. Here, the velocity of the body is resolved in two mutually perpendicular directions; treating motion in each direction independently and then combining the component directional attributes by using rules of vector addition
+</para>
+
+<para id="element-67"> 
+<figure id="fig67">
+<title> Parabolic motion </title>
+<media id="idp5351216" alt=""><image src="../../media/v9.gif" mime-type="image/gif"/></media>
+<caption> Motion is treated separately in two perpendicular directions </caption>
+</figure>
+</para>
+<para id="element-68"> 
+Similarly, the concept of component velocity is useful when motion is constrained. We may take the case of the motion of the edge of a pole as shown in the figure here. The motion of the ends of the pole is constrained in one direction, whereas other component of velocity is zero.
+</para>
+<para id="element-69"> 
+<figure id="fig60">
+<title> Constrained motion </title>
+<media id="idp6050752" alt=""><image src="../../media/v10.gif" mime-type="image/gif"/></media>
+</figure>
+</para>
+<para id="element-70"> 
+The motion in space is determined by the component velocities in three mutually perpendicular directions. In two dimensional or planar motion, one of three components is zero. 10.	The velocity of the object is determined by two relevant components of velocities in the plane. For example, motion in x and y direction yields :
+</para>
+<para id="element-71"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi mathvariant="bold">r</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d </m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+
+              <m:mo>=</m:mo>
+
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d </m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+              <m:mi mathvariant="bold">i</m:mi>
+
+              <m:mo>+</m:mo>
+
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d </m:mi>
+              <m:mi>y</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+              <m:mi mathvariant="bold">j</m:mi>
+
+
+          </m:mtd>
+          </m:mtr>
+
+        <m:mtr> 
+          <m:mtd>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>=</m:mo>
+              <m:msub>
+              <m:mi> v </m:mi>
+              <m:mi> x </m:mi>
+              </m:msub>
+              <m:mi mathvariant="bold">i</m:mi>
+
+              <m:mo>+</m:mo>
+              <m:msub>
+              <m:mi> v </m:mi>
+              <m:mi> y </m:mi>
+              </m:msub>
+              <m:mi mathvariant="bold">j</m:mi>
+
+          </m:mtd>
+          </m:mtr>
+        <m:mtr> 
+          <m:mtd>
+              <m:mi> v </m:mi>
+              <m:mo>=</m:mo>
+              <m:mrow>
+              <m:mo>|</m:mo>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>|</m:mo>
+              <m:mo>=</m:mo>
+              <m:mo>√</m:mo>
+              <m:mo>(</m:mo>
+              <m:msubsup>
+              <m:mi> v </m:mi>
+              <m:mi> x </m:mi>
+              <m:mi> 2 </m:mi>
+              </m:msubsup>
+
+              <m:mo>+</m:mo>
+              <m:msubsup>
+              <m:mi> v </m:mi>
+              <m:mi> y </m:mi>
+              <m:mi> 2 </m:mi>
+              </m:msubsup>
+              <m:mo>)</m:mo>
+              </m:mrow>
+
+           </m:mtd>
+          </m:mtr>
+        </m:mtable> 
+     </m:math>
+</para>
+
+<para id="element-72"> 
+Similarly, one dimensional motion (For example : x – direction) is described by one of the components of velocity. 
+</para>
+<para id="element-73"> 
+
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>=</m:mo>
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi mathvariant="bold">r</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d </m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+
+              <m:mo>=</m:mo>
+
+              <m:mfrac>
+              <m:mrow>
+              <m:mi>d</m:mi>
+              <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mrow>
+              <m:mi>d </m:mi>
+              <m:mi>t</m:mi>
+              </m:mrow>
+              </m:mfrac>
+              <m:mi mathvariant="bold">i</m:mi>
+          </m:mtd>
+          </m:mtr>
+
+        <m:mtr> 
+          <m:mtd>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>=</m:mo>
+              <m:msub>
+              <m:mi> v </m:mi>
+              <m:mi> x </m:mi>
+              </m:msub>
+              <m:mi mathvariant="bold">i</m:mi>
+
+
+          </m:mtd>
+          </m:mtr>
+        <m:mtr> 
+          <m:mtd>
+              <m:mi> v </m:mi>
+              <m:mo>=</m:mo>
+
+              <m:mo>|</m:mo>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>|</m:mo>
+              <m:mo>=</m:mo>
+	
+              <m:msub>
+              <m:mi> v </m:mi>
+              <m:mi> x </m:mi>
+              </m:msub>
+           </m:mtd>
+          </m:mtr>
+        </m:mtable> 
+     </m:math>
+
+</para>
+</section>
+<section id="section-7">
+<title>  Few words of caution </title>
+<para id="element-82"> 
+Study of kinematics usually brings about closely related concepts, terms and symbols. It is always desirable to be precise and specific in using these terms and symbols. Following list of the terms along with their meaning are given here to work as reminder :
+</para>
+<para id="element-83">1: Position vector : <term>r</term> : a vector specifying position and drawn from origin to the point occupied by point object
+</para>
+<para id="element-84"> 2: Distance : s : length of actual path : not treated as the magnitude of displacement 
+</para>
+<para id="element-85"> 
+3: Displacement : <term>AB</term> or Δ<term>r</term> : a vector along the straight line joining end points A and B of the path : its magnitude, |<term>AB</term>| or |Δ<term>r</term> | is not equal to distance, s.
+</para>
+<para id="element-86">4: Difference of position vector :  Δ<term>r</term> : equal to displacement, <term>AB</term>. Direction of  Δ<term>r</term> is not same as that of position vector (<term>r</term>). 
+</para>
+<para id="element-87"> 
+5: Magnitude of displacement : |<term>AB</term>| or |Δ<term>r</term> |: length of shortest path. 
+</para>
+<para id="element-88"> 
+6: Average speed : 
+<m:math>
+   <m:msub>
+   <m:mi> v </m:mi>
+    <m:mi> a </m:mi>
+   </m:msub>
+</m:math>
+
+: ratio of distance and time interval : not treated as the magnitude of average velocity
+</para>
+<para id="element-89"> 
+7: Speed : v : first differential of distance with respect to time : equal to the magnitude of velocity, |<term>v</term>|
+</para>
+<para id="element-90">8: Average velocity : 
+<m:math>
+   <m:msub>
+   <m:mi mathvariant="bold"> v </m:mi>
+    <m:mi mathvariant="bold"> a </m:mi>
+   </m:msub>
+</m:math>
+
+
+: ratio of displacement and time interval : its magnitude, 
+<m:math>
+<m:mo> | </m:mo>
+   <m:msub>
+   <m:mi mathvariant="bold"> v </m:mi>
+    <m:mi mathvariant="bold"> a </m:mi>
+   </m:msub>
+<m:mo> | </m:mo>
+</m:math>
+
+ is not equal to average speed, 
+<m:math>
+   <m:msub>
+   <m:mi> v </m:mi>
+    <m:mi> a </m:mi>
+   </m:msub>
+</m:math>
+.
+</para>
+<para id="element-91"> 
+9: Velocity : <term>v</term> : first differential of displacement or position vector with respect to time 
+</para>
+
+</section>
+<section id="section-8">
+<title>  Summary </title>
+
+
+<para id="element-74"> 
+The paragraphs here are presented to highlight the similarities and differences between the two important concepts of speed and velocity with a view to summarize the discussion held so far. 
+</para>
+<para id="element-75"><term>1: </term>  Speed is measured without direction, whereas velocity is measured with direction. Speed and velocity both are calculated at a position or time instant. As such, both of them are independent of actual path. Most physical measurements, like speedometer of cars, determine instantaneous speed. Evidently, speed is the magnitude of velocity,
+
+</para>
+<para id="element-76"> 
+<m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mi> v </m:mi>
+              <m:mo>=</m:mo>
+
+              <m:mo>|</m:mo>
+              <m:mi mathvariant="bold">v</m:mi>
+              <m:mo>|</m:mo>
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+     </m:math>
+</para>
+<para id="element-77"><term>2: </term>  Since, speed is a scalar quantity, it can be plotted on a single axis. For this reason, tangent to distance – time curve gives the speed at that point of the motion. As 
+<m:math>
+<m:mi> d </m:mi>
+<m:mi> s </m:mi>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> X </m:mo>
+<m:mi> d </m:mi>
+<m:mi> t </m:mi>
+</m:math>
+
+
+,  the area under speed – time plot gives distance covered between two time instants. 
+</para>
+<para id="element-78"><term>3: </term> On the other hand, velocity requires three axes to be represented on a plot. It means that a velocity – time plot would need 4 dimensions to be plotted, which is not possible on three dimensional Cartesian coordinate system. A two dimensional velocity and time plot is possible, but is highly complicated to be drawn. 
+</para>
+<para id="element-79"><term>4: </term> One dimensional velocity can be treated as a scalar magnitude with appropriate sign to represent direction. It is, therefore, possible to draw one dimension velocity – time plot. 
+</para>
+<para id="element-80"><term>5: </term> Average speed involves the length of path (distance), whereas average velocity involves shortest distance (displacement). As distance is either greater than or equal to the magnitude of displacement,</para>
+<para id="element-81"><m:math display="block"> 
+      <m:mtable columnalign="left"> 
+        <m:mtr> 
+          <m:mtd>
+              <m:mi> s </m:mi>
+              <m:mo>≥</m:mo>
+              <m:mo>|</m:mo>
+              <m:mo> Δ </m:mo>
+              <m:mi mathvariant="bold">r</m:mi>
+              <m:mo>|</m:mo>
+              <m:mi>     and     </m:mi>
+              <m:msub>
+              <m:mi> v </m:mi>
+              <m:mi> a </m:mi>
+              </m:msub>
+
+              <m:mo>≥</m:mo>
+              <m:mo>|</m:mo>
+              <m:msub>
+              <m:mi mathvariant="bold"> v </m:mi>
+              <m:mi mathvariant="bold"> a </m:mi>
+              </m:msub>
+
+              <m:mo>|</m:mo>
+
+
+
+          </m:mtd>
+          </m:mtr>
+         </m:mtable> 
+</m:math>
+</para>
+
+
+</section>
+
+<section id="section-9">
+<title>Exercises</title>
+<para id="element-109">
+<exercise id="exercise-109">
+<problem id="idm46976">
+<para id="element-109a"> The position vector of a particle (in meters) is given as a function of time as :
+</para>
+<para id="element-1010">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1011">
+Determine the time rate of change of the angle “θ” made by the velocity vector with positive x-axis at time, t = 2 s.
+</para>
+</problem>
+
+<solution id="idp1912176">
+<para id="element-1012"><term>Solution : </term> It is a two dimensional motion. The figure below shows how velocity vector makes an angle "θ" with x-axis of the coordinate system. In order to find the time rate of change of this angle "θ", we need to express trigonometric ratio of the angle in terms of the components of velocity vector. From the figure :
+</para>
+<para id="element-10129"><figure id="fig-129"><title> Velocity of a particle in two dimensions </title>
+<media id="idp5098368" alt=""><image src="../../media/vq7-cc14.gif" mime-type="image/gif"/></media>
+<caption> The velocity has two components. </caption>
+</figure></para><para id="element-1014">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1015">As given by the expression of position vector, its component in coordinate directions are : 
+</para>
+<para id="element-1016">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> x </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> t </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> y </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1017">We obtain expression of the components of velocity in two directions by differentiating "x" and "y" components of position vector with respect to time :
+</para>
+<para id="element-1018">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mspace width="4pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math></para>
+<para id="element-1019">Putting in the trigonometric function, we have :
+</para>
+<para id="element-1020">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> y </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> x </m:mi>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn> 
+<m:mi> t </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+<m:mi> t </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1021">Since we are required to know the time rate of the angle, we differentiate the above trigonometric ratio with respect to time as,
+</para>
+<para id="element-1022">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msup>
+<m:mrow>
+<m:mi> sec </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mfrac>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1023"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mrow>
+<m:mi> tan </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+</m:msup>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> ) </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn> 
+<m:msup>
+<m:mi> t </m:mi>
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1024">
+At t = 2 s,
+</para>
+<para id="element-1025"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> d </m:mi>
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 1 </m:mn> 
+<m:mo> + </m:mo> 
+<m:mn> 4 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:msup>
+<m:mn> 2 </m:mn> 
+<m:mn> 2 </m:mn> 
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mn> 17 </m:mn>
+</m:mfrac>
+<m:mspace width="2pt"/>
+<m:mi> rad </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-1084">
+<exercise id="exercise-1084">
+<problem id="idm1325856">
+<para id="element-1084a"> Two particles A and B are connected by a rigid rod AB. The rod slides along perpendicular rails as shown here. The velocity of A moving down is 10 m/s. What is the velocity of B when angle θ = 60°  ?
+</para>
+<para id="element-1085">
+<figure id="fig-1085">
+<title> Motion of a leaning rod </title> 
+<media id="idm606624" alt=""><image src="../../media/vq3a.gif" mime-type="image/gif"/></media>
+<caption> One end of the ros is moving with a speed 10 m/s in vertically downward direction. </caption>
+</figure>
+</para>
+</problem>
+
+<solution id="idp2067392">
+<para id="element-1086"><term>Solution : </term> The velocity of B is not an independent velocity. It is tied to the velocity of the particle “A”  as two particles are connected through a rigid rod. The relationship between two velocities is governed by the inter-particles separation, which is equal to the length of rod.
+</para>
+
+<para id="element-1087">
+The length of the rod, in turn, is linked to the positions of particles “A” and “B” .
+From figure,
+</para>
+<para id="element-1090">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>L</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>−</m:mo>
+          <m:msup>
+            <m:mi>y</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-1091">
+Differentiatiting, with respect to time :
+</para>
+<para id="element-1092">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>d</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>y</m:mi>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mi>y</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>−</m:mo>
+              <m:msup>
+                <m:mi>y</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-1093">
+Considering magnitude only,
+</para>
+<para id="element-1094">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>tan</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>tan</m:mi>
+    <m:msup>
+      <m:mn>60</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mspace width="1em"/>
+    <m:mfrac>
+      <m:mi>m</m:mi>
+      <m:mi>s</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-1000">
+<exercise id="exercise-1000">
+<problem id="idm1041600">
+<para id="element-10100"><term>Problem : </term> The position vector of a particle is :
+</para>
+<para id="element-10101">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10101a">
+where “a” is a constant. Show that velocity vector is perpendicular to position vector.
+</para>
+</problem>
+
+<solution id="idp2107632">
+<para id="element-10102"><term>Solution : </term> In order to prove as required, we shall use the fact that scalar (dot) product of two perpendicular vectors is zero. Now, we need to find the expression of velocity to evaluate the dot product as intended. We can obtain the same by differentiating the expression of position vector with respect to time as :
+</para>
+
+<para id="element-10103">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10104">
+To check whether velocity is perpendicular to the position vector, we evalaute the scalar product of <term>r</term> and <term>v</term>, which should be equal to zero.
+</para>
+<para id="element-10105">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10106">
+In this case,
+</para>
+<para id="element-107">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi mathvariant="bold"> r </m:mi>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo mathvariant="bold"> . </m:mo>
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> i </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> a </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi mathvariant="bold"> j </m:mi>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> - </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> + </m:mo> 
+<m:msup>
+<m:mi> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mi> ω </m:mi>
+<m:mi> sin </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mi> cos </m:mi>
+<m:mi> ω </m:mi>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-10108">This means that the angle between position vector and velocity are at right angle to each other. Hence, velocity is perpendicular to position vector. It is pertinent to mention here that this result can also be inferred from the plot of motion. An inspection of position vector reveals that it represents uniform circular motion as shown in the figure here.
+</para>
+<para id="element-10109">
+<figure id="fig-10109"><title> Circular motion </title> 
+<media id="idp324464" alt=""><image src="../../media/vq9-08a3.gif" mime-type="image/gif"/></media>
+<caption> The particle describes a circular path. </caption>
+</figure>
+</para>
+<para id="element-10110">
+The position vector is always directed radially, whereas velocity vector is always tangential to the circular path. These two vectors are, therefore, perpendicular to each other.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-1053">
+<exercise id="exercise-1053">
+<problem id="idp8064176">
+<para id="element-1053a"><term>Problem : </term> A car of width 2 m is approaching a crossing at a velocity of 8 m/s. A pedestrian at a distance of 4 m wishes to cross the road safely. What should be the minimum speed of pedestrian so that he/she crosses the road safely?
+</para>
+</problem>
+
+<solution id="idp7713648">
+<para id="element-1054"><term>Solution : </term> We draw the figure to illustrate the situation. Here, car travels the linear distance (AB + CD) along the direction in which it moves,  by which time the pedestrian travels the linear distance BD. Let pedestrian travels at a speed “v” along BD, which makes an angle “θ” with the direction of car. 
+</para>
+
+<para id="element-1055">
+<figure id="fig-1055">
+<title> Motion of a car and a pedestrian </title> 
+<media id="idp4511344" alt=""><image src="../../media/vq5-929e.gif" mime-type="image/gif"/></media>
+<caption> The pedestrian crosses the road at angle with direction of car. </caption>
+</figure>
+</para>
+<para id="element-1056">
+We must understand here that there may be number of combination of angle and speed for which pedestrian will be able to safely cross before car reaches. However, we are required to find the minimum speed. This speed should, then, correspond to a particular value of θ.
+</para>
+<para id="element-1057">
+We can also observe that pedestrian should move obliquely. In doing so he/she gains extra time to cross the road.
+</para>
+<para id="element-1058">
+From triangle BCD,
+</para>
+<para id="element-1059">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 90 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> CD </m:mi>
+<m:mi> BC </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> CD </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> CD </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1060">
+Also,
+</para>
+<para id="element-1061">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mo> ( </m:mo> 
+<m:mn> 90 </m:mn>
+<m:mo> - </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mi> BC </m:mi>
+<m:mi> BD </m:mi>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mn> 2 </m:mn>
+<m:mi> BD </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> BD </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1062">According to the condition given in the question, the time taken by car and pedestrian should be equal for the situation outlined above :
+</para>
+<para id="element-1063"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> t </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 4 </m:mn>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cot </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+<m:mrow>
+<m:mi> v </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1064">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1065">For minimum value of speed, 
+<m:math>
+<m:mfrac>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:math>
+,
+</para>
+
+<para id="element-1067"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi> v </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> d </m:mo> 
+<m:mi> θ </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> - </m:mo> 
+<m:mn> 8 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:msup>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+</m:mrow>
+</m:msup>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mo> ( </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1068">In order to evaluate the expression of velocity with trigonometric ratios, we take the help of right angle triangle as shown in the figure, which is consistent with the above result.
+</para>
+<para id="element-1069">
+<figure id="fig-1069">
+<title> Trigonometric ratio </title> 
+<media id="idp1409728" alt=""><image src="../../media/vq6-110d.gif" mime-type="image/gif"/></media>
+<caption> The tangent of angle is equal to 2. </caption>
+</figure>
+</para>
+<para id="element-1070">From the triangle, defining angle “θ”, we have :
+</para>
+<para id="element-1071">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> sin </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1072">
+and
+</para>
+<para id="element-1073">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> cos </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-1074">
+The minimum velocity is :
+</para>
+<para id="element-1075"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> v </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mn> 2 </m:mn>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 1 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mn> 8 </m:mn>
+</m:mrow>
+<m:mrow>
+<m:mo> √ </m:mo> 
+<m:mn> 5 </m:mn>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 3.57 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mo> / </m:mo> 
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</solution>
+</exercise>
+</para>
+</section>
+
+
+  </content>
+  
+</document>

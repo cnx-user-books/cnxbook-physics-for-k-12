@@ -1,0 +1,626 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Resultant motion</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>98a654e5-c06d-472c-8656-070952140466</md:uuid>
+</metadata>
+<content>
+<para id="id7300026">Motion of an object in a medium like air, water or other moving body is affected by the motion of the medium itself. It is all so evident on a flight that the aircraft covers the same distance faster or slower, depending on the wind force working on it. The motion of aircraft is influenced by the velocity (read force exerted by the wind) of the wind - in both its magnitude and direction.</para>
+<para id="id7299484">Similarly, the motion of boat, steamer or sea liner is influenced by the velocity of water stream. We can analyze these problems, using concept of relative motion (velocity), but with certain specific consideration.</para>
+
+<section id="section-1">
+<title> Understanding motion in a medium </title>
+<para id="id7296394">First thing, we note that two bodies under consideration in the study of relative motion are essentially separated bodies. This is not so here. The body moves right within the body of the medium. They are in contact with each other. The body, in question, acquires a net velocity which comprises of its own velocity and that of the medium. Importantly, the two mass systems are in contact during motion unlike consideration in relative motion, where bodies are moving separately.</para>
+
+
+
+<section id="section-1a">
+<title> Resultant motion </title>
+
+
+
+<para id="id7300080">
+The velocity of a boat in a stream, for example, is the resultant of velocities of the velocity of boat in still water and the velocity of the stream. The boat, therefore, moves having resultant velocity with respect to ground reference. This is the velocity with which boat ultimately moves in the stream and covers distance along a path.
+</para>
+
+<para id="element-658"><figure id="fig-658"><title> Resultant velocity </title>
+<media id="idm5258080" alt=""><image src="../../media/rm5b.gif" mime-type="image/gif"/></media>
+<caption> The boat moves with the resultant velocity as seen by an observer on the ground.</caption>
+</figure>
+</para><para id="id7300094">
+The important point here to understand is that all velocities are measured in ground reference. The velocity of boat in still water is an indirect reference to ground. Velocity of stream, ofcourse, is measured with respect to ground. The resultant velocity of the boat is what an observer observes on the ground. 
+</para>
+<para id="id1"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> W </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="id2">where “
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> R </m:mi>
+</m:msub>
+</m:math>
+” is the resultant velocity of the object; “
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+” is the velocity of the boat in still water. and “
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> W </m:mi>
+</m:msub>
+</m:math>
+” is the velocity of the water stream.
+</para>
+
+<para id="id3">
+The question now is that if velocities of entities are all measured with respect to a common reference, then where is the question of relative motion? We can simply treat the velocity of the body as seen from the ground equal to the resultant velocity, comprising of velocity of the object in a standstill medium and velocity of the medium itself.
+</para>
+</section>
+
+<section id="section-1b">
+<title> Resultant velocity and relative velocity </title>
+<para id="id4">This interpretation or understanding of resultant motion is perfectly valid except when a problem situation specifically involves terms such as “relative speed  of boat with respect to stream” or “relative velocity of an aircraft with respect to air”. The big question is to identify whether this relative velocity refers to the resultant velocity or the velocity of the object in still medium. We can understand the importance of reference to relative velocity by interpreting some of the problems as given here (we shall work these problems subsequently) :
+</para>
+<para id="id4a"><term>Problem 1 : </term> An aircraft flies with a wind velocity of 200 km/hr blowing from south. If the relative velocity of aircraft with respect to wind is 1000 km/hr, then find the direction in which aircraft should fly such that it reaches a destination in north – east direction.
+</para>
+<para id="id5">
+What does this relative velocity of aircraft with respect to wind mean? Is it the resultant velocity of the aircraft or is it the velocity of aircraft in still air?
+</para>
+<para id="id6">
+<term>Problem 2 </term> A girl, starting from a point “P”, wants to reach a point “Q” on the opposite side of the bank of a river. The line PQ forms an angle 45° with the stream direction. If the velocity of the stream be “u”, then at what minimum speed relative to stream should the girl swim and what should be her direction?
+</para>
+<para id="id7">What does this relative speed of girl with respect to stream mean? Is it the resultant speed of the girl or is it the speed of girl in still water?
+</para>
+<para id="id8">In this module, we shall learn to know the meaning of each term exactly. As a matter of fact, the most critical aspect of understanding motion in a medium is to develop skill to assign appropriate velocities to different entities.
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title> Relative velocity with respect to a medium </title>
+<para id="id9">
+We consider here an example, involving uniform motion of a person in a train, which is itself moving with constant velocity. Let us consider that the person moves across (perpendicular) the length of the compartment with constant speed “v”. 
+</para>
+
+<para id="id11">
+Uniform motion of the person is viewed differently by the observers on ground and on the train. Let us first think about his motion across the width of the train, when the train is not moving. 
+</para>
+
+<para id="id10">
+<figure id="id7303452"><title> Motion of a person on a standing train </title>
+<media id="idm2270368" alt=""><image src="../../media/rm6-0f85.gif" mime-type="image/gif"/></media>
+<caption> The motion of the person is in y-direction when train is standing.</caption>
+</figure>
+</para>
+
+
+
+<para id="id12">The observers in two positions find that the motion of the person is exactly alike. In the figure, we have shown his path across the floor of the train (“B”). Evidently, the path of the motion of the person is a straight line for both observers attached to ground ("O") and train ("B"). 
+</para>
+<para id="id7298322">Now let us consider that the train moves with
+a speed “u” to the right. Now, situation for the observer on the
+train has not changed a bit. The observer still finds that the
+speed of the person walking across the floor is still “v” and the
+path of motion is a straight line across the
+compartment. With our experience, we can imagine other persons walking on a train. Does the motion of co-passengers is different than what we see their motion on the ground? Our biological capacity to move remains same as on the ground. It does not matter whether we are walking on the ground or train.</para>
+
+<figure id="id7301430"><title> Motion of a person in a train </title>
+<media id="idm13571120" alt=""><image src="../../media/rm7-fb74.gif" mime-type="image/gif"/></media>
+<caption> The motion of the person, as seen from the ground, is along an inclined straight line  when train is moving.</caption>
+</figure>
+
+<para id="id7301457">The motion of the person, however, has changed
+for the observer on the ground. By the time the person puts his
+next step on the floor in the y-direction, the train has moved in
+the x-direction. The position of the person after completing the
+step, thus, shifts right for the observer on the ground. Since, the
+velocities of person and train are uniform, the observer on the
+ground finds that the person is moving along a straight path making
+certain angle with the y-direction.</para>
+
+<para id="id7301472">For the observer on the ground, the person
+walks longer distance. As the time interval involved in two
+reference systems are same, the speed (v’) with which person
+appears to move in ground’s reference is greater.</para>
+
+
+<section id="section-2a">
+<title> Identifying velocities </title>
+
+<para id="id7301494">Identification of velocities and assigning
+them the right subscript are critical to analyze situation. We
+consider the earlier example of a person moving on a moving train. Let us refer person with “A” and train with “B”. Then, the meaning of different  notations are :</para>
+
+
+<para id="id7301516a">
+<list id="list-2" list-type="bulleted"><item> 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:math>
+: velocity of person (“A”) with respect to
+train (“B”)
+ </item>
+
+<item> 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+: velocity of the person ("A") with
+respect to ground 
+ </item>
+<item> 
+
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+: velocity of train ("B") with
+respect to ground 
+ </item></list>
+</para>
+
+<para id="element-312">From the explanation given earlier, we can say that :</para><para id="id7299884"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> v </m:mi>
+<m:mo> ' </m:mo>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> u </m:mi>
+
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="id7299926">The second and third assignments are evident
+as they are measurements with respect to ground. What is
+notable here is that the velocity of the person ("A") with
+respect to train ("B") is actually equal to the velocity of the
+person on the ground "v" (when train is stationary with respect to ground). This velocity is his
+inherent ability to walk on earth, but as explained, it is also
+his relative velocity with respect to a medium, when the medium
+(train) is moving. After all, why should biological capacity of the person change on the train? </para>
+<para id="id7299948">Similar is the situation in the case of a boat
+sailing in a stream of certain width. The inherent mechanical speed
+in the still water is equal to the relative velocity of the boat
+with respect to the moving stream. Thus, we conclude that relative velocity of a body with respect to a moving medium is equal to its velocity in the still medium.</para>
+<para id="element-458"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> velocity of the body ("A") with respect to moving medium ("B") </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> = </m:mo>
+<m:mi> velocity of the body ("A") in the still medium </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para><para id="id7299959">This is the key aspect of learning for the
+motion in a medium. Rest is simply assigning values into the equation of
+relative velocity and evaluating the same as before.</para>
+
+
+<para id="id7299969"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="id22">A closer look at the equation of relative velocity says it all. Remember, we interpreted relative velocity as the velocity of the body when reference body is stationary. Extending the interpretation to the case in hand, we can say that relative velocity of the body "A" is the velocity when the reference medium is stationary i.e. still. Thus, there is no contradiction in the equivalence of two meanings expressed in the equation above. Let us now check our understanding and try to identify velocities in one of the questions considered earlier.
+</para>
+<para id="id23"><term>Problem 1 : </term> An aircraft flies with a wind velocity of 200 km/hr blowing from south. If the relative velocity of aircraft with respect to wind is 1000 km/hr, then find the direction in which aircraft should fly such that it reaches a destination in north – east direction.
+</para>
+<para id="id24">Can we answer the questions raised earlier - What does this relative velocity of aircraft with respect to wind mean? Yes, the answer is that the relative velocity of aircraft with respect to wind is same as velocity of aircraft in still air. 
+</para>
+
+</section>
+
+
+<section id="section-2b">
+<title> Resultant velocity and relative velocity are equivalent concepts </title>
+<para id="id14">The concepts of resultant and relative velocities are equivalent. Rearranging the equation of relative velocity, we have :
+</para> 
+<para id="id15"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para> 
+<para id="id16">This means that resultant velocity of person (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+</m:math>
+) is equal to the resultant of velocity of body in still medium (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> AB </m:mi>
+</m:msub>
+</m:math>
+) and velocity of the medium (
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+).
+</para> 
+</section>
+</section>
+
+<section id="section-3">
+<title> Example </title>
+<example id="example-id7301050"><para id="id7301050"><term>Problem : </term> A boat, which has a speed of 10 m/s
+in still water, points directly across the river of width 100 m. If
+the stream flows with the velocity 7.5 m/s in a linear direction,
+then find the velocity of the boat relative to the bank.
+</para>
+<para id="id7301063"><term>Solution : </term> Let the direction of stream be in
+x-direction and the direction across stream is y-direction. We
+further denote  boat with “A” and stream with “B”.
+Now, from the question, we have :
+</para> 
+
+<para id="id7301063a">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 10 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mn> 7.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> ? </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="id30">
+<figure id="fig-id30"><title> Resultant velocity </title>
+<media id="idp2217296" alt=""><image src="../../media/rm3a-2ddb.gif" mime-type="image/gif"/></media>
+<caption> The boat moves at an angle with vertical.</caption>
+</figure>
+</para>
+
+<para id="id7301146">Now, using 
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:math>
+, we have :
+</para>
+<para id="id7301182"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="id7301214">We need to evaluate the right hand side of the
+equation. We draw the vectors and apply triangle law of vector
+addition. The closing side gives the sum of two vectors. Using
+Pythagoras theorem :</para>
+
+<figure id="id7301228"><title> Vector sum </title>
+<media id="idm12050528" alt=""><image src="../../media/rm4-9f2b.gif" mime-type="image/gif"/></media>
+<caption> The velocity of boat is vector sum of two velocities at right angles.</caption>
+
+</figure>
+
+<para id="id7301255"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> A </m:mi>
+</m:msub>
+<m:mo> = </m:mo>
+<m:mi> DF </m:mi>
+<m:mo> = </m:mo>
+
+<m:mo> √ </m:mo>
+<m:mo> ( </m:mo>
+<m:msup>
+<m:mi> DE </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mi> EF </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo>
+<m:mo> = </m:mo>
+
+<m:mo> √ </m:mo>
+<m:mo> (</m:mo>
+<m:msup>
+<m:mn> 10 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo>
+<m:msup>
+<m:mn> 7.5 </m:mn>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> )</m:mo>
+<m:mo> = </m:mo>
+<m:mn> 12.5 </m:mn>
+<m:mspace width="2pt"/>
+<m:mi> m </m:mi>
+<m:mn> / </m:mn>
+<m:mi> s </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+
+<para id="id7301414"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> tan </m:mi>
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> B </m:mi>
+</m:msub>
+</m:mrow>
+
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mrow>
+<m:mi> A </m:mi>
+<m:mi> B </m:mi>
+</m:mrow>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 7.5 </m:mn>
+<m:mn> 10 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mfrac>
+<m:mn> 3 </m:mn>
+<m:mn> 4 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo>
+<m:mi> tan </m:mi>
+<m:msup>
+<m:mn> 37 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="id7301326">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mi> θ </m:mi>
+<m:mo> = </m:mo>
+<m:msup>
+<m:mn> 37 </m:mn>
+<m:mn> 0 </m:mn>
+</m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+</example>
+</section>
+
+
+
+
+</content>
+</document>

@@ -1,0 +1,1160 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Conservation of linear momentum</title>
+  <metadata>
+  <md:content-id>m14132</md:content-id><md:title>Conservation of linear momentum</md:title>
+  <md:abstract>The linear momentum can not change in a closed system of particles.</md:abstract>
+  <md:uuid>77720adb-ef2e-4ac3-bee3-15dd52cc39ae</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">We have briefly defined linear momentum, while describing Newton's second law of motion. The law defines force as the time rate of linear momentum of a particle. It directly provides a measurable basis for the measurement of force in terms of mass and acceleration of a single particle. As such, the concept of linear momentum is not elaborated or emphasized for a single particle. However, we shall see in this module that linear momentum becomes a convenient tool to analyze motion of a system of particles - particularly with reference to internal forces acting inside the system. 
+</para>
+<para id="element-2">
+It will soon emerge that Newton's second law of motion is more suited for the analysis of the motion of a particle like objects, whereas concept of linear momentum is more suited when we deal with the dynamics of a system of particles. Nevertheless, we must understand that these two approaches are interlinked and equivalent. Preference to a particular approach is basically a question of suitability to analysis situation.
+</para>
+<para id="element-3">Let us now recapitulate main points about linear momentum as described earlier :
+</para>
+<para id="element-4"><term>(i)</term> It is defined for a particle as a vector in terms of the product of mass and velocity.
+</para>
+<para id="element-5">
+
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> v </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-6">The small "<term>p</term>" is used to denote linear momentum of a particle and capital "<term>P</term>" is used for linear momentum of the system of particles. Further, these symbols distinguish linear momentum from angular momentum (<term>L</term>) as applicable in the case of rotational motion. By convention, a simple reference to "momentum" means "linear momentum".
+</para>
+<para id="element-7"><term>(ii) </term> Since mass is a positive scalar quantity, the directions of linear momentum and velocity are same. 
+</para>
+<para id="element-8">
+<term>(iii) </term> In physical sense, linear momentum is said to signify the "quantum or quantity of motion". It is so because a particle with higher momentum generates greater impact, when stopped. 
+</para>
+
+<para id="element-10"><term>(iv) </term> The first differentiation of linear momentum with respect to time is equal to external force on the single particle.
+</para>
+<para id="element-11">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> p </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi mathvariant="bold"> a </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>  
+
+<section id="section-1">
+<title> Momentum of a system of particles </title>
+<para id="element-12">The concept of linear momentum for a particle is extended to a system of particles by summing the momentum of individual particles. However, this sum is a vector sum of momentums. We need to either employ vector addition or equivalent component summation with appropriate sign convention as discussed earlier. Linear momentum of a system of particles is, thus, defined as :
+</para>
+<para id="element-14">
+<definition id="definition-14"><term> Momentum of a system of particles  </term>
+<meaning id="id8246461"> The linear momentum of a system of particles is the vector sum of linear momentums of individual particles.
+</meaning>
+</definition>
+</para>
+<para id="element-15">
+<figure id="fig-15">
+<title> Momentum of a system of particles </title>
+<media id="id8246492" alt=""><image src="../../media/clm1.gif" mime-type="image/gif"/></media>
+<caption> Particles moving with diferent velocities.</caption>
+</figure>
+</para>
+<para id="element-16">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ................ </m:mo> 
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-17">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi mathvariant="bold"> p </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> ∑ </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-18">
+From the concept of "center of mass", we know that :
+</para>
+<para id="element-19">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ................ </m:mo> 
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-20">
+Comparing two equations,
+</para>
+<para id="element-21">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-22">The linear momentum of a system of momentum is, therefore, equal to the product of total mass and the velocity of the COM of the system of particles.
+</para>
+</section>
+<section id="section-2">
+<title> External force in terms of momentum of the system </title>
+<para id="element-23">
+Just like the case for a single particle, the first differentiation of the total linear momentum gives the external force on the system of particles :
+</para>
+<para id="element-24">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> P </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mi> COM </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-25">This is the same result that we had obtained using the concept of center of mass (COM) of the system of particles. The application of the concept of linear momentum to a system of particles, however, is useful in the expanded form, which reveals the important aspects of "internal" and "external" forces :
+</para>
+<para id="element-26">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> P </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ................ </m:mo> 
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> a </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-27">
+The right hand expression represents the vector sum of all forces on individual particles of the system.
+</para>
+<para id="element-28">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> P </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ................ </m:mo> 
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-29">
+This relation is slightly ambiguous. Left hand side symbol, "
+<m:math>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+</m:math>
+" represents net external force on the system of particles. But, the individual forces on the right hand side represent all forces i.e. both internal and external forces. This means that :
+</para>
+<para id="element-30">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> P </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ................ </m:mo> 
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Int. </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-31">It is not difficult to resolve this apparent contradiction. Consider the example of six billiard balls, on of which is moving with certain velocity. The moving ball may collide with another ball. The two balls after collision, in turn, may collide with other balls and so on. The point is that the motions (i.e. velocity and acceleration) of the balls in this illustration are determined by the "internal" contact forces. 
+</para>
+<para id="element-31a">
+<figure id="fig-31a">
+<title> Momentum of a system of particles </title>
+<media id="id8475714" alt=""><image src="../../media/clm2.gif" mime-type="image/gif"/></media>
+<caption> Particles moving with diferent velocities.</caption>
+</figure>
+</para>
+
+
+<para id="element-32">It happens (law of nature) that the motion of the "center of mass" of the system of particles depend only on the external force - even though the motion of the constituent particles depend on both "internal" and "external" forces. This is the important distinction as to the roles of external and internal forces. Internal force is not responsible for the motion of the center of mass. However, motions of the particles of the system are caused by both internal and external forces.
+</para>
+<para id="element-33">
+We again look at the process involved in the example of billiard balls. The forces arising from the collision is always a pair of forces. Actually all force exists in pair. This is the fundamental nature of force. Even the external force like force due to gravity on a projectile is one of the pair of forces. When we study projectile motion, we consider force due to gravity as the external force. We do not consider the force that the projectile applies on Earth. We think projectile as a separate system. In nutshell, we consider a single external force with respect to certain object or system and its motion.
+</para>
+<para id="element-34">
+However, the motion within a system is all inclusive i.e both pair forces are considered. It means that internal forces always appear in equal and opposite pair. The net internal force, therefore, is always zero within a system.  
+</para>
+<para id="element-35">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Int. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+
+</para>
+<para id="element-36">
+This is how the ambiguity in the relation above is resolved.
+</para>
+</section>
+
+<section id="section-3">
+<title> Conservation of linear momentum </title>
+<para id="element-37">
+If no external force is involved, then change in linear momentum of the system is zero :
+</para>
+<para id="element-38">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> F </m:mi>
+<m:mi> Ext. </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> P </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ⅆ </m:mo> 
+<m:mi> t </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mo> ⅆ </m:mo> 
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-39">
+The relation that has resulted is for infinitesimally small change in linear momentum. By extension, a finite change in the linear momentum of the system is  also zero :
+</para>
+<para id="element-40">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-41">This is what is called "conservation of linear momentum". We can state this conservation principle in following two different ways. 
+</para>
+<para id="element-42">
+<definition id="definition-42">
+<term> Conservation of linear momentum </term>
+<meaning id="id8475988"> When external force is zero, the change in the linear momentum of a system of particles between any two states (intervals) is zero.  </meaning>
+</definition>
+</para>
+<para id="element-43">
+Mathematically,
+</para>
+<para id="element-44">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-45">
+We can also state the law as :
+</para>
+<para id="element-46">
+<definition id="definition-46">
+<term> Conservation of linear momentum </term>
+<meaning id="id8476086"> When external force on a system of particles is zero, the linear momentum of a system of particles  can not change. </meaning>
+</definition>
+</para>
+<para id="element-47">
+Mathematically,
+</para>
+<para id="element-48">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> i </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi mathvariant="bold"> P </m:mi>
+<m:mi> f </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-49">
+In expanded form,
+</para>
+<para id="element-50"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2i </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ................ </m:mo> 
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> ni </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 1f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> 2f </m:mi>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:mo> ................ </m:mo> 
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> m </m:mi>
+<m:mn> n </m:mn>
+</m:msub>
+<m:msub>
+<m:mi mathvariant="bold"> v </m:mi>
+<m:mi> nf</m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-51">We can interpret conservation of linear momentum in terms of the discussion of billiards balls. The system of billiard balls has certain linear momentum, say, "Pi", as one of the balls is moving. The ball, then, may collide with other balls. This process may repeat as well. The contact forces between the balls may change the velocities of individual balls. But, these changes in velocities take place in magnitude and direction such that the linear momentum of the system of particles remains equal to "Pi". 
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Momentum of a system of particles </title>
+<media id="id8476396" alt=""><image src="../../media/clm2.gif" mime-type="image/gif"/></media>
+<caption> Particles moving with diferent velocities.</caption>
+</figure>
+</para>
+<para id="element-53">This situation continues till one of the billiard balls strikes the side of the table. In that case, the force by the side of the table constitutes external to the system of six billiard balls. Also, we must note that when one of the ball goes into the corner hole, the linear momentum of the system changes. This fact adds to the condition for the conservation of linear momentum. Conservation of linear momentum of a system of particles is, thus, subjected to two conditions :
+</para>
+<para id="element-54">
+<list id="list-54" list-type="enumerated">
+<item> No external force is applied on the system of particles. </item>
+<item> There is no exchange of mass "to" or "from" the system of particles. </item>
+</list>
+</para>
+<para id="element-55">
+In short, it means that the system of particles is a closed system. The definition of the conservation principle is, thus, modified as :
+</para>
+<para id="element-56">
+<definition id="definition-56">
+<term> Conservation of linear momentum </term>
+<meaning id="id8476503">  The linear momentum can not change in a closed system of particles. </meaning>
+</definition>
+</para>
+<example id="example-57">
+<para id="element-57"><term>Problem : </term> A bullet of mass "m" , moving with a velocity "u",  hits a wooden block of mass "M", placed on a smooth horizontal surface. The bullet passes the wooden block and emerges out with a velocity "v". Find the velocity of bullet with respect to wooden block.
+</para>
+<para id="element-58">
+<figure id="fig-58">
+<title> Bullet piercing through a wooden block </title>
+<media id="id8476568" alt=""><image src="../../media/clm3.gif" mime-type="image/gif"/></media>
+<caption> A bullet of mass "m" , moving with a velocity "u",  hits a wooden block of mass "M".</caption>
+</figure>
+</para>
+<para id="element-59"> <term>Solution : </term> To determine relative velocity of the bullet with respect to wooden block, we need to find the velocity of the wooden block. Let the velocity of block be "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+", then relative velocity of the bullet is :
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Bullet piercing through a wooden block </title>
+<media id="id8476645" alt=""><image src="../../media/clm4.gif" mime-type="image/gif"/></media>
+<caption> The bullet passes the wooden block and emerges out with a velocity "v". </caption>
+</figure>
+</para>
+<para id="element-61">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> rel </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-62">The important aspect of the application of conservation of linear momentum is that we should ensure that the system of particles/ bodies is not subjected to net external force (or component of net external force) in the direction of motion.
+</para>
+<para id="element-63">
+We note here that there is no external force in horizontal direction on the system comprising of bullet and wooden block. We can, therefore, find the velocity of the wooden block, using conservation of linear momentum. 
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> Δ </m:mo> 
+<m:mi> P </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> v </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mi> u </m:mi>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-66">
+and
+</para>
+<para id="element-67">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> rel </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+
+<para id="element-69">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mi> rel </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> v </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> m </m:mi>
+<m:mo> ( </m:mo> 
+<m:mi> u </m:mi>
+<m:mo> - </m:mo> 
+<m:mi> v </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+<section id="section-3a">
+<title> Conservation of linear momentum in component form </title>
+<para id="element-70">Linear momentum is a vector quantity. It, then, follows that we can formulate conservation principle in three linear direction. In three mutually perpendicular directions of a rectangular coordinate system :
+</para>
+<para id="element-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> xi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> xf </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> yi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> yf </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> zi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> zf </m:mi>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-72">These are important result. In most of the situations, we are required to analyze motion in linear direction i.e. one direction. In that case, we are required to analyze force, momentum etc in that direction only. This is a great simplification of analysis paradigm as we shall find out in solving problems.
+</para>
+<example id="example-73">
+<para id="element-73"><term>Problem : </term> A ball of mass "m", which is moving with a speed "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+" in x-direction, strikes another ball of mass "2m", placed at the origin of horizontal planar coordinate system. The lighter ball comes to rest after the collision, whereas the heavier ball breaks in two equal parts. One part moves along y-axis with a speed "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+". Find the direction of the motion of other part.
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> Collision of balls </title>
+<media id="id8477294" alt=""><image src="../../media/clm5.gif" mime-type="image/gif"/></media>
+<caption> A ball collides with another ball at the origin of coordinate system. </caption>
+</figure>
+</para>
+<para id="element-75"> <term>Solution : </term> Answer to this question makes use of component form of conservation law of momentum. Linear momentum before strike is :
+</para>
+<para id="element-76">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> xi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> yi </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-77">
+Let the second part of the heavier ball moves with a speed "
+<m:math>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+</m:math>
+" at an angle "θ" as shown in the figure. Linear momentum in two directions after collision :
+</para>
+<para id="element-78">
+<figure id="fig-78">
+<title> Collision of balls </title>
+<media id="id8477460" alt=""><image src="../../media/clm6.gif" mime-type="image/gif"/></media>
+<caption> The ball at the origin breaks up in two parts. </caption>
+</figure>
+</para>
+<para id="element-79">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> xf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> cos </m:mi>
+<m:mi>θ</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> P </m:mi>
+<m:mi> yf </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi>θ</m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-80">
+Applying conservation of linear momentum :
+</para>
+<para id="element-81">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi>θ</m:mi>
+<m:mo> = </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-82">
+and
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> -  </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi>θ</m:mi>
+<m:mo> =  </m:mo> 
+<m:mn> 0 </m:mn>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 3 </m:mn>
+</m:msub>
+<m:mi> sin </m:mi>
+<m:mi>θ</m:mi>
+<m:mo> =  </m:mo> 
+<m:mi> m </m:mi>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-85">
+Taking ratio, we have :
+</para>
+<para id="element-86">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> tan </m:mi>
+<m:mi>θ</m:mi>
+<m:mo> =  </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo>
+<m:mi>θ</m:mi>
+<m:mo> =  </m:mo> 
+<m:msup>
+<m:mi> tan </m:mi>
+<m:mrow>
+<m:mo> -  </m:mo> 
+<m:mn> 1 </m:mn>
+</m:mrow>
+</m:msup>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> v </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+</section>
+
+</section>
+
+
+  </content>
+  
+</document>

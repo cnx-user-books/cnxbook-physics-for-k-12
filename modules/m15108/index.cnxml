@@ -1,0 +1,1668 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Gravitational potential due to rigid body</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>f79a7f3c-a1dd-4490-852d-a0d3ee99f53c</md:uuid>
+</metadata>
+  <content>
+<para id="element-1">We have derived expression for gravitational potential due to point mass of mass, “M”, as :  
+</para>
+<para id="element-2">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-3">We can find expression of potential energy for real bodies by considering the same as aggregation of small elements, which can be treated as point mass. We can, then, combine the potential algebraically to find the potential due to the body. 
+</para>
+<para id="element-4">The derivation is lot like the derivation of gravitational field strength. There is, however, one important difference. Derivation of potential expression combines elemental potential – a scalar quantity. As such, we can add contributions from elemental parts algebraically without any consideration of direction. Indeed, it is a lot easier proposition.
+</para>
+<para id="element-5">Again, we are interested in finding gravitational potential due to a solid sphere, which is generally the shape of celestial bodies. As discussed earlier in the course, a solid sphere is composed of spherical shells and spherical shell, in turn, is composed of circular rings of different radii. Thus, we proceed by determining expression of potential from ring --&gt; spherical shell --&gt; solid sphere.
+</para>
+<section id="section-1">
+<title>Gravitational potential due to a uniform circular ring</title>
+<para id="element-6">
+We need to find gravitational potential at a point “P” lying on the central axis of the ring of mass “M” and radius “a”. The arrangement is shown in the figure. We consider a small mass “dm” on the circular ring. The gravitational potential due to this elemental mass is :
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Gravitational potential due to a uniform circular ring </title>
+<media id="idm7247072" alt=""><image src="../../media/gpr1.gif" mime-type="image/gif"/></media>
+<caption> Gravitational potential at an axial point </caption>
+</figure>
+</para>
+<para id="element-8"><m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>P</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-9">We can find the sum of the contribution by other elements by integrating above expression. We note that all elements on the ring are equidistant from the point, “P”. Hence, all elements of same mass will contribute equally to the potential. Taking out the constants from the integral,
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>M</m:mi>
+    </m:munderover>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">This is the expression of gravitational potential due to a circular ring at a point on its axis. It is clear from the scalar summation of potential due to elemental mass that the ring needs not be uniform. As no directional attribute is attached, it is not relevant whether ring is uniform or not? However, we have kept the nomenclature intact in order to correspond to the case of gravitational field, which needs to be uniform for expression as derived. The plot of gravitational potential for circular ring is shown here as we move away from the center.
+</para>
+<para id="element-15"> 
+<figure id="fig-15">
+<title> Gravitational potential due to a uniform circular ring </title>
+<media id="idp4159152" alt=""><image src="../../media/gpr2.gif" mime-type="image/gif"/></media>
+<caption> The plot of gravitational potential on axial position </caption>
+</figure>
+</para>
+<para id="element-16">
+<term>Check : </term>We can check the relationship of potential, using differential equation that relates gravitational potential and field strength.
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>{</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>}</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>                    
+</para>
+<para id="element-19"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>a</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>r</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-20">The result is in excellent agreement with the expression derived for gravitational field strength due to a uniform circular ring. 
+</para>
+</section>
+<section id="section-2">
+<title>Gravitational potential due to thin spherical shell</title>
+<para id="element-21">
+The spherical shell of radius “a” and mass “M” can be considered to be composed of infinite numbers of thin rings. We consider one such thin ring of infinitesimally small thickness “dx” as shown in the figure. We derive the required expression following the sequence of steps as outlined here : 
+</para>
+<para id="element-22"><figure id="fig-22"><title> Gravitational potential due to thin spherical shell </title>
+<media id="idp11536000" alt=""><image src="../../media/gp20.gif" mime-type="image/gif"/></media>
+<caption> Gravitational field due to thin spherical shell at a distance "r" </caption>
+</figure>
+</para>
+<para id="element-23">(i) Determine mass of the elemental ring in terms of the mass of shell and its surface area. 
+</para>
+<para id="element-24"><m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>M</m:mi>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-25">From the figure, we see that :
+</para>
+
+
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">Putting these expressions,
+</para>
+<para id="element-30"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>a</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mi>a</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">(ii) Write expression for the gravitational potential due to the elemental ring. For this, we employ the formulation derived earlier,
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>d</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>y</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-33">Putting expression for elemental mass,
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>d</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-35">(i)	Set up integral for the whole disc
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mi>α</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>α</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>y</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">
+Clearly, we need to express variables in one variable “x”. From triangle, OAP,
+</para>
+<para id="element-38">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>y</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-39">Differentiating each side of the equation,
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>y</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mi>α</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>y</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-42">Replacing expression in the integral,
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>y</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">We shall decide limits of integration on the basis of the position of point “P” – whether it lies inside or outside the shell. Integrating expression on right side between two general limits,  initial (
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>    
+) and final (
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>  
+),
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>y</m:mi>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:munderover>
+  </m:mrow>
+</m:math>    
+</para>
+<section id="section-2a">
+<title>Case 1: Gravitational potential at a point outside </title>
+<para id="element-46"> The total gravitational field is obtained by integrating the integral from y = r-a to y = r+a,
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>y</m:mi>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>r</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:munderover>
+  </m:mrow>
+</m:math>            
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mo>[</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>           
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>                
+</para>
+<para id="element-51">This is an important result. It again brings the fact that a spherical shell, for a particle outside it, behaves as if all its mass is concentrated at its center. In other words, a spherical shell can be considered as particle for an external point.
+</para>
+<para id="element-52"><term>Check : </term>We can check the relationship of potential, using differential equation that relates gravitational potential and field strength.
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>G</m:mi>
+    <m:mi>M</m:mi>
+    <m:mi>X</m:mi>
+    <m:mo>−</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mrow>
+        <m:mo>−</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+The result is in excellent agreement with the expression derived for gravitational field strength outside a spherical shell. 
+</para>
+</section>
+<section id="section-2b">
+<title>Case 2: Gravitational potential at a point inside </title>
+<para id="element-57">The total gravitational field is obtained by integrating the integral from y = a-r to y = a+r,
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>y</m:mi>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>-</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mo>+</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:munderover>
+  </m:mrow>
+</m:math>              
+</para>
+<para id="element-417">We can see here that "a-r" involves mass of the shell to the right of the point under consideration, whereas "a+r" involves mass to the left of it. Thus, total mass of the spherical shell is covered by the limits used. Now,</para><para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>-</m:mo>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mn>2</m:mn>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>               
+</para>
+
+<para id="element-62">The gravitational potential is constant inside the shell and is equal to the potential at its surface. The plot of gravitational potential for spherical shell is shown here as we move away from the center.
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> Gravitational potential due to thin spherical shell </title>
+<media id="idp11846656" alt=""><image src="../../media/gpr4.gif" mime-type="image/gif"/></media>
+<caption> The plot of gravitational potential inside spherical shell  </caption>
+</figure>
+</para>
+<para id="element-64"><term>Check : </term> We can check the relationship of potential, using differential equation that relates gravitational potential and field strength.
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>V</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>      
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">The result is in excellent agreement with the result obtained for gravitational field strength inside a spherical shell. 
+</para>
+</section>
+</section>
+<section id="section-3">
+<title>Gravitational potential due to uniform solid sphere</title>
+<para id="element-69">The uniform solid sphere of radius “a” and mass “M” can be considered to be composed of infinite numbers of thin spherical shells. We consider one such thin spherical shell of infinitesimally small thickness “dx” as shown in the figure. 
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Gravitational potential due to solid sphere </title>
+<media id="idp11515728" alt=""><image src="../../media/gpr5.gif" mime-type="image/gif"/></media>
+<caption> Solid sphere is composed of infinite numbers of thin spherical shells </caption>
+</figure>
+</para>
+
+
+
+
+<section id="section-3a">
+<title>Case 1 :  The point lies outside the sphere </title>
+<para id="element-75">In this case, potential due to elemental spherical shell is given by :
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>                            
+</para>
+<para id="element-77">In this case, most striking point is that the centers of all spherical shells are coincident at center of sphere. This means that linear distance between centers of spherical shells and the point of observation is same for all shells. In turn, we conclude that the term “r” is constant for all spherical shells and as such can be taken out of the integral,
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mi>G</m:mi>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>                              
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math> 
+</para>
+</section>
+<section id="section-3b">
+<title>Case 2 :  The point lies inside the sphere </title>
+<para id="element-80">We calculate potential in two parts. For this we consider a concentric smaller sphere of radius “r” such that point “P” lies on the surface of sphere. Now, the potential due to whole sphere is split between two parts :
+</para>
+<para id="element-329"><figure id="fig-329"><title> Gravitational potential due to solid sphere </title>
+<media id="idp2979568" alt=""><image src="../../media/gpr7a.gif" mime-type="image/gif"/></media>
+<caption> The solid sphere is split in two parts - a smaller sphere of radius "r" and remaining part of the solid sphere. </caption>
+</figure></para><para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">Where "
+<m:math>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+</m:math>"
+ denotes potential due to solid sphere of radius “r” and "
+<m:math>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+</m:math>
+" denotes potential due to remaining part of the solid sphere between x = r and x = a. The potential due to smaller sphere is :
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-84">The mass, “M’” of the smaller solid sphere is :
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>M</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86">Putting in the expression of potential, we have :
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88">In order to find the potential due to remaining part, we consider a spherical shell of thickness “dx” at a distance “x” from the center of sphere. The shell lies between x = r and x =a. The point “P” is inside this thin shell. As such potential due to the shell at point “P” inside it is constant and is equal to potential at the spherical shell. It is given by :
+</para>
+<para id="element-188"><figure id="fig-188"><title> Gravitational potential due to remaining part </title>
+<media id="idp2737376" alt=""><image src="../../media/gpr8a.gif" mime-type="image/gif"/></media>
+<caption> A spherical shell between point and the surface of solid sphere </caption>
+</figure></para><para id="element-89"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mi>x</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>                             
+</para>
+<para id="element-90">We need to calculate the mass of the thin shell,
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>M</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mrow>
+      <m:mn>4</m:mn>
+      <m:mi>π</m:mi>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>ⅆ</m:mo>
+      <m:mi>x</m:mi>
+    </m:mrow>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-92">Substituting in the expression of potential,
+</para>
+<para id="element-93"><m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>ⅆ</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+          <m:mi>G</m:mi>
+          <m:mn>3</m:mn>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>ⅆ</m:mo>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-94">We integrate the expression for obtaining the potential at “P” between limits x = r and x =a,
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:munderover>
+    <m:mi>x</m:mi>
+    <m:mo>ⅆ</m:mo>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>                           
+</para>
+
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:msup>
+        <m:mi>a</m:mi>
+        <m:mn>3</m:mn>
+      </m:msup>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:msup>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>a</m:mi>
+    </m:munderover>
+  </m:mrow>
+</m:math>                           
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>        
+</para>
+<para id="element-98">Adding two potentials, we get the expression of potential due to sphere at a point within it,
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>R</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>−</m:mo>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+
+<para id="element-101">This is the expression of gravitational potential for a point inside solid sphere. The potential at the center of sphere is obtained by putting r = 0,
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>G</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>a</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">This may be an unexpected result. The gravitational field strength is zero at the center of a solid sphere, but not the gravitational potential. However, it is entirely possible because gravitational field strength is rate of change in potential, which may be zero as in this case.
+</para>
+<para id="element-104">The plot of gravitational potential for uniform solid sphere is shown here as we move away from the center.
+</para>
+<para id="element-105">
+<figure id="fig-105">
+<title> Gravitational potential due to solid sphere </title>
+<media id="idp6103312" alt=""><image src="../../media/gpr6.gif" mime-type="image/gif"/></media>
+<caption> The plot of gravitational potential for uniform solid sphere </caption>
+</figure>
+</para>
+</section>
+</section>
+
+  </content>
+  
+</document>

@@ -1,0 +1,1133 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Role of friction in rolling</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>111a9cc5-8376-4405-9869-45578a5eaafe</md:uuid>
+</metadata>
+  <content>
+
+
+<para id="element-52">
+The motion of a rolling body is altered due to external force/ torque. This can happen in following ways :
+</para>
+<para id="element-53">
+<list id="list-2" list-type="enumerated">
+<item> The line of action of external force passes through center of mass.</item>
+<item> The line of action of external force does not pass through center of mass.
+ </item>
+</list>
+</para>
+
+<para id="element-50">Depending on the line of action, a force causes linear or angular accelerations or both. The effect of external force or torque on rolling motion, however, is moderated by friction force between rolling body and surface. 
+</para>
+<para id="element-320">In general, there is usually a bit of uncertainty with respect to the role and direction of friction in accelerated rolling. This module, therefore, aims to instill definite clarity with regard to the role and direction of friction. The friction in rolling is characteristically different and surprising in its manifestation with respect to the common negative perception (always negates motion) about it. </para><para id="element-51">
+We have already learnt in the previous module that no friction is involved in uniform rolling. We shall find in this module that friction is actually the agent, which enforces the condition for accelerated rolling. In doing so, friction causes linear and angular accelerations or decelerations, depending on the requirement of rolling motion. 
+</para>
+
+<section id="section-1">
+<title> Role of friction
+</title>
+
+<section id="section-1a">
+<title> The line of action of external force passes through center of mass.
+</title>
+<para id="element-54">When the external force is passing through center of mass, it only produces linear acceleration as there is no moment arm and, thus, there is no torque on the body. Linear acceleration means linear velocity tends to increase. This, in turn, induces tendency of the rolling body to slide in the forward direction (i.e. in the direction of force/acceleration). Force of friction, therefore, appears in the backward direction of external force to check the sliding tendency. 
+</para>
+<para id="element-55">
+<figure id="fig-55"><title> Accelerated rolling motion </title>
+<media id="idm2130928" alt=""><image src="../../media/rf1.gif" mime-type="image/gif"/></media>
+<caption> The line of action of external force passes through center of mass.
+</caption>
+</figure>
+</para>
+<para id="element-56">We need to emphasize here that friction acts tangentially at the point of contact. Its direction is “backward” with respect to the component of external force parallel to this tangential direction. This clarification is required as the external force may not be parallel to the surface in contact.
+</para>
+<para id="element-57">
+So long the condition of pure rolling is met as given by the equation of rolling motion, there is no actual sliding – rather there is only a tendency to slide. As such the friction involved in accelerated rolling is static friction. We may recall our discussion of friction in translation. Friction is a self adjusting force. It adjusts with respect to external force. Importantly, the static friction is any intermediate value less than the maximum static friction (
+<m:math>
+<m:msub>
+<m:mi> μ </m:mi>
+<m:mi> s </m:mi>
+</m:msub>
+<m:mi> N </m:mi>
+</m:math>
+). 
+</para>
+<para id="element-58">The friction acts to balance the changes in a manner so that the condition as imposed by the equation of accelerated rolling is met. First, it reduces the net external force (
+<m:math>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+
+</m:math>
+) and hence the translational acceleration
+(
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+). Second, it constitutes a torque in clockwise direction inducing angular acceleration(α). In the nutshell, an increase in linear acceleration due to net external force acting through center of mass is moderated by friction by a two pronged actions and the rolling is maintained even when the body is accelerated. Corresponding to linear acceleration, there is a corresponding angular acceleration such that :
+</para>
+<para id="element-59"><equation id="equation-59">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation></para>
+
+<para id="element-60">
+In plain words, it means that if there is an increase in linear velocity, then there shall be an increase in angular velocity as well. So is the correspondence for a decrease in either of two velocities.
+</para>
+<para id="element-61">We can understand the situation from yet another perspective. Since external force induces linear acceleration, there should be a mechanism to induce angular acceleration so that condition as imposed by the equation of accelerated rolling is met. In other words, the friction appears in magnitude and direction such that above relation is held for rolling.
+</para>
+<para id="element-62">Static friction in rolling differs to its counterpart in translation in one very important manner. In translation, friction adjusts to the external force parallel to the contact surface completely till the body is initiated. What it means that intermediate static friction is equal to the magnitude of the external force in opposite direction. Such is not the case in rolling i.e.
+(
+<m:math>
+		<m:msub>
+			<m:mi> f </m:mi>
+			<m:mi> S </m:mi>
+		</m:msub>
+		<m:mo> ≠ </m:mo>
+		<m:mi> F </m:mi>
+	</m:math>
+). 
+</para>
+<para id="element-695">The difference in the nature and magnitude of static friction can be easily understood. In pure translation like in sliding, the sole purpose of friction is to oppose relative motion between surfaces. In the case of rolling, on the other hand, friction coverts a part of one type of acceleration to another (from linear to angular as in this case). This statement may appear a bit awkward. The same can be put more elegantly; if we say that friction changes a part of translational kinetic energy into rotational kinetic energy. This sounds better as we are familiar with the conversion of energy - not conversion of acceleration.  </para><para id="element-883">Had it not been friction, then the force passing through COM would have only caused linear acceleration! But, in order to satisfy the physical requirement of rolling as defined by the equation of accelerated rolling - the effect of force is changed from one type to another.  </para><para id="element-63">Applying Newton's second law for translation, the linear acceleration of the center of mass is given by :
+</para>
+<para id="element-64">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mi> F </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-65">Similarly applying Newton's second law for rotation, the angular acceleration of the center of mass is given by (note that external force causes clockwise rotation and hence negative torque) :
+</para>
+<para id="element-66"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mi> τ </m:mi>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> R </m:mi>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-67">The two accelerations are such that they are linked by the equation of accelerated rolling (negative sign as linear and angular accelerations are in opposite directions) as :
+</para>
+<para id="element-68">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-69">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-70">
+Solving for “
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:math>
+“, we have :
+</para>
+<para id="element-71">
+<equation id="equation-71">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> I </m:mi>
+<m:mi> F </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> + </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-72">This relation can be used to determine friction in this case. Since all factors like moment of inertia, mass and radius of rotating body are positive scalars, the friction is negative and is in the opposite direction to the applied force. 
+</para><para id="element-473">The relationship as derived above, brings out an interesting feature of rolling friction. Its magnitude depends on the moment of inertia! This is actually expected. The requirement of friction in rolling is for causing angular acceleration, which, in turn, is dependent on moment of inertia. Thus, it is quite obvious that friction (a self adjusting force) should be affected by moment of inertia.   </para>
+</section>
+<section id="section-2b">
+<title> The line of action of external force does not pass through center of mass.
+</title>
+<para id="element-73">Now, we consider the second case. For the sake of contrast, we consider a tangential force acting tangentially at the top as shown in the figure below. The external force that does not pass through center of mass causes angular acceleration apart from causing linear acceleration. The force has dual role to play in this case. As far as its rotational form (torque) is concerned, resulting angular acceleration means that angular velocity tends to increase. This, in turn, induces tendency of the rolling body to slide in the backward direction (i.e. in the opposite direction of force). Force of friction, therefore, appears in the direction of external force to check the sliding tendency. 
+</para>
+<para id="element-74">
+<figure id="fig-74"><title> Accelerated rolling motion </title>
+<media id="idm8376336" alt=""><image src="../../media/rf2.gif" mime-type="image/gif"/></media>
+<caption> The line of action of external force does not pass through center of mass.
+</caption>
+</figure>
+</para>
+
+<para id="element-75">The friction acts to balance the changes in a manner so that condition of rolling is met. First, it enhances the net external force 
+(
+<m:math>
+<m:mi> F </m:mi>
+<m:mo> + </m:mo>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:math>
+)
+and hence the translational acceleration
+(
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+). Second, it constitutes a torque in anticlockwise direction inducing angular deceleration. In the nutshell, an increase in angular acceleration due to net torque is moderated by friction by a two pronged actions and the rolling is maintained even when the body is accelerated in rotation. 
+</para>
+<para id="element-76">We can understand the situation from yet another perspective. Since external torque induces angular acceleration, there should be a mechanism to induce linear acceleration so that condition of accelerated rolling is met.
+</para>
+<para id="element-77">
+Friction appears in magnitude and direction such that above relation is held for rolling. The linear acceleration of the center of mass is given by :
+</para>
+<para id="element-78">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mi> F </m:mi>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-79">The angular acceleration of the center of mass is given by (note that external force causes clockwise rotation and hence negative torque) :
+</para>
+<para id="element-80"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ∑ </m:mo> 
+<m:mi> τ </m:mi>
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> R </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-81">
+The two accelerations are such that they are related by the equation of accelerated rolling (negative sign as linear and angular accelerations are in opposite directions) as :
+</para>
+<para id="element-82">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-83">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> F </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:mrow>
+<m:mi> M </m:mi>
+</m:mfrac>	
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> R </m:mi>
+<m:mo> ( </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> - </m:mo> 
+<m:mi> F </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mi> I </m:mi>
+</m:mfrac>	
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-84">
+Solving for “
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:math>
+“, we have :
+</para>
+<para id="element-85">
+<equation id="equation-85">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>	
+<m:mo> x </m:mo> 
+<m:mi> F </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-86">This relation (note that this is not a general case, but a specific case of force acting tangentially at the top of the rolling body) provides a reflection on the following aspects of friction force :
+</para>
+<para id="element-87">
+<list id="list-87" list-type="bulleted"><item> 
+Since 
+<m:math>
+<m:mi> I </m:mi>
+<m:mo> &gt; </m:mo> 
+<m:mn> 0 </m:mn>
+<m:mspace width="4pt"/>
+<m:mi> and </m:mi>
+<m:mspace width="4pt"/>
+<m:mi> I </m:mi>
+<m:mo> &lt; </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+, friction force, “
+<m:math>
+<m:msub>
+<m:mi> f </m:mi>
+<m:mi> S </m:mi>
+</m:msub>
+</m:math>
+”, is positive and is in the direction of external force. We should note here that for all rigid body <m:math>
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+represents the maximum moment of inertia which corresponds to a ring or hollow cylinder. MIs of all other bodies like sphere, disk etc. are less than this maximum value.
+</item>
+<item>
+For ring and hollow cylinder, 
+<m:math>
+<m:mi> I </m:mi>
+<m:mo> = </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+</m:math>
+. Thus, friction is zero even for accelerated rolling in the case of these two rigid body. This is one of the reasons that wheels are made to carry more mass on the circumference.
+</item>
+</list>
+</para>
+</section>
+
+<para id="element-88">We conclude from the discussion as above that friction plays the role of maintaining the rolling motion in acceleration. As a matter of fact, had it not been the friction, it would have been possible to have accelerated rolling – it would not have been possible to accelerate bicycle, car, motor, rail etc! Can you imagine these vehicles moving with a constant velocity! There would not have been any car racing either without friction! Such is the role of friction in rolling.
+</para>
+<para id="element-89">
+The important aspect of the response of the body in rolling to external stimuli is that the “effect” takes place in both translation and rotation “together”– not selectively. For example, a force through center of mass is expected to produce translation alone. However, such is not the case. Friction ensures that external stimuli like force through center of mass works to affect both translation and rotation so that rolling continues.  
+</para>
+<para id="element-90">
+We will strengthen our understanding of the role of friction from the perspective of energy in subsequent module. We shall find that friction by virtue of being capable to accelerate is actually capable of even doing positive work i.e. capable to impart kinetic energy in certain situation. Indeed, it is a totally different friction. 
+</para>
+<para id="element-91">
+In case, the rolling is not maintained, the friction involved is kinetic friction as the body rotates with sliding. There can be many such situations in real life like applying a sudden brake to a moving car. We shall discuss these cases in a separate module.
+</para><para id="element-586">We have discussed two extreme cases of the application of force to highlight its behavior on a rolling body. There can, however, be real situation in which external force may be a combination of forces or a force may be applied at an intermediate position between COM and the top or bottom of the rolling body. We need to evaluate      effects of all such forces and arrive at the final conclusion about the role of friction and its direction. It is quite possible that some of the combinations yield zero friction even for accelerated rolling. </para>
+<example id="example-15">
+<para id="element-16"><term>Problem : </term> Two forces 
+"
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+"
+ and 
+"
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+"
+ are applied on a spool of mass “M”, moment of inertia “I” and radius “R” as shown in the figure. If the spool is rolling on the surface, find the ratio of forces, 
+
+<m:math>
+<m:mfrac bevelled="true" linethickness="medium">
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+</m:math>
+
+, such that friction between spool and the surface is zero.
+</para>
+<para id="element-17"> 
+<figure id="fig-17">
+<title> Two external forces on the rolling body  </title>
+<media id="idm8089664" alt=""><image src="../../media/rf8.gif" mime-type="image/gif"/></media>
+<caption> The rolling friction is zero.</caption>
+</figure>
+</para>
+<para id="element-18"><term>Solution : </term> A spool consists of two disk joined by a cylinder and is used to store flexible cables, ropes etc. Notably, this question involves more than one external force. However, one simplifying aspect here (as given in the question) is that friction is not required for the overall analysis.
+</para>
+<para id="element-19"> 
+For the overall analysis, friction of rolling is zero for the combined effect of two forces. 
+</para>
+<para id="element-20"> 
+<term> (i) </term> For translation :
+</para>
+<para id="element-21"> 
+Applying Newton’s second law for translation,
+</para>
+<para id="element-22"> 
+<equation id="equation-22a"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-23"> 
+<term> (ii) </term> For rotation :
+</para>
+<para id="element-24"> 
+Applying Newton’s second law for rotation,
+</para>
+<para id="element-25"> 
+<equation id="equation-25"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mi> α </m:mi>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-26"> 
+Note that force 
+“
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:math>
+“
+ constitutes a clockwise torque (negative in sign), whereas force 
+“
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+“
+ constitutes an anticlockwise torque (positive in sign). 
+</para>
+<para id="element-27"> 
+<term> (iii) </term> For rolling :
+</para>
+<para id="element-28"> 
+<equation id="equation-22">
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mi> α </m:mi>
+<m:mi> R </m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+<m:mi> α </m:mi>
+<m:mo> = </m:mo> 
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</equation>
+</para>
+<para id="element-29">Putting this value of “α” in equation – 5, 
+</para>
+<para id="element-30"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> x </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-31">Putting the value of  linear acceleration 
+“
+<m:math>
+<m:msub>
+<m:mi> a </m:mi>
+<m:mi> C </m:mi>
+</m:msub>
+</m:math>
+“
+ from equation – 4, we have : 
+</para>
+<para id="element-32"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> - </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mi> R </m:mi>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mi> I </m:mi>
+<m:mspace width="2pt"/>
+<m:mo> x </m:mo> 
+<m:mspace width="2pt"/>
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> + </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-33"> 
+Rearranging,
+</para>
+<para id="element-34"> 
+<m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> I </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+<m:mo> = </m:mo> 
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> I </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-35"> 
+Dividing both sides by 
+“
+<m:math>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:math>
+“
+,
+</para>
+<para id="element-36"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mfrac>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:mfrac>
+<m:mo> + </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> I </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> R </m:mi>
+<m:mo> - </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mi> I </m:mi>
+</m:mrow>
+<m:mrow>
+<m:mi> M </m:mi>
+<m:mi> R </m:mi>
+</m:mrow>
+</m:mfrac>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+<para id="element-37"><m:math display="block">
+<m:mtable columnalign="left">
+<m:mtr>
+<m:mtd>
+<m:mo> ⇒ </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 1 </m:mn>
+</m:msub>
+</m:mrow>
+<m:mrow>
+<m:msub>
+<m:mi> F </m:mi>
+<m:mn> 2 </m:mn>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+<m:mo> = </m:mo> 
+<m:mfrac>
+<m:mrow>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> + </m:mo> 
+<m:mn> 2 </m:mn>
+<m:mi> I </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+<m:mrow>
+<m:mn> 2 </m:mn>
+<m:mo> ( </m:mo> 
+<m:mi> M </m:mi>
+<m:msup>
+<m:mi> R </m:mi>
+<m:mn> 2 </m:mn>
+</m:msup>
+<m:mo> - </m:mo> 
+<m:mi> I </m:mi>
+<m:mo> ) </m:mo> 
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+</m:math>
+</para>
+</example>
+
+
+
+</section>
+
+<section id="section-2">
+<title> Direction of friction in real time motion
+</title>
+
+<para id="element-92">
+The discussion on the role of friction in rolling motion gives us definite clue about the direction of friction. Evidently it depends on the external force .vs. external torque situation.
+</para>
+<para id="element-93">We can accelerate rolling by applying force through its center of mass. As discussed earlier, friction in such case acts in the backward direction to counteract sliding in the forward direction. However, it is difficult to visualize a mechanical force that can be applied through center of mass of a rolling body. Incidentally, gravity provides a ready made arrangement in which force acts through center of mass.
+</para>
+<para id="element-94">
+A ball rolling along an incline is one such example, in which external force is gravity. Its component along the plane  “mgsinθ” acts through COM of the rolling body.
+</para>
+<para id="element-95">
+<figure id="fig-95"><title> Accelerated rolling motion and friction </title>
+<media id="idp4034976" alt=""><image src="../../media/rf5a.gif" mime-type="image/gif"/></media>
+<caption> Force of gravity acts through center of mass.
+</caption>
+</figure>
+</para>
+<para id="element-96">The friction, in this case, acts in the backward direction as shown in the figure above. 
+</para>
+<para id="element-97">
+Another way to accelerate rolling is to impart a force such that its line of action does not pass through center of mass. In this case, force constitutes a torque that imparts angular acceleration in addition to translational acceleration. 
+</para>
+<para id="element-98">Such is the case with all transporting vehicles having wheels. The internal drive rotates the shaft, which in turn tends to rotate the wheel. We can visualize the situation better for the case of bicycle. When a bicycle is peddled, torque is imparted to the wheel. The chain – socket arrangement rotates the wheel. As discussed earlier, the friction, in this case, is in the direction of the acceleration of COM. 
+</para>
+<para id="element-99">
+<figure orient="horizontal" id="fig-99"><title> Accelerated rolling motion and friction  </title>
+<subfigure id="fig-99a">
+<media id="idp3871648" alt=""><image src="../../media/rf3.gif" mime-type="image/gif"/></media>
+<caption> Torques causes acceleration in forward direction. </caption>
+</subfigure>
+<subfigure id="fig-99b">
+<media id="idp1429440" alt=""><image src="../../media/rf4a.gif" mime-type="image/gif"/></media>
+<caption> Torques causes acceleration in backward direction.  </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-100">What if we apply the brake? The sole purpose of applying the brake is to apply a torque in the opposite direction to the direction of rotation. The brake pad jams on the rim. The tangential friction force constitutes the torque opposing the rotation. There is a corresponding linear deceleration of the wheel. A linear deceleration is equivalent to an acceleration in the backward direction. The friction between the wheel and surface, therefore, also acts backward along the backward direction of  acceleration (i.e. deceleration) as shown in the right figure above. 
+</para>
+
+<example id="example-7">
+<para id="element-8"><term>Problem : </term> A spool is pulled by a force, “F”, in vertical direction with the help of a rope wrapped on it as shown. If the spool does not loose contact with the surface, then what is the direction of friction.
+</para>
+<para id="element-9">
+<figure id="fig-9"><title> Spool and rope system </title>
+<media id="idp2070672" alt=""><image src="../../media/rf6.gif" mime-type="image/gif"/></media>
+<caption> A force is applied on the spool in the vertical direction. </caption>
+</figure>
+</para>
+<para id="element-10"><term>Solution : </term> The tension in the rope is equal to the force applied. This force does not pass through center of mass. The torque due to the force causes angular acceleration of the spool. Since there is no motion in the vertical direction (in the direction of force), there is no vertical linear acceleration involved. 
+</para>
+<para id="element-11"> 
+<figure id="fig-11"><title> Spool and rope system </title>
+<media id="idp4832448" alt=""><image src="../../media/rf7.gif" mime-type="image/gif"/></media>
+<caption> A force is applied on the spool in the vertical direction. </caption>
+</figure>
+</para>
+<para id="element-12">We must note here that the arrangement has created a special situation. In the normal case of a force not passing through center of mass has dual effects of rotation and translation. However, the mechanical arrangement here ensures that there is no vertical motion (weight of the spool does not allow vertical motion for the given situation). 
+</para>
+<para id="element-14">Now, the torque is anticlockwise. As such, the spool tends to slide towards right. In response, static friction acts towards left as shown in the figure above. Though, it is not required in the question to ascertain the translational motion, but we should be aware that friction towards left will cause a translational acceleration in its direction. 
+</para>
+</example>
+</section>
+
+
+<section id="section-3">
+<title> Summary 
+</title>
+
+<para id="element-1">
+<term>1:</term> The friction between surface and rolling body is self adjusting static friction for accelerated rolling. 
+</para>
+<para id="element-2">
+<term>2:</term> The friction between surface and rolling body is less than that in the case of sliding. 
+</para>
+<para id="element-3">
+<term>3:</term> Friction facilitates simultaneous occurrence of two types of acceleration as a response to external stimuli (force or torque or both).
+</para>
+<para id="element-4">
+<term>4:</term> Direction of friction :
+</para>
+<para id="element-5">
+(i)	If the force passes through center of mass, then there is sliding tendency in the forward direction of applied force. In turn, friction acts in backward direction of the external force.
+</para>
+<para id="element-6">(ii) If the force does not pass through center of mass, then it constitutes torque. There is sliding tendency due to torque in the backward direction of applied force. The net result is that there is either no net friction (in special circumstance) or there is friction in the forward direction.
+</para>
+
+
+</section>
+
+  </content>
+  
+</document>
