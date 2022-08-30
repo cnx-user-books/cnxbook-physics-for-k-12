@@ -410,13 +410,13 @@ are unit vectors in the respective directions.
 
    </m:mtd>
  </m:mtr>
-     <m:mo> ⇒ </m:mo>
-     <m:mi> a </m:mi>
-     <m:mo> = </m:mo>
+     <m:mtr><m:mtd><m:mo> ⇒ </m:mo>
+     </m:mtd></m:mtr><m:mtr><m:mtd><m:mi> a </m:mi>
+     </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> = </m:mo>
 
-     <m:mo> √ </m:mo>
-     <m:mo> ( </m:mo>
-       <m:msup>
+     </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> √ </m:mo>
+     </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> ( </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msup>
          <m:mrow>
          <m:msub>
          <m:mi> a </m:mi>
@@ -425,8 +425,8 @@ are unit vectors in the respective directions.
          </m:mrow>
          <m:mn> 2 </m:mn>
        </m:msup>
-     <m:mo> + </m:mo>
-       <m:msup>
+     </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> + </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msup>
          <m:mrow>
          <m:msub>
          <m:mi> a </m:mi>
@@ -436,8 +436,8 @@ are unit vectors in the respective directions.
          <m:mn> 2 </m:mn>
        </m:msup>
 
-       <m:mo> + </m:mo>
-       <m:msup>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> + </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msup>
          <m:mrow>
          <m:msub>
          <m:mi> a </m:mi>
@@ -446,10 +446,10 @@ are unit vectors in the respective directions.
          </m:mrow>
          <m:mn> 2 </m:mn>
        </m:msup>
-     <m:mo> ) </m:mo>
+     </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> ) </m:mo>
 
 
-   <m:mtr>
+   </m:mtd></m:mtr><m:mtr>
      <m:mtd>
 
 
@@ -1406,27 +1406,27 @@ Write force <term>OA</term> in component form.
 
    </m:mtd>
  </m:mtr>
-     <m:mi mathvariant="bold"> b </m:mi>
-     <m:mo> = </m:mo>
-       <m:msub>
+     <m:mtr><m:mtd><m:mi mathvariant="bold"> b </m:mi>
+     </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> = </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msub>
        <m:mi> b </m:mi>
        <m:mi> x </m:mi>
        </m:msub>
-       <m:mi mathvariant="bold"> i </m:mi>
-       <m:mo> + </m:mo>
-       <m:msub>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mi mathvariant="bold"> i </m:mi>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> + </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msub>
        <m:mi> b </m:mi>
        <m:mi> y </m:mi>
        </m:msub>
-       <m:mi mathvariant="bold"> j </m:mi>
-       <m:mo> + </m:mo>
-       <m:msub>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mi mathvariant="bold"> j </m:mi>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> + </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msub>
        <m:mi> b </m:mi>
        <m:mi> z </m:mi>
        </m:msub>
-       <m:mi mathvariant="bold"> k </m:mi>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mi mathvariant="bold"> k </m:mi>
 
-   <m:mtr>
+   </m:mtd></m:mtr><m:mtr>
      <m:mtd>
 
 
@@ -1591,27 +1591,27 @@ Using these two concepts, the addition of vectors is affected as outlined here :
 
    </m:mtd>
  </m:mtr>
-     <m:mi mathvariant="bold"> b </m:mi>
-     <m:mo> = </m:mo>
-       <m:msub>
+     <m:mtr><m:mtd><m:mi mathvariant="bold"> b </m:mi>
+     </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> = </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msub>
        <m:mi> b </m:mi>
        <m:mi> x </m:mi>
        </m:msub>
-       <m:mi mathvariant="bold"> i </m:mi>
-       <m:mo> + </m:mo>
-       <m:msub>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mi mathvariant="bold"> i </m:mi>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> + </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msub>
        <m:mi> b </m:mi>
        <m:mi> y </m:mi>
        </m:msub>
-       <m:mi mathvariant="bold"> j </m:mi>
-       <m:mo> + </m:mo>
-       <m:msub>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mi mathvariant="bold"> j </m:mi>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mo> + </m:mo>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:msub>
        <m:mi> b </m:mi>
        <m:mi> z </m:mi>
        </m:msub>
-       <m:mi mathvariant="bold"> k </m:mi>
+       </m:mtd></m:mtr><m:mtr><m:mtd><m:mi mathvariant="bold"> k </m:mi>
 
-   <m:mtr>
+   </m:mtd></m:mtr><m:mtr>
      <m:mtd>
 
 
